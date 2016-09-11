@@ -1,0 +1,998 @@
+"src/retrolix/retrolixLexer.mll" 7 105 111 "src/retrolix/retrolixLexer.mll" 7 105 124
+type(
+  (Lexing.lexbuf -> 'a) -> Lexing.lexbuf -> 'a
+)
+ident(
+  def next_line_and "src/retrolix/retrolixLexer.mll" 11 179 181 "src/retrolix/retrolixLexer.ml" 1 0 -1
+)
+"src/retrolix/retrolixLexer.mll" 7 105 125 "src/retrolix/retrolixLexer.mll" 7 105 126
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def f "src/retrolix/retrolixLexer.mll" 7 105 127 "src/retrolix/retrolixLexer.mll" 9 165 177
+)
+"src/retrolix/retrolixLexer.mll" 7 105 127 "src/retrolix/retrolixLexer.mll" 7 105 133
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/retrolix/retrolixLexer.mll" 8 137 141 "src/retrolix/retrolixLexer.mll" 9 165 177
+)
+"src/retrolix/retrolixLexer.mll" 8 137 141 "src/retrolix/retrolixLexer.mll" 8 137 156
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"src/retrolix/retrolixLexer.mll" 8 137 157 "src/retrolix/retrolixLexer.mll" 8 137 163
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.mll" 7 105 127 "src/retrolix/retrolixLexer.mll" 7 105 133
+)
+"src/retrolix/retrolixLexer.mll" 8 137 141 "src/retrolix/retrolixLexer.mll" 8 137 163
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/retrolixLexer.mll" 9 165 169 "src/retrolix/retrolixLexer.mll" 9 165 170
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref f "src/retrolix/retrolixLexer.mll" 7 105 125 "src/retrolix/retrolixLexer.mll" 7 105 126
+)
+"src/retrolix/retrolixLexer.mll" 9 165 171 "src/retrolix/retrolixLexer.mll" 9 165 177
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.mll" 7 105 127 "src/retrolix/retrolixLexer.mll" 7 105 133
+)
+"src/retrolix/retrolixLexer.mll" 9 165 169 "src/retrolix/retrolixLexer.mll" 9 165 177
+call(
+  tail
+)
+type(
+  'a
+)
+"src/retrolix/retrolixLexer.mll" 8 137 141 "src/retrolix/retrolixLexer.mll" 9 165 177
+type(
+  'a
+)
+"src/retrolix/retrolixLexer.mll" 11 179 185 "src/retrolix/retrolixLexer.mll" 11 179 190
+type(
+  Lexing.lexbuf -> string -> 'a
+)
+ident(
+  def error "src/retrolix/retrolixLexer.ml" 17 313 313 "src/retrolix/retrolixLexer.ml" 1 0 -1
+)
+"src/retrolix/retrolixLexer.mll" 11 179 191 "src/retrolix/retrolixLexer.mll" 11 179 197
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/retrolix/retrolixLexer.mll" 12 200 204 "src/retrolix/retrolixLexer.mll" 12 200 273
+)
+"src/retrolix/retrolixLexer.mll" 12 200 204 "src/retrolix/retrolixLexer.mll" 12 200 209
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  ext_ref Error.error
+)
+"src/retrolix/retrolixLexer.mll" 12 200 210 "src/retrolix/retrolixLexer.mll" 12 200 225
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 12 200 227 "src/retrolix/retrolixLexer.mll" 12 200 235
+type(
+  Lexing.position -> Lexing.position -> Position.t
+)
+ident(
+  ext_ref Position.lex_join
+)
+"src/retrolix/retrolixLexer.mll" 12 200 236 "src/retrolix/retrolixLexer.mll" 12 200 242
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.mll" 11 179 191 "src/retrolix/retrolixLexer.mll" 11 179 197
+)
+"src/retrolix/retrolixLexer.mll" 12 200 236 "src/retrolix/retrolixLexer.mll" 12 200 254
+type(
+  Lexing.position
+)
+"src/retrolix/retrolixLexer.mll" 12 200 255 "src/retrolix/retrolixLexer.mll" 12 200 261
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.mll" 11 179 191 "src/retrolix/retrolixLexer.mll" 11 179 197
+)
+"src/retrolix/retrolixLexer.mll" 12 200 255 "src/retrolix/retrolixLexer.mll" 12 200 272
+type(
+  Lexing.position
+)
+"src/retrolix/retrolixLexer.mll" 12 200 226 "src/retrolix/retrolixLexer.mll" 12 200 273
+call(
+  stack
+)
+type(
+  Position.t
+)
+"src/retrolix/retrolixLexer.mll" 12 200 204 "src/retrolix/retrolixLexer.mll" 12 200 273
+call(
+  tail
+)
+type(
+  string -> 'a
+)
+"src/retrolix/retrolixLexer.ml" 17 313 317 "src/retrolix/retrolixLexer.ml" 17 313 335
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/retrolix/retrolixLexer.ml" 1565 107558 107558 "src/retrolix/retrolixLexer.ml" 1 0 -1
+)
+"src/retrolix/retrolixLexer.ml" 19 361 364 "src/retrolix/retrolixLexer.ml" 30 1131 1184
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 32 1210 1213 "src/retrolix/retrolixLexer.ml" 43 1980 2033
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 45 2059 2062 "src/retrolix/retrolixLexer.ml" 56 2829 2882
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 58 2906 2909 "src/retrolix/retrolixLexer.ml" 803 55056 55117
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 805 55141 55144 "src/retrolix/retrolixLexer.ml" 1550 107291 107352
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1552 107380 107383 "src/retrolix/retrolixLexer.ml" 1552 107380 107385
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1554 107416 107419 "src/retrolix/retrolixLexer.ml" 1554 107416 107421
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1556 107452 107455 "src/retrolix/retrolixLexer.ml" 1556 107452 107457
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1558 107486 107489 "src/retrolix/retrolixLexer.ml" 1558 107486 107491
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1560 107520 107523 "src/retrolix/retrolixLexer.ml" 1560 107520 107525
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 1562 107548 107551 "src/retrolix/retrolixLexer.ml" 1562 107548 107553
+type(
+  string
+)
+"src/retrolix/retrolixLexer.ml" 17 313 338 "src/retrolix/retrolixLexer.ml" 1563 107555 107556
+type(
+  Lexing.lex_tables
+)
+"src/retrolix/retrolixLexer.ml" 1565 107558 107566 "src/retrolix/retrolixLexer.ml" 1565 107558 107571
+type(
+  Lexing.lexbuf -> RetrolixParser.token
+)
+ident(
+  def token "src/retrolix/retrolixLexer.ml" 1565 107558 107558 "src/retrolix/retrolixLexer.ml" 1 0 -1
+)
+"src/retrolix/retrolixLexer.ml" 1565 107558 107572 "src/retrolix/retrolixLexer.ml" 1565 107558 107578
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/retrolix/retrolixLexer.ml" 1566 107581 107585 "src/retrolix/retrolixLexer.ml" 1566 107581 107615
+)
+"src/retrolix/retrolixLexer.ml" 1566 107581 107585 "src/retrolix/retrolixLexer.ml" 1566 107581 107606
+type(
+  Lexing.lexbuf -> int -> RetrolixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/retrolix/retrolixLexer.ml" 1567 107616 107620 "src/retrolix/retrolixLexer.ml" 1567 107616 107641
+)
+"src/retrolix/retrolixLexer.ml" 1566 107581 107607 "src/retrolix/retrolixLexer.ml" 1566 107581 107613
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1565 107558 107572 "src/retrolix/retrolixLexer.ml" 1565 107558 107578
+)
+"src/retrolix/retrolixLexer.ml" 1566 107581 107614 "src/retrolix/retrolixLexer.ml" 1566 107581 107615
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1566 107581 107585 "src/retrolix/retrolixLexer.ml" 1566 107581 107615
+call(
+  tail
+)
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1567 107616 107620 "src/retrolix/retrolixLexer.ml" 1567 107616 107641
+type(
+  Lexing.lexbuf -> int -> RetrolixParser.token
+)
+ident(
+  def __ocaml_lex_token_rec "src/retrolix/retrolixLexer.ml" 1565 107558 107558 "src/retrolix/retrolixLexer.ml" 1 0 -1
+)
+"src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107649 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+)
+"src/retrolix/retrolixLexer.ml" 1567 107616 107649 "src/retrolix/retrolixLexer.ml" 1567 107616 107666
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/retrolix/retrolixLexer.ml" 1568 107669 107671 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107677 "src/retrolix/retrolixLexer.ml" 1568 107669 107690
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107691 "src/retrolix/retrolixLexer.ml" 1568 107669 107709
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/retrolix/retrolixLexer.ml" 17 313 317 "src/retrolix/retrolixLexer.ml" 17 313 335
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107710 "src/retrolix/retrolixLexer.ml" 1568 107669 107727
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/retrolix/retrolixLexer.ml" 1567 107616 107649 "src/retrolix/retrolixLexer.ml" 1567 107616 107666
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107728 "src/retrolix/retrolixLexer.ml" 1568 107669 107734
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107677 "src/retrolix/retrolixLexer.ml" 1568 107669 107734
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1569 107740 107748 "src/retrolix/retrolixLexer.ml" 1569 107740 107749
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 34 107791 107818 "src/retrolix/retrolixLexer.mll" 34 107791 107831
+type(
+  (Lexing.lexbuf -> RetrolixParser.token) ->
+  Lexing.lexbuf -> RetrolixParser.token
+)
+ident(
+  int_ref next_line_and "src/retrolix/retrolixLexer.mll" 7 105 111 "src/retrolix/retrolixLexer.mll" 7 105 124
+)
+"src/retrolix/retrolixLexer.mll" 34 107791 107832 "src/retrolix/retrolixLexer.mll" 34 107791 107837
+type(
+  Lexing.lexbuf -> RetrolixParser.token
+)
+ident(
+  int_ref token "src/retrolix/retrolixLexer.ml" 1565 107558 107566 "src/retrolix/retrolixLexer.ml" 1565 107558 107571
+)
+"src/retrolix/retrolixLexer.mll" 34 107791 107838 "src/retrolix/retrolixLexer.mll" 34 107791 107844
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.mll" 34 107791 107816 "src/retrolix/retrolixLexer.mll" 34 107791 107846
+call(
+  tail
+)
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1574 107887 107891 "src/retrolix/retrolixLexer.ml" 1574 107887 107892
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 35 107934 107961 "src/retrolix/retrolixLexer.mll" 35 107934 107966
+type(
+  Lexing.lexbuf -> RetrolixParser.token
+)
+ident(
+  int_ref token "src/retrolix/retrolixLexer.ml" 1565 107558 107566 "src/retrolix/retrolixLexer.ml" 1565 107558 107571
+)
+"src/retrolix/retrolixLexer.mll" 35 107934 107967 "src/retrolix/retrolixLexer.mll" 35 107934 107973
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.mll" 35 107934 107959 "src/retrolix/retrolixLexer.mll" 35 107934 107975
+call(
+  tail
+)
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1579 108016 108020 "src/retrolix/retrolixLexer.ml" 1579 108016 108021
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 36 108067 108089 "src/retrolix/retrolixLexer.mll" 36 108067 108090
+type(
+  string
+)
+ident(
+  def c "src/retrolix/retrolixLexer.mll" 36 108259 108284 "src/retrolix/retrolixLexer.mll" 36 108259 108297
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108132 "src/retrolix/retrolixLexer.ml" 1584 108130 108149
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108150 "src/retrolix/retrolixLexer.ml" 1584 108130 108156
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108158 "src/retrolix/retrolixLexer.ml" 1584 108130 108164
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108158 "src/retrolix/retrolixLexer.ml" 1584 108130 108185
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108186 "src/retrolix/retrolixLexer.ml" 1584 108130 108187
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108188 "src/retrolix/retrolixLexer.ml" 1584 108130 108189
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108157 "src/retrolix/retrolixLexer.ml" 1584 108130 108190
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108191 "src/retrolix/retrolixLexer.ml" 1584 108130 108197
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108191 "src/retrolix/retrolixLexer.ml" 1584 108130 108217
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1584 108130 108132 "src/retrolix/retrolixLexer.ml" 1584 108130 108217
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 36 108259 108294 "src/retrolix/retrolixLexer.mll" 36 108259 108295
+type(
+  string
+)
+ident(
+  int_ref c "src/retrolix/retrolixLexer.mll" 36 108067 108089 "src/retrolix/retrolixLexer.mll" 36 108067 108090
+)
+"src/retrolix/retrolixLexer.mll" 36 108259 108284 "src/retrolix/retrolixLexer.mll" 36 108259 108297
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1580 108025 108025 "src/retrolix/retrolixLexer.mll" 36 108259 108297
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1589 108338 108342 "src/retrolix/retrolixLexer.ml" 1589 108338 108343
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 39 108385 108411 "src/retrolix/retrolixLexer.mll" 39 108385 108418
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1594 108459 108463 "src/retrolix/retrolixLexer.ml" 1594 108459 108464
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 40 108506 108532 "src/retrolix/retrolixLexer.mll" 40 108506 108539
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1599 108580 108584 "src/retrolix/retrolixLexer.ml" 1599 108580 108585
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 41 108627 108653 "src/retrolix/retrolixLexer.mll" 41 108627 108660
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1604 108701 108705 "src/retrolix/retrolixLexer.ml" 1604 108701 108706
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 42 108748 108774 "src/retrolix/retrolixLexer.mll" 42 108748 108781
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1609 108822 108826 "src/retrolix/retrolixLexer.ml" 1609 108822 108827
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 43 108869 108895 "src/retrolix/retrolixLexer.mll" 43 108869 108903
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1614 108944 108948 "src/retrolix/retrolixLexer.ml" 1614 108944 108949
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 44 108991 109017 "src/retrolix/retrolixLexer.mll" 44 108991 109024
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1619 109065 109069 "src/retrolix/retrolixLexer.ml" 1619 109065 109070
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 45 109112 109138 "src/retrolix/retrolixLexer.mll" 45 109112 109145
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1624 109186 109190 "src/retrolix/retrolixLexer.ml" 1624 109186 109192
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 46 109234 109260 "src/retrolix/retrolixLexer.mll" 46 109234 109267
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1629 109308 109312 "src/retrolix/retrolixLexer.ml" 1629 109308 109314
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 47 109356 109382 "src/retrolix/retrolixLexer.mll" 47 109356 109389
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1634 109430 109434 "src/retrolix/retrolixLexer.ml" 1634 109430 109436
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 48 109478 109504 "src/retrolix/retrolixLexer.mll" 48 109478 109510
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1639 109551 109555 "src/retrolix/retrolixLexer.ml" 1639 109551 109557
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 49 109599 109625 "src/retrolix/retrolixLexer.mll" 49 109599 109636
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1644 109677 109681 "src/retrolix/retrolixLexer.ml" 1644 109677 109683
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 50 109725 109751 "src/retrolix/retrolixLexer.mll" 50 109725 109759
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1649 109800 109804 "src/retrolix/retrolixLexer.ml" 1649 109800 109806
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 51 109848 109874 "src/retrolix/retrolixLexer.mll" 51 109848 109882
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1654 109923 109927 "src/retrolix/retrolixLexer.ml" 1654 109923 109929
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 52 109971 109997 "src/retrolix/retrolixLexer.mll" 52 109971 110007
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1659 110048 110052 "src/retrolix/retrolixLexer.ml" 1659 110048 110054
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 53 110096 110122 "src/retrolix/retrolixLexer.mll" 53 110096 110130
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1664 110171 110175 "src/retrolix/retrolixLexer.ml" 1664 110171 110177
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 54 110219 110245 "src/retrolix/retrolixLexer.mll" 54 110219 110253
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1669 110294 110298 "src/retrolix/retrolixLexer.ml" 1669 110294 110300
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 55 110342 110368 "src/retrolix/retrolixLexer.mll" 55 110342 110375
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1674 110416 110420 "src/retrolix/retrolixLexer.ml" 1674 110416 110422
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 56 110464 110490 "src/retrolix/retrolixLexer.mll" 56 110464 110498
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1679 110539 110543 "src/retrolix/retrolixLexer.ml" 1679 110539 110545
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 57 110587 110613 "src/retrolix/retrolixLexer.mll" 57 110587 110620
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1684 110661 110665 "src/retrolix/retrolixLexer.ml" 1684 110661 110667
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 58 110709 110735 "src/retrolix/retrolixLexer.mll" 58 110709 110744
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1689 110785 110789 "src/retrolix/retrolixLexer.ml" 1689 110785 110791
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 59 110833 110859 "src/retrolix/retrolixLexer.mll" 59 110833 110866
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1694 110907 110911 "src/retrolix/retrolixLexer.ml" 1694 110907 110913
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 60 110955 110981 "src/retrolix/retrolixLexer.mll" 60 110955 110989
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1699 111030 111034 "src/retrolix/retrolixLexer.ml" 1699 111030 111036
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 61 111078 111104 "src/retrolix/retrolixLexer.mll" 61 111078 111116
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1704 111157 111161 "src/retrolix/retrolixLexer.ml" 1704 111157 111163
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 62 111209 111227 "src/retrolix/retrolixLexer.mll" 62 111209 111228
+type(
+  string
+)
+ident(
+  def i "src/retrolix/retrolixLexer.mll" 62 111391 111417 "src/retrolix/retrolixLexer.mll" 62 111391 111425
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111270 "src/retrolix/retrolixLexer.ml" 1709 111268 111287
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111288 "src/retrolix/retrolixLexer.ml" 1709 111268 111294
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111295 "src/retrolix/retrolixLexer.ml" 1709 111268 111301
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111295 "src/retrolix/retrolixLexer.ml" 1709 111268 111322
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111323 "src/retrolix/retrolixLexer.ml" 1709 111268 111329
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111323 "src/retrolix/retrolixLexer.ml" 1709 111268 111349
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1709 111268 111270 "src/retrolix/retrolixLexer.ml" 1709 111268 111349
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 62 111391 111422 "src/retrolix/retrolixLexer.mll" 62 111391 111423
+type(
+  string
+)
+ident(
+  int_ref i "src/retrolix/retrolixLexer.mll" 62 111209 111227 "src/retrolix/retrolixLexer.mll" 62 111209 111228
+)
+"src/retrolix/retrolixLexer.mll" 62 111391 111417 "src/retrolix/retrolixLexer.mll" 62 111391 111425
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1705 111167 111167 "src/retrolix/retrolixLexer.mll" 62 111391 111425
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1714 111466 111470 "src/retrolix/retrolixLexer.ml" 1714 111466 111472
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 63 111518 111541 "src/retrolix/retrolixLexer.mll" 63 111518 111542
+type(
+  string
+)
+ident(
+  def i "src/retrolix/retrolixLexer.mll" 63 111705 111731 "src/retrolix/retrolixLexer.mll" 63 111705 111740
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111584 "src/retrolix/retrolixLexer.ml" 1719 111582 111601
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111602 "src/retrolix/retrolixLexer.ml" 1719 111582 111608
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111609 "src/retrolix/retrolixLexer.ml" 1719 111582 111615
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111609 "src/retrolix/retrolixLexer.ml" 1719 111582 111636
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111637 "src/retrolix/retrolixLexer.ml" 1719 111582 111643
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111637 "src/retrolix/retrolixLexer.ml" 1719 111582 111663
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1719 111582 111584 "src/retrolix/retrolixLexer.ml" 1719 111582 111663
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 63 111705 111737 "src/retrolix/retrolixLexer.mll" 63 111705 111738
+type(
+  string
+)
+ident(
+  int_ref i "src/retrolix/retrolixLexer.mll" 63 111518 111541 "src/retrolix/retrolixLexer.mll" 63 111518 111542
+)
+"src/retrolix/retrolixLexer.mll" 63 111705 111731 "src/retrolix/retrolixLexer.mll" 63 111705 111740
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1715 111476 111476 "src/retrolix/retrolixLexer.mll" 63 111705 111740
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1724 111781 111785 "src/retrolix/retrolixLexer.ml" 1724 111781 111787
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 66 111833 111847 "src/retrolix/retrolixLexer.mll" 66 111833 111848
+type(
+  string
+)
+ident(
+  def d "src/retrolix/retrolixLexer.mll" 66 112011 112031 "src/retrolix/retrolixLexer.mll" 66 112011 112058
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111890 "src/retrolix/retrolixLexer.ml" 1729 111888 111907
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111908 "src/retrolix/retrolixLexer.ml" 1729 111888 111914
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111915 "src/retrolix/retrolixLexer.ml" 1729 111888 111921
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111915 "src/retrolix/retrolixLexer.ml" 1729 111888 111942
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111943 "src/retrolix/retrolixLexer.ml" 1729 111888 111949
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111943 "src/retrolix/retrolixLexer.ml" 1729 111888 111969
+type(
+  int
+)
+"src/retrolix/retrolixLexer.ml" 1729 111888 111890 "src/retrolix/retrolixLexer.ml" 1729 111888 111969
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 66 112011 112038 "src/retrolix/retrolixLexer.mll" 66 112011 112053
+type(
+  string -> Int32.t
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/retrolix/retrolixLexer.mll" 66 112011 112054 "src/retrolix/retrolixLexer.mll" 66 112011 112055
+type(
+  string
+)
+ident(
+  int_ref d "src/retrolix/retrolixLexer.mll" 66 111833 111847 "src/retrolix/retrolixLexer.mll" 66 111833 111848
+)
+"src/retrolix/retrolixLexer.mll" 66 112011 112037 "src/retrolix/retrolixLexer.mll" 66 112011 112056
+type(
+  Int32.t
+)
+"src/retrolix/retrolixLexer.mll" 66 112011 112031 "src/retrolix/retrolixLexer.mll" 66 112011 112058
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1725 111791 111791 "src/retrolix/retrolixLexer.mll" 66 112011 112058
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1734 112099 112103 "src/retrolix/retrolixLexer.ml" 1734 112099 112105
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 69 112147 112167 "src/retrolix/retrolixLexer.mll" 69 112147 112176
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1739 112217 112221 "src/retrolix/retrolixLexer.ml" 1739 112217 112223
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 70 112265 112285 "src/retrolix/retrolixLexer.mll" 70 112265 112298
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1744 112339 112343 "src/retrolix/retrolixLexer.ml" 1744 112339 112345
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 71 112387 112407 "src/retrolix/retrolixLexer.mll" 71 112387 112416
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1749 112457 112461 "src/retrolix/retrolixLexer.ml" 1749 112457 112463
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 72 112505 112525 "src/retrolix/retrolixLexer.mll" 72 112505 112535
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1754 112576 112580 "src/retrolix/retrolixLexer.ml" 1754 112576 112582
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 73 112624 112644 "src/retrolix/retrolixLexer.mll" 73 112624 112654
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1759 112695 112699 "src/retrolix/retrolixLexer.ml" 1759 112695 112701
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 74 112743 112763 "src/retrolix/retrolixLexer.mll" 74 112743 112773
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1764 112814 112818 "src/retrolix/retrolixLexer.ml" 1764 112814 112820
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 75 112862 112882 "src/retrolix/retrolixLexer.mll" 75 112862 112892
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1769 112933 112937 "src/retrolix/retrolixLexer.ml" 1769 112933 112939
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 76 112981 113001 "src/retrolix/retrolixLexer.mll" 76 112981 113014
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1774 113055 113059 "src/retrolix/retrolixLexer.ml" 1774 113055 113061
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 77 113103 113123 "src/retrolix/retrolixLexer.mll" 77 113103 113130
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1779 113171 113175 "src/retrolix/retrolixLexer.ml" 1779 113171 113177
+type(
+  int
+)
+"src/retrolix/retrolixLexer.mll" 80 113219 113241 "src/retrolix/retrolixLexer.mll" 80 113219 113246
+type(
+  Lexing.lexbuf -> string -> RetrolixParser.token
+)
+ident(
+  int_ref error "src/retrolix/retrolixLexer.mll" 11 179 185 "src/retrolix/retrolixLexer.mll" 11 179 190
+)
+"src/retrolix/retrolixLexer.mll" 80 113219 113247 "src/retrolix/retrolixLexer.mll" 80 113219 113253
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.mll" 80 113219 113254 "src/retrolix/retrolixLexer.mll" 80 113219 113277
+type(
+  string
+)
+"src/retrolix/retrolixLexer.mll" 80 113219 113239 "src/retrolix/retrolixLexer.mll" 80 113219 113279
+call(
+  tail
+)
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113324 "src/retrolix/retrolixLexer.ml" 1784 113320 113341
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/retrolix/retrolixLexer.ml" 1784 113320 113345 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113345 "src/retrolix/retrolixLexer.ml" 1784 113320 113351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113345 "src/retrolix/retrolixLexer.ml" 1784 113320 113370
+type(
+  Lexing.lexbuf -> unit
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113371 "src/retrolix/retrolixLexer.ml" 1784 113320 113377
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113345 "src/retrolix/retrolixLexer.ml" 1784 113320 113377
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/retrolixLexer.ml" 1785 113380 113386 "src/retrolix/retrolixLexer.ml" 1785 113380 113407
+type(
+  Lexing.lexbuf -> int -> RetrolixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/retrolix/retrolixLexer.ml" 1567 107616 107620 "src/retrolix/retrolixLexer.ml" 1567 107616 107641
+)
+"src/retrolix/retrolixLexer.ml" 1785 113380 113408 "src/retrolix/retrolixLexer.ml" 1785 113380 113414
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/retrolix/retrolixLexer.ml" 1567 107616 107642 "src/retrolix/retrolixLexer.ml" 1567 107616 107648
+)
+"src/retrolix/retrolixLexer.ml" 1785 113380 113415 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/retrolix/retrolixLexer.ml" 1784 113320 113324 "src/retrolix/retrolixLexer.ml" 1784 113320 113341
+)
+"src/retrolix/retrolixLexer.ml" 1785 113380 113386 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+call(
+  tail
+)
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1784 113320 113345 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+type(
+  RetrolixParser.token
+)
+"src/retrolix/retrolixLexer.ml" 1568 107669 107671 "src/retrolix/retrolixLexer.ml" 1785 113380 113432
+type(
+  RetrolixParser.token
+)

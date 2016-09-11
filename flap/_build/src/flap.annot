@@ -1,0 +1,3072 @@
+"src/flap.ml" 19 450 458 "src/flap.ml" 19 450 468
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/flap.ml" 19 450 450 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 19 450 469 "src/flap.ml" 19 450 471
+type(
+  unit
+)
+"src/flap.ml" 20 474 476 "src/flap.ml" 20 474 494
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize_options "src/flap.ml" 27 611 615 "src/flap.ml" 27 611 633
+)
+"src/flap.ml" 20 474 495 "src/flap.ml" 20 474 497
+type(
+  unit
+)
+"src/flap.ml" 20 474 476 "src/flap.ml" 20 474 497
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 21 499 501 "src/flap.ml" 21 499 521
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize_languages "src/flap.ml" 30 670 674 "src/flap.ml" 30 670 694
+)
+"src/flap.ml" 21 499 522 "src/flap.ml" 21 499 524
+type(
+  unit
+)
+"src/flap.ml" 21 499 501 "src/flap.ml" 21 499 524
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 22 526 528 "src/flap.ml" 22 526 545
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize_prompt "src/flap.ml" 24 551 555 "src/flap.ml" 24 551 572
+)
+"src/flap.ml" 22 526 546 "src/flap.ml" 22 526 548
+type(
+  unit
+)
+"src/flap.ml" 22 526 528 "src/flap.ml" 22 526 549
+call(
+  tail
+)
+type(
+  unit
+)
+"src/flap.ml" 21 499 501 "src/flap.ml" 22 526 549
+type(
+  unit
+)
+"src/flap.ml" 20 474 476 "src/flap.ml" 22 526 549
+type(
+  unit
+)
+"src/flap.ml" 24 551 555 "src/flap.ml" 24 551 572
+type(
+  unit -> unit
+)
+ident(
+  def initialize_prompt "src/flap.ml" 19 450 450 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 24 551 573 "src/flap.ml" 24 551 575
+type(
+  unit
+)
+"src/flap.ml" 25 578 580 "src/flap.ml" 25 578 600
+type(
+  string -> unit
+)
+ident(
+  ext_ref UserInput.set_prompt
+)
+"src/flap.ml" 25 578 601 "src/flap.ml" 25 578 609
+type(
+  string
+)
+"src/flap.ml" 25 578 580 "src/flap.ml" 25 578 609
+call(
+  tail
+)
+type(
+  unit
+)
+"src/flap.ml" 27 611 615 "src/flap.ml" 27 611 633
+type(
+  unit -> unit
+)
+ident(
+  def initialize_options "src/flap.ml" 19 450 450 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 27 611 634 "src/flap.ml" 27 611 636
+type(
+  unit
+)
+"src/flap.ml" 28 639 641 "src/flap.ml" 28 639 665
+type(
+  unit -> unit
+)
+ident(
+  ext_ref CommandLineOptions.parse
+)
+"src/flap.ml" 28 639 666 "src/flap.ml" 28 639 668
+type(
+  unit
+)
+"src/flap.ml" 28 639 641 "src/flap.ml" 28 639 668
+call(
+  tail
+)
+type(
+  unit
+)
+"src/flap.ml" 30 670 674 "src/flap.ml" 30 670 694
+type(
+  unit -> unit
+)
+ident(
+  def initialize_languages "src/flap.ml" 19 450 450 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 30 670 695 "src/flap.ml" 30 670 697
+type(
+  unit
+)
+"src/flap.ml" 31 700 702 "src/flap.ml" 31 700 732
+type(
+  unit -> unit
+)
+ident(
+  ext_ref HopixInitialization.initialize
+)
+"src/flap.ml" 31 700 733 "src/flap.ml" 31 700 735
+type(
+  unit
+)
+"src/flap.ml" 31 700 702 "src/flap.ml" 31 700 735
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 32 737 739 "src/flap.ml" 32 737 769
+type(
+  unit -> unit
+)
+ident(
+  ext_ref HobixInitialization.initialize
+)
+"src/flap.ml" 32 737 770 "src/flap.ml" 32 737 772
+type(
+  unit
+)
+"src/flap.ml" 32 737 739 "src/flap.ml" 32 737 772
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 33 774 776 "src/flap.ml" 33 774 806
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FopixInitialization.initialize
+)
+"src/flap.ml" 33 774 807 "src/flap.ml" 33 774 809
+type(
+  unit
+)
+"src/flap.ml" 33 774 776 "src/flap.ml" 33 774 809
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 34 811 813 "src/flap.ml" 34 811 846
+type(
+  unit -> unit
+)
+ident(
+  ext_ref RetrolixInitialization.initialize
+)
+"src/flap.ml" 34 811 847 "src/flap.ml" 34 811 849
+type(
+  unit
+)
+"src/flap.ml" 34 811 813 "src/flap.ml" 34 811 849
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 35 851 853 "src/flap.ml" 35 851 882
+type(
+  unit -> unit
+)
+ident(
+  ext_ref MipsInitialization.initialize
+)
+"src/flap.ml" 35 851 883 "src/flap.ml" 35 851 885
+type(
+  unit
+)
+"src/flap.ml" 35 851 853 "src/flap.ml" 35 851 885
+call(
+  tail
+)
+type(
+  unit
+)
+"src/flap.ml" 34 811 813 "src/flap.ml" 35 851 885
+type(
+  unit
+)
+"src/flap.ml" 33 774 776 "src/flap.ml" 35 851 885
+type(
+  unit
+)
+"src/flap.ml" 32 737 739 "src/flap.ml" 35 851 885
+type(
+  unit
+)
+"src/flap.ml" 31 700 702 "src/flap.ml" 35 851 885
+type(
+  unit
+)
+"src/flap.ml" 39 1000 1004 "src/flap.ml" 39 1000 1016
+type(
+  unit -> (module Compilers.Compiler)
+)
+ident(
+  def get_compiler "src/flap.ml" 52 1386 1386 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 39 1000 1017 "src/flap.ml" 39 1000 1019
+type(
+  unit
+)
+"src/flap.ml" 40 1052 1058 "src/flap.ml" 40 1052 1073
+type(
+  string
+)
+ident(
+  def source_language "src/flap.ml" 43 1108 1110 "src/flap.ml" 50 1298 1384
+)
+"src/flap.ml" 41 1076 1080 "src/flap.ml" 41 1076 1099
+type(
+  unit -> string
+)
+ident(
+  ext_ref Options.get_source_language
+)
+"src/flap.ml" 41 1076 1100 "src/flap.ml" 41 1076 1102
+type(
+  unit
+)
+"src/flap.ml" 41 1076 1080 "src/flap.ml" 41 1076 1102
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 43 1108 1114 "src/flap.ml" 43 1108 1129
+type(
+  string
+)
+ident(
+  def target_language "src/flap.ml" 49 1235 1237 "src/flap.ml" 50 1298 1384
+)
+"src/flap.ml" 44 1132 1139 "src/flap.ml" 44 1132 1161
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.is_target_language_set
+)
+"src/flap.ml" 44 1132 1162 "src/flap.ml" 44 1132 1164
+type(
+  unit
+)
+"src/flap.ml" 44 1132 1139 "src/flap.ml" 44 1132 1164
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 45 1170 1176 "src/flap.ml" 45 1170 1195
+type(
+  unit -> string
+)
+ident(
+  ext_ref Options.get_target_language
+)
+"src/flap.ml" 45 1170 1196 "src/flap.ml" 45 1170 1198
+type(
+  unit
+)
+"src/flap.ml" 45 1170 1176 "src/flap.ml" 45 1170 1198
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 47 1208 1214 "src/flap.ml" 47 1208 1229
+type(
+  string
+)
+ident(
+  int_ref source_language "src/flap.ml" 40 1052 1058 "src/flap.ml" 40 1052 1073
+)
+"src/flap.ml" 44 1132 1136 "src/flap.ml" 47 1208 1229
+type(
+  string
+)
+"src/flap.ml" 49 1235 1241 "src/flap.ml" 49 1235 1246
+type(
+  (module Languages.Language) list
+)
+ident(
+  def using "src/flap.ml" 50 1298 1300 "src/flap.ml" 50 1298 1384
+)
+"src/flap.ml" 49 1235 1249 "src/flap.ml" 49 1235 1257
+type(
+  (string -> (module Languages.Language)) ->
+  string list -> (module Languages.Language) list
+)
+ident(
+  ext_ref List.map
+)
+"src/flap.ml" 49 1235 1258 "src/flap.ml" 49 1235 1271
+type(
+  string -> (module Languages.Language)
+)
+ident(
+  ext_ref Languages.get
+)
+"src/flap.ml" 49 1235 1273 "src/flap.ml" 49 1235 1290
+type(
+  unit -> string list
+)
+ident(
+  ext_ref Options.get_using
+)
+"src/flap.ml" 49 1235 1291 "src/flap.ml" 49 1235 1293
+type(
+  unit
+)
+"src/flap.ml" 49 1235 1272 "src/flap.ml" 49 1235 1294
+call(
+  stack
+)
+type(
+  string list
+)
+"src/flap.ml" 49 1235 1249 "src/flap.ml" 49 1235 1294
+call(
+  stack
+)
+type(
+  (module Languages.Language) list
+)
+"src/flap.ml" 50 1298 1300 "src/flap.ml" 50 1298 1313
+type(
+  ?using:(module Languages.Language) list ->
+  (module Languages.Language) ->
+  (module Languages.Language) -> (module Compilers.Compiler)
+)
+ident(
+  ext_ref Compilers.get
+)
+"src/flap.ml" 50 1298 1315 "src/flap.ml" 50 1298 1320
+type(
+  (module Languages.Language) list
+)
+ident(
+  int_ref using "src/flap.ml" 49 1235 1241 "src/flap.ml" 49 1235 1246
+)
+"src/flap.ml" 50 1298 1322 "src/flap.ml" 50 1298 1335
+type(
+  string -> (module Languages.Language)
+)
+ident(
+  ext_ref Languages.get
+)
+"src/flap.ml" 50 1298 1336 "src/flap.ml" 50 1298 1351
+type(
+  string
+)
+ident(
+  int_ref source_language "src/flap.ml" 40 1052 1058 "src/flap.ml" 40 1052 1073
+)
+"src/flap.ml" 50 1298 1321 "src/flap.ml" 50 1298 1352
+call(
+  stack
+)
+type(
+  (module Languages.Language)
+)
+"src/flap.ml" 50 1298 1354 "src/flap.ml" 50 1298 1367
+type(
+  string -> (module Languages.Language)
+)
+ident(
+  ext_ref Languages.get
+)
+"src/flap.ml" 50 1298 1368 "src/flap.ml" 50 1298 1383
+type(
+  string
+)
+ident(
+  int_ref target_language "src/flap.ml" 43 1108 1114 "src/flap.ml" 43 1108 1129
+)
+"src/flap.ml" 50 1298 1353 "src/flap.ml" 50 1298 1384
+call(
+  stack
+)
+type(
+  (module Languages.Language)
+)
+"src/flap.ml" 50 1298 1300 "src/flap.ml" 50 1298 1384
+call(
+  tail
+)
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 49 1235 1237 "src/flap.ml" 50 1298 1384
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 43 1108 1110 "src/flap.ml" 50 1298 1384
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 40 1052 1054 "src/flap.ml" 50 1298 1384
+type(
+  (module Compilers.Compiler)
+)
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 52 1386 1390 "src/flap.ml" 52 1386 1394
+type(
+  'a -> ('a -> 'b * 'c) -> ('b -> 'c -> string) -> 'b
+)
+ident(
+  def eval "src/flap.ml" 69 1864 1864 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 52 1386 1395 "src/flap.ml" 52 1386 1402
+type(
+  'a
+)
+ident(
+  def runtime "src/flap.ml" 52 1386 1403 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 52 1386 1403 "src/flap.ml" 52 1386 1407
+type(
+  'a -> 'b * 'c
+)
+ident(
+  def eval "src/flap.ml" 52 1386 1408 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 52 1386 1408 "src/flap.ml" 52 1386 1413
+type(
+  'b -> 'c -> string
+)
+ident(
+  def print "src/flap.ml" 53 1416 1418 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 53 1416 1422 "src/flap.ml" 53 1416 1425
+type(
+  float
+)
+ident(
+  def now "src/flap.ml" 54 1452 1454 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 53 1416 1428 "src/flap.ml" 53 1416 1445
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/flap.ml" 53 1416 1446 "src/flap.ml" 53 1416 1448
+type(
+  unit
+)
+"src/flap.ml" 53 1416 1428 "src/flap.ml" 53 1416 1448
+call(
+  stack
+)
+type(
+  float
+)
+"src/flap.ml" 54 1452 1458 "src/flap.ml" 54 1452 1465
+type(
+  'b
+)
+ident(
+  def runtime "src/flap.ml" 55 1497 1499 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 54 1452 1467 "src/flap.ml" 54 1452 1478
+type(
+  'c
+)
+ident(
+  def observation "src/flap.ml" 55 1497 1499 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 54 1452 1458 "src/flap.ml" 54 1452 1478
+type(
+  'b * 'c
+)
+"src/flap.ml" 54 1452 1481 "src/flap.ml" 54 1452 1485
+type(
+  'a -> 'b * 'c
+)
+ident(
+  int_ref eval "src/flap.ml" 52 1386 1403 "src/flap.ml" 52 1386 1407
+)
+"src/flap.ml" 54 1452 1486 "src/flap.ml" 54 1452 1493
+type(
+  'a
+)
+ident(
+  int_ref runtime "src/flap.ml" 52 1386 1395 "src/flap.ml" 52 1386 1402
+)
+"src/flap.ml" 54 1452 1481 "src/flap.ml" 54 1452 1493
+call(
+  stack
+)
+type(
+  'b * 'c
+)
+"src/flap.ml" 55 1497 1503 "src/flap.ml" 55 1497 1515
+type(
+  float
+)
+ident(
+  def elapsed_time "src/flap.ml" 56 1549 1551 "src/flap.ml" 59 1692 1701
+)
+"src/flap.ml" 55 1497 1518 "src/flap.ml" 55 1497 1535
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/flap.ml" 55 1497 1536 "src/flap.ml" 55 1497 1538
+type(
+  unit
+)
+"src/flap.ml" 55 1497 1518 "src/flap.ml" 55 1497 1538
+call(
+  stack
+)
+type(
+  float
+)
+"src/flap.ml" 55 1497 1539 "src/flap.ml" 55 1497 1541
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/flap.ml" 55 1497 1542 "src/flap.ml" 55 1497 1545
+type(
+  float
+)
+ident(
+  int_ref now "src/flap.ml" 53 1416 1422 "src/flap.ml" 53 1416 1425
+)
+"src/flap.ml" 55 1497 1518 "src/flap.ml" 55 1497 1545
+type(
+  float
+)
+"src/flap.ml" 56 1549 1554 "src/flap.ml" 56 1549 1575
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_benchmark
+)
+"src/flap.ml" 56 1549 1576 "src/flap.ml" 56 1549 1578
+type(
+  unit
+)
+"src/flap.ml" 56 1549 1554 "src/flap.ml" 56 1549 1578
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 57 1584 1588 "src/flap.ml" 57 1584 1601
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 57 1584 1603 "src/flap.ml" 57 1584 1606
+type(
+  string
+)
+"src/flap.ml" 57 1584 1607 "src/flap.ml" 57 1584 1608
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/flap.ml" 57 1584 1609 "src/flap.ml" 57 1584 1624
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/flap.ml" 57 1584 1625 "src/flap.ml" 57 1584 1637
+type(
+  float
+)
+ident(
+  int_ref elapsed_time "src/flap.ml" 55 1497 1503 "src/flap.ml" 55 1497 1515
+)
+"src/flap.ml" 57 1584 1609 "src/flap.ml" 57 1584 1637
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 57 1584 1638 "src/flap.ml" 57 1584 1639
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/flap.ml" 57 1584 1640 "src/flap.ml" 57 1584 1644
+type(
+  string
+)
+"src/flap.ml" 57 1584 1609 "src/flap.ml" 57 1584 1644
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 57 1584 1602 "src/flap.ml" 57 1584 1645
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 57 1584 1588 "src/flap.ml" 57 1584 1645
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 56 1549 1551 "src/flap.ml" 57 1584 1645
+type(
+  unit
+)
+"src/flap.ml" 58 1647 1649 "src/flap.ml" 58 1647 1662
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 58 1647 1664 "src/flap.ml" 58 1647 1669
+type(
+  'b -> 'c -> string
+)
+ident(
+  int_ref print "src/flap.ml" 52 1386 1408 "src/flap.ml" 52 1386 1413
+)
+"src/flap.ml" 58 1647 1670 "src/flap.ml" 58 1647 1677
+type(
+  'b
+)
+ident(
+  int_ref runtime "src/flap.ml" 54 1452 1458 "src/flap.ml" 54 1452 1465
+)
+"src/flap.ml" 58 1647 1678 "src/flap.ml" 58 1647 1689
+type(
+  'c
+)
+ident(
+  int_ref observation "src/flap.ml" 54 1452 1467 "src/flap.ml" 54 1452 1478
+)
+"src/flap.ml" 58 1647 1663 "src/flap.ml" 58 1647 1690
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 58 1647 1649 "src/flap.ml" 58 1647 1690
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 59 1692 1694 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+ident(
+  int_ref runtime "src/flap.ml" 54 1452 1458 "src/flap.ml" 54 1452 1465
+)
+"src/flap.ml" 58 1647 1649 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+"src/flap.ml" 56 1549 1551 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+"src/flap.ml" 55 1497 1499 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+"src/flap.ml" 54 1452 1454 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+"src/flap.ml" 53 1416 1418 "src/flap.ml" 59 1692 1701
+type(
+  'b
+)
+"src/flap.ml" 69 1864 1868 "src/flap.ml" 69 1864 1884
+type(
+  unit -> unit
+)
+ident(
+  def interactive_loop "src/flap.ml" 161 4724 4724 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 69 1864 1885 "src/flap.ml" 69 1864 1887
+type(
+  unit
+)
+"src/flap.ml" 71 1891 1893 "src/flap.ml" 71 1891 1906
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/flap.ml" 71 1891 1907 "src/flap.ml" 71 1891 1938
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/flap.ml" 71 1891 1939 "src/flap.ml" 71 1891 1953
+type(
+  string
+)
+ident(
+  ext_ref Version.number
+)
+"src/flap.ml" 71 1891 1893 "src/flap.ml" 71 1891 1953
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 73 1956 1985 "src/flap.ml" 73 1956 1997
+type(
+  unit -> (module Compilers.Compiler)
+)
+ident(
+  int_ref get_compiler "src/flap.ml" 39 1000 1004 "src/flap.ml" 39 1000 1016
+)
+"src/flap.ml" 73 1956 1998 "src/flap.ml" 73 1956 2000
+type(
+  unit
+)
+"src/flap.ml" 73 1956 1985 "src/flap.ml" 73 1956 2000
+call(
+  stack
+)
+type(
+  (module Compilers.Compiler)
+)
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 76 2050 2056 "src/flap.ml" 76 2050 2060
+type(
+  unit -> string
+)
+ident(
+  def read "src/flap.ml" 97 2490 2492 "src/flap.ml" 143 4277 4280
+)
+"src/flap.ml" 76 2050 2061 "src/flap.ml" 76 2050 2063
+type(
+  unit
+)
+"src/flap.ml" 77 2066 2070 "src/flap.ml" 77 2066 2087
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize_prompt "src/flap.ml" 24 551 555 "src/flap.ml" 24 551 572
+)
+"src/flap.ml" 77 2066 2088 "src/flap.ml" 77 2066 2090
+type(
+  unit
+)
+"src/flap.ml" 77 2066 2070 "src/flap.ml" 77 2066 2090
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 78 2092 2100 "src/flap.ml" 78 2092 2101
+type(
+  Buffer.t
+)
+ident(
+  def b "src/flap.ml" 79 2124 2128 "src/flap.ml" 94 2472 2483
+)
+"src/flap.ml" 78 2092 2104 "src/flap.ml" 78 2092 2117
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/flap.ml" 78 2092 2118 "src/flap.ml" 78 2092 2120
+type(
+  int
+)
+"src/flap.ml" 78 2092 2104 "src/flap.ml" 78 2092 2120
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/flap.ml" 79 2124 2136 "src/flap.ml" 79 2124 2140
+type(
+  string -> string
+)
+ident(
+  def read "src/flap.ml" 79 2124 2128 "src/flap.ml" 94 2472 2483
+)
+"src/flap.ml" 79 2124 2141 "src/flap.ml" 79 2124 2145
+type(
+  string
+)
+ident(
+  def prev "src/flap.ml" 80 2148 2154 "src/flap.ml" 92 2457 2464
+)
+"src/flap.ml" 80 2148 2158 "src/flap.ml" 80 2148 2159
+type(
+  string
+)
+ident(
+  def c "src/flap.ml" 81 2192 2198 "src/flap.ml" 92 2457 2464
+)
+"src/flap.ml" 80 2148 2162 "src/flap.ml" 80 2148 2182
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref UserInput.input_char
+)
+"src/flap.ml" 80 2148 2183 "src/flap.ml" 80 2148 2188
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"src/flap.ml" 80 2148 2162 "src/flap.ml" 80 2148 2188
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 81 2192 2201 "src/flap.ml" 81 2192 2202
+type(
+  string
+)
+ident(
+  int_ref c "src/flap.ml" 80 2148 2158 "src/flap.ml" 80 2148 2159
+)
+"src/flap.ml" 81 2192 2203 "src/flap.ml" 81 2192 2204
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/flap.ml" 81 2192 2205 "src/flap.ml" 81 2192 2209
+type(
+  string
+)
+"src/flap.ml" 81 2192 2201 "src/flap.ml" 81 2192 2209
+type(
+  bool
+)
+"src/flap.ml" 82 2215 2226 "src/flap.ml" 82 2215 2230
+type(
+  string
+)
+ident(
+  int_ref prev "src/flap.ml" 79 2124 2141 "src/flap.ml" 79 2124 2145
+)
+"src/flap.ml" 82 2215 2231 "src/flap.ml" 82 2215 2233
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/flap.ml" 82 2215 2234 "src/flap.ml" 82 2215 2238
+type(
+  string
+)
+"src/flap.ml" 82 2215 2226 "src/flap.ml" 82 2215 2238
+type(
+  bool
+)
+"src/flap.ml" 83 2246 2256 "src/flap.ml" 83 2246 2273
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/flap.ml" 83 2246 2274 "src/flap.ml" 83 2246 2275
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/flap.ml" 78 2092 2100 "src/flap.ml" 78 2092 2101
+)
+"src/flap.ml" 83 2246 2276 "src/flap.ml" 83 2246 2280
+type(
+  string
+)
+ident(
+  int_ref prev "src/flap.ml" 79 2124 2141 "src/flap.ml" 79 2124 2145
+)
+"src/flap.ml" 83 2246 2256 "src/flap.ml" 83 2246 2280
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 84 2282 2292 "src/flap.ml" 84 2282 2307
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/flap.ml" 84 2282 2308 "src/flap.ml" 84 2282 2309
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/flap.ml" 78 2092 2100 "src/flap.ml" 78 2092 2101
+)
+"src/flap.ml" 84 2282 2292 "src/flap.ml" 84 2282 2309
+call(
+  tail
+)
+type(
+  string
+)
+"src/flap.ml" 82 2215 2244 "src/flap.ml" 85 2310 2319
+type(
+  string
+)
+"src/flap.ml" 86 2327 2337 "src/flap.ml" 86 2327 2357
+type(
+  string -> unit
+)
+ident(
+  ext_ref UserInput.set_prompt
+)
+"src/flap.ml" 86 2327 2358 "src/flap.ml" 86 2327 2366
+type(
+  string
+)
+"src/flap.ml" 86 2327 2337 "src/flap.ml" 86 2327 2366
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 87 2368 2378 "src/flap.ml" 87 2368 2382
+type(
+  string -> string
+)
+ident(
+  int_ref read "src/flap.ml" 79 2124 2136 "src/flap.ml" 79 2124 2140
+)
+"src/flap.ml" 87 2368 2383 "src/flap.ml" 87 2368 2384
+type(
+  string
+)
+ident(
+  int_ref c "src/flap.ml" 80 2148 2158 "src/flap.ml" 80 2148 2159
+)
+"src/flap.ml" 87 2368 2378 "src/flap.ml" 87 2368 2384
+call(
+  tail
+)
+type(
+  string
+)
+"src/flap.ml" 85 2310 2325 "src/flap.ml" 88 2385 2394
+type(
+  string
+)
+"src/flap.ml" 82 2215 2223 "src/flap.ml" 88 2385 2394
+type(
+  string
+)
+"src/flap.ml" 90 2408 2416 "src/flap.ml" 90 2408 2433
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/flap.ml" 90 2408 2434 "src/flap.ml" 90 2408 2435
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/flap.ml" 78 2092 2100 "src/flap.ml" 78 2092 2101
+)
+"src/flap.ml" 90 2408 2436 "src/flap.ml" 90 2408 2440
+type(
+  string
+)
+ident(
+  int_ref prev "src/flap.ml" 79 2124 2141 "src/flap.ml" 79 2124 2145
+)
+"src/flap.ml" 90 2408 2416 "src/flap.ml" 90 2408 2440
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 91 2442 2450 "src/flap.ml" 91 2442 2454
+type(
+  string -> string
+)
+ident(
+  int_ref read "src/flap.ml" 79 2124 2136 "src/flap.ml" 79 2124 2140
+)
+"src/flap.ml" 91 2442 2455 "src/flap.ml" 91 2442 2456
+type(
+  string
+)
+ident(
+  int_ref c "src/flap.ml" 80 2148 2158 "src/flap.ml" 80 2148 2159
+)
+"src/flap.ml" 91 2442 2450 "src/flap.ml" 91 2442 2456
+call(
+  tail
+)
+type(
+  string
+)
+"src/flap.ml" 89 2395 2406 "src/flap.ml" 92 2457 2464
+type(
+  string
+)
+"src/flap.ml" 81 2192 2198 "src/flap.ml" 92 2457 2464
+type(
+  string
+)
+"src/flap.ml" 80 2148 2154 "src/flap.ml" 92 2457 2464
+type(
+  string
+)
+"src/flap.ml" 94 2472 2476 "src/flap.ml" 94 2472 2480
+type(
+  string -> string
+)
+ident(
+  int_ref read "src/flap.ml" 79 2124 2136 "src/flap.ml" 79 2124 2140
+)
+"src/flap.ml" 94 2472 2481 "src/flap.ml" 94 2472 2483
+type(
+  string
+)
+"src/flap.ml" 94 2472 2476 "src/flap.ml" 94 2472 2483
+call(
+  tail
+)
+type(
+  string
+)
+"src/flap.ml" 79 2124 2128 "src/flap.ml" 94 2472 2483
+type(
+  string
+)
+"src/flap.ml" 78 2092 2096 "src/flap.ml" 94 2472 2483
+type(
+  string
+)
+"src/flap.ml" 77 2066 2070 "src/flap.ml" 94 2472 2483
+type(
+  string
+)
+"src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  def step "src/flap.ml" 97 2490 2492 "src/flap.ml" 143 4277 4280
+)
+"src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+type(
+  Compiler.Target.runtime
+)
+ident(
+  def runtime "src/flap.ml" 100 2654 2670 "src/flap.ml" 136 4043 4091
+)
+"src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+type(
+  Compiler.environment
+)
+ident(
+  def cenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 136 4043 4091
+)
+"src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  def tenvironment "src/flap.ml" 101 2699 2705 "src/flap.ml" 136 4043 4091
+)
+"src/flap.ml" 102 2709 2723 "src/flap.ml" 102 2709 2727
+type(
+  unit -> string
+)
+ident(
+  int_ref read "src/flap.ml" 76 2050 2056 "src/flap.ml" 76 2050 2060
+)
+"src/flap.ml" 102 2709 2728 "src/flap.ml" 102 2709 2730
+type(
+  unit
+)
+"src/flap.ml" 102 2709 2723 "src/flap.ml" 102 2709 2730
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 103 2736 2748 "src/flap.ml" 103 2736 2756
+type(
+  string
+)
+"src/flap.ml" 104 2760 2772 "src/flap.ml" 104 2760 2796
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_verbose_mode
+)
+"src/flap.ml" 104 2760 2797 "src/flap.ml" 104 2760 2801
+type(
+  bool
+)
+"src/flap.ml" 104 2760 2772 "src/flap.ml" 104 2760 2801
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 105 2803 2815 "src/flap.ml" 105 2803 2819
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 105 2803 2820 "src/flap.ml" 105 2803 2827
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 105 2803 2828 "src/flap.ml" 105 2803 2840
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 105 2803 2841 "src/flap.ml" 105 2803 2853
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 105 2803 2815 "src/flap.ml" 105 2803 2853
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 104 2760 2772 "src/flap.ml" 105 2803 2853
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 107 2855 2867 "src/flap.ml" 107 2855 2875
+type(
+  string
+)
+"src/flap.ml" 108 2879 2891 "src/flap.ml" 108 2879 2915
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_verbose_mode
+)
+"src/flap.ml" 108 2879 2916 "src/flap.ml" 108 2879 2921
+type(
+  bool
+)
+"src/flap.ml" 108 2879 2891 "src/flap.ml" 108 2879 2921
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 109 2923 2935 "src/flap.ml" 109 2923 2939
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 109 2923 2940 "src/flap.ml" 109 2923 2947
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 109 2923 2948 "src/flap.ml" 109 2923 2960
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 109 2923 2961 "src/flap.ml" 109 2923 2973
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 109 2923 2935 "src/flap.ml" 109 2923 2973
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 108 2879 2891 "src/flap.ml" 109 2923 2973
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 111 2975 2987 "src/flap.ml" 111 2975 2992
+type(
+  string
+)
+ident(
+  def input "src/flap.ml" 112 2996 3008 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 112 2996 3012 "src/flap.ml" 112 2996 3015
+type(
+  Compiler.Source.ast
+)
+ident(
+  def ast "src/flap.ml" 113 3056 3068 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 112 2996 3018 "src/flap.ml" 112 2996 3046
+type(
+  string -> Compiler.Source.ast
+)
+ident(
+  ext_ref Compiler.Source.parse_string
+)
+"src/flap.ml" 112 2996 3047 "src/flap.ml" 112 2996 3052
+type(
+  string
+)
+ident(
+  int_ref input "src/flap.ml" 111 2975 2987 "src/flap.ml" 111 2975 2992
+)
+"src/flap.ml" 112 2996 3018 "src/flap.ml" 112 2996 3052
+call(
+  stack
+)
+type(
+  Compiler.Source.ast
+)
+"src/flap.ml" 113 3056 3072 "src/flap.ml" 113 3056 3084
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  def tenvironment "src/flap.ml" 119 3253 3265 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 114 3087 3104 "src/flap.ml" 114 3087 3122
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_unsafe
+)
+"src/flap.ml" 114 3087 3123 "src/flap.ml" 114 3087 3125
+type(
+  unit
+)
+"src/flap.ml" 114 3087 3104 "src/flap.ml" 114 3087 3125
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 115 3131 3147 "src/flap.ml" 115 3131 3159
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 117 3179 3195 "src/flap.ml" 117 3179 3220
+type(
+  Compiler.Source.typing_environment ->
+  Compiler.Source.ast -> Compiler.Source.typing_environment
+)
+ident(
+  ext_ref Compiler.Source.typecheck
+)
+"src/flap.ml" 117 3179 3221 "src/flap.ml" 117 3179 3233
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 117 3179 3234 "src/flap.ml" 117 3179 3237
+type(
+  Compiler.Source.ast
+)
+ident(
+  int_ref ast "src/flap.ml" 112 2996 3012 "src/flap.ml" 112 2996 3015
+)
+"src/flap.ml" 117 3179 3195 "src/flap.ml" 117 3179 3237
+call(
+  stack
+)
+type(
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 114 3087 3101 "src/flap.ml" 117 3179 3237
+type(
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 119 3253 3269 "src/flap.ml" 119 3253 3273
+type(
+  Compiler.Target.ast
+)
+ident(
+  def cast "src/flap.ml" 120 3329 3341 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 119 3253 3275 "src/flap.ml" 119 3253 3287
+type(
+  Compiler.environment
+)
+ident(
+  def cenvironment "src/flap.ml" 120 3329 3341 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 119 3253 3269 "src/flap.ml" 119 3253 3287
+type(
+  Compiler.Target.ast * Compiler.environment
+)
+"src/flap.ml" 119 3253 3290 "src/flap.ml" 119 3253 3308
+type(
+  Compiler.Source.ast ->
+  Compiler.environment -> Compiler.Target.ast * Compiler.environment
+)
+ident(
+  ext_ref Compiler.translate
+)
+"src/flap.ml" 119 3253 3309 "src/flap.ml" 119 3253 3312
+type(
+  Compiler.Source.ast
+)
+ident(
+  int_ref ast "src/flap.ml" 112 2996 3012 "src/flap.ml" 112 2996 3015
+)
+"src/flap.ml" 119 3253 3313 "src/flap.ml" 119 3253 3325
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 119 3253 3290 "src/flap.ml" 119 3253 3325
+call(
+  stack
+)
+type(
+  Compiler.Target.ast * Compiler.environment
+)
+"src/flap.ml" 120 3329 3344 "src/flap.ml" 120 3329 3368
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_verbose_mode
+)
+"src/flap.ml" 120 3329 3369 "src/flap.ml" 120 3329 3371
+type(
+  unit
+)
+"src/flap.ml" 120 3329 3344 "src/flap.ml" 120 3329 3371
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 121 3377 3391 "src/flap.ml" 121 3377 3404
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 121 3377 3406 "src/flap.ml" 121 3377 3422
+type(
+  Compiler.Target.ast -> string
+)
+ident(
+  ext_ref Compiler.Target.print_ast
+)
+"src/flap.ml" 121 3377 3423 "src/flap.ml" 121 3377 3427
+type(
+  Compiler.Target.ast
+)
+ident(
+  int_ref cast "src/flap.ml" 119 3253 3269 "src/flap.ml" 119 3253 3273
+)
+"src/flap.ml" 121 3377 3405 "src/flap.ml" 121 3377 3428
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 121 3377 3391 "src/flap.ml" 121 3377 3428
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 120 3329 3341 "src/flap.ml" 121 3377 3428
+type(
+  unit
+)
+"src/flap.ml" 122 3430 3446 "src/flap.ml" 122 3430 3453
+type(
+  Compiler.Target.runtime
+)
+ident(
+  def runtime "src/flap.ml" 125 3561 3573 "src/flap.ml" 125 3561 3611
+)
+"src/flap.ml" 123 3474 3488 "src/flap.ml" 123 3474 3492
+type(
+  Compiler.Target.runtime ->
+  (Compiler.Target.runtime ->
+   Compiler.Target.runtime * Compiler.Target.observable) ->
+  (Compiler.Target.runtime -> Compiler.Target.observable -> string) ->
+  Compiler.Target.runtime
+)
+ident(
+  int_ref eval "src/flap.ml" 52 1386 1390 "src/flap.ml" 52 1386 1394
+)
+"src/flap.ml" 123 3474 3493 "src/flap.ml" 123 3474 3500
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 123 3474 3506 "src/flap.ml" 123 3474 3507
+type(
+  Compiler.Target.runtime
+)
+ident(
+  def r "src/flap.ml" 123 3474 3511 "src/flap.ml" 123 3474 3526
+)
+"src/flap.ml" 123 3474 3511 "src/flap.ml" 123 3474 3519
+type(
+  Compiler.Target.runtime ->
+  Compiler.Target.ast -> Compiler.Target.runtime * Compiler.Target.observable
+)
+ident(
+  ext_ref Compiler.Target.evaluate
+)
+"src/flap.ml" 123 3474 3520 "src/flap.ml" 123 3474 3521
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref r "src/flap.ml" 123 3474 3506 "src/flap.ml" 123 3474 3507
+)
+"src/flap.ml" 123 3474 3522 "src/flap.ml" 123 3474 3526
+type(
+  Compiler.Target.ast
+)
+ident(
+  int_ref cast "src/flap.ml" 119 3253 3269 "src/flap.ml" 119 3253 3273
+)
+"src/flap.ml" 123 3474 3511 "src/flap.ml" 123 3474 3526
+call(
+  tail
+)
+type(
+  Compiler.Target.runtime * Compiler.Target.observable
+)
+"src/flap.ml" 123 3474 3501 "src/flap.ml" 123 3474 3527
+type(
+  Compiler.Target.runtime ->
+  Compiler.Target.runtime * Compiler.Target.observable
+)
+"src/flap.ml" 123 3474 3528 "src/flap.ml" 123 3474 3544
+type(
+  Compiler.Target.runtime -> Compiler.Target.observable -> string
+)
+ident(
+  ext_ref Compiler.Target.print_observable
+)
+"src/flap.ml" 123 3474 3488 "src/flap.ml" 123 3474 3544
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 125 3561 3573 "src/flap.ml" 125 3561 3577
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 125 3561 3578 "src/flap.ml" 125 3561 3585
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 122 3430 3446 "src/flap.ml" 122 3430 3453
+)
+"src/flap.ml" 125 3561 3586 "src/flap.ml" 125 3561 3598
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 119 3253 3275 "src/flap.ml" 119 3253 3287
+)
+"src/flap.ml" 125 3561 3599 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 113 3056 3072 "src/flap.ml" 113 3056 3084
+)
+"src/flap.ml" 125 3561 3573 "src/flap.ml" 125 3561 3611
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 122 3430 3442 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 120 3329 3341 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 119 3253 3265 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 113 3056 3068 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 112 2996 3008 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 102 2709 2717 "src/flap.ml" 125 3561 3611
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 127 3623 3633 "src/flap.ml" 127 3623 3634
+type(
+  exn
+)
+ident(
+  def e "src/flap.ml" 127 3623 3640 "src/flap.ml" 127 3623 3667
+)
+"src/flap.ml" 127 3623 3640 "src/flap.ml" 127 3623 3641
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/flap.ml" 127 3623 3641 "src/flap.ml" 127 3623 3656
+type(
+  bool ref
+)
+ident(
+  ext_ref Sys.interactive
+)
+"src/flap.ml" 127 3623 3640 "src/flap.ml" 127 3623 3656
+type(
+  bool
+)
+"src/flap.ml" 127 3623 3660 "src/flap.ml" 127 3623 3665
+type(
+  exn ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/flap.ml" 127 3623 3666 "src/flap.ml" 127 3623 3667
+type(
+  exn
+)
+ident(
+  int_ref e "src/flap.ml" 127 3623 3633 "src/flap.ml" 127 3623 3634
+)
+"src/flap.ml" 127 3623 3660 "src/flap.ml" 127 3623 3667
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 128 3704 3727 "src/flap.ml" 128 3704 3736
+type(
+  Position.t list
+)
+ident(
+  def positions "src/flap.ml" 129 3746 3756 "src/flap.ml" 130 3812 3860
+)
+"src/flap.ml" 128 3704 3738 "src/flap.ml" 128 3704 3741
+type(
+  string
+)
+ident(
+  def msg "src/flap.ml" 129 3746 3756 "src/flap.ml" 130 3812 3860
+)
+"src/flap.ml" 128 3704 3714 "src/flap.ml" 128 3704 3742
+type(
+  exn
+)
+"src/flap.ml" 129 3746 3756 "src/flap.ml" 129 3746 3769
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/flap.ml" 129 3746 3770 "src/flap.ml" 129 3746 3776
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/flap.ml" 129 3746 3778 "src/flap.ml" 129 3746 3795
+type(
+  Position.t list -> string -> string
+)
+ident(
+  ext_ref Error.print_error
+)
+"src/flap.ml" 129 3746 3796 "src/flap.ml" 129 3746 3805
+type(
+  Position.t list
+)
+ident(
+  int_ref positions "src/flap.ml" 128 3704 3727 "src/flap.ml" 128 3704 3736
+)
+"src/flap.ml" 129 3746 3806 "src/flap.ml" 129 3746 3809
+type(
+  string
+)
+ident(
+  int_ref msg "src/flap.ml" 128 3704 3738 "src/flap.ml" 128 3704 3741
+)
+"src/flap.ml" 129 3746 3777 "src/flap.ml" 129 3746 3810
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 129 3746 3756 "src/flap.ml" 129 3746 3810
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 130 3812 3822 "src/flap.ml" 130 3812 3826
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 130 3812 3827 "src/flap.ml" 130 3812 3834
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 130 3812 3835 "src/flap.ml" 130 3812 3847
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 130 3812 3848 "src/flap.ml" 130 3812 3860
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 130 3812 3822 "src/flap.ml" 130 3812 3860
+call(
+  tail
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 129 3746 3756 "src/flap.ml" 130 3812 3860
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 131 3861 3871 "src/flap.ml" 131 3861 3882
+type(
+  exn
+)
+"src/flap.ml" 132 3886 3897 "src/flap.ml" 132 3886 3904
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 132 3886 3906 "src/flap.ml" 132 3886 3918
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 132 3886 3920 "src/flap.ml" 132 3886 3932
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 132 3886 3896 "src/flap.ml" 132 3886 3933
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 133 3934 3944 "src/flap.ml" 133 3934 3945
+type(
+  exn
+)
+ident(
+  def e "src/flap.ml" 134 3949 3952 "src/flap.ml" 136 4043 4091
+)
+"src/flap.ml" 134 3949 3952 "src/flap.ml" 134 3949 3965
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 134 3949 3967 "src/flap.ml" 134 3949 3989
+type(
+  unit -> string
+)
+ident(
+  ext_ref Printexc.get_backtrace
+)
+"src/flap.ml" 134 3949 3990 "src/flap.ml" 134 3949 3992
+type(
+  unit
+)
+"src/flap.ml" 134 3949 3966 "src/flap.ml" 134 3949 3993
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 134 3949 3952 "src/flap.ml" 134 3949 3993
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 135 3995 4005 "src/flap.ml" 135 3995 4018
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 135 3995 4020 "src/flap.ml" 135 3995 4038
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/flap.ml" 135 3995 4039 "src/flap.ml" 135 3995 4040
+type(
+  exn
+)
+ident(
+  int_ref e "src/flap.ml" 133 3934 3944 "src/flap.ml" 133 3934 3945
+)
+"src/flap.ml" 135 3995 4019 "src/flap.ml" 135 3995 4041
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 135 3995 4005 "src/flap.ml" 135 3995 4041
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 136 4043 4053 "src/flap.ml" 136 4043 4057
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 136 4043 4058 "src/flap.ml" 136 4043 4065
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref runtime "src/flap.ml" 100 2654 2662 "src/flap.ml" 100 2654 2669
+)
+"src/flap.ml" 136 4043 4066 "src/flap.ml" 136 4043 4078
+type(
+  Compiler.environment
+)
+ident(
+  int_ref cenvironment "src/flap.ml" 100 2654 2670 "src/flap.ml" 100 2654 2682
+)
+"src/flap.ml" 136 4043 4079 "src/flap.ml" 136 4043 4091
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenvironment "src/flap.ml" 100 2654 2683 "src/flap.ml" 100 2654 2695
+)
+"src/flap.ml" 136 4043 4053 "src/flap.ml" 136 4043 4091
+call(
+  tail
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 135 3995 4005 "src/flap.ml" 136 4043 4091
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 134 3949 3952 "src/flap.ml" 136 4043 4091
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 101 2699 2705 "src/flap.ml" 136 4043 4091
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 100 2654 2658 "src/flap.ml" 136 4043 4091
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 138 4097 4099 "src/flap.ml" 138 4097 4120
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Error.resume_on_error
+)
+"src/flap.ml" 138 4097 4121 "src/flap.ml" 138 4097 4123
+type(
+  unit
+)
+"src/flap.ml" 138 4097 4099 "src/flap.ml" 138 4097 4123
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 139 4125 4127 "src/flap.ml" 139 4125 4133
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/flap.ml" 139 4125 4135 "src/flap.ml" 139 4125 4139
+type(
+  Compiler.Target.runtime ->
+  Compiler.environment ->
+  Compiler.Source.typing_environment ->
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref step "src/flap.ml" 97 2490 2500 "src/flap.ml" 97 2490 2504
+)
+"src/flap.ml" 140 4140 4153 "src/flap.ml" 140 4140 4175
+type(
+  unit -> Compiler.Target.runtime
+)
+ident(
+  ext_ref Compiler.Target.initial_runtime
+)
+"src/flap.ml" 140 4140 4176 "src/flap.ml" 140 4140 4178
+type(
+  unit
+)
+"src/flap.ml" 140 4140 4152 "src/flap.ml" 140 4140 4179
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 141 4180 4193 "src/flap.ml" 141 4180 4221
+type(
+  unit -> Compiler.environment
+)
+ident(
+  ext_ref Compiler.initial_environment
+)
+"src/flap.ml" 141 4180 4222 "src/flap.ml" 141 4180 4224
+type(
+  unit
+)
+"src/flap.ml" 141 4180 4192 "src/flap.ml" 141 4180 4225
+call(
+  stack
+)
+type(
+  Compiler.environment
+)
+"src/flap.ml" 142 4226 4239 "src/flap.ml" 142 4226 4272
+type(
+  unit -> Compiler.Source.typing_environment
+)
+ident(
+  ext_ref Compiler.Source.initial_typing_environment
+)
+"src/flap.ml" 142 4226 4273 "src/flap.ml" 142 4226 4275
+type(
+  unit
+)
+"src/flap.ml" 142 4226 4238 "src/flap.ml" 142 4226 4276
+call(
+  stack
+)
+type(
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 139 4125 4134 "src/flap.ml" 143 4277 4280
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime * Compiler.environment *
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 139 4125 4127 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 138 4097 4099 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 97 2490 2492 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 76 2050 2052 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 73 1956 1958 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 71 1891 1893 "src/flap.ml" 143 4277 4280
+type(
+  unit
+)
+"src/flap.ml" 161 4724 4728 "src/flap.ml" 161 4724 4745
+type(
+  unit -> unit
+)
+ident(
+  def batch_compilation "src/flap.ml" 201 5993 5993 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 161 4724 4746 "src/flap.ml" 161 4724 4748
+type(
+  unit
+)
+"src/flap.ml" 162 4751 4753 "src/flap.ml" 162 4751 4772
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Error.exit_on_error
+)
+"src/flap.ml" 162 4751 4773 "src/flap.ml" 162 4751 4775
+type(
+  unit
+)
+"src/flap.ml" 162 4751 4753 "src/flap.ml" 162 4751 4775
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 163 4777 4806 "src/flap.ml" 163 4777 4818
+type(
+  unit -> (module Compilers.Compiler)
+)
+ident(
+  int_ref get_compiler "src/flap.ml" 39 1000 1004 "src/flap.ml" 39 1000 1016
+)
+"src/flap.ml" 163 4777 4819 "src/flap.ml" 163 4777 4821
+type(
+  unit
+)
+"src/flap.ml" 163 4777 4806 "src/flap.ml" 163 4777 4821
+call(
+  stack
+)
+type(
+  (module Compilers.Compiler)
+)
+type(
+  (module Compilers.Compiler)
+)
+"src/flap.ml" 165 4870 4876 "src/flap.ml" 165 4870 4890
+type(
+  string
+)
+ident(
+  def input_filename "src/flap.ml" 166 4926 4928 "src/flap.ml" 196 5919 5922
+)
+"src/flap.ml" 165 4870 4893 "src/flap.ml" 165 4870 4919
+type(
+  unit -> string
+)
+ident(
+  ext_ref Options.get_input_filename
+)
+"src/flap.ml" 165 4870 4920 "src/flap.ml" 165 4870 4922
+type(
+  unit
+)
+"src/flap.ml" 165 4870 4893 "src/flap.ml" 165 4870 4922
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 166 4926 4932 "src/flap.ml" 166 4926 4943
+type(
+  string
+)
+ident(
+  def module_name "src/flap.ml" 167 4988 4990 "src/flap.ml" 196 5919 5922
+)
+"src/flap.ml" 166 4926 4946 "src/flap.ml" 166 4926 4969
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.chop_extension
+)
+"src/flap.ml" 166 4926 4970 "src/flap.ml" 166 4926 4984
+type(
+  string
+)
+ident(
+  int_ref input_filename "src/flap.ml" 165 4870 4876 "src/flap.ml" 165 4870 4890
+)
+"src/flap.ml" 166 4926 4946 "src/flap.ml" 166 4926 4984
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 167 4988 4994 "src/flap.ml" 167 4988 4997
+type(
+  Compiler.Source.ast
+)
+ident(
+  def ast "src/flap.ml" 170 5046 5048 "src/flap.ml" 196 5919 5922
+)
+"src/flap.ml" 168 5000 5004 "src/flap.ml" 168 5000 5025
+type(
+  string -> Compiler.Source.ast
+)
+ident(
+  ext_ref Compiler.Source.parse_filename
+)
+"src/flap.ml" 168 5000 5026 "src/flap.ml" 168 5000 5040
+type(
+  string
+)
+ident(
+  int_ref input_filename "src/flap.ml" 165 4870 4876 "src/flap.ml" 165 4870 4890
+)
+"src/flap.ml" 168 5000 5004 "src/flap.ml" 168 5000 5040
+call(
+  stack
+)
+type(
+  Compiler.Source.ast
+)
+"src/flap.ml" 170 5046 5051 "src/flap.ml" 170 5046 5069
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_unsafe
+)
+"src/flap.ml" 170 5046 5070 "src/flap.ml" 170 5046 5072
+type(
+  unit
+)
+"src/flap.ml" 170 5046 5051 "src/flap.ml" 170 5046 5072
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 171 5078 5082 "src/flap.ml" 171 5078 5084
+type(
+  unit
+)
+"src/flap.ml" 174 5114 5124 "src/flap.ml" 174 5114 5128
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  def tenv "src/flap.ml" 175 5180 5186 "src/flap.ml" 175 5180 5231
+)
+"src/flap.ml" 174 5114 5131 "src/flap.ml" 174 5114 5140
+type(
+  Compiler.Source.typing_environment ->
+  Compiler.Source.ast -> Compiler.Source.typing_environment
+)
+ident(
+  ext_ref Compiler.Source.typecheck
+)
+"src/flap.ml" 174 5114 5142 "src/flap.ml" 174 5114 5168
+type(
+  unit -> Compiler.Source.typing_environment
+)
+ident(
+  ext_ref Compiler.Source.initial_typing_environment
+)
+"src/flap.ml" 174 5114 5169 "src/flap.ml" 174 5114 5171
+type(
+  unit
+)
+"src/flap.ml" 174 5114 5141 "src/flap.ml" 174 5114 5172
+call(
+  stack
+)
+type(
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 174 5114 5173 "src/flap.ml" 174 5114 5176
+type(
+  Compiler.Source.ast
+)
+ident(
+  int_ref ast "src/flap.ml" 167 4988 4994 "src/flap.ml" 167 4988 4997
+)
+"src/flap.ml" 174 5114 5131 "src/flap.ml" 174 5114 5176
+call(
+  stack
+)
+type(
+  Compiler.Source.typing_environment
+)
+"src/flap.ml" 175 5180 5186 "src/flap.ml" 175 5180 5199
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 175 5180 5201 "src/flap.ml" 175 5180 5225
+type(
+  Compiler.Source.typing_environment -> string
+)
+ident(
+  ext_ref Compiler.Source.print_typing_environment
+)
+"src/flap.ml" 175 5180 5226 "src/flap.ml" 175 5180 5230
+type(
+  Compiler.Source.typing_environment
+)
+ident(
+  int_ref tenv "src/flap.ml" 174 5114 5124 "src/flap.ml" 174 5114 5128
+)
+"src/flap.ml" 175 5180 5200 "src/flap.ml" 175 5180 5231
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 175 5180 5186 "src/flap.ml" 175 5180 5231
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 174 5114 5120 "src/flap.ml" 175 5180 5231
+type(
+  unit
+)
+"src/flap.ml" 170 5046 5048 "src/flap.ml" 176 5232 5237
+type(
+  unit
+)
+"src/flap.ml" 177 5239 5245 "src/flap.ml" 177 5239 5249
+type(
+  Compiler.Target.ast
+)
+ident(
+  def cast "src/flap.ml" 178 5308 5310 "src/flap.ml" 196 5919 5922
+)
+"src/flap.ml" 177 5239 5251 "src/flap.ml" 177 5239 5252
+type(
+  Compiler.environment
+)
+"src/flap.ml" 177 5239 5245 "src/flap.ml" 177 5239 5252
+type(
+  Compiler.Target.ast * Compiler.environment
+)
+"src/flap.ml" 177 5239 5265 "src/flap.ml" 177 5239 5274
+type(
+  Compiler.Source.ast ->
+  Compiler.environment -> Compiler.Target.ast * Compiler.environment
+)
+ident(
+  ext_ref Compiler.translate
+)
+"src/flap.ml" 177 5239 5275 "src/flap.ml" 177 5239 5278
+type(
+  Compiler.Source.ast
+)
+ident(
+  int_ref ast "src/flap.ml" 167 4988 4994 "src/flap.ml" 167 4988 4997
+)
+"src/flap.ml" 177 5239 5280 "src/flap.ml" 177 5239 5299
+type(
+  unit -> Compiler.environment
+)
+ident(
+  ext_ref Compiler.initial_environment
+)
+"src/flap.ml" 177 5239 5300 "src/flap.ml" 177 5239 5302
+type(
+  unit
+)
+"src/flap.ml" 177 5239 5279 "src/flap.ml" 177 5239 5303
+call(
+  stack
+)
+type(
+  Compiler.environment
+)
+"src/flap.ml" 177 5239 5265 "src/flap.ml" 177 5239 5303
+call(
+  stack
+)
+type(
+  Compiler.Target.ast * Compiler.environment
+)
+"src/flap.ml" 178 5308 5314 "src/flap.ml" 178 5308 5329
+type(
+  string
+)
+ident(
+  def output_filename "src/flap.ml" 179 5366 5368 "src/flap.ml" 196 5919 5922
+)
+"src/flap.ml" 178 5308 5332 "src/flap.ml" 178 5308 5343
+type(
+  string
+)
+ident(
+  int_ref module_name "src/flap.ml" 166 4926 4932 "src/flap.ml" 166 4926 4943
+)
+"src/flap.ml" 178 5308 5344 "src/flap.ml" 178 5308 5345
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/flap.ml" 178 5308 5346 "src/flap.ml" 178 5308 5362
+type(
+  string
+)
+ident(
+  ext_ref Compiler.Target.extension
+)
+"src/flap.ml" 178 5308 5332 "src/flap.ml" 178 5308 5362
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 179 5366 5371 "src/flap.ml" 179 5366 5395
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_verbose_mode
+)
+"src/flap.ml" 179 5366 5396 "src/flap.ml" 179 5366 5398
+type(
+  unit
+)
+"src/flap.ml" 179 5366 5371 "src/flap.ml" 179 5366 5398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 180 5404 5408 "src/flap.ml" 180 5404 5421
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/flap.ml" 180 5404 5422 "src/flap.ml" 180 5404 5428
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/flap.ml" 180 5404 5430 "src/flap.ml" 180 5404 5446
+type(
+  Compiler.Target.ast -> string
+)
+ident(
+  ext_ref Compiler.Target.print_ast
+)
+"src/flap.ml" 180 5404 5447 "src/flap.ml" 180 5404 5451
+type(
+  Compiler.Target.ast
+)
+ident(
+  int_ref cast "src/flap.ml" 177 5239 5245 "src/flap.ml" 177 5239 5249
+)
+"src/flap.ml" 180 5404 5430 "src/flap.ml" 180 5404 5451
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 180 5404 5452 "src/flap.ml" 180 5404 5453
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/flap.ml" 180 5404 5454 "src/flap.ml" 180 5404 5458
+type(
+  string
+)
+"src/flap.ml" 180 5404 5429 "src/flap.ml" 180 5404 5459
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 180 5404 5408 "src/flap.ml" 180 5404 5459
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 179 5366 5368 "src/flap.ml" 180 5404 5459
+type(
+  unit
+)
+"src/flap.ml" 181 5461 5466 "src/flap.ml" 181 5461 5469
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/flap.ml" 181 5461 5471 "src/flap.ml" 181 5461 5491
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_dry_mode
+)
+"src/flap.ml" 181 5461 5492 "src/flap.ml" 181 5461 5494
+type(
+  unit
+)
+"src/flap.ml" 181 5461 5470 "src/flap.ml" 181 5461 5495
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 181 5461 5466 "src/flap.ml" 181 5461 5495
+type(
+  bool
+)
+"src/flap.ml" 182 5503 5511 "src/flap.ml" 182 5503 5515
+type(
+  out_channel
+)
+ident(
+  def cout "src/flap.ml" 183 5546 5550 "src/flap.ml" 184 5594 5613
+)
+"src/flap.ml" 182 5503 5518 "src/flap.ml" 182 5503 5526
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/flap.ml" 182 5503 5527 "src/flap.ml" 182 5503 5542
+type(
+  string
+)
+ident(
+  int_ref output_filename "src/flap.ml" 178 5308 5314 "src/flap.ml" 178 5308 5329
+)
+"src/flap.ml" 182 5503 5518 "src/flap.ml" 182 5503 5542
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/flap.ml" 183 5546 5550 "src/flap.ml" 183 5546 5563
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/flap.ml" 183 5546 5564 "src/flap.ml" 183 5546 5568
+type(
+  out_channel
+)
+ident(
+  int_ref cout "src/flap.ml" 182 5503 5511 "src/flap.ml" 182 5503 5515
+)
+"src/flap.ml" 183 5546 5570 "src/flap.ml" 183 5546 5586
+type(
+  Compiler.Target.ast -> string
+)
+ident(
+  ext_ref Compiler.Target.print_ast
+)
+"src/flap.ml" 183 5546 5587 "src/flap.ml" 183 5546 5591
+type(
+  Compiler.Target.ast
+)
+ident(
+  int_ref cast "src/flap.ml" 177 5239 5245 "src/flap.ml" 177 5239 5249
+)
+"src/flap.ml" 183 5546 5569 "src/flap.ml" 183 5546 5592
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 183 5546 5550 "src/flap.ml" 183 5546 5592
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 184 5594 5598 "src/flap.ml" 184 5594 5607
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/flap.ml" 184 5594 5608 "src/flap.ml" 184 5594 5612
+type(
+  out_channel
+)
+ident(
+  int_ref cout "src/flap.ml" 182 5503 5511 "src/flap.ml" 182 5503 5515
+)
+"src/flap.ml" 184 5594 5598 "src/flap.ml" 184 5594 5613
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 183 5546 5550 "src/flap.ml" 184 5594 5613
+type(
+  unit
+)
+"src/flap.ml" 181 5461 5501 "src/flap.ml" 185 5614 5617
+type(
+  unit
+)
+"src/flap.ml" 181 5461 5463 "src/flap.ml" 185 5614 5617
+type(
+  unit
+)
+"src/flap.ml" 186 5619 5624 "src/flap.ml" 186 5619 5648
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Options.get_running_mode
+)
+"src/flap.ml" 186 5619 5649 "src/flap.ml" 186 5619 5651
+type(
+  unit
+)
+"src/flap.ml" 186 5619 5624 "src/flap.ml" 186 5619 5651
+call(
+  stack
+)
+type(
+  bool
+)
+"src/flap.ml" 187 5675 5679 "src/flap.ml" 187 5675 5685
+type(
+  Compiler.Target.runtime -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/flap.ml" 189 5698 5706 "src/flap.ml" 189 5698 5710
+type(
+  Compiler.Target.runtime ->
+  (Compiler.Target.runtime ->
+   Compiler.Target.runtime * Compiler.Target.observable) ->
+  (Compiler.Target.runtime -> Compiler.Target.observable -> string) ->
+  Compiler.Target.runtime
+)
+ident(
+  int_ref eval "src/flap.ml" 52 1386 1390 "src/flap.ml" 52 1386 1394
+)
+"src/flap.ml" 189 5698 5712 "src/flap.ml" 189 5698 5727
+type(
+  unit -> Compiler.Target.runtime
+)
+ident(
+  ext_ref Compiler.Target.initial_runtime
+)
+"src/flap.ml" 189 5698 5728 "src/flap.ml" 189 5698 5730
+type(
+  unit
+)
+"src/flap.ml" 189 5698 5711 "src/flap.ml" 189 5698 5731
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 189 5698 5737 "src/flap.ml" 189 5698 5738
+type(
+  Compiler.Target.runtime
+)
+ident(
+  def r "src/flap.ml" 189 5698 5742 "src/flap.ml" 189 5698 5757
+)
+"src/flap.ml" 189 5698 5742 "src/flap.ml" 189 5698 5750
+type(
+  Compiler.Target.runtime ->
+  Compiler.Target.ast -> Compiler.Target.runtime * Compiler.Target.observable
+)
+ident(
+  ext_ref Compiler.Target.evaluate
+)
+"src/flap.ml" 189 5698 5751 "src/flap.ml" 189 5698 5752
+type(
+  Compiler.Target.runtime
+)
+ident(
+  int_ref r "src/flap.ml" 189 5698 5737 "src/flap.ml" 189 5698 5738
+)
+"src/flap.ml" 189 5698 5753 "src/flap.ml" 189 5698 5757
+type(
+  Compiler.Target.ast
+)
+ident(
+  int_ref cast "src/flap.ml" 177 5239 5245 "src/flap.ml" 177 5239 5249
+)
+"src/flap.ml" 189 5698 5742 "src/flap.ml" 189 5698 5757
+call(
+  tail
+)
+type(
+  Compiler.Target.runtime * Compiler.Target.observable
+)
+"src/flap.ml" 189 5698 5732 "src/flap.ml" 189 5698 5758
+type(
+  Compiler.Target.runtime ->
+  Compiler.Target.runtime * Compiler.Target.observable
+)
+"src/flap.ml" 189 5698 5759 "src/flap.ml" 189 5698 5775
+type(
+  Compiler.Target.runtime -> Compiler.Target.observable -> string
+)
+ident(
+  ext_ref Compiler.Target.print_observable
+)
+"src/flap.ml" 189 5698 5706 "src/flap.ml" 189 5698 5775
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 191 5787 5797 "src/flap.ml" 191 5787 5798
+type(
+  exn
+)
+ident(
+  def e "src/flap.ml" 192 5802 5805 "src/flap.ml" 194 5896 5912
+)
+"src/flap.ml" 192 5802 5805 "src/flap.ml" 192 5802 5818
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 192 5802 5820 "src/flap.ml" 192 5802 5842
+type(
+  unit -> string
+)
+ident(
+  ext_ref Printexc.get_backtrace
+)
+"src/flap.ml" 192 5802 5843 "src/flap.ml" 192 5802 5845
+type(
+  unit
+)
+"src/flap.ml" 192 5802 5819 "src/flap.ml" 192 5802 5846
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 192 5802 5805 "src/flap.ml" 192 5802 5846
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 193 5848 5858 "src/flap.ml" 193 5848 5871
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/flap.ml" 193 5848 5873 "src/flap.ml" 193 5848 5891
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/flap.ml" 193 5848 5892 "src/flap.ml" 193 5848 5893
+type(
+  exn
+)
+ident(
+  int_ref e "src/flap.ml" 191 5787 5797 "src/flap.ml" 191 5787 5798
+)
+"src/flap.ml" 193 5848 5872 "src/flap.ml" 193 5848 5894
+call(
+  stack
+)
+type(
+  string
+)
+"src/flap.ml" 193 5848 5858 "src/flap.ml" 193 5848 5894
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 194 5896 5906 "src/flap.ml" 194 5896 5910
+type(
+  int -> Compiler.Target.runtime
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/flap.ml" 194 5896 5911 "src/flap.ml" 194 5896 5912
+type(
+  int
+)
+"src/flap.ml" 194 5896 5906 "src/flap.ml" 194 5896 5912
+call(
+  stack
+)
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 193 5848 5858 "src/flap.ml" 194 5896 5912
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 192 5802 5805 "src/flap.ml" 194 5896 5912
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 187 5675 5686 "src/flap.ml" 195 5913 5918
+type(
+  Compiler.Target.runtime
+)
+"src/flap.ml" 187 5675 5679 "src/flap.ml" 195 5913 5918
+type(
+  unit
+)
+"src/flap.ml" 186 5619 5621 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 181 5461 5463 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 179 5366 5368 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 178 5308 5310 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 177 5239 5241 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 170 5046 5048 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 167 4988 4990 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 166 4926 4928 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 165 4870 4872 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 163 4777 4779 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 162 4751 4753 "src/flap.ml" 196 5919 5922
+type(
+  unit
+)
+"src/flap.ml" 201 5993 5997 "src/flap.ml" 201 5993 6001
+type(
+  unit
+)
+ident(
+  def main "src/flap.ml" 206 6123 6158 "src/flap.ml" 1 0 -1
+)
+"src/flap.ml" 202 6004 6006 "src/flap.ml" 202 6004 6016
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize "src/flap.ml" 19 450 458 "src/flap.ml" 19 450 468
+)
+"src/flap.ml" 202 6004 6017 "src/flap.ml" 202 6004 6019
+type(
+  unit
+)
+"src/flap.ml" 202 6004 6006 "src/flap.ml" 202 6004 6019
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 203 6021 6029 "src/flap.ml" 203 6021 6037
+type(
+  unit -> Options.mode
+)
+ident(
+  ext_ref Options.get_mode
+)
+"src/flap.ml" 203 6021 6038 "src/flap.ml" 203 6021 6040
+type(
+  unit
+)
+"src/flap.ml" 203 6021 6029 "src/flap.ml" 203 6021 6040
+call(
+  stack
+)
+type(
+  Options.mode
+)
+"src/flap.ml" 204 6046 6052 "src/flap.ml" 204 6046 6053
+type(
+  Options.mode
+)
+"src/flap.ml" 204 6046 6059 "src/flap.ml" 204 6046 6060
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/flap.ml" 204 6046 6060 "src/flap.ml" 204 6046 6075
+type(
+  bool ref
+)
+ident(
+  ext_ref Sys.interactive
+)
+"src/flap.ml" 204 6046 6059 "src/flap.ml" 204 6046 6075
+type(
+  bool
+)
+"src/flap.ml" 204 6046 6079 "src/flap.ml" 204 6046 6081
+type(
+  unit
+)
+"src/flap.ml" 205 6082 6088 "src/flap.ml" 205 6082 6099
+type(
+  Options.mode
+)
+"src/flap.ml" 205 6082 6103 "src/flap.ml" 205 6082 6119
+type(
+  unit -> unit
+)
+ident(
+  int_ref interactive_loop "src/flap.ml" 69 1864 1868 "src/flap.ml" 69 1864 1884
+)
+"src/flap.ml" 205 6082 6120 "src/flap.ml" 205 6082 6122
+type(
+  unit
+)
+"src/flap.ml" 205 6082 6103 "src/flap.ml" 205 6082 6122
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 206 6123 6129 "src/flap.ml" 206 6123 6134
+type(
+  Options.mode
+)
+"src/flap.ml" 206 6123 6138 "src/flap.ml" 206 6123 6155
+type(
+  unit -> unit
+)
+ident(
+  int_ref batch_compilation "src/flap.ml" 161 4724 4728 "src/flap.ml" 161 4724 4745
+)
+"src/flap.ml" 206 6123 6156 "src/flap.ml" 206 6123 6158
+type(
+  unit
+)
+"src/flap.ml" 206 6123 6138 "src/flap.ml" 206 6123 6158
+call(
+  stack
+)
+type(
+  unit
+)
+"src/flap.ml" 203 6021 6023 "src/flap.ml" 206 6123 6158
+type(
+  unit
+)
+"src/flap.ml" 202 6004 6006 "src/flap.ml" 206 6123 6158
+type(
+  unit
+)

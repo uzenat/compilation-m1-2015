@@ -1,0 +1,55 @@
+"src/hopix/hopixInitialization.ml" 1 0 4 "src/hopix/hopixInitialization.ml" 1 0 14
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/hopix/hopixInitialization.ml" 3 57 113 "src/hopix/hopixInitialization.ml" 1 0 -1
+)
+"src/hopix/hopixInitialization.ml" 1 0 15 "src/hopix/hopixInitialization.ml" 1 0 17
+type(
+  unit
+)
+"src/hopix/hopixInitialization.ml" 2 20 22 "src/hopix/hopixInitialization.ml" 2 20 40
+type(
+  (module Languages.Language) -> unit
+)
+ident(
+  ext_ref Languages.register
+)
+"src/hopix/hopixInitialization.ml" 2 20 41 "src/hopix/hopixInitialization.ml" 2 20 55
+type(
+  (module Languages.Language)
+)
+"src/hopix/hopixInitialization.ml" 2 20 22 "src/hopix/hopixInitialization.ml" 2 20 55
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixInitialization.ml" 3 57 59 "src/hopix/hopixInitialization.ml" 3 57 77
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/hopix/hopixInitialization.ml" 3 57 86 "src/hopix/hopixInitialization.ml" 3 57 112
+call(
+  stack
+)
+"src/hopix/hopixInitialization.ml" 3 57 78 "src/hopix/hopixInitialization.ml" 3 57 113
+type(
+  (module Compilers.Compiler)
+)
+"src/hopix/hopixInitialization.ml" 3 57 59 "src/hopix/hopixInitialization.ml" 3 57 113
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixInitialization.ml" 2 20 22 "src/hopix/hopixInitialization.ml" 3 57 113
+type(
+  unit
+)

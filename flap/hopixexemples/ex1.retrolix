@@ -1,0 +1,5 @@
+code (p)
+:
+l1: p <- load 1234;
+l2: exit;
+end

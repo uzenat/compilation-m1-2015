@@ -1,0 +1,1304 @@
+"src/fopix/fopixLexer.mll" 7 96 102 "src/fopix/fopixLexer.mll" 7 96 115
+type(
+  (Lexing.lexbuf -> 'a) -> Lexing.lexbuf -> 'a
+)
+ident(
+  def next_line_and "src/fopix/fopixLexer.mll" 11 170 172 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.mll" 7 96 116 "src/fopix/fopixLexer.mll" 7 96 117
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def f "src/fopix/fopixLexer.mll" 7 96 118 "src/fopix/fopixLexer.mll" 9 156 168
+)
+"src/fopix/fopixLexer.mll" 7 96 118 "src/fopix/fopixLexer.mll" 7 96 124
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.mll" 8 128 132 "src/fopix/fopixLexer.mll" 9 156 168
+)
+"src/fopix/fopixLexer.mll" 8 128 132 "src/fopix/fopixLexer.mll" 8 128 147
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"src/fopix/fopixLexer.mll" 8 128 148 "src/fopix/fopixLexer.mll" 8 128 154
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.mll" 7 96 118 "src/fopix/fopixLexer.mll" 7 96 124
+)
+"src/fopix/fopixLexer.mll" 8 128 132 "src/fopix/fopixLexer.mll" 8 128 154
+call(
+  stack
+)
+type(
+  unit
+)
+"src/fopix/fopixLexer.mll" 9 156 160 "src/fopix/fopixLexer.mll" 9 156 161
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref f "src/fopix/fopixLexer.mll" 7 96 116 "src/fopix/fopixLexer.mll" 7 96 117
+)
+"src/fopix/fopixLexer.mll" 9 156 162 "src/fopix/fopixLexer.mll" 9 156 168
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.mll" 7 96 118 "src/fopix/fopixLexer.mll" 7 96 124
+)
+"src/fopix/fopixLexer.mll" 9 156 160 "src/fopix/fopixLexer.mll" 9 156 168
+call(
+  tail
+)
+type(
+  'a
+)
+"src/fopix/fopixLexer.mll" 8 128 132 "src/fopix/fopixLexer.mll" 9 156 168
+type(
+  'a
+)
+"src/fopix/fopixLexer.mll" 11 170 176 "src/fopix/fopixLexer.mll" 11 170 181
+type(
+  Lexing.lexbuf -> string -> 'a
+)
+ident(
+  def error "src/fopix/fopixLexer.ml" 17 298 298 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.mll" 11 170 182 "src/fopix/fopixLexer.mll" 11 170 188
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.mll" 12 191 195 "src/fopix/fopixLexer.mll" 12 191 264
+)
+"src/fopix/fopixLexer.mll" 12 191 195 "src/fopix/fopixLexer.mll" 12 191 200
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  ext_ref Error.error
+)
+"src/fopix/fopixLexer.mll" 12 191 201 "src/fopix/fopixLexer.mll" 12 191 216
+type(
+  string
+)
+"src/fopix/fopixLexer.mll" 12 191 218 "src/fopix/fopixLexer.mll" 12 191 226
+type(
+  Lexing.position -> Lexing.position -> Position.t
+)
+ident(
+  ext_ref Position.lex_join
+)
+"src/fopix/fopixLexer.mll" 12 191 227 "src/fopix/fopixLexer.mll" 12 191 233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.mll" 11 170 182 "src/fopix/fopixLexer.mll" 11 170 188
+)
+"src/fopix/fopixLexer.mll" 12 191 227 "src/fopix/fopixLexer.mll" 12 191 245
+type(
+  Lexing.position
+)
+"src/fopix/fopixLexer.mll" 12 191 246 "src/fopix/fopixLexer.mll" 12 191 252
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.mll" 11 170 182 "src/fopix/fopixLexer.mll" 11 170 188
+)
+"src/fopix/fopixLexer.mll" 12 191 246 "src/fopix/fopixLexer.mll" 12 191 263
+type(
+  Lexing.position
+)
+"src/fopix/fopixLexer.mll" 12 191 217 "src/fopix/fopixLexer.mll" 12 191 264
+call(
+  stack
+)
+type(
+  Position.t
+)
+"src/fopix/fopixLexer.mll" 12 191 195 "src/fopix/fopixLexer.mll" 12 191 264
+call(
+  tail
+)
+type(
+  string -> 'a
+)
+"src/fopix/fopixLexer.ml" 17 298 302 "src/fopix/fopixLexer.ml" 17 298 320
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/fopix/fopixLexer.ml" 926 62621 62621 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.ml" 19 346 349 "src/fopix/fopixLexer.ml" 29 1046 1051
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 31 1077 1080 "src/fopix/fopixLexer.ml" 41 1777 1782
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 43 1808 1811 "src/fopix/fopixLexer.ml" 53 2508 2513
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 55 2537 2540 "src/fopix/fopixLexer.ml" 482 32427 32464
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 484 32488 32491 "src/fopix/fopixLexer.ml" 911 62378 62415
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 913 62443 62446 "src/fopix/fopixLexer.ml" 913 62443 62448
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 915 62479 62482 "src/fopix/fopixLexer.ml" 915 62479 62484
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 917 62515 62518 "src/fopix/fopixLexer.ml" 917 62515 62520
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 919 62549 62552 "src/fopix/fopixLexer.ml" 919 62549 62554
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 921 62583 62586 "src/fopix/fopixLexer.ml" 921 62583 62588
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 923 62611 62614 "src/fopix/fopixLexer.ml" 923 62611 62616
+type(
+  string
+)
+"src/fopix/fopixLexer.ml" 17 298 323 "src/fopix/fopixLexer.ml" 924 62618 62619
+type(
+  Lexing.lex_tables
+)
+"src/fopix/fopixLexer.ml" 926 62621 62629 "src/fopix/fopixLexer.ml" 926 62621 62634
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  def token "src/fopix/fopixLexer.ml" 926 62621 62621 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.ml" 926 62621 62635 "src/fopix/fopixLexer.ml" 926 62621 62641
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.ml" 927 62644 62648 "src/fopix/fopixLexer.ml" 927 62644 62678
+)
+"src/fopix/fopixLexer.ml" 927 62644 62648 "src/fopix/fopixLexer.ml" 927 62644 62669
+type(
+  Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/fopix/fopixLexer.ml" 928 62679 62683 "src/fopix/fopixLexer.ml" 928 62679 62704
+)
+"src/fopix/fopixLexer.ml" 927 62644 62670 "src/fopix/fopixLexer.ml" 927 62644 62676
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 926 62621 62635 "src/fopix/fopixLexer.ml" 926 62621 62641
+)
+"src/fopix/fopixLexer.ml" 927 62644 62677 "src/fopix/fopixLexer.ml" 927 62644 62678
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 927 62644 62648 "src/fopix/fopixLexer.ml" 927 62644 62678
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 928 62679 62683 "src/fopix/fopixLexer.ml" 928 62679 62704
+type(
+  Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  def __ocaml_lex_token_rec "src/fopix/fopixLexer.ml" 926 62621 62621 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.ml" 928 62679 62712 "src/fopix/fopixLexer.ml" 1131 67394 67446
+)
+"src/fopix/fopixLexer.ml" 928 62679 62712 "src/fopix/fopixLexer.ml" 928 62679 62729
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/fopix/fopixLexer.ml" 929 62732 62734 "src/fopix/fopixLexer.ml" 1131 67394 67446
+)
+"src/fopix/fopixLexer.ml" 929 62732 62740 "src/fopix/fopixLexer.ml" 929 62732 62753
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/fopix/fopixLexer.ml" 929 62732 62754 "src/fopix/fopixLexer.ml" 929 62732 62772
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/fopix/fopixLexer.ml" 17 298 302 "src/fopix/fopixLexer.ml" 17 298 320
+)
+"src/fopix/fopixLexer.ml" 929 62732 62773 "src/fopix/fopixLexer.ml" 929 62732 62790
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/fopix/fopixLexer.ml" 928 62679 62712 "src/fopix/fopixLexer.ml" 928 62679 62729
+)
+"src/fopix/fopixLexer.ml" 929 62732 62791 "src/fopix/fopixLexer.ml" 929 62732 62797
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 929 62732 62740 "src/fopix/fopixLexer.ml" 929 62732 62797
+call(
+  stack
+)
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 930 62803 62811 "src/fopix/fopixLexer.ml" 930 62803 62812
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 34 62848 62870 "src/fopix/fopixLexer.mll" 34 62848 62883
+type(
+  (Lexing.lexbuf -> FopixParser.token) -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref next_line_and "src/fopix/fopixLexer.mll" 7 96 102 "src/fopix/fopixLexer.mll" 7 96 115
+)
+"src/fopix/fopixLexer.mll" 34 62848 62884 "src/fopix/fopixLexer.mll" 34 62848 62889
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref token "src/fopix/fopixLexer.ml" 926 62621 62629 "src/fopix/fopixLexer.ml" 926 62621 62634
+)
+"src/fopix/fopixLexer.mll" 34 62848 62890 "src/fopix/fopixLexer.mll" 34 62848 62896
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.mll" 34 62848 62868 "src/fopix/fopixLexer.mll" 34 62848 62898
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 935 62932 62936 "src/fopix/fopixLexer.ml" 935 62932 62937
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 35 62973 62995 "src/fopix/fopixLexer.mll" 35 62973 63000
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref token "src/fopix/fopixLexer.ml" 926 62621 62629 "src/fopix/fopixLexer.ml" 926 62621 62634
+)
+"src/fopix/fopixLexer.mll" 35 62973 63001 "src/fopix/fopixLexer.mll" 35 62973 63007
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.mll" 35 62973 62993 "src/fopix/fopixLexer.mll" 35 62973 63023
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 940 63057 63061 "src/fopix/fopixLexer.ml" 940 63057 63062
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 36 63098 63120 "src/fopix/fopixLexer.mll" 36 63098 63127
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref comment "src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+)
+"src/fopix/fopixLexer.mll" 36 63098 63128 "src/fopix/fopixLexer.mll" 36 63098 63129
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 36 63098 63130 "src/fopix/fopixLexer.mll" 36 63098 63136
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.mll" 36 63098 63118 "src/fopix/fopixLexer.mll" 36 63098 63148
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 945 63182 63186 "src/fopix/fopixLexer.ml" 945 63182 63187
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 39 63223 63243 "src/fopix/fopixLexer.mll" 39 63223 63251
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 950 63285 63289 "src/fopix/fopixLexer.ml" 950 63285 63290
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 40 63326 63346 "src/fopix/fopixLexer.mll" 40 63326 63354
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 955 63388 63392 "src/fopix/fopixLexer.ml" 955 63388 63393
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 41 63429 63449 "src/fopix/fopixLexer.mll" 41 63429 63457
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 960 63491 63495 "src/fopix/fopixLexer.ml" 960 63491 63496
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 42 63532 63552 "src/fopix/fopixLexer.mll" 42 63532 63560
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 965 63594 63598 "src/fopix/fopixLexer.ml" 965 63594 63599
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 43 63635 63655 "src/fopix/fopixLexer.mll" 43 63635 63663
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 970 63697 63701 "src/fopix/fopixLexer.ml" 970 63697 63702
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 44 63738 63758 "src/fopix/fopixLexer.mll" 44 63738 63766
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 975 63800 63804 "src/fopix/fopixLexer.ml" 975 63800 63805
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 45 63841 63861 "src/fopix/fopixLexer.mll" 45 63841 63869
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 980 63903 63907 "src/fopix/fopixLexer.ml" 980 63903 63909
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 46 63945 63965 "src/fopix/fopixLexer.mll" 46 63945 63973
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 985 64007 64011 "src/fopix/fopixLexer.ml" 985 64007 64013
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 47 64049 64069 "src/fopix/fopixLexer.mll" 47 64049 64081
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 990 64115 64119 "src/fopix/fopixLexer.ml" 990 64115 64121
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 48 64157 64174 "src/fopix/fopixLexer.mll" 48 64157 64184
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 995 64218 64222 "src/fopix/fopixLexer.ml" 995 64218 64224
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 49 64260 64277 "src/fopix/fopixLexer.mll" 49 64260 64287
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1000 64321 64325 "src/fopix/fopixLexer.ml" 1000 64321 64327
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 52 64367 64381 "src/fopix/fopixLexer.mll" 52 64367 64382
+type(
+  string
+)
+ident(
+  def d "src/fopix/fopixLexer.mll" 52 64533 64553 "src/fopix/fopixLexer.mll" 52 64533 64580
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64418 "src/fopix/fopixLexer.ml" 1005 64416 64435
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64436 "src/fopix/fopixLexer.ml" 1005 64416 64442
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64443 "src/fopix/fopixLexer.ml" 1005 64416 64449
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64443 "src/fopix/fopixLexer.ml" 1005 64416 64470
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64471 "src/fopix/fopixLexer.ml" 1005 64416 64477
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64471 "src/fopix/fopixLexer.ml" 1005 64416 64497
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1005 64416 64418 "src/fopix/fopixLexer.ml" 1005 64416 64497
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixLexer.mll" 52 64533 64560 "src/fopix/fopixLexer.mll" 52 64533 64575
+type(
+  string -> Int32.t
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/fopix/fopixLexer.mll" 52 64533 64576 "src/fopix/fopixLexer.mll" 52 64533 64577
+type(
+  string
+)
+ident(
+  int_ref d "src/fopix/fopixLexer.mll" 52 64367 64381 "src/fopix/fopixLexer.mll" 52 64367 64382
+)
+"src/fopix/fopixLexer.mll" 52 64533 64559 "src/fopix/fopixLexer.mll" 52 64533 64578
+type(
+  Int32.t
+)
+"src/fopix/fopixLexer.mll" 52 64533 64553 "src/fopix/fopixLexer.mll" 52 64533 64580
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1001 64331 64331 "src/fopix/fopixLexer.mll" 52 64533 64580
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1010 64615 64619 "src/fopix/fopixLexer.ml" 1010 64615 64621
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 55 64661 64679 "src/fopix/fopixLexer.mll" 55 64661 64680
+type(
+  string
+)
+ident(
+  def i "src/fopix/fopixLexer.mll" 55 64831 64851 "src/fopix/fopixLexer.mll" 55 64831 64859
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64716 "src/fopix/fopixLexer.ml" 1015 64714 64733
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64734 "src/fopix/fopixLexer.ml" 1015 64714 64740
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64741 "src/fopix/fopixLexer.ml" 1015 64714 64747
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64741 "src/fopix/fopixLexer.ml" 1015 64714 64768
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64769 "src/fopix/fopixLexer.ml" 1015 64714 64775
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64769 "src/fopix/fopixLexer.ml" 1015 64714 64795
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1015 64714 64716 "src/fopix/fopixLexer.ml" 1015 64714 64795
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixLexer.mll" 55 64831 64856 "src/fopix/fopixLexer.mll" 55 64831 64857
+type(
+  string
+)
+ident(
+  int_ref i "src/fopix/fopixLexer.mll" 55 64661 64679 "src/fopix/fopixLexer.mll" 55 64661 64680
+)
+"src/fopix/fopixLexer.mll" 55 64831 64851 "src/fopix/fopixLexer.mll" 55 64831 64859
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1011 64625 64625 "src/fopix/fopixLexer.mll" 55 64831 64859
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1020 64894 64898 "src/fopix/fopixLexer.ml" 1020 64894 64900
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 58 64936 64956 "src/fopix/fopixLexer.mll" 58 64936 64969
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1025 65004 65008 "src/fopix/fopixLexer.ml" 1025 65004 65010
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 59 65046 65066 "src/fopix/fopixLexer.mll" 59 65046 65079
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1030 65114 65118 "src/fopix/fopixLexer.ml" 1030 65114 65120
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 60 65156 65176 "src/fopix/fopixLexer.mll" 60 65156 65189
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1035 65224 65228 "src/fopix/fopixLexer.ml" 1035 65224 65230
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 61 65266 65286 "src/fopix/fopixLexer.mll" 61 65266 65299
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1040 65334 65338 "src/fopix/fopixLexer.ml" 1040 65334 65340
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 62 65376 65396 "src/fopix/fopixLexer.mll" 62 65376 65409
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1045 65444 65448 "src/fopix/fopixLexer.ml" 1045 65444 65450
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 63 65486 65506 "src/fopix/fopixLexer.mll" 63 65486 65519
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1050 65554 65558 "src/fopix/fopixLexer.ml" 1050 65554 65560
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 64 65596 65616 "src/fopix/fopixLexer.mll" 64 65596 65629
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1055 65664 65668 "src/fopix/fopixLexer.ml" 1055 65664 65670
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 65 65706 65726 "src/fopix/fopixLexer.mll" 65 65706 65739
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1060 65774 65778 "src/fopix/fopixLexer.ml" 1060 65774 65780
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 66 65816 65836 "src/fopix/fopixLexer.mll" 66 65816 65849
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1065 65884 65888 "src/fopix/fopixLexer.ml" 1065 65884 65890
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 67 65926 65946 "src/fopix/fopixLexer.mll" 67 65926 65959
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1070 65994 65998 "src/fopix/fopixLexer.ml" 1070 65994 66000
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 68 66036 66056 "src/fopix/fopixLexer.mll" 68 66036 66069
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1075 66104 66108 "src/fopix/fopixLexer.ml" 1075 66104 66110
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 69 66146 66166 "src/fopix/fopixLexer.mll" 69 66146 66179
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1080 66214 66218 "src/fopix/fopixLexer.ml" 1080 66214 66220
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 70 66256 66276 "src/fopix/fopixLexer.mll" 70 66256 66289
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1085 66324 66328 "src/fopix/fopixLexer.ml" 1085 66324 66330
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 71 66366 66379 "src/fopix/fopixLexer.mll" 71 66366 66392
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1090 66427 66431 "src/fopix/fopixLexer.ml" 1090 66427 66433
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 74 66469 66489 "src/fopix/fopixLexer.mll" 74 66469 66502
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1095 66537 66541 "src/fopix/fopixLexer.ml" 1095 66537 66543
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 75 66579 66599 "src/fopix/fopixLexer.mll" 75 66579 66612
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1100 66647 66651 "src/fopix/fopixLexer.ml" 1100 66647 66653
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 76 66689 66709 "src/fopix/fopixLexer.mll" 76 66689 66722
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1105 66757 66761 "src/fopix/fopixLexer.ml" 1105 66757 66763
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 77 66799 66819 "src/fopix/fopixLexer.mll" 77 66799 66832
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1110 66867 66871 "src/fopix/fopixLexer.ml" 1110 66867 66873
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 78 66909 66929 "src/fopix/fopixLexer.mll" 78 66909 66942
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1115 66977 66981 "src/fopix/fopixLexer.ml" 1115 66977 66983
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 79 67019 67039 "src/fopix/fopixLexer.mll" 79 67019 67052
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1120 67087 67091 "src/fopix/fopixLexer.ml" 1120 67087 67093
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 80 67129 67149 "src/fopix/fopixLexer.mll" 80 67129 67162
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1125 67197 67201 "src/fopix/fopixLexer.ml" 1125 67197 67203
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 83 67239 67261 "src/fopix/fopixLexer.mll" 83 67239 67266
+type(
+  Lexing.lexbuf -> string -> FopixParser.token
+)
+ident(
+  int_ref error "src/fopix/fopixLexer.mll" 11 170 176 "src/fopix/fopixLexer.mll" 11 170 181
+)
+"src/fopix/fopixLexer.mll" 83 67239 67267 "src/fopix/fopixLexer.mll" 83 67239 67273
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.mll" 83 67239 67274 "src/fopix/fopixLexer.mll" 83 67239 67297
+type(
+  string
+)
+"src/fopix/fopixLexer.mll" 83 67239 67259 "src/fopix/fopixLexer.mll" 83 67239 67299
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67338 "src/fopix/fopixLexer.ml" 1130 67334 67355
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/fopix/fopixLexer.ml" 1130 67334 67359 "src/fopix/fopixLexer.ml" 1131 67394 67446
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67359 "src/fopix/fopixLexer.ml" 1130 67334 67365
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67359 "src/fopix/fopixLexer.ml" 1130 67334 67384
+type(
+  Lexing.lexbuf -> unit
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67385 "src/fopix/fopixLexer.ml" 1130 67334 67391
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67359 "src/fopix/fopixLexer.ml" 1130 67334 67391
+call(
+  stack
+)
+type(
+  unit
+)
+"src/fopix/fopixLexer.ml" 1131 67394 67400 "src/fopix/fopixLexer.ml" 1131 67394 67421
+type(
+  Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/fopix/fopixLexer.ml" 928 62679 62683 "src/fopix/fopixLexer.ml" 928 62679 62704
+)
+"src/fopix/fopixLexer.ml" 1131 67394 67422 "src/fopix/fopixLexer.ml" 1131 67394 67428
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 928 62679 62705 "src/fopix/fopixLexer.ml" 928 62679 62711
+)
+"src/fopix/fopixLexer.ml" 1131 67394 67429 "src/fopix/fopixLexer.ml" 1131 67394 67446
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/fopix/fopixLexer.ml" 1130 67334 67338 "src/fopix/fopixLexer.ml" 1130 67334 67355
+)
+"src/fopix/fopixLexer.ml" 1131 67394 67400 "src/fopix/fopixLexer.ml" 1131 67394 67446
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1130 67334 67359 "src/fopix/fopixLexer.ml" 1131 67394 67446
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 929 62732 62734 "src/fopix/fopixLexer.ml" 1131 67394 67446
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  def comment "src/fopix/fopixLexer.ml" 926 62621 62621 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.ml" 1133 67448 67460 "src/fopix/fopixLexer.ml" 1133 67448 67465
+type(
+  int
+)
+ident(
+  def level "src/fopix/fopixLexer.ml" 1133 67448 67466 "src/fopix/fopixLexer.ml" 1134 67475 67518
+)
+"src/fopix/fopixLexer.ml" 1133 67448 67466 "src/fopix/fopixLexer.ml" 1133 67448 67472
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.ml" 1134 67475 67479 "src/fopix/fopixLexer.ml" 1134 67475 67518
+)
+"src/fopix/fopixLexer.ml" 1134 67475 67479 "src/fopix/fopixLexer.ml" 1134 67475 67502
+type(
+  int -> Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/fopix/fopixLexer.ml" 1135 67519 67523 "src/fopix/fopixLexer.ml" 1135 67519 67546
+)
+"src/fopix/fopixLexer.ml" 1134 67475 67503 "src/fopix/fopixLexer.ml" 1134 67475 67508
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1133 67448 67460 "src/fopix/fopixLexer.ml" 1133 67448 67465
+)
+"src/fopix/fopixLexer.ml" 1134 67475 67509 "src/fopix/fopixLexer.ml" 1134 67475 67515
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1133 67448 67466 "src/fopix/fopixLexer.ml" 1133 67448 67472
+)
+"src/fopix/fopixLexer.ml" 1134 67475 67516 "src/fopix/fopixLexer.ml" 1134 67475 67518
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1134 67475 67479 "src/fopix/fopixLexer.ml" 1134 67475 67518
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1135 67519 67523 "src/fopix/fopixLexer.ml" 1135 67519 67546
+type(
+  int -> Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  def __ocaml_lex_comment_rec "src/fopix/fopixLexer.ml" 926 62621 62621 "src/fopix/fopixLexer.ml" 1 0 -1
+)
+"src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+type(
+  int
+)
+ident(
+  def level "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1176 68388 68448
+)
+"src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67560 "src/fopix/fopixLexer.ml" 1176 68388 68448
+)
+"src/fopix/fopixLexer.ml" 1135 67519 67560 "src/fopix/fopixLexer.ml" 1135 67519 67577
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/fopix/fopixLexer.ml" 1136 67580 67582 "src/fopix/fopixLexer.ml" 1176 68388 68448
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67588 "src/fopix/fopixLexer.ml" 1136 67580 67601
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67602 "src/fopix/fopixLexer.ml" 1136 67580 67620
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/fopix/fopixLexer.ml" 17 298 302 "src/fopix/fopixLexer.ml" 17 298 320
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67621 "src/fopix/fopixLexer.ml" 1136 67580 67638
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/fopix/fopixLexer.ml" 1135 67519 67560 "src/fopix/fopixLexer.ml" 1135 67519 67577
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67639 "src/fopix/fopixLexer.ml" 1136 67580 67645
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67588 "src/fopix/fopixLexer.ml" 1136 67580 67645
+call(
+  stack
+)
+type(
+  int
+)
+"src/fopix/fopixLexer.ml" 1137 67651 67659 "src/fopix/fopixLexer.ml" 1137 67651 67660
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 87 67707 67714 "src/fopix/fopixLexer.mll" 87 67707 67719
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.mll" 87 67707 67720 "src/fopix/fopixLexer.mll" 87 67707 67721
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/fopix/fopixLexer.mll" 87 67707 67722 "src/fopix/fopixLexer.mll" 87 67707 67723
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 87 67707 67714 "src/fopix/fopixLexer.mll" 87 67707 67723
+type(
+  bool
+)
+"src/fopix/fopixLexer.mll" 88 67729 67735 "src/fopix/fopixLexer.mll" 88 67729 67740
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref token "src/fopix/fopixLexer.ml" 926 62621 62629 "src/fopix/fopixLexer.ml" 926 62621 62634
+)
+"src/fopix/fopixLexer.mll" 88 67729 67741 "src/fopix/fopixLexer.mll" 88 67729 67747
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 88 67729 67735 "src/fopix/fopixLexer.mll" 88 67729 67747
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.mll" 90 67757 67763 "src/fopix/fopixLexer.mll" 90 67757 67770
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref comment "src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+)
+"src/fopix/fopixLexer.mll" 90 67757 67772 "src/fopix/fopixLexer.mll" 90 67757 67776
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"src/fopix/fopixLexer.mll" 90 67757 67777 "src/fopix/fopixLexer.mll" 90 67757 67782
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.mll" 90 67757 67771 "src/fopix/fopixLexer.mll" 90 67757 67783
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 90 67757 67784 "src/fopix/fopixLexer.mll" 90 67757 67790
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 90 67757 67763 "src/fopix/fopixLexer.mll" 90 67757 67790
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.mll" 86 67696 67705 "src/fopix/fopixLexer.mll" 91 67791 67794
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1147 67829 67833 "src/fopix/fopixLexer.ml" 1147 67829 67834
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 93 67881 67885 "src/fopix/fopixLexer.mll" 93 67881 67892
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref comment "src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+)
+"src/fopix/fopixLexer.mll" 93 67881 67894 "src/fopix/fopixLexer.mll" 93 67881 67898
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/fopix/fopixLexer.mll" 93 67881 67899 "src/fopix/fopixLexer.mll" 93 67881 67904
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.mll" 93 67881 67893 "src/fopix/fopixLexer.mll" 93 67881 67905
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 93 67881 67906 "src/fopix/fopixLexer.mll" 93 67881 67912
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 92 67870 67879 "src/fopix/fopixLexer.mll" 94 67913 67916
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1154 67951 67955 "src/fopix/fopixLexer.ml" 1154 67951 67956
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 96 68002 68006 "src/fopix/fopixLexer.mll" 96 68002 68011
+type(
+  Lexing.lexbuf -> string -> FopixParser.token
+)
+ident(
+  int_ref error "src/fopix/fopixLexer.mll" 11 170 176 "src/fopix/fopixLexer.mll" 11 170 181
+)
+"src/fopix/fopixLexer.mll" 96 68002 68012 "src/fopix/fopixLexer.mll" 96 68002 68018
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 96 68002 68019 "src/fopix/fopixLexer.mll" 96 68002 68042
+type(
+  string
+)
+"src/fopix/fopixLexer.mll" 95 67992 68000 "src/fopix/fopixLexer.mll" 97 68043 68046
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1161 68081 68085 "src/fopix/fopixLexer.ml" 1161 68081 68086
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 99 68136 68140 "src/fopix/fopixLexer.mll" 99 68136 68153
+type(
+  (Lexing.lexbuf -> FopixParser.token) -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref next_line_and "src/fopix/fopixLexer.mll" 7 96 102 "src/fopix/fopixLexer.mll" 7 96 115
+)
+"src/fopix/fopixLexer.mll" 99 68136 68155 "src/fopix/fopixLexer.mll" 99 68136 68162
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref comment "src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+)
+"src/fopix/fopixLexer.mll" 99 68136 68163 "src/fopix/fopixLexer.mll" 99 68136 68168
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.mll" 99 68136 68154 "src/fopix/fopixLexer.mll" 99 68136 68169
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+"src/fopix/fopixLexer.mll" 99 68136 68170 "src/fopix/fopixLexer.mll" 99 68136 68176
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 98 68122 68134 "src/fopix/fopixLexer.mll" 100 68177 68180
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1168 68215 68219 "src/fopix/fopixLexer.ml" 1168 68215 68220
+type(
+  int
+)
+"src/fopix/fopixLexer.mll" 102 68265 68269 "src/fopix/fopixLexer.mll" 102 68265 68276
+type(
+  int -> Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  int_ref comment "src/fopix/fopixLexer.ml" 1133 67448 67452 "src/fopix/fopixLexer.ml" 1133 67448 67459
+)
+"src/fopix/fopixLexer.mll" 102 68265 68277 "src/fopix/fopixLexer.mll" 102 68265 68282
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.mll" 102 68265 68283 "src/fopix/fopixLexer.mll" 102 68265 68289
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.mll" 101 68257 68263 "src/fopix/fopixLexer.mll" 103 68290 68293
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68332 "src/fopix/fopixLexer.ml" 1175 68328 68349
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/fopix/fopixLexer.ml" 1175 68328 68353 "src/fopix/fopixLexer.ml" 1176 68388 68448
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68353 "src/fopix/fopixLexer.ml" 1175 68328 68359
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68353 "src/fopix/fopixLexer.ml" 1175 68328 68378
+type(
+  Lexing.lexbuf -> unit
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68379 "src/fopix/fopixLexer.ml" 1175 68328 68385
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68353 "src/fopix/fopixLexer.ml" 1175 68328 68385
+call(
+  stack
+)
+type(
+  unit
+)
+"src/fopix/fopixLexer.ml" 1176 68388 68394 "src/fopix/fopixLexer.ml" 1176 68388 68417
+type(
+  int -> Lexing.lexbuf -> int -> FopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/fopix/fopixLexer.ml" 1135 67519 67523 "src/fopix/fopixLexer.ml" 1135 67519 67546
+)
+"src/fopix/fopixLexer.ml" 1176 68388 68418 "src/fopix/fopixLexer.ml" 1176 68388 68423
+type(
+  int
+)
+ident(
+  int_ref level "src/fopix/fopixLexer.ml" 1135 67519 67547 "src/fopix/fopixLexer.ml" 1135 67519 67552
+)
+"src/fopix/fopixLexer.ml" 1176 68388 68424 "src/fopix/fopixLexer.ml" 1176 68388 68430
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/fopix/fopixLexer.ml" 1135 67519 67553 "src/fopix/fopixLexer.ml" 1135 67519 67559
+)
+"src/fopix/fopixLexer.ml" 1176 68388 68431 "src/fopix/fopixLexer.ml" 1176 68388 68448
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/fopix/fopixLexer.ml" 1175 68328 68332 "src/fopix/fopixLexer.ml" 1175 68328 68349
+)
+"src/fopix/fopixLexer.ml" 1176 68388 68394 "src/fopix/fopixLexer.ml" 1176 68388 68448
+call(
+  tail
+)
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1175 68328 68353 "src/fopix/fopixLexer.ml" 1176 68388 68448
+type(
+  FopixParser.token
+)
+"src/fopix/fopixLexer.ml" 1136 67580 67582 "src/fopix/fopixLexer.ml" 1176 68388 68448
+type(
+  FopixParser.token
+)

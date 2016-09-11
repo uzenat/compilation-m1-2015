@@ -1,0 +1,88 @@
+.data
+__global__f:
+.word 1
+.data
+__global__t:
+.word 1
+.data
+__global__p:
+.word 1
+.text
+main: # main
+_l6:  addiu $sp, $sp, -60
+l1:   sw $t9, -60($sp)
+l2:   sw $t8, -56($sp)
+l3:   sw $t7, -52($sp)
+l4:   sw $t6, -48($sp)
+l5:   sw $t5, -44($sp)
+l6:   sw $t4, -40($sp)
+l7:   sw $t3, -36($sp)
+l8:   sw $t2, -32($sp)
+l9:   sw $t1, -28($sp)
+l10:  sw $t0, -24($sp)
+l22:  sw $a0, -20($sp)
+l21:  sw $a1, -16($sp)
+l25:  move $s7, $ra
+l27:  li $v1, 1234
+      sw $v1, -12($sp)
+l28:  li $v1, 2
+      sw $v1, -8($sp)
+l29:  lw $v1, -12($sp)
+      lw $fp, -8($sp)
+      add $v1, $v1, $fp
+      sw $v1, __global__p
+l20:  lw $t9, -60($sp)
+l19:  lw $t8, -56($sp)
+l18:  lw $t7, -52($sp)
+l17:  lw $t6, -48($sp)
+l16:  lw $t5, -44($sp)
+l15:  lw $t4, -40($sp)
+l14:  lw $t3, -36($sp)
+l13:  lw $t2, -32($sp)
+l12:  lw $t1, -28($sp)
+l11:  lw $t0, -24($sp)
+l24:  lw $a0, -4($sp)
+l23:  lw $a1, 0($sp)
+l26:  move $ra, $s7
+_l5:  addiu $sp, $sp, 60
+_l4:  addiu $sp, $sp, 4
+l30:  lw $v1, __global__p
+      sw $v1, __global__t
+_l3:  addiu $sp, $sp, -4
+_l2:  addiu $sp, $sp, -64
+l31:  sw $t9, -64($sp)
+l32:  sw $t8, -60($sp)
+l33:  sw $t7, -56($sp)
+l34:  sw $t6, -52($sp)
+l35:  sw $t5, -48($sp)
+l36:  sw $t4, -44($sp)
+l37:  sw $t3, -40($sp)
+l38:  sw $t2, -36($sp)
+l39:  sw $t1, -32($sp)
+l40:  sw $t0, -28($sp)
+l52:  sw $a0, -24($sp)
+l51:  sw $a1, -20($sp)
+l55:  move $s7, $ra
+l57:  lw $v1, __global__t
+      sw $v1, -16($sp)
+l58:  lw $v1, -8($sp)
+      sw $v1, -12($sp)
+l59:  lw $a0, -16($sp)
+      lw $a1, -12($sp)
+      la $v1, print_int
+      jalr $v1
+l50:  lw $t9, -64($sp)
+l49:  lw $t8, -60($sp)
+l48:  lw $t7, -56($sp)
+l47:  lw $t6, -52($sp)
+l46:  lw $t5, -48($sp)
+l45:  lw $t4, -44($sp)
+l44:  lw $t3, -40($sp)
+l43:  lw $t2, -36($sp)
+l42:  lw $t1, -32($sp)
+l41:  lw $t0, -28($sp)
+l54:  lw $a0, -4($sp)
+l53:  lw $a1, 0($sp)
+l56:  move $ra, $s7
+l60:  
+_l1:  addiu $sp, $sp, 64

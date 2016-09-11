@@ -1,0 +1,235 @@
+"src/hobix/hobix.ml" 3 40 44 "src/hobix/hobix.ml" 3 40 48
+type(
+  string
+)
+ident(
+  def name "src/hobix/hobix.ml" 5 60 60 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 3 40 51 "src/hobix/hobix.ml" 3 40 58
+type(
+  string
+)
+"src/hobix/hobix.ml" 9 106 110 "src/hobix/hobix.ml" 9 106 115
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def parse "src/hobix/hobix.ml" 17 279 279 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 9 106 116 "src/hobix/hobix.ml" 9 106 126
+type(
+  'a
+)
+ident(
+  def lexer_init "src/hobix/hobix.ml" 9 106 127 "src/hobix/hobix.ml" 15 263 277
+)
+"src/hobix/hobix.ml" 9 106 127 "src/hobix/hobix.ml" 9 106 132
+type(
+  'b
+)
+ident(
+  def input "src/hobix/hobix.ml" 15 263 265 "src/hobix/hobix.ml" 15 263 277
+)
+"src/hobix/hobix.ml" 15 263 272 "src/hobix/hobix.ml" 15 263 277
+type(
+  bool
+)
+"src/hobix/hobix.ml" 15 263 265 "src/hobix/hobix.ml" 15 263 277
+type(
+  'c
+)
+"src/hobix/hobix.ml" 17 279 283 "src/hobix/hobix.ml" 17 279 297
+type(
+  string -> 'a
+)
+ident(
+  def parse_filename "src/hobix/hobix.ml" 20 357 357 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 17 279 298 "src/hobix/hobix.ml" 17 279 306
+type(
+  string
+)
+ident(
+  def filename "src/hobix/hobix.ml" 18 309 311 "src/hobix/hobix.ml" 18 309 355
+)
+"src/hobix/hobix.ml" 18 309 311 "src/hobix/hobix.ml" 18 309 316
+type(
+  (in_channel -> Lexing.lexbuf) -> in_channel -> 'a
+)
+ident(
+  int_ref parse "src/hobix/hobix.ml" 9 106 110 "src/hobix/hobix.ml" 9 106 115
+)
+"src/hobix/hobix.ml" 18 309 317 "src/hobix/hobix.ml" 18 309 336
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/hobix/hobix.ml" 18 309 338 "src/hobix/hobix.ml" 18 309 345
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/hobix/hobix.ml" 18 309 346 "src/hobix/hobix.ml" 18 309 354
+type(
+  string
+)
+ident(
+  int_ref filename "src/hobix/hobix.ml" 17 279 298 "src/hobix/hobix.ml" 17 279 306
+)
+"src/hobix/hobix.ml" 18 309 337 "src/hobix/hobix.ml" 18 309 355
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/hobix/hobix.ml" 18 309 311 "src/hobix/hobix.ml" 18 309 355
+call(
+  tail
+)
+type(
+  'a
+)
+"src/hobix/hobix.ml" 20 357 361 "src/hobix/hobix.ml" 20 357 370
+type(
+  string
+)
+ident(
+  def extension "src/hobix/hobix.ml" 23 385 385 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 21 373 375 "src/hobix/hobix.ml" 21 373 383
+type(
+  string
+)
+"src/hobix/hobix.ml" 23 385 389 "src/hobix/hobix.ml" 23 385 401
+type(
+  'a -> 'b
+)
+ident(
+  def parse_string "src/hobix/hobix.ml" 26 436 436 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 23 385 402 "src/hobix/hobix.ml" 23 385 403
+type(
+  'a
+)
+ident(
+  def s "src/hobix/hobix.ml" 24 406 408 "src/hobix/hobix.ml" 24 406 434
+)
+"src/hobix/hobix.ml" 24 406 408 "src/hobix/hobix.ml" 24 406 413
+type(
+  (string -> Lexing.lexbuf) -> 'a -> 'b
+)
+ident(
+  int_ref parse "src/hobix/hobix.ml" 9 106 110 "src/hobix/hobix.ml" 9 106 115
+)
+"src/hobix/hobix.ml" 24 406 414 "src/hobix/hobix.ml" 24 406 432
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/hobix/hobix.ml" 24 406 433 "src/hobix/hobix.ml" 24 406 434
+type(
+  'a
+)
+ident(
+  int_ref s "src/hobix/hobix.ml" 23 385 402 "src/hobix/hobix.ml" 23 385 403
+)
+"src/hobix/hobix.ml" 24 406 408 "src/hobix/hobix.ml" 24 406 434
+call(
+  tail
+)
+type(
+  'b
+)
+"src/hobix/hobix.ml" 26 436 440 "src/hobix/hobix.ml" 26 436 449
+type(
+  HobixAST.definition list -> string
+)
+ident(
+  def print_ast "src/hobix/hobix.ml" 29 502 502 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 26 436 450 "src/hobix/hobix.ml" 26 436 453
+type(
+  HobixAST.definition list
+)
+ident(
+  def ast "src/hobix/hobix.ml" 27 456 458 "src/hobix/hobix.ml" 27 456 500
+)
+"src/hobix/hobix.ml" 27 456 478 "src/hobix/hobix.ml" 27 456 487
+type(
+  (HobixAST.definition list -> PPrintEngine.ToBuffer.document) ->
+  HobixAST.definition list -> string
+)
+ident(
+  ext_ref HobixPrettyPrinter.to_string
+)
+"src/hobix/hobix.ml" 27 456 488 "src/hobix/hobix.ml" 27 456 495
+type(
+  HobixAST.definition list -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref HobixPrettyPrinter.program
+)
+"src/hobix/hobix.ml" 27 456 496 "src/hobix/hobix.ml" 27 456 499
+type(
+  HobixAST.definition list
+)
+ident(
+  int_ref ast "src/hobix/hobix.ml" 26 436 450 "src/hobix/hobix.ml" 26 436 453
+)
+"src/hobix/hobix.ml" 27 456 478 "src/hobix/hobix.ml" 27 456 499
+call(
+  tail
+)
+type(
+  string
+)
+"src/hobix/hobix.ml" 29 502 506 "src/hobix/hobix.ml" 29 502 522
+type(
+  HobixAST.expression -> string
+)
+ident(
+  def print_expression "src/hobix/hobix.ml" 32 574 574 "src/hobix/hobix.ml" 1 0 -1
+)
+"src/hobix/hobix.ml" 29 502 523 "src/hobix/hobix.ml" 29 502 524
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobix.ml" 30 527 529 "src/hobix/hobix.ml" 30 527 572
+)
+"src/hobix/hobix.ml" 30 527 549 "src/hobix/hobix.ml" 30 527 558
+type(
+  (HobixAST.expression -> PPrintEngine.ToBuffer.document) ->
+  HobixAST.expression -> string
+)
+ident(
+  ext_ref HobixPrettyPrinter.to_string
+)
+"src/hobix/hobix.ml" 30 527 559 "src/hobix/hobix.ml" 30 527 569
+type(
+  HobixAST.expression -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref HobixPrettyPrinter.expression
+)
+"src/hobix/hobix.ml" 30 527 570 "src/hobix/hobix.ml" 30 527 571
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobix.ml" 29 502 523 "src/hobix/hobix.ml" 29 502 524
+)
+"src/hobix/hobix.ml" 30 527 549 "src/hobix/hobix.ml" 30 527 571
+call(
+  tail
+)
+type(
+  string
+)

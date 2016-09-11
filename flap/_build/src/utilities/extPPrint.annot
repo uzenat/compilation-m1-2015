@@ -1,0 +1,81 @@
+"src/utilities/extPPrint.ml" 5 61 65 "src/utilities/extPPrint.ml" 5 61 71
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  def ++ "src/utilities/extPPrint.ml" 5 61 95 "src/utilities/extPPrint.ml" 1 0 -1
+)
+"src/utilities/extPPrint.ml" 5 61 72 "src/utilities/extPPrint.ml" 5 61 73
+type(
+  PPrint.document
+)
+ident(
+  def x "src/utilities/extPPrint.ml" 5 61 74 "src/utilities/extPPrint.ml" 5 61 95
+)
+"src/utilities/extPPrint.ml" 5 61 74 "src/utilities/extPPrint.ml" 5 61 75
+type(
+  PPrint.document
+)
+ident(
+  def y "src/utilities/extPPrint.ml" 5 61 78 "src/utilities/extPPrint.ml" 5 61 95
+)
+"src/utilities/extPPrint.ml" 5 61 78 "src/utilities/extPPrint.ml" 5 61 79
+type(
+  PPrint.document
+)
+ident(
+  int_ref x "src/utilities/extPPrint.ml" 5 61 72 "src/utilities/extPPrint.ml" 5 61 73
+)
+"src/utilities/extPPrint.ml" 5 61 80 "src/utilities/extPPrint.ml" 5 61 82
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrint.( ^^ )
+)
+"src/utilities/extPPrint.ml" 5 61 83 "src/utilities/extPPrint.ml" 5 61 88
+type(
+  int -> PPrint.document
+)
+ident(
+  ext_ref PPrint.break
+)
+"src/utilities/extPPrint.ml" 5 61 89 "src/utilities/extPPrint.ml" 5 61 90
+type(
+  int
+)
+"src/utilities/extPPrint.ml" 5 61 83 "src/utilities/extPPrint.ml" 5 61 90
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/utilities/extPPrint.ml" 5 61 91 "src/utilities/extPPrint.ml" 5 61 93
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrint.( ^^ )
+)
+"src/utilities/extPPrint.ml" 5 61 94 "src/utilities/extPPrint.ml" 5 61 95
+type(
+  PPrint.document
+)
+ident(
+  int_ref y "src/utilities/extPPrint.ml" 5 61 74 "src/utilities/extPPrint.ml" 5 61 75
+)
+"src/utilities/extPPrint.ml" 5 61 83 "src/utilities/extPPrint.ml" 5 61 95
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/utilities/extPPrint.ml" 5 61 78 "src/utilities/extPPrint.ml" 5 61 95
+call(
+  tail
+)
+type(
+  PPrint.document
+)

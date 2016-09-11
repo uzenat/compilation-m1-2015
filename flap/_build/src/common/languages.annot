@@ -1,0 +1,157 @@
+"src/common/languages.ml" 71 2210 2214 "src/common/languages.ml" 71 2210 2223
+type(
+  (string, (module Language)) Hashtbl.t
+)
+ident(
+  def languages "src/common/languages.ml" 74 2287 2287 "src/common/languages.ml" 1 0 -1
+)
+"src/common/languages.ml" 72 2266 2268 "src/common/languages.ml" 72 2266 2282
+type(
+  ?random:bool -> int -> (string, (module Language)) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/common/languages.ml" 72 2266 2283 "src/common/languages.ml" 72 2266 2285
+type(
+  int
+)
+"src/common/languages.ml" 72 2266 2268 "src/common/languages.ml" 72 2266 2285
+call(
+  stack
+)
+type(
+  (string, (module Language)) Hashtbl.t
+)
+type(
+  (string, (module Language)) Hashtbl.t
+)
+"src/common/languages.ml" 74 2287 2291 "src/common/languages.ml" 74 2287 2294
+type(
+  string -> (module Language)
+)
+ident(
+  def get "src/common/languages.ml" 80 2455 2455 "src/common/languages.ml" 1 0 -1
+)
+"src/common/languages.ml" 74 2287 2296 "src/common/languages.ml" 74 2287 2297
+type(
+  string
+)
+ident(
+  def l "src/common/languages.ml" 74 2287 2308 "src/common/languages.ml" 78 2385 2453
+)
+"src/common/languages.ml" 76 2336 2340 "src/common/languages.ml" 76 2336 2352
+type(
+  (string, (module Language)) Hashtbl.t -> string -> (module Language)
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/common/languages.ml" 76 2336 2353 "src/common/languages.ml" 76 2336 2362
+type(
+  (string, (module Language)) Hashtbl.t
+)
+ident(
+  int_ref languages "src/common/languages.ml" 71 2210 2214 "src/common/languages.ml" 71 2210 2223
+)
+"src/common/languages.ml" 76 2336 2363 "src/common/languages.ml" 76 2336 2364
+type(
+  string
+)
+ident(
+  int_ref l "src/common/languages.ml" 74 2287 2296 "src/common/languages.ml" 74 2287 2297
+)
+"src/common/languages.ml" 76 2336 2340 "src/common/languages.ml" 76 2336 2364
+call(
+  stack
+)
+type(
+  (module Language)
+)
+"src/common/languages.ml" 77 2365 2372 "src/common/languages.ml" 77 2365 2381
+type(
+  exn
+)
+"src/common/languages.ml" 78 2385 2389 "src/common/languages.ml" 78 2385 2407
+type(
+  string -> string -> (module Language)
+)
+ident(
+  ext_ref Error.global_error
+)
+"src/common/languages.ml" 78 2385 2408 "src/common/languages.ml" 78 2385 2424
+type(
+  string
+)
+"src/common/languages.ml" 78 2385 2425 "src/common/languages.ml" 78 2385 2453
+type(
+  string
+)
+"src/common/languages.ml" 78 2385 2389 "src/common/languages.ml" 78 2385 2453
+call(
+  tail
+)
+type(
+  (module Language)
+)
+"src/common/languages.ml" 75 2330 2332 "src/common/languages.ml" 78 2385 2453
+type(
+  (module Language)
+)
+type(
+  (module Language)
+)
+"src/common/languages.ml" 80 2455 2459 "src/common/languages.ml" 80 2455 2467
+type(
+  (module Language) -> unit
+)
+ident(
+  def register "src/common/languages.ml" 81 2492 2533 "src/common/languages.ml" 1 0 -1
+)
+"src/common/languages.ml" 80 2455 2476 "src/common/languages.ml" 80 2455 2477
+type(
+  (module Language)
+)
+ident(
+  int_ref L "src/common/languages.ml" 80 2455 2468 "src/common/languages.ml" 80 2455 2489
+)
+"src/common/languages.ml" 80 2455 2468 "src/common/languages.ml" 80 2455 2489
+type(
+  (module Language)
+)
+"src/common/languages.ml" 81 2492 2494 "src/common/languages.ml" 81 2492 2505
+type(
+  (string, (module Language)) Hashtbl.t ->
+  string -> (module Language) -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/common/languages.ml" 81 2492 2506 "src/common/languages.ml" 81 2492 2515
+type(
+  (string, (module Language)) Hashtbl.t
+)
+ident(
+  int_ref languages "src/common/languages.ml" 71 2210 2214 "src/common/languages.ml" 71 2210 2223
+)
+"src/common/languages.ml" 81 2492 2516 "src/common/languages.ml" 81 2492 2522
+type(
+  string
+)
+ident(
+  int_ref L.name "src/common/languages.ml" 4 61 63 "src/common/languages.ml" 4 61 80
+)
+"src/common/languages.ml" 81 2492 2523 "src/common/languages.ml" 81 2492 2533
+type(
+  (module Language)
+)
+"src/common/languages.ml" 81 2492 2494 "src/common/languages.ml" 81 2492 2533
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)

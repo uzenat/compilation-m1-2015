@@ -1,0 +1,33 @@
+
+** Conflict (shift/reduce) in state 71.
+** Token involved: LPAREN
+** This state is reached from program after reading:
+
+VAL PREFIXID largs option(preceded(COLON,located(ty))) DEQUAL KID 
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+program 
+list(located(definition)) EOF 
+definition list(located(definition)) 
+vdefinition DOT 
+VAL PREFIXID largs option(preceded(COLON,located(ty))) DEQUAL expression 
+                                                              (?)
+
+** In state 71, looking ahead at LPAREN, reducing production
+** feuille -> KID 
+** is permitted because of the following sub-derivation:
+
+simple_expression 
+simple_expression record_champ // lookahead token appears because record_champ can begin with LPAREN
+record_champ // lookahead token is inherited
+mega_simple // lookahead token is inherited
+feuille // lookahead token is inherited
+KID . 
+
+** In state 71, looking ahead at LPAREN, shifting is permitted
+** because of the following sub-derivation:
+
+KID nonepsilon_list(LPAREN,COMMA,located(expression),RPAREN) 
+    . LPAREN separated_nonempty_list(COMMA,located(expression)) RPAREN 

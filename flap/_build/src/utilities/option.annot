@@ -1,0 +1,141 @@
+"src/utilities/option.ml" 1 0 4 "src/utilities/option.ml" 1 0 7
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def map "src/utilities/option.ml" 5 64 64 "src/utilities/option.ml" 1 0 -1
+)
+"src/utilities/option.ml" 1 0 8 "src/utilities/option.ml" 1 0 9
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/utilities/option.ml" 1 0 12 "src/utilities/option.ml" 3 38 62
+)
+"src/utilities/option.ml" 2 21 25 "src/utilities/option.ml" 2 21 29
+type(
+  'a option
+)
+"src/utilities/option.ml" 2 21 33 "src/utilities/option.ml" 2 21 37
+type(
+  'b option
+)
+"src/utilities/option.ml" 3 38 47 "src/utilities/option.ml" 3 38 48
+type(
+  'a
+)
+ident(
+  def x "src/utilities/option.ml" 3 38 52 "src/utilities/option.ml" 3 38 62
+)
+"src/utilities/option.ml" 3 38 42 "src/utilities/option.ml" 3 38 48
+type(
+  'a option
+)
+"src/utilities/option.ml" 3 38 58 "src/utilities/option.ml" 3 38 59
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/utilities/option.ml" 1 0 8 "src/utilities/option.ml" 1 0 9
+)
+"src/utilities/option.ml" 3 38 60 "src/utilities/option.ml" 3 38 61
+type(
+  'a
+)
+ident(
+  int_ref x "src/utilities/option.ml" 3 38 47 "src/utilities/option.ml" 3 38 48
+)
+"src/utilities/option.ml" 3 38 57 "src/utilities/option.ml" 3 38 62
+call(
+  stack
+)
+type(
+  'b
+)
+"src/utilities/option.ml" 3 38 52 "src/utilities/option.ml" 3 38 62
+type(
+  'b option
+)
+"src/utilities/option.ml" 1 0 12 "src/utilities/option.ml" 3 38 62
+type(
+  'a option -> 'b option
+)
+"src/utilities/option.ml" 5 64 68 "src/utilities/option.ml" 5 64 76
+type(
+  (unit -> 'a) -> ('b -> 'a) -> 'b option -> 'a
+)
+ident(
+  def destruct "src/utilities/option.ml" 7 121 138 "src/utilities/option.ml" 1 0 -1
+)
+"src/utilities/option.ml" 5 64 77 "src/utilities/option.ml" 5 64 84
+type(
+  unit -> 'a
+)
+ident(
+  def default "src/utilities/option.ml" 5 64 85 "src/utilities/option.ml" 7 121 138
+)
+"src/utilities/option.ml" 5 64 85 "src/utilities/option.ml" 5 64 86
+type(
+  'b -> 'a
+)
+ident(
+  def f "src/utilities/option.ml" 5 64 89 "src/utilities/option.ml" 7 121 138
+)
+"src/utilities/option.ml" 6 98 102 "src/utilities/option.ml" 6 98 106
+type(
+  'b option
+)
+"src/utilities/option.ml" 6 98 110 "src/utilities/option.ml" 6 98 117
+type(
+  unit -> 'a
+)
+ident(
+  int_ref default "src/utilities/option.ml" 5 64 77 "src/utilities/option.ml" 5 64 84
+)
+"src/utilities/option.ml" 6 98 118 "src/utilities/option.ml" 6 98 120
+type(
+  unit
+)
+"src/utilities/option.ml" 6 98 110 "src/utilities/option.ml" 6 98 120
+call(
+  tail
+)
+type(
+  'a
+)
+"src/utilities/option.ml" 7 121 130 "src/utilities/option.ml" 7 121 131
+type(
+  'b
+)
+ident(
+  def x "src/utilities/option.ml" 7 121 135 "src/utilities/option.ml" 7 121 138
+)
+"src/utilities/option.ml" 7 121 125 "src/utilities/option.ml" 7 121 131
+type(
+  'b option
+)
+"src/utilities/option.ml" 7 121 135 "src/utilities/option.ml" 7 121 136
+type(
+  'b -> 'a
+)
+ident(
+  int_ref f "src/utilities/option.ml" 5 64 85 "src/utilities/option.ml" 5 64 86
+)
+"src/utilities/option.ml" 7 121 137 "src/utilities/option.ml" 7 121 138
+type(
+  'b
+)
+ident(
+  int_ref x "src/utilities/option.ml" 7 121 130 "src/utilities/option.ml" 7 121 131
+)
+"src/utilities/option.ml" 7 121 135 "src/utilities/option.ml" 7 121 138
+call(
+  tail
+)
+type(
+  'a
+)
+"src/utilities/option.ml" 5 64 89 "src/utilities/option.ml" 7 121 138
+type(
+  'b option -> 'a
+)

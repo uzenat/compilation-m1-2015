@@ -1,0 +1,223 @@
+"src/utilities/int16.ml" 7 169 173 "src/utilities/int16.ml" 7 169 188
+type(
+  'a -> 'b
+)
+ident(
+  def check_invariant "src/utilities/int16.ml" 11 295 295 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 7 169 189 "src/utilities/int16.ml" 7 169 190
+type(
+  'a
+)
+ident(
+  def x "src/utilities/int16.ml" 8 193 195 "src/utilities/int16.ml" 8 193 233
+)
+"src/utilities/int16.ml" 8 193 195 "src/utilities/int16.ml" 8 193 203
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/utilities/int16.ml" 8 193 204 "src/utilities/int16.ml" 8 193 233
+type(
+  string
+)
+"src/utilities/int16.ml" 8 193 195 "src/utilities/int16.ml" 8 193 233
+call(
+  tail
+)
+type(
+  'b
+)
+"src/utilities/int16.ml" 11 295 299 "src/utilities/int16.ml" 11 295 301
+type(
+  'a -> 'b
+)
+ident(
+  def hi "src/utilities/int16.ml" 15 409 409 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 11 295 302 "src/utilities/int16.ml" 11 295 303
+type(
+  'a
+)
+ident(
+  def x "src/utilities/int16.ml" 12 306 308 "src/utilities/int16.ml" 12 306 346
+)
+"src/utilities/int16.ml" 12 306 308 "src/utilities/int16.ml" 12 306 316
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/utilities/int16.ml" 12 306 317 "src/utilities/int16.ml" 12 306 346
+type(
+  string
+)
+"src/utilities/int16.ml" 12 306 308 "src/utilities/int16.ml" 12 306 346
+call(
+  tail
+)
+type(
+  'b
+)
+"src/utilities/int16.ml" 15 409 413 "src/utilities/int16.ml" 15 409 416
+type(
+  'a -> 'b
+)
+ident(
+  def low "src/utilities/int16.ml" 19 536 536 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 15 409 417 "src/utilities/int16.ml" 15 409 418
+type(
+  'a
+)
+ident(
+  def x "src/utilities/int16.ml" 16 421 423 "src/utilities/int16.ml" 16 421 461
+)
+"src/utilities/int16.ml" 16 421 423 "src/utilities/int16.ml" 16 421 431
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/utilities/int16.ml" 16 421 432 "src/utilities/int16.ml" 16 421 461
+type(
+  string
+)
+"src/utilities/int16.ml" 16 421 423 "src/utilities/int16.ml" 16 421 461
+call(
+  tail
+)
+type(
+  'b
+)
+"src/utilities/int16.ml" 19 536 540 "src/utilities/int16.ml" 19 536 546
+type(
+  'a -> 'a
+)
+ident(
+  def of_int "src/utilities/int16.ml" 24 652 652 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 19 536 547 "src/utilities/int16.ml" 19 536 548
+type(
+  'a
+)
+ident(
+  def x "src/utilities/int16.ml" 20 551 553 "src/utilities/int16.ml" 21 572 575
+)
+"src/utilities/int16.ml" 20 551 553 "src/utilities/int16.ml" 20 551 568
+type(
+  'a -> '_b
+)
+ident(
+  int_ref check_invariant "src/utilities/int16.ml" 7 169 173 "src/utilities/int16.ml" 7 169 188
+)
+"src/utilities/int16.ml" 20 551 569 "src/utilities/int16.ml" 20 551 570
+type(
+  'a
+)
+ident(
+  int_ref x "src/utilities/int16.ml" 19 536 547 "src/utilities/int16.ml" 19 536 548
+)
+"src/utilities/int16.ml" 20 551 553 "src/utilities/int16.ml" 20 551 570
+call(
+  stack
+)
+type(
+  '_b
+)
+"src/utilities/int16.ml" 21 572 574 "src/utilities/int16.ml" 21 572 575
+type(
+  'a
+)
+ident(
+  int_ref x "src/utilities/int16.ml" 19 536 547 "src/utilities/int16.ml" 19 536 548
+)
+"src/utilities/int16.ml" 20 551 553 "src/utilities/int16.ml" 21 572 575
+type(
+  'a
+)
+"src/utilities/int16.ml" 24 652 656 "src/utilities/int16.ml" 24 652 664
+type(
+  int32 -> int
+)
+ident(
+  def of_int32 "src/utilities/int16.ml" 28 753 753 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 24 652 665 "src/utilities/int16.ml" 24 652 666
+type(
+  int32
+)
+ident(
+  def x "src/utilities/int16.ml" 25 669 671 "src/utilities/int16.ml" 25 669 694
+)
+"src/utilities/int16.ml" 25 669 671 "src/utilities/int16.ml" 25 669 677
+type(
+  int -> int
+)
+ident(
+  int_ref of_int "src/utilities/int16.ml" 19 536 540 "src/utilities/int16.ml" 19 536 546
+)
+"src/utilities/int16.ml" 25 669 679 "src/utilities/int16.ml" 25 669 691
+type(
+  int32 -> int
+)
+ident(
+  ext_ref Int32.to_int
+)
+"src/utilities/int16.ml" 25 669 692 "src/utilities/int16.ml" 25 669 693
+type(
+  int32
+)
+ident(
+  int_ref x "src/utilities/int16.ml" 24 652 665 "src/utilities/int16.ml" 24 652 666
+)
+"src/utilities/int16.ml" 25 669 678 "src/utilities/int16.ml" 25 669 694
+type(
+  int
+)
+"src/utilities/int16.ml" 25 669 671 "src/utilities/int16.ml" 25 669 694
+call(
+  tail
+)
+type(
+  int
+)
+"src/utilities/int16.ml" 28 753 757 "src/utilities/int16.ml" 28 753 766
+type(
+  int -> string
+)
+ident(
+  def to_string "src/utilities/int16.ml" 29 771 788 "src/utilities/int16.ml" 1 0 -1
+)
+"src/utilities/int16.ml" 28 753 767 "src/utilities/int16.ml" 28 753 768
+type(
+  int
+)
+ident(
+  def x "src/utilities/int16.ml" 29 771 773 "src/utilities/int16.ml" 29 771 788
+)
+"src/utilities/int16.ml" 29 771 773 "src/utilities/int16.ml" 29 771 786
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities/int16.ml" 29 771 787 "src/utilities/int16.ml" 29 771 788
+type(
+  int
+)
+ident(
+  int_ref x "src/utilities/int16.ml" 28 753 767 "src/utilities/int16.ml" 28 753 768
+)
+"src/utilities/int16.ml" 29 771 773 "src/utilities/int16.ml" 29 771 788
+call(
+  tail
+)
+type(
+  string
+)

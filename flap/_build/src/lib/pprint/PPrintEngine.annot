@@ -1,0 +1,5557 @@
+"src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+type(
+  requirement
+)
+ident(
+  def infinity "src/lib/pprint/PPrintEngine.ml" 28 1219 1219 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 24 1165 1167 "src/lib/pprint/PPrintEngine.ml" 24 1165 1174
+type(
+  requirement
+)
+type(
+  requirement
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"src/lib/pprint/PPrintEngine.ml" 28 1219 1223 "src/lib/pprint/PPrintEngine.ml" 28 1219 1227
+type(
+  requirement -> requirement -> requirement
+)
+ident(
+  def ++ "src/lib/pprint/PPrintEngine.ml" 36 1423 1423 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 28 1219 1229 "src/lib/pprint/PPrintEngine.ml" 28 1219 1230
+type(
+  requirement
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 28 1219 1246 "src/lib/pprint/PPrintEngine.ml" 32 1339 1348
+)
+"src/lib/pprint/PPrintEngine.ml" 28 1219 1247 "src/lib/pprint/PPrintEngine.ml" 28 1219 1248
+type(
+  requirement
+)
+ident(
+  def y "src/lib/pprint/PPrintEngine.ml" 28 1219 1264 "src/lib/pprint/PPrintEngine.ml" 32 1339 1348
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1285 "src/lib/pprint/PPrintEngine.ml" 29 1280 1286
+type(
+  requirement
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 28 1219 1229 "src/lib/pprint/PPrintEngine.ml" 28 1219 1230
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1287 "src/lib/pprint/PPrintEngine.ml" 29 1280 1288
+type(
+  requirement -> requirement -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1289 "src/lib/pprint/PPrintEngine.ml" 29 1280 1297
+type(
+  requirement
+)
+ident(
+  int_ref infinity "src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1285 "src/lib/pprint/PPrintEngine.ml" 29 1280 1297
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1298 "src/lib/pprint/PPrintEngine.ml" 29 1280 1300
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1301 "src/lib/pprint/PPrintEngine.ml" 29 1280 1302
+type(
+  requirement
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 28 1219 1247 "src/lib/pprint/PPrintEngine.ml" 28 1219 1248
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1303 "src/lib/pprint/PPrintEngine.ml" 29 1280 1304
+type(
+  requirement -> requirement -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1305 "src/lib/pprint/PPrintEngine.ml" 29 1280 1313
+type(
+  requirement
+)
+ident(
+  int_ref infinity "src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1301 "src/lib/pprint/PPrintEngine.ml" 29 1280 1313
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1285 "src/lib/pprint/PPrintEngine.ml" 29 1280 1313
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 30 1319 1323 "src/lib/pprint/PPrintEngine.ml" 30 1319 1331
+type(
+  requirement
+)
+ident(
+  int_ref infinity "src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+)
+"src/lib/pprint/PPrintEngine.ml" 32 1339 1343 "src/lib/pprint/PPrintEngine.ml" 32 1339 1344
+type(
+  requirement
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 28 1219 1229 "src/lib/pprint/PPrintEngine.ml" 28 1219 1230
+)
+"src/lib/pprint/PPrintEngine.ml" 32 1339 1345 "src/lib/pprint/PPrintEngine.ml" 32 1339 1346
+type(
+  requirement -> requirement -> requirement
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 32 1339 1347 "src/lib/pprint/PPrintEngine.ml" 32 1339 1348
+type(
+  requirement
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 28 1219 1247 "src/lib/pprint/PPrintEngine.ml" 28 1219 1248
+)
+"src/lib/pprint/PPrintEngine.ml" 32 1339 1343 "src/lib/pprint/PPrintEngine.ml" 32 1339 1348
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 29 1280 1282 "src/lib/pprint/PPrintEngine.ml" 32 1339 1348
+type(
+  requirement
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 36 1423 1427 "src/lib/pprint/PPrintEngine.ml" 36 1423 1432
+type(
+  requirement -> int -> bool
+)
+ident(
+  def <== "src/lib/pprint/PPrintEngine.ml" 43 1602 1602 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 36 1423 1434 "src/lib/pprint/PPrintEngine.ml" 36 1423 1435
+type(
+  requirement
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 36 1423 1451 "src/lib/pprint/PPrintEngine.ml" 37 1463 1471
+)
+"src/lib/pprint/PPrintEngine.ml" 36 1423 1452 "src/lib/pprint/PPrintEngine.ml" 36 1423 1453
+type(
+  int
+)
+ident(
+  def y "src/lib/pprint/PPrintEngine.ml" 37 1463 1465 "src/lib/pprint/PPrintEngine.ml" 37 1463 1471
+)
+"src/lib/pprint/PPrintEngine.ml" 37 1463 1465 "src/lib/pprint/PPrintEngine.ml" 37 1463 1466
+type(
+  requirement
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 36 1423 1434 "src/lib/pprint/PPrintEngine.ml" 36 1423 1435
+)
+"src/lib/pprint/PPrintEngine.ml" 37 1463 1467 "src/lib/pprint/PPrintEngine.ml" 37 1463 1469
+type(
+  requirement -> requirement -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lib/pprint/PPrintEngine.ml" 37 1463 1470 "src/lib/pprint/PPrintEngine.ml" 37 1463 1471
+type(
+  requirement
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 36 1423 1452 "src/lib/pprint/PPrintEngine.ml" 36 1423 1453
+)
+"src/lib/pprint/PPrintEngine.ml" 37 1463 1465 "src/lib/pprint/PPrintEngine.ml" 37 1463 1471
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 58 2104 2125 "src/lib/pprint/PPrintEngine.ml" 58 2104 2132
+type(
+  out_channel
+)
+"src/lib/pprint/PPrintEngine.ml" 59 2142 2158 "src/lib/pprint/PPrintEngine.ml" 59 2142 2169
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"src/lib/pprint/PPrintEngine.ml" 59 2142 2170 "src/lib/pprint/PPrintEngine.ml" 59 2142 2177
+type(
+  out_channel
+)
+ident(
+  int_ref channel "src/lib/pprint/PPrintEngine.ml" 58 2104 2125 "src/lib/pprint/PPrintEngine.ml" 58 2104 2132
+)
+"src/lib/pprint/PPrintEngine.ml" 59 2142 2158 "src/lib/pprint/PPrintEngine.ml" 59 2142 2177
+type(
+  char -> unit
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 60 2178 2199 "src/lib/pprint/PPrintEngine.ml" 60 2178 2205
+type(
+  out_channel -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"src/lib/pprint/PPrintEngine.ml" 60 2178 2206 "src/lib/pprint/PPrintEngine.ml" 60 2178 2213
+type(
+  out_channel
+)
+ident(
+  int_ref channel "src/lib/pprint/PPrintEngine.ml" 58 2104 2125 "src/lib/pprint/PPrintEngine.ml" 58 2104 2132
+)
+"src/lib/pprint/PPrintEngine.ml" 60 2178 2199 "src/lib/pprint/PPrintEngine.ml" 60 2178 2213
+type(
+  bytes -> int -> int -> unit
+)
+type(
+  bytes -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 63 2219 2239 "src/lib/pprint/PPrintEngine.ml" 63 2219 2245
+type(
+  Buffer.t
+)
+"src/lib/pprint/PPrintEngine.ml" 64 2255 2271 "src/lib/pprint/PPrintEngine.ml" 64 2255 2286
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/lib/pprint/PPrintEngine.ml" 64 2255 2287 "src/lib/pprint/PPrintEngine.ml" 64 2255 2293
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lib/pprint/PPrintEngine.ml" 63 2219 2239 "src/lib/pprint/PPrintEngine.ml" 63 2219 2245
+)
+"src/lib/pprint/PPrintEngine.ml" 64 2255 2271 "src/lib/pprint/PPrintEngine.ml" 64 2255 2293
+type(
+  char -> unit
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 65 2294 2315 "src/lib/pprint/PPrintEngine.ml" 65 2294 2335
+type(
+  Buffer.t -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Buffer.add_substring
+)
+"src/lib/pprint/PPrintEngine.ml" 65 2294 2336 "src/lib/pprint/PPrintEngine.ml" 65 2294 2342
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lib/pprint/PPrintEngine.ml" 63 2219 2239 "src/lib/pprint/PPrintEngine.ml" 63 2219 2245
+)
+"src/lib/pprint/PPrintEngine.ml" 65 2294 2315 "src/lib/pprint/PPrintEngine.ml" 65 2294 2342
+type(
+  string -> int -> int -> unit
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 68 2348 2371 "src/lib/pprint/PPrintEngine.ml" 68 2348 2374
+type(
+  Format.formatter
+)
+"src/lib/pprint/PPrintEngine.ml" 69 2384 2400 "src/lib/pprint/PPrintEngine.ml" 69 2384 2420
+type(
+  Format.formatter -> char -> unit
+)
+ident(
+  ext_ref Format.pp_print_char
+)
+"src/lib/pprint/PPrintEngine.ml" 69 2384 2421 "src/lib/pprint/PPrintEngine.ml" 69 2384 2424
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/lib/pprint/PPrintEngine.ml" 68 2348 2371 "src/lib/pprint/PPrintEngine.ml" 68 2348 2374
+)
+"src/lib/pprint/PPrintEngine.ml" 69 2384 2400 "src/lib/pprint/PPrintEngine.ml" 69 2384 2424
+type(
+  char -> unit
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2446 "src/lib/pprint/PPrintEngine.ml" 70 2425 2449
+type(
+  (string -> int -> int -> unit) * (unit -> unit) ->
+  string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2451 "src/lib/pprint/PPrintEngine.ml" 70 2425 2491
+type(
+  Format.formatter -> unit -> (string -> int -> int -> unit) * (unit -> unit)
+)
+ident(
+  ext_ref Format.pp_get_formatter_output_functions
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2492 "src/lib/pprint/PPrintEngine.ml" 70 2425 2495
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "src/lib/pprint/PPrintEngine.ml" 68 2348 2371 "src/lib/pprint/PPrintEngine.ml" 68 2348 2374
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2496 "src/lib/pprint/PPrintEngine.ml" 70 2425 2498
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2450 "src/lib/pprint/PPrintEngine.ml" 70 2425 2499
+call(
+  stack
+)
+type(
+  (string -> int -> int -> unit) * (unit -> unit)
+)
+"src/lib/pprint/PPrintEngine.ml" 70 2425 2446 "src/lib/pprint/PPrintEngine.ml" 70 2425 2499
+type(
+  string -> int -> int -> unit
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 106 3723 3727 "src/lib/pprint/PPrintEngine.ml" 106 3723 3734
+type(
+  float -> int -> state
+)
+ident(
+  def initial "src/lib/pprint/PPrintEngine.ml" 115 3955 3955 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 106 3723 3735 "src/lib/pprint/PPrintEngine.ml" 106 3723 3740
+type(
+  float
+)
+ident(
+  def rfrac "src/lib/pprint/PPrintEngine.ml" 106 3723 3741 "src/lib/pprint/PPrintEngine.ml" 111 3871 3872
+)
+"src/lib/pprint/PPrintEngine.ml" 106 3723 3741 "src/lib/pprint/PPrintEngine.ml" 106 3723 3746
+type(
+  int
+)
+ident(
+  def width "src/lib/pprint/PPrintEngine.ml" 106 3723 3749 "src/lib/pprint/PPrintEngine.ml" 111 3871 3872
+)
+"src/lib/pprint/PPrintEngine.ml" 107 3751 3761 "src/lib/pprint/PPrintEngine.ml" 107 3751 3766
+type(
+  int
+)
+ident(
+  int_ref width "src/lib/pprint/PPrintEngine.ml" 106 3723 3741 "src/lib/pprint/PPrintEngine.ml" 106 3723 3746
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3779 "src/lib/pprint/PPrintEngine.ml" 108 3768 3782
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3783 "src/lib/pprint/PPrintEngine.ml" 108 3768 3784
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3786 "src/lib/pprint/PPrintEngine.ml" 108 3768 3789
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3790 "src/lib/pprint/PPrintEngine.ml" 108 3768 3795
+type(
+  int
+)
+ident(
+  int_ref width "src/lib/pprint/PPrintEngine.ml" 106 3723 3741 "src/lib/pprint/PPrintEngine.ml" 106 3723 3746
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3797 "src/lib/pprint/PPrintEngine.ml" 108 3768 3805
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3807 "src/lib/pprint/PPrintEngine.ml" 108 3768 3819
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3820 "src/lib/pprint/PPrintEngine.ml" 108 3768 3825
+type(
+  int
+)
+ident(
+  int_ref width "src/lib/pprint/PPrintEngine.ml" 106 3723 3741 "src/lib/pprint/PPrintEngine.ml" 106 3723 3746
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3807 "src/lib/pprint/PPrintEngine.ml" 108 3768 3825
+type(
+  float
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3826 "src/lib/pprint/PPrintEngine.ml" 108 3768 3828
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3829 "src/lib/pprint/PPrintEngine.ml" 108 3768 3834
+type(
+  float
+)
+ident(
+  int_ref rfrac "src/lib/pprint/PPrintEngine.ml" 106 3723 3735 "src/lib/pprint/PPrintEngine.ml" 106 3723 3740
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3806 "src/lib/pprint/PPrintEngine.ml" 108 3768 3835
+type(
+  float
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3796 "src/lib/pprint/PPrintEngine.ml" 108 3768 3836
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3785 "src/lib/pprint/PPrintEngine.ml" 108 3768 3837
+call(
+  stack
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 108 3768 3779 "src/lib/pprint/PPrintEngine.ml" 108 3768 3837
+call(
+  stack
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 109 3839 3855 "src/lib/pprint/PPrintEngine.ml" 109 3839 3856
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 110 3858 3869 "src/lib/pprint/PPrintEngine.ml" 110 3858 3870
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 106 3723 3749 "src/lib/pprint/PPrintEngine.ml" 111 3871 3872
+type(
+  state
+)
+"src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+type(
+  document -> requirement
+)
+ident(
+  def requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9895 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 251 9926 9930 "src/lib/pprint/PPrintEngine.ml" 251 9926 9935
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 252 9939 9945 "src/lib/pprint/PPrintEngine.ml" 252 9939 9946
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 253 9947 9956 "src/lib/pprint/PPrintEngine.ml" 253 9947 9957
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 253 9947 9951 "src/lib/pprint/PPrintEngine.ml" 253 9947 9957
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 254 9961 9967 "src/lib/pprint/PPrintEngine.ml" 254 9961 9968
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9981 "src/lib/pprint/PPrintEngine.ml" 255 9969 9982
+type(
+  string
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9984 "src/lib/pprint/PPrintEngine.ml" 255 9969 9985
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9987 "src/lib/pprint/PPrintEngine.ml" 255 9969 9990
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 258 10040 10046 "src/lib/pprint/PPrintEngine.ml" 258 10040 10049
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9973 "src/lib/pprint/PPrintEngine.ml" 255 9969 9991
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 256 9992 10009 "src/lib/pprint/PPrintEngine.ml" 256 9992 10010
+type(
+  string
+)
+"src/lib/pprint/PPrintEngine.ml" 256 9992 10012 "src/lib/pprint/PPrintEngine.ml" 256 9992 10013
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 256 9992 10015 "src/lib/pprint/PPrintEngine.ml" 256 9992 10016
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 256 9992 10018 "src/lib/pprint/PPrintEngine.ml" 256 9992 10021
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 258 10040 10046 "src/lib/pprint/PPrintEngine.ml" 258 10040 10049
+)
+"src/lib/pprint/PPrintEngine.ml" 256 9992 9996 "src/lib/pprint/PPrintEngine.ml" 256 9992 10022
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9973 "src/lib/pprint/PPrintEngine.ml" 256 9992 10022
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 257 10023 10033 "src/lib/pprint/PPrintEngine.ml" 257 10023 10036
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 258 10040 10046 "src/lib/pprint/PPrintEngine.ml" 258 10040 10049
+)
+"src/lib/pprint/PPrintEngine.ml" 257 10023 10027 "src/lib/pprint/PPrintEngine.ml" 257 10023 10036
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 255 9969 9973 "src/lib/pprint/PPrintEngine.ml" 257 10023 10036
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 258 10040 10046 "src/lib/pprint/PPrintEngine.ml" 258 10040 10049
+type(
+  requirement
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 255 9969 9987 "src/lib/pprint/PPrintEngine.ml" 255 9969 9990
+)
+"src/lib/pprint/PPrintEngine.ml" 259 10050 10062 "src/lib/pprint/PPrintEngine.ml" 259 10050 10066
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 265 10429 10435 "src/lib/pprint/PPrintEngine.ml" 265 10429 10451
+)
+"src/lib/pprint/PPrintEngine.ml" 259 10050 10068 "src/lib/pprint/PPrintEngine.ml" 259 10050 10069
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 259 10050 10054 "src/lib/pprint/PPrintEngine.ml" 259 10050 10070
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 265 10429 10435 "src/lib/pprint/PPrintEngine.ml" 265 10429 10446
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 265 10429 10447 "src/lib/pprint/PPrintEngine.ml" 265 10429 10451
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 259 10050 10062 "src/lib/pprint/PPrintEngine.ml" 259 10050 10066
+)
+"src/lib/pprint/PPrintEngine.ml" 265 10429 10435 "src/lib/pprint/PPrintEngine.ml" 265 10429 10451
+call(
+  tail
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 266 10452 10456 "src/lib/pprint/PPrintEngine.ml" 266 10452 10464
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 268 10530 10536 "src/lib/pprint/PPrintEngine.ml" 268 10530 10544
+type(
+  requirement
+)
+ident(
+  int_ref infinity "src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10554 "src/lib/pprint/PPrintEngine.ml" 269 10545 10557
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 276 10798 10804 "src/lib/pprint/PPrintEngine.ml" 276 10798 10807
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10559 "src/lib/pprint/PPrintEngine.ml" 269 10545 10560
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10562 "src/lib/pprint/PPrintEngine.ml" 269 10545 10563
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10549 "src/lib/pprint/PPrintEngine.ml" 269 10545 10564
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 270 10565 10575 "src/lib/pprint/PPrintEngine.ml" 270 10565 10578
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 276 10798 10804 "src/lib/pprint/PPrintEngine.ml" 276 10798 10807
+)
+"src/lib/pprint/PPrintEngine.ml" 270 10565 10580 "src/lib/pprint/PPrintEngine.ml" 270 10565 10581
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 270 10565 10583 "src/lib/pprint/PPrintEngine.ml" 270 10565 10584
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 270 10565 10569 "src/lib/pprint/PPrintEngine.ml" 270 10565 10585
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10549 "src/lib/pprint/PPrintEngine.ml" 270 10565 10585
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 271 10586 10597 "src/lib/pprint/PPrintEngine.ml" 271 10586 10600
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 276 10798 10804 "src/lib/pprint/PPrintEngine.ml" 276 10798 10807
+)
+"src/lib/pprint/PPrintEngine.ml" 271 10586 10602 "src/lib/pprint/PPrintEngine.ml" 271 10586 10603
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 271 10586 10590 "src/lib/pprint/PPrintEngine.ml" 271 10586 10604
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10549 "src/lib/pprint/PPrintEngine.ml" 271 10586 10604
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 272 10606 10617 "src/lib/pprint/PPrintEngine.ml" 272 10606 10620
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 276 10798 10804 "src/lib/pprint/PPrintEngine.ml" 276 10798 10807
+)
+"src/lib/pprint/PPrintEngine.ml" 272 10606 10622 "src/lib/pprint/PPrintEngine.ml" 272 10606 10623
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 272 10606 10610 "src/lib/pprint/PPrintEngine.ml" 272 10606 10624
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 269 10545 10549 "src/lib/pprint/PPrintEngine.ml" 272 10606 10624
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 276 10798 10804 "src/lib/pprint/PPrintEngine.ml" 276 10798 10807
+type(
+  requirement
+)
+ident(
+  int_ref req "src/lib/pprint/PPrintEngine.ml" 269 10545 10554 "src/lib/pprint/PPrintEngine.ml" 269 10545 10557
+)
+"src/lib/pprint/PPrintEngine.ml" 277 10808 10819 "src/lib/pprint/PPrintEngine.ml" 277 10808 10820
+type(
+  custom
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 278 10824 10830 "src/lib/pprint/PPrintEngine.ml" 278 10824 10843
+)
+"src/lib/pprint/PPrintEngine.ml" 277 10808 10812 "src/lib/pprint/PPrintEngine.ml" 277 10808 10820
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 278 10824 10830 "src/lib/pprint/PPrintEngine.ml" 278 10824 10831
+type(
+  custom
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 277 10808 10819 "src/lib/pprint/PPrintEngine.ml" 277 10808 10820
+)
+"src/lib/pprint/PPrintEngine.ml" 278 10824 10830 "src/lib/pprint/PPrintEngine.ml" 278 10824 10843
+call(
+  tail
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 250 9895 9917 "src/lib/pprint/PPrintEngine.ml" 278 10824 10843
+type(
+  document -> requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 286 11139 11143 "src/lib/pprint/PPrintEngine.ml" 286 11139 11148
+type(
+  document
+)
+ident(
+  def empty "src/lib/pprint/PPrintEngine.ml" 289 11160 11160 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 287 11151 11153 "src/lib/pprint/PPrintEngine.ml" 287 11151 11158
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 289 11160 11164 "src/lib/pprint/PPrintEngine.ml" 289 11160 11168
+type(
+  char -> document
+)
+ident(
+  def char "src/lib/pprint/PPrintEngine.ml" 293 11205 11205 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 289 11160 11169 "src/lib/pprint/PPrintEngine.ml" 289 11160 11170
+type(
+  char
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 290 11173 11175 "src/lib/pprint/PPrintEngine.ml" 291 11195 11203
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11183 "src/lib/pprint/PPrintEngine.ml" 290 11173 11184
+type(
+  char
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 289 11160 11169 "src/lib/pprint/PPrintEngine.ml" 289 11160 11170
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11185 "src/lib/pprint/PPrintEngine.ml" 290 11173 11187
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11188 "src/lib/pprint/PPrintEngine.ml" 290 11173 11192
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11182 "src/lib/pprint/PPrintEngine.ml" 290 11173 11193
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11175 "src/lib/pprint/PPrintEngine.ml" 290 11173 11193
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 291 11195 11202 "src/lib/pprint/PPrintEngine.ml" 291 11195 11203
+type(
+  char
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 289 11160 11169 "src/lib/pprint/PPrintEngine.ml" 289 11160 11170
+)
+"src/lib/pprint/PPrintEngine.ml" 291 11195 11197 "src/lib/pprint/PPrintEngine.ml" 291 11195 11203
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 290 11173 11175 "src/lib/pprint/PPrintEngine.ml" 291 11195 11203
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 293 11205 11209 "src/lib/pprint/PPrintEngine.ml" 293 11205 11214
+type(
+  document
+)
+ident(
+  def space "src/lib/pprint/PPrintEngine.ml" 296 11229 11229 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 294 11217 11219 "src/lib/pprint/PPrintEngine.ml" 294 11217 11223
+type(
+  char -> document
+)
+ident(
+  int_ref char "src/lib/pprint/PPrintEngine.ml" 289 11160 11164 "src/lib/pprint/PPrintEngine.ml" 289 11160 11168
+)
+"src/lib/pprint/PPrintEngine.ml" 294 11217 11224 "src/lib/pprint/PPrintEngine.ml" 294 11217 11227
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 294 11217 11219 "src/lib/pprint/PPrintEngine.ml" 294 11217 11227
+call(
+  stack
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 296 11229 11233 "src/lib/pprint/PPrintEngine.ml" 296 11229 11242
+type(
+  string -> int -> int -> document
+)
+ident(
+  def substring "src/lib/pprint/PPrintEngine.ml" 302 11316 11316 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 296 11229 11243 "src/lib/pprint/PPrintEngine.ml" 296 11229 11244
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 296 11229 11245 "src/lib/pprint/PPrintEngine.ml" 300 11290 11314
+)
+"src/lib/pprint/PPrintEngine.ml" 296 11229 11245 "src/lib/pprint/PPrintEngine.ml" 296 11229 11248
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 296 11229 11249 "src/lib/pprint/PPrintEngine.ml" 300 11290 11314
+)
+"src/lib/pprint/PPrintEngine.ml" 296 11229 11249 "src/lib/pprint/PPrintEngine.ml" 296 11229 11252
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 297 11255 11257 "src/lib/pprint/PPrintEngine.ml" 300 11290 11314
+)
+"src/lib/pprint/PPrintEngine.ml" 297 11255 11260 "src/lib/pprint/PPrintEngine.ml" 297 11255 11263
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 296 11229 11249 "src/lib/pprint/PPrintEngine.ml" 296 11229 11252
+)
+"src/lib/pprint/PPrintEngine.ml" 297 11255 11264 "src/lib/pprint/PPrintEngine.ml" 297 11255 11265
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintEngine.ml" 297 11255 11266 "src/lib/pprint/PPrintEngine.ml" 297 11255 11267
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 297 11255 11260 "src/lib/pprint/PPrintEngine.ml" 297 11255 11267
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 298 11273 11277 "src/lib/pprint/PPrintEngine.ml" 298 11273 11282
+type(
+  document
+)
+ident(
+  int_ref empty "src/lib/pprint/PPrintEngine.ml" 286 11139 11143 "src/lib/pprint/PPrintEngine.ml" 286 11139 11148
+)
+"src/lib/pprint/PPrintEngine.ml" 300 11290 11302 "src/lib/pprint/PPrintEngine.ml" 300 11290 11303
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 296 11229 11243 "src/lib/pprint/PPrintEngine.ml" 296 11229 11244
+)
+"src/lib/pprint/PPrintEngine.ml" 300 11290 11305 "src/lib/pprint/PPrintEngine.ml" 300 11290 11308
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 296 11229 11245 "src/lib/pprint/PPrintEngine.ml" 296 11229 11248
+)
+"src/lib/pprint/PPrintEngine.ml" 300 11290 11310 "src/lib/pprint/PPrintEngine.ml" 300 11290 11313
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 296 11229 11249 "src/lib/pprint/PPrintEngine.ml" 296 11229 11252
+)
+"src/lib/pprint/PPrintEngine.ml" 300 11290 11294 "src/lib/pprint/PPrintEngine.ml" 300 11290 11314
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 297 11255 11257 "src/lib/pprint/PPrintEngine.ml" 300 11290 11314
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 302 11316 11320 "src/lib/pprint/PPrintEngine.ml" 302 11316 11326
+type(
+  string -> document
+)
+ident(
+  def string "src/lib/pprint/PPrintEngine.ml" 305 11366 11366 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 302 11316 11327 "src/lib/pprint/PPrintEngine.ml" 302 11316 11328
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 303 11331 11333 "src/lib/pprint/PPrintEngine.ml" 303 11331 11364
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11333 "src/lib/pprint/PPrintEngine.ml" 303 11331 11342
+type(
+  string -> int -> int -> document
+)
+ident(
+  int_ref substring "src/lib/pprint/PPrintEngine.ml" 296 11229 11233 "src/lib/pprint/PPrintEngine.ml" 296 11229 11242
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11343 "src/lib/pprint/PPrintEngine.ml" 303 11331 11344
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 302 11316 11327 "src/lib/pprint/PPrintEngine.ml" 302 11316 11328
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11345 "src/lib/pprint/PPrintEngine.ml" 303 11331 11346
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11348 "src/lib/pprint/PPrintEngine.ml" 303 11331 11361
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11362 "src/lib/pprint/PPrintEngine.ml" 303 11331 11363
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 302 11316 11327 "src/lib/pprint/PPrintEngine.ml" 302 11316 11328
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11347 "src/lib/pprint/PPrintEngine.ml" 303 11331 11364
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 303 11331 11333 "src/lib/pprint/PPrintEngine.ml" 303 11331 11364
+call(
+  tail
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 305 11366 11370 "src/lib/pprint/PPrintEngine.ml" 305 11366 11384
+type(
+  string -> int -> int -> int -> document
+)
+ident(
+  def fancysubstring "src/lib/pprint/PPrintEngine.ml" 311 11496 11496 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 305 11366 11385 "src/lib/pprint/PPrintEngine.ml" 305 11366 11386
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 305 11366 11387 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+)
+"src/lib/pprint/PPrintEngine.ml" 305 11366 11387 "src/lib/pprint/PPrintEngine.ml" 305 11366 11390
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 305 11366 11391 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+)
+"src/lib/pprint/PPrintEngine.ml" 305 11366 11391 "src/lib/pprint/PPrintEngine.ml" 305 11366 11394
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 305 11366 11395 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+)
+"src/lib/pprint/PPrintEngine.ml" 305 11366 11395 "src/lib/pprint/PPrintEngine.ml" 305 11366 11410
+type(
+  int
+)
+ident(
+  def apparent_length "src/lib/pprint/PPrintEngine.ml" 306 11413 11415 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+)
+"src/lib/pprint/PPrintEngine.ml" 306 11413 11418 "src/lib/pprint/PPrintEngine.ml" 306 11413 11421
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 305 11366 11391 "src/lib/pprint/PPrintEngine.ml" 305 11366 11394
+)
+"src/lib/pprint/PPrintEngine.ml" 306 11413 11422 "src/lib/pprint/PPrintEngine.ml" 306 11413 11423
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintEngine.ml" 306 11413 11424 "src/lib/pprint/PPrintEngine.ml" 306 11413 11425
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 306 11413 11418 "src/lib/pprint/PPrintEngine.ml" 306 11413 11425
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 307 11431 11435 "src/lib/pprint/PPrintEngine.ml" 307 11431 11440
+type(
+  document
+)
+ident(
+  int_ref empty "src/lib/pprint/PPrintEngine.ml" 286 11139 11143 "src/lib/pprint/PPrintEngine.ml" 286 11139 11148
+)
+"src/lib/pprint/PPrintEngine.ml" 309 11448 11465 "src/lib/pprint/PPrintEngine.ml" 309 11448 11466
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 305 11366 11385 "src/lib/pprint/PPrintEngine.ml" 305 11366 11386
+)
+"src/lib/pprint/PPrintEngine.ml" 309 11448 11468 "src/lib/pprint/PPrintEngine.ml" 309 11448 11471
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 305 11366 11387 "src/lib/pprint/PPrintEngine.ml" 305 11366 11390
+)
+"src/lib/pprint/PPrintEngine.ml" 309 11448 11473 "src/lib/pprint/PPrintEngine.ml" 309 11448 11476
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 305 11366 11391 "src/lib/pprint/PPrintEngine.ml" 305 11366 11394
+)
+"src/lib/pprint/PPrintEngine.ml" 309 11448 11478 "src/lib/pprint/PPrintEngine.ml" 309 11448 11493
+type(
+  int
+)
+ident(
+  int_ref apparent_length "src/lib/pprint/PPrintEngine.ml" 305 11366 11395 "src/lib/pprint/PPrintEngine.ml" 305 11366 11410
+)
+"src/lib/pprint/PPrintEngine.ml" 309 11448 11452 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 306 11413 11415 "src/lib/pprint/PPrintEngine.ml" 309 11448 11494
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 311 11496 11500 "src/lib/pprint/PPrintEngine.ml" 311 11496 11511
+type(
+  string -> int -> document
+)
+ident(
+  def fancystring "src/lib/pprint/PPrintEngine.ml" 315 11646 11646 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 311 11496 11512 "src/lib/pprint/PPrintEngine.ml" 311 11496 11513
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 311 11496 11514 "src/lib/pprint/PPrintEngine.ml" 312 11532 11586
+)
+"src/lib/pprint/PPrintEngine.ml" 311 11496 11514 "src/lib/pprint/PPrintEngine.ml" 311 11496 11529
+type(
+  int
+)
+ident(
+  def apparent_length "src/lib/pprint/PPrintEngine.ml" 312 11532 11534 "src/lib/pprint/PPrintEngine.ml" 312 11532 11586
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11534 "src/lib/pprint/PPrintEngine.ml" 312 11532 11548
+type(
+  string -> int -> int -> int -> document
+)
+ident(
+  int_ref fancysubstring "src/lib/pprint/PPrintEngine.ml" 305 11366 11370 "src/lib/pprint/PPrintEngine.ml" 305 11366 11384
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11549 "src/lib/pprint/PPrintEngine.ml" 312 11532 11550
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 311 11496 11512 "src/lib/pprint/PPrintEngine.ml" 311 11496 11513
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11551 "src/lib/pprint/PPrintEngine.ml" 312 11532 11552
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11554 "src/lib/pprint/PPrintEngine.ml" 312 11532 11567
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11568 "src/lib/pprint/PPrintEngine.ml" 312 11532 11569
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 311 11496 11512 "src/lib/pprint/PPrintEngine.ml" 311 11496 11513
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11553 "src/lib/pprint/PPrintEngine.ml" 312 11532 11570
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11571 "src/lib/pprint/PPrintEngine.ml" 312 11532 11586
+type(
+  int
+)
+ident(
+  int_ref apparent_length "src/lib/pprint/PPrintEngine.ml" 311 11496 11514 "src/lib/pprint/PPrintEngine.ml" 311 11496 11529
+)
+"src/lib/pprint/PPrintEngine.ml" 312 11532 11534 "src/lib/pprint/PPrintEngine.ml" 312 11532 11586
+call(
+  tail
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 315 11646 11650 "src/lib/pprint/PPrintEngine.ml" 315 11646 11661
+type(
+  string -> int
+)
+ident(
+  def utf8_length "src/lib/pprint/PPrintEngine.ml" 328 11953 11953 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 315 11646 11662 "src/lib/pprint/PPrintEngine.ml" 315 11646 11663
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 316 11666 11668 "src/lib/pprint/PPrintEngine.ml" 326 11933 11951
+)
+"src/lib/pprint/PPrintEngine.ml" 316 11666 11676 "src/lib/pprint/PPrintEngine.ml" 316 11666 11686
+type(
+  string -> int -> int -> int
+)
+ident(
+  def length_aux "src/lib/pprint/PPrintEngine.ml" 316 11666 11668 "src/lib/pprint/PPrintEngine.ml" 326 11933 11951
+)
+"src/lib/pprint/PPrintEngine.ml" 316 11666 11687 "src/lib/pprint/PPrintEngine.ml" 316 11666 11688
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 316 11666 11689 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+)
+"src/lib/pprint/PPrintEngine.ml" 316 11666 11689 "src/lib/pprint/PPrintEngine.ml" 316 11666 11690
+type(
+  int
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 316 11666 11691 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+)
+"src/lib/pprint/PPrintEngine.ml" 316 11666 11691 "src/lib/pprint/PPrintEngine.ml" 316 11666 11692
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintEngine.ml" 317 11695 11699 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11702 "src/lib/pprint/PPrintEngine.ml" 317 11695 11703
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 316 11666 11691 "src/lib/pprint/PPrintEngine.ml" 316 11666 11692
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11704 "src/lib/pprint/PPrintEngine.ml" 317 11695 11706
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11707 "src/lib/pprint/PPrintEngine.ml" 317 11695 11720
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11721 "src/lib/pprint/PPrintEngine.ml" 317 11695 11722
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 316 11666 11687 "src/lib/pprint/PPrintEngine.ml" 316 11666 11688
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11707 "src/lib/pprint/PPrintEngine.ml" 317 11695 11722
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11702 "src/lib/pprint/PPrintEngine.ml" 317 11695 11722
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11728 "src/lib/pprint/PPrintEngine.ml" 317 11695 11729
+type(
+  int
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 316 11666 11689 "src/lib/pprint/PPrintEngine.ml" 316 11666 11690
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11743 "src/lib/pprint/PPrintEngine.ml" 318 11735 11744
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintEngine.ml" 319 11784 11788 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11747 "src/lib/pprint/PPrintEngine.ml" 318 11735 11756
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11758 "src/lib/pprint/PPrintEngine.ml" 318 11735 11775
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.unsafe_get
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11776 "src/lib/pprint/PPrintEngine.ml" 318 11735 11777
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 316 11666 11687 "src/lib/pprint/PPrintEngine.ml" 316 11666 11688
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11778 "src/lib/pprint/PPrintEngine.ml" 318 11735 11779
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 316 11666 11691 "src/lib/pprint/PPrintEngine.ml" 316 11666 11692
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11757 "src/lib/pprint/PPrintEngine.ml" 318 11735 11780
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11747 "src/lib/pprint/PPrintEngine.ml" 318 11735 11780
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 319 11784 11792 "src/lib/pprint/PPrintEngine.ml" 319 11784 11793
+type(
+  int
+)
+ident(
+  def k "src/lib/pprint/PPrintEngine.ml" 324 11895 11899 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11805 "src/lib/pprint/PPrintEngine.ml" 320 11796 11806
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 318 11735 11743 "src/lib/pprint/PPrintEngine.ml" 318 11735 11744
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11807 "src/lib/pprint/PPrintEngine.ml" 320 11796 11808
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11809 "src/lib/pprint/PPrintEngine.ml" 320 11796 11813
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11805 "src/lib/pprint/PPrintEngine.ml" 320 11796 11813
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11819 "src/lib/pprint/PPrintEngine.ml" 320 11796 11820
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11835 "src/lib/pprint/PPrintEngine.ml" 321 11826 11836
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 318 11735 11743 "src/lib/pprint/PPrintEngine.ml" 318 11735 11744
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11837 "src/lib/pprint/PPrintEngine.ml" 321 11826 11838
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11839 "src/lib/pprint/PPrintEngine.ml" 321 11826 11843
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11835 "src/lib/pprint/PPrintEngine.ml" 321 11826 11843
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11849 "src/lib/pprint/PPrintEngine.ml" 321 11826 11850
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11865 "src/lib/pprint/PPrintEngine.ml" 322 11856 11866
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 318 11735 11743 "src/lib/pprint/PPrintEngine.ml" 318 11735 11744
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11867 "src/lib/pprint/PPrintEngine.ml" 322 11856 11868
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11869 "src/lib/pprint/PPrintEngine.ml" 322 11856 11873
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11865 "src/lib/pprint/PPrintEngine.ml" 322 11856 11873
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11879 "src/lib/pprint/PPrintEngine.ml" 322 11856 11880
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11886 "src/lib/pprint/PPrintEngine.ml" 322 11856 11887
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 322 11856 11862 "src/lib/pprint/PPrintEngine.ml" 322 11856 11887
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 321 11826 11832 "src/lib/pprint/PPrintEngine.ml" 322 11856 11887
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 320 11796 11802 "src/lib/pprint/PPrintEngine.ml" 322 11856 11887
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11899 "src/lib/pprint/PPrintEngine.ml" 324 11895 11909
+type(
+  string -> int -> int -> int
+)
+ident(
+  int_ref length_aux "src/lib/pprint/PPrintEngine.ml" 316 11666 11676 "src/lib/pprint/PPrintEngine.ml" 316 11666 11686
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11910 "src/lib/pprint/PPrintEngine.ml" 324 11895 11911
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 316 11666 11687 "src/lib/pprint/PPrintEngine.ml" 316 11666 11688
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11913 "src/lib/pprint/PPrintEngine.ml" 324 11895 11914
+type(
+  int
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 316 11666 11689 "src/lib/pprint/PPrintEngine.ml" 316 11666 11690
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11915 "src/lib/pprint/PPrintEngine.ml" 324 11895 11916
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11917 "src/lib/pprint/PPrintEngine.ml" 324 11895 11918
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11912 "src/lib/pprint/PPrintEngine.ml" 324 11895 11919
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11921 "src/lib/pprint/PPrintEngine.ml" 324 11895 11922
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 316 11666 11691 "src/lib/pprint/PPrintEngine.ml" 316 11666 11692
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11923 "src/lib/pprint/PPrintEngine.ml" 324 11895 11924
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11925 "src/lib/pprint/PPrintEngine.ml" 324 11895 11926
+type(
+  int
+)
+ident(
+  int_ref k "src/lib/pprint/PPrintEngine.ml" 319 11784 11792 "src/lib/pprint/PPrintEngine.ml" 319 11784 11793
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11920 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 324 11895 11899 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+call(
+  tail
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 319 11784 11788 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 318 11735 11739 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 317 11695 11699 "src/lib/pprint/PPrintEngine.ml" 324 11895 11927
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 326 11933 11935 "src/lib/pprint/PPrintEngine.ml" 326 11933 11945
+type(
+  string -> int -> int -> int
+)
+ident(
+  int_ref length_aux "src/lib/pprint/PPrintEngine.ml" 316 11666 11676 "src/lib/pprint/PPrintEngine.ml" 316 11666 11686
+)
+"src/lib/pprint/PPrintEngine.ml" 326 11933 11946 "src/lib/pprint/PPrintEngine.ml" 326 11933 11947
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 315 11646 11662 "src/lib/pprint/PPrintEngine.ml" 315 11646 11663
+)
+"src/lib/pprint/PPrintEngine.ml" 326 11933 11948 "src/lib/pprint/PPrintEngine.ml" 326 11933 11949
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 326 11933 11950 "src/lib/pprint/PPrintEngine.ml" 326 11933 11951
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 326 11933 11935 "src/lib/pprint/PPrintEngine.ml" 326 11933 11951
+call(
+  tail
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 316 11666 11668 "src/lib/pprint/PPrintEngine.ml" 326 11933 11951
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 328 11953 11957 "src/lib/pprint/PPrintEngine.ml" 328 11953 11967
+type(
+  string -> document
+)
+ident(
+  def utf8string "src/lib/pprint/PPrintEngine.ml" 331 12005 12005 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 328 11953 11968 "src/lib/pprint/PPrintEngine.ml" 328 11953 11969
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 329 11972 11974 "src/lib/pprint/PPrintEngine.ml" 329 11972 12003
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 11974 "src/lib/pprint/PPrintEngine.ml" 329 11972 11985
+type(
+  string -> int -> document
+)
+ident(
+  int_ref fancystring "src/lib/pprint/PPrintEngine.ml" 311 11496 11500 "src/lib/pprint/PPrintEngine.ml" 311 11496 11511
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 11986 "src/lib/pprint/PPrintEngine.ml" 329 11972 11987
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 328 11953 11968 "src/lib/pprint/PPrintEngine.ml" 328 11953 11969
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 11989 "src/lib/pprint/PPrintEngine.ml" 329 11972 12000
+type(
+  string -> int
+)
+ident(
+  int_ref utf8_length "src/lib/pprint/PPrintEngine.ml" 315 11646 11650 "src/lib/pprint/PPrintEngine.ml" 315 11646 11661
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 12001 "src/lib/pprint/PPrintEngine.ml" 329 11972 12002
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 328 11953 11968 "src/lib/pprint/PPrintEngine.ml" 328 11953 11969
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 11988 "src/lib/pprint/PPrintEngine.ml" 329 11972 12003
+call(
+  stack
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 329 11972 11974 "src/lib/pprint/PPrintEngine.ml" 329 11972 12003
+call(
+  tail
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 331 12005 12009 "src/lib/pprint/PPrintEngine.ml" 331 12005 12017
+type(
+  document
+)
+ident(
+  def hardline "src/lib/pprint/PPrintEngine.ml" 334 12032 12032 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 332 12020 12022 "src/lib/pprint/PPrintEngine.ml" 332 12020 12030
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 334 12032 12036 "src/lib/pprint/PPrintEngine.ml" 334 12032 12041
+type(
+  int -> document
+)
+ident(
+  def blank "src/lib/pprint/PPrintEngine.ml" 343 12127 12127 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 334 12032 12042 "src/lib/pprint/PPrintEngine.ml" 334 12032 12043
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintEngine.ml" 335 12046 12048 "src/lib/pprint/PPrintEngine.ml" 341 12112 12125
+)
+"src/lib/pprint/PPrintEngine.ml" 335 12046 12054 "src/lib/pprint/PPrintEngine.ml" 335 12046 12055
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 334 12032 12042 "src/lib/pprint/PPrintEngine.ml" 334 12032 12043
+)
+"src/lib/pprint/PPrintEngine.ml" 336 12061 12065 "src/lib/pprint/PPrintEngine.ml" 336 12061 12066
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 337 12070 12076 "src/lib/pprint/PPrintEngine.ml" 337 12070 12081
+type(
+  document
+)
+ident(
+  int_ref empty "src/lib/pprint/PPrintEngine.ml" 286 11139 11143 "src/lib/pprint/PPrintEngine.ml" 286 11139 11148
+)
+"src/lib/pprint/PPrintEngine.ml" 338 12082 12086 "src/lib/pprint/PPrintEngine.ml" 338 12082 12087
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 339 12091 12097 "src/lib/pprint/PPrintEngine.ml" 339 12091 12102
+type(
+  document
+)
+ident(
+  int_ref space "src/lib/pprint/PPrintEngine.ml" 293 11205 11209 "src/lib/pprint/PPrintEngine.ml" 293 11205 11214
+)
+"src/lib/pprint/PPrintEngine.ml" 340 12103 12107 "src/lib/pprint/PPrintEngine.ml" 340 12103 12108
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 341 12112 12124 "src/lib/pprint/PPrintEngine.ml" 341 12112 12125
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 334 12032 12042 "src/lib/pprint/PPrintEngine.ml" 334 12032 12043
+)
+"src/lib/pprint/PPrintEngine.ml" 341 12112 12118 "src/lib/pprint/PPrintEngine.ml" 341 12112 12125
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 335 12046 12048 "src/lib/pprint/PPrintEngine.ml" 341 12112 12125
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 343 12127 12131 "src/lib/pprint/PPrintEngine.ml" 343 12127 12137
+type(
+  document -> document -> document
+)
+ident(
+  def ifflat "src/lib/pprint/PPrintEngine.ml" 351 12321 12321 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 343 12127 12138 "src/lib/pprint/PPrintEngine.ml" 343 12127 12142
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 343 12127 12143 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+)
+"src/lib/pprint/PPrintEngine.ml" 343 12127 12143 "src/lib/pprint/PPrintEngine.ml" 343 12127 12147
+type(
+  document
+)
+ident(
+  def doc2 "src/lib/pprint/PPrintEngine.ml" 346 12243 12245 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+)
+"src/lib/pprint/PPrintEngine.ml" 346 12243 12251 "src/lib/pprint/PPrintEngine.ml" 346 12243 12255
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 343 12127 12138 "src/lib/pprint/PPrintEngine.ml" 343 12127 12142
+)
+"src/lib/pprint/PPrintEngine.ml" 347 12261 12273 "src/lib/pprint/PPrintEngine.ml" 347 12261 12277
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 349 12294 12300 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+)
+"src/lib/pprint/PPrintEngine.ml" 347 12261 12279 "src/lib/pprint/PPrintEngine.ml" 347 12261 12280
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 347 12261 12265 "src/lib/pprint/PPrintEngine.ml" 347 12261 12281
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 348 12282 12286 "src/lib/pprint/PPrintEngine.ml" 348 12282 12290
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 349 12294 12300 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+)
+"src/lib/pprint/PPrintEngine.ml" 347 12261 12265 "src/lib/pprint/PPrintEngine.ml" 348 12282 12290
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 349 12294 12308 "src/lib/pprint/PPrintEngine.ml" 349 12294 12312
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 347 12261 12273 "src/lib/pprint/PPrintEngine.ml" 347 12261 12277
+)
+"src/lib/pprint/PPrintEngine.ml" 349 12294 12314 "src/lib/pprint/PPrintEngine.ml" 349 12294 12318
+type(
+  document
+)
+ident(
+  int_ref doc2 "src/lib/pprint/PPrintEngine.ml" 343 12127 12143 "src/lib/pprint/PPrintEngine.ml" 343 12127 12147
+)
+"src/lib/pprint/PPrintEngine.ml" 349 12294 12300 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 346 12243 12245 "src/lib/pprint/PPrintEngine.ml" 349 12294 12319
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 351 12321 12325 "src/lib/pprint/PPrintEngine.ml" 351 12321 12339
+type(
+  int -> document
+)
+ident(
+  def internal_break "src/lib/pprint/PPrintEngine.ml" 354 12373 12373 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 351 12321 12340 "src/lib/pprint/PPrintEngine.ml" 351 12321 12341
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintEngine.ml" 352 12344 12346 "src/lib/pprint/PPrintEngine.ml" 352 12344 12371
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12346 "src/lib/pprint/PPrintEngine.ml" 352 12344 12352
+type(
+  document -> document -> document
+)
+ident(
+  int_ref ifflat "src/lib/pprint/PPrintEngine.ml" 343 12127 12131 "src/lib/pprint/PPrintEngine.ml" 343 12127 12137
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12354 "src/lib/pprint/PPrintEngine.ml" 352 12344 12359
+type(
+  int -> document
+)
+ident(
+  int_ref blank "src/lib/pprint/PPrintEngine.ml" 334 12032 12036 "src/lib/pprint/PPrintEngine.ml" 334 12032 12041
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12360 "src/lib/pprint/PPrintEngine.ml" 352 12344 12361
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 351 12321 12340 "src/lib/pprint/PPrintEngine.ml" 351 12321 12341
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12353 "src/lib/pprint/PPrintEngine.ml" 352 12344 12362
+call(
+  stack
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12363 "src/lib/pprint/PPrintEngine.ml" 352 12344 12371
+type(
+  document
+)
+ident(
+  int_ref hardline "src/lib/pprint/PPrintEngine.ml" 331 12005 12009 "src/lib/pprint/PPrintEngine.ml" 331 12005 12017
+)
+"src/lib/pprint/PPrintEngine.ml" 352 12344 12346 "src/lib/pprint/PPrintEngine.ml" 352 12344 12371
+call(
+  tail
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 354 12373 12377 "src/lib/pprint/PPrintEngine.ml" 354 12373 12383
+type(
+  document
+)
+ident(
+  def break0 "src/lib/pprint/PPrintEngine.ml" 357 12406 12406 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 355 12386 12388 "src/lib/pprint/PPrintEngine.ml" 355 12386 12402
+type(
+  int -> document
+)
+ident(
+  int_ref internal_break "src/lib/pprint/PPrintEngine.ml" 351 12321 12325 "src/lib/pprint/PPrintEngine.ml" 351 12321 12339
+)
+"src/lib/pprint/PPrintEngine.ml" 355 12386 12403 "src/lib/pprint/PPrintEngine.ml" 355 12386 12404
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 355 12386 12388 "src/lib/pprint/PPrintEngine.ml" 355 12386 12404
+call(
+  stack
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 357 12406 12410 "src/lib/pprint/PPrintEngine.ml" 357 12406 12416
+type(
+  document
+)
+ident(
+  def break1 "src/lib/pprint/PPrintEngine.ml" 360 12439 12439 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 358 12419 12421 "src/lib/pprint/PPrintEngine.ml" 358 12419 12435
+type(
+  int -> document
+)
+ident(
+  int_ref internal_break "src/lib/pprint/PPrintEngine.ml" 351 12321 12325 "src/lib/pprint/PPrintEngine.ml" 351 12321 12339
+)
+"src/lib/pprint/PPrintEngine.ml" 358 12419 12436 "src/lib/pprint/PPrintEngine.ml" 358 12419 12437
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 358 12419 12421 "src/lib/pprint/PPrintEngine.ml" 358 12419 12437
+call(
+  stack
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 360 12439 12443 "src/lib/pprint/PPrintEngine.ml" 360 12439 12448
+type(
+  int -> document
+)
+ident(
+  def break "src/lib/pprint/PPrintEngine.ml" 369 12545 12545 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 360 12439 12449 "src/lib/pprint/PPrintEngine.ml" 360 12439 12450
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintEngine.ml" 361 12453 12455 "src/lib/pprint/PPrintEngine.ml" 367 12521 12543
+)
+"src/lib/pprint/PPrintEngine.ml" 361 12453 12461 "src/lib/pprint/PPrintEngine.ml" 361 12453 12462
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 360 12439 12449 "src/lib/pprint/PPrintEngine.ml" 360 12439 12450
+)
+"src/lib/pprint/PPrintEngine.ml" 362 12468 12472 "src/lib/pprint/PPrintEngine.ml" 362 12468 12473
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 363 12477 12483 "src/lib/pprint/PPrintEngine.ml" 363 12477 12489
+type(
+  document
+)
+ident(
+  int_ref break0 "src/lib/pprint/PPrintEngine.ml" 354 12373 12377 "src/lib/pprint/PPrintEngine.ml" 354 12373 12383
+)
+"src/lib/pprint/PPrintEngine.ml" 364 12490 12494 "src/lib/pprint/PPrintEngine.ml" 364 12490 12495
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 365 12499 12505 "src/lib/pprint/PPrintEngine.ml" 365 12499 12511
+type(
+  document
+)
+ident(
+  int_ref break1 "src/lib/pprint/PPrintEngine.ml" 357 12406 12410 "src/lib/pprint/PPrintEngine.ml" 357 12406 12416
+)
+"src/lib/pprint/PPrintEngine.ml" 366 12512 12516 "src/lib/pprint/PPrintEngine.ml" 366 12512 12517
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 367 12521 12527 "src/lib/pprint/PPrintEngine.ml" 367 12521 12541
+type(
+  int -> document
+)
+ident(
+  int_ref internal_break "src/lib/pprint/PPrintEngine.ml" 351 12321 12325 "src/lib/pprint/PPrintEngine.ml" 351 12321 12339
+)
+"src/lib/pprint/PPrintEngine.ml" 367 12521 12542 "src/lib/pprint/PPrintEngine.ml" 367 12521 12543
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 360 12439 12449 "src/lib/pprint/PPrintEngine.ml" 360 12439 12450
+)
+"src/lib/pprint/PPrintEngine.ml" 367 12521 12527 "src/lib/pprint/PPrintEngine.ml" 367 12521 12543
+call(
+  tail
+)
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 361 12453 12455 "src/lib/pprint/PPrintEngine.ml" 367 12521 12543
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 369 12545 12549 "src/lib/pprint/PPrintEngine.ml" 369 12545 12553
+type(
+  document -> document -> document
+)
+ident(
+  def ^^ "src/lib/pprint/PPrintEngine.ml" 378 12688 12688 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 369 12545 12554 "src/lib/pprint/PPrintEngine.ml" 369 12545 12555
+type(
+  document
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 376 12638 12686
+)
+"src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 369 12545 12557
+type(
+  document
+)
+ident(
+  def y "src/lib/pprint/PPrintEngine.ml" 370 12560 12562 "src/lib/pprint/PPrintEngine.ml" 376 12638 12686
+)
+"src/lib/pprint/PPrintEngine.ml" 370 12560 12568 "src/lib/pprint/PPrintEngine.ml" 370 12560 12569
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 369 12545 12554 "src/lib/pprint/PPrintEngine.ml" 369 12545 12555
+)
+"src/lib/pprint/PPrintEngine.ml" 370 12560 12571 "src/lib/pprint/PPrintEngine.ml" 370 12560 12572
+type(
+  document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 369 12545 12557
+)
+"src/lib/pprint/PPrintEngine.ml" 370 12560 12568 "src/lib/pprint/PPrintEngine.ml" 370 12560 12572
+type(
+  document * document
+)
+"src/lib/pprint/PPrintEngine.ml" 371 12578 12582 "src/lib/pprint/PPrintEngine.ml" 371 12578 12587
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 371 12578 12589 "src/lib/pprint/PPrintEngine.ml" 371 12578 12590
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 371 12578 12582 "src/lib/pprint/PPrintEngine.ml" 371 12578 12590
+type(
+  document * document
+)
+"src/lib/pprint/PPrintEngine.ml" 372 12594 12600 "src/lib/pprint/PPrintEngine.ml" 372 12594 12601
+type(
+  document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 369 12545 12557
+)
+"src/lib/pprint/PPrintEngine.ml" 373 12602 12606 "src/lib/pprint/PPrintEngine.ml" 373 12602 12607
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 373 12602 12609 "src/lib/pprint/PPrintEngine.ml" 373 12602 12614
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 373 12602 12606 "src/lib/pprint/PPrintEngine.ml" 373 12602 12614
+type(
+  document * document
+)
+"src/lib/pprint/PPrintEngine.ml" 374 12618 12624 "src/lib/pprint/PPrintEngine.ml" 374 12618 12625
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 369 12545 12554 "src/lib/pprint/PPrintEngine.ml" 369 12545 12555
+)
+"src/lib/pprint/PPrintEngine.ml" 375 12626 12630 "src/lib/pprint/PPrintEngine.ml" 375 12626 12631
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 375 12626 12633 "src/lib/pprint/PPrintEngine.ml" 375 12626 12634
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 375 12626 12630 "src/lib/pprint/PPrintEngine.ml" 375 12626 12634
+type(
+  document * document
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12649 "src/lib/pprint/PPrintEngine.ml" 376 12638 12660
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12661 "src/lib/pprint/PPrintEngine.ml" 376 12638 12662
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 369 12545 12554 "src/lib/pprint/PPrintEngine.ml" 369 12545 12555
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12649 "src/lib/pprint/PPrintEngine.ml" 376 12638 12662
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12663 "src/lib/pprint/PPrintEngine.ml" 376 12638 12665
+type(
+  requirement -> requirement -> requirement
+)
+ident(
+  int_ref ++ "src/lib/pprint/PPrintEngine.ml" 28 1219 1223 "src/lib/pprint/PPrintEngine.ml" 28 1219 1227
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12666 "src/lib/pprint/PPrintEngine.ml" 376 12638 12677
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12678 "src/lib/pprint/PPrintEngine.ml" 376 12638 12679
+type(
+  document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 369 12545 12557
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12666 "src/lib/pprint/PPrintEngine.ml" 376 12638 12679
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12649 "src/lib/pprint/PPrintEngine.ml" 376 12638 12679
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12681 "src/lib/pprint/PPrintEngine.ml" 376 12638 12682
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 369 12545 12554 "src/lib/pprint/PPrintEngine.ml" 369 12545 12555
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12684 "src/lib/pprint/PPrintEngine.ml" 376 12638 12685
+type(
+  document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintEngine.ml" 369 12545 12556 "src/lib/pprint/PPrintEngine.ml" 369 12545 12557
+)
+"src/lib/pprint/PPrintEngine.ml" 376 12638 12644 "src/lib/pprint/PPrintEngine.ml" 376 12638 12686
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 370 12560 12562 "src/lib/pprint/PPrintEngine.ml" 376 12638 12686
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 378 12688 12692 "src/lib/pprint/PPrintEngine.ml" 378 12688 12696
+type(
+  int -> document -> document
+)
+ident(
+  def nest "src/lib/pprint/PPrintEngine.ml" 382 12752 12752 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 378 12688 12697 "src/lib/pprint/PPrintEngine.ml" 378 12688 12698
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintEngine.ml" 378 12688 12699 "src/lib/pprint/PPrintEngine.ml" 380 12722 12750
+)
+"src/lib/pprint/PPrintEngine.ml" 378 12688 12699 "src/lib/pprint/PPrintEngine.ml" 378 12688 12700
+type(
+  document
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 379 12703 12705 "src/lib/pprint/PPrintEngine.ml" 380 12722 12750
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12713 "src/lib/pprint/PPrintEngine.ml" 379 12703 12714
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 378 12688 12697 "src/lib/pprint/PPrintEngine.ml" 378 12688 12698
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12715 "src/lib/pprint/PPrintEngine.ml" 379 12703 12717
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12718 "src/lib/pprint/PPrintEngine.ml" 379 12703 12719
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12712 "src/lib/pprint/PPrintEngine.ml" 379 12703 12720
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12705 "src/lib/pprint/PPrintEngine.ml" 379 12703 12720
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12730 "src/lib/pprint/PPrintEngine.ml" 380 12722 12741
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12742 "src/lib/pprint/PPrintEngine.ml" 380 12722 12743
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 378 12688 12699 "src/lib/pprint/PPrintEngine.ml" 378 12688 12700
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12730 "src/lib/pprint/PPrintEngine.ml" 380 12722 12743
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12745 "src/lib/pprint/PPrintEngine.ml" 380 12722 12746
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintEngine.ml" 378 12688 12697 "src/lib/pprint/PPrintEngine.ml" 378 12688 12698
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12748 "src/lib/pprint/PPrintEngine.ml" 380 12722 12749
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 378 12688 12699 "src/lib/pprint/PPrintEngine.ml" 378 12688 12700
+)
+"src/lib/pprint/PPrintEngine.ml" 380 12722 12724 "src/lib/pprint/PPrintEngine.ml" 380 12722 12750
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 379 12703 12705 "src/lib/pprint/PPrintEngine.ml" 380 12722 12750
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 382 12752 12756 "src/lib/pprint/PPrintEngine.ml" 382 12752 12761
+type(
+  document -> document
+)
+ident(
+  def group "src/lib/pprint/PPrintEngine.ml" 390 12924 12924 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 382 12752 12762 "src/lib/pprint/PPrintEngine.ml" 382 12752 12763
+type(
+  document
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 383 12766 12768 "src/lib/pprint/PPrintEngine.ml" 388 12904 12922
+)
+"src/lib/pprint/PPrintEngine.ml" 383 12766 12772 "src/lib/pprint/PPrintEngine.ml" 383 12766 12775
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 385 12866 12868 "src/lib/pprint/PPrintEngine.ml" 388 12904 12922
+)
+"src/lib/pprint/PPrintEngine.ml" 383 12766 12778 "src/lib/pprint/PPrintEngine.ml" 383 12766 12789
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 383 12766 12790 "src/lib/pprint/PPrintEngine.ml" 383 12766 12791
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 382 12752 12762 "src/lib/pprint/PPrintEngine.ml" 382 12752 12763
+)
+"src/lib/pprint/PPrintEngine.ml" 383 12766 12778 "src/lib/pprint/PPrintEngine.ml" 383 12766 12791
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 385 12866 12871 "src/lib/pprint/PPrintEngine.ml" 385 12866 12874
+type(
+  requirement
+)
+ident(
+  int_ref req "src/lib/pprint/PPrintEngine.ml" 383 12766 12772 "src/lib/pprint/PPrintEngine.ml" 383 12766 12775
+)
+"src/lib/pprint/PPrintEngine.ml" 385 12866 12875 "src/lib/pprint/PPrintEngine.ml" 385 12866 12876
+type(
+  requirement -> requirement -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintEngine.ml" 385 12866 12877 "src/lib/pprint/PPrintEngine.ml" 385 12866 12885
+type(
+  requirement
+)
+ident(
+  int_ref infinity "src/lib/pprint/PPrintEngine.ml" 23 1136 1140 "src/lib/pprint/PPrintEngine.ml" 23 1136 1148
+)
+"src/lib/pprint/PPrintEngine.ml" 385 12866 12871 "src/lib/pprint/PPrintEngine.ml" 385 12866 12885
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 386 12891 12895 "src/lib/pprint/PPrintEngine.ml" 386 12891 12896
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 382 12752 12762 "src/lib/pprint/PPrintEngine.ml" 382 12752 12763
+)
+"src/lib/pprint/PPrintEngine.ml" 388 12904 12915 "src/lib/pprint/PPrintEngine.ml" 388 12904 12918
+type(
+  requirement
+)
+ident(
+  int_ref req "src/lib/pprint/PPrintEngine.ml" 383 12766 12772 "src/lib/pprint/PPrintEngine.ml" 383 12766 12775
+)
+"src/lib/pprint/PPrintEngine.ml" 388 12904 12920 "src/lib/pprint/PPrintEngine.ml" 388 12904 12921
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 382 12752 12762 "src/lib/pprint/PPrintEngine.ml" 382 12752 12763
+)
+"src/lib/pprint/PPrintEngine.ml" 388 12904 12908 "src/lib/pprint/PPrintEngine.ml" 388 12904 12922
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 385 12866 12868 "src/lib/pprint/PPrintEngine.ml" 388 12904 12922
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 383 12766 12768 "src/lib/pprint/PPrintEngine.ml" 388 12904 12922
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 390 12924 12928 "src/lib/pprint/PPrintEngine.ml" 390 12924 12933
+type(
+  document -> document
+)
+ident(
+  def align "src/lib/pprint/PPrintEngine.ml" 393 12966 12966 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 390 12924 12934 "src/lib/pprint/PPrintEngine.ml" 390 12924 12935
+type(
+  document
+)
+ident(
+  def x "src/lib/pprint/PPrintEngine.ml" 391 12938 12940 "src/lib/pprint/PPrintEngine.ml" 391 12938 12964
+)
+"src/lib/pprint/PPrintEngine.ml" 391 12938 12947 "src/lib/pprint/PPrintEngine.ml" 391 12938 12958
+type(
+  document -> requirement
+)
+ident(
+  int_ref requirement "src/lib/pprint/PPrintEngine.ml" 250 9895 9903 "src/lib/pprint/PPrintEngine.ml" 250 9895 9914
+)
+"src/lib/pprint/PPrintEngine.ml" 391 12938 12959 "src/lib/pprint/PPrintEngine.ml" 391 12938 12960
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 390 12924 12934 "src/lib/pprint/PPrintEngine.ml" 390 12924 12935
+)
+"src/lib/pprint/PPrintEngine.ml" 391 12938 12947 "src/lib/pprint/PPrintEngine.ml" 391 12938 12960
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 391 12938 12962 "src/lib/pprint/PPrintEngine.ml" 391 12938 12963
+type(
+  document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintEngine.ml" 390 12924 12934 "src/lib/pprint/PPrintEngine.ml" 390 12924 12935
+)
+"src/lib/pprint/PPrintEngine.ml" 391 12938 12940 "src/lib/pprint/PPrintEngine.ml" 391 12938 12964
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 393 12966 12970 "src/lib/pprint/PPrintEngine.ml" 393 12966 12976
+type(
+  custom -> document
+)
+ident(
+  def custom "src/lib/pprint/PPrintEngine.ml" 402 13181 13181 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 393 12966 12977 "src/lib/pprint/PPrintEngine.ml" 393 12966 12978
+type(
+  custom
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 395 13003 13005 "src/lib/pprint/PPrintEngine.ml" 396 13034 13044
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13013 "src/lib/pprint/PPrintEngine.ml" 395 13003 13014
+type(
+  custom
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 393 12966 12977 "src/lib/pprint/PPrintEngine.ml" 393 12966 12978
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13013 "src/lib/pprint/PPrintEngine.ml" 395 13003 13026
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13027 "src/lib/pprint/PPrintEngine.ml" 395 13003 13029
+type(
+  requirement -> requirement -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13030 "src/lib/pprint/PPrintEngine.ml" 395 13003 13031
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13012 "src/lib/pprint/PPrintEngine.ml" 395 13003 13032
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13005 "src/lib/pprint/PPrintEngine.ml" 395 13003 13032
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 396 13034 13043 "src/lib/pprint/PPrintEngine.ml" 396 13034 13044
+type(
+  custom
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 393 12966 12977 "src/lib/pprint/PPrintEngine.ml" 393 12966 12978
+)
+"src/lib/pprint/PPrintEngine.ml" 396 13034 13036 "src/lib/pprint/PPrintEngine.ml" 396 13034 13044
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 395 13003 13005 "src/lib/pprint/PPrintEngine.ml" 396 13034 13044
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 402 13181 13185 "src/lib/pprint/PPrintEngine.ml" 402 13181 13197
+type(
+  int
+)
+ident(
+  def blank_length "src/lib/pprint/PPrintEngine.ml" 405 13206 13206 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 403 13200 13202 "src/lib/pprint/PPrintEngine.ml" 403 13200 13204
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 405 13206 13210 "src/lib/pprint/PPrintEngine.ml" 405 13206 13222
+type(
+  string
+)
+ident(
+  def blank_buffer "src/lib/pprint/PPrintEngine.ml" 408 13257 13257 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 406 13225 13227 "src/lib/pprint/PPrintEngine.ml" 406 13225 13238
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/lib/pprint/PPrintEngine.ml" 406 13225 13239 "src/lib/pprint/PPrintEngine.ml" 406 13225 13251
+type(
+  int
+)
+ident(
+  int_ref blank_length "src/lib/pprint/PPrintEngine.ml" 402 13181 13185 "src/lib/pprint/PPrintEngine.ml" 402 13181 13197
+)
+"src/lib/pprint/PPrintEngine.ml" 406 13225 13252 "src/lib/pprint/PPrintEngine.ml" 406 13225 13255
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 406 13225 13227 "src/lib/pprint/PPrintEngine.ml" 406 13225 13255
+call(
+  stack
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintEngine.ml" 408 13257 13265 "src/lib/pprint/PPrintEngine.ml" 408 13257 13271
+type(
+  < substring : string -> int -> int -> unit; .. > -> int -> unit
+)
+ident(
+  def blanks "src/lib/pprint/PPrintEngine.ml" 408 13257 13257 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 408 13257 13272 "src/lib/pprint/PPrintEngine.ml" 408 13257 13278
+type(
+  < substring : string -> int -> int -> unit; .. > as 'a
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 416 13478 13483
+)
+"src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 408 13257 13280
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintEngine.ml" 409 13283 13285 "src/lib/pprint/PPrintEngine.ml" 416 13478 13483
+)
+"src/lib/pprint/PPrintEngine.ml" 409 13283 13288 "src/lib/pprint/PPrintEngine.ml" 409 13283 13289
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 408 13257 13280
+)
+"src/lib/pprint/PPrintEngine.ml" 409 13283 13290 "src/lib/pprint/PPrintEngine.ml" 409 13283 13292
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lib/pprint/PPrintEngine.ml" 409 13283 13293 "src/lib/pprint/PPrintEngine.ml" 409 13283 13294
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 409 13283 13288 "src/lib/pprint/PPrintEngine.ml" 409 13283 13294
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 410 13300 13304 "src/lib/pprint/PPrintEngine.ml" 410 13300 13306
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 411 13307 13317 "src/lib/pprint/PPrintEngine.ml" 411 13307 13318
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 408 13257 13280
+)
+"src/lib/pprint/PPrintEngine.ml" 411 13307 13319 "src/lib/pprint/PPrintEngine.ml" 411 13307 13321
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lib/pprint/PPrintEngine.ml" 411 13307 13322 "src/lib/pprint/PPrintEngine.ml" 411 13307 13334
+type(
+  int
+)
+ident(
+  int_ref blank_length "src/lib/pprint/PPrintEngine.ml" 402 13181 13185 "src/lib/pprint/PPrintEngine.ml" 402 13181 13197
+)
+"src/lib/pprint/PPrintEngine.ml" 411 13307 13317 "src/lib/pprint/PPrintEngine.ml" 411 13307 13334
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13344 "src/lib/pprint/PPrintEngine.ml" 412 13340 13350
+type(
+  'a
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 408 13257 13272 "src/lib/pprint/PPrintEngine.ml" 408 13257 13278
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13344 "src/lib/pprint/PPrintEngine.ml" 412 13340 13360
+call(
+  tail
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13361 "src/lib/pprint/PPrintEngine.ml" 412 13340 13373
+type(
+  string
+)
+ident(
+  int_ref blank_buffer "src/lib/pprint/PPrintEngine.ml" 405 13206 13210 "src/lib/pprint/PPrintEngine.ml" 405 13206 13222
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13374 "src/lib/pprint/PPrintEngine.ml" 412 13340 13375
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13376 "src/lib/pprint/PPrintEngine.ml" 412 13340 13377
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 408 13257 13280
+)
+"src/lib/pprint/PPrintEngine.ml" 412 13340 13344 "src/lib/pprint/PPrintEngine.ml" 412 13340 13377
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13395 "src/lib/pprint/PPrintEngine.ml" 414 13391 13401
+type(
+  'a
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 408 13257 13272 "src/lib/pprint/PPrintEngine.ml" 408 13257 13278
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13395 "src/lib/pprint/PPrintEngine.ml" 414 13391 13411
+call(
+  stack
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13412 "src/lib/pprint/PPrintEngine.ml" 414 13391 13424
+type(
+  string
+)
+ident(
+  int_ref blank_buffer "src/lib/pprint/PPrintEngine.ml" 405 13206 13210 "src/lib/pprint/PPrintEngine.ml" 405 13206 13222
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13425 "src/lib/pprint/PPrintEngine.ml" 414 13391 13426
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13427 "src/lib/pprint/PPrintEngine.ml" 414 13391 13439
+type(
+  int
+)
+ident(
+  int_ref blank_length "src/lib/pprint/PPrintEngine.ml" 402 13181 13185 "src/lib/pprint/PPrintEngine.ml" 402 13181 13197
+)
+"src/lib/pprint/PPrintEngine.ml" 414 13391 13395 "src/lib/pprint/PPrintEngine.ml" 414 13391 13439
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13445 "src/lib/pprint/PPrintEngine.ml" 415 13441 13451
+type(
+  'a -> int -> unit
+)
+ident(
+  int_ref blanks "src/lib/pprint/PPrintEngine.ml" 408 13257 13265 "src/lib/pprint/PPrintEngine.ml" 408 13257 13271
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13452 "src/lib/pprint/PPrintEngine.ml" 415 13441 13458
+type(
+  'a
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 408 13257 13272 "src/lib/pprint/PPrintEngine.ml" 408 13257 13278
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13460 "src/lib/pprint/PPrintEngine.ml" 415 13441 13461
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 408 13257 13279 "src/lib/pprint/PPrintEngine.ml" 408 13257 13280
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13462 "src/lib/pprint/PPrintEngine.ml" 415 13441 13463
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13464 "src/lib/pprint/PPrintEngine.ml" 415 13441 13476
+type(
+  int
+)
+ident(
+  int_ref blank_length "src/lib/pprint/PPrintEngine.ml" 402 13181 13185 "src/lib/pprint/PPrintEngine.ml" 402 13181 13197
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13459 "src/lib/pprint/PPrintEngine.ml" 415 13441 13477
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 415 13441 13445 "src/lib/pprint/PPrintEngine.ml" 415 13441 13477
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 413 13378 13385 "src/lib/pprint/PPrintEngine.ml" 416 13478 13483
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 411 13307 13314 "src/lib/pprint/PPrintEngine.ml" 416 13478 13483
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 409 13283 13285 "src/lib/pprint/PPrintEngine.ml" 416 13478 13483
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 424 13752 13756 "src/lib/pprint/PPrintEngine.ml" 424 13752 13758
+type(
+  state -> bool -> bool
+)
+ident(
+  def ok "src/lib/pprint/PPrintEngine.ml" 447 14826 14826 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+type(
+  state
+)
+ident(
+  def state "src/lib/pprint/PPrintEngine.ml" 424 13752 13765 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+)
+"src/lib/pprint/PPrintEngine.ml" 424 13752 13765 "src/lib/pprint/PPrintEngine.ml" 424 13752 13772
+type(
+  bool
+)
+ident(
+  def flatten "src/lib/pprint/PPrintEngine.ml" 424 13752 13773 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+)
+"src/lib/pprint/PPrintEngine.ml" 425 13782 13784 "src/lib/pprint/PPrintEngine.ml" 425 13782 13787
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/lib/pprint/PPrintEngine.ml" 425 13782 13788 "src/lib/pprint/PPrintEngine.ml" 425 13782 13795
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 424 13752 13765 "src/lib/pprint/PPrintEngine.ml" 424 13752 13772
+)
+"src/lib/pprint/PPrintEngine.ml" 425 13782 13784 "src/lib/pprint/PPrintEngine.ml" 425 13782 13795
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 425 13782 13796 "src/lib/pprint/PPrintEngine.ml" 425 13782 13798
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13801 "src/lib/pprint/PPrintEngine.ml" 426 13799 13806
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13801 "src/lib/pprint/PPrintEngine.ml" 426 13799 13813
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13814 "src/lib/pprint/PPrintEngine.ml" 426 13799 13816
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13817 "src/lib/pprint/PPrintEngine.ml" 426 13799 13822
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13817 "src/lib/pprint/PPrintEngine.ml" 426 13799 13828
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13801 "src/lib/pprint/PPrintEngine.ml" 426 13799 13828
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13829 "src/lib/pprint/PPrintEngine.ml" 426 13799 13831
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13832 "src/lib/pprint/PPrintEngine.ml" 426 13799 13837
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13832 "src/lib/pprint/PPrintEngine.ml" 426 13799 13844
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13845 "src/lib/pprint/PPrintEngine.ml" 426 13799 13847
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13848 "src/lib/pprint/PPrintEngine.ml" 426 13799 13853
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13848 "src/lib/pprint/PPrintEngine.ml" 426 13799 13865
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13866 "src/lib/pprint/PPrintEngine.ml" 426 13799 13867
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13868 "src/lib/pprint/PPrintEngine.ml" 426 13799 13873
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 424 13752 13759 "src/lib/pprint/PPrintEngine.ml" 424 13752 13764
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13868 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13848 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13832 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 426 13799 13801 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 425 13782 13784 "src/lib/pprint/PPrintEngine.ml" 426 13799 13880
+type(
+  bool
+)
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  def pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14890 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 453 14925 14927 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+type(
+  state
+)
+ident(
+  def state "src/lib/pprint/PPrintEngine.ml" 454 14943 14945 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+type(
+  int
+)
+ident(
+  def indent "src/lib/pprint/PPrintEngine.ml" 455 14960 14962 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+type(
+  bool
+)
+ident(
+  def flatten "src/lib/pprint/PPrintEngine.ml" 456 14979 14981 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 456 14979 14982 "src/lib/pprint/PPrintEngine.ml" 456 14979 14985
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 457 14998 15000 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+type(
+  cont
+)
+ident(
+  def cont "src/lib/pprint/PPrintEngine.ml" 458 15014 15014 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 459 15023 15031 "src/lib/pprint/PPrintEngine.ml" 459 15023 15034
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 456 14979 14982 "src/lib/pprint/PPrintEngine.ml" 456 14979 14985
+)
+"src/lib/pprint/PPrintEngine.ml" 461 15041 15045 "src/lib/pprint/PPrintEngine.ml" 461 15041 15050
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 462 15054 15060 "src/lib/pprint/PPrintEngine.ml" 462 15054 15068
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 462 15054 15069 "src/lib/pprint/PPrintEngine.ml" 462 15054 15075
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 462 15054 15076 "src/lib/pprint/PPrintEngine.ml" 462 15054 15081
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 462 15054 15082 "src/lib/pprint/PPrintEngine.ml" 462 15054 15086
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 462 15054 15060 "src/lib/pprint/PPrintEngine.ml" 462 15054 15086
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 464 15088 15097 "src/lib/pprint/PPrintEngine.ml" 464 15088 15098
+type(
+  char
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 465 15102 15108 "src/lib/pprint/PPrintEngine.ml" 468 15202 15234
+)
+"src/lib/pprint/PPrintEngine.ml" 464 15088 15092 "src/lib/pprint/PPrintEngine.ml" 464 15088 15098
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 465 15102 15108 "src/lib/pprint/PPrintEngine.ml" 465 15102 15114
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 465 15102 15108 "src/lib/pprint/PPrintEngine.ml" 465 15102 15119
+call(
+  stack
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 465 15102 15120 "src/lib/pprint/PPrintEngine.ml" 465 15102 15121
+type(
+  char
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 464 15088 15097 "src/lib/pprint/PPrintEngine.ml" 464 15088 15098
+)
+"src/lib/pprint/PPrintEngine.ml" 465 15102 15108 "src/lib/pprint/PPrintEngine.ml" 465 15102 15121
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15129 "src/lib/pprint/PPrintEngine.ml" 466 15123 15134
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15145 "src/lib/pprint/PPrintEngine.ml" 466 15123 15150
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15145 "src/lib/pprint/PPrintEngine.ml" 466 15123 15157
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15158 "src/lib/pprint/PPrintEngine.ml" 466 15123 15159
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15160 "src/lib/pprint/PPrintEngine.ml" 466 15123 15161
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15145 "src/lib/pprint/PPrintEngine.ml" 466 15123 15161
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15129 "src/lib/pprint/PPrintEngine.ml" 466 15123 15161
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 468 15202 15208 "src/lib/pprint/PPrintEngine.ml" 468 15202 15216
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 468 15202 15217 "src/lib/pprint/PPrintEngine.ml" 468 15202 15223
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 468 15202 15224 "src/lib/pprint/PPrintEngine.ml" 468 15202 15229
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 468 15202 15230 "src/lib/pprint/PPrintEngine.ml" 468 15202 15234
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 468 15202 15208 "src/lib/pprint/PPrintEngine.ml" 468 15202 15234
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 466 15123 15129 "src/lib/pprint/PPrintEngine.ml" 468 15202 15234
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 465 15102 15108 "src/lib/pprint/PPrintEngine.ml" 468 15202 15234
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 470 15236 15248 "src/lib/pprint/PPrintEngine.ml" 470 15236 15249
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+)
+"src/lib/pprint/PPrintEngine.ml" 470 15236 15251 "src/lib/pprint/PPrintEngine.ml" 470 15236 15254
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+)
+"src/lib/pprint/PPrintEngine.ml" 470 15236 15256 "src/lib/pprint/PPrintEngine.ml" 470 15236 15259
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+)
+"src/lib/pprint/PPrintEngine.ml" 470 15236 15240 "src/lib/pprint/PPrintEngine.ml" 470 15236 15260
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 471 15264 15276
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 471 15264 15286
+call(
+  stack
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15287 "src/lib/pprint/PPrintEngine.ml" 471 15264 15288
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 470 15236 15248 "src/lib/pprint/PPrintEngine.ml" 470 15236 15249
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15289 "src/lib/pprint/PPrintEngine.ml" 471 15264 15292
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 470 15236 15251 "src/lib/pprint/PPrintEngine.ml" 470 15236 15254
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15293 "src/lib/pprint/PPrintEngine.ml" 471 15264 15296
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 470 15236 15256 "src/lib/pprint/PPrintEngine.ml" 470 15236 15259
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 471 15264 15296
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15304 "src/lib/pprint/PPrintEngine.ml" 472 15298 15309
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15320 "src/lib/pprint/PPrintEngine.ml" 472 15298 15325
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15320 "src/lib/pprint/PPrintEngine.ml" 472 15298 15332
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15333 "src/lib/pprint/PPrintEngine.ml" 472 15298 15334
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15335 "src/lib/pprint/PPrintEngine.ml" 472 15298 15338
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 470 15236 15256 "src/lib/pprint/PPrintEngine.ml" 470 15236 15259
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15320 "src/lib/pprint/PPrintEngine.ml" 472 15298 15338
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15304 "src/lib/pprint/PPrintEngine.ml" 472 15298 15338
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 474 15379 15385 "src/lib/pprint/PPrintEngine.ml" 474 15379 15393
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 474 15379 15394 "src/lib/pprint/PPrintEngine.ml" 474 15379 15400
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 474 15379 15401 "src/lib/pprint/PPrintEngine.ml" 474 15379 15406
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 474 15379 15407 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 474 15379 15385 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 472 15298 15304 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 471 15264 15270 "src/lib/pprint/PPrintEngine.ml" 474 15379 15411
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 476 15413 15430 "src/lib/pprint/PPrintEngine.ml" 476 15413 15431
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+)
+"src/lib/pprint/PPrintEngine.ml" 476 15413 15433 "src/lib/pprint/PPrintEngine.ml" 476 15413 15436
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+)
+"src/lib/pprint/PPrintEngine.ml" 476 15413 15438 "src/lib/pprint/PPrintEngine.ml" 476 15413 15441
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+)
+"src/lib/pprint/PPrintEngine.ml" 476 15413 15443 "src/lib/pprint/PPrintEngine.ml" 476 15413 15458
+type(
+  int
+)
+ident(
+  def apparent_length "src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+)
+"src/lib/pprint/PPrintEngine.ml" 476 15413 15417 "src/lib/pprint/PPrintEngine.ml" 476 15413 15459
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 477 15463 15475
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 477 15463 15485
+call(
+  stack
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15486 "src/lib/pprint/PPrintEngine.ml" 477 15463 15487
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 476 15413 15430 "src/lib/pprint/PPrintEngine.ml" 476 15413 15431
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15488 "src/lib/pprint/PPrintEngine.ml" 477 15463 15491
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 476 15413 15433 "src/lib/pprint/PPrintEngine.ml" 476 15413 15436
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15492 "src/lib/pprint/PPrintEngine.ml" 477 15463 15495
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 476 15413 15438 "src/lib/pprint/PPrintEngine.ml" 476 15413 15441
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 477 15463 15495
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15503 "src/lib/pprint/PPrintEngine.ml" 478 15497 15508
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15519 "src/lib/pprint/PPrintEngine.ml" 478 15497 15524
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15519 "src/lib/pprint/PPrintEngine.ml" 478 15497 15531
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15532 "src/lib/pprint/PPrintEngine.ml" 478 15497 15533
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15534 "src/lib/pprint/PPrintEngine.ml" 478 15497 15549
+type(
+  int
+)
+ident(
+  int_ref apparent_length "src/lib/pprint/PPrintEngine.ml" 476 15413 15443 "src/lib/pprint/PPrintEngine.ml" 476 15413 15458
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15519 "src/lib/pprint/PPrintEngine.ml" 478 15497 15549
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15503 "src/lib/pprint/PPrintEngine.ml" 478 15497 15549
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 480 15590 15596 "src/lib/pprint/PPrintEngine.ml" 480 15590 15604
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 480 15590 15605 "src/lib/pprint/PPrintEngine.ml" 480 15590 15611
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 480 15590 15612 "src/lib/pprint/PPrintEngine.ml" 480 15590 15617
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 480 15590 15618 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 480 15590 15596 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 478 15497 15503 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 477 15463 15469 "src/lib/pprint/PPrintEngine.ml" 480 15590 15622
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 482 15624 15634 "src/lib/pprint/PPrintEngine.ml" 482 15624 15635
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintEngine.ml" 483 15639 15645 "src/lib/pprint/PPrintEngine.ml" 486 15741 15773
+)
+"src/lib/pprint/PPrintEngine.ml" 482 15624 15628 "src/lib/pprint/PPrintEngine.ml" 482 15624 15635
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 483 15639 15645 "src/lib/pprint/PPrintEngine.ml" 483 15639 15651
+type(
+  output -> int -> unit
+)
+ident(
+  int_ref blanks "src/lib/pprint/PPrintEngine.ml" 408 13257 13265 "src/lib/pprint/PPrintEngine.ml" 408 13257 13271
+)
+"src/lib/pprint/PPrintEngine.ml" 483 15639 15652 "src/lib/pprint/PPrintEngine.ml" 483 15639 15658
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 483 15639 15659 "src/lib/pprint/PPrintEngine.ml" 483 15639 15660
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 482 15624 15634 "src/lib/pprint/PPrintEngine.ml" 482 15624 15635
+)
+"src/lib/pprint/PPrintEngine.ml" 483 15639 15645 "src/lib/pprint/PPrintEngine.ml" 483 15639 15660
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15668 "src/lib/pprint/PPrintEngine.ml" 484 15662 15673
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15684 "src/lib/pprint/PPrintEngine.ml" 484 15662 15689
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15684 "src/lib/pprint/PPrintEngine.ml" 484 15662 15696
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15697 "src/lib/pprint/PPrintEngine.ml" 484 15662 15698
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15699 "src/lib/pprint/PPrintEngine.ml" 484 15662 15700
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 482 15624 15634 "src/lib/pprint/PPrintEngine.ml" 482 15624 15635
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15684 "src/lib/pprint/PPrintEngine.ml" 484 15662 15700
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15668 "src/lib/pprint/PPrintEngine.ml" 484 15662 15700
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 486 15741 15747 "src/lib/pprint/PPrintEngine.ml" 486 15741 15755
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 486 15741 15756 "src/lib/pprint/PPrintEngine.ml" 486 15741 15762
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 486 15741 15763 "src/lib/pprint/PPrintEngine.ml" 486 15741 15768
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 486 15741 15769 "src/lib/pprint/PPrintEngine.ml" 486 15741 15773
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 486 15741 15747 "src/lib/pprint/PPrintEngine.ml" 486 15741 15773
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 484 15662 15668 "src/lib/pprint/PPrintEngine.ml" 486 15741 15773
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 483 15639 15645 "src/lib/pprint/PPrintEngine.ml" 486 15741 15773
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 488 15775 15779 "src/lib/pprint/PPrintEngine.ml" 488 15775 15787
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 492 15998 16012 "src/lib/pprint/PPrintEngine.ml" 492 15998 16015
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/lib/pprint/PPrintEngine.ml" 492 15998 16016 "src/lib/pprint/PPrintEngine.ml" 492 15998 16023
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 492 15998 16011 "src/lib/pprint/PPrintEngine.ml" 492 15998 16024
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 492 15998 16004 "src/lib/pprint/PPrintEngine.ml" 492 15998 16024
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 494 16055 16061 "src/lib/pprint/PPrintEngine.ml" 494 16055 16067
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 494 16055 16061 "src/lib/pprint/PPrintEngine.ml" 494 16055 16072
+call(
+  stack
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 494 16055 16073 "src/lib/pprint/PPrintEngine.ml" 494 16055 16077
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 494 16055 16061 "src/lib/pprint/PPrintEngine.ml" 494 16055 16077
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 495 16079 16085 "src/lib/pprint/PPrintEngine.ml" 495 16079 16091
+type(
+  output -> int -> unit
+)
+ident(
+  int_ref blanks "src/lib/pprint/PPrintEngine.ml" 408 13257 13265 "src/lib/pprint/PPrintEngine.ml" 408 13257 13271
+)
+"src/lib/pprint/PPrintEngine.ml" 495 16079 16092 "src/lib/pprint/PPrintEngine.ml" 495 16079 16098
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 495 16079 16099 "src/lib/pprint/PPrintEngine.ml" 495 16079 16105
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 495 16079 16085 "src/lib/pprint/PPrintEngine.ml" 495 16079 16105
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 496 16107 16113 "src/lib/pprint/PPrintEngine.ml" 496 16107 16118
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 496 16107 16129 "src/lib/pprint/PPrintEngine.ml" 496 16107 16135
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 496 16107 16113 "src/lib/pprint/PPrintEngine.ml" 496 16107 16135
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 497 16137 16143 "src/lib/pprint/PPrintEngine.ml" 497 16137 16148
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 497 16137 16164 "src/lib/pprint/PPrintEngine.ml" 497 16137 16170
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 497 16137 16143 "src/lib/pprint/PPrintEngine.ml" 497 16137 16170
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 499 16194 16200 "src/lib/pprint/PPrintEngine.ml" 499 16194 16208
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 499 16194 16209 "src/lib/pprint/PPrintEngine.ml" 499 16194 16215
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 499 16194 16216 "src/lib/pprint/PPrintEngine.ml" 499 16194 16221
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 499 16194 16222 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 499 16194 16200 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 497 16137 16143 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 496 16107 16113 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 495 16079 16085 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 494 16055 16061 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 492 15998 16004 "src/lib/pprint/PPrintEngine.ml" 499 16194 16226
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 501 16228 16240 "src/lib/pprint/PPrintEngine.ml" 501 16228 16244
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 504 16348 16354 "src/lib/pprint/PPrintEngine.ml" 504 16348 16426
+)
+"src/lib/pprint/PPrintEngine.ml" 501 16228 16246 "src/lib/pprint/PPrintEngine.ml" 501 16228 16250
+type(
+  document
+)
+ident(
+  def doc2 "src/lib/pprint/PPrintEngine.ml" 504 16348 16354 "src/lib/pprint/PPrintEngine.ml" 504 16348 16426
+)
+"src/lib/pprint/PPrintEngine.ml" 501 16228 16232 "src/lib/pprint/PPrintEngine.ml" 501 16228 16251
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16354 "src/lib/pprint/PPrintEngine.ml" 504 16348 16360
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16361 "src/lib/pprint/PPrintEngine.ml" 504 16348 16367
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16368 "src/lib/pprint/PPrintEngine.ml" 504 16348 16373
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16374 "src/lib/pprint/PPrintEngine.ml" 504 16348 16380
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16381 "src/lib/pprint/PPrintEngine.ml" 504 16348 16388
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16393 "src/lib/pprint/PPrintEngine.ml" 504 16348 16400
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16406 "src/lib/pprint/PPrintEngine.ml" 504 16348 16410
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 501 16228 16240 "src/lib/pprint/PPrintEngine.ml" 501 16228 16244
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16416 "src/lib/pprint/PPrintEngine.ml" 504 16348 16420
+type(
+  document
+)
+ident(
+  int_ref doc2 "src/lib/pprint/PPrintEngine.ml" 501 16228 16246 "src/lib/pprint/PPrintEngine.ml" 501 16228 16250
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16389 "src/lib/pprint/PPrintEngine.ml" 504 16348 16421
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16422 "src/lib/pprint/PPrintEngine.ml" 504 16348 16426
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 504 16348 16354 "src/lib/pprint/PPrintEngine.ml" 504 16348 16426
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 506 16428 16437 "src/lib/pprint/PPrintEngine.ml" 506 16428 16438
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 506 16428 16440 "src/lib/pprint/PPrintEngine.ml" 506 16428 16444
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 508 16515 16521 "src/lib/pprint/PPrintEngine.ml" 508 16515 16598
+)
+"src/lib/pprint/PPrintEngine.ml" 506 16428 16446 "src/lib/pprint/PPrintEngine.ml" 506 16428 16450
+type(
+  document
+)
+ident(
+  def doc2 "src/lib/pprint/PPrintEngine.ml" 508 16515 16521 "src/lib/pprint/PPrintEngine.ml" 508 16515 16598
+)
+"src/lib/pprint/PPrintEngine.ml" 506 16428 16432 "src/lib/pprint/PPrintEngine.ml" 506 16428 16451
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16521 "src/lib/pprint/PPrintEngine.ml" 508 16515 16527
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16528 "src/lib/pprint/PPrintEngine.ml" 508 16515 16534
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16535 "src/lib/pprint/PPrintEngine.ml" 508 16515 16540
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16541 "src/lib/pprint/PPrintEngine.ml" 508 16515 16547
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16548 "src/lib/pprint/PPrintEngine.ml" 508 16515 16555
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16556 "src/lib/pprint/PPrintEngine.ml" 508 16515 16560
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 506 16428 16440 "src/lib/pprint/PPrintEngine.ml" 506 16428 16444
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16569 "src/lib/pprint/PPrintEngine.ml" 508 16515 16575
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16577 "src/lib/pprint/PPrintEngine.ml" 508 16515 16584
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16586 "src/lib/pprint/PPrintEngine.ml" 508 16515 16590
+type(
+  document
+)
+ident(
+  int_ref doc2 "src/lib/pprint/PPrintEngine.ml" 506 16428 16446 "src/lib/pprint/PPrintEngine.ml" 506 16428 16450
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16592 "src/lib/pprint/PPrintEngine.ml" 508 16515 16596
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16561 "src/lib/pprint/PPrintEngine.ml" 508 16515 16598
+type(
+  cont
+)
+"src/lib/pprint/PPrintEngine.ml" 508 16515 16521 "src/lib/pprint/PPrintEngine.ml" 508 16515 16598
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 510 16600 16610 "src/lib/pprint/PPrintEngine.ml" 510 16600 16611
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 510 16600 16613 "src/lib/pprint/PPrintEngine.ml" 510 16600 16614
+type(
+  int
+)
+ident(
+  def j "src/lib/pprint/PPrintEngine.ml" 511 16624 16630 "src/lib/pprint/PPrintEngine.ml" 511 16624 16679
+)
+"src/lib/pprint/PPrintEngine.ml" 510 16600 16616 "src/lib/pprint/PPrintEngine.ml" 510 16600 16619
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 511 16624 16630 "src/lib/pprint/PPrintEngine.ml" 511 16624 16679
+)
+"src/lib/pprint/PPrintEngine.ml" 510 16600 16604 "src/lib/pprint/PPrintEngine.ml" 510 16600 16620
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16630 "src/lib/pprint/PPrintEngine.ml" 511 16624 16636
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16637 "src/lib/pprint/PPrintEngine.ml" 511 16624 16643
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16644 "src/lib/pprint/PPrintEngine.ml" 511 16624 16649
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16651 "src/lib/pprint/PPrintEngine.ml" 511 16624 16657
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16658 "src/lib/pprint/PPrintEngine.ml" 511 16624 16659
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16660 "src/lib/pprint/PPrintEngine.ml" 511 16624 16661
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintEngine.ml" 510 16600 16613 "src/lib/pprint/PPrintEngine.ml" 510 16600 16614
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16650 "src/lib/pprint/PPrintEngine.ml" 511 16624 16662
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16663 "src/lib/pprint/PPrintEngine.ml" 511 16624 16670
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16671 "src/lib/pprint/PPrintEngine.ml" 511 16624 16674
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 510 16600 16616 "src/lib/pprint/PPrintEngine.ml" 510 16600 16619
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16675 "src/lib/pprint/PPrintEngine.ml" 511 16624 16679
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 511 16624 16630 "src/lib/pprint/PPrintEngine.ml" 511 16624 16679
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 513 16681 16692 "src/lib/pprint/PPrintEngine.ml" 513 16681 16695
+type(
+  requirement
+)
+ident(
+  def req "src/lib/pprint/PPrintEngine.ml" 519 17080 17086 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+)
+"src/lib/pprint/PPrintEngine.ml" 513 16681 16697 "src/lib/pprint/PPrintEngine.ml" 513 16681 16700
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 519 17080 17086 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+)
+"src/lib/pprint/PPrintEngine.ml" 513 16681 16685 "src/lib/pprint/PPrintEngine.ml" 513 16681 16701
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 519 17080 17090 "src/lib/pprint/PPrintEngine.ml" 519 17080 17097
+type(
+  bool
+)
+ident(
+  def flatten "src/lib/pprint/PPrintEngine.ml" 524 17250 17256 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+)
+"src/lib/pprint/PPrintEngine.ml" 520 17100 17108 "src/lib/pprint/PPrintEngine.ml" 520 17100 17115
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 520 17100 17116 "src/lib/pprint/PPrintEngine.ml" 520 17100 17118
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17131 "src/lib/pprint/PPrintEngine.ml" 521 17119 17137
+type(
+  requirement
+)
+ident(
+  def column "src/lib/pprint/PPrintEngine.ml" 522 17163 17171 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17140 "src/lib/pprint/PPrintEngine.ml" 521 17119 17145
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17140 "src/lib/pprint/PPrintEngine.ml" 521 17119 17152
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17153 "src/lib/pprint/PPrintEngine.ml" 521 17119 17155
+type(
+  requirement -> requirement -> requirement
+)
+ident(
+  int_ref ++ "src/lib/pprint/PPrintEngine.ml" 28 1219 1223 "src/lib/pprint/PPrintEngine.ml" 28 1219 1227
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17156 "src/lib/pprint/PPrintEngine.ml" 521 17119 17159
+type(
+  requirement
+)
+ident(
+  int_ref req "src/lib/pprint/PPrintEngine.ml" 513 16681 16692 "src/lib/pprint/PPrintEngine.ml" 513 16681 16695
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17140 "src/lib/pprint/PPrintEngine.ml" 521 17119 17159
+call(
+  stack
+)
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17171 "src/lib/pprint/PPrintEngine.ml" 522 17163 17177
+type(
+  requirement
+)
+ident(
+  int_ref column "src/lib/pprint/PPrintEngine.ml" 521 17119 17131 "src/lib/pprint/PPrintEngine.ml" 521 17119 17137
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17178 "src/lib/pprint/PPrintEngine.ml" 522 17163 17181
+type(
+  requirement -> int -> bool
+)
+ident(
+  int_ref <== "src/lib/pprint/PPrintEngine.ml" 36 1423 1427 "src/lib/pprint/PPrintEngine.ml" 36 1423 1432
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17182 "src/lib/pprint/PPrintEngine.ml" 522 17163 17187
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17182 "src/lib/pprint/PPrintEngine.ml" 522 17163 17193
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17171 "src/lib/pprint/PPrintEngine.ml" 522 17163 17193
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17194 "src/lib/pprint/PPrintEngine.ml" 522 17163 17196
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17197 "src/lib/pprint/PPrintEngine.ml" 522 17163 17203
+type(
+  requirement
+)
+ident(
+  int_ref column "src/lib/pprint/PPrintEngine.ml" 521 17119 17131 "src/lib/pprint/PPrintEngine.ml" 521 17119 17137
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17204 "src/lib/pprint/PPrintEngine.ml" 522 17163 17207
+type(
+  requirement -> int -> bool
+)
+ident(
+  int_ref <== "src/lib/pprint/PPrintEngine.ml" 36 1423 1427 "src/lib/pprint/PPrintEngine.ml" 36 1423 1432
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17208 "src/lib/pprint/PPrintEngine.ml" 522 17163 17213
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17208 "src/lib/pprint/PPrintEngine.ml" 522 17163 17225
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17226 "src/lib/pprint/PPrintEngine.ml" 522 17163 17227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17228 "src/lib/pprint/PPrintEngine.ml" 522 17163 17233
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17228 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17208 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17197 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 522 17163 17171 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 521 17119 17127 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 520 17100 17108 "src/lib/pprint/PPrintEngine.ml" 522 17163 17240
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17256 "src/lib/pprint/PPrintEngine.ml" 524 17250 17262
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17263 "src/lib/pprint/PPrintEngine.ml" 524 17250 17269
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17270 "src/lib/pprint/PPrintEngine.ml" 524 17250 17275
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17276 "src/lib/pprint/PPrintEngine.ml" 524 17250 17282
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17283 "src/lib/pprint/PPrintEngine.ml" 524 17250 17290
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 519 17080 17090 "src/lib/pprint/PPrintEngine.ml" 519 17080 17097
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17291 "src/lib/pprint/PPrintEngine.ml" 524 17250 17294
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 513 16681 16697 "src/lib/pprint/PPrintEngine.ml" 513 16681 16700
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17295 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 524 17250 17256 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 519 17080 17086 "src/lib/pprint/PPrintEngine.ml" 524 17250 17299
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 526 17301 17312 "src/lib/pprint/PPrintEngine.ml" 526 17301 17313
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 526 17301 17315 "src/lib/pprint/PPrintEngine.ml" 526 17301 17318
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 533 17700 17706 "src/lib/pprint/PPrintEngine.ml" 533 17700 17755
+)
+"src/lib/pprint/PPrintEngine.ml" 526 17301 17305 "src/lib/pprint/PPrintEngine.ml" 526 17301 17319
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17706 "src/lib/pprint/PPrintEngine.ml" 533 17700 17712
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17713 "src/lib/pprint/PPrintEngine.ml" 533 17700 17719
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17720 "src/lib/pprint/PPrintEngine.ml" 533 17700 17725
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17726 "src/lib/pprint/PPrintEngine.ml" 533 17700 17731
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17726 "src/lib/pprint/PPrintEngine.ml" 533 17700 17738
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17739 "src/lib/pprint/PPrintEngine.ml" 533 17700 17746
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17747 "src/lib/pprint/PPrintEngine.ml" 533 17700 17750
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 526 17301 17315 "src/lib/pprint/PPrintEngine.ml" 526 17301 17318
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17751 "src/lib/pprint/PPrintEngine.ml" 533 17700 17755
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 533 17700 17706 "src/lib/pprint/PPrintEngine.ml" 533 17700 17755
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 535 17757 17768 "src/lib/pprint/PPrintEngine.ml" 535 17757 17769
+type(
+  custom
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 537 17834 17840 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+)
+"src/lib/pprint/PPrintEngine.ml" 535 17757 17761 "src/lib/pprint/PPrintEngine.ml" 535 17757 17769
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17840 "src/lib/pprint/PPrintEngine.ml" 537 17834 17841
+type(
+  custom
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 535 17757 17768 "src/lib/pprint/PPrintEngine.ml" 535 17757 17769
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17840 "src/lib/pprint/PPrintEngine.ml" 537 17834 17848
+call(
+  stack
+)
+type(
+  output -> state -> int -> bool -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17849 "src/lib/pprint/PPrintEngine.ml" 537 17834 17855
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17856 "src/lib/pprint/PPrintEngine.ml" 537 17834 17861
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17862 "src/lib/pprint/PPrintEngine.ml" 537 17834 17868
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 454 14943 14946 "src/lib/pprint/PPrintEngine.ml" 454 14943 14952
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17869 "src/lib/pprint/PPrintEngine.ml" 537 17834 17876
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17840 "src/lib/pprint/PPrintEngine.ml" 537 17834 17876
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17918 "src/lib/pprint/PPrintEngine.ml" 539 17904 17920
+type(
+  state -> bool -> bool
+)
+ident(
+  int_ref ok "src/lib/pprint/PPrintEngine.ml" 424 13752 13756 "src/lib/pprint/PPrintEngine.ml" 424 13752 13758
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17921 "src/lib/pprint/PPrintEngine.ml" 539 17904 17926
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17927 "src/lib/pprint/PPrintEngine.ml" 539 17904 17934
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 455 14960 14963 "src/lib/pprint/PPrintEngine.ml" 455 14960 14970
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17917 "src/lib/pprint/PPrintEngine.ml" 539 17904 17935
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17910 "src/lib/pprint/PPrintEngine.ml" 539 17904 17935
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 541 17959 17965 "src/lib/pprint/PPrintEngine.ml" 541 17959 17973
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+)
+"src/lib/pprint/PPrintEngine.ml" 541 17959 17974 "src/lib/pprint/PPrintEngine.ml" 541 17959 17980
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 452 14905 14908 "src/lib/pprint/PPrintEngine.ml" 452 14905 14914
+)
+"src/lib/pprint/PPrintEngine.ml" 541 17959 17981 "src/lib/pprint/PPrintEngine.ml" 541 17959 17986
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 453 14925 14928 "src/lib/pprint/PPrintEngine.ml" 453 14925 14933
+)
+"src/lib/pprint/PPrintEngine.ml" 541 17959 17987 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 457 14998 15001 "src/lib/pprint/PPrintEngine.ml" 457 14998 15005
+)
+"src/lib/pprint/PPrintEngine.ml" 541 17959 17965 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 539 17904 17910 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 537 17834 17840 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 459 15023 15025 "src/lib/pprint/PPrintEngine.ml" 541 17959 17991
+type(
+  unit
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 543 17993 17997 "src/lib/pprint/PPrintEngine.ml" 543 17993 18005
+type(
+  output -> state -> cont -> unit
+)
+ident(
+  def continue "src/lib/pprint/PPrintEngine.ml" 451 14890 14890 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 543 17993 18006 "src/lib/pprint/PPrintEngine.ml" 543 17993 18012
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 543 17993 18013 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 543 17993 18013 "src/lib/pprint/PPrintEngine.ml" 543 17993 18018
+type(
+  state
+)
+ident(
+  def state "src/lib/pprint/PPrintEngine.ml" 543 17993 18021 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 544 18030 18034 "src/lib/pprint/PPrintEngine.ml" 544 18030 18038
+type(
+  cont
+)
+"src/lib/pprint/PPrintEngine.ml" 545 18042 18048 "src/lib/pprint/PPrintEngine.ml" 545 18042 18050
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 546 18051 18062 "src/lib/pprint/PPrintEngine.ml" 546 18051 18068
+type(
+  int
+)
+ident(
+  def indent "src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 546 18051 18070 "src/lib/pprint/PPrintEngine.ml" 546 18051 18077
+type(
+  bool
+)
+ident(
+  def flatten "src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 546 18051 18079 "src/lib/pprint/PPrintEngine.ml" 546 18051 18082
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 546 18051 18084 "src/lib/pprint/PPrintEngine.ml" 546 18051 18088
+type(
+  cont
+)
+ident(
+  def cont "src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+)
+"src/lib/pprint/PPrintEngine.ml" 546 18051 18055 "src/lib/pprint/PPrintEngine.ml" 546 18051 18089
+type(
+  cont
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18105
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18106 "src/lib/pprint/PPrintEngine.ml" 547 18093 18112
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 543 17993 18006 "src/lib/pprint/PPrintEngine.ml" 543 17993 18012
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18113 "src/lib/pprint/PPrintEngine.ml" 547 18093 18118
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 543 17993 18013 "src/lib/pprint/PPrintEngine.ml" 543 17993 18018
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18119 "src/lib/pprint/PPrintEngine.ml" 547 18093 18125
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 546 18051 18062 "src/lib/pprint/PPrintEngine.ml" 546 18051 18068
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18126 "src/lib/pprint/PPrintEngine.ml" 547 18093 18133
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 546 18051 18070 "src/lib/pprint/PPrintEngine.ml" 546 18051 18077
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18134 "src/lib/pprint/PPrintEngine.ml" 547 18093 18137
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 546 18051 18079 "src/lib/pprint/PPrintEngine.ml" 546 18051 18082
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18138 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+type(
+  cont
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 546 18051 18084 "src/lib/pprint/PPrintEngine.ml" 546 18051 18088
+)
+"src/lib/pprint/PPrintEngine.ml" 547 18093 18099 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 543 17993 18021 "src/lib/pprint/PPrintEngine.ml" 547 18093 18142
+type(
+  cont -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18511 "src/lib/pprint/PPrintEngine.ml" 555 18507 18517
+type(
+  output -> state -> int -> bool -> document -> unit
+)
+ident(
+  def pretty "src/lib/pprint/PPrintEngine.ml" 562 18720 18720 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18518 "src/lib/pprint/PPrintEngine.ml" 555 18507 18524
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 555 18507 18525 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18525 "src/lib/pprint/PPrintEngine.ml" 555 18507 18530
+type(
+  state
+)
+ident(
+  def state "src/lib/pprint/PPrintEngine.ml" 555 18507 18531 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18531 "src/lib/pprint/PPrintEngine.ml" 555 18507 18537
+type(
+  int
+)
+ident(
+  def indent "src/lib/pprint/PPrintEngine.ml" 555 18507 18538 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18538 "src/lib/pprint/PPrintEngine.ml" 555 18507 18545
+type(
+  bool
+)
+ident(
+  def flatten "src/lib/pprint/PPrintEngine.ml" 555 18507 18546 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+)
+"src/lib/pprint/PPrintEngine.ml" 555 18507 18546 "src/lib/pprint/PPrintEngine.ml" 555 18507 18549
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 556 18552 18554 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18554 "src/lib/pprint/PPrintEngine.ml" 556 18552 18560
+type(
+  output -> state -> int -> bool -> document -> cont -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 451 14890 14898 "src/lib/pprint/PPrintEngine.ml" 451 14890 14904
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18561 "src/lib/pprint/PPrintEngine.ml" 556 18552 18567
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 555 18507 18518 "src/lib/pprint/PPrintEngine.ml" 555 18507 18524
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18568 "src/lib/pprint/PPrintEngine.ml" 556 18552 18573
+type(
+  state
+)
+ident(
+  int_ref state "src/lib/pprint/PPrintEngine.ml" 555 18507 18525 "src/lib/pprint/PPrintEngine.ml" 555 18507 18530
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18574 "src/lib/pprint/PPrintEngine.ml" 556 18552 18580
+type(
+  int
+)
+ident(
+  int_ref indent "src/lib/pprint/PPrintEngine.ml" 555 18507 18531 "src/lib/pprint/PPrintEngine.ml" 555 18507 18537
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18581 "src/lib/pprint/PPrintEngine.ml" 556 18552 18588
+type(
+  bool
+)
+ident(
+  int_ref flatten "src/lib/pprint/PPrintEngine.ml" 555 18507 18538 "src/lib/pprint/PPrintEngine.ml" 555 18507 18545
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18589 "src/lib/pprint/PPrintEngine.ml" 556 18552 18592
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 555 18507 18546 "src/lib/pprint/PPrintEngine.ml" 555 18507 18549
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18593 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+type(
+  cont
+)
+"src/lib/pprint/PPrintEngine.ml" 556 18552 18554 "src/lib/pprint/PPrintEngine.ml" 556 18552 18597
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 562 18720 18728 "src/lib/pprint/PPrintEngine.ml" 562 18720 18735
+type(
+  output -> document -> document list -> unit
+)
+ident(
+  def compact "src/lib/pprint/PPrintEngine.ml" 562 18720 18720 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 562 18720 18743 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+)
+"src/lib/pprint/PPrintEngine.ml" 562 18720 18743 "src/lib/pprint/PPrintEngine.ml" 562 18720 18746
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+)
+"src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+type(
+  document list
+)
+ident(
+  def cont "src/lib/pprint/PPrintEngine.ml" 563 18754 18756 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+)
+"src/lib/pprint/PPrintEngine.ml" 563 18754 18762 "src/lib/pprint/PPrintEngine.ml" 563 18754 18765
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 562 18720 18743 "src/lib/pprint/PPrintEngine.ml" 562 18720 18746
+)
+"src/lib/pprint/PPrintEngine.ml" 564 18771 18775 "src/lib/pprint/PPrintEngine.ml" 564 18771 18780
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 565 18784 18790 "src/lib/pprint/PPrintEngine.ml" 565 18784 18798
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 565 18784 18799 "src/lib/pprint/PPrintEngine.ml" 565 18784 18805
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 565 18784 18806 "src/lib/pprint/PPrintEngine.ml" 565 18784 18810
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 565 18784 18790 "src/lib/pprint/PPrintEngine.ml" 565 18784 18810
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 566 18811 18820 "src/lib/pprint/PPrintEngine.ml" 566 18811 18821
+type(
+  char
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 567 18825 18831 "src/lib/pprint/PPrintEngine.ml" 568 18846 18872
+)
+"src/lib/pprint/PPrintEngine.ml" 566 18811 18815 "src/lib/pprint/PPrintEngine.ml" 566 18811 18821
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 567 18825 18831 "src/lib/pprint/PPrintEngine.ml" 567 18825 18837
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 567 18825 18831 "src/lib/pprint/PPrintEngine.ml" 567 18825 18842
+call(
+  stack
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 567 18825 18843 "src/lib/pprint/PPrintEngine.ml" 567 18825 18844
+type(
+  char
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 566 18811 18820 "src/lib/pprint/PPrintEngine.ml" 566 18811 18821
+)
+"src/lib/pprint/PPrintEngine.ml" 567 18825 18831 "src/lib/pprint/PPrintEngine.ml" 567 18825 18844
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 568 18846 18852 "src/lib/pprint/PPrintEngine.ml" 568 18846 18860
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 568 18846 18861 "src/lib/pprint/PPrintEngine.ml" 568 18846 18867
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 568 18846 18868 "src/lib/pprint/PPrintEngine.ml" 568 18846 18872
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 568 18846 18852 "src/lib/pprint/PPrintEngine.ml" 568 18846 18872
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 567 18825 18831 "src/lib/pprint/PPrintEngine.ml" 568 18846 18872
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 569 18873 18885 "src/lib/pprint/PPrintEngine.ml" 569 18873 18886
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+)
+"src/lib/pprint/PPrintEngine.ml" 569 18873 18888 "src/lib/pprint/PPrintEngine.ml" 569 18873 18891
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+)
+"src/lib/pprint/PPrintEngine.ml" 569 18873 18893 "src/lib/pprint/PPrintEngine.ml" 569 18873 18896
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+)
+"src/lib/pprint/PPrintEngine.ml" 569 18873 18877 "src/lib/pprint/PPrintEngine.ml" 569 18873 18897
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 570 18901 18913
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 570 18901 18923
+call(
+  stack
+)
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18924 "src/lib/pprint/PPrintEngine.ml" 570 18901 18925
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 569 18873 18885 "src/lib/pprint/PPrintEngine.ml" 569 18873 18886
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18926 "src/lib/pprint/PPrintEngine.ml" 570 18901 18929
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 569 18873 18888 "src/lib/pprint/PPrintEngine.ml" 569 18873 18891
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18930 "src/lib/pprint/PPrintEngine.ml" 570 18901 18933
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 569 18873 18893 "src/lib/pprint/PPrintEngine.ml" 569 18873 18896
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 570 18901 18933
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 571 18935 18941 "src/lib/pprint/PPrintEngine.ml" 571 18935 18949
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 571 18935 18950 "src/lib/pprint/PPrintEngine.ml" 571 18935 18956
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 571 18935 18957 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 571 18935 18941 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 570 18901 18907 "src/lib/pprint/PPrintEngine.ml" 571 18935 18961
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 572 18962 18979 "src/lib/pprint/PPrintEngine.ml" 572 18962 18980
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+)
+"src/lib/pprint/PPrintEngine.ml" 572 18962 18982 "src/lib/pprint/PPrintEngine.ml" 572 18962 18985
+type(
+  int
+)
+ident(
+  def ofs "src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+)
+"src/lib/pprint/PPrintEngine.ml" 572 18962 18987 "src/lib/pprint/PPrintEngine.ml" 572 18962 18990
+type(
+  int
+)
+ident(
+  def len "src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+)
+"src/lib/pprint/PPrintEngine.ml" 572 18962 18992 "src/lib/pprint/PPrintEngine.ml" 572 18962 19007
+type(
+  int
+)
+ident(
+  def apparent_length "src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+)
+"src/lib/pprint/PPrintEngine.ml" 572 18962 18966 "src/lib/pprint/PPrintEngine.ml" 572 18962 19008
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 573 19012 19024
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 573 19012 19034
+type(
+  string -> int -> int -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19035 "src/lib/pprint/PPrintEngine.ml" 573 19012 19036
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintEngine.ml" 572 18962 18979 "src/lib/pprint/PPrintEngine.ml" 572 18962 18980
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19037 "src/lib/pprint/PPrintEngine.ml" 573 19012 19040
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lib/pprint/PPrintEngine.ml" 572 18962 18982 "src/lib/pprint/PPrintEngine.ml" 572 18962 18985
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19041 "src/lib/pprint/PPrintEngine.ml" 573 19012 19044
+type(
+  int
+)
+ident(
+  int_ref len "src/lib/pprint/PPrintEngine.ml" 572 18962 18987 "src/lib/pprint/PPrintEngine.ml" 572 18962 18990
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 573 19012 19044
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 574 19046 19052 "src/lib/pprint/PPrintEngine.ml" 574 19046 19060
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 574 19046 19061 "src/lib/pprint/PPrintEngine.ml" 574 19046 19067
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 574 19046 19068 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 574 19046 19052 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 573 19012 19018 "src/lib/pprint/PPrintEngine.ml" 574 19046 19072
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 575 19073 19083 "src/lib/pprint/PPrintEngine.ml" 575 19073 19084
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintEngine.ml" 576 19088 19094 "src/lib/pprint/PPrintEngine.ml" 577 19111 19137
+)
+"src/lib/pprint/PPrintEngine.ml" 575 19073 19077 "src/lib/pprint/PPrintEngine.ml" 575 19073 19084
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 576 19088 19094 "src/lib/pprint/PPrintEngine.ml" 576 19088 19100
+type(
+  output -> int -> unit
+)
+ident(
+  int_ref blanks "src/lib/pprint/PPrintEngine.ml" 408 13257 13265 "src/lib/pprint/PPrintEngine.ml" 408 13257 13271
+)
+"src/lib/pprint/PPrintEngine.ml" 576 19088 19101 "src/lib/pprint/PPrintEngine.ml" 576 19088 19107
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 576 19088 19108 "src/lib/pprint/PPrintEngine.ml" 576 19088 19109
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintEngine.ml" 575 19073 19083 "src/lib/pprint/PPrintEngine.ml" 575 19073 19084
+)
+"src/lib/pprint/PPrintEngine.ml" 576 19088 19094 "src/lib/pprint/PPrintEngine.ml" 576 19088 19109
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 577 19111 19117 "src/lib/pprint/PPrintEngine.ml" 577 19111 19125
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 577 19111 19126 "src/lib/pprint/PPrintEngine.ml" 577 19111 19132
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 577 19111 19133 "src/lib/pprint/PPrintEngine.ml" 577 19111 19137
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 577 19111 19117 "src/lib/pprint/PPrintEngine.ml" 577 19111 19137
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 576 19088 19094 "src/lib/pprint/PPrintEngine.ml" 577 19111 19137
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 578 19138 19142 "src/lib/pprint/PPrintEngine.ml" 578 19138 19150
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 579 19154 19160 "src/lib/pprint/PPrintEngine.ml" 579 19154 19166
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 579 19154 19160 "src/lib/pprint/PPrintEngine.ml" 579 19154 19171
+call(
+  stack
+)
+type(
+  char -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 579 19154 19172 "src/lib/pprint/PPrintEngine.ml" 579 19154 19176
+type(
+  char
+)
+"src/lib/pprint/PPrintEngine.ml" 579 19154 19160 "src/lib/pprint/PPrintEngine.ml" 579 19154 19176
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 580 19178 19184 "src/lib/pprint/PPrintEngine.ml" 580 19178 19192
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 580 19178 19193 "src/lib/pprint/PPrintEngine.ml" 580 19178 19199
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 580 19178 19200 "src/lib/pprint/PPrintEngine.ml" 580 19178 19204
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 580 19178 19184 "src/lib/pprint/PPrintEngine.ml" 580 19178 19204
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 579 19154 19160 "src/lib/pprint/PPrintEngine.ml" 580 19178 19204
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 581 19205 19214 "src/lib/pprint/PPrintEngine.ml" 581 19205 19215
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 581 19205 19217 "src/lib/pprint/PPrintEngine.ml" 581 19205 19221
+type(
+  document
+)
+ident(
+  def doc1 "src/lib/pprint/PPrintEngine.ml" 582 19232 19238 "src/lib/pprint/PPrintEngine.ml" 582 19232 19272
+)
+"src/lib/pprint/PPrintEngine.ml" 581 19205 19223 "src/lib/pprint/PPrintEngine.ml" 581 19205 19227
+type(
+  document
+)
+ident(
+  def doc2 "src/lib/pprint/PPrintEngine.ml" 582 19232 19238 "src/lib/pprint/PPrintEngine.ml" 582 19232 19272
+)
+"src/lib/pprint/PPrintEngine.ml" 581 19205 19209 "src/lib/pprint/PPrintEngine.ml" 581 19205 19228
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19238 "src/lib/pprint/PPrintEngine.ml" 582 19232 19245
+type(
+  output -> document -> document list -> unit
+)
+ident(
+  int_ref compact "src/lib/pprint/PPrintEngine.ml" 562 18720 18728 "src/lib/pprint/PPrintEngine.ml" 562 18720 18735
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19246 "src/lib/pprint/PPrintEngine.ml" 582 19232 19252
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19253 "src/lib/pprint/PPrintEngine.ml" 582 19232 19257
+type(
+  document
+)
+ident(
+  int_ref doc1 "src/lib/pprint/PPrintEngine.ml" 581 19205 19217 "src/lib/pprint/PPrintEngine.ml" 581 19205 19221
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19259 "src/lib/pprint/PPrintEngine.ml" 582 19232 19263
+type(
+  document
+)
+ident(
+  int_ref doc2 "src/lib/pprint/PPrintEngine.ml" 581 19205 19223 "src/lib/pprint/PPrintEngine.ml" 581 19205 19227
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19267 "src/lib/pprint/PPrintEngine.ml" 582 19232 19271
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19258 "src/lib/pprint/PPrintEngine.ml" 582 19232 19272
+type(
+  document list
+)
+"src/lib/pprint/PPrintEngine.ml" 582 19232 19238 "src/lib/pprint/PPrintEngine.ml" 582 19232 19272
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19285 "src/lib/pprint/PPrintEngine.ml" 583 19273 19288
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19290 "src/lib/pprint/PPrintEngine.ml" 583 19273 19291
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19277 "src/lib/pprint/PPrintEngine.ml" 583 19273 19292
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 584 19293 19303 "src/lib/pprint/PPrintEngine.ml" 584 19293 19304
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 584 19293 19306 "src/lib/pprint/PPrintEngine.ml" 584 19293 19307
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 584 19293 19309 "src/lib/pprint/PPrintEngine.ml" 584 19293 19312
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+)
+"src/lib/pprint/PPrintEngine.ml" 584 19293 19297 "src/lib/pprint/PPrintEngine.ml" 584 19293 19313
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19277 "src/lib/pprint/PPrintEngine.ml" 584 19293 19313
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 585 19314 19325 "src/lib/pprint/PPrintEngine.ml" 585 19314 19326
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 585 19314 19328 "src/lib/pprint/PPrintEngine.ml" 585 19314 19331
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+)
+"src/lib/pprint/PPrintEngine.ml" 585 19314 19318 "src/lib/pprint/PPrintEngine.ml" 585 19314 19332
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19277 "src/lib/pprint/PPrintEngine.ml" 585 19314 19332
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 586 19333 19344 "src/lib/pprint/PPrintEngine.ml" 586 19333 19345
+type(
+  requirement
+)
+"src/lib/pprint/PPrintEngine.ml" 586 19333 19347 "src/lib/pprint/PPrintEngine.ml" 586 19333 19350
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+)
+"src/lib/pprint/PPrintEngine.ml" 586 19333 19337 "src/lib/pprint/PPrintEngine.ml" 586 19333 19351
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 583 19273 19277 "src/lib/pprint/PPrintEngine.ml" 586 19333 19351
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19368
+type(
+  output -> document -> document list -> unit
+)
+ident(
+  int_ref compact "src/lib/pprint/PPrintEngine.ml" 562 18720 18728 "src/lib/pprint/PPrintEngine.ml" 562 18720 18735
+)
+"src/lib/pprint/PPrintEngine.ml" 587 19355 19369 "src/lib/pprint/PPrintEngine.ml" 587 19355 19375
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 587 19355 19376 "src/lib/pprint/PPrintEngine.ml" 587 19355 19379
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 583 19273 19285 "src/lib/pprint/PPrintEngine.ml" 583 19273 19288
+)
+"src/lib/pprint/PPrintEngine.ml" 587 19355 19380 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 587 19355 19361 "src/lib/pprint/PPrintEngine.ml" 587 19355 19384
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 588 19385 19396 "src/lib/pprint/PPrintEngine.ml" 588 19385 19397
+type(
+  custom
+)
+ident(
+  def c "src/lib/pprint/PPrintEngine.ml" 590 19462 19468 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+)
+"src/lib/pprint/PPrintEngine.ml" 588 19385 19389 "src/lib/pprint/PPrintEngine.ml" 588 19385 19397
+type(
+  document
+)
+"src/lib/pprint/PPrintEngine.ml" 590 19462 19468 "src/lib/pprint/PPrintEngine.ml" 590 19462 19469
+type(
+  custom
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintEngine.ml" 588 19385 19396 "src/lib/pprint/PPrintEngine.ml" 588 19385 19397
+)
+"src/lib/pprint/PPrintEngine.ml" 590 19462 19468 "src/lib/pprint/PPrintEngine.ml" 590 19462 19477
+call(
+  stack
+)
+type(
+  output -> unit
+)
+"src/lib/pprint/PPrintEngine.ml" 590 19462 19478 "src/lib/pprint/PPrintEngine.ml" 590 19462 19484
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 590 19462 19468 "src/lib/pprint/PPrintEngine.ml" 590 19462 19484
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 591 19486 19492 "src/lib/pprint/PPrintEngine.ml" 591 19486 19500
+type(
+  output -> document list -> unit
+)
+ident(
+  int_ref continue "src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+)
+"src/lib/pprint/PPrintEngine.ml" 591 19486 19501 "src/lib/pprint/PPrintEngine.ml" 591 19486 19507
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 562 18720 18736 "src/lib/pprint/PPrintEngine.ml" 562 18720 18742
+)
+"src/lib/pprint/PPrintEngine.ml" 591 19486 19508 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 562 18720 18747 "src/lib/pprint/PPrintEngine.ml" 562 18720 18751
+)
+"src/lib/pprint/PPrintEngine.ml" 591 19486 19492 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 590 19462 19468 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 563 18754 18756 "src/lib/pprint/PPrintEngine.ml" 591 19486 19512
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 593 19514 19518 "src/lib/pprint/PPrintEngine.ml" 593 19514 19526
+type(
+  output -> document list -> unit
+)
+ident(
+  def continue "src/lib/pprint/PPrintEngine.ml" 562 18720 18720 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 593 19514 19527 "src/lib/pprint/PPrintEngine.ml" 593 19514 19533
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 593 19514 19534 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+)
+"src/lib/pprint/PPrintEngine.ml" 593 19514 19534 "src/lib/pprint/PPrintEngine.ml" 593 19514 19538
+type(
+  document list
+)
+ident(
+  def cont "src/lib/pprint/PPrintEngine.ml" 594 19541 19543 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+)
+"src/lib/pprint/PPrintEngine.ml" 594 19541 19549 "src/lib/pprint/PPrintEngine.ml" 594 19541 19553
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 593 19514 19534 "src/lib/pprint/PPrintEngine.ml" 593 19514 19538
+)
+"src/lib/pprint/PPrintEngine.ml" 595 19559 19563 "src/lib/pprint/PPrintEngine.ml" 595 19559 19565
+type(
+  document list
+)
+"src/lib/pprint/PPrintEngine.ml" 596 19569 19575 "src/lib/pprint/PPrintEngine.ml" 596 19569 19577
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 597 19578 19582 "src/lib/pprint/PPrintEngine.ml" 597 19578 19585
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 598 19597 19603 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+)
+"src/lib/pprint/PPrintEngine.ml" 597 19578 19589 "src/lib/pprint/PPrintEngine.ml" 597 19578 19593
+type(
+  document list
+)
+ident(
+  def cont "src/lib/pprint/PPrintEngine.ml" 598 19597 19603 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+)
+"src/lib/pprint/PPrintEngine.ml" 597 19578 19582 "src/lib/pprint/PPrintEngine.ml" 597 19578 19593
+type(
+  document list
+)
+"src/lib/pprint/PPrintEngine.ml" 598 19597 19603 "src/lib/pprint/PPrintEngine.ml" 598 19597 19610
+type(
+  output -> document -> document list -> unit
+)
+ident(
+  int_ref compact "src/lib/pprint/PPrintEngine.ml" 562 18720 18728 "src/lib/pprint/PPrintEngine.ml" 562 18720 18735
+)
+"src/lib/pprint/PPrintEngine.ml" 598 19597 19611 "src/lib/pprint/PPrintEngine.ml" 598 19597 19617
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 593 19514 19527 "src/lib/pprint/PPrintEngine.ml" 593 19514 19533
+)
+"src/lib/pprint/PPrintEngine.ml" 598 19597 19618 "src/lib/pprint/PPrintEngine.ml" 598 19597 19621
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 597 19578 19582 "src/lib/pprint/PPrintEngine.ml" 597 19578 19585
+)
+"src/lib/pprint/PPrintEngine.ml" 598 19597 19622 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+type(
+  document list
+)
+ident(
+  int_ref cont "src/lib/pprint/PPrintEngine.ml" 597 19578 19589 "src/lib/pprint/PPrintEngine.ml" 597 19578 19593
+)
+"src/lib/pprint/PPrintEngine.ml" 598 19597 19603 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 594 19541 19543 "src/lib/pprint/PPrintEngine.ml" 598 19597 19626
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 600 19628 19632 "src/lib/pprint/PPrintEngine.ml" 600 19628 19639
+type(
+  output -> document -> unit
+)
+ident(
+  def compact "src/lib/pprint/PPrintEngine.ml" 609 19872 19872 "src/lib/pprint/PPrintEngine.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintEngine.ml" 600 19628 19640 "src/lib/pprint/PPrintEngine.ml" 600 19628 19646
+type(
+  output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 600 19628 19647 "src/lib/pprint/PPrintEngine.ml" 601 19653 19676
+)
+"src/lib/pprint/PPrintEngine.ml" 600 19628 19647 "src/lib/pprint/PPrintEngine.ml" 600 19628 19650
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 601 19653 19655 "src/lib/pprint/PPrintEngine.ml" 601 19653 19676
+)
+"src/lib/pprint/PPrintEngine.ml" 601 19653 19655 "src/lib/pprint/PPrintEngine.ml" 601 19653 19662
+type(
+  output -> document -> document list -> unit
+)
+ident(
+  int_ref compact "src/lib/pprint/PPrintEngine.ml" 562 18720 18728 "src/lib/pprint/PPrintEngine.ml" 562 18720 18735
+)
+"src/lib/pprint/PPrintEngine.ml" 601 19653 19663 "src/lib/pprint/PPrintEngine.ml" 601 19653 19669
+type(
+  output
+)
+ident(
+  int_ref output "src/lib/pprint/PPrintEngine.ml" 600 19628 19640 "src/lib/pprint/PPrintEngine.ml" 600 19628 19646
+)
+"src/lib/pprint/PPrintEngine.ml" 601 19653 19670 "src/lib/pprint/PPrintEngine.ml" 601 19653 19673
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 600 19628 19647 "src/lib/pprint/PPrintEngine.ml" 600 19628 19650
+)
+"src/lib/pprint/PPrintEngine.ml" 601 19653 19674 "src/lib/pprint/PPrintEngine.ml" 601 19653 19676
+type(
+  document list
+)
+"src/lib/pprint/PPrintEngine.ml" 601 19653 19655 "src/lib/pprint/PPrintEngine.ml" 601 19653 19676
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20043 "src/lib/pprint/PPrintEngine.ml" 616 20037 20049
+type(
+  float -> int -> X.channel -> document -> unit
+)
+ident(
+  def pretty "src/lib/pprint/PPrintEngine.ml" 617 20136 20138 "src/lib/pprint/PPrintEngine.ml" 618 20195 20198
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20050 "src/lib/pprint/PPrintEngine.ml" 616 20037 20055
+type(
+  float
+)
+ident(
+  def rfrac "src/lib/pprint/PPrintEngine.ml" 616 20037 20056 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20056 "src/lib/pprint/PPrintEngine.ml" 616 20037 20061
+type(
+  int
+)
+ident(
+  def width "src/lib/pprint/PPrintEngine.ml" 616 20037 20062 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20062 "src/lib/pprint/PPrintEngine.ml" 616 20037 20069
+type(
+  X.channel
+)
+ident(
+  def channel "src/lib/pprint/PPrintEngine.ml" 616 20037 20070 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20070 "src/lib/pprint/PPrintEngine.ml" 616 20037 20073
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 616 20037 20076 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20076 "src/lib/pprint/PPrintEngine.ml" 616 20037 20082
+type(
+  output -> state -> int -> bool -> document -> unit
+)
+ident(
+  int_ref pretty "src/lib/pprint/PPrintEngine.ml" 555 18507 18511 "src/lib/pprint/PPrintEngine.ml" 555 18507 18517
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20084 "src/lib/pprint/PPrintEngine.ml" 616 20037 20092
+type(
+  X.channel -> output
+)
+ident(
+  int_ref X.output "src/lib/pprint/PPrintEngine.ml" 611 19916 19918 "src/lib/pprint/PPrintEngine.ml" 611 19916 19947
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20093 "src/lib/pprint/PPrintEngine.ml" 616 20037 20100
+type(
+  X.channel
+)
+ident(
+  int_ref channel "src/lib/pprint/PPrintEngine.ml" 616 20037 20062 "src/lib/pprint/PPrintEngine.ml" 616 20037 20069
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20083 "src/lib/pprint/PPrintEngine.ml" 616 20037 20101
+call(
+  stack
+)
+type(
+  output
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20103 "src/lib/pprint/PPrintEngine.ml" 616 20037 20110
+type(
+  float -> int -> state
+)
+ident(
+  int_ref initial "src/lib/pprint/PPrintEngine.ml" 106 3723 3727 "src/lib/pprint/PPrintEngine.ml" 106 3723 3734
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20111 "src/lib/pprint/PPrintEngine.ml" 616 20037 20116
+type(
+  float
+)
+ident(
+  int_ref rfrac "src/lib/pprint/PPrintEngine.ml" 616 20037 20050 "src/lib/pprint/PPrintEngine.ml" 616 20037 20055
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20117 "src/lib/pprint/PPrintEngine.ml" 616 20037 20122
+type(
+  int
+)
+ident(
+  int_ref width "src/lib/pprint/PPrintEngine.ml" 616 20037 20056 "src/lib/pprint/PPrintEngine.ml" 616 20037 20061
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20102 "src/lib/pprint/PPrintEngine.ml" 616 20037 20123
+call(
+  stack
+)
+type(
+  state
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20124 "src/lib/pprint/PPrintEngine.ml" 616 20037 20125
+type(
+  int
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20126 "src/lib/pprint/PPrintEngine.ml" 616 20037 20131
+type(
+  bool
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20132 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 616 20037 20070 "src/lib/pprint/PPrintEngine.ml" 616 20037 20073
+)
+"src/lib/pprint/PPrintEngine.ml" 616 20037 20076 "src/lib/pprint/PPrintEngine.ml" 616 20037 20135
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20142 "src/lib/pprint/PPrintEngine.ml" 617 20136 20149
+type(
+  X.channel -> document -> unit
+)
+ident(
+  def compact "src/lib/pprint/PPrintEngine.ml" 617 20136 20194 "src/lib/pprint/PPrintEngine.ml" 618 20195 20198
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20150 "src/lib/pprint/PPrintEngine.ml" 617 20136 20157
+type(
+  X.channel
+)
+ident(
+  def channel "src/lib/pprint/PPrintEngine.ml" 617 20136 20158 "src/lib/pprint/PPrintEngine.ml" 617 20136 20194
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20158 "src/lib/pprint/PPrintEngine.ml" 617 20136 20161
+type(
+  document
+)
+ident(
+  def doc "src/lib/pprint/PPrintEngine.ml" 617 20136 20164 "src/lib/pprint/PPrintEngine.ml" 617 20136 20194
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20164 "src/lib/pprint/PPrintEngine.ml" 617 20136 20171
+type(
+  output -> document -> unit
+)
+ident(
+  int_ref compact "src/lib/pprint/PPrintEngine.ml" 600 19628 19632 "src/lib/pprint/PPrintEngine.ml" 600 19628 19639
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20173 "src/lib/pprint/PPrintEngine.ml" 617 20136 20181
+type(
+  X.channel -> output
+)
+ident(
+  int_ref X.output "src/lib/pprint/PPrintEngine.ml" 611 19916 19918 "src/lib/pprint/PPrintEngine.ml" 611 19916 19947
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20182 "src/lib/pprint/PPrintEngine.ml" 617 20136 20189
+type(
+  X.channel
+)
+ident(
+  int_ref channel "src/lib/pprint/PPrintEngine.ml" 617 20136 20150 "src/lib/pprint/PPrintEngine.ml" 617 20136 20157
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20172 "src/lib/pprint/PPrintEngine.ml" 617 20136 20190
+call(
+  stack
+)
+type(
+  output
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20191 "src/lib/pprint/PPrintEngine.ml" 617 20136 20194
+type(
+  document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintEngine.ml" 617 20136 20158 "src/lib/pprint/PPrintEngine.ml" 617 20136 20161
+)
+"src/lib/pprint/PPrintEngine.ml" 617 20136 20164 "src/lib/pprint/PPrintEngine.ml" 617 20136 20194
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lib/pprint/PPrintEngine.ml" 623 20272 20280 "src/lib/pprint/PPrintEngine.ml" 623 20272 20286
+type(
+  out_channel -> channel_output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 623 20272 20307 "src/lib/pprint/PPrintEngine.ml" 624 20308 20313
+)
+"src/lib/pprint/PPrintEngine.ml" 623 20272 20289 "src/lib/pprint/PPrintEngine.ml" 623 20272 20307
+type(
+  out_channel -> channel_output
+)
+"src/lib/pprint/PPrintEngine.ml" 621 20219 20221 "src/lib/pprint/PPrintEngine.ml" 624 20308 20314
+call(
+  stack
+)
+"src/lib/pprint/PPrintEngine.ml" 629 20384 20392 "src/lib/pprint/PPrintEngine.ml" 629 20384 20398
+type(
+  Buffer.t -> buffer_output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 629 20384 20418 "src/lib/pprint/PPrintEngine.ml" 630 20419 20424
+)
+"src/lib/pprint/PPrintEngine.ml" 629 20384 20401 "src/lib/pprint/PPrintEngine.ml" 629 20384 20418
+type(
+  Buffer.t -> buffer_output
+)
+"src/lib/pprint/PPrintEngine.ml" 627 20334 20336 "src/lib/pprint/PPrintEngine.ml" 630 20419 20425
+call(
+  stack
+)
+"src/lib/pprint/PPrintEngine.ml" 635 20506 20514 "src/lib/pprint/PPrintEngine.ml" 635 20506 20520
+type(
+  Format.formatter -> formatter_output
+)
+ident(
+  def output "src/lib/pprint/PPrintEngine.ml" 635 20506 20543 "src/lib/pprint/PPrintEngine.ml" 636 20544 20549
+)
+"src/lib/pprint/PPrintEngine.ml" 635 20506 20523 "src/lib/pprint/PPrintEngine.ml" 635 20506 20543
+type(
+  Format.formatter -> formatter_output
+)
+"src/lib/pprint/PPrintEngine.ml" 633 20448 20450 "src/lib/pprint/PPrintEngine.ml" 636 20544 20550
+call(
+  stack
+)

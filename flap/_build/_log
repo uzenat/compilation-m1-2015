@@ -1,0 +1,524 @@
+### Starting build.
+# Target: src/flap.ml.depends, tags: { extension:ml, file:src/flap.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/flap.ml > src/flap.ml.depends
+# Target: src/commandLineOptions.ml.depends, tags: { extension:ml, file:src/commandLineOptions.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/commandLineOptions.ml > src/commandLineOptions.ml.depends
+# Target: src/options.ml.depends, tags: { extension:ml, file:src/options.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/options.ml > src/options.ml.depends
+# Target: src/utilities/error.mli.depends, tags: { extension:mli, file:src/utilities/error.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.mli > src/utilities/error.mli.depends
+# Target: src/utilities/position.mli.depends, tags: { extension:mli, file:src/utilities/position.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.mli > src/utilities/position.mli.depends
+# Target: src/utilities/position.cmi, tags: { byte, compile, extension:mli, file:src/utilities/position.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/position.cmi src/utilities/position.mli
+# Target: src/utilities/error.cmi, tags: { byte, compile, extension:mli, file:src/utilities/error.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/error.cmi src/utilities/error.mli
+# Target: src/version.ml.depends, tags: { extension:ml, file:src/version.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/version.ml > src/version.ml.depends
+# Target: src/options.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/options.cmo, file:src/options.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/options.cmo src/options.ml
+# Target: src/version.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/version.cmo, file:src/version.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/version.cmo src/version.ml
+# Target: src/common/compilers.mli.depends, tags: { extension:mli, file:src/common/compilers.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/common/compilers.mli > src/common/compilers.mli.depends
+# Target: src/common/languages.mli.depends, tags: { extension:mli, file:src/common/languages.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/common/languages.mli > src/common/languages.mli.depends
+# Target: src/common/languages.cmi, tags: { byte, compile, extension:mli, file:src/common/languages.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/lib/pprint -o src/common/languages.cmi src/common/languages.mli
+# Target: src/fopix/fopixInitialization.ml.depends, tags: { extension:ml, file:src/fopix/fopixInitialization.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixInitialization.ml > src/fopix/fopixInitialization.ml.depends
+# Target: src/common/compilers.cmi, tags: { byte, compile, extension:mli, file:src/common/compilers.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/lib/pprint -o src/common/compilers.cmi src/common/compilers.mli
+# Target: src/fopix/fopix.ml.depends, tags: { extension:ml, file:src/fopix/fopix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopix.ml > src/fopix/fopix.ml.depends
+# Target: src/fopix/fopixAST.ml.depends, tags: { extension:ml, file:src/fopix/fopixAST.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixAST.ml > src/fopix/fopixAST.ml.depends
+# Target: src/fopix/fopixInterpreter.ml.depends, tags: { extension:ml, file:src/fopix/fopixInterpreter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixInterpreter.ml > src/fopix/fopixInterpreter.ml.depends
+# Target: src/hobix/bmemory.mli.depends, tags: { extension:mli, file:src/hobix/bmemory.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/bmemory.mli > src/hobix/bmemory.mli.depends
+# Target: src/fopix/fopixAST.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixAST.cmo, file:src/fopix/fopixAST.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixAST.cmo src/fopix/fopixAST.ml
+# Target: src/hobix/bmemory.cmi, tags: { byte, compile, extension:mli, file:src/hobix/bmemory.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/bmemory.cmi src/hobix/bmemory.mli
+# Target: src/fopix/fopixLexer.mll, tags: { extension:mll, file:src/fopix/fopixLexer.mll, lexer, ocaml, ocamllex, package(str), package(unix), quiet, traverse }
+/usr/bin/ocamllex.opt -q src/fopix/fopixLexer.mll
+# Target: src/fopix/fopixLexer.ml.depends, tags: { extension:ml, file:src/fopix/fopixLexer.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixLexer.ml > src/fopix/fopixLexer.ml.depends
+# Target: src/fopix/fopixParser.mly.depends, tags: { extension:mly, file:src/fopix/fopixParser.mly, infer, menhir_ocamldep, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/fopix/fopixParser.mly > src/fopix/fopixParser.mly.depends
+# Target: src/fopix/fopixParser.mly, tags: { byte, compile, extension:ml, extension:mly, file:src/fopix/fopixParser.ml, file:src/fopix/fopixParser.mly, infer, menhir, ocaml, package(str), package(unix), parser, quiet, traverse }
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint' --explain --infer src/fopix/fopixParser.mly
+# Target: src/fopix/fopixParser.mli.depends, tags: { extension:mli, file:src/fopix/fopixParser.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixParser.mli > src/fopix/fopixParser.mli.depends
+# Target: src/fopix/fopixParser.cmi, tags: { byte, compile, extension:mli, file:src/fopix/fopixParser.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixParser.cmi src/fopix/fopixParser.mli
+# Target: src/fopix/fopixPrettyPrinter.ml.depends, tags: { extension:ml, file:src/fopix/fopixPrettyPrinter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixPrettyPrinter.ml > src/fopix/fopixPrettyPrinter.ml.depends
+# Target: src/lib/pprint/PPrint.ml.depends, tags: { extension:ml, file:src/lib/pprint/PPrint.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrint.ml > src/lib/pprint/PPrint.ml.depends
+# Target: src/lib/pprint/PPrintCombinators.mli.depends, tags: { extension:mli, file:src/lib/pprint/PPrintCombinators.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.mli > src/lib/pprint/PPrintCombinators.mli.depends
+# Target: src/lib/pprint/PPrintEngine.mli.depends, tags: { extension:mli, file:src/lib/pprint/PPrintEngine.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.mli > src/lib/pprint/PPrintEngine.mli.depends
+# Target: src/lib/pprint/PPrintRenderer.ml.depends, tags: { extension:ml, file:src/lib/pprint/PPrintRenderer.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintRenderer.ml > src/lib/pprint/PPrintRenderer.ml.depends
+# Target: src/lib/pprint/PPrintRenderer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/lib/pprint/PPrintRenderer.cmo, file:src/lib/pprint/PPrintRenderer.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintRenderer.cmo src/lib/pprint/PPrintRenderer.ml
+# Target: src/lib/pprint/PPrintEngine.cmi, tags: { byte, compile, extension:mli, file:src/lib/pprint/PPrintEngine.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintEngine.cmi src/lib/pprint/PPrintEngine.mli
+# Target: src/lib/pprint/PPrintOCaml.mli.depends, tags: { extension:mli, file:src/lib/pprint/PPrintOCaml.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.mli > src/lib/pprint/PPrintOCaml.mli.depends
+# Target: src/lib/pprint/PPrintCombinators.cmi, tags: { byte, compile, extension:mli, file:src/lib/pprint/PPrintCombinators.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintCombinators.cmi src/lib/pprint/PPrintCombinators.mli
+# Target: src/lib/pprint/PPrintOCaml.cmi, tags: { byte, compile, extension:mli, file:src/lib/pprint/PPrintOCaml.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintOCaml.cmi src/lib/pprint/PPrintOCaml.mli
+# Target: src/lib/pprint/PPrint.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/lib/pprint/PPrint.cmo, file:src/lib/pprint/PPrint.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrint.cmo src/lib/pprint/PPrint.ml
+# Target: src/fopix/fopixTypechecker.ml.depends, tags: { extension:ml, file:src/fopix/fopixTypechecker.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixTypechecker.ml > src/fopix/fopixTypechecker.ml.depends
+# Target: src/utilities/syntacticAnalysis.mli.depends, tags: { extension:mli, file:src/utilities/syntacticAnalysis.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.mli > src/utilities/syntacticAnalysis.mli.depends
+# Target: src/fopix/fopixInterpreter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixInterpreter.cmo, file:src/fopix/fopixInterpreter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixInterpreter.cmo src/fopix/fopixInterpreter.ml
+# Target: src/fopix/fopixLexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixLexer.cmo, file:src/fopix/fopixLexer.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixLexer.cmo src/fopix/fopixLexer.ml
+# Target: src/fopix/fopixPrettyPrinter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixPrettyPrinter.cmo, file:src/fopix/fopixPrettyPrinter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixPrettyPrinter.cmo src/fopix/fopixPrettyPrinter.ml
+# Target: src/fopix/fopixTypechecker.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixTypechecker.cmo, file:src/fopix/fopixTypechecker.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixTypechecker.cmo src/fopix/fopixTypechecker.ml
+# Target: src/utilities/syntacticAnalysis.cmi, tags: { byte, compile, extension:mli, file:src/utilities/syntacticAnalysis.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmi src/utilities/syntacticAnalysis.mli
+# Target: src/fopix/hobixToFopix.ml.depends, tags: { extension:ml, file:src/fopix/hobixToFopix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/hobixToFopix.ml > src/fopix/hobixToFopix.ml.depends
+# Target: src/utilities/dict.mli.depends, tags: { extension:mli, file:src/utilities/dict.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/dict.mli > src/utilities/dict.mli.depends
+# Target: src/fopix/fopix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopix.cmo, file:src/fopix/fopix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopix.cmo src/fopix/fopix.ml
+# Target: src/hobix/hobix.ml.depends, tags: { extension:ml, file:src/hobix/hobix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobix.ml > src/hobix/hobix.ml.depends
+# Target: src/hobix/hobixAST.ml.depends, tags: { extension:ml, file:src/hobix/hobixAST.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobixAST.ml > src/hobix/hobixAST.ml.depends
+# Target: src/hobix/hobixInterpreter.ml.depends, tags: { extension:ml, file:src/hobix/hobixInterpreter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobixInterpreter.ml > src/hobix/hobixInterpreter.ml.depends
+# Target: src/hobix/hobixAST.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobixAST.cmo, file:src/hobix/hobixAST.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixAST.cmo src/hobix/hobixAST.ml
+# Target: src/hobix/hobixPrettyPrinter.ml.depends, tags: { extension:ml, file:src/hobix/hobixPrettyPrinter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobixPrettyPrinter.ml > src/hobix/hobixPrettyPrinter.ml.depends
+# Target: src/utilities/extPPrint.ml.depends, tags: { extension:ml, file:src/utilities/extPPrint.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extPPrint.ml > src/utilities/extPPrint.ml.depends
+# Target: src/utilities/extPPrint.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/utilities/extPPrint.cmo, file:src/utilities/extPPrint.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/extPPrint.cmo src/utilities/extPPrint.ml
+# Target: src/hobix/hobixTypechecker.ml.depends, tags: { extension:ml, file:src/hobix/hobixTypechecker.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobixTypechecker.ml > src/hobix/hobixTypechecker.ml.depends
+# Target: src/hopix/hopixAST.ml.depends, tags: { extension:ml, file:src/hopix/hopixAST.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixAST.ml > src/hopix/hopixAST.ml.depends
+# Target: src/utilities/listMonad.mli.depends, tags: { extension:mli, file:src/utilities/listMonad.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/listMonad.mli > src/utilities/listMonad.mli.depends
+# Target: src/utilities/listMonad.cmi, tags: { byte, compile, extension:mli, file:src/utilities/listMonad.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/listMonad.cmi src/utilities/listMonad.mli
+# Target: src/hopix/hopixPrettyPrinter.ml.depends, tags: { extension:ml, file:src/hopix/hopixPrettyPrinter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixPrettyPrinter.ml > src/hopix/hopixPrettyPrinter.ml.depends
+# Target: src/hopix/hopixAST.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixAST.cmo, file:src/hopix/hopixAST.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixAST.cmo src/hopix/hopixAST.ml
+# Target: src/hopix/hopixTypes.ml.depends, tags: { extension:ml, file:src/hopix/hopixTypes.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypes.ml > src/hopix/hopixTypes.ml.depends
+# Target: src/utilities/dict.cmi, tags: { byte, compile, extension:mli, file:src/utilities/dict.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/dict.cmi src/utilities/dict.mli
+# Target: src/hopix/hopixPrettyPrinter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixPrettyPrinter.cmo, file:src/hopix/hopixPrettyPrinter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmo src/hopix/hopixPrettyPrinter.ml
+# Target: src/hopix/hopixTypes.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixTypes.cmo, file:src/hopix/hopixTypes.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixTypes.cmo src/hopix/hopixTypes.ml
+# Target: src/hobix/hobixInterpreter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobixInterpreter.cmo, file:src/hobix/hobixInterpreter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixInterpreter.cmo src/hobix/hobixInterpreter.ml
+# Target: src/hobix/hobixPrettyPrinter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobixPrettyPrinter.cmo, file:src/hobix/hobixPrettyPrinter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixPrettyPrinter.cmo src/hobix/hobixPrettyPrinter.ml
+# Target: src/hobix/hobixTypechecker.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobixTypechecker.cmo, file:src/hobix/hobixTypechecker.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixTypechecker.cmo src/hobix/hobixTypechecker.ml
+# Target: src/hobix/hobix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobix.cmo, file:src/hobix/hobix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobix.cmo src/hobix/hobix.ml
+# Target: src/fopix/hobixToFopix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/hobixToFopix.cmo, file:src/fopix/hobixToFopix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/hobixToFopix.cmo src/fopix/hobixToFopix.ml
+# Target: src/hobix/hobixInitialization.ml.depends, tags: { extension:ml, file:src/hobix/hobixInitialization.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hobixInitialization.ml > src/hobix/hobixInitialization.ml.depends
+# Target: src/hobix/hopixToHobix.ml.depends, tags: { extension:ml, file:src/hobix/hopixToHobix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/hopixToHobix.ml > src/hobix/hopixToHobix.ml.depends
+# Target: src/utilities/extStd.ml.depends, tags: { extension:ml, file:src/utilities/extStd.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extStd.ml > src/utilities/extStd.ml.depends
+# Target: src/hopix/hopix.ml.depends, tags: { extension:ml, file:src/hopix/hopix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopix.ml > src/hopix/hopix.ml.depends
+# Target: src/hopix/hopixInterpreter.ml.depends, tags: { extension:ml, file:src/hopix/hopixInterpreter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInterpreter.ml > src/hopix/hopixInterpreter.ml.depends
+# Target: src/hopix/memory.mli.depends, tags: { extension:mli, file:src/hopix/memory.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.mli > src/hopix/memory.mli.depends
+# Target: src/hopix/memory.cmi, tags: { byte, compile, extension:mli, file:src/hopix/memory.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/memory.cmi src/hopix/memory.mli
+# Target: src/hopix/hopixLexer.mll, tags: { extension:mll, file:src/hopix/hopixLexer.mll, lexer, ocaml, ocamllex, package(str), package(unix), quiet, traverse }
+/usr/bin/ocamllex.opt -q src/hopix/hopixLexer.mll
+# Target: src/hopix/hopixLexer.ml.depends, tags: { extension:ml, file:src/hopix/hopixLexer.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixLexer.ml > src/hopix/hopixLexer.ml.depends
+# Target: src/hopix/hopixParser.mly.depends, tags: { extension:mly, file:src/hopix/hopixParser.mly, infer, menhir_ocamldep, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/hopix/hopixParser.mly > src/hopix/hopixParser.mly.depends
+# Target: src/hopix/hopixParser.mly, tags: { byte, compile, extension:ml, extension:mly, file:src/hopix/hopixParser.ml, file:src/hopix/hopixParser.mly, infer, menhir, ocaml, package(str), package(unix), parser, quiet, traverse }
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint' --explain --infer src/hopix/hopixParser.mly
++ menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint' --explain --infer src/hopix/hopixParser.mly
+File "src/hopix/hopixParser.mly", line 44, characters 0-5:
+Warning: the precedence level assigned to SHARP is never useful.
+Warning: one state has shift/reduce conflicts.
+Warning: one shift/reduce conflict was arbitrarily resolved.
+# Target: src/hopix/hopixParser.mli.depends, tags: { extension:mli, file:src/hopix/hopixParser.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.mli > src/hopix/hopixParser.mli.depends
+# Target: src/hopix/hopixParser.cmi, tags: { byte, compile, extension:mli, file:src/hopix/hopixParser.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixParser.cmi src/hopix/hopixParser.mli
+# Target: src/hopix/hopixTypechecker.ml.depends, tags: { extension:ml, file:src/hopix/hopixTypechecker.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypechecker.ml > src/hopix/hopixTypechecker.ml.depends
+# Target: src/hopix/hopixInterpreter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixInterpreter.cmo, file:src/hopix/hopixInterpreter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixInterpreter.cmo src/hopix/hopixInterpreter.ml
+# Target: src/hopix/hopixLexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixLexer.cmo, file:src/hopix/hopixLexer.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixLexer.cmo src/hopix/hopixLexer.ml
+# Target: src/hopix/hopixTypechecker.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixTypechecker.cmo, file:src/hopix/hopixTypechecker.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixTypechecker.cmo src/hopix/hopixTypechecker.ml
+# Target: src/utilities/extStd.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/utilities/extStd.cmo, file:src/utilities/extStd.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/extStd.cmo src/utilities/extStd.ml
+# Target: src/hopix/hopix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopix.cmo, file:src/hopix/hopix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopix.cmo src/hopix/hopix.ml
+# Target: src/hobix/hopixToHobix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hopixToHobix.cmo, file:src/hobix/hopixToHobix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hopixToHobix.cmo src/hobix/hopixToHobix.ml
+# Target: src/hopix/hopixInitialization.ml.depends, tags: { extension:ml, file:src/hopix/hopixInitialization.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInitialization.ml > src/hopix/hopixInitialization.ml.depends
+# Target: src/mips/mipsInitialization.ml.depends, tags: { extension:ml, file:src/mips/mipsInitialization.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsInitialization.ml > src/mips/mipsInitialization.ml.depends
+# Target: src/mips/mips.ml.depends, tags: { extension:ml, file:src/mips/mips.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mips.ml > src/mips/mips.ml.depends
+# Target: src/mips/mipsAST.ml.depends, tags: { extension:ml, file:src/mips/mipsAST.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsAST.ml > src/mips/mipsAST.ml.depends
+# Target: src/utilities/int16.mli.depends, tags: { extension:mli, file:src/utilities/int16.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/int16.mli > src/utilities/int16.mli.depends
+# Target: src/mips/mipsArch.ml.depends, tags: { extension:ml, file:src/mips/mipsArch.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsArch.ml > src/mips/mipsArch.ml.depends
+# Target: src/utilities/int16.cmi, tags: { byte, compile, extension:mli, file:src/utilities/int16.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/int16.cmi src/utilities/int16.mli
+# Target: src/mips/mipsArch.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsArch.cmo, file:src/mips/mipsArch.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsArch.cmo src/mips/mipsArch.ml
+# Target: src/mips/mipsInterpreter.ml.depends, tags: { extension:ml, file:src/mips/mipsInterpreter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsInterpreter.ml > src/mips/mipsInterpreter.ml.depends
+# Target: src/mips/mipsAST.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsAST.cmo, file:src/mips/mipsAST.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsAST.cmo src/mips/mipsAST.ml
+# Target: src/mips/mipsPrettyPrinter.ml.depends, tags: { extension:ml, file:src/mips/mipsPrettyPrinter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsPrettyPrinter.ml > src/mips/mipsPrettyPrinter.ml.depends
+# Target: src/mips/mipsPrettyPrinter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsPrettyPrinter.cmo, file:src/mips/mipsPrettyPrinter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsPrettyPrinter.cmo src/mips/mipsPrettyPrinter.ml
+# Target: src/mips/mipsLexer.mll, tags: { extension:mll, file:src/mips/mipsLexer.mll, lexer, ocaml, ocamllex, package(str), package(unix), quiet, traverse }
+/usr/bin/ocamllex.opt -q src/mips/mipsLexer.mll
+# Target: src/mips/mipsLexer.ml.depends, tags: { extension:ml, file:src/mips/mipsLexer.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsLexer.ml > src/mips/mipsLexer.ml.depends
+# Target: src/mips/mipsParser.mly.depends, tags: { extension:mly, file:src/mips/mipsParser.mly, infer, menhir_ocamldep, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/mips/mipsParser.mly > src/mips/mipsParser.mly.depends
+# Target: src/mips/mipsParser.mly, tags: { byte, compile, extension:ml, extension:mly, file:src/mips/mipsParser.ml, file:src/mips/mipsParser.mly, infer, menhir, ocaml, package(str), package(unix), parser, quiet, traverse }
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint' --explain --infer src/mips/mipsParser.mly
+# Target: src/mips/mipsParser.mli.depends, tags: { extension:mli, file:src/mips/mipsParser.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsParser.mli > src/mips/mipsParser.mli.depends
+# Target: src/mips/mipsParser.cmi, tags: { byte, compile, extension:mli, file:src/mips/mipsParser.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsParser.cmi src/mips/mipsParser.mli
+# Target: src/mips/mipsTypechecker.ml.depends, tags: { extension:ml, file:src/mips/mipsTypechecker.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsTypechecker.ml > src/mips/mipsTypechecker.ml.depends
+# Target: src/mips/mipsInterpreter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsInterpreter.cmo, file:src/mips/mipsInterpreter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsInterpreter.cmo src/mips/mipsInterpreter.ml
+# Target: src/mips/mipsLexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsLexer.cmo, file:src/mips/mipsLexer.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsLexer.cmo src/mips/mipsLexer.ml
+# Target: src/mips/mipsTypechecker.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsTypechecker.cmo, file:src/mips/mipsTypechecker.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsTypechecker.cmo src/mips/mipsTypechecker.ml
+# Target: src/mips/retrolixToMips.ml.depends, tags: { extension:ml, file:src/mips/retrolixToMips.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/retrolixToMips.ml > src/mips/retrolixToMips.ml.depends
+# Target: src/mips/mips.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mips.cmo, file:src/mips/mips.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mips.cmo src/mips/mips.ml
+# Target: src/retrolix/retrolix.ml.depends, tags: { extension:ml, file:src/retrolix/retrolix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolix.ml > src/retrolix/retrolix.ml.depends
+# Target: src/retrolix/retrolixAST.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixAST.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixAST.ml > src/retrolix/retrolixAST.ml.depends
+# Target: src/retrolix/retrolixInterpreter.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixInterpreter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixInterpreter.ml > src/retrolix/retrolixInterpreter.ml.depends
+# Target: src/retrolix/retrolixAST.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixAST.cmo, file:src/retrolix/retrolixAST.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixAST.cmo src/retrolix/retrolixAST.ml
+# Target: src/retrolix/retrolixLexer.mll, tags: { extension:mll, file:src/retrolix/retrolixLexer.mll, lexer, ocaml, ocamllex, package(str), package(unix), quiet, traverse }
+/usr/bin/ocamllex.opt -q src/retrolix/retrolixLexer.mll
+# Target: src/retrolix/retrolixLexer.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixLexer.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixLexer.ml > src/retrolix/retrolixLexer.ml.depends
+# Target: src/retrolix/retrolixParser.mly.depends, tags: { extension:mly, file:src/retrolix/retrolixParser.mly, infer, menhir_ocamldep, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/retrolix/retrolixParser.mly > src/retrolix/retrolixParser.mly.depends
+# Target: src/retrolix/retrolixParser.mly, tags: { byte, compile, extension:ml, extension:mly, file:src/retrolix/retrolixParser.ml, file:src/retrolix/retrolixParser.mly, infer, menhir, ocaml, package(str), package(unix), parser, quiet, traverse }
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint' --explain --infer src/retrolix/retrolixParser.mly
+# Target: src/retrolix/retrolixParser.mli.depends, tags: { extension:mli, file:src/retrolix/retrolixParser.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixParser.mli > src/retrolix/retrolixParser.mli.depends
+# Target: src/retrolix/retrolixParser.cmi, tags: { byte, compile, extension:mli, file:src/retrolix/retrolixParser.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixParser.cmi src/retrolix/retrolixParser.mli
+# Target: src/retrolix/retrolixPrettyPrinter.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixPrettyPrinter.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixPrettyPrinter.ml > src/retrolix/retrolixPrettyPrinter.ml.depends
+# Target: src/retrolix/retrolixTypechecker.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixTypechecker.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixTypechecker.ml > src/retrolix/retrolixTypechecker.ml.depends
+# Target: src/retrolix/retrolixInterpreter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixInterpreter.cmo, file:src/retrolix/retrolixInterpreter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixInterpreter.cmo src/retrolix/retrolixInterpreter.ml
+# Target: src/retrolix/retrolixLexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixLexer.cmo, file:src/retrolix/retrolixLexer.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixLexer.cmo src/retrolix/retrolixLexer.ml
+# Target: src/retrolix/retrolixPrettyPrinter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixPrettyPrinter.cmo, file:src/retrolix/retrolixPrettyPrinter.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixPrettyPrinter.cmo src/retrolix/retrolixPrettyPrinter.ml
++ ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixPrettyPrinter.cmo src/retrolix/retrolixPrettyPrinter.ml
+File "src/retrolix/retrolixPrettyPrinter.ml", line 132, characters 16-103:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+(AND|OR)
+File "src/retrolix/retrolixPrettyPrinter.ml", line 112, characters 4-14:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 113, characters 4-15:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 114, characters 4-13:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 115, characters 4-11:
+Warning 11: this match case is unused.
+# Target: src/retrolix/retrolixTypechecker.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixTypechecker.cmo, file:src/retrolix/retrolixTypechecker.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixTypechecker.cmo src/retrolix/retrolixTypechecker.ml
+# Target: src/retrolix/retrolix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolix.cmo, file:src/retrolix/retrolix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolix.cmo src/retrolix/retrolix.ml
+# Target: src/mips/retrolixToMips.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/retrolixToMips.cmo, file:src/mips/retrolixToMips.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/retrolixToMips.cmo src/mips/retrolixToMips.ml
+# Target: src/retrolix/retrolixInitialization.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixInitialization.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixInitialization.ml > src/retrolix/retrolixInitialization.ml.depends
+# Target: src/retrolix/fopixToRetrolix.ml.depends, tags: { extension:ml, file:src/retrolix/fopixToRetrolix.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/fopixToRetrolix.ml > src/retrolix/fopixToRetrolix.ml.depends
+# Target: src/retrolix/graphColoring.ml.depends, tags: { extension:ml, file:src/retrolix/graphColoring.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/graphColoring.ml > src/retrolix/graphColoring.ml.depends
+# Target: src/retrolix/graph.mli.depends, tags: { extension:mli, file:src/retrolix/graph.mli, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/graph.mli > src/retrolix/graph.mli.depends
+# Target: src/utilities/option.ml.depends, tags: { extension:ml, file:src/utilities/option.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/option.ml > src/utilities/option.ml.depends
+# Target: src/retrolix/graph.cmi, tags: { byte, compile, extension:mli, file:src/retrolix/graph.mli, interf, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/graph.cmi src/retrolix/graph.mli
+# Target: src/utilities/option.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/utilities/option.cmo, file:src/utilities/option.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/option.cmo src/utilities/option.ml
+# Target: src/retrolix/retrolixRegisterAllocation.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixRegisterAllocation.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixRegisterAllocation.ml > src/retrolix/retrolixRegisterAllocation.ml.depends
+# Target: src/retrolix/graphColoring.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/graphColoring.cmo, file:src/retrolix/graphColoring.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/graphColoring.cmo src/retrolix/graphColoring.ml
+# Target: src/retrolix/retrolixRegisterAllocation.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixRegisterAllocation.cmo, file:src/retrolix/retrolixRegisterAllocation.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixRegisterAllocation.cmo src/retrolix/retrolixRegisterAllocation.ml
+# Target: src/retrolix/fopixToRetrolix.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/fopixToRetrolix.cmo, file:src/retrolix/fopixToRetrolix.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/fopixToRetrolix.cmo src/retrolix/fopixToRetrolix.ml
+# Target: src/utilities/userInput.ml.depends, tags: { extension:ml, file:src/utilities/userInput.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/userInput.ml > src/utilities/userInput.ml.depends
+# Target: src/utilities/stdUserInput.ml.depends, tags: { extension:ml, file:src/utilities/stdUserInput.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/stdUserInput.ml > src/utilities/stdUserInput.ml.depends
+# Target: src/utilities/stdUserInput.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/utilities/stdUserInput.cmo, file:src/utilities/stdUserInput.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/stdUserInput.cmo src/utilities/stdUserInput.ml
+# Target: src/commandLineOptions.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/commandLineOptions.cmo, file:src/commandLineOptions.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/commandLineOptions.cmo src/commandLineOptions.ml
+# Target: src/fopix/fopixInitialization.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/fopix/fopixInitialization.cmo, file:src/fopix/fopixInitialization.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixInitialization.cmo src/fopix/fopixInitialization.ml
+# Target: src/hobix/hobixInitialization.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hobix/hobixInitialization.cmo, file:src/hobix/hobixInitialization.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixInitialization.cmo src/hobix/hobixInitialization.ml
+# Target: src/hopix/hopixInitialization.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/hopix/hopixInitialization.cmo, file:src/hopix/hopixInitialization.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixInitialization.cmo src/hopix/hopixInitialization.ml
+# Target: src/mips/mipsInitialization.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/mips/mipsInitialization.cmo, file:src/mips/mipsInitialization.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsInitialization.cmo src/mips/mipsInitialization.ml
+# Target: src/retrolix/retrolixInitialization.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/retrolix/retrolixInitialization.cmo, file:src/retrolix/retrolixInitialization.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixInitialization.cmo src/retrolix/retrolixInitialization.ml
+# Target: src/utilities/userInput.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/utilities/userInput.cmo, file:src/utilities/userInput.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/userInput.cmo src/utilities/userInput.ml
+# Target: src/flap.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/flap.cmo, file:src/flap.ml, implem, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/flap.cmo src/flap.ml
+# Target: src/utilities/error.ml.depends, tags: { extension:ml, file:src/utilities/error.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.ml > src/utilities/error.ml.depends
+# Target: src/utilities/position.ml.depends, tags: { extension:ml, file:src/utilities/position.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.ml > src/utilities/position.ml.depends
+# Target: src/utilities/position.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/position.cmx, file:src/utilities/position.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/position.cmx src/utilities/position.ml
+# Target: src/utilities/error.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/error.cmx, file:src/utilities/error.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/error.cmx src/utilities/error.ml
+# Target: src/options.cmx, tags: { compile, extension:cmx, extension:ml, file:src/options.cmx, file:src/options.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/options.cmx src/options.ml
+# Target: src/version.cmx, tags: { compile, extension:cmx, extension:ml, file:src/version.cmx, file:src/version.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/version.cmx src/version.ml
+# Target: src/common/compilers.ml.depends, tags: { extension:ml, file:src/common/compilers.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/common/compilers.ml > src/common/compilers.ml.depends
+# Target: src/common/languages.ml.depends, tags: { extension:ml, file:src/common/languages.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/common/languages.ml > src/common/languages.ml.depends
+# Target: src/utilities/extStd.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/extStd.cmx, file:src/utilities/extStd.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/extStd.cmx src/utilities/extStd.ml
+# Target: src/common/languages.cmx, tags: { compile, extension:cmx, extension:ml, file:src/common/languages.cmx, file:src/common/languages.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/lib/pprint -o src/common/languages.cmx src/common/languages.ml
+# Target: src/common/compilers.cmx, tags: { compile, extension:cmx, extension:ml, file:src/common/compilers.cmx, file:src/common/compilers.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/lib/pprint -o src/common/compilers.cmx src/common/compilers.ml
+# Target: src/hobix/bmemory.ml.depends, tags: { extension:ml, file:src/hobix/bmemory.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hobix/bmemory.ml > src/hobix/bmemory.ml.depends
+# Target: src/fopix/fopixAST.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixAST.cmx, file:src/fopix/fopixAST.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixAST.cmx src/fopix/fopixAST.ml
+# Target: src/hobix/bmemory.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/bmemory.cmx, file:src/hobix/bmemory.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/bmemory.cmx src/hobix/bmemory.ml
+# Target: src/fopix/fopixParser.ml.depends, tags: { extension:ml, file:src/fopix/fopixParser.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/fopix/fopixParser.ml > src/fopix/fopixParser.ml.depends
+# Target: src/fopix/fopixParser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixParser.cmx, file:src/fopix/fopixParser.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixParser.cmx src/fopix/fopixParser.ml
+# Target: src/lib/pprint/PPrintCombinators.ml.depends, tags: { extension:ml, file:src/lib/pprint/PPrintCombinators.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.ml > src/lib/pprint/PPrintCombinators.ml.depends
+# Target: src/lib/pprint/PPrintEngine.ml.depends, tags: { extension:ml, file:src/lib/pprint/PPrintEngine.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.ml > src/lib/pprint/PPrintEngine.ml.depends
+# Target: src/lib/pprint/PPrintRenderer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/lib/pprint/PPrintRenderer.cmx, file:src/lib/pprint/PPrintRenderer.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintRenderer.ml
+# Target: src/lib/pprint/PPrintEngine.cmx, tags: { compile, extension:cmx, extension:ml, file:src/lib/pprint/PPrintEngine.cmx, file:src/lib/pprint/PPrintEngine.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintEngine.ml
+# Target: src/lib/pprint/PPrintOCaml.ml.depends, tags: { extension:ml, file:src/lib/pprint/PPrintOCaml.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.ml > src/lib/pprint/PPrintOCaml.ml.depends
+# Target: src/lib/pprint/PPrintCombinators.cmx, tags: { compile, extension:cmx, extension:ml, file:src/lib/pprint/PPrintCombinators.cmx, file:src/lib/pprint/PPrintCombinators.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintCombinators.ml
+# Target: src/lib/pprint/PPrintOCaml.cmx, tags: { compile, extension:cmx, extension:ml, file:src/lib/pprint/PPrintOCaml.cmx, file:src/lib/pprint/PPrintOCaml.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrintOCaml.ml
+# Target: src/lib/pprint/PPrint.cmx, tags: { compile, extension:cmx, extension:ml, file:src/lib/pprint/PPrint.cmx, file:src/lib/pprint/PPrint.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -o src/lib/pprint/PPrint.cmx src/lib/pprint/PPrint.ml
+# Target: src/utilities/syntacticAnalysis.ml.depends, tags: { extension:ml, file:src/utilities/syntacticAnalysis.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.ml > src/utilities/syntacticAnalysis.ml.depends
+# Target: src/fopix/fopixInterpreter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixInterpreter.cmx, file:src/fopix/fopixInterpreter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixInterpreter.cmx src/fopix/fopixInterpreter.ml
+# Target: src/fopix/fopixLexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixLexer.cmx, file:src/fopix/fopixLexer.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixLexer.cmx src/fopix/fopixLexer.ml
+# Target: src/fopix/fopixPrettyPrinter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixPrettyPrinter.cmx, file:src/fopix/fopixPrettyPrinter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixPrettyPrinter.cmx src/fopix/fopixPrettyPrinter.ml
+# Target: src/fopix/fopixTypechecker.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixTypechecker.cmx, file:src/fopix/fopixTypechecker.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixTypechecker.cmx src/fopix/fopixTypechecker.ml
+# Target: src/utilities/syntacticAnalysis.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/syntacticAnalysis.cmx, file:src/utilities/syntacticAnalysis.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmx src/utilities/syntacticAnalysis.ml
+# Target: src/utilities/dict.ml.depends, tags: { extension:ml, file:src/utilities/dict.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/dict.ml > src/utilities/dict.ml.depends
+# Target: src/fopix/fopix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopix.cmx, file:src/fopix/fopix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopix.cmx src/fopix/fopix.ml
+# Target: src/hobix/hobixAST.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobixAST.cmx, file:src/hobix/hobixAST.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixAST.cmx src/hobix/hobixAST.ml
+# Target: src/utilities/extPPrint.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/extPPrint.cmx, file:src/utilities/extPPrint.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/extPPrint.cmx src/utilities/extPPrint.ml
+# Target: src/utilities/listMonad.ml.depends, tags: { extension:ml, file:src/utilities/listMonad.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/listMonad.ml > src/utilities/listMonad.ml.depends
+# Target: src/utilities/listMonad.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/listMonad.cmx, file:src/utilities/listMonad.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/listMonad.cmx src/utilities/listMonad.ml
+# Target: src/hopix/hopixAST.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixAST.cmx, file:src/hopix/hopixAST.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixAST.cmx src/hopix/hopixAST.ml
+# Target: src/utilities/dict.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/dict.cmx, file:src/utilities/dict.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/dict.cmx src/utilities/dict.ml
+# Target: src/hopix/hopixPrettyPrinter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixPrettyPrinter.cmx, file:src/hopix/hopixPrettyPrinter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmx src/hopix/hopixPrettyPrinter.ml
+# Target: src/hopix/hopixTypes.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixTypes.cmx, file:src/hopix/hopixTypes.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixTypes.cmx src/hopix/hopixTypes.ml
+# Target: src/hobix/hobixInterpreter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobixInterpreter.cmx, file:src/hobix/hobixInterpreter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixInterpreter.cmx src/hobix/hobixInterpreter.ml
+# Target: src/hobix/hobixPrettyPrinter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobixPrettyPrinter.cmx, file:src/hobix/hobixPrettyPrinter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixPrettyPrinter.cmx src/hobix/hobixPrettyPrinter.ml
+# Target: src/hobix/hobixTypechecker.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobixTypechecker.cmx, file:src/hobix/hobixTypechecker.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixTypechecker.cmx src/hobix/hobixTypechecker.ml
+# Target: src/hobix/hobix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobix.cmx, file:src/hobix/hobix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobix.cmx src/hobix/hobix.ml
+# Target: src/fopix/hobixToFopix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/hobixToFopix.cmx, file:src/fopix/hobixToFopix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/hobixToFopix.cmx src/fopix/hobixToFopix.ml
+# Target: src/hopix/memory.ml.depends, tags: { extension:ml, file:src/hopix/memory.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.ml > src/hopix/memory.ml.depends
+# Target: src/hopix/memory.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/memory.cmx, file:src/hopix/memory.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/memory.cmx src/hopix/memory.ml
+# Target: src/hopix/hopixParser.ml.depends, tags: { extension:ml, file:src/hopix/hopixParser.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.ml > src/hopix/hopixParser.ml.depends
+# Target: src/hopix/hopixParser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixParser.cmx, file:src/hopix/hopixParser.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixParser.cmx src/hopix/hopixParser.ml
+# Target: src/hopix/hopixInterpreter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixInterpreter.cmx, file:src/hopix/hopixInterpreter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixInterpreter.cmx src/hopix/hopixInterpreter.ml
+# Target: src/hopix/hopixLexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixLexer.cmx, file:src/hopix/hopixLexer.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixLexer.cmx src/hopix/hopixLexer.ml
+# Target: src/hopix/hopixTypechecker.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixTypechecker.cmx, file:src/hopix/hopixTypechecker.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixTypechecker.cmx src/hopix/hopixTypechecker.ml
+# Target: src/hopix/hopix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopix.cmx, file:src/hopix/hopix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopix.cmx src/hopix/hopix.ml
+# Target: src/hobix/hopixToHobix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hopixToHobix.cmx, file:src/hobix/hopixToHobix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hopixToHobix.cmx src/hobix/hopixToHobix.ml
+# Target: src/utilities/int16.ml.depends, tags: { extension:ml, file:src/utilities/int16.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/utilities/int16.ml > src/utilities/int16.ml.depends
+# Target: src/utilities/int16.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/int16.cmx, file:src/utilities/int16.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/int16.cmx src/utilities/int16.ml
++ ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/int16.cmx src/utilities/int16.ml
+File "src/utilities/int16.ml", line 20, characters 2-19:
+Warning 21: this statement never returns (or has an unsound type.)
+# Target: src/mips/mipsArch.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsArch.cmx, file:src/mips/mipsArch.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsArch.cmx src/mips/mipsArch.ml
+# Target: src/mips/mipsAST.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsAST.cmx, file:src/mips/mipsAST.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsAST.cmx src/mips/mipsAST.ml
+# Target: src/mips/mipsPrettyPrinter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsPrettyPrinter.cmx, file:src/mips/mipsPrettyPrinter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsPrettyPrinter.cmx src/mips/mipsPrettyPrinter.ml
+# Target: src/mips/mipsParser.ml.depends, tags: { extension:ml, file:src/mips/mipsParser.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/mips/mipsParser.ml > src/mips/mipsParser.ml.depends
+# Target: src/mips/mipsParser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsParser.cmx, file:src/mips/mipsParser.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsParser.cmx src/mips/mipsParser.ml
+# Target: src/mips/mipsInterpreter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsInterpreter.cmx, file:src/mips/mipsInterpreter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsInterpreter.cmx src/mips/mipsInterpreter.ml
+# Target: src/mips/mipsLexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsLexer.cmx, file:src/mips/mipsLexer.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsLexer.cmx src/mips/mipsLexer.ml
+# Target: src/mips/mipsTypechecker.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsTypechecker.cmx, file:src/mips/mipsTypechecker.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsTypechecker.cmx src/mips/mipsTypechecker.ml
+# Target: src/mips/mips.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mips.cmx, file:src/mips/mips.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mips.cmx src/mips/mips.ml
+# Target: src/retrolix/retrolixAST.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixAST.cmx, file:src/retrolix/retrolixAST.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixAST.cmx src/retrolix/retrolixAST.ml
+# Target: src/retrolix/retrolixParser.ml.depends, tags: { extension:ml, file:src/retrolix/retrolixParser.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/retrolixParser.ml > src/retrolix/retrolixParser.ml.depends
+# Target: src/retrolix/retrolixParser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixParser.cmx, file:src/retrolix/retrolixParser.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixParser.cmx src/retrolix/retrolixParser.ml
+# Target: src/retrolix/retrolixInterpreter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixInterpreter.cmx, file:src/retrolix/retrolixInterpreter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixInterpreter.cmx src/retrolix/retrolixInterpreter.ml
+# Target: src/retrolix/retrolixLexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixLexer.cmx, file:src/retrolix/retrolixLexer.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixLexer.cmx src/retrolix/retrolixLexer.ml
+# Target: src/retrolix/retrolixPrettyPrinter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixPrettyPrinter.cmx, file:src/retrolix/retrolixPrettyPrinter.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixPrettyPrinter.cmx src/retrolix/retrolixPrettyPrinter.ml
++ ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixPrettyPrinter.cmx src/retrolix/retrolixPrettyPrinter.ml
+File "src/retrolix/retrolixPrettyPrinter.ml", line 132, characters 16-103:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+(AND|OR)
+File "src/retrolix/retrolixPrettyPrinter.ml", line 112, characters 4-14:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 113, characters 4-15:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 114, characters 4-13:
+Warning 11: this match case is unused.
+File "src/retrolix/retrolixPrettyPrinter.ml", line 115, characters 4-11:
+Warning 11: this match case is unused.
+# Target: src/retrolix/retrolixTypechecker.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixTypechecker.cmx, file:src/retrolix/retrolixTypechecker.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixTypechecker.cmx src/retrolix/retrolixTypechecker.ml
+# Target: src/retrolix/retrolix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolix.cmx, file:src/retrolix/retrolix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolix.cmx src/retrolix/retrolix.ml
+# Target: src/mips/retrolixToMips.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/retrolixToMips.cmx, file:src/mips/retrolixToMips.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/retrolixToMips.cmx src/mips/retrolixToMips.ml
+# Target: src/retrolix/graph.ml.depends, tags: { extension:ml, file:src/retrolix/graph.ml, ocaml, ocamldep, package(str), package(unix), quiet, traverse }
+ocamlfind ocamldep -package unix -package str -modules src/retrolix/graph.ml > src/retrolix/graph.ml.depends
+# Target: src/retrolix/graph.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/graph.cmx, file:src/retrolix/graph.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/graph.cmx src/retrolix/graph.ml
+# Target: src/utilities/option.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/option.cmx, file:src/utilities/option.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/option.cmx src/utilities/option.ml
+# Target: src/retrolix/graphColoring.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/graphColoring.cmx, file:src/retrolix/graphColoring.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/graphColoring.cmx src/retrolix/graphColoring.ml
+# Target: src/retrolix/retrolixRegisterAllocation.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixRegisterAllocation.cmx, file:src/retrolix/retrolixRegisterAllocation.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixRegisterAllocation.cmx src/retrolix/retrolixRegisterAllocation.ml
+# Target: src/retrolix/fopixToRetrolix.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/fopixToRetrolix.cmx, file:src/retrolix/fopixToRetrolix.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/fopixToRetrolix.cmx src/retrolix/fopixToRetrolix.ml
+# Target: src/utilities/stdUserInput.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/stdUserInput.cmx, file:src/utilities/stdUserInput.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/stdUserInput.cmx src/utilities/stdUserInput.ml
+# Target: src/commandLineOptions.cmx, tags: { compile, extension:cmx, extension:ml, file:src/commandLineOptions.cmx, file:src/commandLineOptions.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/commandLineOptions.cmx src/commandLineOptions.ml
+# Target: src/fopix/fopixInitialization.cmx, tags: { compile, extension:cmx, extension:ml, file:src/fopix/fopixInitialization.cmx, file:src/fopix/fopixInitialization.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/fopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/common -I src/lib/pprint -o src/fopix/fopixInitialization.cmx src/fopix/fopixInitialization.ml
+# Target: src/hobix/hobixInitialization.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hobix/hobixInitialization.cmx, file:src/hobix/hobixInitialization.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hobix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/fopix -I src/common -I src/lib/pprint -o src/hobix/hobixInitialization.cmx src/hobix/hobixInitialization.ml
+# Target: src/hopix/hopixInitialization.cmx, tags: { compile, extension:cmx, extension:ml, file:src/hopix/hopixInitialization.cmx, file:src/hopix/hopixInitialization.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/utilities -I src/retrolix -I src/mips -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/hopix/hopixInitialization.cmx src/hopix/hopixInitialization.ml
+# Target: src/mips/mipsInitialization.cmx, tags: { compile, extension:cmx, extension:ml, file:src/mips/mipsInitialization.cmx, file:src/mips/mipsInitialization.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/mips -I src -I src/utilities -I src/retrolix -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/mips/mipsInitialization.cmx src/mips/mipsInitialization.ml
+# Target: src/retrolix/retrolixInitialization.cmx, tags: { compile, extension:cmx, extension:ml, file:src/retrolix/retrolixInitialization.cmx, file:src/retrolix/retrolixInitialization.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/retrolix -I src -I src/utilities -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/retrolix/retrolixInitialization.cmx src/retrolix/retrolixInitialization.ml
+# Target: src/utilities/userInput.cmx, tags: { compile, extension:cmx, extension:ml, file:src/utilities/userInput.cmx, file:src/utilities/userInput.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/utilities/userInput.cmx src/utilities/userInput.ml
+# Target: src/flap.cmx, tags: { compile, extension:cmx, extension:ml, file:src/flap.cmx, file:src/flap.ml, implem, native, ocaml, package(str), package(unix), quiet, traverse }
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/utilities -I src/retrolix -I src/mips -I src/hopix -I src/hobix -I src/fopix -I src/common -I src/lib/pprint -o src/flap.cmx src/flap.ml
+# Target: src/flap.native, tags: { dont_link_with, extension:native, file:src/flap.native, link, native, ocaml, package(str), package(unix), program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -package unix -package str src/utilities/position.cmx src/utilities/error.cmx src/options.cmx src/version.cmx src/commandLineOptions.cmx src/common/languages.cmx src/utilities/extStd.cmx src/common/compilers.cmx src/fopix/fopixAST.cmx src/hobix/bmemory.cmx src/fopix/fopixInterpreter.cmx src/fopix/fopixParser.cmx src/fopix/fopixLexer.cmx src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrint.cmx src/fopix/fopixPrettyPrinter.cmx src/fopix/fopixTypechecker.cmx src/utilities/syntacticAnalysis.cmx src/fopix/fopix.cmx src/hobix/hobixAST.cmx src/hobix/hobixInterpreter.cmx src/utilities/extPPrint.cmx src/hobix/hobixPrettyPrinter.cmx src/utilities/listMonad.cmx src/hopix/hopixAST.cmx src/hopix/hopixPrettyPrinter.cmx src/utilities/dict.cmx src/hopix/hopixTypes.cmx src/hobix/hobixTypechecker.cmx src/hobix/hobix.cmx src/fopix/hobixToFopix.cmx src/fopix/fopixInitialization.cmx src/hopix/memory.cmx src/hopix/hopixInterpreter.cmx src/hopix/hopixParser.cmx src/hopix/hopixLexer.cmx src/hopix/hopixTypechecker.cmx src/hopix/hopix.cmx src/hobix/hopixToHobix.cmx src/hobix/hobixInitialization.cmx src/hopix/hopixInitialization.cmx src/mips/mipsArch.cmx src/utilities/int16.cmx src/mips/mipsAST.cmx src/mips/mipsPrettyPrinter.cmx src/mips/mipsInterpreter.cmx src/mips/mipsParser.cmx src/mips/mipsLexer.cmx src/mips/mipsTypechecker.cmx src/mips/mips.cmx src/retrolix/retrolixAST.cmx src/retrolix/retrolixInterpreter.cmx src/retrolix/retrolixParser.cmx src/retrolix/retrolixLexer.cmx src/retrolix/retrolixPrettyPrinter.cmx src/retrolix/retrolixTypechecker.cmx src/retrolix/retrolix.cmx src/mips/retrolixToMips.cmx src/mips/mipsInitialization.cmx src/retrolix/graph.cmx src/utilities/option.cmx src/retrolix/graphColoring.cmx src/retrolix/retrolixRegisterAllocation.cmx src/retrolix/fopixToRetrolix.cmx src/retrolix/retrolixInitialization.cmx src/utilities/stdUserInput.cmx src/utilities/userInput.cmx src/flap.cmx -o src/flap.native
+# Compilation successful.

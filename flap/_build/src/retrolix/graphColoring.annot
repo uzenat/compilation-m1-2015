@@ -1,0 +1,6423 @@
+"src/retrolix/graphColoring.ml" 25 577 594 "src/retrolix/graphColoring.ml" 25 577 628
+call(
+  stack
+)
+"src/retrolix/graphColoring.ml" 27 630 654 "src/retrolix/graphColoring.ml" 27 630 674
+call(
+  stack
+)
+"src/retrolix/graphColoring.ml" 33 809 815 "src/retrolix/graphColoring.ml" 33 809 820
+type(
+  'a NodeLabelMap.t
+)
+ident(
+  def empty "src/retrolix/graphColoring.ml" 36 902 904 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 33 809 823 "src/retrolix/graphColoring.ml" 33 809 841
+type(
+  'a NodeLabelMap.t
+)
+ident(
+  ext_ref NodeLabelMap.empty
+)
+"src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+type(
+  'b option NodeLabelMap.t -> NodeLabelMap.key -> 'b option
+)
+ident(
+  def color_of_node "src/retrolix/graphColoring.ml" 39 996 998 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 36 902 922 "src/retrolix/graphColoring.ml" 36 902 930
+type(
+  'b option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 36 902 931 "src/retrolix/graphColoring.ml" 37 935 994
+)
+"src/retrolix/graphColoring.ml" 36 902 931 "src/retrolix/graphColoring.ml" 36 902 932
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 37 935 939 "src/retrolix/graphColoring.ml" 37 935 994
+)
+"src/retrolix/graphColoring.ml" 37 935 943 "src/retrolix/graphColoring.ml" 37 935 960
+type(
+  NodeLabelMap.key -> 'b option NodeLabelMap.t -> 'b option
+)
+ident(
+  ext_ref NodeLabelMap.find
+)
+"src/retrolix/graphColoring.ml" 37 935 961 "src/retrolix/graphColoring.ml" 37 935 962
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 36 902 931 "src/retrolix/graphColoring.ml" 36 902 932
+)
+"src/retrolix/graphColoring.ml" 37 935 963 "src/retrolix/graphColoring.ml" 37 935 971
+type(
+  'b option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 36 902 922 "src/retrolix/graphColoring.ml" 36 902 930
+)
+"src/retrolix/graphColoring.ml" 37 935 943 "src/retrolix/graphColoring.ml" 37 935 971
+call(
+  stack
+)
+type(
+  'b option
+)
+"src/retrolix/graphColoring.ml" 37 935 977 "src/retrolix/graphColoring.ml" 37 935 986
+type(
+  exn
+)
+"src/retrolix/graphColoring.ml" 37 935 990 "src/retrolix/graphColoring.ml" 37 935 994
+type(
+  'b option
+)
+"src/retrolix/graphColoring.ml" 37 935 939 "src/retrolix/graphColoring.ml" 37 935 994
+type(
+  'b option
+)
+"src/retrolix/graphColoring.ml" 39 996 1002 "src/retrolix/graphColoring.ml" 39 996 1011
+type(
+  string list
+)
+ident(
+  def all_color "src/retrolix/graphColoring.ml" 42 1120 1122 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 39 996 1014 "src/retrolix/graphColoring.ml" 39 996 1024
+type(
+  Colors.t list
+)
+ident(
+  int_ref Colors.all "src/retrolix/graphColoring.ml" 6 152 154 "src/retrolix/graphColoring.ml" 6 152 170
+)
+"src/retrolix/graphColoring.ml" 39 996 1025 "src/retrolix/graphColoring.ml" 39 996 1027
+type(
+  Colors.t list -> (Colors.t list -> string list) -> string list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/retrolix/graphColoring.ml" 39 996 1028 "src/retrolix/graphColoring.ml" 39 996 1036
+type(
+  (Colors.t -> string) -> Colors.t list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/graphColoring.ml" 39 996 1037 "src/retrolix/graphColoring.ml" 39 996 1053
+type(
+  Colors.t -> string
+)
+ident(
+  int_ref Colors.to_string "src/retrolix/graphColoring.ml" 8 192 194 "src/retrolix/graphColoring.ml" 8 192 221
+)
+"src/retrolix/graphColoring.ml" 39 996 1028 "src/retrolix/graphColoring.ml" 39 996 1053
+type(
+  Colors.t list -> string list
+)
+"src/retrolix/graphColoring.ml" 39 996 1014 "src/retrolix/graphColoring.ml" 39 996 1053
+call(
+  stack
+)
+type(
+  string list
+)
+"src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+type(
+  Graph.t ->
+  NodeLabel.t -> 'c -> 'c option NodeLabelMap.t -> 'c option NodeLabelMap.t
+)
+ident(
+  def assign_color "src/retrolix/graphColoring.ml" 48 1336 1338 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 42 1120 1139 "src/retrolix/graphColoring.ml" 42 1120 1140
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 42 1120 1141 "src/retrolix/graphColoring.ml" 45 1237 1274
+)
+"src/retrolix/graphColoring.ml" 42 1120 1141 "src/retrolix/graphColoring.ml" 42 1120 1142
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 42 1120 1143 "src/retrolix/graphColoring.ml" 45 1237 1274
+)
+"src/retrolix/graphColoring.ml" 42 1120 1143 "src/retrolix/graphColoring.ml" 42 1120 1144
+type(
+  'c
+)
+ident(
+  def c "src/retrolix/graphColoring.ml" 42 1120 1145 "src/retrolix/graphColoring.ml" 45 1237 1274
+)
+"src/retrolix/graphColoring.ml" 42 1120 1145 "src/retrolix/graphColoring.ml" 42 1120 1153
+type(
+  'c option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 43 1156 1160 "src/retrolix/graphColoring.ml" 45 1237 1274
+)
+"src/retrolix/graphColoring.ml" 43 1156 1160 "src/retrolix/graphColoring.ml" 43 1156 1174
+type(
+  ('c option NodeLabelMap.t -> NodeLabelMap.key -> 'c option NodeLabelMap.t) ->
+  'c option NodeLabelMap.t ->
+  NodeLabelMap.key list -> 'c option NodeLabelMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 43 1156 1180 "src/retrolix/graphColoring.ml" 43 1156 1188
+type(
+  'c option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 43 1156 1189 "src/retrolix/graphColoring.ml" 44 1194 1236
+)
+"src/retrolix/graphColoring.ml" 43 1156 1189 "src/retrolix/graphColoring.ml" 43 1156 1190
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 44 1194 1200 "src/retrolix/graphColoring.ml" 44 1194 1236
+)
+"src/retrolix/graphColoring.ml" 44 1194 1200 "src/retrolix/graphColoring.ml" 44 1194 1216
+type(
+  NodeLabelMap.key ->
+  'c option -> 'c option NodeLabelMap.t -> 'c option NodeLabelMap.t
+)
+ident(
+  ext_ref NodeLabelMap.add
+)
+"src/retrolix/graphColoring.ml" 44 1194 1217 "src/retrolix/graphColoring.ml" 44 1194 1218
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 43 1156 1189 "src/retrolix/graphColoring.ml" 43 1156 1190
+)
+"src/retrolix/graphColoring.ml" 44 1194 1225 "src/retrolix/graphColoring.ml" 44 1194 1226
+type(
+  'c
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 42 1120 1143 "src/retrolix/graphColoring.ml" 42 1120 1144
+)
+"src/retrolix/graphColoring.ml" 44 1194 1219 "src/retrolix/graphColoring.ml" 44 1194 1227
+type(
+  'c option
+)
+"src/retrolix/graphColoring.ml" 44 1194 1228 "src/retrolix/graphColoring.ml" 44 1194 1236
+type(
+  'c option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 43 1156 1180 "src/retrolix/graphColoring.ml" 43 1156 1188
+)
+"src/retrolix/graphColoring.ml" 44 1194 1200 "src/retrolix/graphColoring.ml" 44 1194 1236
+call(
+  tail
+)
+type(
+  'c option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 43 1156 1175 "src/retrolix/graphColoring.ml" 45 1237 1242
+type(
+  'c option NodeLabelMap.t -> NodeLabelMap.key -> 'c option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 45 1237 1243 "src/retrolix/graphColoring.ml" 45 1237 1251
+type(
+  'c option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 42 1120 1145 "src/retrolix/graphColoring.ml" 42 1120 1153
+)
+"src/retrolix/graphColoring.ml" 45 1237 1253 "src/retrolix/graphColoring.ml" 45 1237 1269
+type(
+  Graph.t -> NodeLabel.t -> NodeLabelMap.key list
+)
+ident(
+  ext_ref Graph.all_labels
+)
+"src/retrolix/graphColoring.ml" 45 1237 1270 "src/retrolix/graphColoring.ml" 45 1237 1271
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 42 1120 1139 "src/retrolix/graphColoring.ml" 42 1120 1140
+)
+"src/retrolix/graphColoring.ml" 45 1237 1272 "src/retrolix/graphColoring.ml" 45 1237 1273
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 42 1120 1141 "src/retrolix/graphColoring.ml" 42 1120 1142
+)
+"src/retrolix/graphColoring.ml" 45 1237 1252 "src/retrolix/graphColoring.ml" 45 1237 1274
+call(
+  stack
+)
+type(
+  NodeLabelMap.key list
+)
+"src/retrolix/graphColoring.ml" 43 1156 1160 "src/retrolix/graphColoring.ml" 45 1237 1274
+call(
+  tail
+)
+type(
+  'c option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 48 1336 1342 "src/retrolix/graphColoring.ml" 48 1336 1357
+type(
+  Graph.t ->
+  NodeLabel.t -> 'd option NodeLabelMap.t -> 'd option NodeLabelMap.t
+)
+ident(
+  def assign_no_color "src/retrolix/graphColoring.ml" 54 1560 1562 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 48 1336 1358 "src/retrolix/graphColoring.ml" 48 1336 1359
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 48 1336 1360 "src/retrolix/graphColoring.ml" 51 1450 1487
+)
+"src/retrolix/graphColoring.ml" 48 1336 1360 "src/retrolix/graphColoring.ml" 48 1336 1361
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 48 1336 1362 "src/retrolix/graphColoring.ml" 51 1450 1487
+)
+"src/retrolix/graphColoring.ml" 48 1336 1362 "src/retrolix/graphColoring.ml" 48 1336 1370
+type(
+  'd option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 49 1373 1377 "src/retrolix/graphColoring.ml" 51 1450 1487
+)
+"src/retrolix/graphColoring.ml" 49 1373 1377 "src/retrolix/graphColoring.ml" 49 1373 1391
+type(
+  ('d option NodeLabelMap.t -> NodeLabelMap.key -> 'd option NodeLabelMap.t) ->
+  'd option NodeLabelMap.t ->
+  NodeLabelMap.key list -> 'd option NodeLabelMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 49 1373 1397 "src/retrolix/graphColoring.ml" 49 1373 1405
+type(
+  'd option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 49 1373 1406 "src/retrolix/graphColoring.ml" 50 1411 1449
+)
+"src/retrolix/graphColoring.ml" 49 1373 1406 "src/retrolix/graphColoring.ml" 49 1373 1407
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 50 1411 1417 "src/retrolix/graphColoring.ml" 50 1411 1449
+)
+"src/retrolix/graphColoring.ml" 50 1411 1417 "src/retrolix/graphColoring.ml" 50 1411 1433
+type(
+  NodeLabelMap.key ->
+  'd option -> 'd option NodeLabelMap.t -> 'd option NodeLabelMap.t
+)
+ident(
+  ext_ref NodeLabelMap.add
+)
+"src/retrolix/graphColoring.ml" 50 1411 1434 "src/retrolix/graphColoring.ml" 50 1411 1435
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 49 1373 1406 "src/retrolix/graphColoring.ml" 49 1373 1407
+)
+"src/retrolix/graphColoring.ml" 50 1411 1436 "src/retrolix/graphColoring.ml" 50 1411 1440
+type(
+  'd option
+)
+"src/retrolix/graphColoring.ml" 50 1411 1441 "src/retrolix/graphColoring.ml" 50 1411 1449
+type(
+  'd option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 49 1373 1397 "src/retrolix/graphColoring.ml" 49 1373 1405
+)
+"src/retrolix/graphColoring.ml" 50 1411 1417 "src/retrolix/graphColoring.ml" 50 1411 1449
+call(
+  tail
+)
+type(
+  'd option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 49 1373 1392 "src/retrolix/graphColoring.ml" 51 1450 1455
+type(
+  'd option NodeLabelMap.t -> NodeLabelMap.key -> 'd option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 51 1450 1456 "src/retrolix/graphColoring.ml" 51 1450 1464
+type(
+  'd option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 48 1336 1362 "src/retrolix/graphColoring.ml" 48 1336 1370
+)
+"src/retrolix/graphColoring.ml" 51 1450 1466 "src/retrolix/graphColoring.ml" 51 1450 1482
+type(
+  Graph.t -> NodeLabel.t -> NodeLabelMap.key list
+)
+ident(
+  ext_ref Graph.all_labels
+)
+"src/retrolix/graphColoring.ml" 51 1450 1483 "src/retrolix/graphColoring.ml" 51 1450 1484
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 48 1336 1358 "src/retrolix/graphColoring.ml" 48 1336 1359
+)
+"src/retrolix/graphColoring.ml" 51 1450 1485 "src/retrolix/graphColoring.ml" 51 1450 1486
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 48 1336 1360 "src/retrolix/graphColoring.ml" 48 1336 1361
+)
+"src/retrolix/graphColoring.ml" 51 1450 1465 "src/retrolix/graphColoring.ml" 51 1450 1487
+call(
+  stack
+)
+type(
+  NodeLabelMap.key list
+)
+"src/retrolix/graphColoring.ml" 49 1373 1377 "src/retrolix/graphColoring.ml" 51 1450 1487
+call(
+  tail
+)
+type(
+  'd option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 63 1783 1789 "src/retrolix/graphColoring.ml" 63 1783 1805
+type(
+  unit -> unit
+)
+ident(
+  def print_all_colors "src/retrolix/graphColoring.ml" 67 1890 1892 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 63 1783 1806 "src/retrolix/graphColoring.ml" 63 1783 1808
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 64 1811 1815 "src/retrolix/graphColoring.ml" 64 1811 1825
+type(
+  Colors.t list
+)
+ident(
+  int_ref Colors.all "src/retrolix/graphColoring.ml" 6 152 154 "src/retrolix/graphColoring.ml" 6 152 170
+)
+"src/retrolix/graphColoring.ml" 65 1826 1830 "src/retrolix/graphColoring.ml" 65 1826 1832
+type(
+  Colors.t list -> (Colors.t list -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/retrolix/graphColoring.ml" 65 1826 1833 "src/retrolix/graphColoring.ml" 65 1826 1842
+type(
+  (Colors.t -> unit) -> Colors.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/retrolix/graphColoring.ml" 65 1826 1848 "src/retrolix/graphColoring.ml" 65 1826 1849
+type(
+  Colors.t
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 65 1826 1853 "src/retrolix/graphColoring.ml" 65 1826 1887
+)
+"src/retrolix/graphColoring.ml" 65 1826 1853 "src/retrolix/graphColoring.ml" 65 1826 1866
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/retrolix/graphColoring.ml" 65 1826 1868 "src/retrolix/graphColoring.ml" 65 1826 1884
+type(
+  Colors.t -> string
+)
+ident(
+  int_ref Colors.to_string "src/retrolix/graphColoring.ml" 8 192 194 "src/retrolix/graphColoring.ml" 8 192 221
+)
+"src/retrolix/graphColoring.ml" 65 1826 1885 "src/retrolix/graphColoring.ml" 65 1826 1886
+type(
+  Colors.t
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 65 1826 1848 "src/retrolix/graphColoring.ml" 65 1826 1849
+)
+"src/retrolix/graphColoring.ml" 65 1826 1867 "src/retrolix/graphColoring.ml" 65 1826 1887
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 65 1826 1853 "src/retrolix/graphColoring.ml" 65 1826 1887
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 65 1826 1843 "src/retrolix/graphColoring.ml" 65 1826 1888
+type(
+  Colors.t -> unit
+)
+"src/retrolix/graphColoring.ml" 65 1826 1833 "src/retrolix/graphColoring.ml" 65 1826 1888
+type(
+  Colors.t list -> unit
+)
+"src/retrolix/graphColoring.ml" 64 1811 1815 "src/retrolix/graphColoring.ml" 65 1826 1888
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 67 1890 1896 "src/retrolix/graphColoring.ml" 67 1890 1906
+type(
+  NodeLabel.t -> unit
+)
+ident(
+  def print_node "src/retrolix/graphColoring.ml" 69 1950 1952 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 67 1890 1907 "src/retrolix/graphColoring.ml" 67 1890 1908
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 67 1890 1911 "src/retrolix/graphColoring.ml" 67 1890 1948
+)
+"src/retrolix/graphColoring.ml" 67 1890 1911 "src/retrolix/graphColoring.ml" 67 1890 1924
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/retrolix/graphColoring.ml" 67 1890 1926 "src/retrolix/graphColoring.ml" 67 1890 1945
+type(
+  NodeLabel.t -> string
+)
+ident(
+  ext_ref NodeLabel.to_string
+)
+"src/retrolix/graphColoring.ml" 67 1890 1946 "src/retrolix/graphColoring.ml" 67 1890 1947
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 67 1890 1907 "src/retrolix/graphColoring.ml" 67 1890 1908
+)
+"src/retrolix/graphColoring.ml" 67 1890 1925 "src/retrolix/graphColoring.ml" 67 1890 1948
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 67 1890 1911 "src/retrolix/graphColoring.ml" 67 1890 1948
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 69 1950 1956 "src/retrolix/graphColoring.ml" 69 1950 1975
+type(
+  NodeLabel.t -> Colors.t option
+)
+ident(
+  def colors_of_nregister "src/retrolix/graphColoring.ml" 84 2321 2323 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 69 1950 1976 "src/retrolix/graphColoring.ml" 69 1950 1980
+type(
+  NodeLabel.t
+)
+ident(
+  def nreg "src/retrolix/graphColoring.ml" 70 1983 1987 "src/retrolix/graphColoring.ml" 82 2297 2319
+)
+"src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+type(
+  string
+)
+ident(
+  def str "src/retrolix/graphColoring.ml" 71 2025 2029 "src/retrolix/graphColoring.ml" 82 2297 2319
+)
+"src/retrolix/graphColoring.ml" 70 1983 1997 "src/retrolix/graphColoring.ml" 70 1983 2016
+type(
+  NodeLabel.t -> string
+)
+ident(
+  ext_ref NodeLabel.to_string
+)
+"src/retrolix/graphColoring.ml" 70 1983 2017 "src/retrolix/graphColoring.ml" 70 1983 2021
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref nreg "src/retrolix/graphColoring.ml" 69 1950 1976 "src/retrolix/graphColoring.ml" 69 1950 1980
+)
+"src/retrolix/graphColoring.ml" 70 1983 1997 "src/retrolix/graphColoring.ml" 70 1983 2021
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 71 2025 2033 "src/retrolix/graphColoring.ml" 71 2025 2036
+type(
+  string
+)
+ident(
+  def str "src/retrolix/graphColoring.ml" 77 2169 2173 "src/retrolix/graphColoring.ml" 82 2297 2319
+)
+"src/retrolix/graphColoring.ml" 72 2039 2048 "src/retrolix/graphColoring.ml" 72 2039 2051
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+)
+"src/retrolix/graphColoring.ml" 72 2039 2053 "src/retrolix/graphColoring.ml" 72 2039 2054
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 72 2039 2048 "src/retrolix/graphColoring.ml" 72 2039 2055
+type(
+  char
+)
+"src/retrolix/graphColoring.ml" 72 2039 2056 "src/retrolix/graphColoring.ml" 72 2039 2057
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/retrolix/graphColoring.ml" 72 2039 2058 "src/retrolix/graphColoring.ml" 72 2039 2061
+type(
+  char
+)
+"src/retrolix/graphColoring.ml" 72 2039 2048 "src/retrolix/graphColoring.ml" 72 2039 2061
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 73 2067 2068 "src/retrolix/graphColoring.ml" 73 2067 2078
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/retrolix/graphColoring.ml" 73 2067 2079 "src/retrolix/graphColoring.ml" 73 2067 2082
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+)
+"src/retrolix/graphColoring.ml" 73 2067 2083 "src/retrolix/graphColoring.ml" 73 2067 2084
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 73 2067 2086 "src/retrolix/graphColoring.ml" 73 2067 2099
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/retrolix/graphColoring.ml" 73 2067 2100 "src/retrolix/graphColoring.ml" 73 2067 2103
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+)
+"src/retrolix/graphColoring.ml" 73 2067 2086 "src/retrolix/graphColoring.ml" 73 2067 2103
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 73 2067 2104 "src/retrolix/graphColoring.ml" 73 2067 2105
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/retrolix/graphColoring.ml" 73 2067 2105 "src/retrolix/graphColoring.ml" 73 2067 2106
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 73 2067 2085 "src/retrolix/graphColoring.ml" 73 2067 2107
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 73 2067 2068 "src/retrolix/graphColoring.ml" 73 2067 2107
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 75 2120 2121 "src/retrolix/graphColoring.ml" 75 2120 2131
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/retrolix/graphColoring.ml" 75 2120 2132 "src/retrolix/graphColoring.ml" 75 2120 2135
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+)
+"src/retrolix/graphColoring.ml" 75 2120 2136 "src/retrolix/graphColoring.ml" 75 2120 2137
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 75 2120 2139 "src/retrolix/graphColoring.ml" 75 2120 2152
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/retrolix/graphColoring.ml" 75 2120 2153 "src/retrolix/graphColoring.ml" 75 2120 2156
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 70 1983 1991 "src/retrolix/graphColoring.ml" 70 1983 1994
+)
+"src/retrolix/graphColoring.ml" 75 2120 2139 "src/retrolix/graphColoring.ml" 75 2120 2156
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 75 2120 2157 "src/retrolix/graphColoring.ml" 75 2120 2158
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/retrolix/graphColoring.ml" 75 2120 2159 "src/retrolix/graphColoring.ml" 75 2120 2160
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 75 2120 2138 "src/retrolix/graphColoring.ml" 75 2120 2161
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 75 2120 2121 "src/retrolix/graphColoring.ml" 75 2120 2161
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 72 2039 2045 "src/retrolix/graphColoring.ml" 75 2120 2161
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 77 2169 2177 "src/retrolix/graphColoring.ml" 77 2169 2183
+type(
+  Colors.t list
+)
+ident(
+  def lcolor "src/retrolix/graphColoring.ml" 80 2258 2262 "src/retrolix/graphColoring.ml" 82 2297 2319
+)
+"src/retrolix/graphColoring.ml" 78 2186 2192 "src/retrolix/graphColoring.ml" 78 2186 2203
+type(
+  (Colors.t -> bool) -> Colors.t list -> Colors.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/retrolix/graphColoring.ml" 78 2186 2209 "src/retrolix/graphColoring.ml" 78 2186 2210
+type(
+  Colors.t
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 78 2186 2214 "src/retrolix/graphColoring.ml" 78 2186 2238
+)
+"src/retrolix/graphColoring.ml" 78 2186 2214 "src/retrolix/graphColoring.ml" 78 2186 2230
+type(
+  Colors.t -> string
+)
+ident(
+  int_ref Colors.to_string "src/retrolix/graphColoring.ml" 8 192 194 "src/retrolix/graphColoring.ml" 8 192 221
+)
+"src/retrolix/graphColoring.ml" 78 2186 2231 "src/retrolix/graphColoring.ml" 78 2186 2232
+type(
+  Colors.t
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 78 2186 2209 "src/retrolix/graphColoring.ml" 78 2186 2210
+)
+"src/retrolix/graphColoring.ml" 78 2186 2214 "src/retrolix/graphColoring.ml" 78 2186 2232
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 78 2186 2233 "src/retrolix/graphColoring.ml" 78 2186 2234
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/retrolix/graphColoring.ml" 78 2186 2235 "src/retrolix/graphColoring.ml" 78 2186 2238
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 71 2025 2033 "src/retrolix/graphColoring.ml" 71 2025 2036
+)
+"src/retrolix/graphColoring.ml" 78 2186 2214 "src/retrolix/graphColoring.ml" 78 2186 2238
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 78 2186 2204 "src/retrolix/graphColoring.ml" 78 2186 2239
+type(
+  Colors.t -> bool
+)
+"src/retrolix/graphColoring.ml" 78 2186 2240 "src/retrolix/graphColoring.ml" 78 2186 2250
+type(
+  Colors.t list
+)
+ident(
+  int_ref Colors.all "src/retrolix/graphColoring.ml" 6 152 154 "src/retrolix/graphColoring.ml" 6 152 170
+)
+"src/retrolix/graphColoring.ml" 78 2186 2192 "src/retrolix/graphColoring.ml" 78 2186 2250
+call(
+  stack
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 80 2258 2268 "src/retrolix/graphColoring.ml" 80 2258 2274
+type(
+  Colors.t list
+)
+ident(
+  int_ref lcolor "src/retrolix/graphColoring.ml" 77 2169 2177 "src/retrolix/graphColoring.ml" 77 2169 2183
+)
+"src/retrolix/graphColoring.ml" 81 2280 2286 "src/retrolix/graphColoring.ml" 81 2280 2288
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 81 2280 2292 "src/retrolix/graphColoring.ml" 81 2280 2296
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 82 2297 2303 "src/retrolix/graphColoring.ml" 82 2297 2304
+type(
+  Colors.t
+)
+ident(
+  def a "src/retrolix/graphColoring.ml" 82 2297 2313 "src/retrolix/graphColoring.ml" 82 2297 2319
+)
+"src/retrolix/graphColoring.ml" 82 2297 2308 "src/retrolix/graphColoring.ml" 82 2297 2309
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 82 2297 2303 "src/retrolix/graphColoring.ml" 82 2297 2309
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 82 2297 2318 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t
+)
+ident(
+  int_ref a "src/retrolix/graphColoring.ml" 82 2297 2303 "src/retrolix/graphColoring.ml" 82 2297 2304
+)
+"src/retrolix/graphColoring.ml" 82 2297 2313 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 80 2258 2262 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 77 2169 2173 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 71 2025 2029 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 70 1983 1987 "src/retrolix/graphColoring.ml" 82 2297 2319
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 84 2321 2327 "src/retrolix/graphColoring.ml" 84 2321 2342
+type(
+  NodeLabel.t -> bool
+)
+ident(
+  def is_noderegister "src/retrolix/graphColoring.ml" 88 2406 2408 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 84 2321 2343 "src/retrolix/graphColoring.ml" 84 2321 2344
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 85 2347 2351 "src/retrolix/graphColoring.ml" 86 2387 2404
+)
+"src/retrolix/graphColoring.ml" 85 2347 2355 "src/retrolix/graphColoring.ml" 85 2347 2358
+type(
+  string
+)
+ident(
+  def str "src/retrolix/graphColoring.ml" 86 2387 2391 "src/retrolix/graphColoring.ml" 86 2387 2404
+)
+"src/retrolix/graphColoring.ml" 85 2347 2362 "src/retrolix/graphColoring.ml" 85 2347 2381
+type(
+  NodeLabel.t -> string
+)
+ident(
+  ext_ref NodeLabel.to_string
+)
+"src/retrolix/graphColoring.ml" 85 2347 2382 "src/retrolix/graphColoring.ml" 85 2347 2383
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 84 2321 2343 "src/retrolix/graphColoring.ml" 84 2321 2344
+)
+"src/retrolix/graphColoring.ml" 85 2347 2362 "src/retrolix/graphColoring.ml" 85 2347 2383
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 86 2387 2391 "src/retrolix/graphColoring.ml" 86 2387 2394
+type(
+  string
+)
+ident(
+  int_ref str "src/retrolix/graphColoring.ml" 85 2347 2355 "src/retrolix/graphColoring.ml" 85 2347 2358
+)
+"src/retrolix/graphColoring.ml" 86 2387 2396 "src/retrolix/graphColoring.ml" 86 2387 2397
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 86 2387 2391 "src/retrolix/graphColoring.ml" 86 2387 2398
+type(
+  char
+)
+"src/retrolix/graphColoring.ml" 86 2387 2399 "src/retrolix/graphColoring.ml" 86 2387 2400
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/retrolix/graphColoring.ml" 86 2387 2401 "src/retrolix/graphColoring.ml" 86 2387 2404
+type(
+  char
+)
+"src/retrolix/graphColoring.ml" 86 2387 2391 "src/retrolix/graphColoring.ml" 86 2387 2404
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 85 2347 2351 "src/retrolix/graphColoring.ml" 86 2387 2404
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 88 2406 2412 "src/retrolix/graphColoring.ml" 88 2406 2426
+type(
+  Graph.t -> NodeLabel.t -> int
+)
+ident(
+  def degree_of_node "src/retrolix/graphColoring.ml" 91 2504 2506 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 88 2406 2427 "src/retrolix/graphColoring.ml" 88 2406 2428
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 88 2406 2429 "src/retrolix/graphColoring.ml" 89 2433 2490
+)
+"src/retrolix/graphColoring.ml" 88 2406 2429 "src/retrolix/graphColoring.ml" 88 2406 2430
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 89 2433 2437 "src/retrolix/graphColoring.ml" 89 2433 2490
+)
+"src/retrolix/graphColoring.ml" 89 2433 2437 "src/retrolix/graphColoring.ml" 89 2433 2448
+type(
+  NodeLabel.t list list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/retrolix/graphColoring.ml" 89 2433 2450 "src/retrolix/graphColoring.ml" 89 2433 2466
+type(
+  Graph.t -> EdgeLabel.t -> NodeLabel.t -> NodeLabel.t list list
+)
+ident(
+  ext_ref Graph.neighbours
+)
+"src/retrolix/graphColoring.ml" 89 2433 2467 "src/retrolix/graphColoring.ml" 89 2433 2468
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 88 2406 2427 "src/retrolix/graphColoring.ml" 88 2406 2428
+)
+"src/retrolix/graphColoring.ml" 89 2433 2469 "src/retrolix/graphColoring.ml" 89 2433 2487
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 89 2433 2488 "src/retrolix/graphColoring.ml" 89 2433 2489
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 88 2406 2429 "src/retrolix/graphColoring.ml" 88 2406 2430
+)
+"src/retrolix/graphColoring.ml" 89 2433 2449 "src/retrolix/graphColoring.ml" 89 2433 2490
+call(
+  stack
+)
+type(
+  NodeLabel.t list list
+)
+"src/retrolix/graphColoring.ml" 89 2433 2437 "src/retrolix/graphColoring.ml" 89 2433 2490
+call(
+  tail
+)
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 91 2504 2510 "src/retrolix/graphColoring.ml" 91 2504 2529
+type(
+  Graph.t -> 'e option NodeLabelMap.t -> Graph.t option
+)
+ident(
+  def check_edge_coloring "src/retrolix/graphColoring.ml" 115 3099 3101 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 91 2504 2530 "src/retrolix/graphColoring.ml" 91 2504 2531
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 91 2504 2532 "src/retrolix/graphColoring.ml" 113 3086 3097
+)
+"src/retrolix/graphColoring.ml" 91 2504 2532 "src/retrolix/graphColoring.ml" 91 2504 2533
+type(
+  'e option NodeLabelMap.t
+)
+ident(
+  def c "src/retrolix/graphColoring.ml" 93 2568 2572 "src/retrolix/graphColoring.ml" 113 3086 3097
+)
+"src/retrolix/graphColoring.ml" 93 2568 2576 "src/retrolix/graphColoring.ml" 93 2568 2584
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  def one_edge "src/retrolix/graphColoring.ml" 97 2681 2685 "src/retrolix/graphColoring.ml" 113 3086 3097
+)
+"src/retrolix/graphColoring.ml" 94 2587 2593 "src/retrolix/graphColoring.ml" 94 2587 2608
+type(
+  Graph.t -> EdgeLabel.t -> (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.pick_edge
+)
+"src/retrolix/graphColoring.ml" 94 2587 2609 "src/retrolix/graphColoring.ml" 94 2587 2610
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 91 2504 2530 "src/retrolix/graphColoring.ml" 91 2504 2531
+)
+"src/retrolix/graphColoring.ml" 94 2587 2611 "src/retrolix/graphColoring.ml" 94 2587 2629
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 94 2587 2593 "src/retrolix/graphColoring.ml" 94 2587 2629
+call(
+  stack
+)
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 97 2681 2691 "src/retrolix/graphColoring.ml" 97 2681 2699
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  int_ref one_edge "src/retrolix/graphColoring.ml" 93 2568 2576 "src/retrolix/graphColoring.ml" 93 2568 2584
+)
+"src/retrolix/graphColoring.ml" 100 2731 2743 "src/retrolix/graphColoring.ml" 100 2731 2745
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 103 2784 2791 "src/retrolix/graphColoring.ml" 107 2958 3013
+)
+"src/retrolix/graphColoring.ml" 100 2731 2747 "src/retrolix/graphColoring.ml" 100 2731 2749
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 103 2784 2791 "src/retrolix/graphColoring.ml" 107 2958 3013
+)
+"src/retrolix/graphColoring.ml" 100 2731 2742 "src/retrolix/graphColoring.ml" 100 2731 2750
+type(
+  NodeLabel.t * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 100 2731 2737 "src/retrolix/graphColoring.ml" 100 2731 2750
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 103 2784 2798 "src/retrolix/graphColoring.ml" 103 2784 2811
+type(
+  'e option NodeLabelMap.t -> NodeLabelMap.key -> 'e option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 103 2784 2812 "src/retrolix/graphColoring.ml" 103 2784 2813
+type(
+  'e option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 91 2504 2532 "src/retrolix/graphColoring.ml" 91 2504 2533
+)
+"src/retrolix/graphColoring.ml" 103 2784 2814 "src/retrolix/graphColoring.ml" 103 2784 2816
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 100 2731 2743 "src/retrolix/graphColoring.ml" 100 2731 2745
+)
+"src/retrolix/graphColoring.ml" 103 2784 2798 "src/retrolix/graphColoring.ml" 103 2784 2816
+call(
+  stack
+)
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 103 2784 2818 "src/retrolix/graphColoring.ml" 103 2784 2831
+type(
+  'e option NodeLabelMap.t -> NodeLabelMap.key -> 'e option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 103 2784 2832 "src/retrolix/graphColoring.ml" 103 2784 2833
+type(
+  'e option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 91 2504 2532 "src/retrolix/graphColoring.ml" 91 2504 2533
+)
+"src/retrolix/graphColoring.ml" 103 2784 2834 "src/retrolix/graphColoring.ml" 103 2784 2836
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 100 2731 2747 "src/retrolix/graphColoring.ml" 100 2731 2749
+)
+"src/retrolix/graphColoring.ml" 103 2784 2818 "src/retrolix/graphColoring.ml" 103 2784 2836
+call(
+  stack
+)
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 103 2784 2798 "src/retrolix/graphColoring.ml" 103 2784 2836
+type(
+  'e option * 'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2845 "src/retrolix/graphColoring.ml" 104 2842 2849
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2850 "src/retrolix/graphColoring.ml" 104 2842 2851
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2845 "src/retrolix/graphColoring.ml" 104 2842 2851
+type(
+  'e option * 'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2854 "src/retrolix/graphColoring.ml" 104 2842 2855
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2856 "src/retrolix/graphColoring.ml" 104 2842 2860
+type(
+  'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2854 "src/retrolix/graphColoring.ml" 104 2842 2860
+type(
+  'e option * 'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2845 "src/retrolix/graphColoring.ml" 104 2842 2860
+type(
+  'e option * 'e option
+)
+"src/retrolix/graphColoring.ml" 104 2842 2864 "src/retrolix/graphColoring.ml" 104 2842 2866
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 105 2867 2870 "src/retrolix/graphColoring.ml" 105 2867 2872
+type(
+  'e option
+)
+ident(
+  def c1 "src/retrolix/graphColoring.ml" 105 2867 2880 "src/retrolix/graphColoring.ml" 105 2867 2897
+)
+"src/retrolix/graphColoring.ml" 105 2867 2874 "src/retrolix/graphColoring.ml" 105 2867 2876
+type(
+  'e option
+)
+ident(
+  def c2 "src/retrolix/graphColoring.ml" 105 2867 2880 "src/retrolix/graphColoring.ml" 105 2867 2897
+)
+"src/retrolix/graphColoring.ml" 105 2867 2870 "src/retrolix/graphColoring.ml" 105 2867 2876
+type(
+  'e option * 'e option
+)
+"src/retrolix/graphColoring.ml" 105 2867 2888 "src/retrolix/graphColoring.ml" 105 2867 2890
+type(
+  'e option
+)
+ident(
+  int_ref c1 "src/retrolix/graphColoring.ml" 105 2867 2870 "src/retrolix/graphColoring.ml" 105 2867 2872
+)
+"src/retrolix/graphColoring.ml" 105 2867 2891 "src/retrolix/graphColoring.ml" 105 2867 2893
+type(
+  'e option -> 'e option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/retrolix/graphColoring.ml" 105 2867 2894 "src/retrolix/graphColoring.ml" 105 2867 2896
+type(
+  'e option
+)
+ident(
+  int_ref c2 "src/retrolix/graphColoring.ml" 105 2867 2874 "src/retrolix/graphColoring.ml" 105 2867 2876
+)
+"src/retrolix/graphColoring.ml" 105 2867 2887 "src/retrolix/graphColoring.ml" 105 2867 2897
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 105 2867 2880 "src/retrolix/graphColoring.ml" 105 2867 2897
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 103 2784 2791 "src/retrolix/graphColoring.ml" 105 2867 2898
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 107 2958 2971 "src/retrolix/graphColoring.ml" 107 2958 2985
+type(
+  Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_edge
+)
+"src/retrolix/graphColoring.ml" 107 2958 2986 "src/retrolix/graphColoring.ml" 107 2958 2987
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 91 2504 2530 "src/retrolix/graphColoring.ml" 91 2504 2531
+)
+"src/retrolix/graphColoring.ml" 107 2958 2988 "src/retrolix/graphColoring.ml" 107 2958 2990
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 100 2731 2743 "src/retrolix/graphColoring.ml" 100 2731 2745
+)
+"src/retrolix/graphColoring.ml" 107 2958 2991 "src/retrolix/graphColoring.ml" 107 2958 3009
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 107 2958 3010 "src/retrolix/graphColoring.ml" 107 2958 3012
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 100 2731 2747 "src/retrolix/graphColoring.ml" 100 2731 2749
+)
+"src/retrolix/graphColoring.ml" 107 2958 2970 "src/retrolix/graphColoring.ml" 107 2958 3013
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 107 2958 2965 "src/retrolix/graphColoring.ml" 107 2958 3013
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 103 2784 2791 "src/retrolix/graphColoring.ml" 107 2958 3013
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 110 3044 3050 "src/retrolix/graphColoring.ml" 110 3044 3054
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 113 3086 3093 "src/retrolix/graphColoring.ml" 113 3086 3097
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 97 2681 2685 "src/retrolix/graphColoring.ml" 113 3086 3097
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 93 2568 2572 "src/retrolix/graphColoring.ml" 113 3086 3097
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 115 3099 3109 "src/retrolix/graphColoring.ml" 115 3099 3124
+type(
+  Graph.t -> 'f option NodeLabelMap.t -> unit
+)
+ident(
+  def check_coloring' "src/retrolix/graphColoring.ml" 115 3099 3101 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 115 3099 3125 "src/retrolix/graphColoring.ml" 115 3099 3126
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 115 3099 3127 "src/retrolix/graphColoring.ml" 122 3339 3355
+)
+"src/retrolix/graphColoring.ml" 115 3099 3127 "src/retrolix/graphColoring.ml" 115 3099 3128
+type(
+  'f option NodeLabelMap.t
+)
+ident(
+  def c "src/retrolix/graphColoring.ml" 116 3175 3179 "src/retrolix/graphColoring.ml" 122 3339 3355
+)
+"src/retrolix/graphColoring.ml" 116 3175 3185 "src/retrolix/graphColoring.ml" 116 3175 3204
+type(
+  Graph.t -> 'f option NodeLabelMap.t -> Graph.t option
+)
+ident(
+  int_ref check_edge_coloring "src/retrolix/graphColoring.ml" 91 2504 2510 "src/retrolix/graphColoring.ml" 91 2504 2529
+)
+"src/retrolix/graphColoring.ml" 116 3175 3205 "src/retrolix/graphColoring.ml" 116 3175 3206
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 115 3099 3125 "src/retrolix/graphColoring.ml" 115 3099 3126
+)
+"src/retrolix/graphColoring.ml" 116 3175 3207 "src/retrolix/graphColoring.ml" 116 3175 3208
+type(
+  'f option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 115 3099 3127 "src/retrolix/graphColoring.ml" 115 3099 3128
+)
+"src/retrolix/graphColoring.ml" 116 3175 3185 "src/retrolix/graphColoring.ml" 116 3175 3208
+call(
+  stack
+)
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 119 3257 3268 "src/retrolix/graphColoring.ml" 119 3257 3270
+type(
+  Graph.t
+)
+ident(
+  def g' "src/retrolix/graphColoring.ml" 119 3257 3274 "src/retrolix/graphColoring.ml" 119 3257 3294
+)
+"src/retrolix/graphColoring.ml" 119 3257 3263 "src/retrolix/graphColoring.ml" 119 3257 3270
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 119 3257 3274 "src/retrolix/graphColoring.ml" 119 3257 3289
+type(
+  Graph.t -> 'f option NodeLabelMap.t -> unit
+)
+ident(
+  int_ref check_coloring' "src/retrolix/graphColoring.ml" 115 3099 3109 "src/retrolix/graphColoring.ml" 115 3099 3124
+)
+"src/retrolix/graphColoring.ml" 119 3257 3290 "src/retrolix/graphColoring.ml" 119 3257 3292
+type(
+  Graph.t
+)
+ident(
+  int_ref g' "src/retrolix/graphColoring.ml" 119 3257 3268 "src/retrolix/graphColoring.ml" 119 3257 3270
+)
+"src/retrolix/graphColoring.ml" 119 3257 3293 "src/retrolix/graphColoring.ml" 119 3257 3294
+type(
+  'f option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 115 3099 3127 "src/retrolix/graphColoring.ml" 115 3099 3128
+)
+"src/retrolix/graphColoring.ml" 119 3257 3274 "src/retrolix/graphColoring.ml" 119 3257 3294
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 122 3339 3345 "src/retrolix/graphColoring.ml" 122 3339 3349
+type(
+  Graph.t option
+)
+"src/retrolix/graphColoring.ml" 122 3339 3353 "src/retrolix/graphColoring.ml" 122 3339 3355
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 116 3175 3179 "src/retrolix/graphColoring.ml" 122 3339 3355
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 126 3372 3378 "src/retrolix/graphColoring.ml" 126 3372 3392
+type(
+  Graph.t -> 'g option NodeLabelMap.t -> unit
+)
+ident(
+  def check_coloring "src/retrolix/graphColoring.ml" 142 3943 3945 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 126 3372 3393 "src/retrolix/graphColoring.ml" 126 3372 3394
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 126 3372 3395 "src/retrolix/graphColoring.ml" 140 3849 3934
+)
+"src/retrolix/graphColoring.ml" 126 3372 3395 "src/retrolix/graphColoring.ml" 126 3372 3396
+type(
+  'g option NodeLabelMap.t
+)
+ident(
+  def c "src/retrolix/graphColoring.ml" 129 3461 3465 "src/retrolix/graphColoring.ml" 140 3849 3934
+)
+"src/retrolix/graphColoring.ml" 129 3461 3469 "src/retrolix/graphColoring.ml" 129 3461 3489
+type(
+  NodeLabelMap.key -> NodeLabelMap.key -> 'h option NodeLabelMap.t -> unit
+)
+ident(
+  def check_color_one_node "src/retrolix/graphColoring.ml" 135 3644 3648 "src/retrolix/graphColoring.ml" 140 3849 3934
+)
+"src/retrolix/graphColoring.ml" 129 3461 3490 "src/retrolix/graphColoring.ml" 129 3461 3492
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 129 3461 3493 "src/retrolix/graphColoring.ml" 132 3586 3631
+)
+"src/retrolix/graphColoring.ml" 129 3461 3493 "src/retrolix/graphColoring.ml" 129 3461 3495
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 129 3461 3496 "src/retrolix/graphColoring.ml" 132 3586 3631
+)
+"src/retrolix/graphColoring.ml" 129 3461 3496 "src/retrolix/graphColoring.ml" 129 3461 3497
+type(
+  'h option NodeLabelMap.t
+)
+ident(
+  def c "src/retrolix/graphColoring.ml" 130 3500 3506 "src/retrolix/graphColoring.ml" 132 3586 3631
+)
+"src/retrolix/graphColoring.ml" 130 3500 3512 "src/retrolix/graphColoring.ml" 130 3500 3525
+type(
+  'h option NodeLabelMap.t -> NodeLabelMap.key -> 'h option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 130 3500 3526 "src/retrolix/graphColoring.ml" 130 3500 3527
+type(
+  'h option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 129 3461 3496 "src/retrolix/graphColoring.ml" 129 3461 3497
+)
+"src/retrolix/graphColoring.ml" 130 3500 3528 "src/retrolix/graphColoring.ml" 130 3500 3530
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 129 3461 3490 "src/retrolix/graphColoring.ml" 129 3461 3492
+)
+"src/retrolix/graphColoring.ml" 130 3500 3512 "src/retrolix/graphColoring.ml" 130 3500 3530
+call(
+  stack
+)
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 130 3500 3532 "src/retrolix/graphColoring.ml" 130 3500 3545
+type(
+  'h option NodeLabelMap.t -> NodeLabelMap.key -> 'h option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 130 3500 3546 "src/retrolix/graphColoring.ml" 130 3500 3547
+type(
+  'h option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 129 3461 3496 "src/retrolix/graphColoring.ml" 129 3461 3497
+)
+"src/retrolix/graphColoring.ml" 130 3500 3548 "src/retrolix/graphColoring.ml" 130 3500 3550
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 129 3461 3493 "src/retrolix/graphColoring.ml" 129 3461 3495
+)
+"src/retrolix/graphColoring.ml" 130 3500 3532 "src/retrolix/graphColoring.ml" 130 3500 3550
+call(
+  stack
+)
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 130 3500 3512 "src/retrolix/graphColoring.ml" 130 3500 3550
+type(
+  'h option * 'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3564 "src/retrolix/graphColoring.ml" 131 3556 3568
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3569 "src/retrolix/graphColoring.ml" 131 3556 3570
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3564 "src/retrolix/graphColoring.ml" 131 3556 3570
+type(
+  'h option * 'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3573 "src/retrolix/graphColoring.ml" 131 3556 3574
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3575 "src/retrolix/graphColoring.ml" 131 3556 3579
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3573 "src/retrolix/graphColoring.ml" 131 3556 3579
+type(
+  'h option * 'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3564 "src/retrolix/graphColoring.ml" 131 3556 3579
+type(
+  'h option * 'h option
+)
+"src/retrolix/graphColoring.ml" 131 3556 3583 "src/retrolix/graphColoring.ml" 131 3556 3585
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 132 3586 3599 "src/retrolix/graphColoring.ml" 132 3586 3601
+type(
+  'h
+)
+ident(
+  def c1 "src/retrolix/graphColoring.ml" 132 3586 3614 "src/retrolix/graphColoring.ml" 132 3586 3631
+)
+"src/retrolix/graphColoring.ml" 132 3586 3594 "src/retrolix/graphColoring.ml" 132 3586 3601
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 132 3586 3608 "src/retrolix/graphColoring.ml" 132 3586 3610
+type(
+  'h
+)
+ident(
+  def c2 "src/retrolix/graphColoring.ml" 132 3586 3614 "src/retrolix/graphColoring.ml" 132 3586 3631
+)
+"src/retrolix/graphColoring.ml" 132 3586 3603 "src/retrolix/graphColoring.ml" 132 3586 3610
+type(
+  'h option
+)
+"src/retrolix/graphColoring.ml" 132 3586 3594 "src/retrolix/graphColoring.ml" 132 3586 3610
+type(
+  'h option * 'h option
+)
+"src/retrolix/graphColoring.ml" 132 3586 3622 "src/retrolix/graphColoring.ml" 132 3586 3624
+type(
+  'h
+)
+ident(
+  int_ref c1 "src/retrolix/graphColoring.ml" 132 3586 3599 "src/retrolix/graphColoring.ml" 132 3586 3601
+)
+"src/retrolix/graphColoring.ml" 132 3586 3625 "src/retrolix/graphColoring.ml" 132 3586 3627
+type(
+  'h -> 'h -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/retrolix/graphColoring.ml" 132 3586 3628 "src/retrolix/graphColoring.ml" 132 3586 3630
+type(
+  'h
+)
+ident(
+  int_ref c2 "src/retrolix/graphColoring.ml" 132 3586 3608 "src/retrolix/graphColoring.ml" 132 3586 3610
+)
+"src/retrolix/graphColoring.ml" 132 3586 3621 "src/retrolix/graphColoring.ml" 132 3586 3631
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 132 3586 3614 "src/retrolix/graphColoring.ml" 132 3586 3631
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 130 3500 3506 "src/retrolix/graphColoring.ml" 132 3586 3631
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 135 3644 3652 "src/retrolix/graphColoring.ml" 135 3644 3657
+type(
+  (NodeLabel.t list * NodeLabel.t list) list
+)
+ident(
+  def ledge "src/retrolix/graphColoring.ml" 140 3849 3853 "src/retrolix/graphColoring.ml" 140 3849 3934
+)
+"src/retrolix/graphColoring.ml" 136 3712 3718 "src/retrolix/graphColoring.ml" 136 3712 3729
+type(
+  Graph.t -> EdgeLabel.t -> (NodeLabel.t list * NodeLabel.t list) list
+)
+ident(
+  ext_ref Graph.edges
+)
+"src/retrolix/graphColoring.ml" 136 3712 3730 "src/retrolix/graphColoring.ml" 136 3712 3731
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 126 3372 3393 "src/retrolix/graphColoring.ml" 126 3372 3394
+)
+"src/retrolix/graphColoring.ml" 136 3712 3732 "src/retrolix/graphColoring.ml" 136 3712 3750
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 136 3712 3718 "src/retrolix/graphColoring.ml" 136 3712 3750
+call(
+  stack
+)
+type(
+  (NodeLabel.t list * NodeLabel.t list) list
+)
+"src/retrolix/graphColoring.ml" 140 3849 3853 "src/retrolix/graphColoring.ml" 140 3849 3862
+type(
+  (NodeLabelMap.key list * NodeLabelMap.key list -> unit) ->
+  (NodeLabelMap.key list * NodeLabelMap.key list) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/retrolix/graphColoring.ml" 140 3849 3869 "src/retrolix/graphColoring.ml" 140 3849 3871
+type(
+  NodeLabelMap.key list
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 140 3849 3879 "src/retrolix/graphColoring.ml" 140 3849 3927
+)
+"src/retrolix/graphColoring.ml" 140 3849 3872 "src/retrolix/graphColoring.ml" 140 3849 3874
+type(
+  NodeLabelMap.key list
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 140 3849 3879 "src/retrolix/graphColoring.ml" 140 3849 3927
+)
+"src/retrolix/graphColoring.ml" 140 3849 3868 "src/retrolix/graphColoring.ml" 140 3849 3875
+type(
+  NodeLabelMap.key list * NodeLabelMap.key list
+)
+"src/retrolix/graphColoring.ml" 140 3849 3879 "src/retrolix/graphColoring.ml" 140 3849 3899
+type(
+  NodeLabelMap.key -> NodeLabelMap.key -> 'g option NodeLabelMap.t -> unit
+)
+ident(
+  int_ref check_color_one_node "src/retrolix/graphColoring.ml" 129 3461 3469 "src/retrolix/graphColoring.ml" 129 3461 3489
+)
+"src/retrolix/graphColoring.ml" 140 3849 3901 "src/retrolix/graphColoring.ml" 140 3849 3908
+type(
+  NodeLabelMap.key list -> NodeLabelMap.key
+)
+ident(
+  ext_ref List.hd
+)
+"src/retrolix/graphColoring.ml" 140 3849 3909 "src/retrolix/graphColoring.ml" 140 3849 3911
+type(
+  NodeLabelMap.key list
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 140 3849 3869 "src/retrolix/graphColoring.ml" 140 3849 3871
+)
+"src/retrolix/graphColoring.ml" 140 3849 3900 "src/retrolix/graphColoring.ml" 140 3849 3912
+call(
+  stack
+)
+type(
+  NodeLabelMap.key
+)
+"src/retrolix/graphColoring.ml" 140 3849 3914 "src/retrolix/graphColoring.ml" 140 3849 3921
+type(
+  NodeLabelMap.key list -> NodeLabelMap.key
+)
+ident(
+  ext_ref List.hd
+)
+"src/retrolix/graphColoring.ml" 140 3849 3922 "src/retrolix/graphColoring.ml" 140 3849 3924
+type(
+  NodeLabelMap.key list
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 140 3849 3872 "src/retrolix/graphColoring.ml" 140 3849 3874
+)
+"src/retrolix/graphColoring.ml" 140 3849 3913 "src/retrolix/graphColoring.ml" 140 3849 3925
+call(
+  stack
+)
+type(
+  NodeLabelMap.key
+)
+"src/retrolix/graphColoring.ml" 140 3849 3926 "src/retrolix/graphColoring.ml" 140 3849 3927
+type(
+  'g option NodeLabelMap.t
+)
+ident(
+  int_ref c "src/retrolix/graphColoring.ml" 126 3372 3395 "src/retrolix/graphColoring.ml" 126 3372 3396
+)
+"src/retrolix/graphColoring.ml" 140 3849 3879 "src/retrolix/graphColoring.ml" 140 3849 3927
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 140 3849 3863 "src/retrolix/graphColoring.ml" 140 3849 3928
+type(
+  NodeLabelMap.key list * NodeLabelMap.key list -> unit
+)
+"src/retrolix/graphColoring.ml" 140 3849 3929 "src/retrolix/graphColoring.ml" 140 3849 3934
+type(
+  (NodeLabelMap.key list * NodeLabelMap.key list) list
+)
+ident(
+  int_ref ledge "src/retrolix/graphColoring.ml" 135 3644 3652 "src/retrolix/graphColoring.ml" 135 3644 3657
+)
+"src/retrolix/graphColoring.ml" 140 3849 3853 "src/retrolix/graphColoring.ml" 140 3849 3934
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 135 3644 3648 "src/retrolix/graphColoring.ml" 140 3849 3934
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 129 3461 3465 "src/retrolix/graphColoring.ml" 140 3849 3934
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 151 4222 4232 "src/retrolix/graphColoring.ml" 151 4222 4245
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  def pick_register "src/retrolix/graphColoring.ml" 151 4222 4224 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 151 4222 4246 "src/retrolix/graphColoring.ml" 151 4222 4247
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 154 4333 4337 "src/retrolix/graphColoring.ml" 177 5047 5057
+)
+"src/retrolix/graphColoring.ml" 154 4333 4343 "src/retrolix/graphColoring.ml" 154 4333 4359
+type(
+  Graph.t -> EdgeLabel.t -> EdgeLabel.t -> (int * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.min_degree
+)
+"src/retrolix/graphColoring.ml" 154 4333 4360 "src/retrolix/graphColoring.ml" 154 4333 4361
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 151 4222 4246 "src/retrolix/graphColoring.ml" 151 4222 4247
+)
+"src/retrolix/graphColoring.ml" 154 4333 4362 "src/retrolix/graphColoring.ml" 154 4333 4380
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 154 4333 4381 "src/retrolix/graphColoring.ml" 154 4333 4401
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 154 4333 4343 "src/retrolix/graphColoring.ml" 154 4333 4401
+call(
+  stack
+)
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 157 4460 4472 "src/retrolix/graphColoring.ml" 157 4460 4473
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 157 4460 4475 "src/retrolix/graphColoring.ml" 157 4460 4476
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 157 4460 4483 "src/retrolix/graphColoring.ml" 157 4460 4512
+)
+"src/retrolix/graphColoring.ml" 157 4460 4471 "src/retrolix/graphColoring.ml" 157 4460 4477
+type(
+  int * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 157 4460 4466 "src/retrolix/graphColoring.ml" 157 4460 4477
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 157 4460 4484 "src/retrolix/graphColoring.ml" 157 4460 4499
+type(
+  NodeLabel.t -> bool
+)
+ident(
+  int_ref is_noderegister "src/retrolix/graphColoring.ml" 84 2321 2327 "src/retrolix/graphColoring.ml" 84 2321 2342
+)
+"src/retrolix/graphColoring.ml" 157 4460 4500 "src/retrolix/graphColoring.ml" 157 4460 4501
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 157 4460 4475 "src/retrolix/graphColoring.ml" 157 4460 4476
+)
+"src/retrolix/graphColoring.ml" 157 4460 4483 "src/retrolix/graphColoring.ml" 157 4460 4502
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 157 4460 4511 "src/retrolix/graphColoring.ml" 157 4460 4512
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 157 4460 4475 "src/retrolix/graphColoring.ml" 157 4460 4476
+)
+"src/retrolix/graphColoring.ml" 157 4460 4506 "src/retrolix/graphColoring.ml" 157 4460 4512
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 160 4564 4576 "src/retrolix/graphColoring.ml" 160 4564 4577
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 160 4564 4579 "src/retrolix/graphColoring.ml" 160 4564 4580
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 160 4564 4585 "src/retrolix/graphColoring.ml" 160 4564 4619
+)
+"src/retrolix/graphColoring.ml" 160 4564 4575 "src/retrolix/graphColoring.ml" 160 4564 4581
+type(
+  int * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 160 4564 4570 "src/retrolix/graphColoring.ml" 160 4564 4581
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 160 4564 4585 "src/retrolix/graphColoring.ml" 160 4564 4598
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  int_ref pick_register "src/retrolix/graphColoring.ml" 151 4222 4232 "src/retrolix/graphColoring.ml" 151 4222 4245
+)
+"src/retrolix/graphColoring.ml" 160 4564 4600 "src/retrolix/graphColoring.ml" 160 4564 4614
+type(
+  Graph.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_node
+)
+"src/retrolix/graphColoring.ml" 160 4564 4615 "src/retrolix/graphColoring.ml" 160 4564 4616
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 151 4222 4246 "src/retrolix/graphColoring.ml" 151 4222 4247
+)
+"src/retrolix/graphColoring.ml" 160 4564 4617 "src/retrolix/graphColoring.ml" 160 4564 4618
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 160 4564 4579 "src/retrolix/graphColoring.ml" 160 4564 4580
+)
+"src/retrolix/graphColoring.ml" 160 4564 4599 "src/retrolix/graphColoring.ml" 160 4564 4619
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 160 4564 4585 "src/retrolix/graphColoring.ml" 160 4564 4619
+call(
+  tail
+)
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 163 4683 4689 "src/retrolix/graphColoring.ml" 163 4683 4693
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 168 4770 4778 "src/retrolix/graphColoring.ml" 168 4770 4793
+type(
+  Graph.t -> EdgeLabel.t -> (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.pick_edge
+)
+"src/retrolix/graphColoring.ml" 168 4770 4794 "src/retrolix/graphColoring.ml" 168 4770 4795
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 151 4222 4246 "src/retrolix/graphColoring.ml" 151 4222 4247
+)
+"src/retrolix/graphColoring.ml" 168 4770 4796 "src/retrolix/graphColoring.ml" 168 4770 4816
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 168 4770 4778 "src/retrolix/graphColoring.ml" 168 4770 4816
+call(
+  stack
+)
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 171 4881 4891 "src/retrolix/graphColoring.ml" 171 4881 4893
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 172 4902 4907 "src/retrolix/graphColoring.ml" 172 4902 4966
+)
+"src/retrolix/graphColoring.ml" 171 4881 4895 "src/retrolix/graphColoring.ml" 171 4881 4897
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 172 4902 4907 "src/retrolix/graphColoring.ml" 172 4902 4966
+)
+"src/retrolix/graphColoring.ml" 171 4881 4890 "src/retrolix/graphColoring.ml" 171 4881 4898
+type(
+  NodeLabel.t * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 171 4881 4885 "src/retrolix/graphColoring.ml" 171 4881 4898
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 172 4902 4907 "src/retrolix/graphColoring.ml" 172 4902 4920
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  int_ref pick_register "src/retrolix/graphColoring.ml" 151 4222 4232 "src/retrolix/graphColoring.ml" 151 4222 4245
+)
+"src/retrolix/graphColoring.ml" 172 4902 4922 "src/retrolix/graphColoring.ml" 172 4902 4936
+type(
+  Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_edge
+)
+"src/retrolix/graphColoring.ml" 172 4902 4937 "src/retrolix/graphColoring.ml" 172 4902 4938
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 151 4222 4246 "src/retrolix/graphColoring.ml" 151 4222 4247
+)
+"src/retrolix/graphColoring.ml" 172 4902 4939 "src/retrolix/graphColoring.ml" 172 4902 4941
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 171 4881 4891 "src/retrolix/graphColoring.ml" 171 4881 4893
+)
+"src/retrolix/graphColoring.ml" 172 4902 4942 "src/retrolix/graphColoring.ml" 172 4902 4962
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 172 4902 4963 "src/retrolix/graphColoring.ml" 172 4902 4965
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 171 4881 4895 "src/retrolix/graphColoring.ml" 171 4881 4897
+)
+"src/retrolix/graphColoring.ml" 172 4902 4921 "src/retrolix/graphColoring.ml" 172 4902 4966
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 172 4902 4907 "src/retrolix/graphColoring.ml" 172 4902 4966
+call(
+  tail
+)
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 175 5027 5031 "src/retrolix/graphColoring.ml" 175 5027 5035
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 175 5027 5039 "src/retrolix/graphColoring.ml" 175 5027 5043
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 165 4698 4705 "src/retrolix/graphColoring.ml" 177 5047 5057
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 154 4333 4337 "src/retrolix/graphColoring.ml" 177 5047 5057
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 181 5185 5195 "src/retrolix/graphColoring.ml" 181 5185 5212
+type(
+  Graph.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def colorize_register "src/retrolix/graphColoring.ml" 181 5185 5187 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 181 5185 5213 "src/retrolix/graphColoring.ml" 181 5185 5214
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 184 5259 5263 "src/retrolix/graphColoring.ml" 205 5851 5870
+)
+"src/retrolix/graphColoring.ml" 184 5259 5269 "src/retrolix/graphColoring.ml" 184 5259 5282
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  int_ref pick_register "src/retrolix/graphColoring.ml" 151 4222 4232 "src/retrolix/graphColoring.ml" 151 4222 4245
+)
+"src/retrolix/graphColoring.ml" 184 5259 5283 "src/retrolix/graphColoring.ml" 184 5259 5284
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 181 5185 5213 "src/retrolix/graphColoring.ml" 181 5185 5214
+)
+"src/retrolix/graphColoring.ml" 184 5259 5269 "src/retrolix/graphColoring.ml" 184 5259 5284
+call(
+  stack
+)
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 187 5331 5342 "src/retrolix/graphColoring.ml" 187 5331 5343
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 190 5411 5418 "src/retrolix/graphColoring.ml" 202 5764 5774
+)
+"src/retrolix/graphColoring.ml" 187 5331 5337 "src/retrolix/graphColoring.ml" 187 5331 5343
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 190 5411 5422 "src/retrolix/graphColoring.ml" 190 5411 5430
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 192 5476 5483 "src/retrolix/graphColoring.ml" 202 5764 5774
+)
+"src/retrolix/graphColoring.ml" 190 5411 5433 "src/retrolix/graphColoring.ml" 190 5411 5450
+type(
+  Graph.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize_register "src/retrolix/graphColoring.ml" 181 5185 5195 "src/retrolix/graphColoring.ml" 181 5185 5212
+)
+"src/retrolix/graphColoring.ml" 190 5411 5452 "src/retrolix/graphColoring.ml" 190 5411 5466
+type(
+  Graph.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_node
+)
+"src/retrolix/graphColoring.ml" 190 5411 5467 "src/retrolix/graphColoring.ml" 190 5411 5468
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 181 5185 5213 "src/retrolix/graphColoring.ml" 181 5185 5214
+)
+"src/retrolix/graphColoring.ml" 190 5411 5469 "src/retrolix/graphColoring.ml" 190 5411 5470
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 187 5331 5342 "src/retrolix/graphColoring.ml" 187 5331 5343
+)
+"src/retrolix/graphColoring.ml" 190 5411 5451 "src/retrolix/graphColoring.ml" 190 5411 5471
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 190 5411 5433 "src/retrolix/graphColoring.ml" 190 5411 5471
+call(
+  stack
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 195 5537 5545 "src/retrolix/graphColoring.ml" 195 5537 5564
+type(
+  NodeLabel.t -> Colors.t option
+)
+ident(
+  int_ref colors_of_nregister "src/retrolix/graphColoring.ml" 69 1950 1956 "src/retrolix/graphColoring.ml" 69 1950 1975
+)
+"src/retrolix/graphColoring.ml" 195 5537 5565 "src/retrolix/graphColoring.ml" 195 5537 5566
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 187 5331 5342 "src/retrolix/graphColoring.ml" 187 5331 5343
+)
+"src/retrolix/graphColoring.ml" 195 5537 5545 "src/retrolix/graphColoring.ml" 195 5537 5566
+call(
+  stack
+)
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 196 5572 5576 "src/retrolix/graphColoring.ml" 196 5572 5580
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 196 5572 5585 "src/retrolix/graphColoring.ml" 196 5572 5600
+type(
+  Graph.t ->
+  NodeLabel.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_no_color "src/retrolix/graphColoring.ml" 48 1336 1342 "src/retrolix/graphColoring.ml" 48 1336 1357
+)
+"src/retrolix/graphColoring.ml" 196 5572 5601 "src/retrolix/graphColoring.ml" 196 5572 5602
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 181 5185 5213 "src/retrolix/graphColoring.ml" 181 5185 5214
+)
+"src/retrolix/graphColoring.ml" 196 5572 5603 "src/retrolix/graphColoring.ml" 196 5572 5604
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 187 5331 5342 "src/retrolix/graphColoring.ml" 187 5331 5343
+)
+"src/retrolix/graphColoring.ml" 196 5572 5605 "src/retrolix/graphColoring.ml" 196 5572 5613
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 190 5411 5422 "src/retrolix/graphColoring.ml" 190 5411 5430
+)
+"src/retrolix/graphColoring.ml" 196 5572 5585 "src/retrolix/graphColoring.ml" 196 5572 5613
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 197 5640 5649 "src/retrolix/graphColoring.ml" 197 5640 5654
+type(
+  Colors.t
+)
+ident(
+  def color "src/retrolix/graphColoring.ml" 200 5726 5731 "src/retrolix/graphColoring.ml" 200 5726 5762
+)
+"src/retrolix/graphColoring.ml" 197 5640 5644 "src/retrolix/graphColoring.ml" 197 5640 5654
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 200 5726 5731 "src/retrolix/graphColoring.ml" 200 5726 5743
+type(
+  Graph.t ->
+  NodeLabel.t ->
+  Colors.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_color "src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+)
+"src/retrolix/graphColoring.ml" 200 5726 5744 "src/retrolix/graphColoring.ml" 200 5726 5745
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 181 5185 5213 "src/retrolix/graphColoring.ml" 181 5185 5214
+)
+"src/retrolix/graphColoring.ml" 200 5726 5746 "src/retrolix/graphColoring.ml" 200 5726 5747
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 187 5331 5342 "src/retrolix/graphColoring.ml" 187 5331 5343
+)
+"src/retrolix/graphColoring.ml" 200 5726 5748 "src/retrolix/graphColoring.ml" 200 5726 5753
+type(
+  Colors.t
+)
+ident(
+  int_ref color "src/retrolix/graphColoring.ml" 197 5640 5649 "src/retrolix/graphColoring.ml" 197 5640 5654
+)
+"src/retrolix/graphColoring.ml" 200 5726 5754 "src/retrolix/graphColoring.ml" 200 5726 5762
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 190 5411 5422 "src/retrolix/graphColoring.ml" 190 5411 5430
+)
+"src/retrolix/graphColoring.ml" 200 5726 5731 "src/retrolix/graphColoring.ml" 200 5726 5762
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 192 5476 5483 "src/retrolix/graphColoring.ml" 202 5764 5774
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 190 5411 5418 "src/retrolix/graphColoring.ml" 202 5764 5774
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 205 5851 5857 "src/retrolix/graphColoring.ml" 205 5851 5861
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 205 5851 5865 "src/retrolix/graphColoring.ml" 205 5851 5870
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref empty "src/retrolix/graphColoring.ml" 33 809 815 "src/retrolix/graphColoring.ml" 33 809 820
+)
+"src/retrolix/graphColoring.ml" 184 5259 5263 "src/retrolix/graphColoring.ml" 205 5851 5870
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 210 5996 6006 "src/retrolix/graphColoring.ml" 210 5996 6019
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  def pick_variable "src/retrolix/graphColoring.ml" 210 5996 5998 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 210 5996 6020 "src/retrolix/graphColoring.ml" 210 5996 6021
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 213 6107 6111 "src/retrolix/graphColoring.ml" 223 6486 6504
+)
+"src/retrolix/graphColoring.ml" 213 6107 6117 "src/retrolix/graphColoring.ml" 213 6107 6133
+type(
+  Graph.t -> EdgeLabel.t -> EdgeLabel.t -> (int * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.min_degree
+)
+"src/retrolix/graphColoring.ml" 213 6107 6134 "src/retrolix/graphColoring.ml" 213 6107 6135
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 210 5996 6020 "src/retrolix/graphColoring.ml" 210 5996 6021
+)
+"src/retrolix/graphColoring.ml" 213 6107 6136 "src/retrolix/graphColoring.ml" 213 6107 6154
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 213 6107 6155 "src/retrolix/graphColoring.ml" 213 6107 6175
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 213 6107 6117 "src/retrolix/graphColoring.ml" 213 6107 6175
+call(
+  stack
+)
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 216 6230 6242 "src/retrolix/graphColoring.ml" 216 6230 6243
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 216 6230 6245 "src/retrolix/graphColoring.ml" 216 6230 6246
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 216 6230 6253 "src/retrolix/graphColoring.ml" 217 6276 6317
+)
+"src/retrolix/graphColoring.ml" 216 6230 6241 "src/retrolix/graphColoring.ml" 216 6230 6247
+type(
+  int * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 216 6230 6236 "src/retrolix/graphColoring.ml" 216 6230 6247
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 216 6230 6254 "src/retrolix/graphColoring.ml" 216 6230 6269
+type(
+  NodeLabel.t -> bool
+)
+ident(
+  int_ref is_noderegister "src/retrolix/graphColoring.ml" 84 2321 2327 "src/retrolix/graphColoring.ml" 84 2321 2342
+)
+"src/retrolix/graphColoring.ml" 216 6230 6270 "src/retrolix/graphColoring.ml" 216 6230 6271
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 216 6230 6245 "src/retrolix/graphColoring.ml" 216 6230 6246
+)
+"src/retrolix/graphColoring.ml" 216 6230 6253 "src/retrolix/graphColoring.ml" 216 6230 6272
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 217 6276 6283 "src/retrolix/graphColoring.ml" 217 6276 6296
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  int_ref pick_variable "src/retrolix/graphColoring.ml" 210 5996 6006 "src/retrolix/graphColoring.ml" 210 5996 6019
+)
+"src/retrolix/graphColoring.ml" 217 6276 6298 "src/retrolix/graphColoring.ml" 217 6276 6312
+type(
+  Graph.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_node
+)
+"src/retrolix/graphColoring.ml" 217 6276 6313 "src/retrolix/graphColoring.ml" 217 6276 6314
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 210 5996 6020 "src/retrolix/graphColoring.ml" 210 5996 6021
+)
+"src/retrolix/graphColoring.ml" 217 6276 6315 "src/retrolix/graphColoring.ml" 217 6276 6316
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 216 6230 6245 "src/retrolix/graphColoring.ml" 216 6230 6246
+)
+"src/retrolix/graphColoring.ml" 217 6276 6297 "src/retrolix/graphColoring.ml" 217 6276 6317
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 217 6276 6283 "src/retrolix/graphColoring.ml" 217 6276 6317
+call(
+  tail
+)
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 220 6373 6385 "src/retrolix/graphColoring.ml" 220 6373 6386
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 220 6373 6388 "src/retrolix/graphColoring.ml" 220 6373 6389
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 220 6373 6394 "src/retrolix/graphColoring.ml" 220 6373 6400
+)
+"src/retrolix/graphColoring.ml" 220 6373 6384 "src/retrolix/graphColoring.ml" 220 6373 6390
+type(
+  int * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 220 6373 6379 "src/retrolix/graphColoring.ml" 220 6373 6390
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 220 6373 6399 "src/retrolix/graphColoring.ml" 220 6373 6400
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 220 6373 6388 "src/retrolix/graphColoring.ml" 220 6373 6389
+)
+"src/retrolix/graphColoring.ml" 220 6373 6394 "src/retrolix/graphColoring.ml" 220 6373 6400
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 223 6486 6492 "src/retrolix/graphColoring.ml" 223 6486 6496
+type(
+  (int * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 223 6486 6500 "src/retrolix/graphColoring.ml" 223 6486 6504
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 213 6107 6111 "src/retrolix/graphColoring.ml" 223 6486 6504
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 232 6858 6864 "src/retrolix/graphColoring.ml" 232 6858 6868
+type(
+  Graph.t -> pick_result
+)
+ident(
+  def pick "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 232 6858 6869 "src/retrolix/graphColoring.ml" 232 6858 6870
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 234 6874 6878 "src/retrolix/graphColoring.ml" 273 7863 7873
+)
+"src/retrolix/graphColoring.ml" 234 6874 6882 "src/retrolix/graphColoring.ml" 234 6874 6883
+type(
+  int
+)
+ident(
+  def k "src/retrolix/graphColoring.ml" 237 6976 6980 "src/retrolix/graphColoring.ml" 273 7863 7873
+)
+"src/retrolix/graphColoring.ml" 234 6874 6886 "src/retrolix/graphColoring.ml" 234 6874 6901
+type(
+  int
+)
+ident(
+  int_ref Colors.cardinal "src/retrolix/graphColoring.ml" 7 171 173 "src/retrolix/graphColoring.ml" 7 171 191
+)
+"src/retrolix/graphColoring.ml" 237 6976 6986 "src/retrolix/graphColoring.ml" 237 6976 6999
+type(
+  Graph.t -> NodeLabel.t option
+)
+ident(
+  int_ref pick_variable "src/retrolix/graphColoring.ml" 210 5996 6006 "src/retrolix/graphColoring.ml" 210 5996 6019
+)
+"src/retrolix/graphColoring.ml" 237 6976 7000 "src/retrolix/graphColoring.ml" 237 6976 7001
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 232 6858 6869 "src/retrolix/graphColoring.ml" 232 6858 6870
+)
+"src/retrolix/graphColoring.ml" 237 6976 6986 "src/retrolix/graphColoring.ml" 237 6976 7001
+call(
+  stack
+)
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 240 7083 7094 "src/retrolix/graphColoring.ml" 240 7083 7095
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 240 7083 7101 "src/retrolix/graphColoring.ml" 241 7130 7155
+)
+"src/retrolix/graphColoring.ml" 240 7083 7089 "src/retrolix/graphColoring.ml" 240 7083 7095
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 240 7083 7102 "src/retrolix/graphColoring.ml" 240 7083 7116
+type(
+  Graph.t -> NodeLabel.t -> int
+)
+ident(
+  int_ref degree_of_node "src/retrolix/graphColoring.ml" 88 2406 2412 "src/retrolix/graphColoring.ml" 88 2406 2426
+)
+"src/retrolix/graphColoring.ml" 240 7083 7117 "src/retrolix/graphColoring.ml" 240 7083 7118
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 232 6858 6869 "src/retrolix/graphColoring.ml" 232 6858 6870
+)
+"src/retrolix/graphColoring.ml" 240 7083 7119 "src/retrolix/graphColoring.ml" 240 7083 7120
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 240 7083 7094 "src/retrolix/graphColoring.ml" 240 7083 7095
+)
+"src/retrolix/graphColoring.ml" 240 7083 7102 "src/retrolix/graphColoring.ml" 240 7083 7120
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 240 7083 7121 "src/retrolix/graphColoring.ml" 240 7083 7122
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/retrolix/graphColoring.ml" 240 7083 7123 "src/retrolix/graphColoring.ml" 240 7083 7124
+type(
+  int
+)
+ident(
+  int_ref k "src/retrolix/graphColoring.ml" 234 6874 6882 "src/retrolix/graphColoring.ml" 234 6874 6883
+)
+"src/retrolix/graphColoring.ml" 240 7083 7101 "src/retrolix/graphColoring.ml" 240 7083 7125
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 241 7130 7154 "src/retrolix/graphColoring.ml" 241 7130 7155
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 240 7083 7094 "src/retrolix/graphColoring.ml" 240 7083 7095
+)
+"src/retrolix/graphColoring.ml" 241 7130 7137 "src/retrolix/graphColoring.ml" 241 7130 7155
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 244 7212 7223 "src/retrolix/graphColoring.ml" 244 7212 7224
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 246 7229 7236 "src/retrolix/graphColoring.ml" 257 7508 7518
+)
+"src/retrolix/graphColoring.ml" 244 7212 7218 "src/retrolix/graphColoring.ml" 244 7212 7224
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 249 7299 7307 "src/retrolix/graphColoring.ml" 249 7299 7322
+type(
+  Graph.t -> EdgeLabel.t -> (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.pick_edge
+)
+"src/retrolix/graphColoring.ml" 249 7299 7323 "src/retrolix/graphColoring.ml" 249 7299 7324
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 232 6858 6869 "src/retrolix/graphColoring.ml" 232 6858 6870
+)
+"src/retrolix/graphColoring.ml" 249 7299 7325 "src/retrolix/graphColoring.ml" 249 7299 7345
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 249 7299 7307 "src/retrolix/graphColoring.ml" 249 7299 7345
+call(
+  stack
+)
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 252 7399 7409 "src/retrolix/graphColoring.ml" 252 7399 7411
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 252 7399 7420 "src/retrolix/graphColoring.ml" 252 7399 7444
+)
+"src/retrolix/graphColoring.ml" 252 7399 7413 "src/retrolix/graphColoring.ml" 252 7399 7415
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 252 7399 7420 "src/retrolix/graphColoring.ml" 252 7399 7444
+)
+"src/retrolix/graphColoring.ml" 252 7399 7408 "src/retrolix/graphColoring.ml" 252 7399 7416
+type(
+  NodeLabel.t * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 252 7399 7403 "src/retrolix/graphColoring.ml" 252 7399 7416
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 252 7399 7437 "src/retrolix/graphColoring.ml" 252 7399 7439
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 252 7399 7409 "src/retrolix/graphColoring.ml" 252 7399 7411
+)
+"src/retrolix/graphColoring.ml" 252 7399 7441 "src/retrolix/graphColoring.ml" 252 7399 7443
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 252 7399 7413 "src/retrolix/graphColoring.ml" 252 7399 7415
+)
+"src/retrolix/graphColoring.ml" 252 7399 7420 "src/retrolix/graphColoring.ml" 252 7399 7444
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 255 7478 7482 "src/retrolix/graphColoring.ml" 255 7478 7486
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 255 7478 7505 "src/retrolix/graphColoring.ml" 255 7478 7506
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 244 7212 7223 "src/retrolix/graphColoring.ml" 244 7212 7224
+)
+"src/retrolix/graphColoring.ml" 255 7478 7490 "src/retrolix/graphColoring.ml" 255 7478 7506
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 246 7229 7236 "src/retrolix/graphColoring.ml" 257 7508 7518
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 260 7562 7568 "src/retrolix/graphColoring.ml" 260 7562 7572
+type(
+  NodeLabel.t option
+)
+"src/retrolix/graphColoring.ml" 265 7648 7656 "src/retrolix/graphColoring.ml" 265 7648 7671
+type(
+  Graph.t -> EdgeLabel.t -> (NodeLabel.t * NodeLabel.t) option
+)
+ident(
+  ext_ref Graph.pick_edge
+)
+"src/retrolix/graphColoring.ml" 265 7648 7672 "src/retrolix/graphColoring.ml" 265 7648 7673
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 232 6858 6869 "src/retrolix/graphColoring.ml" 232 6858 6870
+)
+"src/retrolix/graphColoring.ml" 265 7648 7674 "src/retrolix/graphColoring.ml" 265 7648 7694
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 265 7648 7656 "src/retrolix/graphColoring.ml" 265 7648 7694
+call(
+  stack
+)
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 268 7748 7758 "src/retrolix/graphColoring.ml" 268 7748 7760
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 268 7748 7769 "src/retrolix/graphColoring.ml" 268 7748 7793
+)
+"src/retrolix/graphColoring.ml" 268 7748 7762 "src/retrolix/graphColoring.ml" 268 7748 7764
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 268 7748 7769 "src/retrolix/graphColoring.ml" 268 7748 7793
+)
+"src/retrolix/graphColoring.ml" 268 7748 7757 "src/retrolix/graphColoring.ml" 268 7748 7765
+type(
+  NodeLabel.t * NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 268 7748 7752 "src/retrolix/graphColoring.ml" 268 7748 7765
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 268 7748 7786 "src/retrolix/graphColoring.ml" 268 7748 7788
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 268 7748 7758 "src/retrolix/graphColoring.ml" 268 7748 7760
+)
+"src/retrolix/graphColoring.ml" 268 7748 7790 "src/retrolix/graphColoring.ml" 268 7748 7792
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 268 7748 7762 "src/retrolix/graphColoring.ml" 268 7748 7764
+)
+"src/retrolix/graphColoring.ml" 268 7748 7769 "src/retrolix/graphColoring.ml" 268 7748 7793
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 271 7837 7841 "src/retrolix/graphColoring.ml" 271 7837 7845
+type(
+  (NodeLabel.t * NodeLabel.t) option
+)
+"src/retrolix/graphColoring.ml" 271 7837 7849 "src/retrolix/graphColoring.ml" 271 7837 7859
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 262 7577 7584 "src/retrolix/graphColoring.ml" 273 7863 7873
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 237 6976 6980 "src/retrolix/graphColoring.ml" 273 7863 7873
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 234 6874 6878 "src/retrolix/graphColoring.ml" 273 7863 7873
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 277 7935 7945 "src/retrolix/graphColoring.ml" 277 7935 7953
+type(
+  Graph.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def colorize "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 277 7935 7954 "src/retrolix/graphColoring.ml" 277 7935 7955
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 278 7958 7962 "src/retrolix/graphColoring.ml" 278 7958 7979
+)
+"src/retrolix/graphColoring.ml" 278 7958 7962 "src/retrolix/graphColoring.ml" 278 7958 7971
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize' "src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+)
+"src/retrolix/graphColoring.ml" 278 7958 7972 "src/retrolix/graphColoring.ml" 278 7958 7973
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 277 7935 7954 "src/retrolix/graphColoring.ml" 277 7935 7955
+)
+"src/retrolix/graphColoring.ml" 278 7958 7974 "src/retrolix/graphColoring.ml" 278 7958 7979
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref empty "src/retrolix/graphColoring.ml" 33 809 815 "src/retrolix/graphColoring.ml" 33 809 820
+)
+"src/retrolix/graphColoring.ml" 278 7958 7962 "src/retrolix/graphColoring.ml" 278 7958 7979
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def colorize' "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 307 8735 8761
+)
+"src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 280 7983 8009
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 283 8058 8062 "src/retrolix/graphColoring.ml" 307 8735 8761
+)
+"src/retrolix/graphColoring.ml" 283 8058 8068 "src/retrolix/graphColoring.ml" 283 8058 8072
+type(
+  Graph.t -> pick_result
+)
+ident(
+  int_ref pick "src/retrolix/graphColoring.ml" 232 6858 6864 "src/retrolix/graphColoring.ml" 232 6858 6868
+)
+"src/retrolix/graphColoring.ml" 283 8058 8073 "src/retrolix/graphColoring.ml" 283 8058 8074
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 283 8058 8068 "src/retrolix/graphColoring.ml" 283 8058 8074
+call(
+  stack
+)
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 286 8130 8153 "src/retrolix/graphColoring.ml" 286 8130 8154
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 287 8158 8165 "src/retrolix/graphColoring.ml" 287 8158 8186
+)
+"src/retrolix/graphColoring.ml" 286 8130 8136 "src/retrolix/graphColoring.ml" 286 8130 8154
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 287 8158 8165 "src/retrolix/graphColoring.ml" 287 8158 8173
+type(
+  Graph.t ->
+  NodeLabel.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref simplify "src/retrolix/graphColoring.ml" 354 10213 10219 "src/retrolix/graphColoring.ml" 354 10213 10227
+)
+"src/retrolix/graphColoring.ml" 287 8158 8174 "src/retrolix/graphColoring.ml" 287 8158 8175
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 287 8158 8176 "src/retrolix/graphColoring.ml" 287 8158 8177
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 286 8130 8153 "src/retrolix/graphColoring.ml" 286 8130 8154
+)
+"src/retrolix/graphColoring.ml" 287 8158 8178 "src/retrolix/graphColoring.ml" 287 8158 8186
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 280 7983 8009
+)
+"src/retrolix/graphColoring.ml" 287 8158 8165 "src/retrolix/graphColoring.ml" 287 8158 8186
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 290 8232 8255 "src/retrolix/graphColoring.ml" 290 8232 8257
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 293 8334 8341 "src/retrolix/graphColoring.ml" 297 8459 8525
+)
+"src/retrolix/graphColoring.ml" 290 8232 8259 "src/retrolix/graphColoring.ml" 290 8232 8261
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 293 8334 8341 "src/retrolix/graphColoring.ml" 297 8459 8525
+)
+"src/retrolix/graphColoring.ml" 290 8232 8238 "src/retrolix/graphColoring.ml" 290 8232 8262
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 293 8334 8344 "src/retrolix/graphColoring.ml" 293 8334 8350
+type(
+  Graph.t -> NodeLabel.t -> NodeLabel.t -> bool
+)
+ident(
+  int_ref briggs "src/retrolix/graphColoring.ml" 323 9307 9313 "src/retrolix/graphColoring.ml" 323 9307 9319
+)
+"src/retrolix/graphColoring.ml" 293 8334 8351 "src/retrolix/graphColoring.ml" 293 8334 8352
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 293 8334 8353 "src/retrolix/graphColoring.ml" 293 8334 8355
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 290 8232 8255 "src/retrolix/graphColoring.ml" 290 8232 8257
+)
+"src/retrolix/graphColoring.ml" 293 8334 8356 "src/retrolix/graphColoring.ml" 293 8334 8358
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 290 8232 8259 "src/retrolix/graphColoring.ml" 290 8232 8261
+)
+"src/retrolix/graphColoring.ml" 293 8334 8344 "src/retrolix/graphColoring.ml" 293 8334 8358
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 294 8364 8366 "src/retrolix/graphColoring.ml" 294 8364 8372
+type(
+  Graph.t ->
+  NodeLabelMap.key ->
+  NodeLabelMap.key -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref fusion "src/retrolix/graphColoring.ml" 381 10910 10916 "src/retrolix/graphColoring.ml" 381 10910 10922
+)
+"src/retrolix/graphColoring.ml" 294 8364 8373 "src/retrolix/graphColoring.ml" 294 8364 8374
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 294 8364 8375 "src/retrolix/graphColoring.ml" 294 8364 8377
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 290 8232 8255 "src/retrolix/graphColoring.ml" 290 8232 8257
+)
+"src/retrolix/graphColoring.ml" 294 8364 8378 "src/retrolix/graphColoring.ml" 294 8364 8380
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 290 8232 8259 "src/retrolix/graphColoring.ml" 290 8232 8261
+)
+"src/retrolix/graphColoring.ml" 294 8364 8381 "src/retrolix/graphColoring.ml" 294 8364 8389
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 280 7983 8009
+)
+"src/retrolix/graphColoring.ml" 294 8364 8366 "src/retrolix/graphColoring.ml" 294 8364 8389
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 297 8459 8461 "src/retrolix/graphColoring.ml" 297 8459 8470
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize' "src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+)
+"src/retrolix/graphColoring.ml" 297 8459 8472 "src/retrolix/graphColoring.ml" 297 8459 8486
+type(
+  Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_edge
+)
+"src/retrolix/graphColoring.ml" 297 8459 8487 "src/retrolix/graphColoring.ml" 297 8459 8488
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 297 8459 8489 "src/retrolix/graphColoring.ml" 297 8459 8491
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 290 8232 8255 "src/retrolix/graphColoring.ml" 290 8232 8257
+)
+"src/retrolix/graphColoring.ml" 297 8459 8492 "src/retrolix/graphColoring.ml" 297 8459 8512
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 297 8459 8513 "src/retrolix/graphColoring.ml" 297 8459 8515
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 290 8232 8259 "src/retrolix/graphColoring.ml" 290 8232 8261
+)
+"src/retrolix/graphColoring.ml" 297 8459 8471 "src/retrolix/graphColoring.ml" 297 8459 8516
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 297 8459 8517 "src/retrolix/graphColoring.ml" 297 8459 8525
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 280 7983 8009
+)
+"src/retrolix/graphColoring.ml" 297 8459 8461 "src/retrolix/graphColoring.ml" 297 8459 8525
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 293 8334 8341 "src/retrolix/graphColoring.ml" 297 8459 8525
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 300 8567 8588 "src/retrolix/graphColoring.ml" 300 8567 8589
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 301 8593 8600 "src/retrolix/graphColoring.ml" 301 8593 8618
+)
+"src/retrolix/graphColoring.ml" 300 8567 8573 "src/retrolix/graphColoring.ml" 300 8567 8589
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 301 8593 8600 "src/retrolix/graphColoring.ml" 301 8593 8605
+type(
+  Graph.t ->
+  NodeLabel.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref spill "src/retrolix/graphColoring.ml" 402 11506 11512 "src/retrolix/graphColoring.ml" 402 11506 11517
+)
+"src/retrolix/graphColoring.ml" 301 8593 8606 "src/retrolix/graphColoring.ml" 301 8593 8607
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 301 8593 8608 "src/retrolix/graphColoring.ml" 301 8593 8609
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 300 8567 8588 "src/retrolix/graphColoring.ml" 300 8567 8589
+)
+"src/retrolix/graphColoring.ml" 301 8593 8610 "src/retrolix/graphColoring.ml" 301 8593 8618
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 280 7983 8001 "src/retrolix/graphColoring.ml" 280 7983 8009
+)
+"src/retrolix/graphColoring.ml" 301 8593 8600 "src/retrolix/graphColoring.ml" 301 8593 8618
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 304 8672 8678 "src/retrolix/graphColoring.ml" 304 8672 8688
+type(
+  pick_result
+)
+"src/retrolix/graphColoring.ml" 307 8735 8742 "src/retrolix/graphColoring.ml" 307 8735 8759
+type(
+  Graph.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize_register "src/retrolix/graphColoring.ml" 181 5185 5195 "src/retrolix/graphColoring.ml" 181 5185 5212
+)
+"src/retrolix/graphColoring.ml" 307 8735 8760 "src/retrolix/graphColoring.ml" 307 8735 8761
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 280 7983 7999 "src/retrolix/graphColoring.ml" 280 7983 8000
+)
+"src/retrolix/graphColoring.ml" 307 8735 8742 "src/retrolix/graphColoring.ml" 307 8735 8761
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 283 8058 8062 "src/retrolix/graphColoring.ml" 307 8735 8761
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 309 8763 8769 "src/retrolix/graphColoring.ml" 309 8763 8785
+type(
+  Colors.t list -> Colors.t list -> Colors.t list
+)
+ident(
+  def available_colors "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 309 8763 8786 "src/retrolix/graphColoring.ml" 309 8763 8802
+type(
+  Colors.t list
+)
+ident(
+  def not_those_colors "src/retrolix/graphColoring.ml" 309 8763 8803 "src/retrolix/graphColoring.ml" 310 8815 8903
+)
+"src/retrolix/graphColoring.ml" 309 8763 8803 "src/retrolix/graphColoring.ml" 309 8763 8812
+type(
+  Colors.t list
+)
+ident(
+  def all_color "src/retrolix/graphColoring.ml" 310 8815 8819 "src/retrolix/graphColoring.ml" 310 8815 8903
+)
+"src/retrolix/graphColoring.ml" 310 8815 8819 "src/retrolix/graphColoring.ml" 310 8815 8830
+type(
+  (Colors.t -> bool) -> Colors.t list -> Colors.t list
+)
+ident(
+  ext_ref List.filter
+)
+"src/retrolix/graphColoring.ml" 310 8815 8836 "src/retrolix/graphColoring.ml" 310 8815 8837
+type(
+  Colors.t
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 310 8815 8841 "src/retrolix/graphColoring.ml" 310 8815 8892
+)
+"src/retrolix/graphColoring.ml" 310 8815 8841 "src/retrolix/graphColoring.ml" 310 8815 8844
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/retrolix/graphColoring.ml" 310 8815 8846 "src/retrolix/graphColoring.ml" 310 8815 8857
+type(
+  (Colors.t -> bool) -> Colors.t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/retrolix/graphColoring.ml" 310 8815 8863 "src/retrolix/graphColoring.ml" 310 8815 8864
+type(
+  Colors.t
+)
+ident(
+  def y "src/retrolix/graphColoring.ml" 310 8815 8868 "src/retrolix/graphColoring.ml" 310 8815 8873
+)
+"src/retrolix/graphColoring.ml" 310 8815 8868 "src/retrolix/graphColoring.ml" 310 8815 8869
+type(
+  Colors.t
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 310 8815 8836 "src/retrolix/graphColoring.ml" 310 8815 8837
+)
+"src/retrolix/graphColoring.ml" 310 8815 8870 "src/retrolix/graphColoring.ml" 310 8815 8871
+type(
+  Colors.t -> Colors.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/retrolix/graphColoring.ml" 310 8815 8872 "src/retrolix/graphColoring.ml" 310 8815 8873
+type(
+  Colors.t
+)
+ident(
+  int_ref y "src/retrolix/graphColoring.ml" 310 8815 8863 "src/retrolix/graphColoring.ml" 310 8815 8864
+)
+"src/retrolix/graphColoring.ml" 310 8815 8868 "src/retrolix/graphColoring.ml" 310 8815 8873
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 310 8815 8858 "src/retrolix/graphColoring.ml" 310 8815 8874
+type(
+  Colors.t -> bool
+)
+"src/retrolix/graphColoring.ml" 310 8815 8875 "src/retrolix/graphColoring.ml" 310 8815 8891
+type(
+  Colors.t list
+)
+ident(
+  int_ref not_those_colors "src/retrolix/graphColoring.ml" 309 8763 8786 "src/retrolix/graphColoring.ml" 309 8763 8802
+)
+"src/retrolix/graphColoring.ml" 310 8815 8845 "src/retrolix/graphColoring.ml" 310 8815 8892
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 310 8815 8841 "src/retrolix/graphColoring.ml" 310 8815 8892
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 310 8815 8831 "src/retrolix/graphColoring.ml" 310 8815 8893
+type(
+  Colors.t -> bool
+)
+"src/retrolix/graphColoring.ml" 310 8815 8894 "src/retrolix/graphColoring.ml" 310 8815 8903
+type(
+  Colors.t list
+)
+ident(
+  int_ref all_color "src/retrolix/graphColoring.ml" 309 8763 8803 "src/retrolix/graphColoring.ml" 309 8763 8812
+)
+"src/retrolix/graphColoring.ml" 310 8815 8819 "src/retrolix/graphColoring.ml" 310 8815 8903
+call(
+  tail
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 313 8909 8915 "src/retrolix/graphColoring.ml" 313 8909 8929
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key list -> Colors.t list
+)
+ident(
+  def color_of_lnode "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 313 8909 8930 "src/retrolix/graphColoring.ml" 313 8909 8938
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 313 8909 8939 "src/retrolix/graphColoring.ml" 316 9023 9039
+)
+"src/retrolix/graphColoring.ml" 313 8909 8939 "src/retrolix/graphColoring.ml" 313 8909 8944
+type(
+  NodeLabelMap.key list
+)
+ident(
+  def lnode "src/retrolix/graphColoring.ml" 314 8947 8951 "src/retrolix/graphColoring.ml" 316 9023 9039
+)
+"src/retrolix/graphColoring.ml" 314 8947 8957 "src/retrolix/graphColoring.ml" 314 8947 8970
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key -> Colors.t option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 314 8947 8971 "src/retrolix/graphColoring.ml" 314 8947 8979
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 313 8909 8930 "src/retrolix/graphColoring.ml" 313 8909 8938
+)
+"src/retrolix/graphColoring.ml" 314 8947 8981 "src/retrolix/graphColoring.ml" 314 8947 8988
+type(
+  NodeLabelMap.key list -> NodeLabelMap.key
+)
+ident(
+  ext_ref List.hd
+)
+"src/retrolix/graphColoring.ml" 314 8947 8989 "src/retrolix/graphColoring.ml" 314 8947 8994
+type(
+  NodeLabelMap.key list
+)
+ident(
+  int_ref lnode "src/retrolix/graphColoring.ml" 313 8909 8939 "src/retrolix/graphColoring.ml" 313 8909 8944
+)
+"src/retrolix/graphColoring.ml" 314 8947 8980 "src/retrolix/graphColoring.ml" 314 8947 8995
+call(
+  stack
+)
+type(
+  NodeLabelMap.key
+)
+"src/retrolix/graphColoring.ml" 314 8947 8957 "src/retrolix/graphColoring.ml" 314 8947 8995
+call(
+  stack
+)
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 315 9001 9012 "src/retrolix/graphColoring.ml" 315 9001 9013
+type(
+  Colors.t
+)
+ident(
+  def s "src/retrolix/graphColoring.ml" 315 9001 9017 "src/retrolix/graphColoring.ml" 315 9001 9022
+)
+"src/retrolix/graphColoring.ml" 315 9001 9007 "src/retrolix/graphColoring.ml" 315 9001 9013
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 315 9001 9019 "src/retrolix/graphColoring.ml" 315 9001 9020
+type(
+  Colors.t
+)
+ident(
+  int_ref s "src/retrolix/graphColoring.ml" 315 9001 9012 "src/retrolix/graphColoring.ml" 315 9001 9013
+)
+"src/retrolix/graphColoring.ml" 315 9001 9017 "src/retrolix/graphColoring.ml" 315 9001 9022
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 316 9023 9029 "src/retrolix/graphColoring.ml" 316 9023 9033
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 316 9023 9037 "src/retrolix/graphColoring.ml" 316 9023 9039
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 314 8947 8951 "src/retrolix/graphColoring.ml" 316 9023 9039
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 323 9307 9313 "src/retrolix/graphColoring.ml" 323 9307 9319
+type(
+  Graph.t -> NodeLabel.t -> NodeLabel.t -> bool
+)
+ident(
+  def briggs "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 323 9307 9320 "src/retrolix/graphColoring.ml" 323 9307 9321
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 323 9307 9322 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 323 9307 9322 "src/retrolix/graphColoring.ml" 323 9307 9324
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 323 9307 9325 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 323 9307 9325 "src/retrolix/graphColoring.ml" 323 9307 9327
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 324 9330 9334 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 324 9330 9338 "src/retrolix/graphColoring.ml" 324 9330 9339
+type(
+  int
+)
+ident(
+  def k "src/retrolix/graphColoring.ml" 325 9361 9365 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 324 9330 9342 "src/retrolix/graphColoring.ml" 324 9330 9357
+type(
+  int
+)
+ident(
+  int_ref Colors.cardinal "src/retrolix/graphColoring.ml" 7 171 173 "src/retrolix/graphColoring.ml" 7 171 191
+)
+"src/retrolix/graphColoring.ml" 325 9361 9369 "src/retrolix/graphColoring.ml" 325 9361 9371
+type(
+  int
+)
+ident(
+  def d1 "src/retrolix/graphColoring.ml" 326 9397 9401 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 325 9361 9374 "src/retrolix/graphColoring.ml" 325 9361 9388
+type(
+  Graph.t -> NodeLabel.t -> int
+)
+ident(
+  int_ref degree_of_node "src/retrolix/graphColoring.ml" 88 2406 2412 "src/retrolix/graphColoring.ml" 88 2406 2426
+)
+"src/retrolix/graphColoring.ml" 325 9361 9389 "src/retrolix/graphColoring.ml" 325 9361 9390
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 323 9307 9320 "src/retrolix/graphColoring.ml" 323 9307 9321
+)
+"src/retrolix/graphColoring.ml" 325 9361 9391 "src/retrolix/graphColoring.ml" 325 9361 9393
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 323 9307 9322 "src/retrolix/graphColoring.ml" 323 9307 9324
+)
+"src/retrolix/graphColoring.ml" 325 9361 9374 "src/retrolix/graphColoring.ml" 325 9361 9393
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 326 9397 9405 "src/retrolix/graphColoring.ml" 326 9397 9407
+type(
+  int
+)
+ident(
+  def d2 "src/retrolix/graphColoring.ml" 327 9433 9437 "src/retrolix/graphColoring.ml" 327 9433 9450
+)
+"src/retrolix/graphColoring.ml" 326 9397 9410 "src/retrolix/graphColoring.ml" 326 9397 9424
+type(
+  Graph.t -> NodeLabel.t -> int
+)
+ident(
+  int_ref degree_of_node "src/retrolix/graphColoring.ml" 88 2406 2412 "src/retrolix/graphColoring.ml" 88 2406 2426
+)
+"src/retrolix/graphColoring.ml" 326 9397 9425 "src/retrolix/graphColoring.ml" 326 9397 9426
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 323 9307 9320 "src/retrolix/graphColoring.ml" 323 9307 9321
+)
+"src/retrolix/graphColoring.ml" 326 9397 9427 "src/retrolix/graphColoring.ml" 326 9397 9429
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 323 9307 9325 "src/retrolix/graphColoring.ml" 323 9307 9327
+)
+"src/retrolix/graphColoring.ml" 326 9397 9410 "src/retrolix/graphColoring.ml" 326 9397 9429
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 327 9433 9438 "src/retrolix/graphColoring.ml" 327 9433 9440
+type(
+  int
+)
+ident(
+  int_ref d1 "src/retrolix/graphColoring.ml" 325 9361 9369 "src/retrolix/graphColoring.ml" 325 9361 9371
+)
+"src/retrolix/graphColoring.ml" 327 9433 9441 "src/retrolix/graphColoring.ml" 327 9433 9442
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/retrolix/graphColoring.ml" 327 9433 9443 "src/retrolix/graphColoring.ml" 327 9433 9445
+type(
+  int
+)
+ident(
+  int_ref d2 "src/retrolix/graphColoring.ml" 326 9397 9405 "src/retrolix/graphColoring.ml" 326 9397 9407
+)
+"src/retrolix/graphColoring.ml" 327 9433 9438 "src/retrolix/graphColoring.ml" 327 9433 9445
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 327 9433 9446 "src/retrolix/graphColoring.ml" 327 9433 9447
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/retrolix/graphColoring.ml" 327 9433 9448 "src/retrolix/graphColoring.ml" 327 9433 9449
+type(
+  int
+)
+ident(
+  int_ref k "src/retrolix/graphColoring.ml" 324 9330 9338 "src/retrolix/graphColoring.ml" 324 9330 9339
+)
+"src/retrolix/graphColoring.ml" 327 9433 9437 "src/retrolix/graphColoring.ml" 327 9433 9450
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 326 9397 9401 "src/retrolix/graphColoring.ml" 327 9433 9450
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 325 9361 9365 "src/retrolix/graphColoring.ml" 327 9433 9450
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 324 9330 9334 "src/retrolix/graphColoring.ml" 327 9433 9450
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 333 9643 9649 "src/retrolix/graphColoring.ml" 333 9643 9655
+type(
+  'j -> 'k -> 'l -> bool
+)
+ident(
+  def george "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 333 9643 9656 "src/retrolix/graphColoring.ml" 333 9643 9657
+type(
+  'j
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 333 9643 9658 "src/retrolix/graphColoring.ml" 334 9666 9675
+)
+"src/retrolix/graphColoring.ml" 333 9643 9658 "src/retrolix/graphColoring.ml" 333 9643 9660
+type(
+  'k
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 333 9643 9661 "src/retrolix/graphColoring.ml" 334 9666 9675
+)
+"src/retrolix/graphColoring.ml" 333 9643 9661 "src/retrolix/graphColoring.ml" 333 9643 9663
+type(
+  'l
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 334 9666 9670 "src/retrolix/graphColoring.ml" 334 9666 9675
+)
+"src/retrolix/graphColoring.ml" 334 9666 9670 "src/retrolix/graphColoring.ml" 334 9666 9675
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 337 9684 9690 "src/retrolix/graphColoring.ml" 337 9684 9695
+type(
+  Graph.t -> NodeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  def merge "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 337 9684 9696 "src/retrolix/graphColoring.ml" 337 9684 9697
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 337 9684 9698 "src/retrolix/graphColoring.ml" 351 10180 10190
+)
+"src/retrolix/graphColoring.ml" 337 9684 9698 "src/retrolix/graphColoring.ml" 337 9684 9700
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 337 9684 9701 "src/retrolix/graphColoring.ml" 351 10180 10190
+)
+"src/retrolix/graphColoring.ml" 337 9684 9701 "src/retrolix/graphColoring.ml" 337 9684 9703
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 338 9706 9710 "src/retrolix/graphColoring.ml" 351 10180 10190
+)
+"src/retrolix/graphColoring.ml" 338 9706 9714 "src/retrolix/graphColoring.ml" 338 9706 9715
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 348 10007 10011 "src/retrolix/graphColoring.ml" 351 10180 10190
+)
+"src/retrolix/graphColoring.ml" 338 9706 9718 "src/retrolix/graphColoring.ml" 338 9706 9729
+type(
+  Graph.t -> NodeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.merge
+)
+"src/retrolix/graphColoring.ml" 338 9706 9730 "src/retrolix/graphColoring.ml" 338 9706 9731
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 337 9684 9696 "src/retrolix/graphColoring.ml" 337 9684 9697
+)
+"src/retrolix/graphColoring.ml" 338 9706 9732 "src/retrolix/graphColoring.ml" 338 9706 9734
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 337 9684 9698 "src/retrolix/graphColoring.ml" 337 9684 9700
+)
+"src/retrolix/graphColoring.ml" 338 9706 9735 "src/retrolix/graphColoring.ml" 338 9706 9737
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 337 9684 9701 "src/retrolix/graphColoring.ml" 337 9684 9703
+)
+"src/retrolix/graphColoring.ml" 338 9706 9718 "src/retrolix/graphColoring.ml" 338 9706 9737
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 348 10007 10015 "src/retrolix/graphColoring.ml" 348 10007 10016
+type(
+  NodeLabel.t list list
+)
+ident(
+  def i "src/retrolix/graphColoring.ml" 349 10088 10092 "src/retrolix/graphColoring.ml" 351 10180 10190
+)
+"src/retrolix/graphColoring.ml" 348 10007 10019 "src/retrolix/graphColoring.ml" 348 10007 10036
+type(
+  Graph.t -> EdgeLabel.t list -> NodeLabel.t -> NodeLabel.t list list
+)
+ident(
+  ext_ref Graph.neighbours'
+)
+"src/retrolix/graphColoring.ml" 348 10007 10037 "src/retrolix/graphColoring.ml" 348 10007 10038
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 338 9706 9714 "src/retrolix/graphColoring.ml" 338 9706 9715
+)
+"src/retrolix/graphColoring.ml" 348 10007 10040 "src/retrolix/graphColoring.ml" 348 10007 10060
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 348 10007 10062 "src/retrolix/graphColoring.ml" 348 10007 10080
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 348 10007 10039 "src/retrolix/graphColoring.ml" 348 10007 10081
+type(
+  EdgeLabel.t list
+)
+"src/retrolix/graphColoring.ml" 348 10007 10082 "src/retrolix/graphColoring.ml" 348 10007 10084
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 337 9684 9698 "src/retrolix/graphColoring.ml" 337 9684 9700
+)
+"src/retrolix/graphColoring.ml" 348 10007 10019 "src/retrolix/graphColoring.ml" 348 10007 10084
+call(
+  stack
+)
+type(
+  NodeLabel.t list list
+)
+"src/retrolix/graphColoring.ml" 349 10088 10092 "src/retrolix/graphColoring.ml" 349 10088 10106
+type(
+  (Graph.t -> NodeLabel.t list -> Graph.t) ->
+  Graph.t -> NodeLabel.t list list -> Graph.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 349 10088 10112 "src/retrolix/graphColoring.ml" 349 10088 10113
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 349 10088 10114 "src/retrolix/graphColoring.ml" 350 10120 10179
+)
+"src/retrolix/graphColoring.ml" 349 10088 10114 "src/retrolix/graphColoring.ml" 349 10088 10116
+type(
+  NodeLabel.t list
+)
+ident(
+  def ns "src/retrolix/graphColoring.ml" 350 10120 10126 "src/retrolix/graphColoring.ml" 350 10120 10179
+)
+"src/retrolix/graphColoring.ml" 350 10120 10126 "src/retrolix/graphColoring.ml" 350 10120 10140
+type(
+  Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_edge
+)
+"src/retrolix/graphColoring.ml" 350 10120 10141 "src/retrolix/graphColoring.ml" 350 10120 10142
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 349 10088 10112 "src/retrolix/graphColoring.ml" 349 10088 10113
+)
+"src/retrolix/graphColoring.ml" 350 10120 10143 "src/retrolix/graphColoring.ml" 350 10120 10145
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 337 9684 9698 "src/retrolix/graphColoring.ml" 337 9684 9700
+)
+"src/retrolix/graphColoring.ml" 350 10120 10146 "src/retrolix/graphColoring.ml" 350 10120 10166
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.preference "src/retrolix/graphColoring.ml" 18 477 481 "src/retrolix/graphColoring.ml" 18 477 499
+)
+"src/retrolix/graphColoring.ml" 350 10120 10168 "src/retrolix/graphColoring.ml" 350 10120 10175
+type(
+  NodeLabel.t list -> NodeLabel.t
+)
+ident(
+  ext_ref List.hd
+)
+"src/retrolix/graphColoring.ml" 350 10120 10176 "src/retrolix/graphColoring.ml" 350 10120 10178
+type(
+  NodeLabel.t list
+)
+ident(
+  int_ref ns "src/retrolix/graphColoring.ml" 349 10088 10114 "src/retrolix/graphColoring.ml" 349 10088 10116
+)
+"src/retrolix/graphColoring.ml" 350 10120 10167 "src/retrolix/graphColoring.ml" 350 10120 10179
+call(
+  stack
+)
+type(
+  NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 350 10120 10126 "src/retrolix/graphColoring.ml" 350 10120 10179
+call(
+  tail
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 349 10088 10107 "src/retrolix/graphColoring.ml" 351 10180 10186
+type(
+  Graph.t -> NodeLabel.t list -> Graph.t
+)
+"src/retrolix/graphColoring.ml" 351 10180 10187 "src/retrolix/graphColoring.ml" 351 10180 10188
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 338 9706 9714 "src/retrolix/graphColoring.ml" 338 9706 9715
+)
+"src/retrolix/graphColoring.ml" 351 10180 10189 "src/retrolix/graphColoring.ml" 351 10180 10190
+type(
+  NodeLabel.t list list
+)
+ident(
+  int_ref i "src/retrolix/graphColoring.ml" 348 10007 10015 "src/retrolix/graphColoring.ml" 348 10007 10016
+)
+"src/retrolix/graphColoring.ml" 349 10088 10092 "src/retrolix/graphColoring.ml" 351 10180 10190
+call(
+  tail
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 348 10007 10011 "src/retrolix/graphColoring.ml" 351 10180 10190
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 338 9706 9710 "src/retrolix/graphColoring.ml" 351 10180 10190
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 354 10213 10219 "src/retrolix/graphColoring.ml" 354 10213 10227
+type(
+  Graph.t ->
+  NodeLabel.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def simplify "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 354 10213 10228 "src/retrolix/graphColoring.ml" 354 10213 10229
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 354 10213 10230 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 354 10213 10230 "src/retrolix/graphColoring.ml" 354 10213 10231
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 354 10213 10232 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 354 10213 10232 "src/retrolix/graphColoring.ml" 354 10213 10240
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 356 10248 10252 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 356 10248 10256 "src/retrolix/graphColoring.ml" 356 10248 10258
+type(
+  Graph.t
+)
+ident(
+  def g' "src/retrolix/graphColoring.ml" 357 10283 10287 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 356 10248 10261 "src/retrolix/graphColoring.ml" 356 10248 10275
+type(
+  Graph.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_node
+)
+"src/retrolix/graphColoring.ml" 356 10248 10276 "src/retrolix/graphColoring.ml" 356 10248 10277
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 354 10213 10228 "src/retrolix/graphColoring.ml" 354 10213 10229
+)
+"src/retrolix/graphColoring.ml" 356 10248 10278 "src/retrolix/graphColoring.ml" 356 10248 10279
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 354 10213 10230 "src/retrolix/graphColoring.ml" 354 10213 10231
+)
+"src/retrolix/graphColoring.ml" 356 10248 10261 "src/retrolix/graphColoring.ml" 356 10248 10279
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 357 10283 10291 "src/retrolix/graphColoring.ml" 357 10283 10299
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 360 10377 10381 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 357 10283 10302 "src/retrolix/graphColoring.ml" 357 10283 10311
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize' "src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+)
+"src/retrolix/graphColoring.ml" 357 10283 10312 "src/retrolix/graphColoring.ml" 357 10283 10314
+type(
+  Graph.t
+)
+ident(
+  int_ref g' "src/retrolix/graphColoring.ml" 356 10248 10256 "src/retrolix/graphColoring.ml" 356 10248 10258
+)
+"src/retrolix/graphColoring.ml" 357 10283 10316 "src/retrolix/graphColoring.ml" 357 10283 10324
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 354 10213 10232 "src/retrolix/graphColoring.ml" 354 10213 10240
+)
+"src/retrolix/graphColoring.ml" 357 10283 10302 "src/retrolix/graphColoring.ml" 357 10283 10324
+call(
+  stack
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 360 10377 10385 "src/retrolix/graphColoring.ml" 360 10377 10391
+type(
+  NodeLabel.t list list
+)
+ident(
+  def cneigh "src/retrolix/graphColoring.ml" 365 10502 10506 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 361 10394 10400 "src/retrolix/graphColoring.ml" 361 10394 10416
+type(
+  Graph.t -> EdgeLabel.t -> NodeLabel.t -> NodeLabel.t list list
+)
+ident(
+  ext_ref Graph.neighbours
+)
+"src/retrolix/graphColoring.ml" 361 10394 10417 "src/retrolix/graphColoring.ml" 361 10394 10418
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 354 10213 10228 "src/retrolix/graphColoring.ml" 354 10213 10229
+)
+"src/retrolix/graphColoring.ml" 361 10394 10419 "src/retrolix/graphColoring.ml" 361 10394 10437
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 361 10394 10438 "src/retrolix/graphColoring.ml" 361 10394 10439
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 354 10213 10230 "src/retrolix/graphColoring.ml" 354 10213 10231
+)
+"src/retrolix/graphColoring.ml" 361 10394 10400 "src/retrolix/graphColoring.ml" 361 10394 10439
+call(
+  stack
+)
+type(
+  NodeLabel.t list list
+)
+"src/retrolix/graphColoring.ml" 365 10502 10510 "src/retrolix/graphColoring.ml" 365 10502 10526
+type(
+  Colors.t list
+)
+ident(
+  def not_those_colors "src/retrolix/graphColoring.ml" 371 10677 10681 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 366 10529 10535 "src/retrolix/graphColoring.ml" 366 10529 10543
+type(
+  (NodeLabelMap.key list -> Colors.t list) ->
+  NodeLabelMap.key list list -> Colors.t list list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/graphColoring.ml" 366 10529 10549 "src/retrolix/graphColoring.ml" 366 10529 10550
+type(
+  NodeLabelMap.key list
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 366 10529 10554 "src/retrolix/graphColoring.ml" 366 10529 10579
+)
+"src/retrolix/graphColoring.ml" 366 10529 10554 "src/retrolix/graphColoring.ml" 366 10529 10568
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key list -> Colors.t list
+)
+ident(
+  int_ref color_of_lnode "src/retrolix/graphColoring.ml" 313 8909 8915 "src/retrolix/graphColoring.ml" 313 8909 8929
+)
+"src/retrolix/graphColoring.ml" 366 10529 10569 "src/retrolix/graphColoring.ml" 366 10529 10577
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 357 10283 10291 "src/retrolix/graphColoring.ml" 357 10283 10299
+)
+"src/retrolix/graphColoring.ml" 366 10529 10578 "src/retrolix/graphColoring.ml" 366 10529 10579
+type(
+  NodeLabelMap.key list
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 366 10529 10549 "src/retrolix/graphColoring.ml" 366 10529 10550
+)
+"src/retrolix/graphColoring.ml" 366 10529 10554 "src/retrolix/graphColoring.ml" 366 10529 10579
+call(
+  tail
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 366 10529 10544 "src/retrolix/graphColoring.ml" 366 10529 10580
+type(
+  NodeLabelMap.key list -> Colors.t list
+)
+"src/retrolix/graphColoring.ml" 366 10529 10581 "src/retrolix/graphColoring.ml" 366 10529 10587
+type(
+  NodeLabelMap.key list list
+)
+ident(
+  int_ref cneigh "src/retrolix/graphColoring.ml" 360 10377 10385 "src/retrolix/graphColoring.ml" 360 10377 10391
+)
+"src/retrolix/graphColoring.ml" 366 10529 10535 "src/retrolix/graphColoring.ml" 366 10529 10587
+call(
+  stack
+)
+type(
+  Colors.t list list
+)
+"src/retrolix/graphColoring.ml" 367 10588 10594 "src/retrolix/graphColoring.ml" 367 10588 10596
+type(
+  Colors.t list list ->
+  (Colors.t list list -> Colors.t list) -> Colors.t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/retrolix/graphColoring.ml" 367 10588 10597 "src/retrolix/graphColoring.ml" 367 10588 10609
+type(
+  Colors.t list list -> Colors.t list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/retrolix/graphColoring.ml" 366 10529 10535 "src/retrolix/graphColoring.ml" 367 10588 10609
+call(
+  stack
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 371 10677 10685 "src/retrolix/graphColoring.ml" 371 10677 10693
+type(
+  Colors.t list
+)
+ident(
+  def a_colors "src/retrolix/graphColoring.ml" 376 10809 10813 "src/retrolix/graphColoring.ml" 379 10883 10908
+)
+"src/retrolix/graphColoring.ml" 372 10696 10702 "src/retrolix/graphColoring.ml" 372 10696 10718
+type(
+  Colors.t list -> Colors.t list -> Colors.t list
+)
+ident(
+  int_ref available_colors "src/retrolix/graphColoring.ml" 309 8763 8769 "src/retrolix/graphColoring.ml" 309 8763 8785
+)
+"src/retrolix/graphColoring.ml" 372 10696 10719 "src/retrolix/graphColoring.ml" 372 10696 10735
+type(
+  Colors.t list
+)
+ident(
+  int_ref not_those_colors "src/retrolix/graphColoring.ml" 365 10502 10510 "src/retrolix/graphColoring.ml" 365 10502 10526
+)
+"src/retrolix/graphColoring.ml" 372 10696 10736 "src/retrolix/graphColoring.ml" 372 10696 10746
+type(
+  Colors.t list
+)
+ident(
+  int_ref Colors.all "src/retrolix/graphColoring.ml" 6 152 154 "src/retrolix/graphColoring.ml" 6 152 170
+)
+"src/retrolix/graphColoring.ml" 372 10696 10702 "src/retrolix/graphColoring.ml" 372 10696 10746
+call(
+  stack
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 376 10809 10820 "src/retrolix/graphColoring.ml" 376 10809 10828
+type(
+  Colors.t list
+)
+ident(
+  int_ref a_colors "src/retrolix/graphColoring.ml" 371 10677 10685 "src/retrolix/graphColoring.ml" 371 10677 10693
+)
+"src/retrolix/graphColoring.ml" 377 10834 10841 "src/retrolix/graphColoring.ml" 377 10834 10843
+type(
+  Colors.t
+)
+ident(
+  def c' "src/retrolix/graphColoring.ml" 378 10852 10853 "src/retrolix/graphColoring.ml" 378 10852 10881
+)
+"src/retrolix/graphColoring.ml" 377 10834 10847 "src/retrolix/graphColoring.ml" 377 10834 10848
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 377 10834 10841 "src/retrolix/graphColoring.ml" 377 10834 10848
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 378 10852 10853 "src/retrolix/graphColoring.ml" 378 10852 10865
+type(
+  Graph.t ->
+  NodeLabel.t ->
+  Colors.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_color "src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+)
+"src/retrolix/graphColoring.ml" 378 10852 10866 "src/retrolix/graphColoring.ml" 378 10852 10867
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 354 10213 10228 "src/retrolix/graphColoring.ml" 354 10213 10229
+)
+"src/retrolix/graphColoring.ml" 378 10852 10868 "src/retrolix/graphColoring.ml" 378 10852 10869
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 354 10213 10230 "src/retrolix/graphColoring.ml" 354 10213 10231
+)
+"src/retrolix/graphColoring.ml" 378 10852 10870 "src/retrolix/graphColoring.ml" 378 10852 10872
+type(
+  Colors.t
+)
+ident(
+  int_ref c' "src/retrolix/graphColoring.ml" 377 10834 10841 "src/retrolix/graphColoring.ml" 377 10834 10843
+)
+"src/retrolix/graphColoring.ml" 378 10852 10873 "src/retrolix/graphColoring.ml" 378 10852 10881
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 357 10283 10291 "src/retrolix/graphColoring.ml" 357 10283 10299
+)
+"src/retrolix/graphColoring.ml" 378 10852 10853 "src/retrolix/graphColoring.ml" 378 10852 10881
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 379 10883 10890 "src/retrolix/graphColoring.ml" 379 10883 10891
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 379 10883 10902 "src/retrolix/graphColoring.ml" 379 10883 10907
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 379 10883 10895 "src/retrolix/graphColoring.ml" 379 10883 10907
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 376 10809 10813 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 371 10677 10681 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 365 10502 10506 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 360 10377 10381 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 357 10283 10287 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 356 10248 10252 "src/retrolix/graphColoring.ml" 379 10883 10908
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 381 10910 10916 "src/retrolix/graphColoring.ml" 381 10910 10922
+type(
+  Graph.t ->
+  NodeLabelMap.key ->
+  NodeLabelMap.key -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def fusion "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 381 10910 10923 "src/retrolix/graphColoring.ml" 381 10910 10924
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 381 10910 10925 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 381 10910 10925 "src/retrolix/graphColoring.ml" 381 10910 10927
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 381 10910 10928 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 381 10910 10928 "src/retrolix/graphColoring.ml" 381 10910 10930
+type(
+  NodeLabelMap.key
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 381 10910 10931 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 381 10910 10931 "src/retrolix/graphColoring.ml" 381 10910 10939
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 384 10985 10989 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 384 10985 10993 "src/retrolix/graphColoring.ml" 384 10985 10995
+type(
+  Graph.t
+)
+ident(
+  def g' "src/retrolix/graphColoring.ml" 387 11086 11090 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 384 10985 10998 "src/retrolix/graphColoring.ml" 384 10985 11009
+type(
+  Graph.t -> NodeLabelMap.key -> NodeLabelMap.key -> Graph.t
+)
+ident(
+  ext_ref Graph.merge
+)
+"src/retrolix/graphColoring.ml" 384 10985 11010 "src/retrolix/graphColoring.ml" 384 10985 11011
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 381 10910 10923 "src/retrolix/graphColoring.ml" 381 10910 10924
+)
+"src/retrolix/graphColoring.ml" 384 10985 11012 "src/retrolix/graphColoring.ml" 384 10985 11014
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 381 10910 10925 "src/retrolix/graphColoring.ml" 381 10910 10927
+)
+"src/retrolix/graphColoring.ml" 384 10985 11015 "src/retrolix/graphColoring.ml" 384 10985 11017
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 381 10910 10928 "src/retrolix/graphColoring.ml" 381 10910 10930
+)
+"src/retrolix/graphColoring.ml" 384 10985 10998 "src/retrolix/graphColoring.ml" 384 10985 11017
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 387 11086 11094 "src/retrolix/graphColoring.ml" 387 11086 11102
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 390 11196 11200 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 387 11086 11105 "src/retrolix/graphColoring.ml" 387 11086 11114
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize' "src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+)
+"src/retrolix/graphColoring.ml" 387 11086 11115 "src/retrolix/graphColoring.ml" 387 11086 11117
+type(
+  Graph.t
+)
+ident(
+  int_ref g' "src/retrolix/graphColoring.ml" 384 10985 10993 "src/retrolix/graphColoring.ml" 384 10985 10995
+)
+"src/retrolix/graphColoring.ml" 387 11086 11118 "src/retrolix/graphColoring.ml" 387 11086 11126
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 381 10910 10931 "src/retrolix/graphColoring.ml" 381 10910 10939
+)
+"src/retrolix/graphColoring.ml" 387 11086 11105 "src/retrolix/graphColoring.ml" 387 11086 11126
+call(
+  stack
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 390 11196 11204 "src/retrolix/graphColoring.ml" 390 11196 11212
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 395 11341 11345 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 391 11215 11227 "src/retrolix/graphColoring.ml" 391 11215 11240
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key -> Colors.t option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 391 11215 11241 "src/retrolix/graphColoring.ml" 391 11215 11249
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 387 11086 11094 "src/retrolix/graphColoring.ml" 387 11086 11102
+)
+"src/retrolix/graphColoring.ml" 391 11215 11250 "src/retrolix/graphColoring.ml" 391 11215 11252
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 381 10910 10925 "src/retrolix/graphColoring.ml" 381 10910 10927
+)
+"src/retrolix/graphColoring.ml" 391 11215 11227 "src/retrolix/graphColoring.ml" 391 11215 11252
+call(
+  stack
+)
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 392 11258 11266 "src/retrolix/graphColoring.ml" 392 11258 11270
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 392 11258 11281 "src/retrolix/graphColoring.ml" 392 11258 11286
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 392 11258 11274 "src/retrolix/graphColoring.ml" 392 11258 11286
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 393 11287 11300 "src/retrolix/graphColoring.ml" 393 11287 11301
+type(
+  Colors.t
+)
+ident(
+  def s "src/retrolix/graphColoring.ml" 393 11287 11305 "src/retrolix/graphColoring.ml" 393 11287 11333
+)
+"src/retrolix/graphColoring.ml" 393 11287 11295 "src/retrolix/graphColoring.ml" 393 11287 11301
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 393 11287 11305 "src/retrolix/graphColoring.ml" 393 11287 11317
+type(
+  Graph.t ->
+  NodeLabelMap.key ->
+  Colors.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_color "src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+)
+"src/retrolix/graphColoring.ml" 393 11287 11318 "src/retrolix/graphColoring.ml" 393 11287 11319
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 381 10910 10923 "src/retrolix/graphColoring.ml" 381 10910 10924
+)
+"src/retrolix/graphColoring.ml" 393 11287 11320 "src/retrolix/graphColoring.ml" 393 11287 11322
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 381 10910 10925 "src/retrolix/graphColoring.ml" 381 10910 10927
+)
+"src/retrolix/graphColoring.ml" 393 11287 11323 "src/retrolix/graphColoring.ml" 393 11287 11324
+type(
+  Colors.t
+)
+ident(
+  int_ref s "src/retrolix/graphColoring.ml" 393 11287 11300 "src/retrolix/graphColoring.ml" 393 11287 11301
+)
+"src/retrolix/graphColoring.ml" 393 11287 11325 "src/retrolix/graphColoring.ml" 393 11287 11333
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 387 11086 11094 "src/retrolix/graphColoring.ml" 387 11086 11102
+)
+"src/retrolix/graphColoring.ml" 393 11287 11305 "src/retrolix/graphColoring.ml" 393 11287 11333
+call(
+  stack
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 391 11215 11221 "src/retrolix/graphColoring.ml" 393 11287 11333
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 395 11341 11349 "src/retrolix/graphColoring.ml" 395 11341 11357
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 400 11486 11490 "src/retrolix/graphColoring.ml" 400 11486 11498
+)
+"src/retrolix/graphColoring.ml" 396 11360 11372 "src/retrolix/graphColoring.ml" 396 11360 11385
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key -> Colors.t option
+)
+ident(
+  int_ref color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 396 11360 11386 "src/retrolix/graphColoring.ml" 396 11360 11394
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 390 11196 11204 "src/retrolix/graphColoring.ml" 390 11196 11212
+)
+"src/retrolix/graphColoring.ml" 396 11360 11395 "src/retrolix/graphColoring.ml" 396 11360 11397
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 381 10910 10928 "src/retrolix/graphColoring.ml" 381 10910 10930
+)
+"src/retrolix/graphColoring.ml" 396 11360 11372 "src/retrolix/graphColoring.ml" 396 11360 11397
+call(
+  stack
+)
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 397 11403 11411 "src/retrolix/graphColoring.ml" 397 11403 11415
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 397 11403 11426 "src/retrolix/graphColoring.ml" 397 11403 11431
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 397 11403 11419 "src/retrolix/graphColoring.ml" 397 11403 11431
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 398 11432 11445 "src/retrolix/graphColoring.ml" 398 11432 11446
+type(
+  Colors.t
+)
+ident(
+  def s "src/retrolix/graphColoring.ml" 398 11432 11450 "src/retrolix/graphColoring.ml" 398 11432 11478
+)
+"src/retrolix/graphColoring.ml" 398 11432 11440 "src/retrolix/graphColoring.ml" 398 11432 11446
+type(
+  Colors.t option
+)
+"src/retrolix/graphColoring.ml" 398 11432 11450 "src/retrolix/graphColoring.ml" 398 11432 11462
+type(
+  Graph.t ->
+  NodeLabelMap.key ->
+  Colors.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_color "src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+)
+"src/retrolix/graphColoring.ml" 398 11432 11463 "src/retrolix/graphColoring.ml" 398 11432 11464
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 381 10910 10923 "src/retrolix/graphColoring.ml" 381 10910 10924
+)
+"src/retrolix/graphColoring.ml" 398 11432 11465 "src/retrolix/graphColoring.ml" 398 11432 11467
+type(
+  NodeLabelMap.key
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 381 10910 10928 "src/retrolix/graphColoring.ml" 381 10910 10930
+)
+"src/retrolix/graphColoring.ml" 398 11432 11468 "src/retrolix/graphColoring.ml" 398 11432 11469
+type(
+  Colors.t
+)
+ident(
+  int_ref s "src/retrolix/graphColoring.ml" 398 11432 11445 "src/retrolix/graphColoring.ml" 398 11432 11446
+)
+"src/retrolix/graphColoring.ml" 398 11432 11470 "src/retrolix/graphColoring.ml" 398 11432 11478
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 390 11196 11204 "src/retrolix/graphColoring.ml" 390 11196 11212
+)
+"src/retrolix/graphColoring.ml" 398 11432 11450 "src/retrolix/graphColoring.ml" 398 11432 11478
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 396 11360 11366 "src/retrolix/graphColoring.ml" 398 11432 11478
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 400 11486 11490 "src/retrolix/graphColoring.ml" 400 11486 11498
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 395 11341 11349 "src/retrolix/graphColoring.ml" 395 11341 11357
+)
+"src/retrolix/graphColoring.ml" 395 11341 11345 "src/retrolix/graphColoring.ml" 400 11486 11498
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 390 11196 11200 "src/retrolix/graphColoring.ml" 400 11486 11498
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 387 11086 11090 "src/retrolix/graphColoring.ml" 400 11486 11498
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 384 10985 10989 "src/retrolix/graphColoring.ml" 400 11486 11498
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 402 11506 11512 "src/retrolix/graphColoring.ml" 402 11506 11517
+type(
+  Graph.t ->
+  NodeLabel.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  def spill "src/retrolix/graphColoring.ml" 277 7935 7937 "src/retrolix/graphColoring.ml" 432 12306 12309
+)
+"src/retrolix/graphColoring.ml" 402 11506 11518 "src/retrolix/graphColoring.ml" 402 11506 11519
+type(
+  Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 402 11506 11521
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 402 11506 11522 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 402 11506 11522 "src/retrolix/graphColoring.ml" 402 11506 11530
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 405 11572 11576 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 405 11572 11580 "src/retrolix/graphColoring.ml" 405 11572 11582
+type(
+  Graph.t
+)
+ident(
+  def g' "src/retrolix/graphColoring.ml" 408 11647 11651 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 405 11572 11585 "src/retrolix/graphColoring.ml" 405 11572 11599
+type(
+  Graph.t -> NodeLabel.t -> Graph.t
+)
+ident(
+  ext_ref Graph.del_node
+)
+"src/retrolix/graphColoring.ml" 405 11572 11600 "src/retrolix/graphColoring.ml" 405 11572 11601
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 402 11506 11518 "src/retrolix/graphColoring.ml" 402 11506 11519
+)
+"src/retrolix/graphColoring.ml" 405 11572 11602 "src/retrolix/graphColoring.ml" 405 11572 11603
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 402 11506 11521
+)
+"src/retrolix/graphColoring.ml" 405 11572 11585 "src/retrolix/graphColoring.ml" 405 11572 11603
+call(
+  stack
+)
+type(
+  Graph.t
+)
+"src/retrolix/graphColoring.ml" 408 11647 11655 "src/retrolix/graphColoring.ml" 408 11647 11663
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 411 11738 11742 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 408 11647 11666 "src/retrolix/graphColoring.ml" 408 11647 11675
+type(
+  Graph.t -> 'i NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref colorize' "src/retrolix/graphColoring.ml" 280 7983 7989 "src/retrolix/graphColoring.ml" 280 7983 7998
+)
+"src/retrolix/graphColoring.ml" 408 11647 11676 "src/retrolix/graphColoring.ml" 408 11647 11678
+type(
+  Graph.t
+)
+ident(
+  int_ref g' "src/retrolix/graphColoring.ml" 405 11572 11580 "src/retrolix/graphColoring.ml" 405 11572 11582
+)
+"src/retrolix/graphColoring.ml" 408 11647 11680 "src/retrolix/graphColoring.ml" 408 11647 11688
+type(
+  'i NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 402 11506 11522 "src/retrolix/graphColoring.ml" 402 11506 11530
+)
+"src/retrolix/graphColoring.ml" 408 11647 11666 "src/retrolix/graphColoring.ml" 408 11647 11688
+call(
+  stack
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 411 11738 11746 "src/retrolix/graphColoring.ml" 411 11738 11752
+type(
+  NodeLabel.t list list
+)
+ident(
+  def cneigh "src/retrolix/graphColoring.ml" 416 11863 11867 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 412 11755 11761 "src/retrolix/graphColoring.ml" 412 11755 11777
+type(
+  Graph.t -> EdgeLabel.t -> NodeLabel.t -> NodeLabel.t list list
+)
+ident(
+  ext_ref Graph.neighbours
+)
+"src/retrolix/graphColoring.ml" 412 11755 11778 "src/retrolix/graphColoring.ml" 412 11755 11779
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 402 11506 11518 "src/retrolix/graphColoring.ml" 402 11506 11519
+)
+"src/retrolix/graphColoring.ml" 412 11755 11780 "src/retrolix/graphColoring.ml" 412 11755 11798
+type(
+  EdgeLabel.t
+)
+ident(
+  int_ref EdgeLabel.conflict "src/retrolix/graphColoring.ml" 15 359 363 "src/retrolix/graphColoring.ml" 15 359 381
+)
+"src/retrolix/graphColoring.ml" 412 11755 11799 "src/retrolix/graphColoring.ml" 412 11755 11800
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 402 11506 11521
+)
+"src/retrolix/graphColoring.ml" 412 11755 11761 "src/retrolix/graphColoring.ml" 412 11755 11800
+call(
+  stack
+)
+type(
+  NodeLabel.t list list
+)
+"src/retrolix/graphColoring.ml" 416 11863 11871 "src/retrolix/graphColoring.ml" 416 11863 11887
+type(
+  Colors.t list
+)
+ident(
+  def not_those_colors "src/retrolix/graphColoring.ml" 422 12038 12042 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 417 11890 11896 "src/retrolix/graphColoring.ml" 417 11890 11904
+type(
+  (NodeLabelMap.key list -> Colors.t list) ->
+  NodeLabelMap.key list list -> Colors.t list list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/graphColoring.ml" 417 11890 11910 "src/retrolix/graphColoring.ml" 417 11890 11911
+type(
+  NodeLabelMap.key list
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 417 11890 11915 "src/retrolix/graphColoring.ml" 417 11890 11940
+)
+"src/retrolix/graphColoring.ml" 417 11890 11915 "src/retrolix/graphColoring.ml" 417 11890 11929
+type(
+  Colors.t option NodeLabelMap.t -> NodeLabelMap.key list -> Colors.t list
+)
+ident(
+  int_ref color_of_lnode "src/retrolix/graphColoring.ml" 313 8909 8915 "src/retrolix/graphColoring.ml" 313 8909 8929
+)
+"src/retrolix/graphColoring.ml" 417 11890 11930 "src/retrolix/graphColoring.ml" 417 11890 11938
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 408 11647 11655 "src/retrolix/graphColoring.ml" 408 11647 11663
+)
+"src/retrolix/graphColoring.ml" 417 11890 11939 "src/retrolix/graphColoring.ml" 417 11890 11940
+type(
+  NodeLabelMap.key list
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 417 11890 11910 "src/retrolix/graphColoring.ml" 417 11890 11911
+)
+"src/retrolix/graphColoring.ml" 417 11890 11915 "src/retrolix/graphColoring.ml" 417 11890 11940
+call(
+  tail
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 417 11890 11905 "src/retrolix/graphColoring.ml" 417 11890 11941
+type(
+  NodeLabelMap.key list -> Colors.t list
+)
+"src/retrolix/graphColoring.ml" 417 11890 11942 "src/retrolix/graphColoring.ml" 417 11890 11948
+type(
+  NodeLabelMap.key list list
+)
+ident(
+  int_ref cneigh "src/retrolix/graphColoring.ml" 411 11738 11746 "src/retrolix/graphColoring.ml" 411 11738 11752
+)
+"src/retrolix/graphColoring.ml" 417 11890 11896 "src/retrolix/graphColoring.ml" 417 11890 11948
+call(
+  stack
+)
+type(
+  Colors.t list list
+)
+"src/retrolix/graphColoring.ml" 418 11949 11955 "src/retrolix/graphColoring.ml" 418 11949 11957
+type(
+  Colors.t list list ->
+  (Colors.t list list -> Colors.t list) -> Colors.t list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/retrolix/graphColoring.ml" 418 11949 11958 "src/retrolix/graphColoring.ml" 418 11949 11970
+type(
+  Colors.t list list -> Colors.t list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/retrolix/graphColoring.ml" 417 11890 11896 "src/retrolix/graphColoring.ml" 418 11949 11970
+call(
+  stack
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 422 12038 12046 "src/retrolix/graphColoring.ml" 422 12038 12054
+type(
+  Colors.t list
+)
+ident(
+  def a_colors "src/retrolix/graphColoring.ml" 427 12186 12190 "src/retrolix/graphColoring.ml" 429 12259 12300
+)
+"src/retrolix/graphColoring.ml" 423 12057 12063 "src/retrolix/graphColoring.ml" 423 12057 12079
+type(
+  Colors.t list -> Colors.t list -> Colors.t list
+)
+ident(
+  int_ref available_colors "src/retrolix/graphColoring.ml" 309 8763 8769 "src/retrolix/graphColoring.ml" 309 8763 8785
+)
+"src/retrolix/graphColoring.ml" 423 12057 12080 "src/retrolix/graphColoring.ml" 423 12057 12096
+type(
+  Colors.t list
+)
+ident(
+  int_ref not_those_colors "src/retrolix/graphColoring.ml" 416 11863 11871 "src/retrolix/graphColoring.ml" 416 11863 11887
+)
+"src/retrolix/graphColoring.ml" 423 12057 12097 "src/retrolix/graphColoring.ml" 423 12057 12107
+type(
+  Colors.t list
+)
+ident(
+  int_ref Colors.all "src/retrolix/graphColoring.ml" 6 152 154 "src/retrolix/graphColoring.ml" 6 152 170
+)
+"src/retrolix/graphColoring.ml" 423 12057 12063 "src/retrolix/graphColoring.ml" 423 12057 12107
+call(
+  stack
+)
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 427 12186 12197 "src/retrolix/graphColoring.ml" 427 12186 12205
+type(
+  Colors.t list
+)
+ident(
+  int_ref a_colors "src/retrolix/graphColoring.ml" 422 12038 12046 "src/retrolix/graphColoring.ml" 422 12038 12054
+)
+"src/retrolix/graphColoring.ml" 428 12211 12218 "src/retrolix/graphColoring.ml" 428 12211 12220
+type(
+  Colors.t
+)
+ident(
+  def c' "src/retrolix/graphColoring.ml" 428 12211 12229 "src/retrolix/graphColoring.ml" 428 12211 12257
+)
+"src/retrolix/graphColoring.ml" 428 12211 12224 "src/retrolix/graphColoring.ml" 428 12211 12225
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 428 12211 12218 "src/retrolix/graphColoring.ml" 428 12211 12225
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 428 12211 12229 "src/retrolix/graphColoring.ml" 428 12211 12241
+type(
+  Graph.t ->
+  NodeLabel.t ->
+  Colors.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_color "src/retrolix/graphColoring.ml" 42 1120 1126 "src/retrolix/graphColoring.ml" 42 1120 1138
+)
+"src/retrolix/graphColoring.ml" 428 12211 12242 "src/retrolix/graphColoring.ml" 428 12211 12243
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 402 11506 11518 "src/retrolix/graphColoring.ml" 402 11506 11519
+)
+"src/retrolix/graphColoring.ml" 428 12211 12244 "src/retrolix/graphColoring.ml" 428 12211 12245
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 402 11506 11521
+)
+"src/retrolix/graphColoring.ml" 428 12211 12246 "src/retrolix/graphColoring.ml" 428 12211 12248
+type(
+  Colors.t
+)
+ident(
+  int_ref c' "src/retrolix/graphColoring.ml" 428 12211 12218 "src/retrolix/graphColoring.ml" 428 12211 12220
+)
+"src/retrolix/graphColoring.ml" 428 12211 12249 "src/retrolix/graphColoring.ml" 428 12211 12257
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 408 11647 11655 "src/retrolix/graphColoring.ml" 408 11647 11663
+)
+"src/retrolix/graphColoring.ml" 428 12211 12229 "src/retrolix/graphColoring.ml" 428 12211 12257
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 429 12259 12266 "src/retrolix/graphColoring.ml" 429 12259 12267
+type(
+  Colors.t list
+)
+"src/retrolix/graphColoring.ml" 429 12259 12271 "src/retrolix/graphColoring.ml" 429 12259 12286
+type(
+  Graph.t ->
+  NodeLabel.t ->
+  Colors.t option NodeLabelMap.t -> Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref assign_no_color "src/retrolix/graphColoring.ml" 48 1336 1342 "src/retrolix/graphColoring.ml" 48 1336 1357
+)
+"src/retrolix/graphColoring.ml" 429 12259 12287 "src/retrolix/graphColoring.ml" 429 12259 12288
+type(
+  Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 402 11506 11518 "src/retrolix/graphColoring.ml" 402 11506 11519
+)
+"src/retrolix/graphColoring.ml" 429 12259 12289 "src/retrolix/graphColoring.ml" 429 12259 12290
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 402 11506 11520 "src/retrolix/graphColoring.ml" 402 11506 11521
+)
+"src/retrolix/graphColoring.ml" 429 12259 12291 "src/retrolix/graphColoring.ml" 429 12259 12299
+type(
+  Colors.t option NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 408 11647 11655 "src/retrolix/graphColoring.ml" 408 11647 11663
+)
+"src/retrolix/graphColoring.ml" 429 12259 12271 "src/retrolix/graphColoring.ml" 429 12259 12299
+call(
+  tail
+)
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 427 12186 12190 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 422 12038 12042 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 416 11863 11867 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 411 11738 11742 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 408 11647 11651 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 405 11572 11576 "src/retrolix/graphColoring.ml" 429 12259 12300
+type(
+  Colors.t option NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 434 12311 12315 "src/retrolix/graphColoring.ml" 434 12311 12319
+type(
+  unit -> unit
+)
+ident(
+  def test "src/retrolix/graphColoring.ml" 525 14751 14754 "src/retrolix/graphColoring.ml" 1 0 -1
+)
+"src/retrolix/graphColoring.ml" 434 12311 12320 "src/retrolix/graphColoring.ml" 434 12311 12322
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 440 12435 12441 "src/retrolix/graphColoring.ml" 440 12435 12445
+type(
+  bool
+)
+ident(
+  def show "src/retrolix/graphColoring.ml" 441 12457 12459 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 440 12435 12448 "src/retrolix/graphColoring.ml" 440 12435 12453
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 441 12457 12463 "src/retrolix/graphColoring.ml" 441 12457 12470
+type(
+  int
+)
+ident(
+  def nb_test "src/retrolix/graphColoring.ml" 442 12479 12481 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 441 12457 12473 "src/retrolix/graphColoring.ml" 441 12457 12475
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 442 12479 12485 "src/retrolix/graphColoring.ml" 442 12479 12493
+type(
+  int
+)
+ident(
+  def nb_color "src/retrolix/graphColoring.ml" 443 12501 12503 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 442 12479 12496 "src/retrolix/graphColoring.ml" 442 12479 12497
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 443 12501 12507 "src/retrolix/graphColoring.ml" 443 12501 12516
+type(
+  int
+)
+ident(
+  def min_nodes "src/retrolix/graphColoring.ml" 444 12546 12548 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 443 12501 12519 "src/retrolix/graphColoring.ml" 443 12501 12522
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 443 12501 12527 "src/retrolix/graphColoring.ml" 443 12501 12536
+type(
+  int
+)
+ident(
+  def max_nodes "src/retrolix/graphColoring.ml" 444 12546 12548 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 443 12501 12539 "src/retrolix/graphColoring.ml" 443 12501 12542
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 444 12546 12552 "src/retrolix/graphColoring.ml" 444 12546 12565
+type(
+  float
+)
+ident(
+  def freq_conflict "src/retrolix/graphColoring.ml" 445 12603 12605 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 444 12546 12568 "src/retrolix/graphColoring.ml" 444 12546 12571
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 444 12546 12576 "src/retrolix/graphColoring.ml" 444 12546 12591
+type(
+  float
+)
+ident(
+  def freq_preference "src/retrolix/graphColoring.ml" 445 12603 12605 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 444 12546 12595 "src/retrolix/graphColoring.ml" 444 12546 12598
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 445 12603 12609 "src/retrolix/graphColoring.ml" 445 12603 12620
+type(
+  int
+)
+ident(
+  def random_seed "src/retrolix/graphColoring.ml" 448 12701 12703 "src/retrolix/graphColoring.ml" 525 14751 14754
+)
+"src/retrolix/graphColoring.ml" 445 12603 12623 "src/retrolix/graphColoring.ml" 445 12603 12625
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 450 12753 12761 "src/retrolix/graphColoring.ml" 450 12753 12768
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/retrolix/graphColoring.ml" 451 12779 12783 "src/retrolix/graphColoring.ml" 452 12803 12808
+)
+"src/retrolix/graphColoring.ml" 450 12753 12771 "src/retrolix/graphColoring.ml" 450 12753 12778
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/retrolix/graphColoring.ml" 451 12779 12787 "src/retrolix/graphColoring.ml" 451 12779 12796
+type(
+  'b -> 'b
+)
+ident(
+  def to_string "src/retrolix/graphColoring.ml" 451 12779 12802 "src/retrolix/graphColoring.ml" 452 12803 12808
+)
+"src/retrolix/graphColoring.ml" 451 12779 12797 "src/retrolix/graphColoring.ml" 451 12779 12798
+type(
+  'b
+)
+ident(
+  def x "src/retrolix/graphColoring.ml" 451 12779 12801 "src/retrolix/graphColoring.ml" 451 12779 12802
+)
+"src/retrolix/graphColoring.ml" 451 12779 12801 "src/retrolix/graphColoring.ml" 451 12779 12802
+type(
+  'b
+)
+ident(
+  int_ref x "src/retrolix/graphColoring.ml" 451 12779 12797 "src/retrolix/graphColoring.ml" 451 12779 12798
+)
+"src/retrolix/graphColoring.ml" 455 12863 12871 "src/retrolix/graphColoring.ml" 455 12863 12878
+type(
+  'c -> 'c -> int
+)
+ident(
+  def compare "src/retrolix/graphColoring.ml" 456 12889 12893 "src/retrolix/graphColoring.ml" 460 13007 13012
+)
+"src/retrolix/graphColoring.ml" 455 12863 12881 "src/retrolix/graphColoring.ml" 455 12863 12888
+type(
+  'c -> 'c -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/retrolix/graphColoring.ml" 456 12889 12897 "src/retrolix/graphColoring.ml" 456 12889 12906
+type(
+  t -> string
+)
+ident(
+  def to_string "src/retrolix/graphColoring.ml" 457 12939 12943 "src/retrolix/graphColoring.ml" 460 13007 13012
+)
+"src/retrolix/graphColoring.ml" 456 12889 12918 "src/retrolix/graphColoring.ml" 456 12889 12919
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 456 12889 12923 "src/retrolix/graphColoring.ml" 456 12889 12927
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 456 12889 12930 "src/retrolix/graphColoring.ml" 456 12889 12931
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 456 12889 12935 "src/retrolix/graphColoring.ml" 456 12889 12938
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 456 12889 12909 "src/retrolix/graphColoring.ml" 456 12889 12938
+type(
+  t -> string
+)
+"src/retrolix/graphColoring.ml" 457 12939 12947 "src/retrolix/graphColoring.ml" 457 12939 12957
+type(
+  t
+)
+ident(
+  def preference "src/retrolix/graphColoring.ml" 458 12962 12966 "src/retrolix/graphColoring.ml" 460 13007 13012
+)
+"src/retrolix/graphColoring.ml" 457 12939 12960 "src/retrolix/graphColoring.ml" 457 12939 12961
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 458 12962 12970 "src/retrolix/graphColoring.ml" 458 12962 12978
+type(
+  t
+)
+ident(
+  def conflict "src/retrolix/graphColoring.ml" 459 12983 12987 "src/retrolix/graphColoring.ml" 460 13007 13012
+)
+"src/retrolix/graphColoring.ml" 458 12962 12981 "src/retrolix/graphColoring.ml" 458 12962 12982
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 459 12983 12991 "src/retrolix/graphColoring.ml" 459 12983 12994
+type(
+  t list
+)
+ident(
+  def all "src/retrolix/graphColoring.ml" 459 12983 13006 "src/retrolix/graphColoring.ml" 460 13007 13012
+)
+"src/retrolix/graphColoring.ml" 459 12983 12999 "src/retrolix/graphColoring.ml" 459 12983 13000
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 459 12983 13003 "src/retrolix/graphColoring.ml" 459 12983 13004
+type(
+  t
+)
+"src/retrolix/graphColoring.ml" 459 12983 12997 "src/retrolix/graphColoring.ml" 459 12983 13006
+type(
+  t list
+)
+"src/retrolix/graphColoring.ml" 463 13062 13070 "src/retrolix/graphColoring.ml" 463 13062 13073
+type(
+  int list
+)
+ident(
+  def all "src/retrolix/graphColoring.ml" 464 13111 13115 "src/retrolix/graphColoring.ml" 466 13173 13178
+)
+"src/retrolix/graphColoring.ml" 463 13062 13076 "src/retrolix/graphColoring.ml" 463 13062 13093
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/retrolix/graphColoring.ml" 463 13062 13094 "src/retrolix/graphColoring.ml" 463 13062 13095
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 463 13062 13097 "src/retrolix/graphColoring.ml" 463 13062 13105
+type(
+  int
+)
+ident(
+  int_ref nb_color "src/retrolix/graphColoring.ml" 442 12479 12485 "src/retrolix/graphColoring.ml" 442 12479 12493
+)
+"src/retrolix/graphColoring.ml" 463 13062 13106 "src/retrolix/graphColoring.ml" 463 13062 13107
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/retrolix/graphColoring.ml" 463 13062 13108 "src/retrolix/graphColoring.ml" 463 13062 13109
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 463 13062 13096 "src/retrolix/graphColoring.ml" 463 13062 13110
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 463 13062 13076 "src/retrolix/graphColoring.ml" 463 13062 13110
+call(
+  stack
+)
+type(
+  int list
+)
+"src/retrolix/graphColoring.ml" 464 13111 13119 "src/retrolix/graphColoring.ml" 464 13111 13127
+type(
+  int
+)
+ident(
+  def cardinal "src/retrolix/graphColoring.ml" 465 13139 13143 "src/retrolix/graphColoring.ml" 466 13173 13178
+)
+"src/retrolix/graphColoring.ml" 464 13111 13130 "src/retrolix/graphColoring.ml" 464 13111 13138
+type(
+  int
+)
+ident(
+  int_ref nb_color "src/retrolix/graphColoring.ml" 442 12479 12485 "src/retrolix/graphColoring.ml" 442 12479 12493
+)
+"src/retrolix/graphColoring.ml" 465 13139 13147 "src/retrolix/graphColoring.ml" 465 13139 13156
+type(
+  int -> string
+)
+ident(
+  def to_string "src/retrolix/graphColoring.ml" 465 13139 13172 "src/retrolix/graphColoring.ml" 466 13173 13178
+)
+"src/retrolix/graphColoring.ml" 465 13139 13159 "src/retrolix/graphColoring.ml" 465 13139 13172
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/retrolix/graphColoring.ml" 468 13184 13202 "src/retrolix/graphColoring.ml" 468 13184 13239
+call(
+  stack
+)
+"src/retrolix/graphColoring.ml" 472 13300 13304 "src/retrolix/graphColoring.ml" 472 13300 13315
+type(
+  int -> unit
+)
+ident(
+  ext_ref Random.init
+)
+"src/retrolix/graphColoring.ml" 472 13300 13316 "src/retrolix/graphColoring.ml" 472 13300 13327
+type(
+  int
+)
+ident(
+  int_ref random_seed "src/retrolix/graphColoring.ml" 445 12603 12609 "src/retrolix/graphColoring.ml" 445 12603 12620
+)
+"src/retrolix/graphColoring.ml" 472 13300 13304 "src/retrolix/graphColoring.ml" 472 13300 13327
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 473 13329 13337 "src/retrolix/graphColoring.ml" 473 13329 13349
+type(
+  unit -> GC.Graph.t
+)
+ident(
+  def random_graph "src/retrolix/graphColoring.ml" 497 14022 14026 "src/retrolix/graphColoring.ml" 524 14742 14750
+)
+"src/retrolix/graphColoring.ml" 473 13329 13350 "src/retrolix/graphColoring.ml" 473 13329 13352
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 474 13355 13365 "src/retrolix/graphColoring.ml" 474 13355 13373
+type(
+  int
+)
+ident(
+  def nb_nodes "src/retrolix/graphColoring.ml" 475 13426 13432 "src/retrolix/graphColoring.ml" 495 14002 14014
+)
+"src/retrolix/graphColoring.ml" 474 13355 13376 "src/retrolix/graphColoring.ml" 474 13355 13402
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref ExtStd.Random.int_in_range
+)
+"src/retrolix/graphColoring.ml" 474 13355 13403 "src/retrolix/graphColoring.ml" 474 13355 13412
+type(
+  int
+)
+ident(
+  int_ref min_nodes "src/retrolix/graphColoring.ml" 443 12501 12507 "src/retrolix/graphColoring.ml" 443 12501 12516
+)
+"src/retrolix/graphColoring.ml" 474 13355 13413 "src/retrolix/graphColoring.ml" 474 13355 13422
+type(
+  int
+)
+ident(
+  int_ref max_nodes "src/retrolix/graphColoring.ml" 443 12501 12527 "src/retrolix/graphColoring.ml" 443 12501 12536
+)
+"src/retrolix/graphColoring.ml" 474 13355 13376 "src/retrolix/graphColoring.ml" 474 13355 13422
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 475 13426 13436 "src/retrolix/graphColoring.ml" 475 13426 13438
+type(
+  string list
+)
+ident(
+  def ns "src/retrolix/graphColoring.ml" 480 13536 13542 "src/retrolix/graphColoring.ml" 495 14002 14014
+)
+"src/retrolix/graphColoring.ml" 476 13441 13442 "src/retrolix/graphColoring.ml" 476 13441 13450
+type(
+  (int -> string) -> int list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/graphColoring.ml" 477 13451 13459 "src/retrolix/graphColoring.ml" 477 13451 13460
+type(
+  int
+)
+ident(
+  def i "src/retrolix/graphColoring.ml" 477 13451 13464 "src/retrolix/graphColoring.ml" 477 13451 13485
+)
+"src/retrolix/graphColoring.ml" 477 13451 13464 "src/retrolix/graphColoring.ml" 477 13451 13467
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 477 13451 13468 "src/retrolix/graphColoring.ml" 477 13451 13469
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/graphColoring.ml" 477 13451 13470 "src/retrolix/graphColoring.ml" 477 13451 13483
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/retrolix/graphColoring.ml" 477 13451 13484 "src/retrolix/graphColoring.ml" 477 13451 13485
+type(
+  int
+)
+ident(
+  int_ref i "src/retrolix/graphColoring.ml" 477 13451 13459 "src/retrolix/graphColoring.ml" 477 13451 13460
+)
+"src/retrolix/graphColoring.ml" 477 13451 13470 "src/retrolix/graphColoring.ml" 477 13451 13485
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 477 13451 13464 "src/retrolix/graphColoring.ml" 477 13451 13485
+call(
+  tail
+)
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 477 13451 13454 "src/retrolix/graphColoring.ml" 477 13451 13486
+type(
+  int -> string
+)
+"src/retrolix/graphColoring.ml" 478 13487 13491 "src/retrolix/graphColoring.ml" 478 13487 13508
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/retrolix/graphColoring.ml" 478 13487 13509 "src/retrolix/graphColoring.ml" 478 13487 13510
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 478 13487 13512 "src/retrolix/graphColoring.ml" 478 13487 13520
+type(
+  int
+)
+ident(
+  int_ref nb_nodes "src/retrolix/graphColoring.ml" 474 13355 13365 "src/retrolix/graphColoring.ml" 474 13355 13373
+)
+"src/retrolix/graphColoring.ml" 478 13487 13521 "src/retrolix/graphColoring.ml" 478 13487 13522
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/retrolix/graphColoring.ml" 478 13487 13523 "src/retrolix/graphColoring.ml" 478 13487 13524
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 478 13487 13511 "src/retrolix/graphColoring.ml" 478 13487 13525
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 478 13487 13490 "src/retrolix/graphColoring.ml" 478 13487 13526
+call(
+  stack
+)
+type(
+  int list
+)
+"src/retrolix/graphColoring.ml" 476 13441 13442 "src/retrolix/graphColoring.ml" 478 13487 13526
+call(
+  stack
+)
+type(
+  string list
+)
+"src/retrolix/graphColoring.ml" 480 13536 13546 "src/retrolix/graphColoring.ml" 480 13536 13547
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 481 13617 13623 "src/retrolix/graphColoring.ml" 495 14002 14014
+)
+"src/retrolix/graphColoring.ml" 480 13536 13550 "src/retrolix/graphColoring.ml" 480 13536 13564
+type(
+  (GC.Graph.t -> NodeLabel.t -> GC.Graph.t) ->
+  GC.Graph.t -> NodeLabel.t list -> GC.Graph.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 480 13536 13570 "src/retrolix/graphColoring.ml" 480 13536 13571
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 480 13536 13572 "src/retrolix/graphColoring.ml" 480 13536 13597
+)
+"src/retrolix/graphColoring.ml" 480 13536 13572 "src/retrolix/graphColoring.ml" 480 13536 13573
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 480 13536 13577 "src/retrolix/graphColoring.ml" 480 13536 13597
+)
+"src/retrolix/graphColoring.ml" 480 13536 13577 "src/retrolix/graphColoring.ml" 480 13536 13591
+type(
+  GC.Graph.t -> NodeLabel.t list -> GC.Graph.t
+)
+ident(
+  ext_ref GC.Graph.add_node
+)
+"src/retrolix/graphColoring.ml" 480 13536 13592 "src/retrolix/graphColoring.ml" 480 13536 13593
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 480 13536 13570 "src/retrolix/graphColoring.ml" 480 13536 13571
+)
+"src/retrolix/graphColoring.ml" 480 13536 13595 "src/retrolix/graphColoring.ml" 480 13536 13596
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 480 13536 13572 "src/retrolix/graphColoring.ml" 480 13536 13573
+)
+"src/retrolix/graphColoring.ml" 480 13536 13594 "src/retrolix/graphColoring.ml" 480 13536 13597
+type(
+  NodeLabel.t list
+)
+"src/retrolix/graphColoring.ml" 480 13536 13577 "src/retrolix/graphColoring.ml" 480 13536 13597
+call(
+  tail
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 480 13536 13565 "src/retrolix/graphColoring.ml" 480 13536 13598
+type(
+  GC.Graph.t -> NodeLabel.t -> GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 480 13536 13599 "src/retrolix/graphColoring.ml" 480 13536 13610
+type(
+  GC.Graph.t
+)
+ident(
+  ext_ref GC.Graph.empty
+)
+"src/retrolix/graphColoring.ml" 480 13536 13611 "src/retrolix/graphColoring.ml" 480 13536 13613
+type(
+  NodeLabel.t list
+)
+ident(
+  int_ref ns "src/retrolix/graphColoring.ml" 475 13426 13436 "src/retrolix/graphColoring.ml" 475 13426 13438
+)
+"src/retrolix/graphColoring.ml" 480 13536 13550 "src/retrolix/graphColoring.ml" 480 13536 13613
+call(
+  stack
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 481 13617 13623 "src/retrolix/graphColoring.ml" 481 13617 13637
+type(
+  (GC.Graph.t -> NodeLabel.t -> GC.Graph.t) ->
+  GC.Graph.t -> NodeLabel.t list -> GC.Graph.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 481 13617 13643 "src/retrolix/graphColoring.ml" 481 13617 13644
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 494 13994 14001
+)
+"src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+type(
+  NodeLabel.t
+)
+ident(
+  def n1 "src/retrolix/graphColoring.ml" 482 13651 13652 "src/retrolix/graphColoring.ml" 494 13994 14001
+)
+"src/retrolix/graphColoring.ml" 482 13651 13652 "src/retrolix/graphColoring.ml" 482 13651 13666
+type(
+  (GC.Graph.t -> NodeLabel.t -> GC.Graph.t) ->
+  GC.Graph.t -> NodeLabel.t list -> GC.Graph.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 493 13987 13993
+)
+"src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+type(
+  NodeLabel.t
+)
+ident(
+  def n2 "src/retrolix/graphColoring.ml" 483 13680 13683 "src/retrolix/graphColoring.ml" 493 13987 13993
+)
+"src/retrolix/graphColoring.ml" 483 13680 13686 "src/retrolix/graphColoring.ml" 483 13680 13688
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+)
+"src/retrolix/graphColoring.ml" 483 13680 13689 "src/retrolix/graphColoring.ml" 483 13680 13690
+type(
+  NodeLabel.t -> NodeLabel.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/retrolix/graphColoring.ml" 483 13680 13691 "src/retrolix/graphColoring.ml" 483 13680 13693
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+)
+"src/retrolix/graphColoring.ml" 483 13680 13686 "src/retrolix/graphColoring.ml" 483 13680 13693
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 484 13694 13697 "src/retrolix/graphColoring.ml" 484 13694 13699
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/retrolix/graphColoring.ml" 484 13694 13700 "src/retrolix/graphColoring.ml" 484 13694 13719
+type(
+  GC.Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> bool
+)
+ident(
+  ext_ref GC.Graph.are_connected
+)
+"src/retrolix/graphColoring.ml" 484 13694 13720 "src/retrolix/graphColoring.ml" 484 13694 13721
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 484 13694 13722 "src/retrolix/graphColoring.ml" 484 13694 13724
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+)
+"src/retrolix/graphColoring.ml" 484 13694 13725 "src/retrolix/graphColoring.ml" 484 13694 13736
+type(
+  EdgeLabel.t
+)
+"src/retrolix/graphColoring.ml" 484 13694 13737 "src/retrolix/graphColoring.ml" 484 13694 13739
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+)
+"src/retrolix/graphColoring.ml" 484 13694 13700 "src/retrolix/graphColoring.ml" 484 13694 13739
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 485 13740 13743 "src/retrolix/graphColoring.ml" 485 13740 13745
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/retrolix/graphColoring.ml" 485 13740 13746 "src/retrolix/graphColoring.ml" 485 13740 13765
+type(
+  GC.Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> bool
+)
+ident(
+  ext_ref GC.Graph.are_connected
+)
+"src/retrolix/graphColoring.ml" 485 13740 13766 "src/retrolix/graphColoring.ml" 485 13740 13767
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 485 13740 13768 "src/retrolix/graphColoring.ml" 485 13740 13770
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+)
+"src/retrolix/graphColoring.ml" 485 13740 13771 "src/retrolix/graphColoring.ml" 485 13740 13782
+type(
+  EdgeLabel.t
+)
+"src/retrolix/graphColoring.ml" 485 13740 13783 "src/retrolix/graphColoring.ml" 485 13740 13785
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+)
+"src/retrolix/graphColoring.ml" 485 13740 13746 "src/retrolix/graphColoring.ml" 485 13740 13785
+call(
+  stack
+)
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 484 13694 13700 "src/retrolix/graphColoring.ml" 485 13740 13785
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 483 13680 13686 "src/retrolix/graphColoring.ml" 485 13740 13785
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 487 13794 13799 "src/retrolix/graphColoring.ml" 487 13794 13800
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 488 13801 13812 "src/retrolix/graphColoring.ml" 488 13801 13824
+type(
+  float -> float
+)
+ident(
+  ext_ref Random.float
+)
+"src/retrolix/graphColoring.ml" 488 13801 13825 "src/retrolix/graphColoring.ml" 488 13801 13827
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 488 13801 13812 "src/retrolix/graphColoring.ml" 488 13801 13827
+call(
+  stack
+)
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 488 13801 13828 "src/retrolix/graphColoring.ml" 488 13801 13829
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/retrolix/graphColoring.ml" 488 13801 13830 "src/retrolix/graphColoring.ml" 488 13801 13843
+type(
+  float
+)
+ident(
+  int_ref freq_conflict "src/retrolix/graphColoring.ml" 444 12546 12552 "src/retrolix/graphColoring.ml" 444 12546 12565
+)
+"src/retrolix/graphColoring.ml" 488 13801 13812 "src/retrolix/graphColoring.ml" 488 13801 13843
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 489 13849 13854 "src/retrolix/graphColoring.ml" 489 13849 13868
+type(
+  GC.Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> GC.Graph.t
+)
+ident(
+  ext_ref GC.Graph.add_edge
+)
+"src/retrolix/graphColoring.ml" 489 13849 13869 "src/retrolix/graphColoring.ml" 489 13849 13870
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 489 13849 13871 "src/retrolix/graphColoring.ml" 489 13849 13873
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+)
+"src/retrolix/graphColoring.ml" 489 13849 13874 "src/retrolix/graphColoring.ml" 489 13849 13885
+type(
+  EdgeLabel.t
+)
+"src/retrolix/graphColoring.ml" 489 13849 13886 "src/retrolix/graphColoring.ml" 489 13849 13888
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+)
+"src/retrolix/graphColoring.ml" 489 13849 13854 "src/retrolix/graphColoring.ml" 489 13849 13888
+call(
+  tail
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 490 13889 13900 "src/retrolix/graphColoring.ml" 490 13889 13912
+type(
+  float -> float
+)
+ident(
+  ext_ref Random.float
+)
+"src/retrolix/graphColoring.ml" 490 13889 13913 "src/retrolix/graphColoring.ml" 490 13889 13915
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 490 13889 13900 "src/retrolix/graphColoring.ml" 490 13889 13915
+call(
+  stack
+)
+type(
+  float
+)
+"src/retrolix/graphColoring.ml" 490 13889 13916 "src/retrolix/graphColoring.ml" 490 13889 13917
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/retrolix/graphColoring.ml" 490 13889 13918 "src/retrolix/graphColoring.ml" 490 13889 13933
+type(
+  float
+)
+ident(
+  int_ref freq_preference "src/retrolix/graphColoring.ml" 444 12546 12576 "src/retrolix/graphColoring.ml" 444 12546 12591
+)
+"src/retrolix/graphColoring.ml" 490 13889 13900 "src/retrolix/graphColoring.ml" 490 13889 13933
+type(
+  bool
+)
+"src/retrolix/graphColoring.ml" 491 13939 13944 "src/retrolix/graphColoring.ml" 491 13939 13958
+type(
+  GC.Graph.t -> NodeLabel.t -> EdgeLabel.t -> NodeLabel.t -> GC.Graph.t
+)
+ident(
+  ext_ref GC.Graph.add_edge
+)
+"src/retrolix/graphColoring.ml" 491 13939 13959 "src/retrolix/graphColoring.ml" 491 13939 13960
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 491 13939 13961 "src/retrolix/graphColoring.ml" 491 13939 13963
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n1 "src/retrolix/graphColoring.ml" 481 13617 13645 "src/retrolix/graphColoring.ml" 481 13617 13647
+)
+"src/retrolix/graphColoring.ml" 491 13939 13964 "src/retrolix/graphColoring.ml" 491 13939 13975
+type(
+  EdgeLabel.t
+)
+"src/retrolix/graphColoring.ml" 491 13939 13976 "src/retrolix/graphColoring.ml" 491 13939 13978
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n2 "src/retrolix/graphColoring.ml" 482 13651 13674 "src/retrolix/graphColoring.ml" 482 13651 13676
+)
+"src/retrolix/graphColoring.ml" 491 13939 13944 "src/retrolix/graphColoring.ml" 491 13939 13978
+call(
+  tail
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 493 13987 13992 "src/retrolix/graphColoring.ml" 493 13987 13993
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 482 13651 13672 "src/retrolix/graphColoring.ml" 482 13651 13673
+)
+"src/retrolix/graphColoring.ml" 490 13889 13897 "src/retrolix/graphColoring.ml" 493 13987 13993
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 488 13801 13809 "src/retrolix/graphColoring.ml" 493 13987 13993
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 483 13680 13683 "src/retrolix/graphColoring.ml" 493 13987 13993
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 482 13651 13667 "src/retrolix/graphColoring.ml" 494 13994 13996
+type(
+  GC.Graph.t -> NodeLabel.t -> GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 494 13994 13997 "src/retrolix/graphColoring.ml" 494 13994 13998
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 481 13617 13643 "src/retrolix/graphColoring.ml" 481 13617 13644
+)
+"src/retrolix/graphColoring.ml" 494 13994 13999 "src/retrolix/graphColoring.ml" 494 13994 14001
+type(
+  NodeLabel.t list
+)
+ident(
+  int_ref ns "src/retrolix/graphColoring.ml" 475 13426 13436 "src/retrolix/graphColoring.ml" 475 13426 13438
+)
+"src/retrolix/graphColoring.ml" 482 13651 13652 "src/retrolix/graphColoring.ml" 494 13994 14001
+call(
+  tail
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 481 13617 13638 "src/retrolix/graphColoring.ml" 495 14002 14009
+type(
+  GC.Graph.t -> NodeLabel.t -> GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 495 14002 14010 "src/retrolix/graphColoring.ml" 495 14002 14011
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 480 13536 13546 "src/retrolix/graphColoring.ml" 480 13536 13547
+)
+"src/retrolix/graphColoring.ml" 495 14002 14012 "src/retrolix/graphColoring.ml" 495 14002 14014
+type(
+  NodeLabel.t list
+)
+ident(
+  int_ref ns "src/retrolix/graphColoring.ml" 475 13426 13436 "src/retrolix/graphColoring.ml" 475 13426 13438
+)
+"src/retrolix/graphColoring.ml" 481 13617 13623 "src/retrolix/graphColoring.ml" 495 14002 14014
+call(
+  tail
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 480 13536 13542 "src/retrolix/graphColoring.ml" 495 14002 14014
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 475 13426 13432 "src/retrolix/graphColoring.ml" 495 14002 14014
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 474 13355 13361 "src/retrolix/graphColoring.ml" 495 14002 14014
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 497 14022 14030 "src/retrolix/graphColoring.ml" 497 14022 14043
+type(
+  GC.Graph.t -> int option GC.NodeLabelMap.t -> unit
+)
+ident(
+  def show_coloring "src/retrolix/graphColoring.ml" 504 14192 14196 "src/retrolix/graphColoring.ml" 524 14742 14750
+)
+"src/retrolix/graphColoring.ml" 497 14022 14044 "src/retrolix/graphColoring.ml" 497 14022 14045
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 497 14022 14046 "src/retrolix/graphColoring.ml" 502 14177 14184
+)
+"src/retrolix/graphColoring.ml" 497 14022 14046 "src/retrolix/graphColoring.ml" 497 14022 14054
+type(
+  int option GC.NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 498 14057 14063 "src/retrolix/graphColoring.ml" 502 14177 14184
+)
+"src/retrolix/graphColoring.ml" 498 14057 14063 "src/retrolix/graphColoring.ml" 498 14057 14073
+type(
+  GC.Graph.t -> (NodeLabel.t -> string option) -> unit
+)
+ident(
+  ext_ref GC.Graph.show
+)
+"src/retrolix/graphColoring.ml" 498 14057 14074 "src/retrolix/graphColoring.ml" 498 14057 14075
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 497 14022 14044 "src/retrolix/graphColoring.ml" 497 14022 14045
+)
+"src/retrolix/graphColoring.ml" 498 14057 14081 "src/retrolix/graphColoring.ml" 498 14057 14082
+type(
+  NodeLabel.t
+)
+ident(
+  def n "src/retrolix/graphColoring.ml" 499 14086 14087 "src/retrolix/graphColoring.ml" 501 14149 14176
+)
+"src/retrolix/graphColoring.ml" 500 14091 14094 "src/retrolix/graphColoring.ml" 500 14091 14104
+type(
+  (int -> string) -> int option -> string option
+)
+ident(
+  ext_ref Option.map
+)
+"src/retrolix/graphColoring.ml" 500 14091 14105 "src/retrolix/graphColoring.ml" 500 14091 14121
+type(
+  int -> string
+)
+ident(
+  int_ref Colors.to_string "src/retrolix/graphColoring.ml" 465 13139 13147 "src/retrolix/graphColoring.ml" 465 13139 13156
+)
+"src/retrolix/graphColoring.ml" 500 14091 14123 "src/retrolix/graphColoring.ml" 500 14091 14136
+type(
+  int option GC.NodeLabelMap.t -> GC.NodeLabelMap.key -> int option
+)
+ident(
+  int_ref GC.color_of_node "src/retrolix/graphColoring.ml" 36 902 908 "src/retrolix/graphColoring.ml" 36 902 921
+)
+"src/retrolix/graphColoring.ml" 500 14091 14137 "src/retrolix/graphColoring.ml" 500 14091 14145
+type(
+  int option GC.NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 497 14022 14046 "src/retrolix/graphColoring.ml" 497 14022 14054
+)
+"src/retrolix/graphColoring.ml" 500 14091 14146 "src/retrolix/graphColoring.ml" 500 14091 14147
+type(
+  NodeLabel.t
+)
+ident(
+  int_ref n "src/retrolix/graphColoring.ml" 498 14057 14081 "src/retrolix/graphColoring.ml" 498 14057 14082
+)
+"src/retrolix/graphColoring.ml" 500 14091 14122 "src/retrolix/graphColoring.ml" 500 14091 14148
+call(
+  stack
+)
+type(
+  int option
+)
+"src/retrolix/graphColoring.ml" 500 14091 14094 "src/retrolix/graphColoring.ml" 500 14091 14148
+call(
+  stack
+)
+type(
+  string option
+)
+"src/retrolix/graphColoring.ml" 501 14149 14155 "src/retrolix/graphColoring.ml" 501 14149 14164
+type(
+  exn
+)
+"src/retrolix/graphColoring.ml" 501 14149 14173 "src/retrolix/graphColoring.ml" 501 14149 14176
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 501 14149 14168 "src/retrolix/graphColoring.ml" 501 14149 14176
+type(
+  string option
+)
+"src/retrolix/graphColoring.ml" 499 14086 14087 "src/retrolix/graphColoring.ml" 501 14149 14176
+type(
+  string option
+)
+"src/retrolix/graphColoring.ml" 498 14057 14076 "src/retrolix/graphColoring.ml" 502 14177 14184
+type(
+  NodeLabel.t -> string option
+)
+"src/retrolix/graphColoring.ml" 498 14057 14063 "src/retrolix/graphColoring.ml" 502 14177 14184
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 504 14192 14200 "src/retrolix/graphColoring.ml" 504 14192 14208
+type(
+  unit -> unit
+)
+ident(
+  def one_test "src/retrolix/graphColoring.ml" 522 14692 14696 "src/retrolix/graphColoring.ml" 524 14742 14750
+)
+"src/retrolix/graphColoring.ml" 504 14192 14209 "src/retrolix/graphColoring.ml" 504 14192 14211
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+type(
+  GC.Graph.t
+)
+ident(
+  def g "src/retrolix/graphColoring.ml" 508 14283 14289 "src/retrolix/graphColoring.ml" 519 14635 14683
+)
+"src/retrolix/graphColoring.ml" 505 14214 14228 "src/retrolix/graphColoring.ml" 505 14214 14240
+type(
+  unit -> GC.Graph.t
+)
+ident(
+  int_ref random_graph "src/retrolix/graphColoring.ml" 473 13329 13337 "src/retrolix/graphColoring.ml" 473 13329 13349
+)
+"src/retrolix/graphColoring.ml" 505 14214 14241 "src/retrolix/graphColoring.ml" 505 14214 14243
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 505 14214 14228 "src/retrolix/graphColoring.ml" 505 14214 14243
+call(
+  stack
+)
+type(
+  GC.Graph.t
+)
+"src/retrolix/graphColoring.ml" 508 14283 14292 "src/retrolix/graphColoring.ml" 508 14283 14296
+type(
+  bool
+)
+ident(
+  int_ref show "src/retrolix/graphColoring.ml" 440 12435 12441 "src/retrolix/graphColoring.ml" 440 12435 12445
+)
+"src/retrolix/graphColoring.ml" 508 14283 14302 "src/retrolix/graphColoring.ml" 508 14283 14312
+type(
+  GC.Graph.t -> (NodeLabel.t -> string option) -> unit
+)
+ident(
+  ext_ref GC.Graph.show
+)
+"src/retrolix/graphColoring.ml" 508 14283 14313 "src/retrolix/graphColoring.ml" 508 14283 14314
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 508 14283 14320 "src/retrolix/graphColoring.ml" 508 14283 14321
+type(
+  NodeLabel.t
+)
+"src/retrolix/graphColoring.ml" 508 14283 14325 "src/retrolix/graphColoring.ml" 508 14283 14329
+type(
+  string option
+)
+"src/retrolix/graphColoring.ml" 508 14283 14315 "src/retrolix/graphColoring.ml" 508 14283 14330
+type(
+  NodeLabel.t -> string option
+)
+"src/retrolix/graphColoring.ml" 508 14283 14302 "src/retrolix/graphColoring.ml" 508 14283 14330
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 508 14283 14289 "src/retrolix/graphColoring.ml" 508 14283 14330
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 510 14367 14377 "src/retrolix/graphColoring.ml" 510 14367 14385
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  def coloring "src/retrolix/graphColoring.ml" 512 14434 14440 "src/retrolix/graphColoring.ml" 519 14635 14683
+)
+"src/retrolix/graphColoring.ml" 510 14367 14388 "src/retrolix/graphColoring.ml" 510 14367 14396
+type(
+  GC.Graph.t -> Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  int_ref GC.colorize "src/retrolix/graphColoring.ml" 277 7935 7945 "src/retrolix/graphColoring.ml" 277 7935 7953
+)
+"src/retrolix/graphColoring.ml" 510 14367 14397 "src/retrolix/graphColoring.ml" 510 14367 14398
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 510 14367 14388 "src/retrolix/graphColoring.ml" 510 14367 14398
+call(
+  stack
+)
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+"src/retrolix/graphColoring.ml" 512 14434 14443 "src/retrolix/graphColoring.ml" 512 14434 14447
+type(
+  bool
+)
+ident(
+  int_ref show "src/retrolix/graphColoring.ml" 440 12435 12441 "src/retrolix/graphColoring.ml" 440 12435 12445
+)
+"src/retrolix/graphColoring.ml" 512 14434 14453 "src/retrolix/graphColoring.ml" 512 14434 14466
+type(
+  GC.Graph.t -> Colors.t option GC.NodeLabelMap.t -> unit
+)
+ident(
+  int_ref show_coloring "src/retrolix/graphColoring.ml" 497 14022 14030 "src/retrolix/graphColoring.ml" 497 14022 14043
+)
+"src/retrolix/graphColoring.ml" 512 14434 14467 "src/retrolix/graphColoring.ml" 512 14434 14468
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 512 14434 14469 "src/retrolix/graphColoring.ml" 512 14434 14477
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 510 14367 14377 "src/retrolix/graphColoring.ml" 510 14367 14385
+)
+"src/retrolix/graphColoring.ml" 512 14434 14453 "src/retrolix/graphColoring.ml" 512 14434 14477
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 512 14434 14440 "src/retrolix/graphColoring.ml" 512 14434 14477
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 515 14522 14523 "src/retrolix/graphColoring.ml" 515 14522 14535
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/retrolix/graphColoring.ml" 515 14522 14536 "src/retrolix/graphColoring.ml" 515 14522 14553
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 515 14522 14523 "src/retrolix/graphColoring.ml" 515 14522 14553
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 516 14555 14556 "src/retrolix/graphColoring.ml" 516 14555 14571
+type(
+  GC.Graph.t -> Colors.t option GC.NodeLabelMap.t -> unit
+)
+ident(
+  int_ref GC.check_coloring' "src/retrolix/graphColoring.ml" 115 3099 3109 "src/retrolix/graphColoring.ml" 115 3099 3124
+)
+"src/retrolix/graphColoring.ml" 516 14555 14572 "src/retrolix/graphColoring.ml" 516 14555 14573
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 516 14555 14574 "src/retrolix/graphColoring.ml" 516 14555 14582
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 510 14367 14377 "src/retrolix/graphColoring.ml" 510 14367 14385
+)
+"src/retrolix/graphColoring.ml" 516 14555 14556 "src/retrolix/graphColoring.ml" 516 14555 14582
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 517 14584 14585 "src/retrolix/graphColoring.ml" 517 14584 14599
+type(
+  GC.Graph.t -> Colors.t option GC.NodeLabelMap.t -> unit
+)
+ident(
+  int_ref GC.check_coloring "src/retrolix/graphColoring.ml" 126 3372 3378 "src/retrolix/graphColoring.ml" 126 3372 3392
+)
+"src/retrolix/graphColoring.ml" 517 14584 14600 "src/retrolix/graphColoring.ml" 517 14584 14601
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 517 14584 14602 "src/retrolix/graphColoring.ml" 517 14584 14610
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 510 14367 14377 "src/retrolix/graphColoring.ml" 510 14367 14385
+)
+"src/retrolix/graphColoring.ml" 517 14584 14585 "src/retrolix/graphColoring.ml" 517 14584 14610
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 518 14612 14613 "src/retrolix/graphColoring.ml" 518 14612 14626
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/retrolix/graphColoring.ml" 518 14612 14627 "src/retrolix/graphColoring.ml" 518 14612 14633
+type(
+  string
+)
+"src/retrolix/graphColoring.ml" 518 14612 14613 "src/retrolix/graphColoring.ml" 518 14612 14634
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 517 14584 14585 "src/retrolix/graphColoring.ml" 518 14612 14634
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 516 14555 14556 "src/retrolix/graphColoring.ml" 518 14612 14634
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 515 14522 14523 "src/retrolix/graphColoring.ml" 518 14612 14634
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 519 14635 14646 "src/retrolix/graphColoring.ml" 519 14635 14647
+type(
+  exn
+)
+"src/retrolix/graphColoring.ml" 519 14635 14651 "src/retrolix/graphColoring.ml" 519 14635 14664
+type(
+  GC.Graph.t -> Colors.t option GC.NodeLabelMap.t -> unit
+)
+ident(
+  int_ref show_coloring "src/retrolix/graphColoring.ml" 497 14022 14030 "src/retrolix/graphColoring.ml" 497 14022 14043
+)
+"src/retrolix/graphColoring.ml" 519 14635 14665 "src/retrolix/graphColoring.ml" 519 14635 14666
+type(
+  GC.Graph.t
+)
+ident(
+  int_ref g "src/retrolix/graphColoring.ml" 505 14214 14224 "src/retrolix/graphColoring.ml" 505 14214 14225
+)
+"src/retrolix/graphColoring.ml" 519 14635 14667 "src/retrolix/graphColoring.ml" 519 14635 14675
+type(
+  Colors.t option GC.NodeLabelMap.t
+)
+ident(
+  int_ref coloring "src/retrolix/graphColoring.ml" 510 14367 14377 "src/retrolix/graphColoring.ml" 510 14367 14385
+)
+"src/retrolix/graphColoring.ml" 519 14635 14651 "src/retrolix/graphColoring.ml" 519 14635 14675
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 519 14635 14677 "src/retrolix/graphColoring.ml" 519 14635 14681
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/retrolix/graphColoring.ml" 519 14635 14682 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 519 14635 14677 "src/retrolix/graphColoring.ml" 519 14635 14683
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 519 14635 14651 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 514 14512 14518 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 512 14434 14440 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 510 14367 14373 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 508 14283 14289 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 505 14214 14220 "src/retrolix/graphColoring.ml" 519 14635 14683
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 522 14692 14704 "src/retrolix/graphColoring.ml" 522 14692 14705
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 522 14692 14709 "src/retrolix/graphColoring.ml" 522 14692 14716
+type(
+  int
+)
+ident(
+  int_ref nb_test "src/retrolix/graphColoring.ml" 441 12457 12463 "src/retrolix/graphColoring.ml" 441 12457 12470
+)
+"src/retrolix/graphColoring.ml" 522 14692 14717 "src/retrolix/graphColoring.ml" 522 14692 14718
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/retrolix/graphColoring.ml" 522 14692 14719 "src/retrolix/graphColoring.ml" 522 14692 14720
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 522 14692 14709 "src/retrolix/graphColoring.ml" 522 14692 14720
+type(
+  int
+)
+"src/retrolix/graphColoring.ml" 523 14724 14730 "src/retrolix/graphColoring.ml" 523 14724 14738
+type(
+  unit -> unit
+)
+ident(
+  int_ref one_test "src/retrolix/graphColoring.ml" 504 14192 14200 "src/retrolix/graphColoring.ml" 504 14192 14208
+)
+"src/retrolix/graphColoring.ml" 523 14724 14739 "src/retrolix/graphColoring.ml" 523 14724 14741
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 523 14724 14730 "src/retrolix/graphColoring.ml" 523 14724 14741
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 522 14692 14696 "src/retrolix/graphColoring.ml" 524 14742 14750
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 504 14192 14196 "src/retrolix/graphColoring.ml" 524 14742 14750
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 497 14022 14026 "src/retrolix/graphColoring.ml" 524 14742 14750
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 473 13329 13333 "src/retrolix/graphColoring.ml" 524 14742 14750
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 472 13300 13304 "src/retrolix/graphColoring.ml" 524 14742 14750
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 468 13184 13186 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 461 13016 13018 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 453 12812 12814 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 448 12701 12703 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 445 12603 12605 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 444 12546 12548 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 443 12501 12503 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 442 12479 12481 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 441 12457 12459 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)
+"src/retrolix/graphColoring.ml" 440 12435 12437 "src/retrolix/graphColoring.ml" 525 14751 14754
+type(
+  unit
+)

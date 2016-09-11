@@ -1,0 +1,3583 @@
+"src/hobix/hobixPrettyPrinter.ml" 8 97 101 "src/hobix/hobixPrettyPrinter.ml" 8 97 104
+type(
+  int32 -> PPrintEngine.document
+)
+ident(
+  def int "src/hobix/hobixPrettyPrinter.ml" 10 137 137 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 105 "src/hobix/hobixPrettyPrinter.ml" 8 97 106
+type(
+  int32
+)
+ident(
+  def i "src/hobix/hobixPrettyPrinter.ml" 8 97 109 "src/hobix/hobixPrettyPrinter.ml" 8 97 135
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 109 "src/hobix/hobixPrettyPrinter.ml" 8 97 115
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 117 "src/hobix/hobixPrettyPrinter.ml" 8 97 132
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 133 "src/hobix/hobixPrettyPrinter.ml" 8 97 134
+type(
+  int32
+)
+ident(
+  int_ref i "src/hobix/hobixPrettyPrinter.ml" 8 97 105 "src/hobix/hobixPrettyPrinter.ml" 8 97 106
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 116 "src/hobix/hobixPrettyPrinter.ml" 8 97 135
+call(
+  stack
+)
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 8 97 109 "src/hobix/hobixPrettyPrinter.ml" 8 97 135
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 10 137 141 "src/hobix/hobixPrettyPrinter.ml" 10 137 157
+type(
+  string -> ('a -> PPrintEngine.document) -> 'a list -> PPrint.document
+)
+ident(
+  def gtype_definition "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 10 137 158 "src/hobix/hobixPrettyPrinter.ml" 10 137 161
+type(
+  string
+)
+ident(
+  def sep "src/hobix/hobixPrettyPrinter.ml" 10 137 162 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+)
+"src/hobix/hobixPrettyPrinter.ml" 10 137 162 "src/hobix/hobixPrettyPrinter.ml" 10 137 166
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def what "src/hobix/hobixPrettyPrinter.ml" 10 137 167 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+)
+"src/hobix/hobixPrettyPrinter.ml" 10 137 167 "src/hobix/hobixPrettyPrinter.ml" 10 137 169
+type(
+  'a list
+)
+ident(
+  def ks "src/hobix/hobixPrettyPrinter.ml" 11 172 176 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 176 "src/hobix/hobixPrettyPrinter.ml" 11 172 182
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 183 "src/hobix/hobixPrettyPrinter.ml" 11 172 187
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 176 "src/hobix/hobixPrettyPrinter.ml" 11 172 187
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 188 "src/hobix/hobixPrettyPrinter.ml" 11 172 190
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 191 "src/hobix/hobixPrettyPrinter.ml" 11 172 196
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 12 199 205 "src/hobix/hobixPrettyPrinter.ml" 12 199 211
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 12 199 212 "src/hobix/hobixPrettyPrinter.ml" 12 199 215
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 12 199 205 "src/hobix/hobixPrettyPrinter.ml" 12 199 215
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 222 "src/hobix/hobixPrettyPrinter.ml" 13 216 224
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 225 "src/hobix/hobixPrettyPrinter.ml" 13 216 237
+type(
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 239 "src/hobix/hobixPrettyPrinter.ml" 13 216 244
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 245 "src/hobix/hobixPrettyPrinter.ml" 13 216 246
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 239 "src/hobix/hobixPrettyPrinter.ml" 13 216 246
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 247 "src/hobix/hobixPrettyPrinter.ml" 13 216 249
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 250 "src/hobix/hobixPrettyPrinter.ml" 13 216 256
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 257 "src/hobix/hobixPrettyPrinter.ml" 13 216 260
+type(
+  string
+)
+ident(
+  int_ref sep "src/hobix/hobixPrettyPrinter.ml" 10 137 158 "src/hobix/hobixPrettyPrinter.ml" 10 137 161
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 250 "src/hobix/hobixPrettyPrinter.ml" 13 216 260
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 261 "src/hobix/hobixPrettyPrinter.ml" 13 216 263
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 264 "src/hobix/hobixPrettyPrinter.ml" 13 216 269
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 270 "src/hobix/hobixPrettyPrinter.ml" 13 216 271
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 264 "src/hobix/hobixPrettyPrinter.ml" 13 216 271
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 250 "src/hobix/hobixPrettyPrinter.ml" 13 216 271
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 238 "src/hobix/hobixPrettyPrinter.ml" 13 216 272
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 273 "src/hobix/hobixPrettyPrinter.ml" 13 216 277
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref what "src/hobix/hobixPrettyPrinter.ml" 10 137 162 "src/hobix/hobixPrettyPrinter.ml" 10 137 166
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 278 "src/hobix/hobixPrettyPrinter.ml" 13 216 280
+type(
+  'a list
+)
+ident(
+  int_ref ks "src/hobix/hobixPrettyPrinter.ml" 10 137 167 "src/hobix/hobixPrettyPrinter.ml" 10 137 169
+)
+"src/hobix/hobixPrettyPrinter.ml" 13 216 225 "src/hobix/hobixPrettyPrinter.ml" 13 216 280
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 12 199 205 "src/hobix/hobixPrettyPrinter.ml" 13 216 280
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 14 281 287 "src/hobix/hobixPrettyPrinter.ml" 14 281 289
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 14 281 290 "src/hobix/hobixPrettyPrinter.ml" 14 281 296
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 14 281 297 "src/hobix/hobixPrettyPrinter.ml" 14 281 300
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 14 281 290 "src/hobix/hobixPrettyPrinter.ml" 14 281 300
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 197 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 191 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 11 172 176 "src/hobix/hobixPrettyPrinter.ml" 15 301 306
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 17 308 316 "src/hobix/hobixPrettyPrinter.ml" 17 308 323
+type(
+  HobixAST.definition list -> PPrintEngine.document
+)
+ident(
+  def program "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 17 308 324 "src/hobix/hobixPrettyPrinter.ml" 17 308 325
+type(
+  HobixAST.definition list
+)
+ident(
+  def p "src/hobix/hobixPrettyPrinter.ml" 18 328 330 "src/hobix/hobixPrettyPrinter.ml" 18 328 366
+)
+"src/hobix/hobixPrettyPrinter.ml" 18 328 330 "src/hobix/hobixPrettyPrinter.ml" 18 328 342
+type(
+  PPrintEngine.document ->
+  (HobixAST.definition -> PPrintEngine.document) ->
+  HobixAST.definition list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/hobix/hobixPrettyPrinter.ml" 18 328 343 "src/hobix/hobixPrettyPrinter.ml" 18 328 351
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.hardline
+)
+"src/hobix/hobixPrettyPrinter.ml" 18 328 352 "src/hobix/hobixPrettyPrinter.ml" 18 328 364
+type(
+  HobixAST.definition -> PPrintEngine.document
+)
+ident(
+  int_ref definition "src/hobix/hobixPrettyPrinter.ml" 20 368 372 "src/hobix/hobixPrettyPrinter.ml" 20 368 382
+)
+"src/hobix/hobixPrettyPrinter.ml" 18 328 365 "src/hobix/hobixPrettyPrinter.ml" 18 328 366
+type(
+  HobixAST.definition list
+)
+ident(
+  int_ref p "src/hobix/hobixPrettyPrinter.ml" 17 308 324 "src/hobix/hobixPrettyPrinter.ml" 17 308 325
+)
+"src/hobix/hobixPrettyPrinter.ml" 18 328 330 "src/hobix/hobixPrettyPrinter.ml" 18 328 366
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 20 368 372 "src/hobix/hobixPrettyPrinter.ml" 20 368 382
+type(
+  HobixAST.definition -> PPrintEngine.document
+)
+ident(
+  def definition "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 21 394 411 "src/hobix/hobixPrettyPrinter.ml" 21 394 412
+type(
+  HobixAST.identifier
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 22 420 424 "src/hobix/hobixPrettyPrinter.ml" 22 420 475
+)
+"src/hobix/hobixPrettyPrinter.ml" 21 394 414 "src/hobix/hobixPrettyPrinter.ml" 21 394 415
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 22 420 424 "src/hobix/hobixPrettyPrinter.ml" 22 420 475
+)
+"src/hobix/hobixPrettyPrinter.ml" 21 394 398 "src/hobix/hobixPrettyPrinter.ml" 21 394 416
+type(
+  HobixAST.definition
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 424 "src/hobix/hobixPrettyPrinter.ml" 22 420 429
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 431 "src/hobix/hobixPrettyPrinter.ml" 22 420 447
+type(
+  string ->
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+ident(
+  int_ref value_definition "src/hobix/hobixPrettyPrinter.ml" 29 680 684 "src/hobix/hobixPrettyPrinter.ml" 29 680 700
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 448 "src/hobix/hobixPrettyPrinter.ml" 22 420 453
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 455 "src/hobix/hobixPrettyPrinter.ml" 22 420 456
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 21 394 411 "src/hobix/hobixPrettyPrinter.ml" 21 394 412
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 458 "src/hobix/hobixPrettyPrinter.ml" 22 420 459
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 21 394 414 "src/hobix/hobixPrettyPrinter.ml" 21 394 415
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 454 "src/hobix/hobixPrettyPrinter.ml" 22 420 460
+type(
+  HobixAST.identifier * HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 431 "src/hobix/hobixPrettyPrinter.ml" 22 420 460
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 461 "src/hobix/hobixPrettyPrinter.ml" 22 420 463
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 464 "src/hobix/hobixPrettyPrinter.ml" 22 420 470
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 471 "src/hobix/hobixPrettyPrinter.ml" 22 420 474
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 464 "src/hobix/hobixPrettyPrinter.ml" 22 420 474
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 430 "src/hobix/hobixPrettyPrinter.ml" 22 420 475
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 22 420 424 "src/hobix/hobixPrettyPrinter.ml" 22 420 475
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 23 476 495 "src/hobix/hobixPrettyPrinter.ml" 23 476 497
+type(
+  (HobixAST.identifier * HobixAST.expression) list
+)
+ident(
+  def rv "src/hobix/hobixPrettyPrinter.ml" 24 501 505 "src/hobix/hobixPrettyPrinter.ml" 25 594 611
+)
+"src/hobix/hobixPrettyPrinter.ml" 23 476 480 "src/hobix/hobixPrettyPrinter.ml" 23 476 497
+type(
+  HobixAST.definition
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 505 "src/hobix/hobixPrettyPrinter.ml" 24 501 510
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 512 "src/hobix/hobixPrettyPrinter.ml" 24 501 518
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 519 "src/hobix/hobixPrettyPrinter.ml" 24 501 524
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 512 "src/hobix/hobixPrettyPrinter.ml" 24 501 524
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 525 "src/hobix/hobixPrettyPrinter.ml" 24 501 527
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 528 "src/hobix/hobixPrettyPrinter.ml" 24 501 540
+type(
+  PPrintEngine.document ->
+  (HobixAST.identifier * HobixAST.expression -> PPrintEngine.document) ->
+  (HobixAST.identifier * HobixAST.expression) list -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 542 "src/hobix/hobixPrettyPrinter.ml" 24 501 550
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.hardline
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 551 "src/hobix/hobixPrettyPrinter.ml" 24 501 553
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 554 "src/hobix/hobixPrettyPrinter.ml" 24 501 560
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 561 "src/hobix/hobixPrettyPrinter.ml" 24 501 566
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 554 "src/hobix/hobixPrettyPrinter.ml" 24 501 566
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 541 "src/hobix/hobixPrettyPrinter.ml" 24 501 567
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 569 "src/hobix/hobixPrettyPrinter.ml" 24 501 585
+type(
+  string ->
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+ident(
+  int_ref value_definition "src/hobix/hobixPrettyPrinter.ml" 29 680 684 "src/hobix/hobixPrettyPrinter.ml" 29 680 700
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 586 "src/hobix/hobixPrettyPrinter.ml" 24 501 588
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 568 "src/hobix/hobixPrettyPrinter.ml" 24 501 589
+call(
+  stack
+)
+type(
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 590 "src/hobix/hobixPrettyPrinter.ml" 24 501 592
+type(
+  (HobixAST.identifier * HobixAST.expression) list
+)
+ident(
+  int_ref rv "src/hobix/hobixPrettyPrinter.ml" 23 476 495 "src/hobix/hobixPrettyPrinter.ml" 23 476 497
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 528 "src/hobix/hobixPrettyPrinter.ml" 24 501 592
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 511 "src/hobix/hobixPrettyPrinter.ml" 24 501 593
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 505 "src/hobix/hobixPrettyPrinter.ml" 24 501 593
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 25 594 598 "src/hobix/hobixPrettyPrinter.ml" 25 594 600
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 25 594 601 "src/hobix/hobixPrettyPrinter.ml" 25 594 607
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 25 594 608 "src/hobix/hobixPrettyPrinter.ml" 25 594 611
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 25 594 601 "src/hobix/hobixPrettyPrinter.ml" 25 594 611
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 24 501 505 "src/hobix/hobixPrettyPrinter.ml" 25 594 611
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 26 612 630 "src/hobix/hobixPrettyPrinter.ml" 26 612 631
+type(
+  HobixAST.identifier
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 27 635 639 "src/hobix/hobixPrettyPrinter.ml" 27 635 678
+)
+"src/hobix/hobixPrettyPrinter.ml" 26 612 616 "src/hobix/hobixPrettyPrinter.ml" 26 612 631
+type(
+  HobixAST.definition
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 639 "src/hobix/hobixPrettyPrinter.ml" 27 635 644
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 646 "src/hobix/hobixPrettyPrinter.ml" 27 635 652
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 653 "src/hobix/hobixPrettyPrinter.ml" 27 635 661
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 646 "src/hobix/hobixPrettyPrinter.ml" 27 635 661
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 662 "src/hobix/hobixPrettyPrinter.ml" 27 635 664
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 665 "src/hobix/hobixPrettyPrinter.ml" 27 635 675
+type(
+  HobixAST.identifier -> PPrint.document
+)
+ident(
+  int_ref identifier "src/hobix/hobixPrettyPrinter.ml" 33 813 817 "src/hobix/hobixPrettyPrinter.ml" 33 813 827
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 676 "src/hobix/hobixPrettyPrinter.ml" 27 635 677
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 26 612 630 "src/hobix/hobixPrettyPrinter.ml" 26 612 631
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 665 "src/hobix/hobixPrettyPrinter.ml" 27 635 677
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 645 "src/hobix/hobixPrettyPrinter.ml" 27 635 678
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 27 635 639 "src/hobix/hobixPrettyPrinter.ml" 27 635 678
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 20 368 385 "src/hobix/hobixPrettyPrinter.ml" 27 635 678
+type(
+  HobixAST.definition -> PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 29 680 684 "src/hobix/hobixPrettyPrinter.ml" 29 680 700
+type(
+  string ->
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+ident(
+  def value_definition "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 29 680 701 "src/hobix/hobixPrettyPrinter.ml" 29 680 705
+type(
+  string
+)
+ident(
+  def what "src/hobix/hobixPrettyPrinter.ml" 29 680 706 "src/hobix/hobixPrettyPrinter.ml" 31 783 811
+)
+"src/hobix/hobixPrettyPrinter.ml" 29 680 707 "src/hobix/hobixPrettyPrinter.ml" 29 680 708
+type(
+  HobixAST.identifier
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 30 715 717 "src/hobix/hobixPrettyPrinter.ml" 31 783 811
+)
+"src/hobix/hobixPrettyPrinter.ml" 29 680 710 "src/hobix/hobixPrettyPrinter.ml" 29 680 711
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 30 715 717 "src/hobix/hobixPrettyPrinter.ml" 31 783 811
+)
+"src/hobix/hobixPrettyPrinter.ml" 29 680 706 "src/hobix/hobixPrettyPrinter.ml" 29 680 712
+type(
+  HobixAST.identifier * HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 717 "src/hobix/hobixPrettyPrinter.ml" 30 715 721
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 722 "src/hobix/hobixPrettyPrinter.ml" 30 715 723
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 725 "src/hobix/hobixPrettyPrinter.ml" 30 715 730
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 732 "src/hobix/hobixPrettyPrinter.ml" 30 715 737
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 739 "src/hobix/hobixPrettyPrinter.ml" 30 715 745
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 746 "src/hobix/hobixPrettyPrinter.ml" 30 715 750
+type(
+  string
+)
+ident(
+  int_ref what "src/hobix/hobixPrettyPrinter.ml" 29 680 701 "src/hobix/hobixPrettyPrinter.ml" 29 680 705
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 739 "src/hobix/hobixPrettyPrinter.ml" 30 715 750
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 751 "src/hobix/hobixPrettyPrinter.ml" 30 715 753
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 754 "src/hobix/hobixPrettyPrinter.ml" 30 715 764
+type(
+  HobixAST.identifier -> PPrint.document
+)
+ident(
+  int_ref identifier "src/hobix/hobixPrettyPrinter.ml" 33 813 817 "src/hobix/hobixPrettyPrinter.ml" 33 813 827
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 765 "src/hobix/hobixPrettyPrinter.ml" 30 715 766
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 29 680 707 "src/hobix/hobixPrettyPrinter.ml" 29 680 708
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 754 "src/hobix/hobixPrettyPrinter.ml" 30 715 766
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 739 "src/hobix/hobixPrettyPrinter.ml" 30 715 766
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 767 "src/hobix/hobixPrettyPrinter.ml" 30 715 769
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 770 "src/hobix/hobixPrettyPrinter.ml" 30 715 776
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 777 "src/hobix/hobixPrettyPrinter.ml" 30 715 781
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 770 "src/hobix/hobixPrettyPrinter.ml" 30 715 781
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 738 "src/hobix/hobixPrettyPrinter.ml" 30 715 782
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 732 "src/hobix/hobixPrettyPrinter.ml" 30 715 782
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 786 "src/hobix/hobixPrettyPrinter.ml" 31 783 788
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 789 "src/hobix/hobixPrettyPrinter.ml" 31 783 794
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 796 "src/hobix/hobixPrettyPrinter.ml" 31 783 806
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 807 "src/hobix/hobixPrettyPrinter.ml" 31 783 808
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 29 680 710 "src/hobix/hobixPrettyPrinter.ml" 29 680 711
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 795 "src/hobix/hobixPrettyPrinter.ml" 31 783 809
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 31 783 789 "src/hobix/hobixPrettyPrinter.ml" 31 783 809
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 731 "src/hobix/hobixPrettyPrinter.ml" 31 783 810
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 724 "src/hobix/hobixPrettyPrinter.ml" 31 783 811
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 30 715 717 "src/hobix/hobixPrettyPrinter.ml" 31 783 811
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 33 813 817 "src/hobix/hobixPrettyPrinter.ml" 33 813 827
+type(
+  HobixAST.identifier -> PPrint.document
+)
+ident(
+  def identifier "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 33 813 832 "src/hobix/hobixPrettyPrinter.ml" 33 813 833
+type(
+  string
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 34 837 839 "src/hobix/hobixPrettyPrinter.ml" 34 837 847
+)
+"src/hobix/hobixPrettyPrinter.ml" 33 813 828 "src/hobix/hobixPrettyPrinter.ml" 33 813 834
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 34 837 839 "src/hobix/hobixPrettyPrinter.ml" 34 837 845
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 34 837 846 "src/hobix/hobixPrettyPrinter.ml" 34 837 847
+type(
+  string
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 33 813 832 "src/hobix/hobixPrettyPrinter.ml" 33 813 833
+)
+"src/hobix/hobixPrettyPrinter.ml" 34 837 839 "src/hobix/hobixPrettyPrinter.ml" 34 837 847
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  def expression "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 37 875 887 "src/hobix/hobixPrettyPrinter.ml" 37 875 888
+type(
+  HobixAST.literal
+)
+ident(
+  def l "src/hobix/hobixPrettyPrinter.ml" 38 892 896 "src/hobix/hobixPrettyPrinter.ml" 38 892 905
+)
+"src/hobix/hobixPrettyPrinter.ml" 37 875 879 "src/hobix/hobixPrettyPrinter.ml" 37 875 888
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 38 892 896 "src/hobix/hobixPrettyPrinter.ml" 38 892 903
+type(
+  HobixAST.literal -> PPrint.document
+)
+ident(
+  int_ref literal "src/hobix/hobixPrettyPrinter.ml" 104 2564 2568 "src/hobix/hobixPrettyPrinter.ml" 104 2564 2575
+)
+"src/hobix/hobixPrettyPrinter.ml" 38 892 904 "src/hobix/hobixPrettyPrinter.ml" 38 892 905
+type(
+  HobixAST.literal
+)
+ident(
+  int_ref l "src/hobix/hobixPrettyPrinter.ml" 37 875 887 "src/hobix/hobixPrettyPrinter.ml" 37 875 888
+)
+"src/hobix/hobixPrettyPrinter.ml" 38 892 896 "src/hobix/hobixPrettyPrinter.ml" 38 892 905
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 40 907 920 "src/hobix/hobixPrettyPrinter.ml" 40 907 921
+type(
+  HobixAST.identifier
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 41 925 929 "src/hobix/hobixPrettyPrinter.ml" 41 925 941
+)
+"src/hobix/hobixPrettyPrinter.ml" 40 907 911 "src/hobix/hobixPrettyPrinter.ml" 40 907 921
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 41 925 929 "src/hobix/hobixPrettyPrinter.ml" 41 925 939
+type(
+  HobixAST.identifier -> PPrint.document
+)
+ident(
+  int_ref identifier "src/hobix/hobixPrettyPrinter.ml" 33 813 817 "src/hobix/hobixPrettyPrinter.ml" 33 813 827
+)
+"src/hobix/hobixPrettyPrinter.ml" 41 925 940 "src/hobix/hobixPrettyPrinter.ml" 41 925 941
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 40 907 920 "src/hobix/hobixPrettyPrinter.ml" 40 907 921
+)
+"src/hobix/hobixPrettyPrinter.ml" 41 925 929 "src/hobix/hobixPrettyPrinter.ml" 41 925 941
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 43 943 955 "src/hobix/hobixPrettyPrinter.ml" 43 943 956
+type(
+  HobixAST.identifier
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+)
+"src/hobix/hobixPrettyPrinter.ml" 43 943 958 "src/hobix/hobixPrettyPrinter.ml" 43 943 960
+type(
+  HobixAST.expression
+)
+ident(
+  def e1 "src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+)
+"src/hobix/hobixPrettyPrinter.ml" 43 943 962 "src/hobix/hobixPrettyPrinter.ml" 43 943 964
+type(
+  HobixAST.expression
+)
+ident(
+  def e2 "src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+)
+"src/hobix/hobixPrettyPrinter.ml" 43 943 947 "src/hobix/hobixPrettyPrinter.ml" 43 943 965
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 44 969 977
+type(
+  int -> PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 44 969 978 "src/hobix/hobixPrettyPrinter.ml" 44 969 979
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 988 "src/hobix/hobixPrettyPrinter.ml" 45 982 993
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 995 "src/hobix/hobixPrettyPrinter.ml" 45 982 1011
+type(
+  string ->
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+ident(
+  int_ref value_definition "src/hobix/hobixPrettyPrinter.ml" 29 680 684 "src/hobix/hobixPrettyPrinter.ml" 29 680 700
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1012 "src/hobix/hobixPrettyPrinter.ml" 45 982 1017
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1019 "src/hobix/hobixPrettyPrinter.ml" 45 982 1020
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 43 943 955 "src/hobix/hobixPrettyPrinter.ml" 43 943 956
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1022 "src/hobix/hobixPrettyPrinter.ml" 45 982 1024
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e1 "src/hobix/hobixPrettyPrinter.ml" 43 943 958 "src/hobix/hobixPrettyPrinter.ml" 43 943 960
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1018 "src/hobix/hobixPrettyPrinter.ml" 45 982 1025
+type(
+  HobixAST.identifier * HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 995 "src/hobix/hobixPrettyPrinter.ml" 45 982 1025
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1026 "src/hobix/hobixPrettyPrinter.ml" 45 982 1028
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1029 "src/hobix/hobixPrettyPrinter.ml" 45 982 1035
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1036 "src/hobix/hobixPrettyPrinter.ml" 45 982 1039
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 1029 "src/hobix/hobixPrettyPrinter.ml" 45 982 1039
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 45 982 994 "src/hobix/hobixPrettyPrinter.ml" 46 1040 1045
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 44 969 980 "src/hobix/hobixPrettyPrinter.ml" 46 1040 1046
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 46 1040 1046
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1051 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1053
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1054 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1059
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1061 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1071
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1072 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1074
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e2 "src/hobix/hobixPrettyPrinter.ml" 43 943 962 "src/hobix/hobixPrettyPrinter.ml" 43 943 964
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1060 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 47 1047 1054 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 44 969 973 "src/hobix/hobixPrettyPrinter.ml" 47 1047 1075
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 49 1077 1092 "src/hobix/hobixPrettyPrinter.ml" 49 1077 1094
+type(
+  (HobixAST.identifier * HobixAST.expression) list
+)
+ident(
+  def vs "src/hobix/hobixPrettyPrinter.ml" 50 1102 1106 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1275
+)
+"src/hobix/hobixPrettyPrinter.ml" 49 1077 1096 "src/hobix/hobixPrettyPrinter.ml" 49 1077 1097
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 50 1102 1106 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1275
+)
+"src/hobix/hobixPrettyPrinter.ml" 49 1077 1081 "src/hobix/hobixPrettyPrinter.ml" 49 1077 1098
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1106 "src/hobix/hobixPrettyPrinter.ml" 50 1102 1110
+type(
+  int -> PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1111 "src/hobix/hobixPrettyPrinter.ml" 50 1102 1112
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1114 "src/hobix/hobixPrettyPrinter.ml" 50 1102 1119
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 51 1122 1128 "src/hobix/hobixPrettyPrinter.ml" 51 1122 1134
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 51 1122 1135 "src/hobix/hobixPrettyPrinter.ml" 51 1122 1140
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 51 1122 1128 "src/hobix/hobixPrettyPrinter.ml" 51 1122 1140
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1147 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1149
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1150 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1162
+type(
+  PPrintEngine.document ->
+  (HobixAST.identifier * HobixAST.expression -> PPrintEngine.document) ->
+  (HobixAST.identifier * HobixAST.expression) list -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1164 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1169
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1170 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1171
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1164 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1171
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1172 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1174
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1175 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1181
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1182 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1187
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1175 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1187
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1188 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1190
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1191 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1196
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1197 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1198
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1191 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1198
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1175 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1198
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1163 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1199
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1201 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1217
+type(
+  string ->
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+ident(
+  int_ref value_definition "src/hobix/hobixPrettyPrinter.ml" 29 680 684 "src/hobix/hobixPrettyPrinter.ml" 29 680 700
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1218 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1220
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1200 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1221
+call(
+  stack
+)
+type(
+  HobixAST.identifier * HobixAST.expression -> PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1222 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1224
+type(
+  (HobixAST.identifier * HobixAST.expression) list
+)
+ident(
+  int_ref vs "src/hobix/hobixPrettyPrinter.ml" 49 1077 1092 "src/hobix/hobixPrettyPrinter.ml" 49 1077 1094
+)
+"src/hobix/hobixPrettyPrinter.ml" 52 1141 1150 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1224
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 51 1122 1128 "src/hobix/hobixPrettyPrinter.ml" 52 1141 1224
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 53 1225 1231 "src/hobix/hobixPrettyPrinter.ml" 53 1225 1233
+type(
+  PPrint.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 53 1225 1234 "src/hobix/hobixPrettyPrinter.ml" 53 1225 1240
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 53 1225 1241 "src/hobix/hobixPrettyPrinter.ml" 53 1225 1244
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 53 1225 1234 "src/hobix/hobixPrettyPrinter.ml" 53 1225 1244
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1120 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1250
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1113 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1251
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1106 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1251
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1252 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1254
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1255 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1260
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1262 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1272
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1273 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1274
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 49 1077 1096 "src/hobix/hobixPrettyPrinter.ml" 49 1077 1097
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1261 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1275
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 54 1245 1255 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1275
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 50 1102 1106 "src/hobix/hobixPrettyPrinter.ml" 54 1245 1275
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 56 1277 1286 "src/hobix/hobixPrettyPrinter.ml" 56 1277 1287
+type(
+  HobixAST.identifier
+)
+ident(
+  def p "src/hobix/hobixPrettyPrinter.ml" 57 1295 1299 "src/hobix/hobixPrettyPrinter.ml" 60 1397 1403
+)
+"src/hobix/hobixPrettyPrinter.ml" 56 1277 1289 "src/hobix/hobixPrettyPrinter.ml" 56 1277 1290
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 57 1295 1299 "src/hobix/hobixPrettyPrinter.ml" 60 1397 1403
+)
+"src/hobix/hobixPrettyPrinter.ml" 56 1277 1281 "src/hobix/hobixPrettyPrinter.ml" 56 1277 1291
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1299 "src/hobix/hobixPrettyPrinter.ml" 57 1295 1303
+type(
+  int -> PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1304 "src/hobix/hobixPrettyPrinter.ml" 57 1295 1305
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1307 "src/hobix/hobixPrettyPrinter.ml" 57 1295 1312
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1321 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1326
+type(
+  PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1328 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1334
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1335 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1339
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1328 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1339
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1340 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1342
+type(
+  PPrintEngine.document -> PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1343 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1353
+type(
+  HobixAST.identifier -> PPrint.document
+)
+ident(
+  int_ref identifier "src/hobix/hobixPrettyPrinter.ml" 33 813 817 "src/hobix/hobixPrettyPrinter.ml" 33 813 827
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1354 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1355
+type(
+  HobixAST.identifier
+)
+ident(
+  int_ref p "src/hobix/hobixPrettyPrinter.ml" 56 1277 1286 "src/hobix/hobixPrettyPrinter.ml" 56 1277 1287
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1343 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1355
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1356 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1358
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1359 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1365
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1366 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1370
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1359 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1370
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1343 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1370
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1327 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1371
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1321 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1371
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 58 1315 1372 "src/hobix/hobixPrettyPrinter.ml" 58 1315 1374
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 59 1375 1376 "src/hobix/hobixPrettyPrinter.ml" 59 1375 1381
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 59 1375 1383 "src/hobix/hobixPrettyPrinter.ml" 59 1375 1393
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 59 1375 1394 "src/hobix/hobixPrettyPrinter.ml" 59 1375 1395
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 56 1277 1289 "src/hobix/hobixPrettyPrinter.ml" 56 1277 1290
+)
+"src/hobix/hobixPrettyPrinter.ml" 59 1375 1382 "src/hobix/hobixPrettyPrinter.ml" 59 1375 1396
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 59 1375 1376 "src/hobix/hobixPrettyPrinter.ml" 59 1375 1396
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1313 "src/hobix/hobixPrettyPrinter.ml" 60 1397 1402
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1306 "src/hobix/hobixPrettyPrinter.ml" 60 1397 1403
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 57 1295 1299 "src/hobix/hobixPrettyPrinter.ml" 60 1397 1403
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 62 1405 1416 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1417
+type(
+  HobixAST.expression
+)
+ident(
+  def a "src/hobix/hobixPrettyPrinter.ml" 63 1425 1429 "src/hobix/hobixPrettyPrinter.ml" 66 1547 1552
+)
+"src/hobix/hobixPrettyPrinter.ml" 62 1405 1419 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1420
+type(
+  HobixAST.expression
+)
+ident(
+  def b "src/hobix/hobixPrettyPrinter.ml" 63 1425 1429 "src/hobix/hobixPrettyPrinter.ml" 66 1547 1552
+)
+"src/hobix/hobixPrettyPrinter.ml" 62 1405 1409 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1421
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 63 1425 1429 "src/hobix/hobixPrettyPrinter.ml" 63 1425 1434
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1443 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1472
+type(
+  HobixAST.expression -> PPrint.document -> PPrint.document
+)
+ident(
+  int_ref parens_at_left_of_application "src/hobix/hobixPrettyPrinter.ml" 122 2916 2920 "src/hobix/hobixPrettyPrinter.ml" 122 2916 2949
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1473 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1474
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref a "src/hobix/hobixPrettyPrinter.ml" 62 1405 1416 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1417
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1476 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1486
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1487 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1488
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref a "src/hobix/hobixPrettyPrinter.ml" 62 1405 1416 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1417
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1475 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1489
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 64 1437 1443 "src/hobix/hobixPrettyPrinter.ml" 64 1437 1489
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1496 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1498
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1499 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1529
+type(
+  HobixAST.expression -> PPrint.document -> PPrint.document
+)
+ident(
+  int_ref parens_at_right_of_application "src/hobix/hobixPrettyPrinter.ml" 127 3037 3041 "src/hobix/hobixPrettyPrinter.ml" 127 3037 3071
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1530 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1531
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref b "src/hobix/hobixPrettyPrinter.ml" 62 1405 1419 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1420
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1533 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1543
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1544 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1545
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref b "src/hobix/hobixPrettyPrinter.ml" 62 1405 1419 "src/hobix/hobixPrettyPrinter.ml" 62 1405 1420
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1532 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1546
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 65 1490 1499 "src/hobix/hobixPrettyPrinter.ml" 65 1490 1546
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 63 1425 1435 "src/hobix/hobixPrettyPrinter.ml" 66 1547 1552
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 63 1425 1429 "src/hobix/hobixPrettyPrinter.ml" 66 1547 1552
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 68 1554 1570 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1571
+type(
+  HobixAST.expression
+)
+ident(
+  def c "src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+)
+"src/hobix/hobixPrettyPrinter.ml" 68 1554 1573 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1574
+type(
+  HobixAST.expression
+)
+ident(
+  def t "src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+)
+"src/hobix/hobixPrettyPrinter.ml" 68 1554 1576 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1577
+type(
+  HobixAST.expression
+)
+ident(
+  def f "src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+)
+"src/hobix/hobixPrettyPrinter.ml" 68 1554 1558 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1578
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 69 1582 1590
+type(
+  int -> PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1591 "src/hobix/hobixPrettyPrinter.ml" 69 1582 1592
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1594 "src/hobix/hobixPrettyPrinter.ml" 69 1582 1599
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1608 "src/hobix/hobixPrettyPrinter.ml" 70 1602 1613
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1615 "src/hobix/hobixPrettyPrinter.ml" 70 1602 1621
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1622 "src/hobix/hobixPrettyPrinter.ml" 70 1602 1626
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1615 "src/hobix/hobixPrettyPrinter.ml" 70 1602 1626
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1640 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1642
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1643 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1648
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1650 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1660
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1661 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1662
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref c "src/hobix/hobixPrettyPrinter.ml" 68 1554 1570 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1571
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1649 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1663
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 71 1627 1643 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1663
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1615 "src/hobix/hobixPrettyPrinter.ml" 71 1627 1663
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 72 1664 1677 "src/hobix/hobixPrettyPrinter.ml" 72 1664 1679
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 72 1664 1680 "src/hobix/hobixPrettyPrinter.ml" 72 1664 1686
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 72 1664 1687 "src/hobix/hobixPrettyPrinter.ml" 72 1664 1693
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 72 1664 1680 "src/hobix/hobixPrettyPrinter.ml" 72 1664 1693
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1614 "src/hobix/hobixPrettyPrinter.ml" 73 1694 1701
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 70 1602 1608 "src/hobix/hobixPrettyPrinter.ml" 73 1694 1701
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1708 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1710
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1711 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1716
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1718 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1728
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1729 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1730
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref t "src/hobix/hobixPrettyPrinter.ml" 68 1554 1573 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1574
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1717 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1731
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 74 1702 1711 "src/hobix/hobixPrettyPrinter.ml" 74 1702 1731
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1600 "src/hobix/hobixPrettyPrinter.ml" 75 1732 1737
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1593 "src/hobix/hobixPrettyPrinter.ml" 75 1732 1738
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 75 1732 1738
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1743 "src/hobix/hobixPrettyPrinter.ml" 76 1739 1745
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1746 "src/hobix/hobixPrettyPrinter.ml" 76 1739 1750
+type(
+  int -> PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1751 "src/hobix/hobixPrettyPrinter.ml" 76 1739 1752
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1754 "src/hobix/hobixPrettyPrinter.ml" 76 1739 1759
+type(
+  PPrint.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 77 1762 1768 "src/hobix/hobixPrettyPrinter.ml" 77 1762 1774
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 77 1762 1775 "src/hobix/hobixPrettyPrinter.ml" 77 1762 1781
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 77 1762 1768 "src/hobix/hobixPrettyPrinter.ml" 77 1762 1781
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1788 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1790
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1791 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1796
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1798 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1808
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1809 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1810
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref f "src/hobix/hobixPrettyPrinter.ml" 68 1554 1576 "src/hobix/hobixPrettyPrinter.ml" 68 1554 1577
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1797 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1811
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 78 1782 1791 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1811
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 77 1762 1768 "src/hobix/hobixPrettyPrinter.ml" 78 1782 1811
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 79 1812 1818 "src/hobix/hobixPrettyPrinter.ml" 79 1812 1820
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 79 1812 1821 "src/hobix/hobixPrettyPrinter.ml" 79 1812 1827
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 79 1812 1828 "src/hobix/hobixPrettyPrinter.ml" 79 1812 1832
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 79 1812 1821 "src/hobix/hobixPrettyPrinter.ml" 79 1812 1832
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1760 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1838
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1753 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 76 1739 1746 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 69 1582 1586 "src/hobix/hobixPrettyPrinter.ml" 80 1833 1839
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 82 1841 1857 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1859
+type(
+  HobixAST.expression
+)
+ident(
+  def e1 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1876 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1952
+)
+"src/hobix/hobixPrettyPrinter.ml" 82 1841 1861 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1863
+type(
+  HobixAST.expression
+)
+ident(
+  def e2 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1876 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1952
+)
+"src/hobix/hobixPrettyPrinter.ml" 82 1841 1865 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1867
+type(
+  HobixAST.expression
+)
+ident(
+  def e3 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1876 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1952
+)
+"src/hobix/hobixPrettyPrinter.ml" 82 1841 1845 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1868
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1876 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1886
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1922 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1935
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1918 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1936
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1909 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1936
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1938 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1940
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e1 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1857 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1859
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1902 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1941
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1943 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1945
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e2 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1861 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1863
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1895 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1946
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1948 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1950
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e3 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1865 "src/hobix/hobixPrettyPrinter.ml" 82 1841 1867
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1887 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1952
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 83 1872 1876 "src/hobix/hobixPrettyPrinter.ml" 83 1872 1952
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 85 1954 1969 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1971
+type(
+  HobixAST.expression
+)
+ident(
+  def e1 "src/hobix/hobixPrettyPrinter.ml" 86 1980 1984 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2047
+)
+"src/hobix/hobixPrettyPrinter.ml" 85 1954 1973 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1975
+type(
+  HobixAST.expression
+)
+ident(
+  def e2 "src/hobix/hobixPrettyPrinter.ml" 86 1980 1984 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2047
+)
+"src/hobix/hobixPrettyPrinter.ml" 85 1954 1958 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1976
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 1984 "src/hobix/hobixPrettyPrinter.ml" 86 1980 1994
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2023 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2035
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2019 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2036
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2010 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2036
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2038 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2040
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e1 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1969 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1971
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2003 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2041
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 2043 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2045
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e2 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1973 "src/hobix/hobixPrettyPrinter.ml" 85 1954 1975
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 1995 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2047
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 86 1980 1984 "src/hobix/hobixPrettyPrinter.ml" 86 1980 2047
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 88 2049 2067 "src/hobix/hobixPrettyPrinter.ml" 88 2049 2069
+type(
+  HobixAST.expression
+)
+ident(
+  def e1 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2077 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2132
+)
+"src/hobix/hobixPrettyPrinter.ml" 88 2049 2053 "src/hobix/hobixPrettyPrinter.ml" 88 2049 2069
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2077 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2087
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2109 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2125
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2105 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2126
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2096 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2126
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2128 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2130
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e1 "src/hobix/hobixPrettyPrinter.ml" 88 2049 2067 "src/hobix/hobixPrettyPrinter.ml" 88 2049 2069
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2088 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2132
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 89 2073 2077 "src/hobix/hobixPrettyPrinter.ml" 89 2073 2132
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 91 2134 2146 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2147
+type(
+  HobixAST.expression
+)
+ident(
+  def i "src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+)
+"src/hobix/hobixPrettyPrinter.ml" 91 2134 2149 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2151
+type(
+  HobixAST.expression array
+)
+ident(
+  def bs "src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+)
+"src/hobix/hobixPrettyPrinter.ml" 91 2134 2153 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2160
+type(
+  HobixAST.expression option
+)
+ident(
+  def default "src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+)
+"src/hobix/hobixPrettyPrinter.ml" 91 2134 2138 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2161
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2174
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2176 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2182
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2183 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2191
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2176 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2191
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2192 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2194
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2195 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2205
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2206 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2207
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref i "src/hobix/hobixPrettyPrinter.ml" 91 2134 2146 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2147
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2195 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2207
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2176 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2207
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2208 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2210
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2211 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2217
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2218 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2222
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2211 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2222
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2175 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2223
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 92 2165 2223
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 93 2224 2228 "src/hobix/hobixPrettyPrinter.ml" 93 2224 2230
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 93 2224 2231 "src/hobix/hobixPrettyPrinter.ml" 93 2224 2236
+type(
+  PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2245 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2257
+type(
+  PPrintEngine.document ->
+  (HobixAST.expression -> PPrint.document) ->
+  HobixAST.expression list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2259 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2265
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2266 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2269
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2259 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2269
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2270 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2272
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2273 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2278
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2279 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2280
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2273 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2280
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2258 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2281
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2282 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2292
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2294 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2307
+type(
+  HobixAST.expression array -> HobixAST.expression list
+)
+ident(
+  ext_ref Array.to_list
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2308 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2310
+type(
+  HobixAST.expression array
+)
+ident(
+  int_ref bs "src/hobix/hobixPrettyPrinter.ml" 91 2134 2149 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2151
+)
+"src/hobix/hobixPrettyPrinter.ml" 94 2239 2293 "src/hobix/hobixPrettyPrinter.ml" 94 2239 2311
+call(
+  stack
+)
+type(
+  HobixAST.expression list
+)
+"src/hobix/hobixPrettyPrinter.ml" 93 2224 2237 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2317
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 93 2224 2231 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2317
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2317
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2318 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2320
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2321 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2327
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2328 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2337
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2321 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2337
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2337
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2338 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2340
+type(
+  PPrint.document -> PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref ExtPPrint.( ++ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2353 "src/hobix/hobixPrettyPrinter.ml" 95 2312 2360
+type(
+  HobixAST.expression option
+)
+ident(
+  int_ref default "src/hobix/hobixPrettyPrinter.ml" 91 2134 2153 "src/hobix/hobixPrettyPrinter.ml" 91 2134 2160
+)
+"src/hobix/hobixPrettyPrinter.ml" 96 2366 2374 "src/hobix/hobixPrettyPrinter.ml" 96 2366 2378
+type(
+  HobixAST.expression option
+)
+"src/hobix/hobixPrettyPrinter.ml" 96 2366 2382 "src/hobix/hobixPrettyPrinter.ml" 96 2366 2388
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 96 2366 2389 "src/hobix/hobixPrettyPrinter.ml" 96 2366 2398
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 96 2366 2382 "src/hobix/hobixPrettyPrinter.ml" 96 2366 2398
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 97 2399 2412 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2413
+type(
+  HobixAST.expression
+)
+ident(
+  def t "src/hobix/hobixPrettyPrinter.ml" 97 2399 2417 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2429
+)
+"src/hobix/hobixPrettyPrinter.ml" 97 2399 2407 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2413
+type(
+  HobixAST.expression option
+)
+"src/hobix/hobixPrettyPrinter.ml" 97 2399 2417 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2427
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 97 2399 2428 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2429
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref t "src/hobix/hobixPrettyPrinter.ml" 97 2399 2412 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2413
+)
+"src/hobix/hobixPrettyPrinter.ml" 97 2399 2417 "src/hobix/hobixPrettyPrinter.ml" 97 2399 2429
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 95 2312 2341 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 92 2165 2169 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 36 849 866 "src/hobix/hobixPrettyPrinter.ml" 98 2430 2437
+type(
+  HobixAST.expression -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 100 2439 2443 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2463
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  def may_paren_expression "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 100 2439 2464 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2465
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 100 2439 2468 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2562
+)
+"src/hobix/hobixPrettyPrinter.ml" 100 2439 2474 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2475
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 100 2439 2464 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2465
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2489 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2490
+type(
+  HobixAST.expression
+)
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2485 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2490
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2500 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2501
+type(
+  HobixAST.expression
+)
+type(
+  HobixAST.expression
+)
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2493 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2501
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2485 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2501
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2514 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2515
+type(
+  HobixAST.expression
+)
+type(
+  (HobixAST.identifier * HobixAST.expression) list
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2504 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2515
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2485 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2515
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2519 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2525
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2527 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2537
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2538 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2539
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 100 2439 2464 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2465
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2526 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2540
+call(
+  stack
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 101 2481 2519 "src/hobix/hobixPrettyPrinter.ml" 101 2481 2540
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 102 2541 2545 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2546
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 102 2541 2550 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2560
+type(
+  HobixAST.expression -> PPrint.document
+)
+ident(
+  int_ref expression "src/hobix/hobixPrettyPrinter.ml" 36 849 853 "src/hobix/hobixPrettyPrinter.ml" 36 849 863
+)
+"src/hobix/hobixPrettyPrinter.ml" 102 2541 2561 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2562
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 100 2439 2464 "src/hobix/hobixPrettyPrinter.ml" 100 2439 2465
+)
+"src/hobix/hobixPrettyPrinter.ml" 102 2541 2550 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2562
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 100 2439 2468 "src/hobix/hobixPrettyPrinter.ml" 102 2541 2562
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 104 2564 2568 "src/hobix/hobixPrettyPrinter.ml" 104 2564 2575
+type(
+  HobixAST.literal -> PPrint.document
+)
+ident(
+  def literal "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 105 2587 2596 "src/hobix/hobixPrettyPrinter.ml" 105 2587 2597
+type(
+  Int32.t
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 106 2601 2605 "src/hobix/hobixPrettyPrinter.ml" 106 2601 2610
+)
+"src/hobix/hobixPrettyPrinter.ml" 105 2587 2591 "src/hobix/hobixPrettyPrinter.ml" 105 2587 2597
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 106 2601 2605 "src/hobix/hobixPrettyPrinter.ml" 106 2601 2608
+type(
+  Int32.t -> PPrint.document
+)
+ident(
+  int_ref int "src/hobix/hobixPrettyPrinter.ml" 8 97 101 "src/hobix/hobixPrettyPrinter.ml" 8 97 104
+)
+"src/hobix/hobixPrettyPrinter.ml" 106 2601 2609 "src/hobix/hobixPrettyPrinter.ml" 106 2601 2610
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 105 2587 2596 "src/hobix/hobixPrettyPrinter.ml" 105 2587 2597
+)
+"src/hobix/hobixPrettyPrinter.ml" 106 2601 2605 "src/hobix/hobixPrettyPrinter.ml" 106 2601 2610
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 107 2611 2621 "src/hobix/hobixPrettyPrinter.ml" 107 2611 2622
+type(
+  char
+)
+ident(
+  def c "src/hobix/hobixPrettyPrinter.ml" 108 2626 2630 "src/hobix/hobixPrettyPrinter.ml" 108 2626 2636
+)
+"src/hobix/hobixPrettyPrinter.ml" 107 2611 2615 "src/hobix/hobixPrettyPrinter.ml" 107 2611 2622
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 108 2626 2630 "src/hobix/hobixPrettyPrinter.ml" 108 2626 2634
+type(
+  char -> PPrint.document
+)
+ident(
+  int_ref char "src/hobix/hobixPrettyPrinter.ml" 116 2750 2754 "src/hobix/hobixPrettyPrinter.ml" 116 2750 2758
+)
+"src/hobix/hobixPrettyPrinter.ml" 108 2626 2635 "src/hobix/hobixPrettyPrinter.ml" 108 2626 2636
+type(
+  char
+)
+ident(
+  int_ref c "src/hobix/hobixPrettyPrinter.ml" 107 2611 2621 "src/hobix/hobixPrettyPrinter.ml" 107 2611 2622
+)
+"src/hobix/hobixPrettyPrinter.ml" 108 2626 2630 "src/hobix/hobixPrettyPrinter.ml" 108 2626 2636
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 109 2637 2649 "src/hobix/hobixPrettyPrinter.ml" 109 2637 2650
+type(
+  string
+)
+ident(
+  def s "src/hobix/hobixPrettyPrinter.ml" 110 2654 2658 "src/hobix/hobixPrettyPrinter.ml" 110 2654 2674
+)
+"src/hobix/hobixPrettyPrinter.ml" 109 2637 2641 "src/hobix/hobixPrettyPrinter.ml" 109 2637 2650
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 110 2654 2658 "src/hobix/hobixPrettyPrinter.ml" 110 2654 2672
+type(
+  string -> PPrint.document
+)
+ident(
+  int_ref string_literal "src/hobix/hobixPrettyPrinter.ml" 119 2826 2830 "src/hobix/hobixPrettyPrinter.ml" 119 2826 2844
+)
+"src/hobix/hobixPrettyPrinter.ml" 110 2654 2673 "src/hobix/hobixPrettyPrinter.ml" 110 2654 2674
+type(
+  string
+)
+ident(
+  int_ref s "src/hobix/hobixPrettyPrinter.ml" 109 2637 2649 "src/hobix/hobixPrettyPrinter.ml" 109 2637 2650
+)
+"src/hobix/hobixPrettyPrinter.ml" 110 2654 2658 "src/hobix/hobixPrettyPrinter.ml" 110 2654 2674
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 111 2675 2685 "src/hobix/hobixPrettyPrinter.ml" 111 2675 2689
+type(
+  bool
+)
+"src/hobix/hobixPrettyPrinter.ml" 111 2675 2679 "src/hobix/hobixPrettyPrinter.ml" 111 2675 2689
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 112 2693 2697 "src/hobix/hobixPrettyPrinter.ml" 112 2693 2703
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 112 2693 2704 "src/hobix/hobixPrettyPrinter.ml" 112 2693 2710
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 112 2693 2697 "src/hobix/hobixPrettyPrinter.ml" 112 2693 2710
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 113 2711 2721 "src/hobix/hobixPrettyPrinter.ml" 113 2711 2726
+type(
+  bool
+)
+"src/hobix/hobixPrettyPrinter.ml" 113 2711 2715 "src/hobix/hobixPrettyPrinter.ml" 113 2711 2726
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 114 2730 2734 "src/hobix/hobixPrettyPrinter.ml" 114 2730 2740
+type(
+  string -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 114 2730 2741 "src/hobix/hobixPrettyPrinter.ml" 114 2730 2748
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 114 2730 2734 "src/hobix/hobixPrettyPrinter.ml" 114 2730 2748
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 104 2564 2578 "src/hobix/hobixPrettyPrinter.ml" 114 2730 2748
+type(
+  HobixAST.literal -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 116 2750 2754 "src/hobix/hobixPrettyPrinter.ml" 116 2750 2758
+type(
+  char -> PPrint.document
+)
+ident(
+  def char "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 116 2750 2759 "src/hobix/hobixPrettyPrinter.ml" 116 2750 2760
+type(
+  char
+)
+ident(
+  def c "src/hobix/hobixPrettyPrinter.ml" 117 2763 2765 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2824
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2765 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2770
+type(
+  PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2772 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2778
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2779 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2782
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2772 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2782
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2783 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2785
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2786 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2792
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2794 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2806
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2807 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2808
+type(
+  char
+)
+ident(
+  int_ref c "src/hobix/hobixPrettyPrinter.ml" 116 2750 2759 "src/hobix/hobixPrettyPrinter.ml" 116 2750 2760
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2793 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2809
+call(
+  stack
+)
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2786 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2809
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2810 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2812
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2813 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2819
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2820 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2823
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2813 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2823
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2786 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2823
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2771 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2824
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 117 2763 2765 "src/hobix/hobixPrettyPrinter.ml" 117 2763 2824
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 119 2826 2830 "src/hobix/hobixPrettyPrinter.ml" 119 2826 2844
+type(
+  string -> PPrint.document
+)
+ident(
+  def string_literal "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 119 2826 2845 "src/hobix/hobixPrettyPrinter.ml" 119 2826 2846
+type(
+  string
+)
+ident(
+  def s "src/hobix/hobixPrettyPrinter.ml" 120 2849 2851 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2914
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2851 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2856
+type(
+  PPrintEngine.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2858 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2864
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2865 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2869
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2858 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2869
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2870 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2872
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2873 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2879
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2881 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2895
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2896 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2897
+type(
+  string
+)
+ident(
+  int_ref s "src/hobix/hobixPrettyPrinter.ml" 119 2826 2845 "src/hobix/hobixPrettyPrinter.ml" 119 2826 2846
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2880 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2898
+call(
+  stack
+)
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2873 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2898
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2899 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2901
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2902 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2908
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2909 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2913
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2902 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2913
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2873 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2913
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2857 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2914
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 120 2849 2851 "src/hobix/hobixPrettyPrinter.ml" 120 2849 2914
+call(
+  tail
+)
+type(
+  PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 122 2916 2920 "src/hobix/hobixPrettyPrinter.ml" 122 2916 2949
+type(
+  HobixAST.expression -> PPrint.document -> PPrint.document
+)
+ident(
+  def parens_at_left_of_application "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 122 2916 2950 "src/hobix/hobixPrettyPrinter.ml" 122 2916 2951
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 123 2954 2956 "src/hobix/hobixPrettyPrinter.ml" 125 3020 3035
+)
+"src/hobix/hobixPrettyPrinter.ml" 123 2954 2962 "src/hobix/hobixPrettyPrinter.ml" 123 2954 2963
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 122 2916 2950 "src/hobix/hobixPrettyPrinter.ml" 122 2916 2951
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2979 "src/hobix/hobixPrettyPrinter.ml" 124 2969 2980
+type(
+  HobixAST.expression
+)
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2973 "src/hobix/hobixPrettyPrinter.ml" 124 2969 2980
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2992 "src/hobix/hobixPrettyPrinter.ml" 124 2969 2993
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2983 "src/hobix/hobixPrettyPrinter.ml" 124 2969 2993
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2973 "src/hobix/hobixPrettyPrinter.ml" 124 2969 2993
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 3004 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3005
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2996 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3005
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 2973 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3005
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 3013 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3014
+type(
+  PPrint.document
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 124 2969 3018 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3019
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 3018 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3019
+type(
+  PPrint.document
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 124 2969 3013 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3014
+)
+"src/hobix/hobixPrettyPrinter.ml" 124 2969 3009 "src/hobix/hobixPrettyPrinter.ml" 124 2969 3019
+type(
+  PPrint.document -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 125 3020 3024 "src/hobix/hobixPrettyPrinter.ml" 125 3020 3025
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 125 3020 3029 "src/hobix/hobixPrettyPrinter.ml" 125 3020 3035
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/hobix/hobixPrettyPrinter.ml" 123 2954 2956 "src/hobix/hobixPrettyPrinter.ml" 125 3020 3035
+type(
+  PPrint.document -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 127 3037 3041 "src/hobix/hobixPrettyPrinter.ml" 127 3037 3071
+type(
+  HobixAST.expression -> PPrint.document -> PPrint.document
+)
+ident(
+  def parens_at_right_of_application "src/hobix/hobixPrettyPrinter.ml" 17 308 308 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 127 3037 3072 "src/hobix/hobixPrettyPrinter.ml" 127 3037 3073
+type(
+  HobixAST.expression
+)
+ident(
+  def e "src/hobix/hobixPrettyPrinter.ml" 128 3076 3078 "src/hobix/hobixPrettyPrinter.ml" 130 3132 3147
+)
+"src/hobix/hobixPrettyPrinter.ml" 128 3076 3084 "src/hobix/hobixPrettyPrinter.ml" 128 3076 3085
+type(
+  HobixAST.expression
+)
+ident(
+  int_ref e "src/hobix/hobixPrettyPrinter.ml" 127 3037 3072 "src/hobix/hobixPrettyPrinter.ml" 127 3037 3073
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3104 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3105
+type(
+  HobixAST.identifier
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3095 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3105
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3116 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3117
+type(
+  HobixAST.literal
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3108 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3117
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3095 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3117
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3125 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3126
+type(
+  PPrint.document
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 129 3091 3130 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3131
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3130 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3131
+type(
+  PPrint.document
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 129 3091 3125 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3126
+)
+"src/hobix/hobixPrettyPrinter.ml" 129 3091 3121 "src/hobix/hobixPrettyPrinter.ml" 129 3091 3131
+type(
+  PPrint.document -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 130 3132 3136 "src/hobix/hobixPrettyPrinter.ml" 130 3132 3137
+type(
+  HobixAST.expression
+)
+"src/hobix/hobixPrettyPrinter.ml" 130 3132 3141 "src/hobix/hobixPrettyPrinter.ml" 130 3132 3147
+type(
+  PPrint.document -> PPrint.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/hobix/hobixPrettyPrinter.ml" 128 3076 3078 "src/hobix/hobixPrettyPrinter.ml" 130 3132 3147
+type(
+  PPrint.document -> PPrint.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 132 3149 3153 "src/hobix/hobixPrettyPrinter.ml" 132 3149 3162
+type(
+  ('a -> PPrintEngine.ToBuffer.document) -> 'a -> string
+)
+ident(
+  def to_string "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252 "src/hobix/hobixPrettyPrinter.ml" 1 0 -1
+)
+"src/hobix/hobixPrettyPrinter.ml" 132 3149 3163 "src/hobix/hobixPrettyPrinter.ml" 132 3149 3164
+type(
+  'a -> PPrintEngine.ToBuffer.document
+)
+ident(
+  def f "src/hobix/hobixPrettyPrinter.ml" 132 3149 3165 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+)
+"src/hobix/hobixPrettyPrinter.ml" 132 3149 3165 "src/hobix/hobixPrettyPrinter.ml" 132 3149 3166
+type(
+  'a
+)
+ident(
+  def x "src/hobix/hobixPrettyPrinter.ml" 133 3169 3171 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+)
+"src/hobix/hobixPrettyPrinter.ml" 133 3169 3175 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3176
+type(
+  Buffer.t
+)
+ident(
+  def b "src/hobix/hobixPrettyPrinter.ml" 134 3199 3201 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+)
+"src/hobix/hobixPrettyPrinter.ml" 133 3169 3179 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3192
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/hobix/hobixPrettyPrinter.ml" 133 3169 3193 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3195
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 133 3169 3179 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3195
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3201 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3216
+type(
+  float ->
+  int ->
+  PPrintEngine.ToBuffer.channel -> PPrintEngine.ToBuffer.document -> unit
+)
+ident(
+  ext_ref PPrintEngine.ToBuffer.pretty
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3217 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3220
+type(
+  float
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3221 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3223
+type(
+  int
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3224 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3225
+type(
+  PPrintEngine.ToBuffer.channel
+)
+ident(
+  int_ref b "src/hobix/hobixPrettyPrinter.ml" 133 3169 3175 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3176
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3227 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3228
+type(
+  'a -> PPrintEngine.ToBuffer.document
+)
+ident(
+  int_ref f "src/hobix/hobixPrettyPrinter.ml" 132 3149 3163 "src/hobix/hobixPrettyPrinter.ml" 132 3149 3164
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3229 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3230
+type(
+  'a
+)
+ident(
+  int_ref x "src/hobix/hobixPrettyPrinter.ml" 132 3149 3165 "src/hobix/hobixPrettyPrinter.ml" 132 3149 3166
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3226 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3231
+call(
+  stack
+)
+type(
+  PPrintEngine.ToBuffer.document
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3201 "src/hobix/hobixPrettyPrinter.ml" 134 3199 3231
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hobix/hobixPrettyPrinter.ml" 135 3233 3235 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3250
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/hobix/hobixPrettyPrinter.ml" 135 3233 3251 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/hobix/hobixPrettyPrinter.ml" 133 3169 3175 "src/hobix/hobixPrettyPrinter.ml" 133 3169 3176
+)
+"src/hobix/hobixPrettyPrinter.ml" 135 3233 3235 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+call(
+  tail
+)
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 134 3199 3201 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+type(
+  string
+)
+"src/hobix/hobixPrettyPrinter.ml" 133 3169 3171 "src/hobix/hobixPrettyPrinter.ml" 135 3233 3252
+type(
+  string
+)

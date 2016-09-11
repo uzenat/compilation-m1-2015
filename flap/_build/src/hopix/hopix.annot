@@ -1,0 +1,260 @@
+"src/hopix/hopix.ml" 2 39 43 "src/hopix/hopix.ml" 2 39 47
+type(
+  string
+)
+ident(
+  def name "src/hopix/hopix.ml" 4 59 59 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 2 39 50 "src/hopix/hopix.ml" 2 39 57
+type(
+  string
+)
+"src/hopix/hopix.ml" 8 105 109 "src/hopix/hopix.ml" 8 105 114
+type(
+  ('a -> Lexing.lexbuf) -> 'a -> HopixAST.t
+)
+ident(
+  def parse "src/hopix/hopix.ml" 15 258 258 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 8 105 115 "src/hopix/hopix.ml" 8 105 125
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  def lexer_init "src/hopix/hopix.ml" 8 105 126 "src/hopix/hopix.ml" 13 246 256
+)
+"src/hopix/hopix.ml" 8 105 126 "src/hopix/hopix.ml" 8 105 131
+type(
+  'a
+)
+ident(
+  def input "src/hopix/hopix.ml" 9 134 136 "src/hopix/hopix.ml" 13 246 256
+)
+"src/hopix/hopix.ml" 9 134 136 "src/hopix/hopix.ml" 9 134 161
+type(
+  lexer_init:('a -> Lexing.lexbuf) ->
+  lexer_fun:(Lexing.lexbuf -> HopixParser.token) ->
+  parser_fun:((Lexing.lexbuf -> HopixParser.token) ->
+              Lexing.lexbuf -> HopixAST.t) ->
+  input:'a -> HopixAST.t
+)
+ident(
+  ext_ref SyntacticAnalysis.process
+)
+"src/hopix/hopix.ml" 10 162 167 "src/hopix/hopix.ml" 10 162 177
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  int_ref lexer_init "src/hopix/hopix.ml" 8 105 115 "src/hopix/hopix.ml" 8 105 125
+)
+"src/hopix/hopix.ml" 11 178 193 "src/hopix/hopix.ml" 11 178 209
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  ext_ref HopixLexer.token
+)
+"src/hopix/hopix.ml" 12 210 226 "src/hopix/hopix.ml" 12 210 245
+type(
+  (Lexing.lexbuf -> HopixParser.token) -> Lexing.lexbuf -> HopixAST.t
+)
+ident(
+  ext_ref HopixParser.program
+)
+"src/hopix/hopix.ml" 13 246 251 "src/hopix/hopix.ml" 13 246 256
+type(
+  'a
+)
+ident(
+  int_ref input "src/hopix/hopix.ml" 8 105 126 "src/hopix/hopix.ml" 8 105 131
+)
+"src/hopix/hopix.ml" 9 134 136 "src/hopix/hopix.ml" 13 246 256
+call(
+  tail
+)
+type(
+  HopixAST.t
+)
+"src/hopix/hopix.ml" 15 258 262 "src/hopix/hopix.ml" 15 258 276
+type(
+  string -> HopixAST.t
+)
+ident(
+  def parse_filename "src/hopix/hopix.ml" 18 336 336 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 15 258 277 "src/hopix/hopix.ml" 15 258 285
+type(
+  string
+)
+ident(
+  def filename "src/hopix/hopix.ml" 16 288 290 "src/hopix/hopix.ml" 16 288 334
+)
+"src/hopix/hopix.ml" 16 288 290 "src/hopix/hopix.ml" 16 288 295
+type(
+  (in_channel -> Lexing.lexbuf) -> in_channel -> HopixAST.t
+)
+ident(
+  int_ref parse "src/hopix/hopix.ml" 8 105 109 "src/hopix/hopix.ml" 8 105 114
+)
+"src/hopix/hopix.ml" 16 288 296 "src/hopix/hopix.ml" 16 288 315
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/hopix/hopix.ml" 16 288 317 "src/hopix/hopix.ml" 16 288 324
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/hopix/hopix.ml" 16 288 325 "src/hopix/hopix.ml" 16 288 333
+type(
+  string
+)
+ident(
+  int_ref filename "src/hopix/hopix.ml" 15 258 277 "src/hopix/hopix.ml" 15 258 285
+)
+"src/hopix/hopix.ml" 16 288 316 "src/hopix/hopix.ml" 16 288 334
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/hopix/hopix.ml" 16 288 290 "src/hopix/hopix.ml" 16 288 334
+call(
+  tail
+)
+type(
+  HopixAST.t
+)
+"src/hopix/hopix.ml" 18 336 340 "src/hopix/hopix.ml" 18 336 349
+type(
+  string
+)
+ident(
+  def extension "src/hopix/hopix.ml" 21 364 364 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 19 352 354 "src/hopix/hopix.ml" 19 352 362
+type(
+  string
+)
+"src/hopix/hopix.ml" 21 364 368 "src/hopix/hopix.ml" 21 364 380
+type(
+  string -> HopixAST.t
+)
+ident(
+  def parse_string "src/hopix/hopix.ml" 25 412 412 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 22 383 385 "src/hopix/hopix.ml" 22 383 390
+type(
+  (string -> Lexing.lexbuf) -> string -> HopixAST.t
+)
+ident(
+  int_ref parse "src/hopix/hopix.ml" 8 105 109 "src/hopix/hopix.ml" 8 105 114
+)
+"src/hopix/hopix.ml" 22 383 391 "src/hopix/hopix.ml" 22 383 409
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/hopix/hopix.ml" 22 383 385 "src/hopix/hopix.ml" 22 383 409
+call(
+  stack
+)
+type(
+  string -> HopixAST.t
+)
+"src/hopix/hopix.ml" 25 412 416 "src/hopix/hopix.ml" 25 412 425
+type(
+  HopixAST.definition Position.located list -> string
+)
+ident(
+  def print_ast "src/hopix/hopix.ml" 29 481 481 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 25 412 426 "src/hopix/hopix.ml" 25 412 429
+type(
+  HopixAST.definition Position.located list
+)
+ident(
+  def ast "src/hopix/hopix.ml" 26 432 434 "src/hopix/hopix.ml" 26 432 476
+)
+"src/hopix/hopix.ml" 26 432 454 "src/hopix/hopix.ml" 26 432 463
+type(
+  (HopixAST.definition Position.located list ->
+   PPrintEngine.ToBuffer.document) ->
+  HopixAST.definition Position.located list -> string
+)
+ident(
+  ext_ref HopixPrettyPrinter.to_string
+)
+"src/hopix/hopix.ml" 26 432 464 "src/hopix/hopix.ml" 26 432 471
+type(
+  HopixAST.definition Position.located list -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref HopixPrettyPrinter.program
+)
+"src/hopix/hopix.ml" 26 432 472 "src/hopix/hopix.ml" 26 432 475
+type(
+  HopixAST.definition Position.located list
+)
+ident(
+  int_ref ast "src/hopix/hopix.ml" 25 412 426 "src/hopix/hopix.ml" 25 412 429
+)
+"src/hopix/hopix.ml" 26 432 454 "src/hopix/hopix.ml" 26 432 475
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopix.ml" 29 481 485 "src/hopix/hopix.ml" 29 481 501
+type(
+  HopixAST.expression -> string
+)
+ident(
+  def print_expression "src/hopix/hopix.ml" 32 553 553 "src/hopix/hopix.ml" 1 0 -1
+)
+"src/hopix/hopix.ml" 29 481 502 "src/hopix/hopix.ml" 29 481 503
+type(
+  HopixAST.expression
+)
+ident(
+  def e "src/hopix/hopix.ml" 30 506 508 "src/hopix/hopix.ml" 30 506 551
+)
+"src/hopix/hopix.ml" 30 506 528 "src/hopix/hopix.ml" 30 506 537
+type(
+  (HopixAST.expression -> PPrintEngine.ToBuffer.document) ->
+  HopixAST.expression -> string
+)
+ident(
+  ext_ref HopixPrettyPrinter.to_string
+)
+"src/hopix/hopix.ml" 30 506 538 "src/hopix/hopix.ml" 30 506 548
+type(
+  HopixAST.expression -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref HopixPrettyPrinter.expression
+)
+"src/hopix/hopix.ml" 30 506 549 "src/hopix/hopix.ml" 30 506 550
+type(
+  HopixAST.expression
+)
+ident(
+  int_ref e "src/hopix/hopix.ml" 29 481 502 "src/hopix/hopix.ml" 29 481 503
+)
+"src/hopix/hopix.ml" 30 506 528 "src/hopix/hopix.ml" 30 506 550
+call(
+  tail
+)
+type(
+  string
+)

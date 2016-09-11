@@ -1,0 +1,323 @@
+"src/mips/mipsLexer.mll" 7 93 99 "src/mips/mipsLexer.mll" 7 93 104
+type(
+  Lexing.lexbuf -> string -> 'a
+)
+ident(
+  def error "src/mips/mipsLexer.ml" 13 219 219 "src/mips/mipsLexer.ml" 1 0 -1
+)
+"src/mips/mipsLexer.mll" 7 93 105 "src/mips/mipsLexer.mll" 7 93 111
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/mips/mipsLexer.mll" 8 114 118 "src/mips/mipsLexer.mll" 8 114 187
+)
+"src/mips/mipsLexer.mll" 8 114 118 "src/mips/mipsLexer.mll" 8 114 123
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  ext_ref Error.error
+)
+"src/mips/mipsLexer.mll" 8 114 124 "src/mips/mipsLexer.mll" 8 114 139
+type(
+  string
+)
+"src/mips/mipsLexer.mll" 8 114 141 "src/mips/mipsLexer.mll" 8 114 149
+type(
+  Lexing.position -> Lexing.position -> Position.t
+)
+ident(
+  ext_ref Position.lex_join
+)
+"src/mips/mipsLexer.mll" 8 114 150 "src/mips/mipsLexer.mll" 8 114 156
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.mll" 7 93 105 "src/mips/mipsLexer.mll" 7 93 111
+)
+"src/mips/mipsLexer.mll" 8 114 150 "src/mips/mipsLexer.mll" 8 114 168
+type(
+  Lexing.position
+)
+"src/mips/mipsLexer.mll" 8 114 169 "src/mips/mipsLexer.mll" 8 114 175
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.mll" 7 93 105 "src/mips/mipsLexer.mll" 7 93 111
+)
+"src/mips/mipsLexer.mll" 8 114 169 "src/mips/mipsLexer.mll" 8 114 186
+type(
+  Lexing.position
+)
+"src/mips/mipsLexer.mll" 8 114 140 "src/mips/mipsLexer.mll" 8 114 187
+call(
+  stack
+)
+type(
+  Position.t
+)
+"src/mips/mipsLexer.mll" 8 114 118 "src/mips/mipsLexer.mll" 8 114 187
+call(
+  tail
+)
+type(
+  string -> 'a
+)
+"src/mips/mipsLexer.ml" 13 219 223 "src/mips/mipsLexer.ml" 13 219 241
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/mips/mipsLexer.ml" 102 5166 5166 "src/mips/mipsLexer.ml" 1 0 -1
+)
+"src/mips/mipsLexer.ml" 15 267 270 "src/mips/mipsLexer.ml" 15 267 296
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 17 322 325 "src/mips/mipsLexer.ml" 17 322 351
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 19 377 380 "src/mips/mipsLexer.ml" 19 377 406
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 21 430 433 "src/mips/mipsLexer.ml" 53 2670 2683
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 55 2707 2710 "src/mips/mipsLexer.ml" 87 4947 4960
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 89 4988 4991 "src/mips/mipsLexer.ml" 89 4988 4993
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 91 5024 5027 "src/mips/mipsLexer.ml" 91 5024 5029
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 93 5060 5063 "src/mips/mipsLexer.ml" 93 5060 5065
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 95 5094 5097 "src/mips/mipsLexer.ml" 95 5094 5099
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 97 5128 5131 "src/mips/mipsLexer.ml" 97 5128 5133
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 99 5156 5159 "src/mips/mipsLexer.ml" 99 5156 5161
+type(
+  string
+)
+"src/mips/mipsLexer.ml" 13 219 244 "src/mips/mipsLexer.ml" 100 5163 5164
+type(
+  Lexing.lex_tables
+)
+"src/mips/mipsLexer.ml" 102 5166 5174 "src/mips/mipsLexer.ml" 102 5166 5179
+type(
+  Lexing.lexbuf -> MipsParser.token
+)
+ident(
+  def token "src/mips/mipsLexer.ml" 102 5166 5166 "src/mips/mipsLexer.ml" 1 0 -1
+)
+"src/mips/mipsLexer.ml" 102 5166 5180 "src/mips/mipsLexer.ml" 102 5166 5186
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/mips/mipsLexer.ml" 103 5189 5193 "src/mips/mipsLexer.ml" 103 5189 5223
+)
+"src/mips/mipsLexer.ml" 103 5189 5193 "src/mips/mipsLexer.ml" 103 5189 5214
+type(
+  Lexing.lexbuf -> int -> MipsParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/mips/mipsLexer.ml" 104 5224 5228 "src/mips/mipsLexer.ml" 104 5224 5249
+)
+"src/mips/mipsLexer.ml" 103 5189 5215 "src/mips/mipsLexer.ml" 103 5189 5221
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 102 5166 5180 "src/mips/mipsLexer.ml" 102 5166 5186
+)
+"src/mips/mipsLexer.ml" 103 5189 5222 "src/mips/mipsLexer.ml" 103 5189 5223
+type(
+  int
+)
+"src/mips/mipsLexer.ml" 103 5189 5193 "src/mips/mipsLexer.ml" 103 5189 5223
+call(
+  tail
+)
+type(
+  MipsParser.token
+)
+"src/mips/mipsLexer.ml" 104 5224 5228 "src/mips/mipsLexer.ml" 104 5224 5249
+type(
+  Lexing.lexbuf -> int -> MipsParser.token
+)
+ident(
+  def __ocaml_lex_token_rec "src/mips/mipsLexer.ml" 102 5166 5166 "src/mips/mipsLexer.ml" 1 0 -1
+)
+"src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/mips/mipsLexer.ml" 104 5224 5257 "src/mips/mipsLexer.ml" 117 5641 5693
+)
+"src/mips/mipsLexer.ml" 104 5224 5257 "src/mips/mipsLexer.ml" 104 5224 5274
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/mips/mipsLexer.ml" 105 5277 5279 "src/mips/mipsLexer.ml" 117 5641 5693
+)
+"src/mips/mipsLexer.ml" 105 5277 5285 "src/mips/mipsLexer.ml" 105 5277 5298
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/mips/mipsLexer.ml" 105 5277 5299 "src/mips/mipsLexer.ml" 105 5277 5317
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/mips/mipsLexer.ml" 13 219 223 "src/mips/mipsLexer.ml" 13 219 241
+)
+"src/mips/mipsLexer.ml" 105 5277 5318 "src/mips/mipsLexer.ml" 105 5277 5335
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/mips/mipsLexer.ml" 104 5224 5257 "src/mips/mipsLexer.ml" 104 5224 5274
+)
+"src/mips/mipsLexer.ml" 105 5277 5336 "src/mips/mipsLexer.ml" 105 5277 5342
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+)
+"src/mips/mipsLexer.ml" 105 5277 5285 "src/mips/mipsLexer.ml" 105 5277 5342
+call(
+  stack
+)
+type(
+  int
+)
+"src/mips/mipsLexer.ml" 106 5348 5356 "src/mips/mipsLexer.ml" 106 5348 5357
+type(
+  int
+)
+"src/mips/mipsLexer.mll" 13 5391 5411 "src/mips/mipsLexer.mll" 13 5391 5418
+type(
+  MipsParser.token
+)
+"src/mips/mipsLexer.ml" 111 5450 5454 "src/mips/mipsLexer.ml" 111 5450 5455
+type(
+  int
+)
+"src/mips/mipsLexer.mll" 16 5489 5511 "src/mips/mipsLexer.mll" 16 5489 5516
+type(
+  Lexing.lexbuf -> string -> MipsParser.token
+)
+ident(
+  int_ref error "src/mips/mipsLexer.mll" 7 93 99 "src/mips/mipsLexer.mll" 7 93 104
+)
+"src/mips/mipsLexer.mll" 16 5489 5517 "src/mips/mipsLexer.mll" 16 5489 5523
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+)
+"src/mips/mipsLexer.mll" 16 5489 5524 "src/mips/mipsLexer.mll" 16 5489 5547
+type(
+  string
+)
+"src/mips/mipsLexer.mll" 16 5489 5509 "src/mips/mipsLexer.mll" 16 5489 5549
+call(
+  tail
+)
+type(
+  MipsParser.token
+)
+"src/mips/mipsLexer.ml" 116 5581 5585 "src/mips/mipsLexer.ml" 116 5581 5602
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/mips/mipsLexer.ml" 116 5581 5606 "src/mips/mipsLexer.ml" 117 5641 5693
+)
+"src/mips/mipsLexer.ml" 116 5581 5606 "src/mips/mipsLexer.ml" 116 5581 5612
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+)
+"src/mips/mipsLexer.ml" 116 5581 5606 "src/mips/mipsLexer.ml" 116 5581 5631
+type(
+  Lexing.lexbuf -> unit
+)
+"src/mips/mipsLexer.ml" 116 5581 5632 "src/mips/mipsLexer.ml" 116 5581 5638
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+)
+"src/mips/mipsLexer.ml" 116 5581 5606 "src/mips/mipsLexer.ml" 116 5581 5638
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mips/mipsLexer.ml" 117 5641 5647 "src/mips/mipsLexer.ml" 117 5641 5668
+type(
+  Lexing.lexbuf -> int -> MipsParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/mips/mipsLexer.ml" 104 5224 5228 "src/mips/mipsLexer.ml" 104 5224 5249
+)
+"src/mips/mipsLexer.ml" 117 5641 5669 "src/mips/mipsLexer.ml" 117 5641 5675
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/mips/mipsLexer.ml" 104 5224 5250 "src/mips/mipsLexer.ml" 104 5224 5256
+)
+"src/mips/mipsLexer.ml" 117 5641 5676 "src/mips/mipsLexer.ml" 117 5641 5693
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/mips/mipsLexer.ml" 116 5581 5585 "src/mips/mipsLexer.ml" 116 5581 5602
+)
+"src/mips/mipsLexer.ml" 117 5641 5647 "src/mips/mipsLexer.ml" 117 5641 5693
+call(
+  tail
+)
+type(
+  MipsParser.token
+)
+"src/mips/mipsLexer.ml" 116 5581 5606 "src/mips/mipsLexer.ml" 117 5641 5693
+type(
+  MipsParser.token
+)
+"src/mips/mipsLexer.ml" 105 5277 5279 "src/mips/mipsLexer.ml" 117 5641 5693
+type(
+  MipsParser.token
+)

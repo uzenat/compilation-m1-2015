@@ -1,0 +1,772 @@
+"src/hopix/hopixAST.ml" 107 3803 3811 "src/hopix/hopixAST.ml" 107 3803 3827
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  def split_or_pattern "src/hopix/hopixAST.ml" 107 3803 3803 "src/hopix/hopixAST.ml" 1 0 -1
+)
+"src/hopix/hopixAST.ml" 108 3850 3858 "src/hopix/hopixAST.ml" 108 3850 3860
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 109 3864 3868 "src/hopix/hopixAST.ml" 110 3889 3919
+)
+"src/hopix/hopixAST.ml" 108 3850 3854 "src/hopix/hopixAST.ml" 108 3850 3860
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 109 3864 3868 "src/hopix/hopixAST.ml" 109 3864 3872
+type(
+  pattern Position.located list -> pattern Position.located ListMonad.t
+)
+ident(
+  ext_ref ListMonad.pick
+)
+"src/hopix/hopixAST.ml" 109 3864 3873 "src/hopix/hopixAST.ml" 109 3864 3875
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 108 3850 3858 "src/hopix/hopixAST.ml" 108 3850 3860
+)
+"src/hopix/hopixAST.ml" 109 3864 3868 "src/hopix/hopixAST.ml" 109 3864 3875
+call(
+  stack
+)
+type(
+  pattern Position.located ListMonad.t
+)
+"src/hopix/hopixAST.ml" 109 3864 3876 "src/hopix/hopixAST.ml" 109 3864 3879
+type(
+  pattern Position.located ListMonad.t ->
+  (pattern Position.located -> pattern ListMonad.t) -> pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 109 3864 3884 "src/hopix/hopixAST.ml" 109 3864 3885
+type(
+  pattern Position.located
+)
+ident(
+  def p "src/hopix/hopixAST.ml" 110 3889 3893 "src/hopix/hopixAST.ml" 110 3889 3919
+)
+"src/hopix/hopixAST.ml" 110 3889 3893 "src/hopix/hopixAST.ml" 110 3889 3900
+type(
+  (pattern -> pattern ListMonad.t) ->
+  pattern Position.located -> pattern ListMonad.t
+)
+ident(
+  ext_ref Position.located
+)
+"src/hopix/hopixAST.ml" 110 3889 3901 "src/hopix/hopixAST.ml" 110 3889 3917
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  int_ref split_or_pattern "src/hopix/hopixAST.ml" 107 3803 3811 "src/hopix/hopixAST.ml" 107 3803 3827
+)
+"src/hopix/hopixAST.ml" 110 3889 3918 "src/hopix/hopixAST.ml" 110 3889 3919
+type(
+  pattern Position.located
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 109 3864 3884 "src/hopix/hopixAST.ml" 109 3864 3885
+)
+"src/hopix/hopixAST.ml" 110 3889 3893 "src/hopix/hopixAST.ml" 110 3889 3919
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 109 3864 3880 "src/hopix/hopixAST.ml" 110 3889 3919
+type(
+  pattern Position.located -> pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 109 3864 3868 "src/hopix/hopixAST.ml" 110 3889 3919
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 111 3920 3941 "src/hopix/hopixAST.ml" 111 3920 3942
+type(
+  pattern Position.located
+)
+ident(
+  def p "src/hopix/hopixAST.ml" 112 3950 3954 "src/hopix/hopixAST.ml" 112 3950 3980
+)
+"src/hopix/hopixAST.ml" 111 3920 3944 "src/hopix/hopixAST.ml" 111 3920 3945
+type(
+  ty Position.located
+)
+"src/hopix/hopixAST.ml" 111 3920 3924 "src/hopix/hopixAST.ml" 111 3920 3946
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 112 3950 3954 "src/hopix/hopixAST.ml" 112 3950 3961
+type(
+  (pattern -> pattern ListMonad.t) ->
+  pattern Position.located -> pattern ListMonad.t
+)
+ident(
+  ext_ref Position.located
+)
+"src/hopix/hopixAST.ml" 112 3950 3962 "src/hopix/hopixAST.ml" 112 3950 3978
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  int_ref split_or_pattern "src/hopix/hopixAST.ml" 107 3803 3811 "src/hopix/hopixAST.ml" 107 3803 3827
+)
+"src/hopix/hopixAST.ml" 112 3950 3979 "src/hopix/hopixAST.ml" 112 3950 3980
+type(
+  pattern Position.located
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 111 3920 3941 "src/hopix/hopixAST.ml" 111 3920 3942
+)
+"src/hopix/hopixAST.ml" 112 3950 3954 "src/hopix/hopixAST.ml" 112 3950 3980
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 113 3981 3999 "src/hopix/hopixAST.ml" 113 3981 4000
+type(
+  constructor Position.located
+)
+ident(
+  def k "src/hopix/hopixAST.ml" 114 4009 4013 "src/hopix/hopixAST.ml" 115 4048 4081
+)
+"src/hopix/hopixAST.ml" 113 3981 4002 "src/hopix/hopixAST.ml" 113 3981 4004
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 114 4009 4013 "src/hopix/hopixAST.ml" 115 4048 4081
+)
+"src/hopix/hopixAST.ml" 113 3981 3985 "src/hopix/hopixAST.ml" 113 3981 4005
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 114 4009 4013 "src/hopix/hopixAST.ml" 114 4009 4030
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  int_ref split_or_patterns "src/hopix/hopixAST.ml" 127 4357 4361 "src/hopix/hopixAST.ml" 127 4357 4378
+)
+"src/hopix/hopixAST.ml" 114 4009 4031 "src/hopix/hopixAST.ml" 114 4009 4033
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 113 3981 4002 "src/hopix/hopixAST.ml" 113 3981 4004
+)
+"src/hopix/hopixAST.ml" 114 4009 4013 "src/hopix/hopixAST.ml" 114 4009 4033
+call(
+  stack
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 114 4009 4034 "src/hopix/hopixAST.ml" 114 4009 4037
+type(
+  pattern Position.located list ListMonad.t ->
+  (pattern Position.located list -> pattern ListMonad.t) ->
+  pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 114 4009 4042 "src/hopix/hopixAST.ml" 114 4009 4044
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 115 4048 4052 "src/hopix/hopixAST.ml" 115 4048 4081
+)
+"src/hopix/hopixAST.ml" 115 4048 4052 "src/hopix/hopixAST.ml" 115 4048 4058
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 115 4048 4074 "src/hopix/hopixAST.ml" 115 4048 4075
+type(
+  constructor Position.located
+)
+ident(
+  int_ref k "src/hopix/hopixAST.ml" 113 3981 3999 "src/hopix/hopixAST.ml" 113 3981 4000
+)
+"src/hopix/hopixAST.ml" 115 4048 4077 "src/hopix/hopixAST.ml" 115 4048 4079
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 114 4009 4042 "src/hopix/hopixAST.ml" 114 4009 4044
+)
+"src/hopix/hopixAST.ml" 115 4048 4059 "src/hopix/hopixAST.ml" 115 4048 4081
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 115 4048 4052 "src/hopix/hopixAST.ml" 115 4048 4081
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 114 4009 4038 "src/hopix/hopixAST.ml" 115 4048 4081
+type(
+  pattern Position.located list -> pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 114 4009 4013 "src/hopix/hopixAST.ml" 115 4048 4081
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 116 4082 4094 "src/hopix/hopixAST.ml" 116 4082 4096
+type(
+  (label Position.located * pattern Position.located) list
+)
+ident(
+  def fs "src/hopix/hopixAST.ml" 117 4100 4104 "src/hopix/hopixAST.ml" 119 4173 4214
+)
+"src/hopix/hopixAST.ml" 116 4082 4086 "src/hopix/hopixAST.ml" 116 4082 4096
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 117 4100 4108 "src/hopix/hopixAST.ml" 117 4100 4110
+type(
+  label Position.located list
+)
+ident(
+  def ls "src/hopix/hopixAST.ml" 118 4134 4138 "src/hopix/hopixAST.ml" 119 4173 4214
+)
+"src/hopix/hopixAST.ml" 117 4100 4112 "src/hopix/hopixAST.ml" 117 4100 4114
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 118 4134 4138 "src/hopix/hopixAST.ml" 119 4173 4214
+)
+"src/hopix/hopixAST.ml" 117 4100 4108 "src/hopix/hopixAST.ml" 117 4100 4114
+type(
+  label Position.located list * pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 117 4100 4117 "src/hopix/hopixAST.ml" 117 4100 4127
+type(
+  (label Position.located * pattern Position.located) list ->
+  label Position.located list * pattern Position.located list
+)
+ident(
+  ext_ref List.split
+)
+"src/hopix/hopixAST.ml" 117 4100 4128 "src/hopix/hopixAST.ml" 117 4100 4130
+type(
+  (label Position.located * pattern Position.located) list
+)
+ident(
+  int_ref fs "src/hopix/hopixAST.ml" 116 4082 4094 "src/hopix/hopixAST.ml" 116 4082 4096
+)
+"src/hopix/hopixAST.ml" 117 4100 4117 "src/hopix/hopixAST.ml" 117 4100 4130
+call(
+  stack
+)
+type(
+  label Position.located list * pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 118 4134 4138 "src/hopix/hopixAST.ml" 118 4134 4155
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  int_ref split_or_patterns "src/hopix/hopixAST.ml" 127 4357 4361 "src/hopix/hopixAST.ml" 127 4357 4378
+)
+"src/hopix/hopixAST.ml" 118 4134 4156 "src/hopix/hopixAST.ml" 118 4134 4158
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 117 4100 4112 "src/hopix/hopixAST.ml" 117 4100 4114
+)
+"src/hopix/hopixAST.ml" 118 4134 4138 "src/hopix/hopixAST.ml" 118 4134 4158
+call(
+  stack
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 118 4134 4159 "src/hopix/hopixAST.ml" 118 4134 4162
+type(
+  pattern Position.located list ListMonad.t ->
+  (pattern Position.located list -> pattern ListMonad.t) ->
+  pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 118 4134 4167 "src/hopix/hopixAST.ml" 118 4134 4169
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 119 4173 4177 "src/hopix/hopixAST.ml" 119 4173 4214
+)
+"src/hopix/hopixAST.ml" 119 4173 4177 "src/hopix/hopixAST.ml" 119 4173 4183
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 119 4173 4194 "src/hopix/hopixAST.ml" 119 4173 4206
+type(
+  label Position.located list ->
+  pattern Position.located list ->
+  (label Position.located * pattern Position.located) list
+)
+ident(
+  ext_ref List.combine
+)
+"src/hopix/hopixAST.ml" 119 4173 4207 "src/hopix/hopixAST.ml" 119 4173 4209
+type(
+  label Position.located list
+)
+ident(
+  int_ref ls "src/hopix/hopixAST.ml" 117 4100 4108 "src/hopix/hopixAST.ml" 117 4100 4110
+)
+"src/hopix/hopixAST.ml" 119 4173 4210 "src/hopix/hopixAST.ml" 119 4173 4212
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 118 4134 4167 "src/hopix/hopixAST.ml" 118 4134 4169
+)
+"src/hopix/hopixAST.ml" 119 4173 4193 "src/hopix/hopixAST.ml" 119 4173 4213
+call(
+  stack
+)
+type(
+  (label Position.located * pattern Position.located) list
+)
+"src/hopix/hopixAST.ml" 119 4173 4184 "src/hopix/hopixAST.ml" 119 4173 4214
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 119 4173 4177 "src/hopix/hopixAST.ml" 119 4173 4214
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 118 4134 4163 "src/hopix/hopixAST.ml" 119 4173 4214
+type(
+  pattern Position.located list -> pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 118 4134 4138 "src/hopix/hopixAST.ml" 119 4173 4214
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 117 4100 4104 "src/hopix/hopixAST.ml" 119 4173 4214
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 120 4215 4224 "src/hopix/hopixAST.ml" 120 4215 4226
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 121 4230 4234 "src/hopix/hopixAST.ml" 122 4269 4289
+)
+"src/hopix/hopixAST.ml" 120 4215 4219 "src/hopix/hopixAST.ml" 120 4215 4226
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 121 4230 4234 "src/hopix/hopixAST.ml" 121 4230 4251
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  int_ref split_or_patterns "src/hopix/hopixAST.ml" 127 4357 4361 "src/hopix/hopixAST.ml" 127 4357 4378
+)
+"src/hopix/hopixAST.ml" 121 4230 4252 "src/hopix/hopixAST.ml" 121 4230 4254
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 120 4215 4224 "src/hopix/hopixAST.ml" 120 4215 4226
+)
+"src/hopix/hopixAST.ml" 121 4230 4234 "src/hopix/hopixAST.ml" 121 4230 4254
+call(
+  stack
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 121 4230 4255 "src/hopix/hopixAST.ml" 121 4230 4258
+type(
+  pattern Position.located list ListMonad.t ->
+  (pattern Position.located list -> pattern ListMonad.t) ->
+  pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 121 4230 4263 "src/hopix/hopixAST.ml" 121 4230 4265
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 122 4269 4273 "src/hopix/hopixAST.ml" 122 4269 4289
+)
+"src/hopix/hopixAST.ml" 122 4269 4273 "src/hopix/hopixAST.ml" 122 4269 4279
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 122 4269 4286 "src/hopix/hopixAST.ml" 122 4269 4288
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 121 4230 4263 "src/hopix/hopixAST.ml" 121 4230 4265
+)
+"src/hopix/hopixAST.ml" 122 4269 4280 "src/hopix/hopixAST.ml" 122 4269 4289
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 122 4269 4273 "src/hopix/hopixAST.ml" 122 4269 4289
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 121 4230 4259 "src/hopix/hopixAST.ml" 122 4269 4289
+type(
+  pattern Position.located list -> pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 121 4230 4234 "src/hopix/hopixAST.ml" 122 4269 4289
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 123 4290 4305 "src/hopix/hopixAST.ml" 123 4290 4306
+type(
+  identifier Position.located
+)
+"src/hopix/hopixAST.ml" 123 4290 4295 "src/hopix/hopixAST.ml" 123 4290 4306
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 123 4290 4309 "src/hopix/hopixAST.ml" 123 4290 4318
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 123 4290 4295 "src/hopix/hopixAST.ml" 123 4290 4318
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 123 4290 4330 "src/hopix/hopixAST.ml" 123 4290 4331
+type(
+  literal Position.located
+)
+"src/hopix/hopixAST.ml" 123 4290 4321 "src/hopix/hopixAST.ml" 123 4290 4331
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 123 4290 4294 "src/hopix/hopixAST.ml" 123 4290 4332
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 123 4290 4336 "src/hopix/hopixAST.ml" 123 4290 4337
+ident(
+  def p "src/hopix/hopixAST.ml" 124 4341 4345 "src/hopix/hopixAST.ml" 124 4341 4353
+)
+"src/hopix/hopixAST.ml" 123 4290 4294 "src/hopix/hopixAST.ml" 123 4290 4337
+type(
+  pattern
+)
+"src/hopix/hopixAST.ml" 124 4341 4345 "src/hopix/hopixAST.ml" 124 4341 4351
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 124 4341 4352 "src/hopix/hopixAST.ml" 124 4341 4353
+type(
+  pattern
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 123 4290 4294 "src/hopix/hopixAST.ml" 123 4290 4337
+)
+"src/hopix/hopixAST.ml" 124 4341 4345 "src/hopix/hopixAST.ml" 124 4341 4353
+call(
+  tail
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 107 3803 3841 "src/hopix/hopixAST.ml" 124 4341 4353
+type(
+  pattern -> pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 127 4357 4361 "src/hopix/hopixAST.ml" 127 4357 4378
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  def split_or_patterns "src/hopix/hopixAST.ml" 107 3803 3803 "src/hopix/hopixAST.ml" 1 0 -1
+)
+"src/hopix/hopixAST.ml" 128 4401 4405 "src/hopix/hopixAST.ml" 128 4401 4407
+type(
+  pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 129 4411 4415 "src/hopix/hopixAST.ml" 129 4411 4421
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 129 4411 4422 "src/hopix/hopixAST.ml" 129 4411 4424
+type(
+  pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 129 4411 4415 "src/hopix/hopixAST.ml" 129 4411 4424
+call(
+  tail
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 130 4425 4429 "src/hopix/hopixAST.ml" 130 4425 4430
+type(
+  pattern Position.located
+)
+ident(
+  def p "src/hopix/hopixAST.ml" 131 4440 4444 "src/hopix/hopixAST.ml" 134 4560 4602
+)
+"src/hopix/hopixAST.ml" 130 4425 4434 "src/hopix/hopixAST.ml" 130 4425 4436
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 131 4440 4444 "src/hopix/hopixAST.ml" 134 4560 4602
+)
+"src/hopix/hopixAST.ml" 130 4425 4429 "src/hopix/hopixAST.ml" 130 4425 4436
+type(
+  pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 131 4440 4448 "src/hopix/hopixAST.ml" 131 4440 4451
+type(
+  Position.t
+)
+ident(
+  def pos "src/hopix/hopixAST.ml" 132 4477 4481 "src/hopix/hopixAST.ml" 134 4560 4602
+)
+"src/hopix/hopixAST.ml" 131 4440 4454 "src/hopix/hopixAST.ml" 131 4440 4471
+type(
+  pattern Position.located -> Position.t
+)
+ident(
+  ext_ref Position.position
+)
+"src/hopix/hopixAST.ml" 131 4440 4472 "src/hopix/hopixAST.ml" 131 4440 4473
+type(
+  pattern Position.located
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 130 4425 4429 "src/hopix/hopixAST.ml" 130 4425 4430
+)
+"src/hopix/hopixAST.ml" 131 4440 4454 "src/hopix/hopixAST.ml" 131 4440 4473
+call(
+  stack
+)
+type(
+  Position.t
+)
+"src/hopix/hopixAST.ml" 132 4477 4481 "src/hopix/hopixAST.ml" 132 4477 4488
+type(
+  (pattern -> pattern ListMonad.t) ->
+  pattern Position.located -> pattern ListMonad.t
+)
+ident(
+  ext_ref Position.located
+)
+"src/hopix/hopixAST.ml" 132 4477 4489 "src/hopix/hopixAST.ml" 132 4477 4505
+type(
+  pattern -> pattern ListMonad.t
+)
+ident(
+  int_ref split_or_pattern "src/hopix/hopixAST.ml" 107 3803 3811 "src/hopix/hopixAST.ml" 107 3803 3827
+)
+"src/hopix/hopixAST.ml" 132 4477 4506 "src/hopix/hopixAST.ml" 132 4477 4507
+type(
+  pattern Position.located
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 130 4425 4429 "src/hopix/hopixAST.ml" 130 4425 4430
+)
+"src/hopix/hopixAST.ml" 132 4477 4481 "src/hopix/hopixAST.ml" 132 4477 4507
+call(
+  stack
+)
+type(
+  pattern ListMonad.t
+)
+"src/hopix/hopixAST.ml" 132 4477 4508 "src/hopix/hopixAST.ml" 132 4477 4511
+type(
+  pattern ListMonad.t ->
+  (pattern -> pattern Position.located list ListMonad.t) ->
+  pattern Position.located list ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 132 4477 4516 "src/hopix/hopixAST.ml" 132 4477 4517
+type(
+  pattern
+)
+ident(
+  def p "src/hopix/hopixAST.ml" 133 4521 4525 "src/hopix/hopixAST.ml" 134 4560 4602
+)
+"src/hopix/hopixAST.ml" 133 4521 4525 "src/hopix/hopixAST.ml" 133 4521 4542
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  int_ref split_or_patterns "src/hopix/hopixAST.ml" 127 4357 4361 "src/hopix/hopixAST.ml" 127 4357 4378
+)
+"src/hopix/hopixAST.ml" 133 4521 4543 "src/hopix/hopixAST.ml" 133 4521 4545
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 130 4425 4434 "src/hopix/hopixAST.ml" 130 4425 4436
+)
+"src/hopix/hopixAST.ml" 133 4521 4525 "src/hopix/hopixAST.ml" 133 4521 4545
+call(
+  stack
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 133 4521 4546 "src/hopix/hopixAST.ml" 133 4521 4549
+type(
+  pattern Position.located list ListMonad.t ->
+  (pattern Position.located list -> pattern Position.located list ListMonad.t) ->
+  pattern Position.located list ListMonad.t
+)
+ident(
+  ext_ref ListMonad.( >>= )
+)
+"src/hopix/hopixAST.ml" 133 4521 4554 "src/hopix/hopixAST.ml" 133 4521 4556
+type(
+  pattern Position.located list
+)
+ident(
+  def ps "src/hopix/hopixAST.ml" 134 4560 4564 "src/hopix/hopixAST.ml" 134 4560 4602
+)
+"src/hopix/hopixAST.ml" 134 4560 4564 "src/hopix/hopixAST.ml" 134 4560 4570
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+ident(
+  ext_ref ListMonad.return
+)
+"src/hopix/hopixAST.ml" 134 4560 4572 "src/hopix/hopixAST.ml" 134 4560 4589
+type(
+  Position.t -> pattern -> pattern Position.located
+)
+ident(
+  ext_ref Position.with_pos
+)
+"src/hopix/hopixAST.ml" 134 4560 4590 "src/hopix/hopixAST.ml" 134 4560 4593
+type(
+  Position.t
+)
+ident(
+  int_ref pos "src/hopix/hopixAST.ml" 131 4440 4448 "src/hopix/hopixAST.ml" 131 4440 4451
+)
+"src/hopix/hopixAST.ml" 134 4560 4594 "src/hopix/hopixAST.ml" 134 4560 4595
+type(
+  pattern
+)
+ident(
+  int_ref p "src/hopix/hopixAST.ml" 132 4477 4516 "src/hopix/hopixAST.ml" 132 4477 4517
+)
+"src/hopix/hopixAST.ml" 134 4560 4572 "src/hopix/hopixAST.ml" 134 4560 4595
+call(
+  stack
+)
+type(
+  pattern Position.located
+)
+"src/hopix/hopixAST.ml" 134 4560 4599 "src/hopix/hopixAST.ml" 134 4560 4601
+type(
+  pattern Position.located list
+)
+ident(
+  int_ref ps "src/hopix/hopixAST.ml" 133 4521 4554 "src/hopix/hopixAST.ml" 133 4521 4556
+)
+"src/hopix/hopixAST.ml" 134 4560 4571 "src/hopix/hopixAST.ml" 134 4560 4602
+type(
+  pattern Position.located list
+)
+"src/hopix/hopixAST.ml" 134 4560 4564 "src/hopix/hopixAST.ml" 134 4560 4602
+call(
+  tail
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 133 4521 4550 "src/hopix/hopixAST.ml" 134 4560 4602
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 133 4521 4525 "src/hopix/hopixAST.ml" 134 4560 4602
+call(
+  tail
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 132 4477 4512 "src/hopix/hopixAST.ml" 134 4560 4602
+type(
+  pattern -> pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 132 4477 4481 "src/hopix/hopixAST.ml" 134 4560 4602
+call(
+  tail
+)
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 131 4440 4444 "src/hopix/hopixAST.ml" 134 4560 4602
+type(
+  pattern Position.located list ListMonad.t
+)
+"src/hopix/hopixAST.ml" 127 4357 4392 "src/hopix/hopixAST.ml" 134 4560 4602
+type(
+  pattern Position.located list -> pattern Position.located list ListMonad.t
+)

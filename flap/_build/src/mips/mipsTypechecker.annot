@@ -1,0 +1,52 @@
+"src/mips/mipsTypechecker.ml" 3 32 36 "src/mips/mipsTypechecker.ml" 3 32 62
+type(
+  unit -> unit
+)
+ident(
+  def initial_typing_environment "src/mips/mipsTypechecker.ml" 5 72 72 "src/mips/mipsTypechecker.ml" 1 0 -1
+)
+"src/mips/mipsTypechecker.ml" 3 32 63 "src/mips/mipsTypechecker.ml" 3 32 65
+type(
+  unit
+)
+"src/mips/mipsTypechecker.ml" 3 32 68 "src/mips/mipsTypechecker.ml" 3 32 70
+type(
+  unit
+)
+"src/mips/mipsTypechecker.ml" 5 72 76 "src/mips/mipsTypechecker.ml" 5 72 85
+type(
+  unit -> 'a -> unit
+)
+ident(
+  def typecheck "src/mips/mipsTypechecker.ml" 7 99 99 "src/mips/mipsTypechecker.ml" 1 0 -1
+)
+"src/mips/mipsTypechecker.ml" 5 72 86 "src/mips/mipsTypechecker.ml" 5 72 88
+type(
+  unit
+)
+"src/mips/mipsTypechecker.ml" 5 72 89 "src/mips/mipsTypechecker.ml" 5 72 92
+type(
+  'a
+)
+ident(
+  def ast "src/mips/mipsTypechecker.ml" 5 72 95 "src/mips/mipsTypechecker.ml" 5 72 97
+)
+"src/mips/mipsTypechecker.ml" 5 72 95 "src/mips/mipsTypechecker.ml" 5 72 97
+type(
+  unit
+)
+"src/mips/mipsTypechecker.ml" 7 99 103 "src/mips/mipsTypechecker.ml" 7 99 127
+type(
+  unit -> string
+)
+ident(
+  def print_typing_environment "src/mips/mipsTypechecker.ml" 7 99 135 "src/mips/mipsTypechecker.ml" 1 0 -1
+)
+"src/mips/mipsTypechecker.ml" 7 99 128 "src/mips/mipsTypechecker.ml" 7 99 130
+type(
+  unit
+)
+"src/mips/mipsTypechecker.ml" 7 99 133 "src/mips/mipsTypechecker.ml" 7 99 135
+type(
+  string
+)

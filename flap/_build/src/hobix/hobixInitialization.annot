@@ -1,0 +1,77 @@
+"src/hobix/hobixInitialization.ml" 1 0 4 "src/hobix/hobixInitialization.ml" 1 0 14
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/hobix/hobixInitialization.ml" 4 115 157 "src/hobix/hobixInitialization.ml" 1 0 -1
+)
+"src/hobix/hobixInitialization.ml" 1 0 15 "src/hobix/hobixInitialization.ml" 1 0 17
+type(
+  unit
+)
+"src/hobix/hobixInitialization.ml" 2 20 22 "src/hobix/hobixInitialization.ml" 2 20 40
+type(
+  (module Languages.Language) -> unit
+)
+ident(
+  ext_ref Languages.register
+)
+"src/hobix/hobixInitialization.ml" 2 20 41 "src/hobix/hobixInitialization.ml" 2 20 55
+type(
+  (module Languages.Language)
+)
+"src/hobix/hobixInitialization.ml" 2 20 22 "src/hobix/hobixInitialization.ml" 2 20 55
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hobix/hobixInitialization.ml" 3 57 59 "src/hobix/hobixInitialization.ml" 3 57 77
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/hobix/hobixInitialization.ml" 3 57 86 "src/hobix/hobixInitialization.ml" 3 57 112
+call(
+  stack
+)
+"src/hobix/hobixInitialization.ml" 3 57 78 "src/hobix/hobixInitialization.ml" 3 57 113
+type(
+  (module Compilers.Compiler)
+)
+"src/hobix/hobixInitialization.ml" 3 57 59 "src/hobix/hobixInitialization.ml" 3 57 113
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hobix/hobixInitialization.ml" 4 115 117 "src/hobix/hobixInitialization.ml" 4 115 135
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/hobix/hobixInitialization.ml" 4 115 136 "src/hobix/hobixInitialization.ml" 4 115 157
+type(
+  (module Compilers.Compiler)
+)
+"src/hobix/hobixInitialization.ml" 4 115 117 "src/hobix/hobixInitialization.ml" 4 115 157
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hobix/hobixInitialization.ml" 3 57 59 "src/hobix/hobixInitialization.ml" 4 115 157
+type(
+  unit
+)
+"src/hobix/hobixInitialization.ml" 2 20 22 "src/hobix/hobixInitialization.ml" 4 115 157
+type(
+  unit
+)

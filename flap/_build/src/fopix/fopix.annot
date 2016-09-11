@@ -1,0 +1,216 @@
+"src/fopix/fopix.ml" 5 63 67 "src/fopix/fopix.ml" 5 63 71
+type(
+  string
+)
+ident(
+  def name "src/fopix/fopix.ml" 7 83 83 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 5 63 74 "src/fopix/fopix.ml" 5 63 81
+type(
+  string
+)
+"src/fopix/fopix.ml" 9 106 110 "src/fopix/fopix.ml" 9 106 115
+type(
+  ('a -> Lexing.lexbuf) -> 'a -> FopixAST.t
+)
+ident(
+  def parse "src/fopix/fopix.ml" 16 259 259 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 9 106 116 "src/fopix/fopix.ml" 9 106 126
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  def lexer_init "src/fopix/fopix.ml" 9 106 127 "src/fopix/fopix.ml" 14 247 257
+)
+"src/fopix/fopix.ml" 9 106 127 "src/fopix/fopix.ml" 9 106 132
+type(
+  'a
+)
+ident(
+  def input "src/fopix/fopix.ml" 10 135 137 "src/fopix/fopix.ml" 14 247 257
+)
+"src/fopix/fopix.ml" 10 135 137 "src/fopix/fopix.ml" 10 135 162
+type(
+  lexer_init:('a -> Lexing.lexbuf) ->
+  lexer_fun:(Lexing.lexbuf -> FopixParser.token) ->
+  parser_fun:((Lexing.lexbuf -> FopixParser.token) ->
+              Lexing.lexbuf -> FopixAST.t) ->
+  input:'a -> FopixAST.t
+)
+ident(
+  ext_ref SyntacticAnalysis.process
+)
+"src/fopix/fopix.ml" 11 163 168 "src/fopix/fopix.ml" 11 163 178
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  int_ref lexer_init "src/fopix/fopix.ml" 9 106 116 "src/fopix/fopix.ml" 9 106 126
+)
+"src/fopix/fopix.ml" 12 179 194 "src/fopix/fopix.ml" 12 179 210
+type(
+  Lexing.lexbuf -> FopixParser.token
+)
+ident(
+  ext_ref FopixLexer.token
+)
+"src/fopix/fopix.ml" 13 211 227 "src/fopix/fopix.ml" 13 211 246
+type(
+  (Lexing.lexbuf -> FopixParser.token) -> Lexing.lexbuf -> FopixAST.t
+)
+ident(
+  ext_ref FopixParser.program
+)
+"src/fopix/fopix.ml" 14 247 252 "src/fopix/fopix.ml" 14 247 257
+type(
+  'a
+)
+ident(
+  int_ref input "src/fopix/fopix.ml" 9 106 127 "src/fopix/fopix.ml" 9 106 132
+)
+"src/fopix/fopix.ml" 10 135 137 "src/fopix/fopix.ml" 14 247 257
+call(
+  tail
+)
+type(
+  FopixAST.t
+)
+"src/fopix/fopix.ml" 16 259 263 "src/fopix/fopix.ml" 16 259 277
+type(
+  string -> FopixAST.t
+)
+ident(
+  def parse_filename "src/fopix/fopix.ml" 19 337 337 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 16 259 278 "src/fopix/fopix.ml" 16 259 286
+type(
+  string
+)
+ident(
+  def filename "src/fopix/fopix.ml" 17 289 291 "src/fopix/fopix.ml" 17 289 335
+)
+"src/fopix/fopix.ml" 17 289 291 "src/fopix/fopix.ml" 17 289 296
+type(
+  (in_channel -> Lexing.lexbuf) -> in_channel -> FopixAST.t
+)
+ident(
+  int_ref parse "src/fopix/fopix.ml" 9 106 110 "src/fopix/fopix.ml" 9 106 115
+)
+"src/fopix/fopix.ml" 17 289 297 "src/fopix/fopix.ml" 17 289 316
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/fopix/fopix.ml" 17 289 318 "src/fopix/fopix.ml" 17 289 325
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/fopix/fopix.ml" 17 289 326 "src/fopix/fopix.ml" 17 289 334
+type(
+  string
+)
+ident(
+  int_ref filename "src/fopix/fopix.ml" 16 259 278 "src/fopix/fopix.ml" 16 259 286
+)
+"src/fopix/fopix.ml" 17 289 317 "src/fopix/fopix.ml" 17 289 335
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/fopix/fopix.ml" 17 289 291 "src/fopix/fopix.ml" 17 289 335
+call(
+  tail
+)
+type(
+  FopixAST.t
+)
+"src/fopix/fopix.ml" 19 337 341 "src/fopix/fopix.ml" 19 337 350
+type(
+  string
+)
+ident(
+  def extension "src/fopix/fopix.ml" 22 365 365 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 20 353 355 "src/fopix/fopix.ml" 20 353 363
+type(
+  string
+)
+"src/fopix/fopix.ml" 22 365 369 "src/fopix/fopix.ml" 22 365 381
+type(
+  string -> FopixAST.t
+)
+ident(
+  def parse_string "src/fopix/fopix.ml" 25 412 412 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 23 384 386 "src/fopix/fopix.ml" 23 384 391
+type(
+  (string -> Lexing.lexbuf) -> string -> FopixAST.t
+)
+ident(
+  int_ref parse "src/fopix/fopix.ml" 9 106 110 "src/fopix/fopix.ml" 9 106 115
+)
+"src/fopix/fopix.ml" 23 384 392 "src/fopix/fopix.ml" 23 384 410
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/fopix/fopix.ml" 23 384 386 "src/fopix/fopix.ml" 23 384 410
+call(
+  stack
+)
+type(
+  string -> FopixAST.t
+)
+"src/fopix/fopix.ml" 25 412 416 "src/fopix/fopix.ml" 25 412 425
+type(
+  FopixAST.definition list -> string
+)
+ident(
+  def print_ast "src/fopix/fopix.ml" 28 478 478 "src/fopix/fopix.ml" 1 0 -1
+)
+"src/fopix/fopix.ml" 25 412 426 "src/fopix/fopix.ml" 25 412 429
+type(
+  FopixAST.definition list
+)
+ident(
+  def ast "src/fopix/fopix.ml" 26 432 434 "src/fopix/fopix.ml" 26 432 476
+)
+"src/fopix/fopix.ml" 26 432 454 "src/fopix/fopix.ml" 26 432 463
+type(
+  (FopixAST.definition list -> PPrintEngine.ToBuffer.document) ->
+  FopixAST.definition list -> string
+)
+ident(
+  ext_ref FopixPrettyPrinter.to_string
+)
+"src/fopix/fopix.ml" 26 432 464 "src/fopix/fopix.ml" 26 432 471
+type(
+  FopixAST.definition list -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref FopixPrettyPrinter.program
+)
+"src/fopix/fopix.ml" 26 432 472 "src/fopix/fopix.ml" 26 432 475
+type(
+  FopixAST.definition list
+)
+ident(
+  int_ref ast "src/fopix/fopix.ml" 25 412 426 "src/fopix/fopix.ml" 25 412 429
+)
+"src/fopix/fopix.ml" 26 432 454 "src/fopix/fopix.ml" 26 432 475
+call(
+  tail
+)
+type(
+  string
+)

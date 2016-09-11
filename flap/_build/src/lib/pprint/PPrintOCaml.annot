@@ -1,0 +1,1897 @@
+"src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+type(
+  ('a, unit, string, PPrintEngine.document) format4 -> 'a
+)
+ident(
+  def dsprintf "src/lib/pprint/PPrintOCaml.ml" 40 1847 1847 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 29 1352 1365 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1371
+type(
+  ('a, unit, string, PPrintEngine.document) format4
+)
+ident(
+  def format "src/lib/pprint/PPrintOCaml.ml" 30 1375 1377 "src/lib/pprint/PPrintOCaml.ml" 30 1375 1399
+)
+"src/lib/pprint/PPrintOCaml.ml" 30 1375 1377 "src/lib/pprint/PPrintOCaml.ml" 30 1375 1385
+type(
+  (string -> PPrintEngine.document) ->
+  ('a, unit, string, PPrintEngine.document) format4 -> 'a
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/lib/pprint/PPrintOCaml.ml" 30 1375 1386 "src/lib/pprint/PPrintOCaml.ml" 30 1375 1392
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 30 1375 1393 "src/lib/pprint/PPrintOCaml.ml" 30 1375 1399
+type(
+  ('a, unit, string, PPrintEngine.document) format4
+)
+ident(
+  int_ref format "src/lib/pprint/PPrintOCaml.ml" 29 1352 1365 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1371
+)
+"src/lib/pprint/PPrintOCaml.ml" 30 1375 1377 "src/lib/pprint/PPrintOCaml.ml" 30 1375 1399
+call(
+  tail
+)
+type(
+  'a
+)
+"src/lib/pprint/PPrintOCaml.ml" 40 1847 1851 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1869
+type(
+  string -> string
+)
+ident(
+  def valid_float_lexeme "src/lib/pprint/PPrintOCaml.ml" 59 2487 2487 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 40 1847 1871 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1872
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintOCaml.ml" 40 1847 1883 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+)
+"src/lib/pprint/PPrintOCaml.ml" 41 1894 1900 "src/lib/pprint/PPrintOCaml.ml" 41 1894 1901
+type(
+  int
+)
+ident(
+  def l "src/lib/pprint/PPrintOCaml.ml" 42 1923 1925 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+)
+"src/lib/pprint/PPrintOCaml.ml" 41 1894 1904 "src/lib/pprint/PPrintOCaml.ml" 41 1894 1917
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintOCaml.ml" 41 1894 1918 "src/lib/pprint/PPrintOCaml.ml" 41 1894 1919
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 40 1847 1871 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1872
+)
+"src/lib/pprint/PPrintOCaml.ml" 41 1894 1904 "src/lib/pprint/PPrintOCaml.ml" 41 1894 1919
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 42 1923 1933 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1937
+type(
+  int -> string
+)
+ident(
+  def loop "src/lib/pprint/PPrintOCaml.ml" 42 1923 1925 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+)
+"src/lib/pprint/PPrintOCaml.ml" 42 1923 1938 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1939
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintOCaml.ml" 43 1942 1946 "src/lib/pprint/PPrintOCaml.ml" 52 2278 2292
+)
+"src/lib/pprint/PPrintOCaml.ml" 43 1942 1949 "src/lib/pprint/PPrintOCaml.ml" 43 1942 1950
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintOCaml.ml" 42 1923 1938 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1939
+)
+"src/lib/pprint/PPrintOCaml.ml" 43 1942 1951 "src/lib/pprint/PPrintOCaml.ml" 43 1942 1953
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lib/pprint/PPrintOCaml.ml" 43 1942 1954 "src/lib/pprint/PPrintOCaml.ml" 43 1942 1955
+type(
+  int
+)
+ident(
+  int_ref l "src/lib/pprint/PPrintOCaml.ml" 41 1894 1900 "src/lib/pprint/PPrintOCaml.ml" 41 1894 1901
+)
+"src/lib/pprint/PPrintOCaml.ml" 43 1942 1949 "src/lib/pprint/PPrintOCaml.ml" 43 1942 1955
+type(
+  bool
+)
+"src/lib/pprint/PPrintOCaml.ml" 48 2191 2197 "src/lib/pprint/PPrintOCaml.ml" 48 2191 2198
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 40 1847 1871 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1872
+)
+"src/lib/pprint/PPrintOCaml.ml" 48 2191 2199 "src/lib/pprint/PPrintOCaml.ml" 48 2191 2200
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 48 2191 2201 "src/lib/pprint/PPrintOCaml.ml" 48 2191 2204
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 48 2191 2197 "src/lib/pprint/PPrintOCaml.ml" 48 2191 2204
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 50 2214 2226 "src/lib/pprint/PPrintOCaml.ml" 50 2214 2227
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 40 1847 1871 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1872
+)
+"src/lib/pprint/PPrintOCaml.ml" 50 2214 2229 "src/lib/pprint/PPrintOCaml.ml" 50 2214 2230
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintOCaml.ml" 42 1923 1938 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1939
+)
+"src/lib/pprint/PPrintOCaml.ml" 50 2214 2226 "src/lib/pprint/PPrintOCaml.ml" 50 2214 2231
+type(
+  char
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2245 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2255
+type(
+  char
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2258 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2261
+type(
+  char
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2245 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2261
+type(
+  char
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2265 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2269
+type(
+  int -> string
+)
+ident(
+  int_ref loop "src/lib/pprint/PPrintOCaml.ml" 42 1923 1933 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1937
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2271 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2272
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintOCaml.ml" 42 1923 1938 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1939
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2273 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2274
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2275 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2276
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2270 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2277
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 51 2237 2265 "src/lib/pprint/PPrintOCaml.ml" 51 2237 2277
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 52 2278 2286 "src/lib/pprint/PPrintOCaml.ml" 52 2278 2287
+type(
+  char
+)
+"src/lib/pprint/PPrintOCaml.ml" 52 2278 2291 "src/lib/pprint/PPrintOCaml.ml" 52 2278 2292
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 40 1847 1871 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1872
+)
+"src/lib/pprint/PPrintOCaml.ml" 50 2214 2220 "src/lib/pprint/PPrintOCaml.ml" 52 2278 2292
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 43 1942 1946 "src/lib/pprint/PPrintOCaml.ml" 52 2278 2292
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 53 2293 2298 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2302
+type(
+  int -> string
+)
+ident(
+  int_ref loop "src/lib/pprint/PPrintOCaml.ml" 42 1923 1933 "src/lib/pprint/PPrintOCaml.ml" 42 1923 1937
+)
+"src/lib/pprint/PPrintOCaml.ml" 53 2293 2303 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 53 2293 2298 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 42 1923 1925 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 41 1894 1896 "src/lib/pprint/PPrintOCaml.ml" 53 2293 2304
+type(
+  string
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 59 2487 2491 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2511
+type(
+  float -> string
+)
+ident(
+  def float_representation "src/lib/pprint/PPrintOCaml.ml" 77 3074 3074 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+type(
+  float
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2524 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+)
+"src/lib/pprint/PPrintOCaml.ml" 60 2535 2543 "src/lib/pprint/PPrintOCaml.ml" 60 2535 2557
+type(
+  float -> fpclass
+)
+ident(
+  ext_ref Pervasives.classify_float
+)
+"src/lib/pprint/PPrintOCaml.ml" 60 2535 2558 "src/lib/pprint/PPrintOCaml.ml" 60 2535 2559
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 60 2535 2543 "src/lib/pprint/PPrintOCaml.ml" 60 2535 2559
+type(
+  fpclass
+)
+"src/lib/pprint/PPrintOCaml.ml" 61 2565 2569 "src/lib/pprint/PPrintOCaml.ml" 61 2565 2575
+type(
+  fpclass
+)
+"src/lib/pprint/PPrintOCaml.ml" 62 2579 2583 "src/lib/pprint/PPrintOCaml.ml" 62 2579 2588
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 63 2589 2593 "src/lib/pprint/PPrintOCaml.ml" 63 2589 2604
+type(
+  fpclass
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2617 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2618
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2619 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2620
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2621 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2624
+type(
+  float
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2617 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2624
+type(
+  bool
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2630 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2644
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2650 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2660
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 64 2608 2614 "src/lib/pprint/PPrintOCaml.ml" 64 2608 2660
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 65 2661 2665 "src/lib/pprint/PPrintOCaml.ml" 65 2661 2666
+type(
+  fpclass
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2732 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2733
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintOCaml.ml" 68 2757 2763 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2736 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2743
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2744 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2751
+type(
+  (float -> string, unit, string) format
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2752 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2753
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2736 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2753
+call(
+  stack
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2766 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2767
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2768 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2769
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2770 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2785
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2786 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2787
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 67 2722 2732 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2733
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2770 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2787
+type(
+  float
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2766 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2787
+type(
+  bool
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2793 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2811
+type(
+  string -> string
+)
+ident(
+  int_ref valid_float_lexeme "src/lib/pprint/PPrintOCaml.ml" 40 1847 1851 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1869
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2812 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2813
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 67 2722 2732 "src/lib/pprint/PPrintOCaml.ml" 67 2722 2733
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2793 "src/lib/pprint/PPrintOCaml.ml" 68 2757 2813
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2829 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2830
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintOCaml.ml" 70 2854 2860 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2833 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2840
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2841 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2848
+type(
+  (float -> string, unit, string) format
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2849 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2850
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2833 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2850
+call(
+  stack
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2863 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2864
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2865 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2866
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2867 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2882
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2883 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2884
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 69 2819 2829 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2830
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2867 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2884
+type(
+  float
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2863 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2884
+type(
+  bool
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2890 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2908
+type(
+  string -> string
+)
+ident(
+  int_ref valid_float_lexeme "src/lib/pprint/PPrintOCaml.ml" 40 1847 1851 "src/lib/pprint/PPrintOCaml.ml" 40 1847 1869
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2909 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2910
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintOCaml.ml" 69 2819 2829 "src/lib/pprint/PPrintOCaml.ml" 69 2819 2830
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2890 "src/lib/pprint/PPrintOCaml.ml" 70 2854 2910
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 71 2916 2922 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2929
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lib/pprint/PPrintOCaml.ml" 71 2916 2930 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2937
+type(
+  (float -> string, unit, string) format
+)
+"src/lib/pprint/PPrintOCaml.ml" 71 2916 2938 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 59 2487 2513 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2514
+)
+"src/lib/pprint/PPrintOCaml.ml" 71 2916 2922 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+call(
+  tail
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 70 2854 2860 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 69 2819 2825 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 68 2757 2763 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 67 2722 2728 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 60 2535 2537 "src/lib/pprint/PPrintOCaml.ml" 71 2916 2939
+type(
+  string
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 77 3074 3078 "src/lib/pprint/PPrintOCaml.ml" 77 3074 3082
+type(
+  PPrintEngine.document
+)
+ident(
+  def some "src/lib/pprint/PPrintOCaml.ml" 80 3102 3102 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 78 3085 3087 "src/lib/pprint/PPrintOCaml.ml" 78 3085 3093
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 78 3085 3094 "src/lib/pprint/PPrintOCaml.ml" 78 3085 3100
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 78 3085 3087 "src/lib/pprint/PPrintOCaml.ml" 78 3085 3100
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 80 3102 3106 "src/lib/pprint/PPrintOCaml.ml" 80 3102 3110
+type(
+  PPrintEngine.document
+)
+ident(
+  def none "src/lib/pprint/PPrintOCaml.ml" 83 3130 3130 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 81 3113 3115 "src/lib/pprint/PPrintOCaml.ml" 81 3113 3121
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 81 3113 3122 "src/lib/pprint/PPrintOCaml.ml" 81 3113 3128
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 81 3113 3115 "src/lib/pprint/PPrintOCaml.ml" 81 3113 3128
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 83 3130 3134 "src/lib/pprint/PPrintOCaml.ml" 83 3130 3145
+type(
+  PPrintEngine.document
+)
+ident(
+  def lbracketbar "src/lib/pprint/PPrintOCaml.ml" 86 3163 3163 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 84 3148 3150 "src/lib/pprint/PPrintOCaml.ml" 84 3148 3156
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 84 3148 3157 "src/lib/pprint/PPrintOCaml.ml" 84 3148 3161
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 84 3148 3150 "src/lib/pprint/PPrintOCaml.ml" 84 3148 3161
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 86 3163 3167 "src/lib/pprint/PPrintOCaml.ml" 86 3163 3178
+type(
+  PPrintEngine.document
+)
+ident(
+  def rbracketbar "src/lib/pprint/PPrintOCaml.ml" 89 3196 3196 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 87 3181 3183 "src/lib/pprint/PPrintOCaml.ml" 87 3181 3189
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 87 3181 3190 "src/lib/pprint/PPrintOCaml.ml" 87 3181 3194
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 87 3181 3183 "src/lib/pprint/PPrintOCaml.ml" 87 3181 3194
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 89 3196 3200 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3204
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def seq1 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3318 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 89 3196 3205 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3212
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintOCaml.ml" 89 3196 3213 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3316
+)
+"src/lib/pprint/PPrintOCaml.ml" 89 3196 3213 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3222
+type(
+  PPrintEngine.document
+)
+ident(
+  def separator "src/lib/pprint/PPrintOCaml.ml" 89 3196 3223 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3316
+)
+"src/lib/pprint/PPrintOCaml.ml" 89 3196 3223 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3230
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintOCaml.ml" 90 3233 3235 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3316
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3235 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3252
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.surround_separate
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3253 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3254
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3255 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3256
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3258 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3265
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintOCaml.ml" 89 3196 3205 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3212
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3266 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3268
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3269 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3276
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintOCaml.ml" 89 3196 3223 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3230
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3257 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3277
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3278 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3285
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintOCaml.ml" 89 3196 3205 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3212
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3287 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3296
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref separator "src/lib/pprint/PPrintOCaml.ml" 89 3196 3213 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3222
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3297 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3299
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3300 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3305
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3306 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3307
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3300 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3307
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3286 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3308
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3309 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3316
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintOCaml.ml" 89 3196 3223 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3230
+)
+"src/lib/pprint/PPrintOCaml.ml" 90 3233 3235 "src/lib/pprint/PPrintOCaml.ml" 90 3233 3316
+call(
+  tail
+)
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 92 3318 3322 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3326
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def seq2 "src/lib/pprint/PPrintOCaml.ml" 101 3654 3654 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 92 3318 3327 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3334
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintOCaml.ml" 92 3318 3335 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3442
+)
+"src/lib/pprint/PPrintOCaml.ml" 92 3318 3335 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3344
+type(
+  PPrintEngine.document
+)
+ident(
+  def separator "src/lib/pprint/PPrintOCaml.ml" 92 3318 3345 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3442
+)
+"src/lib/pprint/PPrintOCaml.ml" 92 3318 3345 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3352
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintOCaml.ml" 93 3355 3357 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3442
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3357 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3378
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.surround_separate_map
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3379 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3380
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3381 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3382
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3384 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3391
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintOCaml.ml" 92 3318 3327 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3334
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3392 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3394
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3395 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3402
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintOCaml.ml" 92 3318 3345 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3352
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3383 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3403
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3404 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3411
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintOCaml.ml" 92 3318 3327 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3334
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3413 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3422
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref separator "src/lib/pprint/PPrintOCaml.ml" 92 3318 3335 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3344
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3423 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3425
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3426 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3431
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3432 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3433
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3426 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3433
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3412 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3434
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3435 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3442
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintOCaml.ml" 92 3318 3345 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3352
+)
+"src/lib/pprint/PPrintOCaml.ml" 93 3355 3357 "src/lib/pprint/PPrintOCaml.ml" 93 3355 3442
+call(
+  tail
+)
+type(
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 104 3690 3694 "src/lib/pprint/PPrintOCaml.ml" 104 3690 3699
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def tuple "src/lib/pprint/PPrintOCaml.ml" 107 3730 3730 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 105 3702 3704 "src/lib/pprint/PPrintOCaml.ml" 105 3702 3708
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref seq1 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3200 "src/lib/pprint/PPrintOCaml.ml" 89 3196 3204
+)
+"src/lib/pprint/PPrintOCaml.ml" 105 3702 3709 "src/lib/pprint/PPrintOCaml.ml" 105 3702 3715
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.lparen
+)
+"src/lib/pprint/PPrintOCaml.ml" 105 3702 3716 "src/lib/pprint/PPrintOCaml.ml" 105 3702 3721
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.comma
+)
+"src/lib/pprint/PPrintOCaml.ml" 105 3702 3722 "src/lib/pprint/PPrintOCaml.ml" 105 3702 3728
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.rparen
+)
+"src/lib/pprint/PPrintOCaml.ml" 105 3702 3704 "src/lib/pprint/PPrintOCaml.ml" 105 3702 3728
+call(
+  stack
+)
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 107 3730 3734 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3741
+type(
+  'a -> string -> 'b -> PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def variant "src/lib/pprint/PPrintOCaml.ml" 114 3841 3841 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 107 3730 3742 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3743
+type(
+  'a
+)
+"src/lib/pprint/PPrintOCaml.ml" 107 3730 3744 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3748
+type(
+  string
+)
+ident(
+  def cons "src/lib/pprint/PPrintOCaml.ml" 107 3730 3749 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+)
+"src/lib/pprint/PPrintOCaml.ml" 107 3730 3749 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3750
+type(
+  'b
+)
+"src/lib/pprint/PPrintOCaml.ml" 107 3730 3751 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3755
+type(
+  PPrintEngine.document list
+)
+ident(
+  def args "src/lib/pprint/PPrintOCaml.ml" 108 3758 3760 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+)
+"src/lib/pprint/PPrintOCaml.ml" 108 3758 3766 "src/lib/pprint/PPrintOCaml.ml" 108 3758 3770
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref args "src/lib/pprint/PPrintOCaml.ml" 107 3730 3751 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3755
+)
+"src/lib/pprint/PPrintOCaml.ml" 109 3776 3780 "src/lib/pprint/PPrintOCaml.ml" 109 3776 3782
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintOCaml.ml" 110 3786 3792 "src/lib/pprint/PPrintOCaml.ml" 110 3786 3794
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.( !^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 110 3786 3794 "src/lib/pprint/PPrintOCaml.ml" 110 3786 3798
+type(
+  string
+)
+ident(
+  int_ref cons "src/lib/pprint/PPrintOCaml.ml" 107 3730 3744 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3748
+)
+"src/lib/pprint/PPrintOCaml.ml" 110 3786 3792 "src/lib/pprint/PPrintOCaml.ml" 110 3786 3798
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 111 3799 3803 "src/lib/pprint/PPrintOCaml.ml" 111 3799 3804
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 111 3799 3808 "src/lib/pprint/PPrintOCaml.ml" 111 3799 3809
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintOCaml.ml" 111 3799 3803 "src/lib/pprint/PPrintOCaml.ml" 111 3799 3809
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3819 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3821
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.( !^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3821 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3825
+type(
+  string
+)
+ident(
+  int_ref cons "src/lib/pprint/PPrintOCaml.ml" 107 3730 3744 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3748
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3819 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3825
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3826 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3828
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3829 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3834
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref tuple "src/lib/pprint/PPrintOCaml.ml" 104 3690 3694 "src/lib/pprint/PPrintOCaml.ml" 104 3690 3699
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3835 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref args "src/lib/pprint/PPrintOCaml.ml" 107 3730 3751 "src/lib/pprint/PPrintOCaml.ml" 107 3730 3755
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3829 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 112 3813 3819 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 108 3758 3760 "src/lib/pprint/PPrintOCaml.ml" 112 3813 3839
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 114 3841 3845 "src/lib/pprint/PPrintOCaml.ml" 114 3841 3851
+type(
+  'a -> (string * PPrintEngine.document) list -> PPrintEngine.document
+)
+ident(
+  def record "src/lib/pprint/PPrintOCaml.ml" 117 3936 3936 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 114 3841 3852 "src/lib/pprint/PPrintOCaml.ml" 114 3841 3853
+type(
+  'a
+)
+"src/lib/pprint/PPrintOCaml.ml" 114 3841 3854 "src/lib/pprint/PPrintOCaml.ml" 114 3841 3860
+type(
+  (string * PPrintEngine.document) list
+)
+ident(
+  def fields "src/lib/pprint/PPrintOCaml.ml" 115 3863 3865 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3934
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3865 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3869
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  (string * PPrintEngine.document -> PPrintEngine.document) ->
+  (string * PPrintEngine.document) list -> PPrintEngine.document
+)
+ident(
+  int_ref seq2 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3322 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3326
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3870 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3876
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.lbrace
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3877 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3881
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.semi
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3882 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3888
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.rbrace
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3895 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3896
+type(
+  string
+)
+ident(
+  def k "src/lib/pprint/PPrintOCaml.ml" 115 3863 3904 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3926
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3898 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3899
+type(
+  PPrintEngine.document
+)
+ident(
+  def v "src/lib/pprint/PPrintOCaml.ml" 115 3863 3904 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3926
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3894 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3900
+type(
+  string * PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3904 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3909
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.infix
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3910 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3911
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3912 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3913
+type(
+  int
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3914 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3920
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.equals
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3921 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3923
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.( !^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3923 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3924
+type(
+  string
+)
+ident(
+  int_ref k "src/lib/pprint/PPrintOCaml.ml" 115 3863 3895 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3896
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3921 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3924
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3925 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3926
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref v "src/lib/pprint/PPrintOCaml.ml" 115 3863 3898 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3899
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3904 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3926
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3889 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3927
+type(
+  string * PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3928 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3934
+type(
+  (string * PPrintEngine.document) list
+)
+ident(
+  int_ref fields "src/lib/pprint/PPrintOCaml.ml" 114 3841 3854 "src/lib/pprint/PPrintOCaml.ml" 114 3841 3860
+)
+"src/lib/pprint/PPrintOCaml.ml" 115 3863 3865 "src/lib/pprint/PPrintOCaml.ml" 115 3863 3934
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 117 3936 3940 "src/lib/pprint/PPrintOCaml.ml" 117 3936 3946
+type(
+  ('a -> PPrintEngine.document) -> 'a option -> PPrintEngine.document
+)
+ident(
+  def option "src/lib/pprint/PPrintOCaml.ml" 123 4024 4024 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 117 3936 3947 "src/lib/pprint/PPrintOCaml.ml" 117 3936 3948
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 117 3936 3951 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+)
+"src/lib/pprint/PPrintOCaml.ml" 118 3960 3964 "src/lib/pprint/PPrintOCaml.ml" 118 3960 3968
+type(
+  'a option
+)
+"src/lib/pprint/PPrintOCaml.ml" 119 3972 3978 "src/lib/pprint/PPrintOCaml.ml" 119 3972 3982
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref none "src/lib/pprint/PPrintOCaml.ml" 80 3102 3106 "src/lib/pprint/PPrintOCaml.ml" 80 3102 3110
+)
+"src/lib/pprint/PPrintOCaml.ml" 120 3983 3992 "src/lib/pprint/PPrintOCaml.ml" 120 3983 3993
+type(
+  'a
+)
+ident(
+  def x "src/lib/pprint/PPrintOCaml.ml" 121 3997 4003 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+)
+"src/lib/pprint/PPrintOCaml.ml" 120 3983 3987 "src/lib/pprint/PPrintOCaml.ml" 120 3983 3993
+type(
+  'a option
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4003 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4007
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref some "src/lib/pprint/PPrintOCaml.ml" 77 3074 3078 "src/lib/pprint/PPrintOCaml.ml" 77 3074 3082
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4008 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4010
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4011 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4016
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref tuple "src/lib/pprint/PPrintOCaml.ml" 104 3690 3694 "src/lib/pprint/PPrintOCaml.ml" 104 3690 3699
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4018 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4019
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 117 3936 3947 "src/lib/pprint/PPrintOCaml.ml" 117 3936 3948
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4020 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4021
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintOCaml.ml" 120 3983 3992 "src/lib/pprint/PPrintOCaml.ml" 120 3983 3993
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4018 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4021
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4017 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4011 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 121 3997 4003 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 117 3936 3951 "src/lib/pprint/PPrintOCaml.ml" 121 3997 4022
+type(
+  'a option -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 123 4024 4028 "src/lib/pprint/PPrintOCaml.ml" 123 4024 4032
+type(
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def list "src/lib/pprint/PPrintOCaml.ml" 126 4076 4076 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 123 4024 4033 "src/lib/pprint/PPrintOCaml.ml" 123 4024 4034
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 123 4024 4035 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4074
+)
+"src/lib/pprint/PPrintOCaml.ml" 123 4024 4035 "src/lib/pprint/PPrintOCaml.ml" 123 4024 4037
+type(
+  'a list
+)
+ident(
+  def xs "src/lib/pprint/PPrintOCaml.ml" 124 4040 4042 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4074
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4042 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4046
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  int_ref seq2 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3322 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3326
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4047 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4055
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.lbracket
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4056 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4060
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.semi
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4061 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4069
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.rbracket
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4070 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4071
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 123 4024 4033 "src/lib/pprint/PPrintOCaml.ml" 123 4024 4034
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4072 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4074
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintOCaml.ml" 123 4024 4035 "src/lib/pprint/PPrintOCaml.ml" 123 4024 4037
+)
+"src/lib/pprint/PPrintOCaml.ml" 124 4040 4042 "src/lib/pprint/PPrintOCaml.ml" 124 4040 4074
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 126 4076 4080 "src/lib/pprint/PPrintOCaml.ml" 126 4076 4085
+type(
+  ('a -> PPrintEngine.document) -> 'a array -> PPrintEngine.document
+)
+ident(
+  def array "src/lib/pprint/PPrintOCaml.ml" 129 4151 4151 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 126 4076 4086 "src/lib/pprint/PPrintOCaml.ml" 126 4076 4087
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 126 4076 4088 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4149
+)
+"src/lib/pprint/PPrintOCaml.ml" 126 4076 4088 "src/lib/pprint/PPrintOCaml.ml" 126 4076 4090
+type(
+  'a array
+)
+ident(
+  def xs "src/lib/pprint/PPrintOCaml.ml" 127 4093 4095 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4149
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4095 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4099
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  int_ref seq2 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3322 "src/lib/pprint/PPrintOCaml.ml" 92 3318 3326
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4100 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4111
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref lbracketbar "src/lib/pprint/PPrintOCaml.ml" 83 3130 3134 "src/lib/pprint/PPrintOCaml.ml" 83 3130 3145
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4112 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4116
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.semi
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4117 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4128
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref rbracketbar "src/lib/pprint/PPrintOCaml.ml" 86 3163 3167 "src/lib/pprint/PPrintOCaml.ml" 86 3163 3178
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4129 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4130
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 126 4076 4086 "src/lib/pprint/PPrintOCaml.ml" 126 4076 4087
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4132 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4145
+type(
+  'a array -> 'a list
+)
+ident(
+  ext_ref Array.to_list
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4146 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4148
+type(
+  'a array
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintOCaml.ml" 126 4076 4088 "src/lib/pprint/PPrintOCaml.ml" 126 4076 4090
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4131 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4149
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/lib/pprint/PPrintOCaml.ml" 127 4093 4095 "src/lib/pprint/PPrintOCaml.ml" 127 4093 4149
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 129 4151 4155 "src/lib/pprint/PPrintOCaml.ml" 129 4151 4158
+type(
+  ('a -> PPrintEngine.document) -> 'a ref -> PPrintEngine.document
+)
+ident(
+  def ref "src/lib/pprint/PPrintOCaml.ml" 132 4200 4200 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 129 4151 4159 "src/lib/pprint/PPrintOCaml.ml" 129 4151 4160
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 129 4151 4161 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4198
+)
+"src/lib/pprint/PPrintOCaml.ml" 129 4151 4161 "src/lib/pprint/PPrintOCaml.ml" 129 4151 4162
+type(
+  'a ref
+)
+ident(
+  def x "src/lib/pprint/PPrintOCaml.ml" 130 4165 4167 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4198
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4167 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4173
+type(
+  string -> (string * PPrintEngine.document) list -> PPrintEngine.document
+)
+ident(
+  int_ref record "src/lib/pprint/PPrintOCaml.ml" 114 3841 3845 "src/lib/pprint/PPrintOCaml.ml" 114 3841 3851
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4174 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4179
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4181 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4191
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4193 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4194
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 129 4151 4159 "src/lib/pprint/PPrintOCaml.ml" 129 4151 4160
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4195 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4196
+type(
+  'a ref -> 'a
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4196 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4197
+type(
+  'a ref
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintOCaml.ml" 129 4151 4161 "src/lib/pprint/PPrintOCaml.ml" 129 4151 4162
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4195 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4197
+type(
+  'a
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4193 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4197
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4181 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4197
+type(
+  string * PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4180 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4198
+type(
+  (string * PPrintEngine.document) list
+)
+"src/lib/pprint/PPrintOCaml.ml" 130 4165 4167 "src/lib/pprint/PPrintOCaml.ml" 130 4165 4198
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 132 4200 4204 "src/lib/pprint/PPrintOCaml.ml" 132 4200 4209
+type(
+  float -> PPrintEngine.document
+)
+ident(
+  def float "src/lib/pprint/PPrintOCaml.ml" 135 4249 4249 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 132 4200 4210 "src/lib/pprint/PPrintOCaml.ml" 132 4200 4211
+type(
+  float
+)
+ident(
+  def f "src/lib/pprint/PPrintOCaml.ml" 133 4214 4216 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4247
+)
+"src/lib/pprint/PPrintOCaml.ml" 133 4214 4216 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4222
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintOCaml.ml" 133 4214 4224 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4244
+type(
+  float -> string
+)
+ident(
+  int_ref float_representation "src/lib/pprint/PPrintOCaml.ml" 59 2487 2491 "src/lib/pprint/PPrintOCaml.ml" 59 2487 2511
+)
+"src/lib/pprint/PPrintOCaml.ml" 133 4214 4245 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4246
+type(
+  float
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintOCaml.ml" 132 4200 4210 "src/lib/pprint/PPrintOCaml.ml" 132 4200 4211
+)
+"src/lib/pprint/PPrintOCaml.ml" 133 4214 4223 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4247
+call(
+  stack
+)
+type(
+  string
+)
+"src/lib/pprint/PPrintOCaml.ml" 133 4214 4216 "src/lib/pprint/PPrintOCaml.ml" 133 4214 4247
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 135 4249 4253 "src/lib/pprint/PPrintOCaml.ml" 135 4249 4256
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  def int "src/lib/pprint/PPrintOCaml.ml" 138 4276 4276 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 136 4259 4261 "src/lib/pprint/PPrintOCaml.ml" 136 4259 4269
+type(
+  (int -> PPrintEngine.document, unit, string, PPrintEngine.document) format4 ->
+  int -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 136 4259 4270 "src/lib/pprint/PPrintOCaml.ml" 136 4259 4274
+type(
+  (int -> PPrintEngine.document, unit, string, PPrintEngine.document) format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 136 4259 4261 "src/lib/pprint/PPrintOCaml.ml" 136 4259 4274
+call(
+  stack
+)
+type(
+  int -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 138 4276 4280 "src/lib/pprint/PPrintOCaml.ml" 138 4276 4285
+type(
+  int32 -> PPrintEngine.document
+)
+ident(
+  def int32 "src/lib/pprint/PPrintOCaml.ml" 141 4306 4306 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 139 4288 4290 "src/lib/pprint/PPrintOCaml.ml" 139 4288 4298
+type(
+  (int32 -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> int32 -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 139 4288 4299 "src/lib/pprint/PPrintOCaml.ml" 139 4288 4304
+type(
+  (int32 -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 139 4288 4290 "src/lib/pprint/PPrintOCaml.ml" 139 4288 4304
+call(
+  stack
+)
+type(
+  int32 -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 141 4306 4310 "src/lib/pprint/PPrintOCaml.ml" 141 4306 4315
+type(
+  int64 -> PPrintEngine.document
+)
+ident(
+  def int64 "src/lib/pprint/PPrintOCaml.ml" 144 4336 4336 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 142 4318 4320 "src/lib/pprint/PPrintOCaml.ml" 142 4318 4328
+type(
+  (int64 -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> int64 -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 142 4318 4329 "src/lib/pprint/PPrintOCaml.ml" 142 4318 4334
+type(
+  (int64 -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 142 4318 4320 "src/lib/pprint/PPrintOCaml.ml" 142 4318 4334
+call(
+  stack
+)
+type(
+  int64 -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 144 4336 4340 "src/lib/pprint/PPrintOCaml.ml" 144 4336 4349
+type(
+  nativeint -> PPrintEngine.document
+)
+ident(
+  def nativeint "src/lib/pprint/PPrintOCaml.ml" 147 4370 4370 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 145 4352 4354 "src/lib/pprint/PPrintOCaml.ml" 145 4352 4362
+type(
+  (nativeint -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> nativeint -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 145 4352 4363 "src/lib/pprint/PPrintOCaml.ml" 145 4352 4368
+type(
+  (nativeint -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 145 4352 4354 "src/lib/pprint/PPrintOCaml.ml" 145 4352 4368
+call(
+  stack
+)
+type(
+  nativeint -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 147 4370 4374 "src/lib/pprint/PPrintOCaml.ml" 147 4370 4378
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  def char "src/lib/pprint/PPrintOCaml.ml" 150 4398 4398 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 148 4381 4383 "src/lib/pprint/PPrintOCaml.ml" 148 4381 4391
+type(
+  (char -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> char -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 148 4381 4392 "src/lib/pprint/PPrintOCaml.ml" 148 4381 4396
+type(
+  (char -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 148 4381 4383 "src/lib/pprint/PPrintOCaml.ml" 148 4381 4396
+call(
+  stack
+)
+type(
+  char -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 150 4398 4402 "src/lib/pprint/PPrintOCaml.ml" 150 4398 4406
+type(
+  bool -> PPrintEngine.document
+)
+ident(
+  def bool "src/lib/pprint/PPrintOCaml.ml" 153 4426 4426 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 151 4409 4411 "src/lib/pprint/PPrintOCaml.ml" 151 4409 4419
+type(
+  (bool -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> bool -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 151 4409 4420 "src/lib/pprint/PPrintOCaml.ml" 151 4409 4424
+type(
+  (bool -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 151 4409 4411 "src/lib/pprint/PPrintOCaml.ml" 151 4409 4424
+call(
+  stack
+)
+type(
+  bool -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 153 4426 4430 "src/lib/pprint/PPrintOCaml.ml" 153 4426 4436
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  def string "src/lib/pprint/PPrintOCaml.ml" 156 4456 4456 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 154 4439 4441 "src/lib/pprint/PPrintOCaml.ml" 154 4439 4449
+type(
+  (string -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> string -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 154 4439 4450 "src/lib/pprint/PPrintOCaml.ml" 154 4439 4454
+type(
+  (string -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 154 4439 4441 "src/lib/pprint/PPrintOCaml.ml" 154 4439 4454
+call(
+  stack
+)
+type(
+  string -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintOCaml.ml" 156 4456 4460 "src/lib/pprint/PPrintOCaml.ml" 156 4456 4467
+type(
+  string -> 'a -> PPrintEngine.document
+)
+ident(
+  def unknown "src/lib/pprint/PPrintOCaml.ml" 157 4479 4509 "src/lib/pprint/PPrintOCaml.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintOCaml.ml" 156 4456 4468 "src/lib/pprint/PPrintOCaml.ml" 156 4456 4474
+type(
+  string
+)
+ident(
+  def tyname "src/lib/pprint/PPrintOCaml.ml" 156 4456 4475 "src/lib/pprint/PPrintOCaml.ml" 157 4479 4509
+)
+"src/lib/pprint/PPrintOCaml.ml" 156 4456 4475 "src/lib/pprint/PPrintOCaml.ml" 156 4456 4476
+type(
+  'a
+)
+"src/lib/pprint/PPrintOCaml.ml" 157 4479 4481 "src/lib/pprint/PPrintOCaml.ml" 157 4479 4489
+type(
+  (string -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4 -> string -> PPrintEngine.document
+)
+ident(
+  int_ref dsprintf "src/lib/pprint/PPrintOCaml.ml" 29 1352 1356 "src/lib/pprint/PPrintOCaml.ml" 29 1352 1364
+)
+"src/lib/pprint/PPrintOCaml.ml" 157 4479 4490 "src/lib/pprint/PPrintOCaml.ml" 157 4479 4502
+type(
+  (string -> PPrintEngine.document, unit, string, PPrintEngine.document)
+  format4
+)
+"src/lib/pprint/PPrintOCaml.ml" 157 4479 4503 "src/lib/pprint/PPrintOCaml.ml" 157 4479 4509
+type(
+  string
+)
+ident(
+  int_ref tyname "src/lib/pprint/PPrintOCaml.ml" 156 4456 4468 "src/lib/pprint/PPrintOCaml.ml" 156 4456 4474
+)
+"src/lib/pprint/PPrintOCaml.ml" 157 4479 4481 "src/lib/pprint/PPrintOCaml.ml" 157 4479 4509
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)

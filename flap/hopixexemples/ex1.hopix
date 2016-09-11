@@ -1,0 +1,4 @@
+extern print_int:int->unit.
+val p := 1234+2.
+val t := p.
+val f := print_int(t).

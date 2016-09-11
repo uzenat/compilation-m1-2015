@@ -1,0 +1,215 @@
+"src/mips/mips.ml" 5 61 65 "src/mips/mips.ml" 5 61 69
+type(
+  string
+)
+ident(
+  def name "src/mips/mips.ml" 8 82 82 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 6 72 74 "src/mips/mips.ml" 6 72 80
+type(
+  string
+)
+"src/mips/mips.ml" 10 104 108 "src/mips/mips.ml" 10 104 113
+type(
+  ('a -> Lexing.lexbuf) -> 'a -> MipsAST.t
+)
+ident(
+  def parse "src/mips/mips.ml" 17 255 255 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 10 104 114 "src/mips/mips.ml" 10 104 124
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  def lexer_init "src/mips/mips.ml" 10 104 125 "src/mips/mips.ml" 15 243 253
+)
+"src/mips/mips.ml" 10 104 125 "src/mips/mips.ml" 10 104 130
+type(
+  'a
+)
+ident(
+  def input "src/mips/mips.ml" 11 133 135 "src/mips/mips.ml" 15 243 253
+)
+"src/mips/mips.ml" 11 133 135 "src/mips/mips.ml" 11 133 160
+type(
+  lexer_init:('a -> Lexing.lexbuf) ->
+  lexer_fun:(Lexing.lexbuf -> MipsParser.token) ->
+  parser_fun:((Lexing.lexbuf -> MipsParser.token) ->
+              Lexing.lexbuf -> MipsAST.t) ->
+  input:'a -> MipsAST.t
+)
+ident(
+  ext_ref SyntacticAnalysis.process
+)
+"src/mips/mips.ml" 12 161 166 "src/mips/mips.ml" 12 161 176
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  int_ref lexer_init "src/mips/mips.ml" 10 104 114 "src/mips/mips.ml" 10 104 124
+)
+"src/mips/mips.ml" 13 177 192 "src/mips/mips.ml" 13 177 207
+type(
+  Lexing.lexbuf -> MipsParser.token
+)
+ident(
+  ext_ref MipsLexer.token
+)
+"src/mips/mips.ml" 14 208 224 "src/mips/mips.ml" 14 208 242
+type(
+  (Lexing.lexbuf -> MipsParser.token) -> Lexing.lexbuf -> MipsAST.t
+)
+ident(
+  ext_ref MipsParser.program
+)
+"src/mips/mips.ml" 15 243 248 "src/mips/mips.ml" 15 243 253
+type(
+  'a
+)
+ident(
+  int_ref input "src/mips/mips.ml" 10 104 125 "src/mips/mips.ml" 10 104 130
+)
+"src/mips/mips.ml" 11 133 135 "src/mips/mips.ml" 15 243 253
+call(
+  tail
+)
+type(
+  MipsAST.t
+)
+"src/mips/mips.ml" 17 255 259 "src/mips/mips.ml" 17 255 273
+type(
+  string -> MipsAST.t
+)
+ident(
+  def parse_filename "src/mips/mips.ml" 20 333 333 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 17 255 274 "src/mips/mips.ml" 17 255 282
+type(
+  string
+)
+ident(
+  def filename "src/mips/mips.ml" 18 285 287 "src/mips/mips.ml" 18 285 331
+)
+"src/mips/mips.ml" 18 285 287 "src/mips/mips.ml" 18 285 292
+type(
+  (in_channel -> Lexing.lexbuf) -> in_channel -> MipsAST.t
+)
+ident(
+  int_ref parse "src/mips/mips.ml" 10 104 108 "src/mips/mips.ml" 10 104 113
+)
+"src/mips/mips.ml" 18 285 293 "src/mips/mips.ml" 18 285 312
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/mips/mips.ml" 18 285 314 "src/mips/mips.ml" 18 285 321
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/mips/mips.ml" 18 285 322 "src/mips/mips.ml" 18 285 330
+type(
+  string
+)
+ident(
+  int_ref filename "src/mips/mips.ml" 17 255 274 "src/mips/mips.ml" 17 255 282
+)
+"src/mips/mips.ml" 18 285 313 "src/mips/mips.ml" 18 285 331
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/mips/mips.ml" 18 285 287 "src/mips/mips.ml" 18 285 331
+call(
+  tail
+)
+type(
+  MipsAST.t
+)
+"src/mips/mips.ml" 20 333 337 "src/mips/mips.ml" 20 333 346
+type(
+  string
+)
+ident(
+  def extension "src/mips/mips.ml" 23 360 360 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 21 349 351 "src/mips/mips.ml" 21 349 358
+type(
+  string
+)
+"src/mips/mips.ml" 23 360 364 "src/mips/mips.ml" 23 360 376
+type(
+  string -> MipsAST.t
+)
+ident(
+  def parse_string "src/mips/mips.ml" 26 407 407 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 24 379 381 "src/mips/mips.ml" 24 379 386
+type(
+  (string -> Lexing.lexbuf) -> string -> MipsAST.t
+)
+ident(
+  int_ref parse "src/mips/mips.ml" 10 104 108 "src/mips/mips.ml" 10 104 113
+)
+"src/mips/mips.ml" 24 379 387 "src/mips/mips.ml" 24 379 405
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/mips/mips.ml" 24 379 381 "src/mips/mips.ml" 24 379 405
+call(
+  stack
+)
+type(
+  string -> MipsAST.t
+)
+"src/mips/mips.ml" 26 407 411 "src/mips/mips.ml" 26 407 420
+type(
+  MipsAST.t -> string
+)
+ident(
+  def print_ast "src/mips/mips.ml" 29 472 472 "src/mips/mips.ml" 1 0 -1
+)
+"src/mips/mips.ml" 26 407 421 "src/mips/mips.ml" 26 407 424
+type(
+  MipsAST.t
+)
+ident(
+  def ast "src/mips/mips.ml" 27 427 429 "src/mips/mips.ml" 27 427 470
+)
+"src/mips/mips.ml" 27 427 448 "src/mips/mips.ml" 27 427 457
+type(
+  (MipsAST.t -> PPrintEngine.ToBuffer.document) -> MipsAST.t -> string
+)
+ident(
+  ext_ref MipsPrettyPrinter.to_string
+)
+"src/mips/mips.ml" 27 427 458 "src/mips/mips.ml" 27 427 465
+type(
+  MipsAST.t -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref MipsPrettyPrinter.program
+)
+"src/mips/mips.ml" 27 427 466 "src/mips/mips.ml" 27 427 469
+type(
+  MipsAST.t
+)
+ident(
+  int_ref ast "src/mips/mips.ml" 26 407 421 "src/mips/mips.ml" 26 407 424
+)
+"src/mips/mips.ml" 27 427 448 "src/mips/mips.ml" 27 427 469
+call(
+  tail
+)
+type(
+  string
+)

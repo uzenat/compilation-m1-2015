@@ -1,0 +1,240 @@
+"src/utilities/syntacticAnalysis.ml" 5 91 95 "src/utilities/syntacticAnalysis.ml" 5 91 107
+type(
+  string
+)
+ident(
+  def parsing_step "src/utilities/syntacticAnalysis.ml" 7 128 128 "src/utilities/syntacticAnalysis.ml" 1 0 -1
+)
+"src/utilities/syntacticAnalysis.ml" 5 91 110 "src/utilities/syntacticAnalysis.ml" 5 91 126
+type(
+  string
+)
+"src/utilities/syntacticAnalysis.ml" 7 128 132 "src/utilities/syntacticAnalysis.ml" 7 128 139
+type(
+  lexer_init:('a -> 'b) ->
+  lexer_fun:'c -> parser_fun:('c -> 'b -> 'd) -> input:'a -> 'd
+)
+ident(
+  def process "src/utilities/syntacticAnalysis.ml" 10 227 227 "src/utilities/syntacticAnalysis.ml" 1 0 -1
+)
+"src/utilities/syntacticAnalysis.ml" 7 128 141 "src/utilities/syntacticAnalysis.ml" 7 128 151
+type(
+  'a -> 'b
+)
+ident(
+  def lexer_init "src/utilities/syntacticAnalysis.ml" 7 128 152 "src/utilities/syntacticAnalysis.ml" 8 184 225
+)
+"src/utilities/syntacticAnalysis.ml" 7 128 153 "src/utilities/syntacticAnalysis.ml" 7 128 162
+type(
+  'c
+)
+ident(
+  def lexer_fun "src/utilities/syntacticAnalysis.ml" 7 128 163 "src/utilities/syntacticAnalysis.ml" 8 184 225
+)
+"src/utilities/syntacticAnalysis.ml" 7 128 164 "src/utilities/syntacticAnalysis.ml" 7 128 174
+type(
+  'c -> 'b -> 'd
+)
+ident(
+  def parser_fun "src/utilities/syntacticAnalysis.ml" 7 128 175 "src/utilities/syntacticAnalysis.ml" 8 184 225
+)
+"src/utilities/syntacticAnalysis.ml" 7 128 176 "src/utilities/syntacticAnalysis.ml" 7 128 181
+type(
+  'a
+)
+ident(
+  def input "src/utilities/syntacticAnalysis.ml" 8 184 186 "src/utilities/syntacticAnalysis.ml" 8 184 225
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 186 "src/utilities/syntacticAnalysis.ml" 8 184 196
+type(
+  'c -> 'b -> 'd
+)
+ident(
+  int_ref parser_fun "src/utilities/syntacticAnalysis.ml" 7 128 164 "src/utilities/syntacticAnalysis.ml" 7 128 174
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 197 "src/utilities/syntacticAnalysis.ml" 8 184 206
+type(
+  'c
+)
+ident(
+  int_ref lexer_fun "src/utilities/syntacticAnalysis.ml" 7 128 153 "src/utilities/syntacticAnalysis.ml" 7 128 162
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 208 "src/utilities/syntacticAnalysis.ml" 8 184 218
+type(
+  'a -> 'b
+)
+ident(
+  int_ref lexer_init "src/utilities/syntacticAnalysis.ml" 7 128 141 "src/utilities/syntacticAnalysis.ml" 7 128 151
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 219 "src/utilities/syntacticAnalysis.ml" 8 184 224
+type(
+  'a
+)
+ident(
+  int_ref input "src/utilities/syntacticAnalysis.ml" 7 128 176 "src/utilities/syntacticAnalysis.ml" 7 128 181
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 207 "src/utilities/syntacticAnalysis.ml" 8 184 225
+call(
+  stack
+)
+type(
+  'b
+)
+"src/utilities/syntacticAnalysis.ml" 8 184 186 "src/utilities/syntacticAnalysis.ml" 8 184 225
+call(
+  tail
+)
+type(
+  'd
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 231 "src/utilities/syntacticAnalysis.ml" 10 227 238
+type(
+  lexer_init:('a -> 'b) ->
+  lexer_fun:'c -> parser_fun:('c -> 'b -> 'd) -> input:'a -> 'd
+)
+ident(
+  def process "src/utilities/syntacticAnalysis.ml" 16 415 466 "src/utilities/syntacticAnalysis.ml" 1 0 -1
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 240 "src/utilities/syntacticAnalysis.ml" 10 227 250
+type(
+  'a -> 'b
+)
+ident(
+  def lexer_init "src/utilities/syntacticAnalysis.ml" 10 227 251 "src/utilities/syntacticAnalysis.ml" 16 415 466
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 252 "src/utilities/syntacticAnalysis.ml" 10 227 261
+type(
+  'c
+)
+ident(
+  def lexer_fun "src/utilities/syntacticAnalysis.ml" 10 227 262 "src/utilities/syntacticAnalysis.ml" 16 415 466
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 263 "src/utilities/syntacticAnalysis.ml" 10 227 273
+type(
+  'c -> 'b -> 'd
+)
+ident(
+  def parser_fun "src/utilities/syntacticAnalysis.ml" 10 227 274 "src/utilities/syntacticAnalysis.ml" 16 415 466
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 275 "src/utilities/syntacticAnalysis.ml" 10 227 280
+type(
+  'a
+)
+ident(
+  def input "src/utilities/syntacticAnalysis.ml" 10 227 284 "src/utilities/syntacticAnalysis.ml" 16 415 466
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 290 "src/utilities/syntacticAnalysis.ml" 11 288 297
+type(
+  lexer_init:('a -> 'b) ->
+  lexer_fun:'c -> parser_fun:('c -> 'b -> 'd) -> input:'a -> 'd
+)
+ident(
+  int_ref process "src/utilities/syntacticAnalysis.ml" 7 128 132 "src/utilities/syntacticAnalysis.ml" 7 128 139
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 299 "src/utilities/syntacticAnalysis.ml" 11 288 309
+type(
+  'a -> 'b
+)
+ident(
+  int_ref lexer_init "src/utilities/syntacticAnalysis.ml" 10 227 240 "src/utilities/syntacticAnalysis.ml" 10 227 250
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 311 "src/utilities/syntacticAnalysis.ml" 11 288 320
+type(
+  'c
+)
+ident(
+  int_ref lexer_fun "src/utilities/syntacticAnalysis.ml" 10 227 252 "src/utilities/syntacticAnalysis.ml" 10 227 261
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 322 "src/utilities/syntacticAnalysis.ml" 11 288 332
+type(
+  'c -> 'b -> 'd
+)
+ident(
+  int_ref parser_fun "src/utilities/syntacticAnalysis.ml" 10 227 263 "src/utilities/syntacticAnalysis.ml" 10 227 273
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 334 "src/utilities/syntacticAnalysis.ml" 11 288 339
+type(
+  'a
+)
+ident(
+  int_ref input "src/utilities/syntacticAnalysis.ml" 10 227 275 "src/utilities/syntacticAnalysis.ml" 10 227 280
+)
+"src/utilities/syntacticAnalysis.ml" 11 288 290 "src/utilities/syntacticAnalysis.ml" 11 288 339
+call(
+  stack
+)
+type(
+  'd
+)
+"src/utilities/syntacticAnalysis.ml" 13 345 359 "src/utilities/syntacticAnalysis.ml" 13 345 362
+type(
+  string
+)
+ident(
+  def msg "src/utilities/syntacticAnalysis.ml" 14 366 370 "src/utilities/syntacticAnalysis.ml" 14 366 405
+)
+"src/utilities/syntacticAnalysis.ml" 13 345 349 "src/utilities/syntacticAnalysis.ml" 13 345 362
+type(
+  exn
+)
+"src/utilities/syntacticAnalysis.ml" 14 366 370 "src/utilities/syntacticAnalysis.ml" 14 366 388
+type(
+  string -> string -> 'd
+)
+ident(
+  ext_ref Error.global_error
+)
+"src/utilities/syntacticAnalysis.ml" 14 366 389 "src/utilities/syntacticAnalysis.ml" 14 366 401
+type(
+  string
+)
+ident(
+  int_ref parsing_step "src/utilities/syntacticAnalysis.ml" 5 91 95 "src/utilities/syntacticAnalysis.ml" 5 91 107
+)
+"src/utilities/syntacticAnalysis.ml" 14 366 402 "src/utilities/syntacticAnalysis.ml" 14 366 405
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/syntacticAnalysis.ml" 13 345 359 "src/utilities/syntacticAnalysis.ml" 13 345 362
+)
+"src/utilities/syntacticAnalysis.ml" 14 366 370 "src/utilities/syntacticAnalysis.ml" 14 366 405
+call(
+  tail
+)
+type(
+  'd
+)
+"src/utilities/syntacticAnalysis.ml" 15 406 410 "src/utilities/syntacticAnalysis.ml" 15 406 411
+type(
+  exn
+)
+"src/utilities/syntacticAnalysis.ml" 16 415 419 "src/utilities/syntacticAnalysis.ml" 16 415 437
+type(
+  string -> string -> 'd
+)
+ident(
+  ext_ref Error.global_error
+)
+"src/utilities/syntacticAnalysis.ml" 16 415 438 "src/utilities/syntacticAnalysis.ml" 16 415 450
+type(
+  string
+)
+ident(
+  int_ref parsing_step "src/utilities/syntacticAnalysis.ml" 5 91 95 "src/utilities/syntacticAnalysis.ml" 5 91 107
+)
+"src/utilities/syntacticAnalysis.ml" 16 415 451 "src/utilities/syntacticAnalysis.ml" 16 415 466
+type(
+  string
+)
+"src/utilities/syntacticAnalysis.ml" 16 415 419 "src/utilities/syntacticAnalysis.ml" 16 415 466
+call(
+  tail
+)
+type(
+  'd
+)
+"src/utilities/syntacticAnalysis.ml" 10 227 284 "src/utilities/syntacticAnalysis.ml" 16 415 466
+type(
+  'd
+)

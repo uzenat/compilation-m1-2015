@@ -1,0 +1,2 @@
+commande pour démarrer hopix : 
+rlwrap ./flap -s hopix -i truerlwrap ./flap -s hopix -i true

@@ -1,0 +1,141 @@
+"src/utilities/listMonad.ml" 3 21 25 "src/utilities/listMonad.ml" 3 21 29
+type(
+  'a -> 'a
+)
+ident(
+  def pick "src/utilities/listMonad.ml" 5 39 39 "src/utilities/listMonad.ml" 1 0 -1
+)
+"src/utilities/listMonad.ml" 3 21 30 "src/utilities/listMonad.ml" 3 21 32
+type(
+  'a
+)
+ident(
+  def cs "src/utilities/listMonad.ml" 3 21 35 "src/utilities/listMonad.ml" 3 21 37
+)
+"src/utilities/listMonad.ml" 3 21 35 "src/utilities/listMonad.ml" 3 21 37
+type(
+  'a
+)
+ident(
+  int_ref cs "src/utilities/listMonad.ml" 3 21 30 "src/utilities/listMonad.ml" 3 21 32
+)
+"src/utilities/listMonad.ml" 5 39 43 "src/utilities/listMonad.ml" 5 39 49
+type(
+  'a -> 'a list
+)
+ident(
+  def return "src/utilities/listMonad.ml" 7 59 59 "src/utilities/listMonad.ml" 1 0 -1
+)
+"src/utilities/listMonad.ml" 5 39 50 "src/utilities/listMonad.ml" 5 39 51
+type(
+  'a
+)
+ident(
+  def a "src/utilities/listMonad.ml" 5 39 54 "src/utilities/listMonad.ml" 5 39 57
+)
+"src/utilities/listMonad.ml" 5 39 55 "src/utilities/listMonad.ml" 5 39 56
+type(
+  'a
+)
+ident(
+  int_ref a "src/utilities/listMonad.ml" 5 39 50 "src/utilities/listMonad.ml" 5 39 51
+)
+"src/utilities/listMonad.ml" 5 39 54 "src/utilities/listMonad.ml" 5 39 57
+type(
+  'a list
+)
+"src/utilities/listMonad.ml" 7 59 63 "src/utilities/listMonad.ml" 7 59 67
+type(
+  'a list
+)
+ident(
+  def fail "src/utilities/listMonad.ml" 9 74 74 "src/utilities/listMonad.ml" 1 0 -1
+)
+"src/utilities/listMonad.ml" 7 59 70 "src/utilities/listMonad.ml" 7 59 72
+type(
+  'a list
+)
+"src/utilities/listMonad.ml" 9 74 78 "src/utilities/listMonad.ml" 9 74 85
+type(
+  'a list -> ('a -> 'b list) -> 'b list
+)
+ident(
+  def >>= "src/utilities/listMonad.ml" 12 120 120 "src/utilities/listMonad.ml" 1 0 -1
+)
+"src/utilities/listMonad.ml" 9 74 86 "src/utilities/listMonad.ml" 9 74 87
+type(
+  'a list
+)
+ident(
+  def m "src/utilities/listMonad.ml" 9 74 88 "src/utilities/listMonad.ml" 10 92 118
+)
+"src/utilities/listMonad.ml" 9 74 88 "src/utilities/listMonad.ml" 9 74 89
+type(
+  'a -> 'b list
+)
+ident(
+  def f "src/utilities/listMonad.ml" 10 92 94 "src/utilities/listMonad.ml" 10 92 118
+)
+"src/utilities/listMonad.ml" 10 92 100 "src/utilities/listMonad.ml" 10 92 107
+type(
+  'b list list -> 'b list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/utilities/listMonad.ml" 10 92 109 "src/utilities/listMonad.ml" 10 92 112
+type(
+  ('a -> 'b list) -> 'a list -> 'b list list
+)
+ident(
+  ext_ref List.map
+)
+"src/utilities/listMonad.ml" 10 92 113 "src/utilities/listMonad.ml" 10 92 114
+type(
+  'a -> 'b list
+)
+ident(
+  int_ref f "src/utilities/listMonad.ml" 9 74 88 "src/utilities/listMonad.ml" 9 74 89
+)
+"src/utilities/listMonad.ml" 10 92 115 "src/utilities/listMonad.ml" 10 92 116
+type(
+  'a list
+)
+ident(
+  int_ref m "src/utilities/listMonad.ml" 9 74 86 "src/utilities/listMonad.ml" 9 74 87
+)
+"src/utilities/listMonad.ml" 10 92 108 "src/utilities/listMonad.ml" 10 92 117
+call(
+  stack
+)
+type(
+  'b list list
+)
+"src/utilities/listMonad.ml" 10 92 100 "src/utilities/listMonad.ml" 10 92 117
+call(
+  tail
+)
+type(
+  'b list
+)
+"src/utilities/listMonad.ml" 12 120 124 "src/utilities/listMonad.ml" 12 120 127
+type(
+  'a -> 'a
+)
+ident(
+  def run "src/utilities/listMonad.ml" 12 120 133 "src/utilities/listMonad.ml" 1 0 -1
+)
+"src/utilities/listMonad.ml" 12 120 128 "src/utilities/listMonad.ml" 12 120 129
+type(
+  'a
+)
+ident(
+  def m "src/utilities/listMonad.ml" 12 120 132 "src/utilities/listMonad.ml" 12 120 133
+)
+"src/utilities/listMonad.ml" 12 120 132 "src/utilities/listMonad.ml" 12 120 133
+type(
+  'a
+)
+ident(
+  int_ref m "src/utilities/listMonad.ml" 12 120 128 "src/utilities/listMonad.ml" 12 120 129
+)

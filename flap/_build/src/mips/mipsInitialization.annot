@@ -1,0 +1,51 @@
+"src/mips/mipsInitialization.ml" 2 78 82 "src/mips/mipsInitialization.ml" 2 78 92
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/mips/mipsInitialization.ml" 4 134 178 "src/mips/mipsInitialization.ml" 1 0 -1
+)
+"src/mips/mipsInitialization.ml" 2 78 93 "src/mips/mipsInitialization.ml" 2 78 95
+type(
+  unit
+)
+"src/mips/mipsInitialization.ml" 3 98 100 "src/mips/mipsInitialization.ml" 3 98 118
+type(
+  (module Languages.Language) -> unit
+)
+ident(
+  ext_ref Languages.register
+)
+"src/mips/mipsInitialization.ml" 3 98 119 "src/mips/mipsInitialization.ml" 3 98 132
+type(
+  (module Languages.Language)
+)
+"src/mips/mipsInitialization.ml" 3 98 100 "src/mips/mipsInitialization.ml" 3 98 132
+call(
+  stack
+)
+type(
+  unit
+)
+"src/mips/mipsInitialization.ml" 4 134 136 "src/mips/mipsInitialization.ml" 4 134 154
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/mips/mipsInitialization.ml" 4 134 155 "src/mips/mipsInitialization.ml" 4 134 178
+type(
+  (module Compilers.Compiler)
+)
+"src/mips/mipsInitialization.ml" 4 134 136 "src/mips/mipsInitialization.ml" 4 134 178
+call(
+  tail
+)
+type(
+  unit
+)
+"src/mips/mipsInitialization.ml" 3 98 100 "src/mips/mipsInitialization.ml" 4 134 178
+type(
+  unit
+)

@@ -1,0 +1,1123 @@
+"src/commandLineOptions.ml" 3 41 45 "src/commandLineOptions.ml" 3 41 57
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+ident(
+  def options_list "src/commandLineOptions.ml" 6 70 70 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 4 60 62 "src/commandLineOptions.ml" 4 60 65
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/commandLineOptions.ml" 4 60 66 "src/commandLineOptions.ml" 4 60 68
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 4 60 62 "src/commandLineOptions.ml" 4 60 68
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+"src/commandLineOptions.ml" 6 70 74 "src/commandLineOptions.ml" 6 70 78
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> unit
+)
+ident(
+  def push "src/commandLineOptions.ml" 9 144 144 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 6 70 79 "src/commandLineOptions.ml" 6 70 92
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def local_options "src/commandLineOptions.ml" 7 95 97 "src/commandLineOptions.ml" 7 95 142
+)
+"src/commandLineOptions.ml" 7 95 97 "src/commandLineOptions.ml" 7 95 109
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+ident(
+  int_ref options_list "src/commandLineOptions.ml" 3 41 45 "src/commandLineOptions.ml" 3 41 57
+)
+"src/commandLineOptions.ml" 7 95 110 "src/commandLineOptions.ml" 7 95 112
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref ->
+  (Arg.key * Arg.spec * Arg.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/commandLineOptions.ml" 7 95 113 "src/commandLineOptions.ml" 7 95 114
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref ->
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/commandLineOptions.ml" 7 95 114 "src/commandLineOptions.ml" 7 95 126
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+ident(
+  int_ref options_list "src/commandLineOptions.ml" 3 41 45 "src/commandLineOptions.ml" 3 41 57
+)
+"src/commandLineOptions.ml" 7 95 113 "src/commandLineOptions.ml" 7 95 126
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 7 95 127 "src/commandLineOptions.ml" 7 95 128
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/commandLineOptions.ml" 7 95 129 "src/commandLineOptions.ml" 7 95 142
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref local_options "src/commandLineOptions.ml" 6 70 79 "src/commandLineOptions.ml" 6 70 92
+)
+"src/commandLineOptions.ml" 7 95 113 "src/commandLineOptions.ml" 7 95 142
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 7 95 97 "src/commandLineOptions.ml" 7 95 142
+type(
+  unit
+)
+"src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+type(
+  'a list -> 'b -> string -> ('a * 'b * string) list
+)
+ident(
+  def options "src/commandLineOptions.ml" 19 394 394 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 9 144 156 "src/commandLineOptions.ml" 9 144 161
+type(
+  'a list
+)
+ident(
+  def names "src/commandLineOptions.ml" 9 144 162 "src/commandLineOptions.ml" 17 339 392
+)
+"src/commandLineOptions.ml" 9 144 162 "src/commandLineOptions.ml" 9 144 166
+type(
+  'b
+)
+ident(
+  def kind "src/commandLineOptions.ml" 9 144 167 "src/commandLineOptions.ml" 17 339 392
+)
+"src/commandLineOptions.ml" 9 144 167 "src/commandLineOptions.ml" 9 144 170
+type(
+  string
+)
+ident(
+  def doc "src/commandLineOptions.ml" 10 173 175 "src/commandLineOptions.ml" 17 339 392
+)
+"src/commandLineOptions.ml" 10 173 179 "src/commandLineOptions.ml" 10 173 189
+type(
+  string -> string
+)
+ident(
+  def first_shot "src/commandLineOptions.ml" 17 339 341 "src/commandLineOptions.ml" 17 339 392
+)
+"src/commandLineOptions.ml" 11 192 200 "src/commandLineOptions.ml" 11 192 205
+type(
+  bool ref
+)
+ident(
+  def state "src/commandLineOptions.ml" 12 220 224 "src/commandLineOptions.ml" 15 285 333
+)
+"src/commandLineOptions.ml" 11 192 208 "src/commandLineOptions.ml" 11 192 211
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/commandLineOptions.ml" 11 192 212 "src/commandLineOptions.ml" 11 192 216
+type(
+  bool
+)
+"src/commandLineOptions.ml" 11 192 208 "src/commandLineOptions.ml" 11 192 216
+type(
+  bool ref
+)
+"src/commandLineOptions.ml" 12 220 228 "src/commandLineOptions.ml" 12 220 229
+type(
+  string
+)
+ident(
+  def s "src/commandLineOptions.ml" 13 233 239 "src/commandLineOptions.ml" 15 285 333
+)
+"src/commandLineOptions.ml" 13 233 242 "src/commandLineOptions.ml" 13 233 243
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/commandLineOptions.ml" 13 233 243 "src/commandLineOptions.ml" 13 233 248
+type(
+  bool ref
+)
+ident(
+  int_ref state "src/commandLineOptions.ml" 11 192 200 "src/commandLineOptions.ml" 11 192 205
+)
+"src/commandLineOptions.ml" 13 233 242 "src/commandLineOptions.ml" 13 233 248
+type(
+  bool
+)
+"src/commandLineOptions.ml" 13 233 255 "src/commandLineOptions.ml" 13 233 260
+type(
+  bool ref
+)
+ident(
+  int_ref state "src/commandLineOptions.ml" 11 192 200 "src/commandLineOptions.ml" 11 192 205
+)
+"src/commandLineOptions.ml" 13 233 261 "src/commandLineOptions.ml" 13 233 263
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/commandLineOptions.ml" 13 233 264 "src/commandLineOptions.ml" 13 233 269
+type(
+  bool
+)
+"src/commandLineOptions.ml" 13 233 255 "src/commandLineOptions.ml" 13 233 269
+type(
+  unit
+)
+"src/commandLineOptions.ml" 13 233 271 "src/commandLineOptions.ml" 13 233 272
+type(
+  string
+)
+ident(
+  int_ref s "src/commandLineOptions.ml" 12 220 228 "src/commandLineOptions.ml" 12 220 229
+)
+"src/commandLineOptions.ml" 13 233 254 "src/commandLineOptions.ml" 13 233 273
+type(
+  string
+)
+"src/commandLineOptions.ml" 15 285 294 "src/commandLineOptions.ml" 15 285 301
+type(
+  string list -> string
+)
+ident(
+  ext_ref List.hd
+)
+"src/commandLineOptions.ml" 15 285 308 "src/commandLineOptions.ml" 15 285 313
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"src/commandLineOptions.ml" 15 285 315 "src/commandLineOptions.ml" 15 285 321
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/commandLineOptions.ml" 15 285 322 "src/commandLineOptions.ml" 15 285 325
+type(
+  string
+)
+"src/commandLineOptions.ml" 15 285 314 "src/commandLineOptions.ml" 15 285 326
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/commandLineOptions.ml" 15 285 327 "src/commandLineOptions.ml" 15 285 330
+type(
+  string
+)
+ident(
+  int_ref doc "src/commandLineOptions.ml" 9 144 167 "src/commandLineOptions.ml" 9 144 170
+)
+"src/commandLineOptions.ml" 15 285 308 "src/commandLineOptions.ml" 15 285 330
+call(
+  stack
+)
+type(
+  string list
+)
+"src/commandLineOptions.ml" 15 285 293 "src/commandLineOptions.ml" 15 285 333
+call(
+  tail
+)
+type(
+  string
+)
+"src/commandLineOptions.ml" 13 233 239 "src/commandLineOptions.ml" 15 285 333
+type(
+  string
+)
+"src/commandLineOptions.ml" 12 220 224 "src/commandLineOptions.ml" 15 285 333
+type(
+  string -> string
+)
+"src/commandLineOptions.ml" 11 192 196 "src/commandLineOptions.ml" 15 285 333
+type(
+  string -> string
+)
+"src/commandLineOptions.ml" 17 339 341 "src/commandLineOptions.ml" 17 339 349
+type(
+  ('a -> 'a * 'b * string) -> 'a list -> ('a * 'b * string) list
+)
+ident(
+  ext_ref List.map
+)
+"src/commandLineOptions.ml" 17 339 355 "src/commandLineOptions.ml" 17 339 356
+type(
+  'a
+)
+ident(
+  def n "src/commandLineOptions.ml" 17 339 360 "src/commandLineOptions.ml" 17 339 385
+)
+"src/commandLineOptions.ml" 17 339 361 "src/commandLineOptions.ml" 17 339 362
+type(
+  'a
+)
+ident(
+  int_ref n "src/commandLineOptions.ml" 17 339 355 "src/commandLineOptions.ml" 17 339 356
+)
+"src/commandLineOptions.ml" 17 339 364 "src/commandLineOptions.ml" 17 339 368
+type(
+  'b
+)
+ident(
+  int_ref kind "src/commandLineOptions.ml" 9 144 162 "src/commandLineOptions.ml" 9 144 166
+)
+"src/commandLineOptions.ml" 17 339 370 "src/commandLineOptions.ml" 17 339 380
+type(
+  string -> string
+)
+ident(
+  int_ref first_shot "src/commandLineOptions.ml" 10 173 179 "src/commandLineOptions.ml" 10 173 189
+)
+"src/commandLineOptions.ml" 17 339 381 "src/commandLineOptions.ml" 17 339 384
+type(
+  string
+)
+ident(
+  int_ref doc "src/commandLineOptions.ml" 9 144 167 "src/commandLineOptions.ml" 9 144 170
+)
+"src/commandLineOptions.ml" 17 339 370 "src/commandLineOptions.ml" 17 339 384
+call(
+  stack
+)
+type(
+  string
+)
+"src/commandLineOptions.ml" 17 339 360 "src/commandLineOptions.ml" 17 339 385
+type(
+  'a * 'b * string
+)
+"src/commandLineOptions.ml" 17 339 350 "src/commandLineOptions.ml" 17 339 386
+type(
+  'a -> 'a * 'b * string
+)
+"src/commandLineOptions.ml" 17 339 387 "src/commandLineOptions.ml" 17 339 392
+type(
+  'a list
+)
+ident(
+  int_ref names "src/commandLineOptions.ml" 9 144 156 "src/commandLineOptions.ml" 9 144 161
+)
+"src/commandLineOptions.ml" 17 339 341 "src/commandLineOptions.ml" 17 339 392
+call(
+  tail
+)
+type(
+  ('a * 'b * string) list
+)
+"src/commandLineOptions.ml" 10 173 175 "src/commandLineOptions.ml" 17 339 392
+type(
+  ('a * 'b * string) list
+)
+"src/commandLineOptions.ml" 19 394 398 "src/commandLineOptions.ml" 19 394 420
+type(
+  unit -> 'a
+)
+ident(
+  def show_version_and_exits "src/commandLineOptions.ml" 23 482 482 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 19 394 421 "src/commandLineOptions.ml" 19 394 423
+type(
+  unit
+)
+"src/commandLineOptions.ml" 20 426 428 "src/commandLineOptions.ml" 20 426 441
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/commandLineOptions.ml" 20 426 442 "src/commandLineOptions.ml" 20 426 455
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/commandLineOptions.ml" 20 426 456 "src/commandLineOptions.ml" 20 426 470
+type(
+  string
+)
+ident(
+  ext_ref Version.number
+)
+"src/commandLineOptions.ml" 20 426 428 "src/commandLineOptions.ml" 20 426 470
+call(
+  stack
+)
+type(
+  unit
+)
+"src/commandLineOptions.ml" 21 472 474 "src/commandLineOptions.ml" 21 472 478
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/commandLineOptions.ml" 21 472 479 "src/commandLineOptions.ml" 21 472 480
+type(
+  int
+)
+"src/commandLineOptions.ml" 21 472 474 "src/commandLineOptions.ml" 21 472 480
+call(
+  tail
+)
+type(
+  'a
+)
+"src/commandLineOptions.ml" 20 426 428 "src/commandLineOptions.ml" 21 472 480
+type(
+  'a
+)
+"src/commandLineOptions.ml" 23 482 486 "src/commandLineOptions.ml" 23 482 501
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def generic_options "src/commandLineOptions.ml" 96 2353 2353 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 23 482 509 "src/commandLineOptions.ml" 23 482 514
+type(
+  ?limit:int ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Arg.align
+)
+"src/commandLineOptions.ml" 23 482 516 "src/commandLineOptions.ml" 23 482 528
+type(
+  (Arg.key * Arg.spec * Arg.doc) list list ->
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/commandLineOptions.ml" 24 531 533 "src/commandLineOptions.ml" 24 531 540
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 25 541 546 "src/commandLineOptions.ml" 25 541 557
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 25 541 559 "src/commandLineOptions.ml" 25 541 563
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 25 541 545 "src/commandLineOptions.ml" 25 541 564
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 26 565 575 "src/commandLineOptions.ml" 26 565 597
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_version_and_exits "src/commandLineOptions.ml" 19 394 398 "src/commandLineOptions.ml" 19 394 420
+)
+"src/commandLineOptions.ml" 26 565 569 "src/commandLineOptions.ml" 26 565 598
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 27 599 603 "src/commandLineOptions.ml" 27 599 640
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 24 531 533 "src/commandLineOptions.ml" 27 599 640
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 29 643 645 "src/commandLineOptions.ml" 29 643 652
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 30 653 658 "src/commandLineOptions.ml" 30 653 668
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 30 653 670 "src/commandLineOptions.ml" 30 653 674
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 30 653 657 "src/commandLineOptions.ml" 30 653 675
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 31 676 688 "src/commandLineOptions.ml" 31 676 715
+type(
+  string -> unit
+)
+ident(
+  ext_ref Options.set_source_language
+)
+"src/commandLineOptions.ml" 31 676 680 "src/commandLineOptions.ml" 31 676 716
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 32 717 721 "src/commandLineOptions.ml" 32 717 761
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 29 643 645 "src/commandLineOptions.ml" 32 717 761
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 34 764 766 "src/commandLineOptions.ml" 34 764 773
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 35 774 779 "src/commandLineOptions.ml" 35 774 789
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 35 774 791 "src/commandLineOptions.ml" 35 774 795
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 35 774 778 "src/commandLineOptions.ml" 35 774 796
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 36 797 809 "src/commandLineOptions.ml" 36 797 836
+type(
+  string -> unit
+)
+ident(
+  ext_ref Options.set_target_language
+)
+"src/commandLineOptions.ml" 36 797 801 "src/commandLineOptions.ml" 36 797 837
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 37 838 842 "src/commandLineOptions.ml" 37 838 882
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 34 764 766 "src/commandLineOptions.ml" 37 838 882
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 39 885 887 "src/commandLineOptions.ml" 39 885 894
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 40 895 900 "src/commandLineOptions.ml" 40 895 915
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 40 895 917 "src/commandLineOptions.ml" 40 895 921
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 40 895 899 "src/commandLineOptions.ml" 40 895 922
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 41 923 933 "src/commandLineOptions.ml" 41 923 961
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_interactive_mode
+)
+"src/commandLineOptions.ml" 41 923 927 "src/commandLineOptions.ml" 41 923 962
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 42 963 967 "src/commandLineOptions.ml" 42 963 1005
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 39 885 887 "src/commandLineOptions.ml" 42 963 1005
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 44 1008 1010 "src/commandLineOptions.ml" 44 1008 1017
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 45 1018 1023 "src/commandLineOptions.ml" 45 1018 1030
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 45 1018 1032 "src/commandLineOptions.ml" 45 1018 1036
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 45 1018 1022 "src/commandLineOptions.ml" 45 1018 1037
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 46 1038 1048 "src/commandLineOptions.ml" 46 1038 1072
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_running_mode
+)
+"src/commandLineOptions.ml" 46 1038 1042 "src/commandLineOptions.ml" 46 1038 1073
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 47 1074 1078 "src/commandLineOptions.ml" 47 1074 1136
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 44 1008 1010 "src/commandLineOptions.ml" 47 1074 1136
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 49 1139 1141 "src/commandLineOptions.ml" 49 1139 1148
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 50 1149 1154 "src/commandLineOptions.ml" 50 1149 1165
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 50 1149 1167 "src/commandLineOptions.ml" 50 1149 1171
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 50 1149 1153 "src/commandLineOptions.ml" 50 1149 1172
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 51 1173 1183 "src/commandLineOptions.ml" 51 1173 1207
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_verbose_mode
+)
+"src/commandLineOptions.ml" 51 1173 1177 "src/commandLineOptions.ml" 51 1173 1208
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 52 1209 1213 "src/commandLineOptions.ml" 52 1209 1260
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 49 1139 1141 "src/commandLineOptions.ml" 52 1209 1260
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 54 1263 1265 "src/commandLineOptions.ml" 54 1263 1272
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 55 1273 1278 "src/commandLineOptions.ml" 55 1273 1285
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 55 1273 1287 "src/commandLineOptions.ml" 55 1273 1291
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 55 1273 1277 "src/commandLineOptions.ml" 55 1273 1292
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 56 1293 1303 "src/commandLineOptions.ml" 56 1293 1323
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_dry_mode
+)
+"src/commandLineOptions.ml" 56 1293 1297 "src/commandLineOptions.ml" 56 1293 1324
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 57 1325 1329 "src/commandLineOptions.ml" 57 1325 1391
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 54 1263 1265 "src/commandLineOptions.ml" 57 1325 1391
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 59 1394 1396 "src/commandLineOptions.ml" 59 1394 1403
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 60 1404 1409 "src/commandLineOptions.ml" 60 1404 1419
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 60 1404 1421 "src/commandLineOptions.ml" 60 1404 1425
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 60 1404 1408 "src/commandLineOptions.ml" 60 1404 1426
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 61 1427 1437 "src/commandLineOptions.ml" 61 1427 1455
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_unsafe
+)
+"src/commandLineOptions.ml" 61 1427 1431 "src/commandLineOptions.ml" 61 1427 1456
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 62 1457 1461 "src/commandLineOptions.ml" 62 1457 1511
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 59 1394 1396 "src/commandLineOptions.ml" 62 1457 1511
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 64 1514 1516 "src/commandLineOptions.ml" 64 1514 1523
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 65 1524 1529 "src/commandLineOptions.ml" 65 1524 1538
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 65 1524 1540 "src/commandLineOptions.ml" 65 1524 1544
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 65 1524 1528 "src/commandLineOptions.ml" 65 1524 1545
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 66 1546 1556 "src/commandLineOptions.ml" 66 1546 1577
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_benchmark
+)
+"src/commandLineOptions.ml" 66 1546 1550 "src/commandLineOptions.ml" 66 1546 1578
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 67 1579 1583 "src/commandLineOptions.ml" 67 1579 1641
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 64 1514 1516 "src/commandLineOptions.ml" 67 1579 1641
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 69 1644 1646 "src/commandLineOptions.ml" 69 1644 1653
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 70 1654 1659 "src/commandLineOptions.ml" 70 1654 1668
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 70 1654 1670 "src/commandLineOptions.ml" 70 1654 1674
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 70 1654 1658 "src/commandLineOptions.ml" 70 1654 1676
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 71 1677 1689 "src/commandLineOptions.ml" 71 1677 1709
+type(
+  string -> unit
+)
+ident(
+  ext_ref Options.insert_using
+)
+"src/commandLineOptions.ml" 71 1677 1681 "src/commandLineOptions.ml" 71 1677 1710
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 72 1711 1715 "src/commandLineOptions.ml" 72 1711 1775
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 69 1644 1646 "src/commandLineOptions.ml" 72 1711 1775
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 74 1778 1780 "src/commandLineOptions.ml" 74 1778 1787
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 75 1788 1793 "src/commandLineOptions.ml" 75 1788 1800
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 75 1788 1802 "src/commandLineOptions.ml" 75 1788 1806
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 75 1788 1792 "src/commandLineOptions.ml" 75 1788 1808
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 76 1809 1819 "src/commandLineOptions.ml" 76 1809 1834
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_gcc
+)
+"src/commandLineOptions.ml" 76 1809 1813 "src/commandLineOptions.ml" 76 1809 1835
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 77 1836 1840 "src/commandLineOptions.ml" 77 1836 1911
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 74 1778 1780 "src/commandLineOptions.ml" 77 1836 1911
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 79 1914 1916 "src/commandLineOptions.ml" 79 1914 1923
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 80 1924 1929 "src/commandLineOptions.ml" 80 1924 1938
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 80 1924 1940 "src/commandLineOptions.ml" 80 1924 1944
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 80 1924 1928 "src/commandLineOptions.ml" 80 1924 1945
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 81 1946 1956 "src/commandLineOptions.ml" 81 1946 1978
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_show_types
+)
+"src/commandLineOptions.ml" 81 1946 1950 "src/commandLineOptions.ml" 81 1946 1979
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 82 1980 1984 "src/commandLineOptions.ml" 82 1980 2052
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 79 1914 1916 "src/commandLineOptions.ml" 82 1980 2052
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 84 2055 2057 "src/commandLineOptions.ml" 84 2055 2064
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 85 2065 2070 "src/commandLineOptions.ml" 85 2065 2079
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 85 2065 2081 "src/commandLineOptions.ml" 85 2065 2085
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 85 2065 2069 "src/commandLineOptions.ml" 85 2065 2086
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 86 2087 2097 "src/commandLineOptions.ml" 86 2087 2120
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_infer_types
+)
+"src/commandLineOptions.ml" 86 2087 2091 "src/commandLineOptions.ml" 86 2087 2121
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 87 2122 2126 "src/commandLineOptions.ml" 87 2122 2195
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 84 2055 2057 "src/commandLineOptions.ml" 87 2122 2195
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 89 2198 2200 "src/commandLineOptions.ml" 89 2198 2207
+type(
+  Arg.key list -> Arg.spec -> Arg.doc -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref options "src/commandLineOptions.ml" 9 144 148 "src/commandLineOptions.ml" 9 144 155
+)
+"src/commandLineOptions.ml" 90 2208 2213 "src/commandLineOptions.ml" 90 2208 2229
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 90 2208 2231 "src/commandLineOptions.ml" 90 2208 2235
+type(
+  Arg.key
+)
+"src/commandLineOptions.ml" 90 2208 2212 "src/commandLineOptions.ml" 90 2208 2236
+type(
+  Arg.key list
+)
+"src/commandLineOptions.ml" 91 2237 2247 "src/commandLineOptions.ml" 91 2237 2270
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Options.set_check_types
+)
+"src/commandLineOptions.ml" 91 2237 2241 "src/commandLineOptions.ml" 91 2237 2271
+type(
+  Arg.spec
+)
+"src/commandLineOptions.ml" 92 2272 2276 "src/commandLineOptions.ml" 92 2272 2345
+type(
+  Arg.doc
+)
+"src/commandLineOptions.ml" 89 2198 2200 "src/commandLineOptions.ml" 92 2272 2345
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 23 482 529 "src/commandLineOptions.ml" 94 2348 2349
+type(
+  (Arg.key * Arg.spec * Arg.doc) list list
+)
+"src/commandLineOptions.ml" 23 482 515 "src/commandLineOptions.ml" 94 2348 2350
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 23 482 509 "src/commandLineOptions.ml" 94 2348 2350
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 96 2353 2357 "src/commandLineOptions.ml" 96 2353 2366
+type(
+  string
+)
+ident(
+  def usage_msg "src/commandLineOptions.ml" 99 2404 2404 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 97 2369 2371 "src/commandLineOptions.ml" 97 2369 2402
+type(
+  string
+)
+"src/commandLineOptions.ml" 99 2404 2408 "src/commandLineOptions.ml" 99 2404 2413
+type(
+  unit -> unit
+)
+ident(
+  def parse "src/commandLineOptions.ml" 102 2483 2483 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 99 2404 2414 "src/commandLineOptions.ml" 99 2404 2416
+type(
+  unit
+)
+"src/commandLineOptions.ml" 100 2419 2421 "src/commandLineOptions.ml" 100 2419 2430
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"src/commandLineOptions.ml" 100 2419 2431 "src/commandLineOptions.ml" 100 2419 2432
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref ->
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/commandLineOptions.ml" 100 2419 2432 "src/commandLineOptions.ml" 100 2419 2444
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ref
+)
+ident(
+  int_ref options_list "src/commandLineOptions.ml" 3 41 45 "src/commandLineOptions.ml" 3 41 57
+)
+"src/commandLineOptions.ml" 100 2419 2431 "src/commandLineOptions.ml" 100 2419 2444
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"src/commandLineOptions.ml" 100 2419 2445 "src/commandLineOptions.ml" 100 2419 2471
+type(
+  Arg.anon_fun
+)
+ident(
+  ext_ref Options.set_input_filename
+)
+"src/commandLineOptions.ml" 100 2419 2472 "src/commandLineOptions.ml" 100 2419 2481
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "src/commandLineOptions.ml" 96 2353 2357 "src/commandLineOptions.ml" 96 2353 2366
+)
+"src/commandLineOptions.ml" 100 2419 2421 "src/commandLineOptions.ml" 100 2419 2481
+call(
+  tail
+)
+type(
+  unit
+)
+"src/commandLineOptions.ml" 102 2483 2487 "src/commandLineOptions.ml" 102 2483 2497
+type(
+  unit
+)
+ident(
+  def initialize "src/commandLineOptions.ml" 103 2500 2522 "src/commandLineOptions.ml" 1 0 -1
+)
+"src/commandLineOptions.ml" 103 2500 2502 "src/commandLineOptions.ml" 103 2500 2506
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> unit
+)
+ident(
+  int_ref push "src/commandLineOptions.ml" 6 70 74 "src/commandLineOptions.ml" 6 70 78
+)
+"src/commandLineOptions.ml" 103 2500 2507 "src/commandLineOptions.ml" 103 2500 2522
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref generic_options "src/commandLineOptions.ml" 23 482 486 "src/commandLineOptions.ml" 23 482 501
+)
+"src/commandLineOptions.ml" 103 2500 2502 "src/commandLineOptions.ml" 103 2500 2522
+call(
+  stack
+)
+type(
+  unit
+)

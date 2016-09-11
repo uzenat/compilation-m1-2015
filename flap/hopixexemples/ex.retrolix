@@ -1,0 +1,40 @@
+external print_int
+code (g)
+local p:
+l2: p <- load 4321;
+l1: g <- load 4321;
+end
+code (f)
+local
+X14, X13, print_int, X16, X15, X12, X11, X10, X9, X8, X7, X6, X5, X4, X3, X2, X1:
+ l3: X1 <- load $t9;
+ l4: X2 <- load $t8;
+ l5: X3 <- load $t7;
+ l6: X4 <- load $t6;
+ l7: X5 <- load $t5;
+ l8: X6 <- load $t4;
+ l9: X7 <- load $t3;
+l10: X8 <- load $t2;
+l11: X9 <- load $t1;
+l12: X10 <- load $t0;
+l24: X11 <- load $a0;
+l23: X12 <- load $a1;
+l27: $s7 <- load $ra;
+l29: X15 <- load g;
+l30: X16 <- load print_int;
+l31: f <- call &print_int (X15, X16);
+l22: $t9 <- load X1;
+l21: $t8 <- load X2;
+l20: $t7 <- load X3;
+l19: $t6 <- load X4;
+l18: $t5 <- load X5;
+l17: $t4 <- load X6;
+l16: $t3 <- load X7;
+l15: $t2 <- load X8;
+l14: $t1 <- load X9;
+l13: $t0 <- load X10;
+l26: $a0 <- load X13;
+l25: $a1 <- load X14;
+l28: $ra <- load $s7;
+l32: exit;
+end

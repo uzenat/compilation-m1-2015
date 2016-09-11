@@ -1,0 +1,77 @@
+"src/fopix/fopixInitialization.ml" 1 0 4 "src/fopix/fopixInitialization.ml" 1 0 14
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/fopix/fopixInitialization.ml" 4 115 157 "src/fopix/fopixInitialization.ml" 1 0 -1
+)
+"src/fopix/fopixInitialization.ml" 1 0 15 "src/fopix/fopixInitialization.ml" 1 0 17
+type(
+  unit
+)
+"src/fopix/fopixInitialization.ml" 2 20 22 "src/fopix/fopixInitialization.ml" 2 20 40
+type(
+  (module Languages.Language) -> unit
+)
+ident(
+  ext_ref Languages.register
+)
+"src/fopix/fopixInitialization.ml" 2 20 41 "src/fopix/fopixInitialization.ml" 2 20 55
+type(
+  (module Languages.Language)
+)
+"src/fopix/fopixInitialization.ml" 2 20 22 "src/fopix/fopixInitialization.ml" 2 20 55
+call(
+  stack
+)
+type(
+  unit
+)
+"src/fopix/fopixInitialization.ml" 3 57 59 "src/fopix/fopixInitialization.ml" 3 57 77
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/fopix/fopixInitialization.ml" 3 57 86 "src/fopix/fopixInitialization.ml" 3 57 112
+call(
+  stack
+)
+"src/fopix/fopixInitialization.ml" 3 57 78 "src/fopix/fopixInitialization.ml" 3 57 113
+type(
+  (module Compilers.Compiler)
+)
+"src/fopix/fopixInitialization.ml" 3 57 59 "src/fopix/fopixInitialization.ml" 3 57 113
+call(
+  stack
+)
+type(
+  unit
+)
+"src/fopix/fopixInitialization.ml" 4 115 117 "src/fopix/fopixInitialization.ml" 4 115 135
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/fopix/fopixInitialization.ml" 4 115 136 "src/fopix/fopixInitialization.ml" 4 115 157
+type(
+  (module Compilers.Compiler)
+)
+"src/fopix/fopixInitialization.ml" 4 115 117 "src/fopix/fopixInitialization.ml" 4 115 157
+call(
+  tail
+)
+type(
+  unit
+)
+"src/fopix/fopixInitialization.ml" 3 57 59 "src/fopix/fopixInitialization.ml" 4 115 157
+type(
+  unit
+)
+"src/fopix/fopixInitialization.ml" 2 20 22 "src/fopix/fopixInitialization.ml" 4 115 157
+type(
+  unit
+)

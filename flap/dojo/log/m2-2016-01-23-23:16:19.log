@@ -1,0 +1,1645 @@
+automatic:0/0
+Trace:
+=> J'ai trouvé une archive.
+=> Je la décompresse.
+flap-uzenat-elouraoui-15.2/
+flap-uzenat-elouraoui-15.2/myocamlbuild_config.ml
+flap-uzenat-elouraoui-15.2/Makefile.local
+flap-uzenat-elouraoui-15.2/src/
+flap-uzenat-elouraoui-15.2/src/version.ml
+flap-uzenat-elouraoui-15.2/src/common/
+flap-uzenat-elouraoui-15.2/src/common/compilers.ml
+flap-uzenat-elouraoui-15.2/src/common/languages.ml
+flap-uzenat-elouraoui-15.2/src/options.ml
+flap-uzenat-elouraoui-15.2/src/hopix/
+flap-uzenat-elouraoui-15.2/src/hopix/memory.mli
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypechecker.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixInterpreter.ml
+flap-uzenat-elouraoui-15.2/src/hopix/memory.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixLexer.mll
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypeInferenceEngine.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixAST.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixPrettyPrinter.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixParser.mly
+flap-uzenat-elouraoui-15.2/src/hopix/hopix.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypes.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixInitialization.ml
+flap-uzenat-elouraoui-15.2/src/lib/
+flap-uzenat-elouraoui-15.2/src/lib/pprint/
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintEngine.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/LICENSE
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintOCaml.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/CHANGES
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintRenderer.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintEngine.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrint.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/AUTHORS
+flap-uzenat-elouraoui-15.2/src/lib/pprint/README
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintCombinators.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintCombinators.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/Makefile
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintOCaml.ml
+flap-uzenat-elouraoui-15.2/src/flap.ml
+flap-uzenat-elouraoui-15.2/src/utilities/
+flap-uzenat-elouraoui-15.2/src/utilities/userInput.ml
+flap-uzenat-elouraoui-15.2/src/utilities/position.ml
+flap-uzenat-elouraoui-15.2/src/utilities/error.ml
+flap-uzenat-elouraoui-15.2/src/utilities/syntacticAnalysis.ml
+flap-uzenat-elouraoui-15.2/src/utilities/position.mli
+flap-uzenat-elouraoui-15.2/src/utilities/error.mli
+flap-uzenat-elouraoui-15.2/src/utilities/extPPrint.ml
+flap-uzenat-elouraoui-15.2/src/utilities/syntacticAnalysis.mli
+flap-uzenat-elouraoui-15.2/src/utilities/stdUserInput.ml
+flap-uzenat-elouraoui-15.2/src/utilities/option.ml
+flap-uzenat-elouraoui-15.2/src/utilities/extStd.ml
+flap-uzenat-elouraoui-15.2/src/commandLineOptions.ml
+flap-uzenat-elouraoui-15.2/_tags
+flap-uzenat-elouraoui-15.2/Makefile.generic
+flap-uzenat-elouraoui-15.2/Makefile.config
+flap-uzenat-elouraoui-15.2/Makefile
+=> Je compile.
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+ocamlfind ocamldep -package unix -package str -modules src/flap.ml > src/flap.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/commandLineOptions.ml > src/commandLineOptions.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/options.ml > src/options.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.mli > src/utilities/error.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.mli > src/utilities/position.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/position.cmi src/utilities/position.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/error.cmi src/utilities/error.mli
+ocamlfind ocamldep -package unix -package str -modules src/version.ml > src/version.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/options.cmo src/options.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/version.cmo src/version.ml
+ocamlfind ocamldep -package unix -package str -modules src/common/compilers.ml > src/common/compilers.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extStd.ml > src/utilities/extStd.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/common/languages.ml > src/common/languages.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extStd.cmo src/utilities/extStd.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/languages.cmo src/common/languages.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInitialization.ml > src/hopix/hopixInitialization.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/compilers.cmo src/common/compilers.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopix.ml > src/hopix/hopix.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixAST.ml > src/hopix/hopixAST.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInterpreter.ml > src/hopix/hopixInterpreter.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixAST.cmo src/hopix/hopixAST.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.mli > src/hopix/memory.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/memory.cmi src/hopix/memory.mli
+/usr/bin/ocamllex -q src/hopix/hopixLexer.mll
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixLexer.ml > src/hopix/hopixLexer.ml.depends
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/hopix/hopixParser.mly > src/hopix/hopixParser.mly.depends
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint' --explain --infer src/hopix/hopixParser.mly
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.mli > src/hopix/hopixParser.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixParser.cmi src/hopix/hopixParser.mli
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixPrettyPrinter.ml > src/hopix/hopixPrettyPrinter.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extPPrint.ml > src/utilities/extPPrint.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrint.ml > src/lib/pprint/PPrint.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.mli > src/lib/pprint/PPrintCombinators.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.mli > src/lib/pprint/PPrintEngine.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintRenderer.ml > src/lib/pprint/PPrintRenderer.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintRenderer.cmo src/lib/pprint/PPrintRenderer.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintEngine.cmi src/lib/pprint/PPrintEngine.mli
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.mli > src/lib/pprint/PPrintOCaml.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintCombinators.cmi src/lib/pprint/PPrintCombinators.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintOCaml.cmi src/lib/pprint/PPrintOCaml.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrint.cmo src/lib/pprint/PPrint.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extPPrint.cmo src/utilities/extPPrint.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypechecker.ml > src/hopix/hopixTypechecker.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypes.ml > src/hopix/hopixTypes.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypes.cmo src/hopix/hopixTypes.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.mli > src/utilities/syntacticAnalysis.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmo src/hopix/hopixInterpreter.ml
++ ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmo src/hopix/hopixInterpreter.ml
+File "src/hopix/hopixInterpreter.ml", line 78, characters 10-21:
+Warning 26: unused variable list_to_str.
+File "src/hopix/hopixInterpreter.ml", line 113, characters 6-24:
+Warning 26: unused variable print_record_value.
+File "src/hopix/hopixInterpreter.ml", line 115, characters 6-17:
+Warning 26: unused variable print_field.
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixLexer.cmo src/hopix/hopixLexer.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmo src/hopix/hopixPrettyPrinter.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypechecker.cmo src/hopix/hopixTypechecker.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmi src/utilities/syntacticAnalysis.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopix.cmo src/hopix/hopix.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/userInput.ml > src/utilities/userInput.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/stdUserInput.ml > src/utilities/stdUserInput.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/stdUserInput.cmo src/utilities/stdUserInput.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/commandLineOptions.cmo src/commandLineOptions.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInitialization.cmo src/hopix/hopixInitialization.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/userInput.cmo src/utilities/userInput.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/flap.cmo src/flap.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.ml > src/utilities/error.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.ml > src/utilities/position.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/position.cmx src/utilities/position.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/error.cmx src/utilities/error.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/options.cmx src/options.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/version.cmx src/version.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extStd.cmx src/utilities/extStd.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/languages.cmx src/common/languages.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/compilers.cmx src/common/compilers.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixAST.cmx src/hopix/hopixAST.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.ml > src/hopix/memory.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/memory.cmx src/hopix/memory.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.ml > src/hopix/hopixParser.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixParser.cmx src/hopix/hopixParser.ml
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.ml > src/lib/pprint/PPrintCombinators.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.ml > src/lib/pprint/PPrintEngine.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintRenderer.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintEngine.ml
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.ml > src/lib/pprint/PPrintOCaml.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintCombinators.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrintOCaml.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrint.cmx src/lib/pprint/PPrint.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extPPrint.cmx src/utilities/extPPrint.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypes.cmx src/hopix/hopixTypes.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.ml > src/utilities/syntacticAnalysis.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmx src/hopix/hopixInterpreter.ml
++ ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmx src/hopix/hopixInterpreter.ml
+File "src/hopix/hopixInterpreter.ml", line 78, characters 10-21:
+Warning 26: unused variable list_to_str.
+File "src/hopix/hopixInterpreter.ml", line 113, characters 6-24:
+Warning 26: unused variable print_record_value.
+File "src/hopix/hopixInterpreter.ml", line 115, characters 6-17:
+Warning 26: unused variable print_field.
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixLexer.cmx src/hopix/hopixLexer.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmx src/hopix/hopixPrettyPrinter.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypechecker.cmx src/hopix/hopixTypechecker.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmx src/utilities/syntacticAnalysis.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopix.cmx src/hopix/hopix.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/stdUserInput.cmx src/utilities/stdUserInput.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/commandLineOptions.cmx src/commandLineOptions.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInitialization.cmx src/hopix/hopixInitialization.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/userInput.cmx src/utilities/userInput.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/flap.cmx src/flap.ml
+ocamlfind ocamlopt -linkpkg -package unix -package str src/utilities/position.cmx src/utilities/error.cmx src/options.cmx src/version.cmx src/commandLineOptions.cmx src/common/languages.cmx src/utilities/extStd.cmx src/common/compilers.cmx src/hopix/hopixAST.cmx src/hopix/memory.cmx src/hopix/hopixInterpreter.cmx src/hopix/hopixParser.cmx src/hopix/hopixLexer.cmx src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrint.cmx src/utilities/extPPrint.cmx src/hopix/hopixPrettyPrinter.cmx src/hopix/hopixTypes.cmx src/hopix/hopixTypechecker.cmx src/utilities/syntacticAnalysis.cmx src/hopix/hopix.cmx src/hopix/hopixInitialization.cmx src/utilities/stdUserInput.cmx src/utilities/userInput.cmx src/flap.cmx -o src/flap.native
+ln -s flap.native flap
+=> Je lance les tests.
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+make -C tests check
+make[1]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests'
+make -C ..
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2'
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+make[2]: Leaving directory '/home/user1/answer/flap-uzenat-elouraoui-15.2'
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/bad'
+========================================================
+In interpreter/bad
+GOOD: 0 / 0
+
+BAD:  0 / 0
+make[2]: Leaving directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/bad'
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/good'
+========================================================
+In interpreter/good
+[ KO ]   -->  comment1.hopix
+
+INPUT:
+val a := 1.
+val b := `+ 1 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+a = 1
+b = 2
+--------------------------------------------------------
+[ KO ]   -->  comment2.hopix
+
+INPUT:
+val x := `+ 1 1.
+val x := `+ 1 2.
+val x := 3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 2
+x = 3
+x = 3
+--------------------------------------------------------
+[ OK ]   comment4.hopix
+
+INPUT:
+
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ KO ]   -->  do1.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do2.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do3.hopix
+
+INPUT:
+val f := \y => val nothing := y ? { | _ => 1 }; 2.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do4.hopix
+
+INPUT:
+val f := \y => val nothing := 1; y ? { | _ => 2 }.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+val f := \y => val nothing := y ? { | _ => 1 }; 2.
+val f := \y => val nothing := 1; y ? { | _ => 2 }.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+seq3 = <fun>
+f = <fun>
+f = <fun>
+--------------------------------------------------------
+[ OK ]   extern1.hopix
+
+INPUT:
+extern something : int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ OK ]   extern2.hopix
+
+INPUT:
+extern some_function : int -> (int -> int) -> int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ OK ]   extern.hopix
+
+INPUT:
+extern something : int.
+extern some_function : int -> (int -> int) -> int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ KO ]   -->  functions2.hopix
+
+INPUT:
+val f := \(x : int) => \(y : int) => (`+ x y : int).
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions3.hopix
+
+INPUT:
+val f := (\x => `+ x 1 : int -> int).
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions4.hopix
+
+INPUT:
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions5.hopix
+
+INPUT:
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions.hopix
+
+INPUT:
+val f := \x => \y => `+ x y.
+val f := \(x : int) => \(y : int) => (`+ x y : int).
+val f := (\x => `+ x 1 : int -> int).
+val g := \x => \y => `+ x y.
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+f = <fun>
+f = <fun>
+g = <fun>
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  higherorderfind.hopix
+
+INPUT:
+type l := { N | I : int * l }.
+
+val l := I (1, I (2, I (3, N))).
+
+rec find k x l on_find on_error :=
+  l ? {
+  | N =>
+    on_error k
+  | I (y, ys) =>
+    if x = y then on_find k else find (k + 1) x ys on_find on_error fi
+  }.
+
+val x := find 0 1 l (\x => true) (\x => false).
+
+val y := find 0 0 l (\x => x) (\x => 0 - x).
+OUTPUT: 
+HopixInterpreter.Environment.UnboundIdentifier(_)
+EXPECTED: 
+l = I(1, I(2, I(3, N)))
+find = <fun>
+x = true
+y = -3
+--------------------------------------------------------
+[ KO ]   -->  infix1.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix2.hopix
+
+INPUT:
+val `++ := \x => \y => y.
+val z := `++ 0 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+z = 1
+--------------------------------------------------------
+[ KO ]   -->  infix3.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+val k := `++ 0 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+k = 0
+--------------------------------------------------------
+[ KO ]   -->  infix4.hopix
+
+INPUT:
+val `eats := \x => \y => x.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`eats = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix5.hopix
+
+INPUT:
+val wow := \cat => \mouse => `eats cat mouse.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+wow = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix6.hopix
+
+INPUT:
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix7.hopix
+
+INPUT:
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+val z := `++ 0 0.
+val k := `++ 0 0.
+val `eats := \x => \y => x.
+val wow := \cat => \mouse => `eats cat mouse.
+val apply := \`op => \x => \y => `op x y.
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+z = 0
+k = 0
+`eats = <fun>
+wow = <fun>
+apply = <fun>
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  lexchar10.hopix
+
+INPUT:
+val x := '\r'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\r'
+--------------------------------------------------------
+[ KO ]   -->  lexchar11.hopix
+
+INPUT:
+val x := '\000'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\000'
+--------------------------------------------------------
+[ KO ]   -->  lexchar12.hopix
+
+INPUT:
+val x := '\001'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\001'
+--------------------------------------------------------
+[ KO ]   -->  lexchar13.hopix
+
+INPUT:
+val x := '\255'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\255'
+--------------------------------------------------------
+[ KO ]   -->  lexchar14.hopix
+
+INPUT:
+val x := '\255'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\255'
+--------------------------------------------------------
+[ KO ]   -->  lexchar15.hopix
+
+INPUT:
+val x := '\171'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\171'
+--------------------------------------------------------
+[ KO ]   -->  lexchar16.hopix
+
+INPUT:
+val x := '\018'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\018'
+--------------------------------------------------------
+[ KO ]   -->  lexchar17.hopix
+
+INPUT:
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexchar18.hopix
+
+INPUT:
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexchar1.hopix
+
+INPUT:
+val x := 'a'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'a'
+--------------------------------------------------------
+[ KO ]   -->  lexchar2.hopix
+
+INPUT:
+val x := 'A'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'A'
+--------------------------------------------------------
+[ KO ]   -->  lexchar3.hopix
+
+INPUT:
+val x := '*'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '*'
+--------------------------------------------------------
+[ KO ]   -->  lexchar4.hopix
+
+INPUT:
+val x := '@'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '@'
+--------------------------------------------------------
+[ KO ]   -->  lexchar5.hopix
+
+INPUT:
+val x := '\\'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\\'
+--------------------------------------------------------
+[ KO ]   -->  lexchar6.hopix
+
+INPUT:
+val x := '\''.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\''
+--------------------------------------------------------
+[ KO ]   -->  lexchar7.hopix
+
+INPUT:
+val x := '\n'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\n'
+--------------------------------------------------------
+[ KO ]   -->  lexchar8.hopix
+
+INPUT:
+val x := '\t'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\t'
+--------------------------------------------------------
+[ KO ]   -->  lexchar9.hopix
+
+INPUT:
+val x := '\b'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\b'
+--------------------------------------------------------
+[ KO ]   -->  lexchar.hopix
+
+INPUT:
+val x := 'a'.
+val x := 'A'.
+val x := '*'.
+val x := '@'.
+val x := '\\'.
+val x := '\''.
+val x := '\n'.
+val x := '\t'.
+val x := '\b'.
+val x := '\r'.
+val x := '\000'.
+val x := '\001'.
+val x := '\255'.
+val x := '\255'.
+val x := '\171'.
+val x := '\018'.
+val x := '\204'.
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'a'
+x = 'A'
+x = '*'
+x = '@'
+x = '\\'
+x = '\''
+x = '\n'
+x = '\t'
+x = '\b'
+x = '\r'
+x = '\000'
+x = '\001'
+x = '\255'
+x = '\255'
+x = '\171'
+x = '\018'
+x = '\204'
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexnum1.hopix
+
+INPUT:
+val x := 0.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 0
+--------------------------------------------------------
+[ KO ]   -->  lexnum2.hopix
+
+INPUT:
+val x := 1234567890.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 1234567890
+--------------------------------------------------------
+[ KO ]   -->  lexnum3.hopix
+
+INPUT:
+val x := 233495534.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 233495534
+--------------------------------------------------------
+[ KO ]   -->  lexnum4.hopix
+
+INPUT:
+val x := 233495534.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 233495534
+--------------------------------------------------------
+[ KO ]   -->  lexnum5.hopix
+
+INPUT:
+val x := 305419896.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 305419896
+--------------------------------------------------------
+[ KO ]   -->  lexnum6.hopix
+
+INPUT:
+val x := 559038737.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 559038737
+--------------------------------------------------------
+[ KO ]   -->  lexnum7.hopix
+
+INPUT:
+val x := 42.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 42
+--------------------------------------------------------
+[ KO ]   -->  lexnum.hopix
+
+INPUT:
+val x := 0.
+val x := 1234567890.
+val x := 233495534.
+val x := 233495534.
+val x := 305419896.
+val x := 559038737.
+val x := 42.
+val x := 42.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 0
+x = 1234567890
+x = 233495534
+x = 233495534
+x = 305419896
+x = 559038737
+x = 42
+x = 42
+--------------------------------------------------------
+[ KO ]   -->  lexstring1.hopix
+
+INPUT:
+val x := "".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = ""
+--------------------------------------------------------
+[ KO ]   -->  lexstring2.hopix
+
+INPUT:
+val x := "abc".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "abc"
+--------------------------------------------------------
+[ KO ]   -->  lexstring3.hopix
+
+INPUT:
+val x := "**".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "**"
+--------------------------------------------------------
+[ KO ]   -->  lexstring4.hopix
+
+INPUT:
+val x := "{*".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "{*"
+--------------------------------------------------------
+[ KO ]   -->  lexstring5.hopix
+
+INPUT:
+val x := "*}".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "*}"
+--------------------------------------------------------
+[ KO ]   -->  lexstring6.hopix
+
+INPUT:
+val x := "a'a".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "a'a"
+--------------------------------------------------------=> J'ai trouvé une archive.
+=> Je la décompresse.
+flap-uzenat-elouraoui-15.2/
+flap-uzenat-elouraoui-15.2/myocamlbuild_config.ml
+flap-uzenat-elouraoui-15.2/Makefile.local
+flap-uzenat-elouraoui-15.2/src/
+flap-uzenat-elouraoui-15.2/src/version.ml
+flap-uzenat-elouraoui-15.2/src/common/
+flap-uzenat-elouraoui-15.2/src/common/compilers.ml
+flap-uzenat-elouraoui-15.2/src/common/languages.ml
+flap-uzenat-elouraoui-15.2/src/options.ml
+flap-uzenat-elouraoui-15.2/src/hopix/
+flap-uzenat-elouraoui-15.2/src/hopix/memory.mli
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypechecker.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixInterpreter.ml
+flap-uzenat-elouraoui-15.2/src/hopix/memory.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixLexer.mll
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypeInferenceEngine.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixAST.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixPrettyPrinter.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixParser.mly
+flap-uzenat-elouraoui-15.2/src/hopix/hopix.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixTypes.ml
+flap-uzenat-elouraoui-15.2/src/hopix/hopixInitialization.ml
+flap-uzenat-elouraoui-15.2/src/lib/
+flap-uzenat-elouraoui-15.2/src/lib/pprint/
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintEngine.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/LICENSE
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintOCaml.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/CHANGES
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintRenderer.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintEngine.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrint.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/AUTHORS
+flap-uzenat-elouraoui-15.2/src/lib/pprint/README
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintCombinators.ml
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintCombinators.mli
+flap-uzenat-elouraoui-15.2/src/lib/pprint/Makefile
+flap-uzenat-elouraoui-15.2/src/lib/pprint/PPrintOCaml.ml
+flap-uzenat-elouraoui-15.2/src/flap.ml
+flap-uzenat-elouraoui-15.2/src/utilities/
+flap-uzenat-elouraoui-15.2/src/utilities/userInput.ml
+flap-uzenat-elouraoui-15.2/src/utilities/position.ml
+flap-uzenat-elouraoui-15.2/src/utilities/error.ml
+flap-uzenat-elouraoui-15.2/src/utilities/syntacticAnalysis.ml
+flap-uzenat-elouraoui-15.2/src/utilities/position.mli
+flap-uzenat-elouraoui-15.2/src/utilities/error.mli
+flap-uzenat-elouraoui-15.2/src/utilities/extPPrint.ml
+flap-uzenat-elouraoui-15.2/src/utilities/syntacticAnalysis.mli
+flap-uzenat-elouraoui-15.2/src/utilities/stdUserInput.ml
+flap-uzenat-elouraoui-15.2/src/utilities/option.ml
+flap-uzenat-elouraoui-15.2/src/utilities/extStd.ml
+flap-uzenat-elouraoui-15.2/src/commandLineOptions.ml
+flap-uzenat-elouraoui-15.2/_tags
+flap-uzenat-elouraoui-15.2/Makefile.generic
+flap-uzenat-elouraoui-15.2/Makefile.config
+flap-uzenat-elouraoui-15.2/Makefile
+=> Je compile.
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+ocamlfind ocamldep -package unix -package str -modules src/flap.ml > src/flap.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/commandLineOptions.ml > src/commandLineOptions.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/options.ml > src/options.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.mli > src/utilities/error.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.mli > src/utilities/position.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/position.cmi src/utilities/position.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/error.cmi src/utilities/error.mli
+ocamlfind ocamldep -package unix -package str -modules src/version.ml > src/version.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/options.cmo src/options.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/version.cmo src/version.ml
+ocamlfind ocamldep -package unix -package str -modules src/common/compilers.ml > src/common/compilers.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extStd.ml > src/utilities/extStd.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/common/languages.ml > src/common/languages.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extStd.cmo src/utilities/extStd.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/languages.cmo src/common/languages.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInitialization.ml > src/hopix/hopixInitialization.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/compilers.cmo src/common/compilers.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopix.ml > src/hopix/hopix.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixAST.ml > src/hopix/hopixAST.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixInterpreter.ml > src/hopix/hopixInterpreter.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixAST.cmo src/hopix/hopixAST.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.mli > src/hopix/memory.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/memory.cmi src/hopix/memory.mli
+/usr/bin/ocamllex -q src/hopix/hopixLexer.mll
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixLexer.ml > src/hopix/hopixLexer.ml.depends
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/hopix/hopixParser.mly > src/hopix/hopixParser.mly.depends
+menhir --ocamlc 'ocamlfind ocamlc -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint' --explain --infer src/hopix/hopixParser.mly
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.mli > src/hopix/hopixParser.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixParser.cmi src/hopix/hopixParser.mli
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixPrettyPrinter.ml > src/hopix/hopixPrettyPrinter.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/extPPrint.ml > src/utilities/extPPrint.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrint.ml > src/lib/pprint/PPrint.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.mli > src/lib/pprint/PPrintCombinators.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.mli > src/lib/pprint/PPrintEngine.mli.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintRenderer.ml > src/lib/pprint/PPrintRenderer.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintRenderer.cmo src/lib/pprint/PPrintRenderer.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintEngine.cmi src/lib/pprint/PPrintEngine.mli
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.mli > src/lib/pprint/PPrintOCaml.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintCombinators.cmi src/lib/pprint/PPrintCombinators.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintOCaml.cmi src/lib/pprint/PPrintOCaml.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrint.cmo src/lib/pprint/PPrint.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extPPrint.cmo src/utilities/extPPrint.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypechecker.ml > src/hopix/hopixTypechecker.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixTypes.ml > src/hopix/hopixTypes.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypes.cmo src/hopix/hopixTypes.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.mli > src/utilities/syntacticAnalysis.mli.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmo src/hopix/hopixInterpreter.ml
++ ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmo src/hopix/hopixInterpreter.ml
+File "src/hopix/hopixInterpreter.ml", line 78, characters 10-21:
+Warning 26: unused variable list_to_str.
+File "src/hopix/hopixInterpreter.ml", line 113, characters 6-24:
+Warning 26: unused variable print_record_value.
+File "src/hopix/hopixInterpreter.ml", line 115, characters 6-17:
+Warning 26: unused variable print_field.
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixLexer.cmo src/hopix/hopixLexer.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmo src/hopix/hopixPrettyPrinter.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypechecker.cmo src/hopix/hopixTypechecker.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmi src/utilities/syntacticAnalysis.mli
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopix.cmo src/hopix/hopix.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/userInput.ml > src/utilities/userInput.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/stdUserInput.ml > src/utilities/stdUserInput.ml.depends
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/stdUserInput.cmo src/utilities/stdUserInput.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/commandLineOptions.cmo src/commandLineOptions.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInitialization.cmo src/hopix/hopixInitialization.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/userInput.cmo src/utilities/userInput.ml
+ocamlfind ocamlc -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/flap.cmo src/flap.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/error.ml > src/utilities/error.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/utilities/position.ml > src/utilities/position.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/position.cmx src/utilities/position.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/error.cmx src/utilities/error.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/options.cmx src/options.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/version.cmx src/version.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extStd.cmx src/utilities/extStd.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/languages.cmx src/common/languages.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/common -I src -I src/hopix -I src/utilities -I src/lib/pprint -o src/common/compilers.cmx src/common/compilers.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixAST.cmx src/hopix/hopixAST.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/memory.ml > src/hopix/memory.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/memory.cmx src/hopix/memory.ml
+ocamlfind ocamldep -package unix -package str -modules src/hopix/hopixParser.ml > src/hopix/hopixParser.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixParser.cmx src/hopix/hopixParser.ml
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintCombinators.ml > src/lib/pprint/PPrintCombinators.ml.depends
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintEngine.ml > src/lib/pprint/PPrintEngine.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintRenderer.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintEngine.ml
+ocamlfind ocamldep -package unix -package str -modules src/lib/pprint/PPrintOCaml.ml > src/lib/pprint/PPrintOCaml.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintCombinators.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrintOCaml.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/lib/pprint -I src -I src/common -I src/hopix -I src/utilities -o src/lib/pprint/PPrint.cmx src/lib/pprint/PPrint.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/extPPrint.cmx src/utilities/extPPrint.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypes.cmx src/hopix/hopixTypes.ml
+ocamlfind ocamldep -package unix -package str -modules src/utilities/syntacticAnalysis.ml > src/utilities/syntacticAnalysis.ml.depends
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmx src/hopix/hopixInterpreter.ml
++ ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInterpreter.cmx src/hopix/hopixInterpreter.ml
+File "src/hopix/hopixInterpreter.ml", line 78, characters 10-21:
+Warning 26: unused variable list_to_str.
+File "src/hopix/hopixInterpreter.ml", line 113, characters 6-24:
+Warning 26: unused variable print_record_value.
+File "src/hopix/hopixInterpreter.ml", line 115, characters 6-17:
+Warning 26: unused variable print_field.
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixLexer.cmx src/hopix/hopixLexer.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixPrettyPrinter.cmx src/hopix/hopixPrettyPrinter.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixTypechecker.cmx src/hopix/hopixTypechecker.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/syntacticAnalysis.cmx src/utilities/syntacticAnalysis.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopix.cmx src/hopix/hopix.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/stdUserInput.cmx src/utilities/stdUserInput.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/commandLineOptions.cmx src/commandLineOptions.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/hopix -I src -I src/common -I src/utilities -I src/lib/pprint -o src/hopix/hopixInitialization.cmx src/hopix/hopixInitialization.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src/utilities -I src -I src/common -I src/hopix -I src/lib/pprint -o src/utilities/userInput.cmx src/utilities/userInput.ml
+ocamlfind ocamlopt -c -annot -bin-annot -package unix -package str -I src -I src/common -I src/hopix -I src/utilities -I src/lib/pprint -o src/flap.cmx src/flap.ml
+ocamlfind ocamlopt -linkpkg -package unix -package str src/utilities/position.cmx src/utilities/error.cmx src/options.cmx src/version.cmx src/commandLineOptions.cmx src/common/languages.cmx src/utilities/extStd.cmx src/common/compilers.cmx src/hopix/hopixAST.cmx src/hopix/memory.cmx src/hopix/hopixInterpreter.cmx src/hopix/hopixParser.cmx src/hopix/hopixLexer.cmx src/lib/pprint/PPrintRenderer.cmx src/lib/pprint/PPrintEngine.cmx src/lib/pprint/PPrintCombinators.cmx src/lib/pprint/PPrintOCaml.cmx src/lib/pprint/PPrint.cmx src/utilities/extPPrint.cmx src/hopix/hopixPrettyPrinter.cmx src/hopix/hopixTypes.cmx src/hopix/hopixTypechecker.cmx src/utilities/syntacticAnalysis.cmx src/hopix/hopix.cmx src/hopix/hopixInitialization.cmx src/utilities/stdUserInput.cmx src/utilities/userInput.cmx src/flap.cmx -o src/flap.native
+ln -s flap.native flap
+=> Je lance les tests.
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+make -C tests check
+make[1]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests'
+make -C ..
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2'
+Source configuration ...
+ * Ledit is not present: use default UserInput.
+rm -f flap.native
+make[2]: Leaving directory '/home/user1/answer/flap-uzenat-elouraoui-15.2'
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/bad'
+========================================================
+In interpreter/bad
+GOOD: 0 / 0
+
+BAD:  0 / 0
+make[2]: Leaving directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/bad'
+make[2]: Entering directory '/home/user1/answer/flap-uzenat-elouraoui-15.2/tests/hopix/interpreter/good'
+========================================================
+In interpreter/good
+[ KO ]   -->  comment1.hopix
+
+INPUT:
+val a := 1.
+val b := `+ 1 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+a = 1
+b = 2
+--------------------------------------------------------
+[ KO ]   -->  comment2.hopix
+
+INPUT:
+val x := `+ 1 1.
+val x := `+ 1 2.
+val x := 3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 2
+x = 3
+x = 3
+--------------------------------------------------------
+[ OK ]   comment4.hopix
+
+INPUT:
+
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ KO ]   -->  do1.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do2.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do3.hopix
+
+INPUT:
+val f := \y => val nothing := y ? { | _ => 1 }; 2.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do4.hopix
+
+INPUT:
+val f := \y => val nothing := 1; y ? { | _ => 2 }.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  do.hopix
+
+INPUT:
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+val seq3 :=
+  \i1 => \i2 => \i3 => val nothing := i1; val nothing := i2; i3.
+val f := \y => val nothing := y ? { | _ => 1 }; 2.
+val f := \y => val nothing := 1; y ? { | _ => 2 }.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+seq3 = <fun>
+seq3 = <fun>
+f = <fun>
+f = <fun>
+--------------------------------------------------------
+[ OK ]   extern1.hopix
+
+INPUT:
+extern something : int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ OK ]   extern2.hopix
+
+INPUT:
+extern some_function : int -> (int -> int) -> int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ OK ]   extern.hopix
+
+INPUT:
+extern something : int.
+extern some_function : int -> (int -> int) -> int.
+OUTPUT: 
+
+EXPECTED: 
+
+--------------------------------------------------------
+[ KO ]   -->  functions2.hopix
+
+INPUT:
+val f := \(x : int) => \(y : int) => (`+ x y : int).
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions3.hopix
+
+INPUT:
+val f := (\x => `+ x 1 : int -> int).
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions4.hopix
+
+INPUT:
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions5.hopix
+
+INPUT:
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  functions.hopix
+
+INPUT:
+val f := \x => \y => `+ x y.
+val f := \(x : int) => \(y : int) => (`+ x y : int).
+val f := (\x => `+ x 1 : int -> int).
+val g := \x => \y => `+ x y.
+val g := \x => \y => `+ x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+f = <fun>
+f = <fun>
+f = <fun>
+g = <fun>
+g = <fun>
+--------------------------------------------------------
+[ KO ]   -->  higherorderfind.hopix
+
+INPUT:
+type l := { N | I : int * l }.
+
+val l := I (1, I (2, I (3, N))).
+
+rec find k x l on_find on_error :=
+  l ? {
+  | N =>
+    on_error k
+  | I (y, ys) =>
+    if x = y then on_find k else find (k + 1) x ys on_find on_error fi
+  }.
+
+val x := find 0 1 l (\x => true) (\x => false).
+
+val y := find 0 0 l (\x => x) (\x => 0 - x).
+OUTPUT: 
+HopixInterpreter.Environment.UnboundIdentifier(_)
+EXPECTED: 
+l = I(1, I(2, I(3, N)))
+find = <fun>
+x = true
+y = -3
+--------------------------------------------------------
+[ KO ]   -->  infix1.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix2.hopix
+
+INPUT:
+val `++ := \x => \y => y.
+val z := `++ 0 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+z = 1
+--------------------------------------------------------
+[ KO ]   -->  infix3.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+val k := `++ 0 1.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+k = 0
+--------------------------------------------------------
+[ KO ]   -->  infix4.hopix
+
+INPUT:
+val `eats := \x => \y => x.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`eats = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix5.hopix
+
+INPUT:
+val wow := \cat => \mouse => `eats cat mouse.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+wow = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix6.hopix
+
+INPUT:
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix7.hopix
+
+INPUT:
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  infix.hopix
+
+INPUT:
+val `++ := \x => \y => x.
+val z := `++ 0 0.
+val k := `++ 0 0.
+val `eats := \x => \y => x.
+val wow := \cat => \mouse => `eats cat mouse.
+val apply := \`op => \x => \y => `op x y.
+val apply := \`op => \x => \y => `op x y.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+`++ = <fun>
+z = 0
+k = 0
+`eats = <fun>
+wow = <fun>
+apply = <fun>
+apply = <fun>
+--------------------------------------------------------
+[ KO ]   -->  lexchar10.hopix
+
+INPUT:
+val x := '\r'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\r'
+--------------------------------------------------------
+[ KO ]   -->  lexchar11.hopix
+
+INPUT:
+val x := '\000'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\000'
+--------------------------------------------------------
+[ KO ]   -->  lexchar12.hopix
+
+INPUT:
+val x := '\001'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\001'
+--------------------------------------------------------
+[ KO ]   -->  lexchar13.hopix
+
+INPUT:
+val x := '\255'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\255'
+--------------------------------------------------------
+[ KO ]   -->  lexchar14.hopix
+
+INPUT:
+val x := '\255'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\255'
+--------------------------------------------------------
+[ KO ]   -->  lexchar15.hopix
+
+INPUT:
+val x := '\171'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\171'
+--------------------------------------------------------
+[ KO ]   -->  lexchar16.hopix
+
+INPUT:
+val x := '\018'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\018'
+--------------------------------------------------------
+[ KO ]   -->  lexchar17.hopix
+
+INPUT:
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexchar18.hopix
+
+INPUT:
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexchar1.hopix
+
+INPUT:
+val x := 'a'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'a'
+--------------------------------------------------------
+[ KO ]   -->  lexchar2.hopix
+
+INPUT:
+val x := 'A'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'A'
+--------------------------------------------------------
+[ KO ]   -->  lexchar3.hopix
+
+INPUT:
+val x := '*'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '*'
+--------------------------------------------------------
+[ KO ]   -->  lexchar4.hopix
+
+INPUT:
+val x := '@'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '@'
+--------------------------------------------------------
+[ KO ]   -->  lexchar5.hopix
+
+INPUT:
+val x := '\\'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\\'
+--------------------------------------------------------
+[ KO ]   -->  lexchar6.hopix
+
+INPUT:
+val x := '\''.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\''
+--------------------------------------------------------
+[ KO ]   -->  lexchar7.hopix
+
+INPUT:
+val x := '\n'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\n'
+--------------------------------------------------------
+[ KO ]   -->  lexchar8.hopix
+
+INPUT:
+val x := '\t'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\t'
+--------------------------------------------------------
+[ KO ]   -->  lexchar9.hopix
+
+INPUT:
+val x := '\b'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = '\b'
+--------------------------------------------------------
+[ KO ]   -->  lexchar.hopix
+
+INPUT:
+val x := 'a'.
+val x := 'A'.
+val x := '*'.
+val x := '@'.
+val x := '\\'.
+val x := '\''.
+val x := '\n'.
+val x := '\t'.
+val x := '\b'.
+val x := '\r'.
+val x := '\000'.
+val x := '\001'.
+val x := '\255'.
+val x := '\255'.
+val x := '\171'.
+val x := '\018'.
+val x := '\204'.
+val x := '\204'.
+OUTPUT: 
+File "src/hopix/hopixInterpreter.ml", line 111, characters 15-21: Assertion failed
+EXPECTED: 
+x = 'a'
+x = 'A'
+x = '*'
+x = '@'
+x = '\\'
+x = '\''
+x = '\n'
+x = '\t'
+x = '\b'
+x = '\r'
+x = '\000'
+x = '\001'
+x = '\255'
+x = '\255'
+x = '\171'
+x = '\018'
+x = '\204'
+x = '\204'
+--------------------------------------------------------
+[ KO ]   -->  lexnum1.hopix
+
+INPUT:
+val x := 0.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 0
+--------------------------------------------------------
+[ KO ]   -->  lexnum2.hopix
+
+INPUT:
+val x := 1234567890.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 1234567890
+--------------------------------------------------------
+[ KO ]   -->  lexnum3.hopix
+
+INPUT:
+val x := 233495534.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 233495534
+--------------------------------------------------------
+[ KO ]   -->  lexnum4.hopix
+
+INPUT:
+val x := 233495534.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 233495534
+--------------------------------------------------------
+[ KO ]   -->  lexnum5.hopix
+
+INPUT:
+val x := 305419896.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 305419896
+--------------------------------------------------------
+[ KO ]   -->  lexnum6.hopix
+
+INPUT:
+val x := 559038737.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 559038737
+--------------------------------------------------------
+[ KO ]   -->  lexnum7.hopix
+
+INPUT:
+val x := 42.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 42
+--------------------------------------------------------
+[ KO ]   -->  lexnum.hopix
+
+INPUT:
+val x := 0.
+val x := 1234567890.
+val x := 233495534.
+val x := 233495534.
+val x := 305419896.
+val x := 559038737.
+val x := 42.
+val x := 42.
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = 0
+x = 1234567890
+x = 233495534
+x = 233495534
+x = 305419896
+x = 559038737
+x = 42
+x = 42
+--------------------------------------------------------
+[ KO ]   -->  lexstring1.hopix
+
+INPUT:
+val x := "".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = ""
+--------------------------------------------------------
+[ KO ]   -->  lexstring2.hopix
+
+INPUT:
+val x := "abc".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "abc"
+--------------------------------------------------------
+[ KO ]   -->  lexstring3.hopix
+
+INPUT:
+val x := "**".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "**"
+--------------------------------------------------------
+[ KO ]   -->  lexstring4.hopix
+
+INPUT:
+val x := "{*".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "{*"
+--------------------------------------------------------
+[ KO ]   -->  lexstring5.hopix
+
+INPUT:
+val x := "*}".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "*}"
+--------------------------------------------------------
+[ KO ]   -->  lexstring6.hopix
+
+INPUT:
+val x := "a'a".
+OUTPUT: 
+Out of memory
+EXPECTED: 
+x = "a'a"
+--------------------------------------------------------

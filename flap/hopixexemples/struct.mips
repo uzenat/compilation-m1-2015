@@ -1,0 +1,301 @@
+#include <sys/regdef.h>
+.globl main
+.data
+__global__f:
+.word 1
+.data
+__global__r:
+.word 1
+.data
+__global__deux:
+.word 1
+.data
+__global__un:
+.word 1
+.data
+__global__make:
+.word 1
+.text
+main: # main
+_l10: addiu sp, sp, -212
+l66:  sw t9, -212(sp)
+l67:  sw t8, -208(sp)
+l68:  sw t7, -204(sp)
+l69:  sw t6, -200(sp)
+l70:  sw t5, -196(sp)
+l71:  sw t4, -192(sp)
+l72:  sw t3, -188(sp)
+l73:  sw t2, -184(sp)
+l74:  sw t1, -180(sp)
+l75:  sw t0, -176(sp)
+l86:  sw a0, -172(sp)
+l88:  move s7, ra
+l90:  li v1, 2
+      sw v1, -168(sp)
+l91:  lw v1, -168(sp)
+      move a0, v1
+      jal block_create
+      move v1, v0
+      sw v1, -164(sp)
+l85:  lw t9, -212(sp)
+l84:  lw t8, -208(sp)
+l83:  lw t7, -204(sp)
+l82:  lw t6, -200(sp)
+l81:  lw t5, -196(sp)
+l80:  lw t4, -192(sp)
+l79:  lw t3, -188(sp)
+l78:  lw t2, -184(sp)
+l77:  lw t1, -180(sp)
+l76:  lw t0, -176(sp)
+l87:  lw a0, -160(sp)
+l89:  move ra, s7
+l34:  sw t9, -156(sp)
+l35:  sw t8, -152(sp)
+l36:  sw t7, -148(sp)
+l37:  sw t6, -144(sp)
+l38:  sw t5, -140(sp)
+l39:  sw t4, -136(sp)
+l40:  sw t3, -132(sp)
+l41:  sw t2, -128(sp)
+l42:  sw t1, -124(sp)
+l43:  sw t0, -120(sp)
+l56:  sw a0, -116(sp)
+l55:  sw a1, -112(sp)
+l54:  sw a2, -108(sp)
+l60:  move s7, ra
+l62:  lw v1, -164(sp)
+      sw v1, -104(sp)
+l63:  li v1, 0
+      sw v1, -100(sp)
+l64:  li v1, 1
+      sw v1, -96(sp)
+l65:  lw v1, -104(sp)
+      move a0, v1
+      lw v1, -100(sp)
+      move a1, v1
+      lw v1, -96(sp)
+      move a2, v1
+      jal block_set
+      move v1, v0
+      sw v1, -92(sp)
+l53:  lw t9, -156(sp)
+l52:  lw t8, -152(sp)
+l51:  lw t7, -148(sp)
+l50:  lw t6, -144(sp)
+l49:  lw t5, -140(sp)
+l48:  lw t4, -136(sp)
+l47:  lw t3, -132(sp)
+l46:  lw t2, -128(sp)
+l45:  lw t1, -124(sp)
+l44:  lw t0, -120(sp)
+l59:  lw a0, -88(sp)
+l58:  lw a1, -84(sp)
+l57:  lw a2, -80(sp)
+l61:  move ra, s7
+l2:   sw t9, -76(sp)
+l3:   sw t8, -72(sp)
+l4:   sw t7, -68(sp)
+l5:   sw t6, -64(sp)
+l6:   sw t5, -60(sp)
+l7:   sw t4, -56(sp)
+l8:   sw t3, -52(sp)
+l9:   sw t2, -48(sp)
+l10:  sw t1, -44(sp)
+l11:  sw t0, -40(sp)
+l24:  sw a0, -36(sp)
+l23:  sw a1, -32(sp)
+l22:  sw a2, -28(sp)
+l28:  move s7, ra
+l30:  lw v1, -164(sp)
+      sw v1, -24(sp)
+l31:  li v1, 1
+      sw v1, -20(sp)
+l32:  li v1, 2
+      sw v1, -16(sp)
+l33:  lw v1, -24(sp)
+      move a0, v1
+      lw v1, -20(sp)
+      move a1, v1
+      lw v1, -16(sp)
+      move a2, v1
+      jal block_set
+      move v1, v0
+      sw v1, -12(sp)
+l21:  lw t9, -76(sp)
+l20:  lw t8, -72(sp)
+l19:  lw t7, -68(sp)
+l18:  lw t6, -64(sp)
+l17:  lw t5, -60(sp)
+l16:  lw t4, -56(sp)
+l15:  lw t3, -52(sp)
+l14:  lw t2, -48(sp)
+l13:  lw t1, -44(sp)
+l12:  lw t0, -40(sp)
+l27:  lw a0, -8(sp)
+l26:  lw a1, -4(sp)
+l25:  lw a2, 0(sp)
+l29:  move ra, s7
+l1:   lw v1, -164(sp)
+      sw v1, __global__make
+_l9:  addiu sp, sp, 212
+_l8:  addiu sp, sp, -60
+l92:  sw t9, -60(sp)
+l93:  sw t8, -56(sp)
+l94:  sw t7, -52(sp)
+l95:  sw t6, -48(sp)
+l96:  sw t5, -44(sp)
+l97:  sw t4, -40(sp)
+l98:  sw t3, -36(sp)
+l99:  sw t2, -32(sp)
+l100: sw t1, -28(sp)
+l101: sw t0, -24(sp)
+l113: sw a0, -20(sp)
+l112: sw a1, -16(sp)
+l116: move s7, ra
+l118: lw v1, __global__make
+      sw v1, -12(sp)
+l119: li v1, 0
+      sw v1, -8(sp)
+l120: lw v1, -12(sp)
+      move a0, v1
+      lw v1, -8(sp)
+      move a1, v1
+      jal block_get
+      move v1, v0
+      sw v1, __global__un
+l111: lw t9, -60(sp)
+l110: lw t8, -56(sp)
+l109: lw t7, -52(sp)
+l108: lw t6, -48(sp)
+l107: lw t5, -44(sp)
+l106: lw t4, -40(sp)
+l105: lw t3, -36(sp)
+l104: lw t2, -32(sp)
+l103: lw t1, -28(sp)
+l102: lw t0, -24(sp)
+l115: lw a0, -4(sp)
+l114: lw a1, 0(sp)
+l117: move ra, s7
+_l7:  addiu sp, sp, 60
+_l6:  addiu sp, sp, -60
+l121: sw t9, -60(sp)
+l122: sw t8, -56(sp)
+l123: sw t7, -52(sp)
+l124: sw t6, -48(sp)
+l125: sw t5, -44(sp)
+l126: sw t4, -40(sp)
+l127: sw t3, -36(sp)
+l128: sw t2, -32(sp)
+l129: sw t1, -28(sp)
+l130: sw t0, -24(sp)
+l142: sw a0, -20(sp)
+l141: sw a1, -16(sp)
+l145: move s7, ra
+l147: lw v1, __global__make
+      sw v1, -12(sp)
+l148: li v1, 1
+      sw v1, -8(sp)
+l149: lw v1, -12(sp)
+      move a0, v1
+      lw v1, -8(sp)
+      move a1, v1
+      jal block_get
+      move v1, v0
+      sw v1, __global__deux
+l140: lw t9, -60(sp)
+l139: lw t8, -56(sp)
+l138: lw t7, -52(sp)
+l137: lw t6, -48(sp)
+l136: lw t5, -44(sp)
+l135: lw t4, -40(sp)
+l134: lw t3, -36(sp)
+l133: lw t2, -32(sp)
+l132: lw t1, -28(sp)
+l131: lw t0, -24(sp)
+l144: lw a0, -4(sp)
+l143: lw a1, 0(sp)
+l146: move ra, s7
+_l5:  addiu sp, sp, 60
+_l4:  addiu sp, sp, -68
+l150: sw t9, -68(sp)
+l151: sw t8, -64(sp)
+l152: sw t7, -60(sp)
+l153: sw t6, -56(sp)
+l154: sw t5, -52(sp)
+l155: sw t4, -48(sp)
+l156: sw t3, -44(sp)
+l157: sw t2, -40(sp)
+l158: sw t1, -36(sp)
+l159: sw t0, -32(sp)
+l171: sw a0, -28(sp)
+l170: sw a1, -24(sp)
+l174: move s7, ra
+l176: lw v1, __global__un
+      sw v1, -20(sp)
+l177: lw v1, __global__deux
+      sw v1, -16(sp)
+l178: lw v1, -20(sp)
+      lw fp, -16(sp)
+      sgt v1, v1, fp
+      sw v1, -12(sp)
+l169: lw t9, -68(sp)
+l168: lw t8, -64(sp)
+l167: lw t7, -60(sp)
+l166: lw t6, -56(sp)
+l165: lw t5, -52(sp)
+l164: lw t4, -48(sp)
+l163: lw t3, -44(sp)
+l162: lw t2, -40(sp)
+l161: lw t1, -36(sp)
+l160: lw t0, -32(sp)
+l173: lw a0, -8(sp)
+l172: lw a1, -4(sp)
+l175: move ra, s7
+l179: lw v1, -12(sp)
+      beqz v1, l182
+      j l180
+l180: li v1, 1234
+      sw v1, 0(sp)
+l181: j l183
+l182: li v1, 4321
+      sw v1, 0(sp)
+l183: lw v1, 0(sp)
+      sw v1, __global__r
+_l3:  addiu sp, sp, 68
+_l2:  addiu sp, sp, -64
+l184: sw t9, -64(sp)
+l185: sw t8, -60(sp)
+l186: sw t7, -56(sp)
+l187: sw t6, -52(sp)
+l188: sw t5, -48(sp)
+l189: sw t4, -44(sp)
+l190: sw t3, -40(sp)
+l191: sw t2, -36(sp)
+l192: sw t1, -32(sp)
+l193: sw t0, -28(sp)
+l205: sw a0, -24(sp)
+l204: sw a1, -20(sp)
+l208: move s7, ra
+l210: lw v1, __global__r
+      sw v1, -16(sp)
+l211: lw v1, -8(sp)
+      sw v1, -12(sp)
+l212: lw a0, -16(sp)
+      lw a1, -12(sp)
+      la v1, print_int
+      jalr v1
+l203: lw t9, -64(sp)
+l202: lw t8, -60(sp)
+l201: lw t7, -56(sp)
+l200: lw t6, -52(sp)
+l199: lw t5, -48(sp)
+l198: lw t4, -44(sp)
+l197: lw t3, -40(sp)
+l196: lw t2, -36(sp)
+l195: lw t1, -32(sp)
+l194: lw t0, -28(sp)
+l207: lw a0, -4(sp)
+l206: lw a1, 0(sp)
+l209: move ra, s7
+l213: 
+_l1:  addiu sp, sp, 64

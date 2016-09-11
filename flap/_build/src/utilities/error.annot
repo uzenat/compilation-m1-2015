@@ -1,0 +1,641 @@
+"src/utilities/error.ml" 1 0 4 "src/utilities/error.ml" 1 0 13
+type(
+  bool ref
+)
+ident(
+  def exit_flag "src/utilities/error.ml" 3 26 26 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 1 0 16 "src/utilities/error.ml" 1 0 19
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/utilities/error.ml" 1 0 20 "src/utilities/error.ml" 1 0 24
+type(
+  bool
+)
+"src/utilities/error.ml" 1 0 16 "src/utilities/error.ml" 1 0 24
+type(
+  bool ref
+)
+"src/utilities/error.ml" 3 26 30 "src/utilities/error.ml" 3 26 43
+type(
+  unit -> unit
+)
+ident(
+  def exit_on_error "src/utilities/error.ml" 5 68 68 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 3 26 44 "src/utilities/error.ml" 3 26 46
+type(
+  unit
+)
+"src/utilities/error.ml" 3 26 49 "src/utilities/error.ml" 3 26 58
+type(
+  bool ref
+)
+ident(
+  int_ref exit_flag "src/utilities/error.ml" 1 0 4 "src/utilities/error.ml" 1 0 13
+)
+"src/utilities/error.ml" 3 26 59 "src/utilities/error.ml" 3 26 61
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/utilities/error.ml" 3 26 62 "src/utilities/error.ml" 3 26 66
+type(
+  bool
+)
+"src/utilities/error.ml" 3 26 49 "src/utilities/error.ml" 3 26 66
+type(
+  unit
+)
+"src/utilities/error.ml" 5 68 72 "src/utilities/error.ml" 5 68 87
+type(
+  unit -> unit
+)
+ident(
+  def resume_on_error "src/utilities/error.ml" 7 113 113 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 5 68 88 "src/utilities/error.ml" 5 68 90
+type(
+  unit
+)
+"src/utilities/error.ml" 5 68 93 "src/utilities/error.ml" 5 68 102
+type(
+  bool ref
+)
+ident(
+  int_ref exit_flag "src/utilities/error.ml" 1 0 4 "src/utilities/error.ml" 1 0 13
+)
+"src/utilities/error.ml" 5 68 103 "src/utilities/error.ml" 5 68 105
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/utilities/error.ml" 5 68 106 "src/utilities/error.ml" 5 68 111
+type(
+  bool
+)
+"src/utilities/error.ml" 5 68 93 "src/utilities/error.ml" 5 68 111
+type(
+  unit
+)
+"src/utilities/error.ml" 9 158 162 "src/utilities/error.ml" 9 158 173
+type(
+  Position.t list -> string -> string
+)
+ident(
+  def print_error "src/utilities/error.ml" 15 320 320 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 9 158 174 "src/utilities/error.ml" 9 158 183
+type(
+  Position.t list
+)
+ident(
+  def positions "src/utilities/error.ml" 9 158 184 "src/utilities/error.ml" 13 311 318
+)
+"src/utilities/error.ml" 9 158 184 "src/utilities/error.ml" 9 158 187
+type(
+  string
+)
+ident(
+  def msg "src/utilities/error.ml" 10 190 192 "src/utilities/error.ml" 13 311 318
+)
+"src/utilities/error.ml" 10 190 192 "src/utilities/error.ml" 10 190 206
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/utilities/error.ml" 10 190 207 "src/utilities/error.ml" 10 190 215
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/utilities/error.ml" 11 216 221 "src/utilities/error.ml" 11 216 234
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/utilities/error.ml" 11 216 235 "src/utilities/error.ml" 11 216 239
+type(
+  string
+)
+"src/utilities/error.ml" 12 240 248 "src/utilities/error.ml" 12 240 256
+type(
+  (Position.t -> string) -> Position.t list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/utilities/error.ml" 12 240 262 "src/utilities/error.ml" 12 240 263
+type(
+  Position.t
+)
+ident(
+  def p "src/utilities/error.ml" 12 240 267 "src/utilities/error.ml" 12 240 297
+)
+"src/utilities/error.ml" 12 240 267 "src/utilities/error.ml" 12 240 289
+type(
+  Position.t -> string
+)
+ident(
+  ext_ref Position.string_of_pos
+)
+"src/utilities/error.ml" 12 240 290 "src/utilities/error.ml" 12 240 291
+type(
+  Position.t
+)
+ident(
+  int_ref p "src/utilities/error.ml" 12 240 262 "src/utilities/error.ml" 12 240 263
+)
+"src/utilities/error.ml" 12 240 267 "src/utilities/error.ml" 12 240 291
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities/error.ml" 12 240 292 "src/utilities/error.ml" 12 240 293
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/utilities/error.ml" 12 240 293 "src/utilities/error.ml" 12 240 297
+type(
+  string
+)
+"src/utilities/error.ml" 12 240 267 "src/utilities/error.ml" 12 240 297
+call(
+  tail
+)
+type(
+  string
+)
+"src/utilities/error.ml" 12 240 257 "src/utilities/error.ml" 12 240 298
+type(
+  Position.t -> string
+)
+"src/utilities/error.ml" 12 240 299 "src/utilities/error.ml" 12 240 308
+type(
+  Position.t list
+)
+ident(
+  int_ref positions "src/utilities/error.ml" 9 158 174 "src/utilities/error.ml" 9 158 183
+)
+"src/utilities/error.ml" 12 240 247 "src/utilities/error.ml" 12 240 309
+call(
+  stack
+)
+type(
+  string list
+)
+"src/utilities/error.ml" 11 216 220 "src/utilities/error.ml" 12 240 310
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities/error.ml" 13 311 315 "src/utilities/error.ml" 13 311 318
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/error.ml" 9 158 184 "src/utilities/error.ml" 9 158 187
+)
+"src/utilities/error.ml" 10 190 192 "src/utilities/error.ml" 13 311 318
+call(
+  tail
+)
+type(
+  string
+)
+"src/utilities/error.ml" 15 320 324 "src/utilities/error.ml" 15 320 335
+type(
+  Position.t list -> string -> 'a
+)
+ident(
+  def error_alert "src/utilities/error.ml" 22 483 483 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 15 320 336 "src/utilities/error.ml" 15 320 345
+type(
+  Position.t list
+)
+ident(
+  def positions "src/utilities/error.ml" 15 320 346 "src/utilities/error.ml" 20 444 481
+)
+"src/utilities/error.ml" 15 320 346 "src/utilities/error.ml" 15 320 349
+type(
+  string
+)
+ident(
+  def msg "src/utilities/error.ml" 16 352 354 "src/utilities/error.ml" 20 444 481
+)
+"src/utilities/error.ml" 16 352 357 "src/utilities/error.ml" 16 352 358
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/utilities/error.ml" 16 352 358 "src/utilities/error.ml" 16 352 367
+type(
+  bool ref
+)
+ident(
+  int_ref exit_flag "src/utilities/error.ml" 1 0 4 "src/utilities/error.ml" 1 0 13
+)
+"src/utilities/error.ml" 16 352 357 "src/utilities/error.ml" 16 352 367
+type(
+  bool
+)
+"src/utilities/error.ml" 17 375 379 "src/utilities/error.ml" 17 375 392
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/utilities/error.ml" 17 375 393 "src/utilities/error.ml" 17 375 399
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/utilities/error.ml" 17 375 401 "src/utilities/error.ml" 17 375 412
+type(
+  Position.t list -> string -> string
+)
+ident(
+  int_ref print_error "src/utilities/error.ml" 9 158 162 "src/utilities/error.ml" 9 158 173
+)
+"src/utilities/error.ml" 17 375 413 "src/utilities/error.ml" 17 375 422
+type(
+  Position.t list
+)
+ident(
+  int_ref positions "src/utilities/error.ml" 15 320 336 "src/utilities/error.ml" 15 320 345
+)
+"src/utilities/error.ml" 17 375 423 "src/utilities/error.ml" 17 375 426
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/error.ml" 15 320 346 "src/utilities/error.ml" 15 320 349
+)
+"src/utilities/error.ml" 17 375 400 "src/utilities/error.ml" 17 375 427
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities/error.ml" 17 375 379 "src/utilities/error.ml" 17 375 427
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utilities/error.ml" 18 429 433 "src/utilities/error.ml" 18 429 437
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/utilities/error.ml" 18 429 438 "src/utilities/error.ml" 18 429 439
+type(
+  int
+)
+"src/utilities/error.ml" 18 429 433 "src/utilities/error.ml" 18 429 439
+call(
+  tail
+)
+type(
+  'a
+)
+"src/utilities/error.ml" 16 352 373 "src/utilities/error.ml" 19 440 443
+type(
+  'a
+)
+"src/utilities/error.ml" 20 444 451 "src/utilities/error.ml" 20 444 456
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/utilities/error.ml" 20 444 465 "src/utilities/error.ml" 20 444 474
+type(
+  Position.t list
+)
+ident(
+  int_ref positions "src/utilities/error.ml" 15 320 336 "src/utilities/error.ml" 15 320 345
+)
+"src/utilities/error.ml" 20 444 476 "src/utilities/error.ml" 20 444 479
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/error.ml" 15 320 346 "src/utilities/error.ml" 15 320 349
+)
+"src/utilities/error.ml" 20 444 457 "src/utilities/error.ml" 20 444 481
+type(
+  exn
+)
+"src/utilities/error.ml" 20 444 451 "src/utilities/error.ml" 20 444 481
+type(
+  'a
+)
+"src/utilities/error.ml" 16 352 354 "src/utilities/error.ml" 20 444 481
+type(
+  'a
+)
+"src/utilities/error.ml" 22 483 487 "src/utilities/error.ml" 22 483 499
+type(
+  string -> string -> 'a
+)
+ident(
+  def global_error "src/utilities/error.ml" 25 582 582 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 22 483 500 "src/utilities/error.ml" 22 483 504
+type(
+  string
+)
+ident(
+  def kind "src/utilities/error.ml" 22 483 505 "src/utilities/error.ml" 23 511 580
+)
+"src/utilities/error.ml" 22 483 505 "src/utilities/error.ml" 22 483 508
+type(
+  string
+)
+ident(
+  def msg "src/utilities/error.ml" 23 511 513 "src/utilities/error.ml" 23 511 580
+)
+"src/utilities/error.ml" 23 511 513 "src/utilities/error.ml" 23 511 524
+type(
+  Position.t list -> string -> 'a
+)
+ident(
+  int_ref error_alert "src/utilities/error.ml" 15 320 324 "src/utilities/error.ml" 15 320 335
+)
+"src/utilities/error.ml" 23 511 525 "src/utilities/error.ml" 23 511 527
+type(
+  Position.t list
+)
+"src/utilities/error.ml" 23 511 529 "src/utilities/error.ml" 23 511 543
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/utilities/error.ml" 23 511 544 "src/utilities/error.ml" 23 511 569
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/utilities/error.ml" 23 511 571 "src/utilities/error.ml" 23 511 575
+type(
+  string
+)
+ident(
+  int_ref kind "src/utilities/error.ml" 22 483 500 "src/utilities/error.ml" 22 483 504
+)
+"src/utilities/error.ml" 23 511 576 "src/utilities/error.ml" 23 511 579
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/error.ml" 22 483 505 "src/utilities/error.ml" 22 483 508
+)
+"src/utilities/error.ml" 23 511 528 "src/utilities/error.ml" 23 511 580
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities/error.ml" 23 511 513 "src/utilities/error.ml" 23 511 580
+call(
+  tail
+)
+type(
+  'a
+)
+"src/utilities/error.ml" 25 582 586 "src/utilities/error.ml" 25 582 592
+type(
+  string -> Position.t list -> string -> 'a
+)
+ident(
+  def errorN "src/utilities/error.ml" 28 674 674 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 25 582 593 "src/utilities/error.ml" 25 582 597
+type(
+  string
+)
+ident(
+  def kind "src/utilities/error.ml" 25 582 598 "src/utilities/error.ml" 26 609 672
+)
+"src/utilities/error.ml" 25 582 598 "src/utilities/error.ml" 25 582 602
+type(
+  Position.t list
+)
+ident(
+  def poss "src/utilities/error.ml" 25 582 603 "src/utilities/error.ml" 26 609 672
+)
+"src/utilities/error.ml" 25 582 603 "src/utilities/error.ml" 25 582 606
+type(
+  string
+)
+ident(
+  def msg "src/utilities/error.ml" 26 609 611 "src/utilities/error.ml" 26 609 672
+)
+"src/utilities/error.ml" 26 609 611 "src/utilities/error.ml" 26 609 622
+type(
+  Position.t list -> string -> 'a
+)
+ident(
+  int_ref error_alert "src/utilities/error.ml" 15 320 324 "src/utilities/error.ml" 15 320 335
+)
+"src/utilities/error.ml" 26 609 623 "src/utilities/error.ml" 26 609 627
+type(
+  Position.t list
+)
+ident(
+  int_ref poss "src/utilities/error.ml" 25 582 598 "src/utilities/error.ml" 25 582 602
+)
+"src/utilities/error.ml" 26 609 629 "src/utilities/error.ml" 26 609 643
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/utilities/error.ml" 26 609 644 "src/utilities/error.ml" 26 609 662
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/utilities/error.ml" 26 609 663 "src/utilities/error.ml" 26 609 667
+type(
+  string
+)
+ident(
+  int_ref kind "src/utilities/error.ml" 25 582 593 "src/utilities/error.ml" 25 582 597
+)
+"src/utilities/error.ml" 26 609 668 "src/utilities/error.ml" 26 609 671
+type(
+  string
+)
+ident(
+  int_ref msg "src/utilities/error.ml" 25 582 603 "src/utilities/error.ml" 25 582 606
+)
+"src/utilities/error.ml" 26 609 628 "src/utilities/error.ml" 26 609 672
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities/error.ml" 26 609 611 "src/utilities/error.ml" 26 609 672
+call(
+  tail
+)
+type(
+  'a
+)
+"src/utilities/error.ml" 28 674 678 "src/utilities/error.ml" 28 674 683
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  def error "src/utilities/error.ml" 29 713 713 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 28 674 684 "src/utilities/error.ml" 28 674 688
+type(
+  string
+)
+ident(
+  def kind "src/utilities/error.ml" 28 674 689 "src/utilities/error.ml" 28 674 712
+)
+"src/utilities/error.ml" 28 674 689 "src/utilities/error.ml" 28 674 692
+type(
+  Position.t
+)
+ident(
+  def pos "src/utilities/error.ml" 28 674 695 "src/utilities/error.ml" 28 674 712
+)
+"src/utilities/error.ml" 28 674 695 "src/utilities/error.ml" 28 674 701
+type(
+  string -> Position.t list -> string -> 'a
+)
+ident(
+  int_ref errorN "src/utilities/error.ml" 25 582 586 "src/utilities/error.ml" 25 582 592
+)
+"src/utilities/error.ml" 28 674 702 "src/utilities/error.ml" 28 674 706
+type(
+  string
+)
+ident(
+  int_ref kind "src/utilities/error.ml" 28 674 684 "src/utilities/error.ml" 28 674 688
+)
+"src/utilities/error.ml" 28 674 708 "src/utilities/error.ml" 28 674 711
+type(
+  Position.t
+)
+ident(
+  int_ref pos "src/utilities/error.ml" 28 674 689 "src/utilities/error.ml" 28 674 692
+)
+"src/utilities/error.ml" 28 674 707 "src/utilities/error.ml" 28 674 712
+type(
+  Position.t list
+)
+"src/utilities/error.ml" 28 674 695 "src/utilities/error.ml" 28 674 712
+call(
+  tail
+)
+type(
+  string -> 'a
+)
+"src/utilities/error.ml" 29 713 717 "src/utilities/error.ml" 29 713 723
+type(
+  string -> Position.t -> Position.t -> string -> 'a
+)
+ident(
+  def error2 "src/utilities/error.ml" 29 713 765 "src/utilities/error.ml" 1 0 -1
+)
+"src/utilities/error.ml" 29 713 724 "src/utilities/error.ml" 29 713 728
+type(
+  string
+)
+ident(
+  def kind "src/utilities/error.ml" 29 713 729 "src/utilities/error.ml" 29 713 765
+)
+"src/utilities/error.ml" 29 713 729 "src/utilities/error.ml" 29 713 733
+type(
+  Position.t
+)
+ident(
+  def pos1 "src/utilities/error.ml" 29 713 734 "src/utilities/error.ml" 29 713 765
+)
+"src/utilities/error.ml" 29 713 734 "src/utilities/error.ml" 29 713 738
+type(
+  Position.t
+)
+ident(
+  def pos2 "src/utilities/error.ml" 29 713 741 "src/utilities/error.ml" 29 713 765
+)
+"src/utilities/error.ml" 29 713 741 "src/utilities/error.ml" 29 713 747
+type(
+  string -> Position.t list -> string -> 'a
+)
+ident(
+  int_ref errorN "src/utilities/error.ml" 25 582 586 "src/utilities/error.ml" 25 582 592
+)
+"src/utilities/error.ml" 29 713 748 "src/utilities/error.ml" 29 713 752
+type(
+  string
+)
+ident(
+  int_ref kind "src/utilities/error.ml" 29 713 724 "src/utilities/error.ml" 29 713 728
+)
+"src/utilities/error.ml" 29 713 754 "src/utilities/error.ml" 29 713 758
+type(
+  Position.t
+)
+ident(
+  int_ref pos1 "src/utilities/error.ml" 29 713 729 "src/utilities/error.ml" 29 713 733
+)
+"src/utilities/error.ml" 29 713 760 "src/utilities/error.ml" 29 713 764
+type(
+  Position.t
+)
+ident(
+  int_ref pos2 "src/utilities/error.ml" 29 713 734 "src/utilities/error.ml" 29 713 738
+)
+"src/utilities/error.ml" 29 713 753 "src/utilities/error.ml" 29 713 765
+type(
+  Position.t list
+)
+"src/utilities/error.ml" 29 713 741 "src/utilities/error.ml" 29 713 765
+call(
+  tail
+)
+type(
+  string -> 'a
+)

@@ -1,0 +1,3918 @@
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 142 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 149
+type(
+  ('a -> 'b) -> 'a Position.located -> 'b
+)
+ident(
+  def located "src/retrolix/retrolixPrettyPrinter.ml" 11 178 178 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 150 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 151
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 9 138 152 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 176
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 152 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 153
+type(
+  'a Position.located
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 9 138 156 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 176
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 156 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 157
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 9 138 150 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 151
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 159 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 173
+type(
+  'a Position.located -> 'a
+)
+ident(
+  ext_ref Position.value
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 174 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 175
+type(
+  'a Position.located
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 9 138 152 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 153
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 158 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 176
+call(
+  stack
+)
+type(
+  'a
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 9 138 156 "src/retrolix/retrolixPrettyPrinter.ml" 9 138 176
+call(
+  tail
+)
+type(
+  'b
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 11 178 182 "src/retrolix/retrolixPrettyPrinter.ml" 11 178 198
+type(
+  (RetrolixAST.label * 'a) list -> int
+)
+ident(
+  def max_label_length "src/retrolix/retrolixPrettyPrinter.ml" 14 273 273 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 11 178 199 "src/retrolix/retrolixPrettyPrinter.ml" 11 178 200
+type(
+  (RetrolixAST.label * 'a) list
+)
+ident(
+  def c "src/retrolix/retrolixPrettyPrinter.ml" 12 203 205 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 271
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 205 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 219
+type(
+  (int -> RetrolixAST.label * 'a -> int) ->
+  int -> (RetrolixAST.label * 'a) list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 225 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 226
+type(
+  int
+)
+ident(
+  def m "src/retrolix/retrolixPrettyPrinter.ml" 12 203 227 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 266
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 234 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 235
+type(
+  string
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 12 203 243 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 266
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 228 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 235
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 237 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 238
+type(
+  'a
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 227 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 239
+type(
+  RetrolixAST.label * 'a
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 243 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 246
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 247 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 248
+type(
+  int
+)
+ident(
+  int_ref m "src/retrolix/retrolixPrettyPrinter.ml" 12 203 225 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 226
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 250 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 263
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 264 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 265
+type(
+  string
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 12 203 234 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 235
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 249 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 266
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 243 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 266
+call(
+  tail
+)
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 220 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 267
+type(
+  int -> RetrolixAST.label * 'a -> int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 268 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 269
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 270 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 271
+type(
+  (RetrolixAST.label * 'a) list
+)
+ident(
+  int_ref c "src/retrolix/retrolixPrettyPrinter.ml" 11 178 199 "src/retrolix/retrolixPrettyPrinter.ml" 11 178 200
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 12 203 205 "src/retrolix/retrolixPrettyPrinter.ml" 12 203 271
+call(
+  tail
+)
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def ++ "src/retrolix/retrolixPrettyPrinter.ml" 17 311 311 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 14 273 284 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 285
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 14 273 286 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 309
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 14 273 286 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 287
+type(
+  PPrintEngine.document
+)
+ident(
+  def y "src/retrolix/retrolixPrettyPrinter.ml" 15 290 292 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 309
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 292 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 293
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 14 273 284 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 285
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 294 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 296
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 297 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 302
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 303 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 304
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 297 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 304
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 305 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 307
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 308 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 309
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref y "src/retrolix/retrolixPrettyPrinter.ml" 14 273 286 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 287
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 297 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 309
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 15 290 292 "src/retrolix/retrolixPrettyPrinter.ml" 15 290 309
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 315 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 319
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def vcat "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 322 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 334
+type(
+  PPrintEngine.document ->
+  (PPrintEngine.document -> PPrintEngine.document) ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 335 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 343
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.hardline
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 349 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 350
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 17 311 354 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 355
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 354 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 355
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 17 311 349 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 350
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 344 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 356
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 17 311 322 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 356
+call(
+  stack
+)
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 19 358 366 "src/retrolix/retrolixPrettyPrinter.ml" 19 358 373
+type(
+  RetrolixAST.definition list -> PPrintEngine.document
+)
+ident(
+  def program "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 19 358 374 "src/retrolix/retrolixPrettyPrinter.ml" 19 358 375
+type(
+  RetrolixAST.definition list
+)
+ident(
+  def p "src/retrolix/retrolixPrettyPrinter.ml" 20 378 380 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 408
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 380 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 384
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref vcat "src/retrolix/retrolixPrettyPrinter.ml" 17 311 315 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 319
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 386 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 394
+type(
+  (RetrolixAST.definition -> PPrintEngine.document) ->
+  RetrolixAST.definition list -> PPrintEngine.document list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 395 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 405
+type(
+  RetrolixAST.definition -> PPrintEngine.document
+)
+ident(
+  int_ref definition "src/retrolix/retrolixPrettyPrinter.ml" 22 410 414 "src/retrolix/retrolixPrettyPrinter.ml" 22 410 424
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 406 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 407
+type(
+  RetrolixAST.definition list
+)
+ident(
+  int_ref p "src/retrolix/retrolixPrettyPrinter.ml" 19 358 374 "src/retrolix/retrolixPrettyPrinter.ml" 19 358 375
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 385 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 408
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 20 378 380 "src/retrolix/retrolixPrettyPrinter.ml" 20 378 408
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 22 410 414 "src/retrolix/retrolixPrettyPrinter.ml" 22 410 424
+type(
+  RetrolixAST.definition -> PPrintEngine.document
+)
+ident(
+  def definition "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 23 436 448 "src/retrolix/retrolixPrettyPrinter.ml" 23 436 449
+type(
+  RetrolixAST.identifier
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 24 457 461 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 23 436 451 "src/retrolix/retrolixPrettyPrinter.ml" 23 436 452
+type(
+  RetrolixAST.block
+)
+ident(
+  def b "src/retrolix/retrolixPrettyPrinter.ml" 24 457 461 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 23 436 440 "src/retrolix/retrolixPrettyPrinter.ml" 23 436 453
+type(
+  RetrolixAST.definition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 461 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 466
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 468 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 474
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 475 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 481
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 468 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 481
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 482 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 484
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 485 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 491
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 493 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 503
+type(
+  RetrolixAST.identifier -> PPrintEngine.document
+)
+ident(
+  int_ref identifier "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1021 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1031
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 504 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 505
+type(
+  RetrolixAST.identifier
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 23 436 448 "src/retrolix/retrolixPrettyPrinter.ml" 23 436 449
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 492 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 506
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 485 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 506
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 467 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 507
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 461 "src/retrolix/retrolixPrettyPrinter.ml" 24 457 507
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 512 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 514
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 515 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 523
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.hardline
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 524 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 526
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 527 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 532
+type(
+  RetrolixAST.block -> PPrintEngine.document
+)
+ident(
+  int_ref block "src/retrolix/retrolixPrettyPrinter.ml" 35 806 810 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 815
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 533 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 534
+type(
+  RetrolixAST.block
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 23 436 451 "src/retrolix/retrolixPrettyPrinter.ml" 23 436 452
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 527 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 534
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 535 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 537
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 538 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 544
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 545 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 538 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 527 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 25 508 515 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 24 457 461 "src/retrolix/retrolixPrettyPrinter.ml" 25 508 550
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 26 551 566 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 567
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 26 551 569 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 571
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  def xs "src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 26 551 573 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 574
+type(
+  RetrolixAST.block
+)
+ident(
+  def b "src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 26 551 555 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 575
+type(
+  RetrolixAST.definition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 27 579 588
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 590 "src/retrolix/retrolixPrettyPrinter.ml" 27 579 596
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 597 "src/retrolix/retrolixPrettyPrinter.ml" 27 579 602
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 590 "src/retrolix/retrolixPrettyPrinter.ml" 27 579 602
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 28 603 614 "src/retrolix/retrolixPrettyPrinter.ml" 28 603 616
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 28 603 617 "src/retrolix/retrolixPrettyPrinter.ml" 28 603 636
+type(
+  RetrolixAST.function_identifier -> PPrintEngine.document
+)
+ident(
+  int_ref function_identifier "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1057 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1076
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 28 603 637 "src/retrolix/retrolixPrettyPrinter.ml" 28 603 638
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 26 551 566 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 567
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 28 603 617 "src/retrolix/retrolixPrettyPrinter.ml" 28 603 638
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 590 "src/retrolix/retrolixPrettyPrinter.ml" 28 603 638
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 650 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 652
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 653 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 659
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 661 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 672
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  int_ref identifiers "src/retrolix/retrolixPrettyPrinter.ml" 40 949 953 "src/retrolix/retrolixPrettyPrinter.ml" 40 949 964
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 673 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 675
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  int_ref xs "src/retrolix/retrolixPrettyPrinter.ml" 26 551 569 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 571
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 660 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 676
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 29 639 653 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 676
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 589 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 677
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 29 639 677
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 682 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 684
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 685 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 691
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 692 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 695
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 685 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 695
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 695
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 696 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 698
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 699 "src/retrolix/retrolixPrettyPrinter.ml" 30 678 707
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.hardline
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 31 708 712 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 714
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 31 708 715 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 720
+type(
+  RetrolixAST.block -> PPrintEngine.document
+)
+ident(
+  int_ref block "src/retrolix/retrolixPrettyPrinter.ml" 35 806 810 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 815
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 31 708 721 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+type(
+  RetrolixAST.block
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 26 551 573 "src/retrolix/retrolixPrettyPrinter.ml" 26 551 574
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 31 708 715 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 30 678 699 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 27 579 583 "src/retrolix/retrolixPrettyPrinter.ml" 31 708 722
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 32 723 745 "src/retrolix/retrolixPrettyPrinter.ml" 32 723 746
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 33 750 754 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 804
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 32 723 727 "src/retrolix/retrolixPrettyPrinter.ml" 32 723 746
+type(
+  RetrolixAST.definition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 754 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 759
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 761 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 767
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 768 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 778
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 761 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 778
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 779 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 781
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 782 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 801
+type(
+  RetrolixAST.function_identifier -> PPrintEngine.document
+)
+ident(
+  int_ref function_identifier "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1057 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1076
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 802 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 803
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 32 723 745 "src/retrolix/retrolixPrettyPrinter.ml" 32 723 746
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 782 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 803
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 760 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 804
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 33 750 754 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 804
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 22 410 427 "src/retrolix/retrolixPrettyPrinter.ml" 33 750 804
+type(
+  RetrolixAST.definition -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 35 806 810 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 815
+type(
+  RetrolixAST.block -> PPrintEngine.document
+)
+ident(
+  def block "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 35 806 817 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 819
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  def ls "src/retrolix/retrolixPrettyPrinter.ml" 36 826 828 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 35 806 821 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 822
+type(
+  RetrolixAST.labelled_instruction list
+)
+ident(
+  def b "src/retrolix/retrolixPrettyPrinter.ml" 36 826 828 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 35 806 816 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 823
+type(
+  RetrolixAST.block
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 36 826 832 "src/retrolix/retrolixPrettyPrinter.ml" 36 826 837
+type(
+  int
+)
+ident(
+  def shift "src/retrolix/retrolixPrettyPrinter.ml" 37 862 864 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 36 826 840 "src/retrolix/retrolixPrettyPrinter.ml" 36 826 856
+type(
+  RetrolixAST.labelled_instruction list -> int
+)
+ident(
+  int_ref max_label_length "src/retrolix/retrolixPrettyPrinter.ml" 11 178 182 "src/retrolix/retrolixPrettyPrinter.ml" 11 178 198
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 36 826 857 "src/retrolix/retrolixPrettyPrinter.ml" 36 826 858
+type(
+  RetrolixAST.labelled_instruction list
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 35 806 821 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 822
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 36 826 840 "src/retrolix/retrolixPrettyPrinter.ml" 36 826 858
+call(
+  stack
+)
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 864 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 869
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 871 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 877
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  int_ref locals "src/retrolix/retrolixPrettyPrinter.ml" 49 1099 1103 "src/retrolix/retrolixPrettyPrinter.ml" 49 1099 1109
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 878 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 880
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  int_ref ls "src/retrolix/retrolixPrettyPrinter.ml" 35 806 817 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 819
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 871 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 880
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 881 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 883
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 884 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 890
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 891 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 894
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 884 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 894
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 870 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 895
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 864 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 895
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 896 "src/retrolix/retrolixPrettyPrinter.ml" 37 862 898
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 901 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 905
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref vcat "src/retrolix/retrolixPrettyPrinter.ml" 17 311 315 "src/retrolix/retrolixPrettyPrinter.ml" 17 311 319
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 907 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 915
+type(
+  (RetrolixAST.labelled_instruction -> PPrintEngine.document) ->
+  RetrolixAST.labelled_instruction list -> PPrintEngine.document list
+)
+ident(
+  ext_ref List.map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 917 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 937
+type(
+  int -> RetrolixAST.labelled_instruction -> PPrintEngine.document
+)
+ident(
+  int_ref labelled_instruction "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1201 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1221
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 938 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 943
+type(
+  int
+)
+ident(
+  int_ref shift "src/retrolix/retrolixPrettyPrinter.ml" 36 826 832 "src/retrolix/retrolixPrettyPrinter.ml" 36 826 837
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 916 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 944
+call(
+  stack
+)
+type(
+  RetrolixAST.labelled_instruction -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 945 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 946
+type(
+  RetrolixAST.labelled_instruction list
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 35 806 821 "src/retrolix/retrolixPrettyPrinter.ml" 35 806 822
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 906 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 38 899 901 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 37 862 864 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 36 826 828 "src/retrolix/retrolixPrettyPrinter.ml" 38 899 947
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 40 949 953 "src/retrolix/retrolixPrettyPrinter.ml" 40 949 964
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  def identifiers "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 40 949 965 "src/retrolix/retrolixPrettyPrinter.ml" 40 949 967
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  def xs "src/retrolix/retrolixPrettyPrinter.ml" 41 970 972 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1015
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 972 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 984
+type(
+  PPrintEngine.document ->
+  (RetrolixAST.identifier -> PPrintEngine.document) ->
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 986 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 991
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.comma
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 992 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 994
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 995 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1000
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.space
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 985 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1001
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 1002 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1012
+type(
+  RetrolixAST.identifier -> PPrintEngine.document
+)
+ident(
+  int_ref identifier "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1021 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1031
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 1013 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1015
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  int_ref xs "src/retrolix/retrolixPrettyPrinter.ml" 40 949 965 "src/retrolix/retrolixPrettyPrinter.ml" 40 949 967
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 41 970 972 "src/retrolix/retrolixPrettyPrinter.ml" 41 970 1015
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1021 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1031
+type(
+  RetrolixAST.identifier -> PPrintEngine.document
+)
+ident(
+  def identifier "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1036 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1037
+type(
+  string
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1043 "src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1051
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1032 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1038
+type(
+  RetrolixAST.identifier
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1043 "src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1049
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1050 "src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1051
+type(
+  string
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1036 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1037
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1043 "src/retrolix/retrolixPrettyPrinter.ml" 44 1041 1051
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1057 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1076
+type(
+  RetrolixAST.function_identifier -> PPrintEngine.document
+)
+ident(
+  def function_identifier "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1082 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1083
+type(
+  string
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1089 "src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1097
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1077 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1084
+type(
+  RetrolixAST.function_identifier
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1089 "src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1095
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1096 "src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1097
+type(
+  string
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1082 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1083
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1089 "src/retrolix/retrolixPrettyPrinter.ml" 47 1087 1097
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 49 1099 1103 "src/retrolix/retrolixPrettyPrinter.ml" 49 1099 1109
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  def locals "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 50 1121 1125 "src/retrolix/retrolixPrettyPrinter.ml" 50 1121 1127
+type(
+  RetrolixAST.identifier list
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 50 1121 1131 "src/retrolix/retrolixPrettyPrinter.ml" 50 1121 1136
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1141 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1143
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  def xs "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1147 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1195
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1147 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1152
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1154 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1160
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1161 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1168
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1154 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1168
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1169 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1171
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1172 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1177
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1179 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1190
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+ident(
+  int_ref identifiers "src/retrolix/retrolixPrettyPrinter.ml" 40 949 953 "src/retrolix/retrolixPrettyPrinter.ml" 40 949 964
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1191 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1193
+type(
+  RetrolixAST.identifier list
+)
+ident(
+  int_ref xs "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1141 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1143
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1178 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1194
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1172 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1194
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1153 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1195
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1147 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1195
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 49 1099 1112 "src/retrolix/retrolixPrettyPrinter.ml" 51 1137 1195
+type(
+  RetrolixAST.identifier list -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1201 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1221
+type(
+  int -> RetrolixAST.labelled_instruction -> PPrintEngine.document
+)
+ident(
+  def labelled_instruction "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1222 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1227
+type(
+  int
+)
+ident(
+  def lsize "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1228 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1299
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1229 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1230
+type(
+  RetrolixAST.label
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1239 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1299
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1232 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1233
+type(
+  RetrolixAST.instruction
+)
+ident(
+  def i "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1239 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1299
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1228 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1234
+type(
+  RetrolixAST.labelled_instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1239 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1244
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1246 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1251
+type(
+  int -> RetrolixAST.label -> PPrintEngine.document
+)
+ident(
+  int_ref label "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1305 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1310
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1252 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1257
+type(
+  int
+)
+ident(
+  int_ref lsize "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1222 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1227
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1258 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1259
+type(
+  RetrolixAST.label
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1229 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1230
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1246 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1259
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1260 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1262
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1263 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1268
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1270 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1281
+type(
+  RetrolixAST.instruction -> PPrintEngine.document
+)
+ident(
+  int_ref instruction "src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1376 "src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1387
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1282 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1283
+type(
+  RetrolixAST.instruction
+)
+ident(
+  int_ref i "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1232 "src/retrolix/retrolixPrettyPrinter.ml" 53 1197 1233
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1269 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1284
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1263 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1284
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1285 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1287
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1288 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1294
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1295 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1298
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1288 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1298
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1263 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1298
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1245 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1299
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1239 "src/retrolix/retrolixPrettyPrinter.ml" 54 1237 1299
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1305 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1310
+type(
+  int -> RetrolixAST.label -> PPrintEngine.document
+)
+ident(
+  def label "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1311 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1316
+type(
+  int
+)
+ident(
+  def lsize "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1317 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1370
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1324 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1325
+type(
+  string
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1331 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1370
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1317 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1326
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1331 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1337
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1339 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1353
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1354 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1361
+type(
+  (int -> string -> string, unit, string) format
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1362 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1367
+type(
+  int
+)
+ident(
+  int_ref lsize "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1311 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1316
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1368 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1369
+type(
+  string
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1324 "src/retrolix/retrolixPrettyPrinter.ml" 56 1301 1325
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1338 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1370
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1331 "src/retrolix/retrolixPrettyPrinter.ml" 57 1329 1370
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1376 "src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1387
+type(
+  RetrolixAST.instruction -> PPrintEngine.document
+)
+ident(
+  def instruction "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1409 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1410
+type(
+  RetrolixAST.lvalue
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1412 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1413
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1415 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1417
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  def xs "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1403 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1418
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1432
+type(
+  RetrolixAST.lvalue -> PPrintEngine.document
+)
+ident(
+  int_ref lvalue "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2272 "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2278
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1433 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1434
+type(
+  RetrolixAST.lvalue
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1409 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1410
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1434
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1435 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1437
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1438 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1444
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1445 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1449
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1438 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1449
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1449
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1454 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1456
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1457 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1463
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1464 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1470
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1457 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1470
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1470
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1471 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1473
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1474 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1480
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  int_ref rvalue "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1481 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1482
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1412 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1413
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1474 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1482
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1482
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1483 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1485
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1486 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1492
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1494 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1501
+type(
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  int_ref rvalues "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2439 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2446
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1502 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1504
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  int_ref xs "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1415 "src/retrolix/retrolixPrettyPrinter.ml" 60 1399 1417
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1493 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1486 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 61 1422 1426 "src/retrolix/retrolixPrettyPrinter.ml" 62 1450 1505
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1521 "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1522
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1588
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1524 "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1526
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  def xs "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1588
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1511 "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1527
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1541
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1542 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1553
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1553
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1554 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1556
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1557 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1563
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  int_ref rvalue "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1564 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1565
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1521 "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1522
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1557 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1565
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1565
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1566 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1568
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1569 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1575
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.parens
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1577 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1584
+type(
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  int_ref rvalues "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2439 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2446
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1585 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1587
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  int_ref xs "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1524 "src/retrolix/retrolixPrettyPrinter.ml" 64 1507 1526
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1576 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1588
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1569 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1588
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1535 "src/retrolix/retrolixPrettyPrinter.ml" 65 1531 1588
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1598 "src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1599
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  def r "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1607 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1631
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1594 "src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1599
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1607 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1613
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1614 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1619
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1607 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1619
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1620 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1622
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1623 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1629
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  int_ref rvalue "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1630 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1631
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  int_ref r "src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1598 "src/retrolix/retrolixPrettyPrinter.ml" 67 1590 1599
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1623 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1631
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1607 "src/retrolix/retrolixPrettyPrinter.ml" 68 1603 1631
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1645 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1646
+type(
+  RetrolixAST.lvalue
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1648 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1649
+type(
+  RetrolixAST.op
+)
+ident(
+  def o "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1651 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1653
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  def rs "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1637 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1654
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1668
+type(
+  RetrolixAST.lvalue -> PPrintEngine.document
+)
+ident(
+  int_ref lvalue "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2272 "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2278
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1669 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1670
+type(
+  RetrolixAST.lvalue
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1645 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1646
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1670
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1671 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1673
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1674 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1680
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1681 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1685
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1674 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1685
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1685
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1686 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1688
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1689 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1695
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1697 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1699
+type(
+  RetrolixAST.op -> string
+)
+ident(
+  int_ref op "src/retrolix/retrolixPrettyPrinter.ml" 119 2936 2940 "src/retrolix/retrolixPrettyPrinter.ml" 119 2936 2942
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1700 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1701
+type(
+  RetrolixAST.op
+)
+ident(
+  int_ref o "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1648 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1649
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1696 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1702
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1689 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1702
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1702
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1703 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1705
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1706 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1713
+type(
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  int_ref rvalues "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2439 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2446
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1714 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  int_ref rs "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1651 "src/retrolix/retrolixPrettyPrinter.ml" 70 1633 1653
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1706 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1662 "src/retrolix/retrolixPrettyPrinter.ml" 71 1658 1716
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1734 "src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1735
+type(
+  string
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1744 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1769
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1727 "src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1736
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1722 "src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1736
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1744 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1750
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1751 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1757
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1744 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1757
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1758 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1760
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1761 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1767
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1768 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1769
+type(
+  string
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1734 "src/retrolix/retrolixPrettyPrinter.ml" 73 1718 1735
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1761 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1769
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1744 "src/retrolix/retrolixPrettyPrinter.ml" 74 1740 1769
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1792 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1793
+type(
+  RetrolixAST.condition
+)
+ident(
+  def c "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1795 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1797
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  def rs "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1805 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1807
+type(
+  string
+)
+ident(
+  def l1 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1799 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1807
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1815 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1817
+type(
+  string
+)
+ident(
+  def l2 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1809 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1817
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1775 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1818
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1832
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1833 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1841
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1841
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1842 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1844
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1845 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1851
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1853 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1862
+type(
+  RetrolixAST.condition -> string
+)
+ident(
+  int_ref condition "src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3194 "src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3203
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1863 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1864
+type(
+  RetrolixAST.condition
+)
+ident(
+  int_ref c "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1792 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1793
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1852 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1865
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1845 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1865
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1865
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1866 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1868
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1869 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1876
+type(
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  int_ref rvalues "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2439 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2446
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1877 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1879
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  int_ref rs "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1795 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1797
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1869 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1879
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1879
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1884 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1886
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1887 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1893
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1894 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1898
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1887 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1898
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1898
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1899 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1901
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1902 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1908
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1909 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1911
+type(
+  string
+)
+ident(
+  int_ref l1 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1805 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1807
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1902 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1911
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1911
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1912 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1914
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1915 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1921
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1922 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1926
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1915 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1926
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1927 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1929
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1930 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1936
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1937 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+type(
+  string
+)
+ident(
+  int_ref l2 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1815 "src/retrolix/retrolixPrettyPrinter.ml" 76 1771 1817
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1930 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1915 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 77 1822 1826 "src/retrolix/retrolixPrettyPrinter.ml" 78 1880 1939
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1953 "src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1954
+type(
+  string
+)
+ident(
+  def s "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1962 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1980
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1945 "src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1954
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1962 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1968
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1970 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1975
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1976 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1977
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1978 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1979
+type(
+  string
+)
+ident(
+  int_ref s "src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1953 "src/retrolix/retrolixPrettyPrinter.ml" 80 1941 1954
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1969 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1980
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1962 "src/retrolix/retrolixPrettyPrinter.ml" 81 1958 1980
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1994 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1995
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  def r "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2200
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1997 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1999
+type(
+  RetrolixAST.label array
+)
+ident(
+  def ls "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2200
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 83 1982 2001 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 2008
+type(
+  RetrolixAST.label option
+)
+ident(
+  def default "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2200
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1986 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 2009
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2023
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2024 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2032
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2032
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2033 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2035
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2036 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2042
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  int_ref rvalue "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2043 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2044
+type(
+  RetrolixAST.rvalue
+)
+ident(
+  int_ref r "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1994 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1995
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2036 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2044
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2044
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2049 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2051
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2052 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2064
+type(
+  PPrintEngine.document ->
+  (RetrolixAST.label -> PPrintEngine.document) ->
+  RetrolixAST.label list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2066 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2071
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2072 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2073
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2066 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2073
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2074 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2076
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2077 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2082
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.comma
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2083 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2085
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2086 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2091
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.space
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2077 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2091
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2065 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2092
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2093 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2099
+type(
+  RetrolixAST.label -> PPrintEngine.document
+)
+ident(
+  int_ref slabel "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2237 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2243
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2101 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2114
+type(
+  RetrolixAST.label array -> RetrolixAST.label list
+)
+ident(
+  ext_ref Array.to_list
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2115 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2117
+type(
+  RetrolixAST.label array
+)
+ident(
+  int_ref ls "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1997 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 1999
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2100 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2118
+call(
+  stack
+)
+type(
+  RetrolixAST.label list
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2052 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2118
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 85 2045 2118
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2123 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2125
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2133 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2140
+type(
+  RetrolixAST.label option
+)
+ident(
+  int_ref default "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 2001 "src/retrolix/retrolixPrettyPrinter.ml" 83 1982 2008
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2146 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2150
+type(
+  RetrolixAST.label option
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2154 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2159
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2167 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2168
+type(
+  RetrolixAST.label
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2172 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2199
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2162 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2168
+type(
+  RetrolixAST.label option
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2172 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2178
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2179 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2187
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2172 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2187
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2188 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2190
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref ++ "src/retrolix/retrolixPrettyPrinter.ml" 14 273 277 "src/retrolix/retrolixPrettyPrinter.ml" 14 273 283
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2191 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2197
+type(
+  RetrolixAST.label -> PPrintEngine.document
+)
+ident(
+  int_ref slabel "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2237 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2243
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2198 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2199
+type(
+  RetrolixAST.label
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2167 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2168
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2191 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2199
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2172 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2199
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2126 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2200
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 84 2013 2017 "src/retrolix/retrolixPrettyPrinter.ml" 86 2119 2200
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 88 2202 2206 "src/retrolix/retrolixPrettyPrinter.ml" 88 2202 2210
+type(
+  RetrolixAST.instruction
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2218 "src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2224
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2225 "src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2231
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2218 "src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2231
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1390 "src/retrolix/retrolixPrettyPrinter.ml" 89 2214 2231
+type(
+  RetrolixAST.instruction -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2237 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2243
+type(
+  RetrolixAST.label -> PPrintEngine.document
+)
+ident(
+  def slabel "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2251 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2252
+type(
+  string
+)
+ident(
+  def s "src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2258 "src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2266
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2244 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2253
+type(
+  RetrolixAST.label
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2258 "src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2264
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2265 "src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2266
+type(
+  string
+)
+ident(
+  int_ref s "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2251 "src/retrolix/retrolixPrettyPrinter.ml" 91 2233 2252
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2258 "src/retrolix/retrolixPrettyPrinter.ml" 92 2256 2266
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2272 "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2278
+type(
+  RetrolixAST.lvalue -> PPrintEngine.document
+)
+ident(
+  def lvalue "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2304 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2305
+type(
+  RetrolixAST.identifier
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2309 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2321
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2294 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2305
+type(
+  RetrolixAST.lvalue
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2309 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2319
+type(
+  RetrolixAST.identifier -> PPrintEngine.document
+)
+ident(
+  int_ref identifier "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1021 "src/retrolix/retrolixPrettyPrinter.ml" 43 1017 1031
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2320 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2321
+type(
+  RetrolixAST.identifier
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2304 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2305
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2309 "src/retrolix/retrolixPrettyPrinter.ml" 95 2290 2321
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2336 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2337
+type(
+  RetrolixAST.register
+)
+ident(
+  def r "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2341 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2351
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2326 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2337
+type(
+  RetrolixAST.lvalue
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2341 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2349
+type(
+  RetrolixAST.register -> PPrintEngine.document
+)
+ident(
+  int_ref register "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2907 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2915
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2350 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2351
+type(
+  RetrolixAST.register
+)
+ident(
+  int_ref r "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2336 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2337
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2341 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2351
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2281 "src/retrolix/retrolixPrettyPrinter.ml" 96 2322 2351
+type(
+  RetrolixAST.lvalue -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  def rvalue "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2379 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2386
+type(
+  RetrolixAST.rvalue
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2390 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2391
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2395 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2403
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2379 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2391
+type(
+  RetrolixAST.rvalue
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2395 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2401
+type(
+  RetrolixAST.lvalue -> PPrintEngine.document
+)
+ident(
+  int_ref lvalue "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2272 "src/retrolix/retrolixPrettyPrinter.ml" 94 2268 2278
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2402 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2403
+type(
+  RetrolixAST.lvalue
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2379 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2391
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2395 "src/retrolix/retrolixPrettyPrinter.ml" 99 2375 2403
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2419 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2420
+type(
+  RetrolixAST.literal
+)
+ident(
+  def l "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2424 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2433
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2408 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2420
+type(
+  RetrolixAST.rvalue
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2424 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2431
+type(
+  RetrolixAST.literal -> PPrintEngine.document
+)
+ident(
+  int_ref literal "src/retrolix/retrolixPrettyPrinter.ml" 105 2506 2510 "src/retrolix/retrolixPrettyPrinter.ml" 105 2506 2517
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2432 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2433
+type(
+  RetrolixAST.literal
+)
+ident(
+  int_ref l "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2419 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2420
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2424 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2433
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2366 "src/retrolix/retrolixPrettyPrinter.ml" 100 2404 2433
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2439 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2446
+type(
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  def rvalues "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2447 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2449
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  def rs "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2454 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2504
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2454 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2466
+type(
+  PPrintEngine.document ->
+  (RetrolixAST.rvalue -> PPrintEngine.document) ->
+  RetrolixAST.rvalue list -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.separate_map
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2468 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2473
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2474 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2475
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2468 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2475
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2476 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2478
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2479 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2484
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.comma
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2485 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2487
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2488 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2493
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintCombinators.space
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2479 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2493
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2467 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2494
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2495 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2501
+type(
+  RetrolixAST.rvalue -> PPrintEngine.document
+)
+ident(
+  int_ref rvalue "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2357 "src/retrolix/retrolixPrettyPrinter.ml" 98 2353 2363
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2502 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2504
+type(
+  RetrolixAST.rvalue list
+)
+ident(
+  int_ref rs "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2447 "src/retrolix/retrolixPrettyPrinter.ml" 102 2435 2449
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2454 "src/retrolix/retrolixPrettyPrinter.ml" 103 2452 2504
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 105 2506 2510 "src/retrolix/retrolixPrettyPrinter.ml" 105 2506 2517
+type(
+  RetrolixAST.literal -> PPrintEngine.document
+)
+ident(
+  def literal "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2541 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2542
+type(
+  string
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2546 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2554
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2533 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2542
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2546 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2552
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2553 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2554
+type(
+  string
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2541 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2542
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2546 "src/retrolix/retrolixPrettyPrinter.ml" 106 2529 2554
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2565 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2566
+type(
+  char
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2570 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2594
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2559 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2566
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2570 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2576
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2578 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2589
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2590 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2591
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2592 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2593
+type(
+  char
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2565 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2566
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2577 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2594
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2570 "src/retrolix/retrolixPrettyPrinter.ml" 107 2555 2594
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2605 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2606
+type(
+  bool
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2610 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2635
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2599 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2606
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2610 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2616
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2618 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2632
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2633 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2634
+type(
+  bool
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2605 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2606
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2617 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2635
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2610 "src/retrolix/retrolixPrettyPrinter.ml" 108 2595 2635
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2645 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2646
+type(
+  Int32.t
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2650 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2676
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2640 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2646
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2650 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2656
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2658 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2673
+type(
+  Int32.t -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2674 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2675
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2645 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2646
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2657 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2676
+call(
+  stack
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2650 "src/retrolix/retrolixPrettyPrinter.ml" 109 2636 2676
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2686 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2687
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2691 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2726
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2681 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2687
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2691 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2697
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2698 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2701
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2691 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2701
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2702 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2704
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2705 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2724
+type(
+  RetrolixAST.function_identifier -> PPrintEngine.document
+)
+ident(
+  int_ref function_identifier "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1057 "src/retrolix/retrolixPrettyPrinter.ml" 46 1053 1076
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2725 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2726
+type(
+  RetrolixAST.function_identifier
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2686 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2687
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2705 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2726
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2691 "src/retrolix/retrolixPrettyPrinter.ml" 110 2677 2726
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2738 "src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2742
+type(
+  bool
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2732 "src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2742
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2746 "src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2752
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2753 "src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2759
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2746 "src/retrolix/retrolixPrettyPrinter.ml" 112 2728 2759
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2770 "src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2775
+type(
+  bool
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2764 "src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2775
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2779 "src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2785
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2786 "src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2793
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2779 "src/retrolix/retrolixPrettyPrinter.ml" 113 2760 2793
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2806 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2807
+type(
+  string
+)
+ident(
+  def s "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2811 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2850
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2798 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2807
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2811 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2817
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2819 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2823
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2824 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2825
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2826 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2840
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2841 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2842
+type(
+  string
+)
+ident(
+  int_ref s "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2806 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2807
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2826 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2842
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2843 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2844
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2845 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2849
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2826 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2849
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2818 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2850
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2811 "src/retrolix/retrolixPrettyPrinter.ml" 114 2794 2850
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2861 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2862
+type(
+  char
+)
+ident(
+  def c "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2866 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2901
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2855 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2862
+type(
+  RetrolixAST.literal
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2866 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2872
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2874 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2877
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2878 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2879
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2880 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2892
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2893 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2894
+type(
+  char
+)
+ident(
+  int_ref c "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2861 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2862
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2880 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2894
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2895 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2896
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2897 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2900
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2880 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2900
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2873 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2901
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2866 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2901
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 105 2506 2520 "src/retrolix/retrolixPrettyPrinter.ml" 115 2851 2901
+type(
+  RetrolixAST.literal -> PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2907 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2915
+type(
+  RetrolixAST.register -> PPrintEngine.document
+)
+ident(
+  def register "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2921 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2922
+type(
+  string
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2926 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2934
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2916 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2923
+type(
+  RetrolixAST.register
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2926 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2932
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2933 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2934
+type(
+  string
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2921 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2922
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2926 "src/retrolix/retrolixPrettyPrinter.ml" 117 2903 2934
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 119 2936 2940 "src/retrolix/retrolixPrettyPrinter.ml" 119 2936 2942
+type(
+  RetrolixAST.op -> string
+)
+ident(
+  def op "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 120 2954 2958 "src/retrolix/retrolixPrettyPrinter.ml" 120 2954 2962
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 120 2954 2966 "src/retrolix/retrolixPrettyPrinter.ml" 120 2954 2972
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 121 2973 2977 "src/retrolix/retrolixPrettyPrinter.ml" 121 2973 2980
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 121 2973 2984 "src/retrolix/retrolixPrettyPrinter.ml" 121 2973 2989
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 122 2990 2994 "src/retrolix/retrolixPrettyPrinter.ml" 122 2990 2997
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 122 2990 3001 "src/retrolix/retrolixPrettyPrinter.ml" 122 2990 3006
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 123 3007 3011 "src/retrolix/retrolixPrettyPrinter.ml" 123 3007 3014
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 123 3007 3018 "src/retrolix/retrolixPrettyPrinter.ml" 123 3007 3023
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 124 3024 3028 "src/retrolix/retrolixPrettyPrinter.ml" 124 3024 3031
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 124 3024 3035 "src/retrolix/retrolixPrettyPrinter.ml" 124 3024 3040
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 125 3041 3045 "src/retrolix/retrolixPrettyPrinter.ml" 125 3041 3048
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 125 3041 3052 "src/retrolix/retrolixPrettyPrinter.ml" 125 3041 3057
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 126 3058 3062 "src/retrolix/retrolixPrettyPrinter.ml" 126 3058 3064
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 126 3058 3068 "src/retrolix/retrolixPrettyPrinter.ml" 126 3058 3072
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 127 3073 3077 "src/retrolix/retrolixPrettyPrinter.ml" 127 3073 3088
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 127 3073 3092 "src/retrolix/retrolixPrettyPrinter.ml" 127 3073 3106
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 128 3107 3111 "src/retrolix/retrolixPrettyPrinter.ml" 128 3107 3119
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 128 3107 3123 "src/retrolix/retrolixPrettyPrinter.ml" 128 3107 3134
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 129 3135 3139 "src/retrolix/retrolixPrettyPrinter.ml" 129 3135 3147
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 129 3135 3151 "src/retrolix/retrolixPrettyPrinter.ml" 129 3135 3162
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3172 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3173
+type(
+  RetrolixAST.condition
+)
+ident(
+  def c "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3177 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3188
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3167 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3173
+type(
+  RetrolixAST.op
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3177 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3186
+type(
+  RetrolixAST.condition -> string
+)
+ident(
+  int_ref condition "src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3194 "src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3203
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3187 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3188
+type(
+  RetrolixAST.condition
+)
+ident(
+  int_ref c "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3172 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3173
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3177 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3188
+call(
+  tail
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 119 2936 2945 "src/retrolix/retrolixPrettyPrinter.ml" 130 3163 3188
+type(
+  RetrolixAST.op -> string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3194 "src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3203
+type(
+  RetrolixAST.condition -> string
+)
+ident(
+  def condition "src/retrolix/retrolixPrettyPrinter.ml" 19 358 358 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 133 3215 3219 "src/retrolix/retrolixPrettyPrinter.ml" 133 3215 3221
+type(
+  RetrolixAST.condition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 133 3215 3225 "src/retrolix/retrolixPrettyPrinter.ml" 133 3215 3229
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 134 3230 3234 "src/retrolix/retrolixPrettyPrinter.ml" 134 3230 3236
+type(
+  RetrolixAST.condition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 134 3230 3240 "src/retrolix/retrolixPrettyPrinter.ml" 134 3230 3244
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 135 3245 3249 "src/retrolix/retrolixPrettyPrinter.ml" 135 3245 3252
+type(
+  RetrolixAST.condition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 135 3245 3256 "src/retrolix/retrolixPrettyPrinter.ml" 135 3245 3261
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 136 3262 3266 "src/retrolix/retrolixPrettyPrinter.ml" 136 3262 3269
+type(
+  RetrolixAST.condition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 136 3262 3273 "src/retrolix/retrolixPrettyPrinter.ml" 136 3262 3278
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 137 3279 3283 "src/retrolix/retrolixPrettyPrinter.ml" 137 3279 3285
+type(
+  RetrolixAST.condition
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 137 3279 3289 "src/retrolix/retrolixPrettyPrinter.ml" 137 3279 3293
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 132 3190 3206 "src/retrolix/retrolixPrettyPrinter.ml" 137 3279 3293
+type(
+  RetrolixAST.condition -> string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3299 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3310
+type(
+  RetrolixAST.instruction -> PPrintEngine.document
+)
+ident(
+  def instruction "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3338 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3311 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3312
+type(
+  RetrolixAST.instruction
+)
+ident(
+  def i "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3315 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3336
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3315 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3320
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3322 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3333
+type(
+  RetrolixAST.instruction -> PPrintEngine.document
+)
+ident(
+  int_ref instruction "src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1376 "src/retrolix/retrolixPrettyPrinter.ml" 59 1372 1387
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3334 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3335
+type(
+  RetrolixAST.instruction
+)
+ident(
+  int_ref i "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3311 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3312
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3321 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3336
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3315 "src/retrolix/retrolixPrettyPrinter.ml" 139 3295 3336
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3342 "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3351
+type(
+  ('a -> PPrintEngine.ToBuffer.document) -> 'a -> string
+)
+ident(
+  def to_string "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441 "src/retrolix/retrolixPrettyPrinter.ml" 1 0 -1
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3352 "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3353
+type(
+  'a -> PPrintEngine.ToBuffer.document
+)
+ident(
+  def f "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3354 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3354 "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3355
+type(
+  'a
+)
+ident(
+  def x "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3360 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3364 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3365
+type(
+  Buffer.t
+)
+ident(
+  def b "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3390 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3368 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3381
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3382 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3384
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3368 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3384
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3390 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3405
+type(
+  float ->
+  int ->
+  PPrintEngine.ToBuffer.channel -> PPrintEngine.ToBuffer.document -> unit
+)
+ident(
+  ext_ref PPrintEngine.ToBuffer.pretty
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3406 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3409
+type(
+  float
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3410 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3412
+type(
+  int
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3413 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3414
+type(
+  PPrintEngine.ToBuffer.channel
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3364 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3365
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3416 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3417
+type(
+  'a -> PPrintEngine.ToBuffer.document
+)
+ident(
+  int_ref f "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3352 "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3353
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3418 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3419
+type(
+  'a
+)
+ident(
+  int_ref x "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3354 "src/retrolix/retrolixPrettyPrinter.ml" 141 3338 3355
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3415 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3420
+call(
+  stack
+)
+type(
+  PPrintEngine.ToBuffer.document
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3390 "src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3420
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3424 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3439
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3440 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3364 "src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3365
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3424 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+call(
+  tail
+)
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 143 3388 3390 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+type(
+  string
+)
+"src/retrolix/retrolixPrettyPrinter.ml" 142 3358 3360 "src/retrolix/retrolixPrettyPrinter.ml" 144 3422 3441
+type(
+  string
+)

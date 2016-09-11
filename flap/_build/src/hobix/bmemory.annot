@@ -1,0 +1,592 @@
+"src/hobix/bmemory.ml" 3 32 81 "src/hobix/bmemory.ml" 3 32 88
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/hobix/bmemory.ml" 3 32 98 "src/hobix/bmemory.ml" 3 32 102
+)
+"src/hobix/bmemory.ml" 3 32 91 "src/hobix/bmemory.ml" 3 32 98
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/hobix/bmemory.ml" 3 32 43 "src/hobix/bmemory.ml" 3 32 103
+call(
+  stack
+)
+"src/hobix/bmemory.ml" 7 131 135 "src/hobix/bmemory.ml" 7 131 140
+type(
+  unit -> 'a M.t
+)
+ident(
+  def fresh "src/hobix/bmemory.ml" 10 157 157 "src/hobix/bmemory.ml" 1 0 -1
+)
+"src/hobix/bmemory.ml" 7 131 141 "src/hobix/bmemory.ml" 7 131 143
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 8 146 148 "src/hobix/bmemory.ml" 8 146 155
+type(
+  'a M.t
+)
+ident(
+  ext_ref M.empty
+)
+"src/hobix/bmemory.ml" 10 157 161 "src/hobix/bmemory.ml" 10 157 171
+type(
+  'a M.t -> M.key -> 'a
+)
+ident(
+  def read_block "src/hobix/bmemory.ml" 13 192 192 "src/hobix/bmemory.ml" 1 0 -1
+)
+"src/hobix/bmemory.ml" 10 157 172 "src/hobix/bmemory.ml" 10 157 173
+type(
+  'a M.t
+)
+ident(
+  def m "src/hobix/bmemory.ml" 10 157 174 "src/hobix/bmemory.ml" 11 178 190
+)
+"src/hobix/bmemory.ml" 10 157 174 "src/hobix/bmemory.ml" 10 157 175
+type(
+  M.key
+)
+ident(
+  def a "src/hobix/bmemory.ml" 11 178 180 "src/hobix/bmemory.ml" 11 178 190
+)
+"src/hobix/bmemory.ml" 11 178 180 "src/hobix/bmemory.ml" 11 178 186
+type(
+  M.key -> 'a M.t -> 'a
+)
+ident(
+  ext_ref M.find
+)
+"src/hobix/bmemory.ml" 11 178 187 "src/hobix/bmemory.ml" 11 178 188
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 10 157 174 "src/hobix/bmemory.ml" 10 157 175
+)
+"src/hobix/bmemory.ml" 11 178 189 "src/hobix/bmemory.ml" 11 178 190
+type(
+  'a M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 10 157 172 "src/hobix/bmemory.ml" 10 157 173
+)
+"src/hobix/bmemory.ml" 11 178 180 "src/hobix/bmemory.ml" 11 178 190
+call(
+  tail
+)
+type(
+  'a
+)
+"src/hobix/bmemory.ml" 13 192 196 "src/hobix/bmemory.ml" 13 192 200
+type(
+  'a array M.t -> M.key -> int32 -> 'a
+)
+ident(
+  def read "src/hobix/bmemory.ml" 16 242 242 "src/hobix/bmemory.ml" 1 0 -1
+)
+"src/hobix/bmemory.ml" 13 192 201 "src/hobix/bmemory.ml" 13 192 202
+type(
+  'a array M.t
+)
+ident(
+  def m "src/hobix/bmemory.ml" 13 192 203 "src/hobix/bmemory.ml" 14 209 240
+)
+"src/hobix/bmemory.ml" 13 192 203 "src/hobix/bmemory.ml" 13 192 204
+type(
+  M.key
+)
+ident(
+  def a "src/hobix/bmemory.ml" 13 192 205 "src/hobix/bmemory.ml" 14 209 240
+)
+"src/hobix/bmemory.ml" 13 192 205 "src/hobix/bmemory.ml" 13 192 206
+type(
+  int32
+)
+ident(
+  def i "src/hobix/bmemory.ml" 14 209 211 "src/hobix/bmemory.ml" 14 209 240
+)
+"src/hobix/bmemory.ml" 14 209 212 "src/hobix/bmemory.ml" 14 209 218
+type(
+  M.key -> 'a array M.t -> 'a array
+)
+ident(
+  ext_ref M.find
+)
+"src/hobix/bmemory.ml" 14 209 219 "src/hobix/bmemory.ml" 14 209 220
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 13 192 203 "src/hobix/bmemory.ml" 13 192 204
+)
+"src/hobix/bmemory.ml" 14 209 221 "src/hobix/bmemory.ml" 14 209 222
+type(
+  'a array M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 13 192 201 "src/hobix/bmemory.ml" 13 192 202
+)
+"src/hobix/bmemory.ml" 14 209 211 "src/hobix/bmemory.ml" 14 209 223
+call(
+  stack
+)
+type(
+  'a array
+)
+"src/hobix/bmemory.ml" 14 209 225 "src/hobix/bmemory.ml" 14 209 237
+type(
+  int32 -> int
+)
+ident(
+  ext_ref Int32.to_int
+)
+"src/hobix/bmemory.ml" 14 209 238 "src/hobix/bmemory.ml" 14 209 239
+type(
+  int32
+)
+ident(
+  int_ref i "src/hobix/bmemory.ml" 13 192 205 "src/hobix/bmemory.ml" 13 192 206
+)
+"src/hobix/bmemory.ml" 14 209 225 "src/hobix/bmemory.ml" 14 209 239
+type(
+  int
+)
+"src/hobix/bmemory.ml" 14 209 211 "src/hobix/bmemory.ml" 14 209 240
+type(
+  'a
+)
+"src/hobix/bmemory.ml" 16 242 246 "src/hobix/bmemory.ml" 16 242 251
+type(
+  'a array M.t -> M.key -> int32 -> 'a -> 'a array M.t
+)
+ident(
+  def write "src/hobix/bmemory.ml" 22 357 357 "src/hobix/bmemory.ml" 1 0 -1
+)
+"src/hobix/bmemory.ml" 16 242 252 "src/hobix/bmemory.ml" 16 242 253
+type(
+  'a array M.t
+)
+ident(
+  def m "src/hobix/bmemory.ml" 16 242 254 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 16 242 254 "src/hobix/bmemory.ml" 16 242 255
+type(
+  M.key
+)
+ident(
+  def a "src/hobix/bmemory.ml" 16 242 256 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 16 242 256 "src/hobix/bmemory.ml" 16 242 257
+type(
+  int32
+)
+ident(
+  def i "src/hobix/bmemory.ml" 16 242 258 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 16 242 258 "src/hobix/bmemory.ml" 16 242 259
+type(
+  'a
+)
+ident(
+  def v "src/hobix/bmemory.ml" 17 262 264 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 17 262 268 "src/hobix/bmemory.ml" 17 262 269
+type(
+  'a array
+)
+ident(
+  def b "src/hobix/bmemory.ml" 18 286 288 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 17 262 272 "src/hobix/bmemory.ml" 17 262 278
+type(
+  M.key -> 'a array M.t -> 'a array
+)
+ident(
+  ext_ref M.find
+)
+"src/hobix/bmemory.ml" 17 262 279 "src/hobix/bmemory.ml" 17 262 280
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 16 242 254 "src/hobix/bmemory.ml" 16 242 255
+)
+"src/hobix/bmemory.ml" 17 262 281 "src/hobix/bmemory.ml" 17 262 282
+type(
+  'a array M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 16 242 252 "src/hobix/bmemory.ml" 16 242 253
+)
+"src/hobix/bmemory.ml" 17 262 272 "src/hobix/bmemory.ml" 17 262 282
+call(
+  stack
+)
+type(
+  'a array
+)
+"src/hobix/bmemory.ml" 18 286 292 "src/hobix/bmemory.ml" 18 286 294
+type(
+  'a array
+)
+ident(
+  def b' "src/hobix/bmemory.ml" 19 313 315 "src/hobix/bmemory.ml" 20 341 355
+)
+"src/hobix/bmemory.ml" 18 286 297 "src/hobix/bmemory.ml" 18 286 307
+type(
+  'a array -> 'a array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/hobix/bmemory.ml" 18 286 308 "src/hobix/bmemory.ml" 18 286 309
+type(
+  'a array
+)
+ident(
+  int_ref b "src/hobix/bmemory.ml" 17 262 268 "src/hobix/bmemory.ml" 17 262 269
+)
+"src/hobix/bmemory.ml" 18 286 297 "src/hobix/bmemory.ml" 18 286 309
+call(
+  stack
+)
+type(
+  'a array
+)
+"src/hobix/bmemory.ml" 19 313 315 "src/hobix/bmemory.ml" 19 313 317
+type(
+  'a array
+)
+ident(
+  int_ref b' "src/hobix/bmemory.ml" 18 286 292 "src/hobix/bmemory.ml" 18 286 294
+)
+"src/hobix/bmemory.ml" 19 313 319 "src/hobix/bmemory.ml" 19 313 331
+type(
+  int32 -> int
+)
+ident(
+  ext_ref Int32.to_int
+)
+"src/hobix/bmemory.ml" 19 313 332 "src/hobix/bmemory.ml" 19 313 333
+type(
+  int32
+)
+ident(
+  int_ref i "src/hobix/bmemory.ml" 16 242 256 "src/hobix/bmemory.ml" 16 242 257
+)
+"src/hobix/bmemory.ml" 19 313 319 "src/hobix/bmemory.ml" 19 313 333
+type(
+  int
+)
+"src/hobix/bmemory.ml" 19 313 338 "src/hobix/bmemory.ml" 19 313 339
+type(
+  'a
+)
+ident(
+  int_ref v "src/hobix/bmemory.ml" 16 242 258 "src/hobix/bmemory.ml" 16 242 259
+)
+"src/hobix/bmemory.ml" 19 313 315 "src/hobix/bmemory.ml" 19 313 339
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 20 341 343 "src/hobix/bmemory.ml" 20 341 348
+type(
+  M.key -> 'a array -> 'a array M.t -> 'a array M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/hobix/bmemory.ml" 20 341 349 "src/hobix/bmemory.ml" 20 341 350
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 16 242 254 "src/hobix/bmemory.ml" 16 242 255
+)
+"src/hobix/bmemory.ml" 20 341 351 "src/hobix/bmemory.ml" 20 341 353
+type(
+  'a array
+)
+ident(
+  int_ref b' "src/hobix/bmemory.ml" 18 286 292 "src/hobix/bmemory.ml" 18 286 294
+)
+"src/hobix/bmemory.ml" 20 341 354 "src/hobix/bmemory.ml" 20 341 355
+type(
+  'a array M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 16 242 252 "src/hobix/bmemory.ml" 16 242 253
+)
+"src/hobix/bmemory.ml" 20 341 343 "src/hobix/bmemory.ml" 20 341 355
+call(
+  tail
+)
+type(
+  'a array M.t
+)
+"src/hobix/bmemory.ml" 19 313 315 "src/hobix/bmemory.ml" 20 341 355
+type(
+  'a array M.t
+)
+"src/hobix/bmemory.ml" 18 286 288 "src/hobix/bmemory.ml" 20 341 355
+type(
+  'a array M.t
+)
+"src/hobix/bmemory.ml" 17 262 264 "src/hobix/bmemory.ml" 20 341 355
+type(
+  'a array M.t
+)
+"src/hobix/bmemory.ml" 22 357 361 "src/hobix/bmemory.ml" 22 357 369
+type(
+  'a array M.t -> int32 -> 'a -> address * 'a array M.t
+)
+ident(
+  def allocate "src/hobix/bmemory.ml" 31 564 572 "src/hobix/bmemory.ml" 1 0 -1
+)
+"src/hobix/bmemory.ml" 22 357 370 "src/hobix/bmemory.ml" 22 357 371
+type(
+  'a array M.t
+)
+ident(
+  def m "src/hobix/bmemory.ml" 22 357 372 "src/hobix/bmemory.ml" 31 564 572
+)
+"src/hobix/bmemory.ml" 22 357 372 "src/hobix/bmemory.ml" 22 357 373
+type(
+  int32
+)
+ident(
+  def n "src/hobix/bmemory.ml" 22 357 374 "src/hobix/bmemory.ml" 31 564 572
+)
+"src/hobix/bmemory.ml" 22 357 374 "src/hobix/bmemory.ml" 22 357 375
+type(
+  'a
+)
+ident(
+  def d "src/hobix/bmemory.ml" 23 378 380 "src/hobix/bmemory.ml" 31 564 572
+)
+"src/hobix/bmemory.ml" 23 378 384 "src/hobix/bmemory.ml" 23 378 385
+type(
+  int
+)
+ident(
+  def n "src/hobix/bmemory.ml" 24 406 408 "src/hobix/bmemory.ml" 31 564 572
+)
+"src/hobix/bmemory.ml" 23 378 388 "src/hobix/bmemory.ml" 23 378 400
+type(
+  int32 -> int
+)
+ident(
+  ext_ref Int32.to_int
+)
+"src/hobix/bmemory.ml" 23 378 401 "src/hobix/bmemory.ml" 23 378 402
+type(
+  int32
+)
+ident(
+  int_ref n "src/hobix/bmemory.ml" 22 357 372 "src/hobix/bmemory.ml" 22 357 373
+)
+"src/hobix/bmemory.ml" 23 378 388 "src/hobix/bmemory.ml" 23 378 402
+type(
+  int
+)
+"src/hobix/bmemory.ml" 24 406 416 "src/hobix/bmemory.ml" 24 406 419
+type(
+  unit -> address * 'a array M.t
+)
+ident(
+  def gen "src/hobix/bmemory.ml" 24 406 408 "src/hobix/bmemory.ml" 31 564 572
+)
+"src/hobix/bmemory.ml" 24 406 420 "src/hobix/bmemory.ml" 24 406 422
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 25 425 433 "src/hobix/bmemory.ml" 25 425 434
+type(
+  address
+)
+ident(
+  def a "src/hobix/bmemory.ml" 26 477 481 "src/hobix/bmemory.ml" 29 521 558
+)
+"src/hobix/bmemory.ml" 25 425 443 "src/hobix/bmemory.ml" 25 425 455
+type(
+  int -> Int32.t
+)
+ident(
+  ext_ref Int32.of_int
+)
+"src/hobix/bmemory.ml" 25 425 457 "src/hobix/bmemory.ml" 25 425 468
+type(
+  unit -> int
+)
+ident(
+  ext_ref Random.bits
+)
+"src/hobix/bmemory.ml" 25 425 469 "src/hobix/bmemory.ml" 25 425 471
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 25 425 456 "src/hobix/bmemory.ml" 25 425 472
+call(
+  stack
+)
+type(
+  int
+)
+"src/hobix/bmemory.ml" 25 425 442 "src/hobix/bmemory.ml" 25 425 473
+type(
+  Int32.t
+)
+"src/hobix/bmemory.ml" 25 425 437 "src/hobix/bmemory.ml" 25 425 473
+type(
+  address
+)
+"src/hobix/bmemory.ml" 26 477 484 "src/hobix/bmemory.ml" 26 477 489
+type(
+  M.key -> 'a array M.t -> bool
+)
+ident(
+  ext_ref M.mem
+)
+"src/hobix/bmemory.ml" 26 477 490 "src/hobix/bmemory.ml" 26 477 491
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 25 425 433 "src/hobix/bmemory.ml" 25 425 434
+)
+"src/hobix/bmemory.ml" 26 477 492 "src/hobix/bmemory.ml" 26 477 493
+type(
+  'a array M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 22 357 370 "src/hobix/bmemory.ml" 22 357 371
+)
+"src/hobix/bmemory.ml" 26 477 484 "src/hobix/bmemory.ml" 26 477 493
+call(
+  stack
+)
+type(
+  bool
+)
+"src/hobix/bmemory.ml" 27 499 505 "src/hobix/bmemory.ml" 27 499 508
+type(
+  unit -> address * 'a array M.t
+)
+ident(
+  int_ref gen "src/hobix/bmemory.ml" 24 406 416 "src/hobix/bmemory.ml" 24 406 419
+)
+"src/hobix/bmemory.ml" 27 499 509 "src/hobix/bmemory.ml" 27 499 511
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 27 499 505 "src/hobix/bmemory.ml" 27 499 511
+call(
+  tail
+)
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 29 521 528 "src/hobix/bmemory.ml" 29 521 529
+type(
+  address
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 25 425 433 "src/hobix/bmemory.ml" 25 425 434
+)
+"src/hobix/bmemory.ml" 29 521 531 "src/hobix/bmemory.ml" 29 521 536
+type(
+  M.key -> 'a array -> 'a array M.t -> 'a array M.t
+)
+ident(
+  ext_ref M.add
+)
+"src/hobix/bmemory.ml" 29 521 537 "src/hobix/bmemory.ml" 29 521 538
+type(
+  M.key
+)
+ident(
+  int_ref a "src/hobix/bmemory.ml" 25 425 433 "src/hobix/bmemory.ml" 25 425 434
+)
+"src/hobix/bmemory.ml" 29 521 540 "src/hobix/bmemory.ml" 29 521 550
+type(
+  int -> 'a -> 'a array
+)
+ident(
+  ext_ref Array.make
+)
+"src/hobix/bmemory.ml" 29 521 551 "src/hobix/bmemory.ml" 29 521 552
+type(
+  int
+)
+ident(
+  int_ref n "src/hobix/bmemory.ml" 23 378 384 "src/hobix/bmemory.ml" 23 378 385
+)
+"src/hobix/bmemory.ml" 29 521 553 "src/hobix/bmemory.ml" 29 521 554
+type(
+  'a
+)
+ident(
+  int_ref d "src/hobix/bmemory.ml" 22 357 374 "src/hobix/bmemory.ml" 22 357 375
+)
+"src/hobix/bmemory.ml" 29 521 539 "src/hobix/bmemory.ml" 29 521 555
+type(
+  'a array
+)
+"src/hobix/bmemory.ml" 29 521 556 "src/hobix/bmemory.ml" 29 521 557
+type(
+  'a array M.t
+)
+ident(
+  int_ref m "src/hobix/bmemory.ml" 22 357 370 "src/hobix/bmemory.ml" 22 357 371
+)
+"src/hobix/bmemory.ml" 29 521 531 "src/hobix/bmemory.ml" 29 521 557
+call(
+  stack
+)
+type(
+  'a array M.t
+)
+"src/hobix/bmemory.ml" 29 521 527 "src/hobix/bmemory.ml" 29 521 558
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 26 477 481 "src/hobix/bmemory.ml" 29 521 558
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 25 425 429 "src/hobix/bmemory.ml" 29 521 558
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 31 564 566 "src/hobix/bmemory.ml" 31 564 569
+type(
+  unit -> address * 'a array M.t
+)
+ident(
+  int_ref gen "src/hobix/bmemory.ml" 24 406 416 "src/hobix/bmemory.ml" 24 406 419
+)
+"src/hobix/bmemory.ml" 31 564 570 "src/hobix/bmemory.ml" 31 564 572
+type(
+  unit
+)
+"src/hobix/bmemory.ml" 31 564 566 "src/hobix/bmemory.ml" 31 564 572
+call(
+  tail
+)
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 24 406 408 "src/hobix/bmemory.ml" 31 564 572
+type(
+  address * 'a array M.t
+)
+"src/hobix/bmemory.ml" 23 378 380 "src/hobix/bmemory.ml" 31 564 572
+type(
+  address * 'a array M.t
+)

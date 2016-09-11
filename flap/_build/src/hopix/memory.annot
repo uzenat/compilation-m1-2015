@@ -1,0 +1,704 @@
+"src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+type(
+  int ref
+)
+ident(
+  def addr "src/hopix/memory.ml" 6 94 94 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 4 69 80 "src/hopix/memory.ml" 4 69 83
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/hopix/memory.ml" 4 69 84 "src/hopix/memory.ml" 4 69 85
+type(
+  int
+)
+"src/hopix/memory.ml" 4 69 80 "src/hopix/memory.ml" 4 69 85
+type(
+  int ref
+)
+"src/hopix/memory.ml" 6 94 98 "src/hopix/memory.ml" 6 94 103
+type(
+  unit -> 'a list array ref
+)
+ident(
+  def fresh "src/hopix/memory.ml" 8 151 151 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 6 94 104 "src/hopix/memory.ml" 6 94 106
+type(
+  unit
+)
+"src/hopix/memory.ml" 6 94 109 "src/hopix/memory.ml" 6 94 113
+type(
+  int ref
+)
+ident(
+  int_ref addr "src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+)
+"src/hopix/memory.ml" 6 94 114 "src/hopix/memory.ml" 6 94 116
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/hopix/memory.ml" 6 94 117 "src/hopix/memory.ml" 6 94 118
+type(
+  int
+)
+"src/hopix/memory.ml" 6 94 109 "src/hopix/memory.ml" 6 94 118
+type(
+  unit
+)
+"src/hopix/memory.ml" 6 94 121 "src/hopix/memory.ml" 6 94 124
+type(
+  'a list array -> 'a list array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/hopix/memory.ml" 6 94 126 "src/hopix/memory.ml" 6 94 136
+type(
+  int -> 'a list -> 'a list array
+)
+ident(
+  ext_ref Array.make
+)
+"src/hopix/memory.ml" 6 94 137 "src/hopix/memory.ml" 6 94 140
+type(
+  int
+)
+"src/hopix/memory.ml" 6 94 141 "src/hopix/memory.ml" 6 94 143
+type(
+  'a list
+)
+"src/hopix/memory.ml" 6 94 125 "src/hopix/memory.ml" 6 94 144
+type(
+  'a list array
+)
+"src/hopix/memory.ml" 6 94 121 "src/hopix/memory.ml" 6 94 144
+type(
+  'a list array ref
+)
+"src/hopix/memory.ml" 6 94 109 "src/hopix/memory.ml" 6 94 144
+type(
+  'a list array ref
+)
+"src/hopix/memory.ml" 8 151 155 "src/hopix/memory.ml" 8 151 159
+type(
+  ('a * 'b) list array ref -> int -> 'a -> 'b
+)
+ident(
+  def read "src/hopix/memory.ml" 11 193 193 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 8 151 160 "src/hopix/memory.ml" 8 151 161
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  def m "src/hopix/memory.ml" 8 151 162 "src/hopix/memory.ml" 9 168 189
+)
+"src/hopix/memory.ml" 8 151 162 "src/hopix/memory.ml" 8 151 163
+type(
+  int
+)
+ident(
+  def a "src/hopix/memory.ml" 8 151 164 "src/hopix/memory.ml" 9 168 189
+)
+"src/hopix/memory.ml" 8 151 164 "src/hopix/memory.ml" 8 151 165
+type(
+  'a
+)
+ident(
+  def l "src/hopix/memory.ml" 9 168 170 "src/hopix/memory.ml" 9 168 189
+)
+"src/hopix/memory.ml" 9 168 170 "src/hopix/memory.ml" 9 168 180
+type(
+  'a -> ('a * 'b) list -> 'b
+)
+ident(
+  ext_ref List.assoc
+)
+"src/hopix/memory.ml" 9 168 181 "src/hopix/memory.ml" 9 168 182
+type(
+  'a
+)
+ident(
+  int_ref l "src/hopix/memory.ml" 8 151 164 "src/hopix/memory.ml" 8 151 165
+)
+"src/hopix/memory.ml" 9 168 183 "src/hopix/memory.ml" 9 168 184
+type(
+  ('a * 'b) list array ref -> ('a * 'b) list array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 9 168 184 "src/hopix/memory.ml" 9 168 185
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 8 151 160 "src/hopix/memory.ml" 8 151 161
+)
+"src/hopix/memory.ml" 9 168 183 "src/hopix/memory.ml" 9 168 185
+type(
+  ('a * 'b) list array
+)
+"src/hopix/memory.ml" 9 168 187 "src/hopix/memory.ml" 9 168 188
+type(
+  int
+)
+ident(
+  int_ref a "src/hopix/memory.ml" 8 151 162 "src/hopix/memory.ml" 8 151 163
+)
+"src/hopix/memory.ml" 9 168 183 "src/hopix/memory.ml" 9 168 189
+type(
+  ('a * 'b) list
+)
+"src/hopix/memory.ml" 9 168 170 "src/hopix/memory.ml" 9 168 189
+call(
+  tail
+)
+type(
+  'b
+)
+"src/hopix/memory.ml" 11 193 197 "src/hopix/memory.ml" 11 193 207
+type(
+  'a array ref -> int -> 'a
+)
+ident(
+  def read_block "src/hopix/memory.ml" 13 222 222 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 11 193 208 "src/hopix/memory.ml" 11 193 209
+type(
+  'a array ref
+)
+ident(
+  def m "src/hopix/memory.ml" 11 193 210 "src/hopix/memory.ml" 11 193 220
+)
+"src/hopix/memory.ml" 11 193 210 "src/hopix/memory.ml" 11 193 211
+type(
+  int
+)
+ident(
+  def a "src/hopix/memory.ml" 11 193 214 "src/hopix/memory.ml" 11 193 220
+)
+"src/hopix/memory.ml" 11 193 214 "src/hopix/memory.ml" 11 193 215
+type(
+  'a array ref -> 'a array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 11 193 215 "src/hopix/memory.ml" 11 193 216
+type(
+  'a array ref
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 11 193 208 "src/hopix/memory.ml" 11 193 209
+)
+"src/hopix/memory.ml" 11 193 214 "src/hopix/memory.ml" 11 193 216
+type(
+  'a array
+)
+"src/hopix/memory.ml" 11 193 218 "src/hopix/memory.ml" 11 193 219
+type(
+  int
+)
+ident(
+  int_ref a "src/hopix/memory.ml" 11 193 210 "src/hopix/memory.ml" 11 193 211
+)
+"src/hopix/memory.ml" 11 193 214 "src/hopix/memory.ml" 11 193 220
+type(
+  'a
+)
+"src/hopix/memory.ml" 13 222 226 "src/hopix/memory.ml" 13 222 231
+type(
+  ('a * 'b) list array ref -> int -> 'a -> 'b -> ('a * 'b) list array ref
+)
+ident(
+  def write "src/hopix/memory.ml" 26 438 438 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 13 222 232 "src/hopix/memory.ml" 13 222 233
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  def m "src/hopix/memory.ml" 13 222 234 "src/hopix/memory.ml" 23 388 419
+)
+"src/hopix/memory.ml" 13 222 234 "src/hopix/memory.ml" 13 222 235
+type(
+  int
+)
+ident(
+  def a "src/hopix/memory.ml" 13 222 236 "src/hopix/memory.ml" 23 388 419
+)
+"src/hopix/memory.ml" 13 222 236 "src/hopix/memory.ml" 13 222 237
+type(
+  'a
+)
+ident(
+  def l "src/hopix/memory.ml" 13 222 238 "src/hopix/memory.ml" 23 388 419
+)
+"src/hopix/memory.ml" 13 222 238 "src/hopix/memory.ml" 13 222 239
+type(
+  'b
+)
+ident(
+  def v "src/hopix/memory.ml" 15 243 245 "src/hopix/memory.ml" 23 388 419
+)
+"src/hopix/memory.ml" 15 243 253 "src/hopix/memory.ml" 15 243 256
+type(
+  'c -> 'd -> ('c * 'd) list -> ('c * 'd) list
+)
+ident(
+  def aux "src/hopix/memory.ml" 15 243 245 "src/hopix/memory.ml" 23 388 419
+)
+"src/hopix/memory.ml" 15 243 257 "src/hopix/memory.ml" 15 243 258
+type(
+  'c
+)
+ident(
+  def l "src/hopix/memory.ml" 15 243 259 "src/hopix/memory.ml" 20 359 381
+)
+"src/hopix/memory.ml" 15 243 259 "src/hopix/memory.ml" 15 243 260
+type(
+  'd
+)
+ident(
+  def v "src/hopix/memory.ml" 15 243 263 "src/hopix/memory.ml" 20 359 381
+)
+"src/hopix/memory.ml" 16 272 278 "src/hopix/memory.ml" 16 272 280
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 16 272 284 "src/hopix/memory.ml" 16 272 286
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 17 287 294 "src/hopix/memory.ml" 17 287 296
+type(
+  'c
+)
+ident(
+  def l' "src/hopix/memory.ml" 17 287 312 "src/hopix/memory.ml" 18 322 341
+)
+"src/hopix/memory.ml" 17 287 298 "src/hopix/memory.ml" 17 287 300
+type(
+  'd
+)
+ident(
+  def v' "src/hopix/memory.ml" 17 287 312 "src/hopix/memory.ml" 18 322 341
+)
+"src/hopix/memory.ml" 17 287 293 "src/hopix/memory.ml" 17 287 301
+type(
+  'c * 'd
+)
+"src/hopix/memory.ml" 17 287 304 "src/hopix/memory.ml" 17 287 306
+type(
+  ('c * 'd) list
+)
+ident(
+  def tl "src/hopix/memory.ml" 17 287 312 "src/hopix/memory.ml" 18 322 341
+)
+"src/hopix/memory.ml" 17 287 293 "src/hopix/memory.ml" 17 287 306
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 17 287 312 "src/hopix/memory.ml" 17 287 313
+type(
+  'c
+)
+ident(
+  int_ref l "src/hopix/memory.ml" 15 243 257 "src/hopix/memory.ml" 15 243 258
+)
+"src/hopix/memory.ml" 17 287 314 "src/hopix/memory.ml" 17 287 315
+type(
+  'c -> 'c -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/hopix/memory.ml" 17 287 316 "src/hopix/memory.ml" 17 287 318
+type(
+  'c
+)
+ident(
+  int_ref l' "src/hopix/memory.ml" 17 287 294 "src/hopix/memory.ml" 17 287 296
+)
+"src/hopix/memory.ml" 17 287 312 "src/hopix/memory.ml" 17 287 318
+type(
+  bool
+)
+"src/hopix/memory.ml" 18 322 330 "src/hopix/memory.ml" 18 322 331
+type(
+  'c
+)
+ident(
+  int_ref l "src/hopix/memory.ml" 15 243 257 "src/hopix/memory.ml" 15 243 258
+)
+"src/hopix/memory.ml" 18 322 333 "src/hopix/memory.ml" 18 322 334
+type(
+  'd
+)
+ident(
+  int_ref v "src/hopix/memory.ml" 15 243 259 "src/hopix/memory.ml" 15 243 260
+)
+"src/hopix/memory.ml" 18 322 329 "src/hopix/memory.ml" 18 322 335
+type(
+  'c * 'd
+)
+"src/hopix/memory.ml" 18 322 339 "src/hopix/memory.ml" 18 322 341
+type(
+  ('c * 'd) list
+)
+ident(
+  int_ref tl "src/hopix/memory.ml" 17 287 304 "src/hopix/memory.ml" 17 287 306
+)
+"src/hopix/memory.ml" 18 322 329 "src/hopix/memory.ml" 18 322 341
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 19 342 348 "src/hopix/memory.ml" 19 342 349
+type(
+  'c * 'd
+)
+ident(
+  def h "src/hopix/memory.ml" 20 359 366 "src/hopix/memory.ml" 20 359 381
+)
+"src/hopix/memory.ml" 19 342 353 "src/hopix/memory.ml" 19 342 355
+type(
+  ('c * 'd) list
+)
+ident(
+  def tl "src/hopix/memory.ml" 20 359 366 "src/hopix/memory.ml" 20 359 381
+)
+"src/hopix/memory.ml" 19 342 348 "src/hopix/memory.ml" 19 342 355
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 20 359 366 "src/hopix/memory.ml" 20 359 367
+type(
+  'c * 'd
+)
+ident(
+  int_ref h "src/hopix/memory.ml" 19 342 348 "src/hopix/memory.ml" 19 342 349
+)
+"src/hopix/memory.ml" 20 359 371 "src/hopix/memory.ml" 20 359 374
+type(
+  'c -> 'd -> ('c * 'd) list -> ('c * 'd) list
+)
+ident(
+  int_ref aux "src/hopix/memory.ml" 15 243 253 "src/hopix/memory.ml" 15 243 256
+)
+"src/hopix/memory.ml" 20 359 375 "src/hopix/memory.ml" 20 359 376
+type(
+  'c
+)
+ident(
+  int_ref l "src/hopix/memory.ml" 15 243 257 "src/hopix/memory.ml" 15 243 258
+)
+"src/hopix/memory.ml" 20 359 377 "src/hopix/memory.ml" 20 359 378
+type(
+  'd
+)
+ident(
+  int_ref v "src/hopix/memory.ml" 15 243 259 "src/hopix/memory.ml" 15 243 260
+)
+"src/hopix/memory.ml" 20 359 379 "src/hopix/memory.ml" 20 359 381
+type(
+  ('c * 'd) list
+)
+ident(
+  int_ref tl "src/hopix/memory.ml" 19 342 353 "src/hopix/memory.ml" 19 342 355
+)
+"src/hopix/memory.ml" 20 359 371 "src/hopix/memory.ml" 20 359 381
+call(
+  stack
+)
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 20 359 366 "src/hopix/memory.ml" 20 359 381
+type(
+  ('c * 'd) list
+)
+"src/hopix/memory.ml" 15 243 263 "src/hopix/memory.ml" 20 359 381
+type(
+  ('c * 'd) list -> ('c * 'd) list
+)
+"src/hopix/memory.ml" 23 388 390 "src/hopix/memory.ml" 23 388 391
+type(
+  ('a * 'b) list array ref -> ('a * 'b) list array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 23 388 391 "src/hopix/memory.ml" 23 388 392
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 13 222 232 "src/hopix/memory.ml" 13 222 233
+)
+"src/hopix/memory.ml" 23 388 390 "src/hopix/memory.ml" 23 388 392
+type(
+  ('a * 'b) list array
+)
+"src/hopix/memory.ml" 23 388 394 "src/hopix/memory.ml" 23 388 395
+type(
+  int
+)
+ident(
+  int_ref a "src/hopix/memory.ml" 13 222 234 "src/hopix/memory.ml" 13 222 235
+)
+"src/hopix/memory.ml" 23 388 400 "src/hopix/memory.ml" 23 388 403
+type(
+  'a -> 'b -> ('a * 'b) list -> ('a * 'b) list
+)
+ident(
+  int_ref aux "src/hopix/memory.ml" 15 243 253 "src/hopix/memory.ml" 15 243 256
+)
+"src/hopix/memory.ml" 23 388 404 "src/hopix/memory.ml" 23 388 405
+type(
+  'a
+)
+ident(
+  int_ref l "src/hopix/memory.ml" 13 222 236 "src/hopix/memory.ml" 13 222 237
+)
+"src/hopix/memory.ml" 23 388 406 "src/hopix/memory.ml" 23 388 407
+type(
+  'b
+)
+ident(
+  int_ref v "src/hopix/memory.ml" 13 222 238 "src/hopix/memory.ml" 13 222 239
+)
+"src/hopix/memory.ml" 23 388 409 "src/hopix/memory.ml" 23 388 410
+type(
+  ('a * 'b) list array ref -> ('a * 'b) list array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 23 388 410 "src/hopix/memory.ml" 23 388 411
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 13 222 232 "src/hopix/memory.ml" 13 222 233
+)
+"src/hopix/memory.ml" 23 388 409 "src/hopix/memory.ml" 23 388 411
+type(
+  ('a * 'b) list array
+)
+"src/hopix/memory.ml" 23 388 413 "src/hopix/memory.ml" 23 388 414
+type(
+  int
+)
+ident(
+  int_ref a "src/hopix/memory.ml" 13 222 234 "src/hopix/memory.ml" 13 222 235
+)
+"src/hopix/memory.ml" 23 388 408 "src/hopix/memory.ml" 23 388 416
+type(
+  ('a * 'b) list
+)
+"src/hopix/memory.ml" 23 388 400 "src/hopix/memory.ml" 23 388 416
+call(
+  stack
+)
+type(
+  ('a * 'b) list
+)
+"src/hopix/memory.ml" 23 388 390 "src/hopix/memory.ml" 23 388 416
+type(
+  unit
+)
+"src/hopix/memory.ml" 23 388 418 "src/hopix/memory.ml" 23 388 419
+type(
+  ('a * 'b) list array ref
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 13 222 232 "src/hopix/memory.ml" 13 222 233
+)
+"src/hopix/memory.ml" 23 388 390 "src/hopix/memory.ml" 23 388 419
+type(
+  ('a * 'b) list array ref
+)
+"src/hopix/memory.ml" 15 243 245 "src/hopix/memory.ml" 23 388 419
+type(
+  ('a * 'b) list array ref
+)
+"src/hopix/memory.ml" 26 438 442 "src/hopix/memory.ml" 26 438 450
+type(
+  'v t -> (HopixAST.label * 'v) list -> int * 'v t
+)
+ident(
+  def allocate "src/hopix/memory.ml" 29 537 552 "src/hopix/memory.ml" 1 0 -1
+)
+"src/hopix/memory.ml" 26 438 452 "src/hopix/memory.ml" 26 438 453
+type(
+  'v t
+)
+ident(
+  def m "src/hopix/memory.ml" 26 438 461 "src/hopix/memory.ml" 29 537 552
+)
+"src/hopix/memory.ml" 26 438 462 "src/hopix/memory.ml" 26 438 463
+type(
+  (HopixAST.label * 'v) list
+)
+ident(
+  def r "src/hopix/memory.ml" 27 496 498 "src/hopix/memory.ml" 29 537 552
+)
+"src/hopix/memory.ml" 27 496 498 "src/hopix/memory.ml" 27 496 499
+type(
+  'v t -> (HopixAST.label * 'v) list array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 27 496 499 "src/hopix/memory.ml" 27 496 500
+type(
+  'v t
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 26 438 452 "src/hopix/memory.ml" 26 438 453
+)
+"src/hopix/memory.ml" 27 496 498 "src/hopix/memory.ml" 27 496 500
+type(
+  (HopixAST.label * 'v) list array
+)
+"src/hopix/memory.ml" 27 496 502 "src/hopix/memory.ml" 27 496 503
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 27 496 503 "src/hopix/memory.ml" 27 496 507
+type(
+  int ref
+)
+ident(
+  int_ref addr "src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+)
+"src/hopix/memory.ml" 27 496 502 "src/hopix/memory.ml" 27 496 507
+type(
+  int
+)
+"src/hopix/memory.ml" 27 496 512 "src/hopix/memory.ml" 27 496 513
+type(
+  (HopixAST.label * 'v) list
+)
+ident(
+  int_ref r "src/hopix/memory.ml" 26 438 462 "src/hopix/memory.ml" 26 438 463
+)
+"src/hopix/memory.ml" 27 496 498 "src/hopix/memory.ml" 27 496 513
+type(
+  unit
+)
+"src/hopix/memory.ml" 28 516 518 "src/hopix/memory.ml" 28 516 522
+type(
+  int ref
+)
+ident(
+  int_ref addr "src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+)
+"src/hopix/memory.ml" 28 516 523 "src/hopix/memory.ml" 28 516 525
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/hopix/memory.ml" 28 516 526 "src/hopix/memory.ml" 28 516 527
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 28 516 527 "src/hopix/memory.ml" 28 516 531
+type(
+  int ref
+)
+ident(
+  int_ref addr "src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+)
+"src/hopix/memory.ml" 28 516 526 "src/hopix/memory.ml" 28 516 531
+type(
+  int
+)
+"src/hopix/memory.ml" 28 516 532 "src/hopix/memory.ml" 28 516 533
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/memory.ml" 28 516 534 "src/hopix/memory.ml" 28 516 535
+type(
+  int
+)
+"src/hopix/memory.ml" 28 516 526 "src/hopix/memory.ml" 28 516 535
+type(
+  int
+)
+"src/hopix/memory.ml" 28 516 518 "src/hopix/memory.ml" 28 516 535
+type(
+  unit
+)
+"src/hopix/memory.ml" 29 537 541 "src/hopix/memory.ml" 29 537 542
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/hopix/memory.ml" 29 537 542 "src/hopix/memory.ml" 29 537 546
+type(
+  int ref
+)
+ident(
+  int_ref addr "src/hopix/memory.ml" 4 69 73 "src/hopix/memory.ml" 4 69 77
+)
+"src/hopix/memory.ml" 29 537 540 "src/hopix/memory.ml" 29 537 547
+type(
+  int
+)
+"src/hopix/memory.ml" 29 537 547 "src/hopix/memory.ml" 29 537 548
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/hopix/memory.ml" 29 537 548 "src/hopix/memory.ml" 29 537 549
+type(
+  int
+)
+"src/hopix/memory.ml" 29 537 540 "src/hopix/memory.ml" 29 537 549
+type(
+  int
+)
+"src/hopix/memory.ml" 29 537 550 "src/hopix/memory.ml" 29 537 551
+type(
+  'v t
+)
+ident(
+  int_ref m "src/hopix/memory.ml" 26 438 452 "src/hopix/memory.ml" 26 438 453
+)
+"src/hopix/memory.ml" 29 537 539 "src/hopix/memory.ml" 29 537 552
+type(
+  int * 'v t
+)
+"src/hopix/memory.ml" 28 516 518 "src/hopix/memory.ml" 29 537 552
+type(
+  int * 'v t
+)
+"src/hopix/memory.ml" 27 496 498 "src/hopix/memory.ml" 29 537 552
+type(
+  int * 'v t
+)

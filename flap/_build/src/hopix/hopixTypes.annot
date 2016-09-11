@@ -1,0 +1,2293 @@
+"src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+type(
+  string -> HopixAST.ty
+)
+ident(
+  def constant "src/hopix/hopixTypes.ml" 8 96 98 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 6 57 72 "src/hopix/hopixTypes.ml" 6 57 73
+type(
+  string
+)
+ident(
+  def s "src/hopix/hopixTypes.ml" 6 57 76 "src/hopix/hopixTypes.ml" 6 57 94
+)
+"src/hopix/hopixTypes.ml" 6 57 88 "src/hopix/hopixTypes.ml" 6 57 89
+type(
+  string
+)
+ident(
+  int_ref s "src/hopix/hopixTypes.ml" 6 57 72 "src/hopix/hopixTypes.ml" 6 57 73
+)
+"src/hopix/hopixTypes.ml" 6 57 83 "src/hopix/hopixTypes.ml" 6 57 89
+type(
+  HopixAST.type_constructor
+)
+"src/hopix/hopixTypes.ml" 6 57 91 "src/hopix/hopixTypes.ml" 6 57 93
+type(
+  HopixAST.ty Position.located list
+)
+"src/hopix/hopixTypes.ml" 6 57 76 "src/hopix/hopixTypes.ml" 6 57 94
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+type(
+  HopixAST.ty
+)
+ident(
+  def int "src/hopix/hopixTypes.ml" 9 126 128 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 8 96 111 "src/hopix/hopixTypes.ml" 8 96 119
+type(
+  string -> HopixAST.ty
+)
+ident(
+  int_ref constant "src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+)
+"src/hopix/hopixTypes.ml" 8 96 120 "src/hopix/hopixTypes.ml" 8 96 125
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 8 96 111 "src/hopix/hopixTypes.ml" 8 96 125
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 9 126 132 "src/hopix/hopixTypes.ml" 9 126 138
+type(
+  HopixAST.ty
+)
+ident(
+  def string "src/hopix/hopixTypes.ml" 10 159 161 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 9 126 141 "src/hopix/hopixTypes.ml" 9 126 149
+type(
+  string -> HopixAST.ty
+)
+ident(
+  int_ref constant "src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+)
+"src/hopix/hopixTypes.ml" 9 126 150 "src/hopix/hopixTypes.ml" 9 126 158
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 9 126 141 "src/hopix/hopixTypes.ml" 9 126 158
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 10 159 165 "src/hopix/hopixTypes.ml" 10 159 169
+type(
+  HopixAST.ty
+)
+ident(
+  def char "src/hopix/hopixTypes.ml" 11 190 192 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 10 159 174 "src/hopix/hopixTypes.ml" 10 159 182
+type(
+  string -> HopixAST.ty
+)
+ident(
+  int_ref constant "src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+)
+"src/hopix/hopixTypes.ml" 10 159 183 "src/hopix/hopixTypes.ml" 10 159 189
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 10 159 174 "src/hopix/hopixTypes.ml" 10 159 189
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+type(
+  HopixAST.ty
+)
+ident(
+  def bool "src/hopix/hopixTypes.ml" 12 221 223 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 11 190 205 "src/hopix/hopixTypes.ml" 11 190 213
+type(
+  string -> HopixAST.ty
+)
+ident(
+  int_ref constant "src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+)
+"src/hopix/hopixTypes.ml" 11 190 214 "src/hopix/hopixTypes.ml" 11 190 220
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 11 190 205 "src/hopix/hopixTypes.ml" 11 190 220
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 12 221 227 "src/hopix/hopixTypes.ml" 12 221 231
+type(
+  HopixAST.ty
+)
+ident(
+  def unit "src/hopix/hopixTypes.ml" 14 253 255 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 12 221 236 "src/hopix/hopixTypes.ml" 12 221 244
+type(
+  string -> HopixAST.ty
+)
+ident(
+  int_ref constant "src/hopix/hopixTypes.ml" 6 57 63 "src/hopix/hopixTypes.ml" 6 57 71
+)
+"src/hopix/hopixTypes.ml" 12 221 245 "src/hopix/hopixTypes.ml" 12 221 251
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 12 221 236 "src/hopix/hopixTypes.ml" 12 221 251
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 14 253 259 "src/hopix/hopixTypes.ml" 14 253 264
+type(
+  HopixAST.ty Position.located -> HopixAST.ty Position.located -> HopixAST.ty
+)
+ident(
+  def arrow "src/hopix/hopixTypes.ml" 16 298 300 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 14 253 265 "src/hopix/hopixTypes.ml" 14 253 266
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  def i "src/hopix/hopixTypes.ml" 14 253 267 "src/hopix/hopixTypes.ml" 14 253 296
+)
+"src/hopix/hopixTypes.ml" 14 253 267 "src/hopix/hopixTypes.ml" 14 253 268
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  def o "src/hopix/hopixTypes.ml" 14 253 271 "src/hopix/hopixTypes.ml" 14 253 296
+)
+"src/hopix/hopixTypes.ml" 14 253 283 "src/hopix/hopixTypes.ml" 14 253 287
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 14 253 278 "src/hopix/hopixTypes.ml" 14 253 287
+type(
+  HopixAST.type_constructor
+)
+"src/hopix/hopixTypes.ml" 14 253 290 "src/hopix/hopixTypes.ml" 14 253 291
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  int_ref i "src/hopix/hopixTypes.ml" 14 253 265 "src/hopix/hopixTypes.ml" 14 253 266
+)
+"src/hopix/hopixTypes.ml" 14 253 293 "src/hopix/hopixTypes.ml" 14 253 294
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  int_ref o "src/hopix/hopixTypes.ml" 14 253 267 "src/hopix/hopixTypes.ml" 14 253 268
+)
+"src/hopix/hopixTypes.ml" 14 253 289 "src/hopix/hopixTypes.ml" 14 253 295
+type(
+  HopixAST.ty Position.located list
+)
+"src/hopix/hopixTypes.ml" 14 253 271 "src/hopix/hopixTypes.ml" 14 253 296
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  def --> "src/hopix/hopixTypes.ml" 18 375 377 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 16 298 312 "src/hopix/hopixTypes.ml" 16 298 313
+type(
+  HopixAST.ty
+)
+ident(
+  def i "src/hopix/hopixTypes.ml" 16 298 314 "src/hopix/hopixTypes.ml" 16 298 373
+)
+"src/hopix/hopixTypes.ml" 16 298 314 "src/hopix/hopixTypes.ml" 16 298 315
+type(
+  HopixAST.ty
+)
+ident(
+  def o "src/hopix/hopixTypes.ml" 16 298 318 "src/hopix/hopixTypes.ml" 16 298 373
+)
+"src/hopix/hopixTypes.ml" 16 298 318 "src/hopix/hopixTypes.ml" 16 298 323
+type(
+  HopixAST.ty Position.located -> HopixAST.ty Position.located -> HopixAST.ty
+)
+ident(
+  int_ref arrow "src/hopix/hopixTypes.ml" 14 253 259 "src/hopix/hopixTypes.ml" 14 253 264
+)
+"src/hopix/hopixTypes.ml" 16 298 325 "src/hopix/hopixTypes.ml" 16 298 345
+type(
+  HopixAST.ty -> HopixAST.ty Position.located
+)
+ident(
+  ext_ref Position.unknown_pos
+)
+"src/hopix/hopixTypes.ml" 16 298 346 "src/hopix/hopixTypes.ml" 16 298 347
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref i "src/hopix/hopixTypes.ml" 16 298 312 "src/hopix/hopixTypes.ml" 16 298 313
+)
+"src/hopix/hopixTypes.ml" 16 298 324 "src/hopix/hopixTypes.ml" 16 298 348
+call(
+  stack
+)
+type(
+  HopixAST.ty Position.located
+)
+"src/hopix/hopixTypes.ml" 16 298 350 "src/hopix/hopixTypes.ml" 16 298 370
+type(
+  HopixAST.ty -> HopixAST.ty Position.located
+)
+ident(
+  ext_ref Position.unknown_pos
+)
+"src/hopix/hopixTypes.ml" 16 298 371 "src/hopix/hopixTypes.ml" 16 298 372
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref o "src/hopix/hopixTypes.ml" 16 298 314 "src/hopix/hopixTypes.ml" 16 298 315
+)
+"src/hopix/hopixTypes.ml" 16 298 349 "src/hopix/hopixTypes.ml" 16 298 373
+call(
+  stack
+)
+type(
+  HopixAST.ty Position.located
+)
+"src/hopix/hopixTypes.ml" 16 298 318 "src/hopix/hopixTypes.ml" 16 298 373
+call(
+  tail
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 18 375 381 "src/hopix/hopixTypes.ml" 18 375 389
+type(
+  HopixAST.ty ->
+  (HopixAST.ty Position.located * HopixAST.ty Position.located) option
+)
+ident(
+  def as_arrow "src/hopix/hopixTypes.ml" 22 465 475 "src/hopix/hopixTypes.ml" 24 477 480
+)
+"src/hopix/hopixTypes.ml" 19 401 419 "src/hopix/hopixTypes.ml" 19 401 423
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 19 401 414 "src/hopix/hopixTypes.ml" 19 401 423
+type(
+  HopixAST.type_constructor
+)
+"src/hopix/hopixTypes.ml" 19 401 426 "src/hopix/hopixTypes.ml" 19 401 427
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  def i "src/hopix/hopixTypes.ml" 20 436 442 "src/hopix/hopixTypes.ml" 20 436 453
+)
+"src/hopix/hopixTypes.ml" 19 401 429 "src/hopix/hopixTypes.ml" 19 401 430
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  def o "src/hopix/hopixTypes.ml" 20 436 442 "src/hopix/hopixTypes.ml" 20 436 453
+)
+"src/hopix/hopixTypes.ml" 19 401 425 "src/hopix/hopixTypes.ml" 19 401 431
+type(
+  HopixAST.ty Position.located list
+)
+"src/hopix/hopixTypes.ml" 19 401 407 "src/hopix/hopixTypes.ml" 19 401 432
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 20 436 448 "src/hopix/hopixTypes.ml" 20 436 449
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  int_ref i "src/hopix/hopixTypes.ml" 19 401 426 "src/hopix/hopixTypes.ml" 19 401 427
+)
+"src/hopix/hopixTypes.ml" 20 436 451 "src/hopix/hopixTypes.ml" 20 436 452
+type(
+  HopixAST.ty Position.located
+)
+ident(
+  int_ref o "src/hopix/hopixTypes.ml" 19 401 429 "src/hopix/hopixTypes.ml" 19 401 430
+)
+"src/hopix/hopixTypes.ml" 20 436 447 "src/hopix/hopixTypes.ml" 20 436 453
+type(
+  HopixAST.ty Position.located * HopixAST.ty Position.located
+)
+"src/hopix/hopixTypes.ml" 20 436 442 "src/hopix/hopixTypes.ml" 20 436 453
+type(
+  (HopixAST.ty Position.located * HopixAST.ty Position.located) option
+)
+"src/hopix/hopixTypes.ml" 21 454 460 "src/hopix/hopixTypes.ml" 21 454 461
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 22 465 471 "src/hopix/hopixTypes.ml" 22 465 475
+type(
+  (HopixAST.ty Position.located * HopixAST.ty Position.located) option
+)
+"src/hopix/hopixTypes.ml" 18 375 392 "src/hopix/hopixTypes.ml" 22 465 475
+type(
+  HopixAST.ty ->
+  (HopixAST.ty Position.located * HopixAST.ty Position.located) option
+)
+"src/hopix/hopixTypes.ml" 27 526 530 "src/hopix/hopixTypes.ml" 27 526 535
+type(
+  Position.t -> string -> 'a
+)
+ident(
+  def error "src/hopix/hopixTypes.ml" 30 616 616 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 27 526 538 "src/hopix/hopixTypes.ml" 27 526 549
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  ext_ref Error.error
+)
+"src/hopix/hopixTypes.ml" 27 526 550 "src/hopix/hopixTypes.ml" 27 526 572
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 27 526 538 "src/hopix/hopixTypes.ml" 27 526 572
+call(
+  stack
+)
+type(
+  Position.t -> string -> 'a
+)
+"src/hopix/hopixTypes.ml" 38 982 986 "src/hopix/hopixTypes.ml" 38 982 1001
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+ident(
+  def primitive_types "src/hopix/hopixTypes.ml" 54 1495 1495 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 38 982 1004 "src/hopix/hopixTypes.ml" 38 982 1016
+type(
+  (HopixAST.identifier * HopixAST.ty) list ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+ident(
+  ext_ref Dict.of_list
+)
+"src/hopix/hopixTypes.ml" 39 1019 1021 "src/hopix/hopixTypes.ml" 39 1019 1029
+type(
+  (string * HopixAST.ty -> HopixAST.identifier * HopixAST.ty) ->
+  (string * HopixAST.ty) list -> (HopixAST.identifier * HopixAST.ty) list
+)
+ident(
+  ext_ref List.map
+)
+"src/hopix/hopixTypes.ml" 39 1019 1036 "src/hopix/hopixTypes.ml" 39 1019 1037
+type(
+  string
+)
+ident(
+  def x "src/hopix/hopixTypes.ml" 39 1019 1046 "src/hopix/hopixTypes.ml" 39 1019 1056
+)
+"src/hopix/hopixTypes.ml" 39 1019 1039 "src/hopix/hopixTypes.ml" 39 1019 1041
+type(
+  HopixAST.ty
+)
+ident(
+  def ty "src/hopix/hopixTypes.ml" 39 1019 1046 "src/hopix/hopixTypes.ml" 39 1019 1056
+)
+"src/hopix/hopixTypes.ml" 39 1019 1035 "src/hopix/hopixTypes.ml" 39 1019 1042
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 39 1019 1050 "src/hopix/hopixTypes.ml" 39 1019 1051
+type(
+  string
+)
+ident(
+  int_ref x "src/hopix/hopixTypes.ml" 39 1019 1036 "src/hopix/hopixTypes.ml" 39 1019 1037
+)
+"src/hopix/hopixTypes.ml" 39 1019 1047 "src/hopix/hopixTypes.ml" 39 1019 1051
+type(
+  HopixAST.identifier
+)
+"src/hopix/hopixTypes.ml" 39 1019 1053 "src/hopix/hopixTypes.ml" 39 1019 1055
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref ty "src/hopix/hopixTypes.ml" 39 1019 1039 "src/hopix/hopixTypes.ml" 39 1019 1041
+)
+"src/hopix/hopixTypes.ml" 39 1019 1046 "src/hopix/hopixTypes.ml" 39 1019 1056
+type(
+  HopixAST.identifier * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 39 1019 1030 "src/hopix/hopixTypes.ml" 39 1019 1057
+type(
+  string * HopixAST.ty -> HopixAST.identifier * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 41 1081 1087 "src/hopix/hopixTypes.ml" 41 1081 1091
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 41 1081 1094 "src/hopix/hopixTypes.ml" 41 1081 1097
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 41 1081 1098 "src/hopix/hopixTypes.ml" 41 1081 1101
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 41 1081 1103 "src/hopix/hopixTypes.ml" 41 1081 1106
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 41 1081 1107 "src/hopix/hopixTypes.ml" 41 1081 1110
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 41 1081 1111 "src/hopix/hopixTypes.ml" 41 1081 1114
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 41 1081 1102 "src/hopix/hopixTypes.ml" 41 1081 1115
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 41 1081 1094 "src/hopix/hopixTypes.ml" 41 1081 1115
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 41 1081 1087 "src/hopix/hopixTypes.ml" 41 1081 1115
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 42 1117 1123 "src/hopix/hopixTypes.ml" 42 1117 1127
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 42 1117 1130 "src/hopix/hopixTypes.ml" 42 1117 1133
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 42 1117 1134 "src/hopix/hopixTypes.ml" 42 1117 1137
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 42 1117 1139 "src/hopix/hopixTypes.ml" 42 1117 1142
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 42 1117 1143 "src/hopix/hopixTypes.ml" 42 1117 1146
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 42 1117 1147 "src/hopix/hopixTypes.ml" 42 1117 1150
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 42 1117 1138 "src/hopix/hopixTypes.ml" 42 1117 1151
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 42 1117 1130 "src/hopix/hopixTypes.ml" 42 1117 1151
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 42 1117 1123 "src/hopix/hopixTypes.ml" 42 1117 1151
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 43 1153 1159 "src/hopix/hopixTypes.ml" 43 1153 1163
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 43 1153 1166 "src/hopix/hopixTypes.ml" 43 1153 1169
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 43 1153 1170 "src/hopix/hopixTypes.ml" 43 1153 1173
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 43 1153 1175 "src/hopix/hopixTypes.ml" 43 1153 1178
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 43 1153 1179 "src/hopix/hopixTypes.ml" 43 1153 1182
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 43 1153 1183 "src/hopix/hopixTypes.ml" 43 1153 1186
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 43 1153 1174 "src/hopix/hopixTypes.ml" 43 1153 1187
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 43 1153 1166 "src/hopix/hopixTypes.ml" 43 1153 1187
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 43 1153 1159 "src/hopix/hopixTypes.ml" 43 1153 1187
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 44 1189 1195 "src/hopix/hopixTypes.ml" 44 1189 1199
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 44 1189 1202 "src/hopix/hopixTypes.ml" 44 1189 1205
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 44 1189 1206 "src/hopix/hopixTypes.ml" 44 1189 1209
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 44 1189 1211 "src/hopix/hopixTypes.ml" 44 1189 1214
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 44 1189 1215 "src/hopix/hopixTypes.ml" 44 1189 1218
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 44 1189 1219 "src/hopix/hopixTypes.ml" 44 1189 1222
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 44 1189 1210 "src/hopix/hopixTypes.ml" 44 1189 1223
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 44 1189 1202 "src/hopix/hopixTypes.ml" 44 1189 1223
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 44 1189 1195 "src/hopix/hopixTypes.ml" 44 1189 1223
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 45 1225 1231 "src/hopix/hopixTypes.ml" 45 1225 1235
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 45 1225 1238 "src/hopix/hopixTypes.ml" 45 1225 1241
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 45 1225 1242 "src/hopix/hopixTypes.ml" 45 1225 1245
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 45 1225 1247 "src/hopix/hopixTypes.ml" 45 1225 1250
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 45 1225 1251 "src/hopix/hopixTypes.ml" 45 1225 1254
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 45 1225 1255 "src/hopix/hopixTypes.ml" 45 1225 1259
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 45 1225 1246 "src/hopix/hopixTypes.ml" 45 1225 1260
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 45 1225 1238 "src/hopix/hopixTypes.ml" 45 1225 1260
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 45 1225 1231 "src/hopix/hopixTypes.ml" 45 1225 1260
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 46 1262 1268 "src/hopix/hopixTypes.ml" 46 1262 1272
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 46 1262 1275 "src/hopix/hopixTypes.ml" 46 1262 1278
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 46 1262 1279 "src/hopix/hopixTypes.ml" 46 1262 1282
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 46 1262 1284 "src/hopix/hopixTypes.ml" 46 1262 1287
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 46 1262 1288 "src/hopix/hopixTypes.ml" 46 1262 1291
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 46 1262 1292 "src/hopix/hopixTypes.ml" 46 1262 1296
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 46 1262 1283 "src/hopix/hopixTypes.ml" 46 1262 1297
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 46 1262 1275 "src/hopix/hopixTypes.ml" 46 1262 1297
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 46 1262 1268 "src/hopix/hopixTypes.ml" 46 1262 1297
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 47 1299 1305 "src/hopix/hopixTypes.ml" 47 1299 1309
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 47 1299 1312 "src/hopix/hopixTypes.ml" 47 1299 1315
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 47 1299 1316 "src/hopix/hopixTypes.ml" 47 1299 1319
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 47 1299 1321 "src/hopix/hopixTypes.ml" 47 1299 1324
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 47 1299 1325 "src/hopix/hopixTypes.ml" 47 1299 1328
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 47 1299 1329 "src/hopix/hopixTypes.ml" 47 1299 1333
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 47 1299 1320 "src/hopix/hopixTypes.ml" 47 1299 1334
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 47 1299 1312 "src/hopix/hopixTypes.ml" 47 1299 1334
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 47 1299 1305 "src/hopix/hopixTypes.ml" 47 1299 1334
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 48 1336 1342 "src/hopix/hopixTypes.ml" 48 1336 1347
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 48 1336 1349 "src/hopix/hopixTypes.ml" 48 1336 1352
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 48 1336 1353 "src/hopix/hopixTypes.ml" 48 1336 1356
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 48 1336 1358 "src/hopix/hopixTypes.ml" 48 1336 1361
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 48 1336 1362 "src/hopix/hopixTypes.ml" 48 1336 1365
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 48 1336 1366 "src/hopix/hopixTypes.ml" 48 1336 1370
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 48 1336 1357 "src/hopix/hopixTypes.ml" 48 1336 1371
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 48 1336 1349 "src/hopix/hopixTypes.ml" 48 1336 1371
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 48 1336 1342 "src/hopix/hopixTypes.ml" 48 1336 1371
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 49 1373 1379 "src/hopix/hopixTypes.ml" 49 1373 1384
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 49 1373 1386 "src/hopix/hopixTypes.ml" 49 1373 1389
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 49 1373 1390 "src/hopix/hopixTypes.ml" 49 1373 1393
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 49 1373 1395 "src/hopix/hopixTypes.ml" 49 1373 1398
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.int "src/hopix/hopixTypes.ml" 8 96 102 "src/hopix/hopixTypes.ml" 8 96 105
+)
+"src/hopix/hopixTypes.ml" 49 1373 1399 "src/hopix/hopixTypes.ml" 49 1373 1402
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 49 1373 1403 "src/hopix/hopixTypes.ml" 49 1373 1407
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 49 1373 1394 "src/hopix/hopixTypes.ml" 49 1373 1408
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 49 1373 1386 "src/hopix/hopixTypes.ml" 49 1373 1408
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 49 1373 1379 "src/hopix/hopixTypes.ml" 49 1373 1408
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 50 1410 1416 "src/hopix/hopixTypes.ml" 50 1410 1421
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 50 1410 1423 "src/hopix/hopixTypes.ml" 50 1410 1427
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 50 1410 1428 "src/hopix/hopixTypes.ml" 50 1410 1431
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 50 1410 1433 "src/hopix/hopixTypes.ml" 50 1410 1437
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 50 1410 1438 "src/hopix/hopixTypes.ml" 50 1410 1441
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 50 1410 1442 "src/hopix/hopixTypes.ml" 50 1410 1446
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 50 1410 1432 "src/hopix/hopixTypes.ml" 50 1410 1447
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 50 1410 1423 "src/hopix/hopixTypes.ml" 50 1410 1447
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 50 1410 1416 "src/hopix/hopixTypes.ml" 50 1410 1447
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 51 1449 1455 "src/hopix/hopixTypes.ml" 51 1449 1460
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 51 1449 1462 "src/hopix/hopixTypes.ml" 51 1449 1466
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 51 1449 1467 "src/hopix/hopixTypes.ml" 51 1449 1470
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 51 1449 1472 "src/hopix/hopixTypes.ml" 51 1449 1476
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 51 1449 1477 "src/hopix/hopixTypes.ml" 51 1449 1480
+type(
+  HopixAST.ty -> HopixAST.ty -> HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.( --> ) "src/hopix/hopixTypes.ml" 16 298 304 "src/hopix/hopixTypes.ml" 16 298 311
+)
+"src/hopix/hopixTypes.ml" 51 1449 1481 "src/hopix/hopixTypes.ml" 51 1449 1485
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref PrimitiveTypes.bool "src/hopix/hopixTypes.ml" 11 190 196 "src/hopix/hopixTypes.ml" 11 190 200
+)
+"src/hopix/hopixTypes.ml" 51 1449 1471 "src/hopix/hopixTypes.ml" 51 1449 1486
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 51 1449 1462 "src/hopix/hopixTypes.ml" 51 1449 1486
+call(
+  stack
+)
+type(
+  HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 51 1449 1455 "src/hopix/hopixTypes.ml" 51 1449 1486
+type(
+  string * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 40 1075 1079 "src/hopix/hopixTypes.ml" 52 1488 1491
+type(
+  (string * HopixAST.ty) list
+)
+"src/hopix/hopixTypes.ml" 38 982 1017 "src/hopix/hopixTypes.ml" 52 1488 1493
+call(
+  stack
+)
+type(
+  (HopixAST.identifier * HopixAST.ty) list
+)
+"src/hopix/hopixTypes.ml" 38 982 1004 "src/hopix/hopixTypes.ml" 52 1488 1493
+call(
+  stack
+)
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 54 1495 1499 "src/hopix/hopixTypes.ml" 54 1495 1525
+type(
+  unit -> typing_environment
+)
+ident(
+  def initial_typing_environment "src/hopix/hopixTypes.ml" 63 1684 1684 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 54 1495 1526 "src/hopix/hopixTypes.ml" 54 1495 1528
+type(
+  unit
+)
+"src/hopix/hopixTypes.ml" 56 1535 1552 "src/hopix/hopixTypes.ml" 56 1535 1567
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+ident(
+  int_ref primitive_types "src/hopix/hopixTypes.ml" 38 982 986 "src/hopix/hopixTypes.ml" 38 982 1001
+)
+"src/hopix/hopixTypes.ml" 57 1569 1585 "src/hopix/hopixTypes.ml" 57 1569 1595
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+ident(
+  ext_ref Dict.empty
+)
+"src/hopix/hopixTypes.ml" 58 1597 1612 "src/hopix/hopixTypes.ml" 58 1597 1622
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.empty
+)
+"src/hopix/hopixTypes.ml" 59 1624 1643 "src/hopix/hopixTypes.ml" 59 1624 1653
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.empty
+)
+"src/hopix/hopixTypes.ml" 60 1655 1668 "src/hopix/hopixTypes.ml" 60 1655 1678
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.empty
+)
+"src/hopix/hopixTypes.ml" 55 1531 1533 "src/hopix/hopixTypes.ml" 61 1679 1682
+type(
+  typing_environment
+)
+"src/hopix/hopixTypes.ml" 63 1684 1688 "src/hopix/hopixTypes.ml" 63 1684 1703
+type(
+  HopixAST.identifier ->
+  HopixAST.ty -> typing_environment -> typing_environment
+)
+ident(
+  def bind_value_type "src/hopix/hopixTypes.ml" 66 1777 1777 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 63 1684 1704 "src/hopix/hopixTypes.ml" 63 1684 1705
+type(
+  HopixAST.identifier
+)
+ident(
+  def x "src/hopix/hopixTypes.ml" 63 1684 1706 "src/hopix/hopixTypes.ml" 64 1716 1775
+)
+"src/hopix/hopixTypes.ml" 63 1684 1706 "src/hopix/hopixTypes.ml" 63 1684 1708
+type(
+  HopixAST.ty
+)
+ident(
+  def ty "src/hopix/hopixTypes.ml" 63 1684 1709 "src/hopix/hopixTypes.ml" 64 1716 1775
+)
+"src/hopix/hopixTypes.ml" 63 1684 1709 "src/hopix/hopixTypes.ml" 63 1684 1713
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 64 1716 1718 "src/hopix/hopixTypes.ml" 64 1716 1775
+)
+"src/hopix/hopixTypes.ml" 64 1716 1720 "src/hopix/hopixTypes.ml" 64 1716 1724
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 63 1684 1709 "src/hopix/hopixTypes.ml" 63 1684 1713
+)
+"src/hopix/hopixTypes.ml" 64 1716 1742 "src/hopix/hopixTypes.ml" 64 1716 1753
+type(
+  HopixAST.identifier ->
+  HopixAST.ty ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+ident(
+  ext_ref Dict.insert
+)
+"src/hopix/hopixTypes.ml" 64 1716 1754 "src/hopix/hopixTypes.ml" 64 1716 1755
+type(
+  HopixAST.identifier
+)
+ident(
+  int_ref x "src/hopix/hopixTypes.ml" 63 1684 1704 "src/hopix/hopixTypes.ml" 63 1684 1705
+)
+"src/hopix/hopixTypes.ml" 64 1716 1756 "src/hopix/hopixTypes.ml" 64 1716 1758
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref ty "src/hopix/hopixTypes.ml" 63 1684 1706 "src/hopix/hopixTypes.ml" 63 1684 1708
+)
+"src/hopix/hopixTypes.ml" 64 1716 1759 "src/hopix/hopixTypes.ml" 64 1716 1763
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 63 1684 1709 "src/hopix/hopixTypes.ml" 63 1684 1713
+)
+"src/hopix/hopixTypes.ml" 64 1716 1759 "src/hopix/hopixTypes.ml" 64 1716 1773
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 64 1716 1742 "src/hopix/hopixTypes.ml" 64 1716 1773
+call(
+  stack
+)
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 64 1716 1718 "src/hopix/hopixTypes.ml" 64 1716 1775
+type(
+  typing_environment
+)
+"src/hopix/hopixTypes.ml" 66 1777 1781 "src/hopix/hopixTypes.ml" 66 1777 1798
+type(
+  HopixAST.identifier -> typing_environment -> HopixAST.ty option
+)
+ident(
+  def lookup_value_type "src/hopix/hopixTypes.ml" 71 1908 1908 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 66 1777 1799 "src/hopix/hopixTypes.ml" 66 1777 1800
+type(
+  HopixAST.identifier
+)
+ident(
+  def x "src/hopix/hopixTypes.ml" 66 1777 1801 "src/hopix/hopixTypes.ml" 69 1894 1906
+)
+"src/hopix/hopixTypes.ml" 66 1777 1801 "src/hopix/hopixTypes.ml" 66 1777 1805
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 67 1808 1810 "src/hopix/hopixTypes.ml" 69 1894 1906
+)
+"src/hopix/hopixTypes.ml" 67 1808 1816 "src/hopix/hopixTypes.ml" 67 1808 1827
+type(
+  HopixAST.identifier ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict -> HopixAST.ty option
+)
+ident(
+  ext_ref Dict.lookup
+)
+"src/hopix/hopixTypes.ml" 67 1808 1828 "src/hopix/hopixTypes.ml" 67 1808 1829
+type(
+  HopixAST.identifier
+)
+ident(
+  int_ref x "src/hopix/hopixTypes.ml" 66 1777 1799 "src/hopix/hopixTypes.ml" 66 1777 1800
+)
+"src/hopix/hopixTypes.ml" 67 1808 1830 "src/hopix/hopixTypes.ml" 67 1808 1834
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 66 1777 1801 "src/hopix/hopixTypes.ml" 66 1777 1805
+)
+"src/hopix/hopixTypes.ml" 67 1808 1830 "src/hopix/hopixTypes.ml" 67 1808 1844
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 67 1808 1816 "src/hopix/hopixTypes.ml" 67 1808 1844
+call(
+  stack
+)
+type(
+  HopixAST.ty option
+)
+"src/hopix/hopixTypes.ml" 68 1850 1856 "src/hopix/hopixTypes.ml" 68 1850 1860
+type(
+  HopixAST.ty option
+)
+"src/hopix/hopixTypes.ml" 68 1850 1864 "src/hopix/hopixTypes.ml" 68 1850 1875
+type(
+  HopixAST.identifier ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict -> HopixAST.ty option
+)
+ident(
+  ext_ref Dict.lookup
+)
+"src/hopix/hopixTypes.ml" 68 1850 1876 "src/hopix/hopixTypes.ml" 68 1850 1877
+type(
+  HopixAST.identifier
+)
+ident(
+  int_ref x "src/hopix/hopixTypes.ml" 66 1777 1799 "src/hopix/hopixTypes.ml" 66 1777 1800
+)
+"src/hopix/hopixTypes.ml" 68 1850 1878 "src/hopix/hopixTypes.ml" 68 1850 1882
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 66 1777 1801 "src/hopix/hopixTypes.ml" 66 1777 1805
+)
+"src/hopix/hopixTypes.ml" 68 1850 1878 "src/hopix/hopixTypes.ml" 68 1850 1893
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 68 1850 1864 "src/hopix/hopixTypes.ml" 68 1850 1893
+call(
+  tail
+)
+type(
+  HopixAST.ty option
+)
+"src/hopix/hopixTypes.ml" 69 1894 1900 "src/hopix/hopixTypes.ml" 69 1894 1901
+type(
+  HopixAST.ty option
+)
+ident(
+  def x "src/hopix/hopixTypes.ml" 69 1894 1905 "src/hopix/hopixTypes.ml" 69 1894 1906
+)
+"src/hopix/hopixTypes.ml" 69 1894 1905 "src/hopix/hopixTypes.ml" 69 1894 1906
+type(
+  HopixAST.ty option
+)
+ident(
+  int_ref x "src/hopix/hopixTypes.ml" 69 1894 1900 "src/hopix/hopixTypes.ml" 69 1894 1901
+)
+"src/hopix/hopixTypes.ml" 67 1808 1810 "src/hopix/hopixTypes.ml" 69 1894 1906
+type(
+  HopixAST.ty option
+)
+"src/hopix/hopixTypes.ml" 71 1908 1912 "src/hopix/hopixTypes.ml" 71 1908 1932
+type(
+  HopixAST.type_constructor ->
+  HopixAST.type_variable list ->
+  HopixAST.type_definition -> typing_environment -> typing_environment
+)
+ident(
+  def bind_type_definition "src/hopix/hopixTypes.ml" 74 2017 2017 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 71 1908 1933 "src/hopix/hopixTypes.ml" 71 1908 1934
+type(
+  HopixAST.type_constructor
+)
+ident(
+  def t "src/hopix/hopixTypes.ml" 71 1908 1935 "src/hopix/hopixTypes.ml" 72 1950 2015
+)
+"src/hopix/hopixTypes.ml" 71 1908 1935 "src/hopix/hopixTypes.ml" 71 1908 1937
+type(
+  HopixAST.type_variable list
+)
+ident(
+  def ts "src/hopix/hopixTypes.ml" 71 1908 1938 "src/hopix/hopixTypes.ml" 72 1950 2015
+)
+"src/hopix/hopixTypes.ml" 71 1908 1938 "src/hopix/hopixTypes.ml" 71 1908 1942
+type(
+  HopixAST.type_definition
+)
+ident(
+  def tdef "src/hopix/hopixTypes.ml" 71 1908 1943 "src/hopix/hopixTypes.ml" 72 1950 2015
+)
+"src/hopix/hopixTypes.ml" 71 1908 1943 "src/hopix/hopixTypes.ml" 71 1908 1947
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 72 1950 1952 "src/hopix/hopixTypes.ml" 72 1950 2015
+)
+"src/hopix/hopixTypes.ml" 72 1950 1954 "src/hopix/hopixTypes.ml" 72 1950 1958
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 71 1908 1943 "src/hopix/hopixTypes.ml" 71 1908 1947
+)
+"src/hopix/hopixTypes.ml" 72 1950 1975 "src/hopix/hopixTypes.ml" 72 1950 1986
+type(
+  HopixAST.type_constructor ->
+  HopixAST.type_variable list * HopixAST.type_definition ->
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict ->
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.insert
+)
+"src/hopix/hopixTypes.ml" 72 1950 1987 "src/hopix/hopixTypes.ml" 72 1950 1988
+type(
+  HopixAST.type_constructor
+)
+ident(
+  int_ref t "src/hopix/hopixTypes.ml" 71 1908 1933 "src/hopix/hopixTypes.ml" 71 1908 1934
+)
+"src/hopix/hopixTypes.ml" 72 1950 1990 "src/hopix/hopixTypes.ml" 72 1950 1992
+type(
+  HopixAST.type_variable list
+)
+ident(
+  int_ref ts "src/hopix/hopixTypes.ml" 71 1908 1935 "src/hopix/hopixTypes.ml" 71 1908 1937
+)
+"src/hopix/hopixTypes.ml" 72 1950 1994 "src/hopix/hopixTypes.ml" 72 1950 1998
+type(
+  HopixAST.type_definition
+)
+ident(
+  int_ref tdef "src/hopix/hopixTypes.ml" 71 1908 1938 "src/hopix/hopixTypes.ml" 71 1908 1942
+)
+"src/hopix/hopixTypes.ml" 72 1950 1989 "src/hopix/hopixTypes.ml" 72 1950 1999
+type(
+  HopixAST.type_variable list * HopixAST.type_definition
+)
+"src/hopix/hopixTypes.ml" 72 1950 2000 "src/hopix/hopixTypes.ml" 72 1950 2004
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 71 1908 1943 "src/hopix/hopixTypes.ml" 71 1908 1947
+)
+"src/hopix/hopixTypes.ml" 72 1950 2000 "src/hopix/hopixTypes.ml" 72 1950 2013
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 72 1950 1975 "src/hopix/hopixTypes.ml" 72 1950 2013
+call(
+  stack
+)
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 72 1950 1952 "src/hopix/hopixTypes.ml" 72 1950 2015
+type(
+  typing_environment
+)
+"src/hopix/hopixTypes.ml" 74 2017 2021 "src/hopix/hopixTypes.ml" 74 2017 2043
+type(
+  HopixAST.type_constructor ->
+  typing_environment ->
+  (HopixAST.type_variable list * HopixAST.type_definition) option
+)
+ident(
+  def lookup_type_definition "src/hopix/hopixTypes.ml" 77 2084 2084 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 74 2017 2044 "src/hopix/hopixTypes.ml" 74 2017 2045
+type(
+  HopixAST.type_constructor
+)
+ident(
+  def t "src/hopix/hopixTypes.ml" 74 2017 2046 "src/hopix/hopixTypes.ml" 75 2053 2082
+)
+"src/hopix/hopixTypes.ml" 74 2017 2046 "src/hopix/hopixTypes.ml" 74 2017 2050
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 75 2053 2055 "src/hopix/hopixTypes.ml" 75 2053 2082
+)
+"src/hopix/hopixTypes.ml" 75 2053 2055 "src/hopix/hopixTypes.ml" 75 2053 2066
+type(
+  HopixAST.type_constructor ->
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict ->
+  (HopixAST.type_variable list * HopixAST.type_definition) option
+)
+ident(
+  ext_ref Dict.lookup
+)
+"src/hopix/hopixTypes.ml" 75 2053 2067 "src/hopix/hopixTypes.ml" 75 2053 2068
+type(
+  HopixAST.type_constructor
+)
+ident(
+  int_ref t "src/hopix/hopixTypes.ml" 74 2017 2044 "src/hopix/hopixTypes.ml" 74 2017 2045
+)
+"src/hopix/hopixTypes.ml" 75 2053 2069 "src/hopix/hopixTypes.ml" 75 2053 2073
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 74 2017 2046 "src/hopix/hopixTypes.ml" 74 2017 2050
+)
+"src/hopix/hopixTypes.ml" 75 2053 2069 "src/hopix/hopixTypes.ml" 75 2053 2082
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 75 2053 2055 "src/hopix/hopixTypes.ml" 75 2053 2082
+call(
+  tail
+)
+type(
+  (HopixAST.type_variable list * HopixAST.type_definition) option
+)
+"src/hopix/hopixTypes.ml" 77 2084 2088 "src/hopix/hopixTypes.ml" 77 2084 2112
+type(
+  typing_environment -> string
+)
+ident(
+  def print_typing_environment "src/hopix/hopixTypes.ml" 82 2274 2274 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 77 2084 2113 "src/hopix/hopixTypes.ml" 77 2084 2117
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 78 2120 2122 "src/hopix/hopixTypes.ml" 80 2238 2272
+)
+"src/hopix/hopixTypes.ml" 78 2120 2122 "src/hopix/hopixTypes.ml" 78 2120 2135
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/hopix/hopixTypes.ml" 78 2120 2136 "src/hopix/hopixTypes.ml" 78 2120 2140
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 78 2120 2142 "src/hopix/hopixTypes.ml" 78 2120 2150
+type(
+  (HopixAST.identifier * HopixAST.ty -> string) ->
+  (HopixAST.identifier * HopixAST.ty) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/hopix/hopixTypes.ml" 78 2120 2160 "src/hopix/hopixTypes.ml" 78 2120 2161
+type(
+  string
+)
+ident(
+  def s "src/hopix/hopixTypes.ml" 79 2169 2173 "src/hopix/hopixTypes.ml" 79 2169 2237
+)
+"src/hopix/hopixTypes.ml" 78 2120 2157 "src/hopix/hopixTypes.ml" 78 2120 2161
+type(
+  HopixAST.identifier
+)
+"src/hopix/hopixTypes.ml" 78 2120 2163 "src/hopix/hopixTypes.ml" 78 2120 2164
+type(
+  HopixAST.ty
+)
+ident(
+  def v "src/hopix/hopixTypes.ml" 79 2169 2173 "src/hopix/hopixTypes.ml" 79 2169 2237
+)
+"src/hopix/hopixTypes.ml" 78 2120 2156 "src/hopix/hopixTypes.ml" 78 2120 2165
+type(
+  HopixAST.identifier * HopixAST.ty
+)
+"src/hopix/hopixTypes.ml" 79 2169 2173 "src/hopix/hopixTypes.ml" 79 2169 2187
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/hopix/hopixTypes.ml" 79 2169 2188 "src/hopix/hopixTypes.ml" 79 2169 2197
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/hopix/hopixTypes.ml" 79 2169 2198 "src/hopix/hopixTypes.ml" 79 2169 2199
+type(
+  string
+)
+ident(
+  int_ref s "src/hopix/hopixTypes.ml" 78 2120 2160 "src/hopix/hopixTypes.ml" 78 2120 2161
+)
+"src/hopix/hopixTypes.ml" 79 2169 2221 "src/hopix/hopixTypes.ml" 79 2169 2230
+type(
+  (HopixAST.ty -> PPrintEngine.ToBuffer.document) -> HopixAST.ty -> string
+)
+ident(
+  ext_ref HopixPrettyPrinter.to_string
+)
+"src/hopix/hopixTypes.ml" 79 2169 2231 "src/hopix/hopixTypes.ml" 79 2169 2233
+type(
+  HopixAST.ty -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref HopixPrettyPrinter.ty
+)
+"src/hopix/hopixTypes.ml" 79 2169 2234 "src/hopix/hopixTypes.ml" 79 2169 2235
+type(
+  HopixAST.ty
+)
+ident(
+  int_ref v "src/hopix/hopixTypes.ml" 78 2120 2163 "src/hopix/hopixTypes.ml" 78 2120 2164
+)
+"src/hopix/hopixTypes.ml" 79 2169 2221 "src/hopix/hopixTypes.ml" 79 2169 2235
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 79 2169 2173 "src/hopix/hopixTypes.ml" 79 2169 2237
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 78 2120 2151 "src/hopix/hopixTypes.ml" 80 2238 2241
+type(
+  HopixAST.identifier * HopixAST.ty -> string
+)
+"src/hopix/hopixTypes.ml" 80 2238 2243 "src/hopix/hopixTypes.ml" 80 2238 2255
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict ->
+  (HopixAST.identifier * HopixAST.ty) list
+)
+ident(
+  ext_ref Dict.to_list
+)
+"src/hopix/hopixTypes.ml" 80 2238 2256 "src/hopix/hopixTypes.ml" 80 2238 2260
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 77 2084 2113 "src/hopix/hopixTypes.ml" 77 2084 2117
+)
+"src/hopix/hopixTypes.ml" 80 2238 2256 "src/hopix/hopixTypes.ml" 80 2238 2270
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 80 2238 2242 "src/hopix/hopixTypes.ml" 80 2238 2271
+call(
+  stack
+)
+type(
+  (HopixAST.identifier * HopixAST.ty) list
+)
+"src/hopix/hopixTypes.ml" 78 2120 2141 "src/hopix/hopixTypes.ml" 80 2238 2272
+call(
+  stack
+)
+type(
+  string list
+)
+"src/hopix/hopixTypes.ml" 78 2120 2122 "src/hopix/hopixTypes.ml" 80 2238 2272
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixTypes.ml" 82 2274 2278 "src/hopix/hopixTypes.ml" 82 2274 2303
+type(
+  typing_environment ->
+  HopixAST.constructor ->
+  HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list ->
+  typing_environment
+)
+ident(
+  def bind_types_of_constructor "src/hopix/hopixTypes.ml" 85 2405 2405 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 82 2274 2304 "src/hopix/hopixTypes.ml" 82 2274 2308
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 82 2274 2309 "src/hopix/hopixTypes.ml" 83 2327 2403
+)
+"src/hopix/hopixTypes.ml" 82 2274 2309 "src/hopix/hopixTypes.ml" 82 2274 2310
+type(
+  HopixAST.constructor
+)
+ident(
+  def k "src/hopix/hopixTypes.ml" 82 2274 2311 "src/hopix/hopixTypes.ml" 83 2327 2403
+)
+"src/hopix/hopixTypes.ml" 82 2274 2312 "src/hopix/hopixTypes.ml" 82 2274 2313
+type(
+  HopixAST.type_constructor
+)
+ident(
+  def t "src/hopix/hopixTypes.ml" 83 2327 2329 "src/hopix/hopixTypes.ml" 83 2327 2403
+)
+"src/hopix/hopixTypes.ml" 82 2274 2315 "src/hopix/hopixTypes.ml" 82 2274 2317
+type(
+  HopixAST.type_variable list
+)
+ident(
+  def ts "src/hopix/hopixTypes.ml" 83 2327 2329 "src/hopix/hopixTypes.ml" 83 2327 2403
+)
+"src/hopix/hopixTypes.ml" 82 2274 2319 "src/hopix/hopixTypes.ml" 82 2274 2323
+type(
+  HopixAST.ty list
+)
+ident(
+  def atys "src/hopix/hopixTypes.ml" 83 2327 2329 "src/hopix/hopixTypes.ml" 83 2327 2403
+)
+"src/hopix/hopixTypes.ml" 82 2274 2311 "src/hopix/hopixTypes.ml" 82 2274 2324
+type(
+  HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list
+)
+"src/hopix/hopixTypes.ml" 83 2327 2331 "src/hopix/hopixTypes.ml" 83 2327 2335
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 82 2274 2304 "src/hopix/hopixTypes.ml" 82 2274 2308
+)
+"src/hopix/hopixTypes.ml" 83 2327 2356 "src/hopix/hopixTypes.ml" 83 2327 2367
+type(
+  HopixAST.constructor ->
+  HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list ->
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict ->
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.insert
+)
+"src/hopix/hopixTypes.ml" 83 2327 2368 "src/hopix/hopixTypes.ml" 83 2327 2369
+type(
+  HopixAST.constructor
+)
+ident(
+  int_ref k "src/hopix/hopixTypes.ml" 82 2274 2309 "src/hopix/hopixTypes.ml" 82 2274 2310
+)
+"src/hopix/hopixTypes.ml" 83 2327 2371 "src/hopix/hopixTypes.ml" 83 2327 2372
+type(
+  HopixAST.type_constructor
+)
+ident(
+  int_ref t "src/hopix/hopixTypes.ml" 82 2274 2312 "src/hopix/hopixTypes.ml" 82 2274 2313
+)
+"src/hopix/hopixTypes.ml" 83 2327 2374 "src/hopix/hopixTypes.ml" 83 2327 2376
+type(
+  HopixAST.type_variable list
+)
+ident(
+  int_ref ts "src/hopix/hopixTypes.ml" 82 2274 2315 "src/hopix/hopixTypes.ml" 82 2274 2317
+)
+"src/hopix/hopixTypes.ml" 83 2327 2378 "src/hopix/hopixTypes.ml" 83 2327 2382
+type(
+  HopixAST.ty list
+)
+ident(
+  int_ref atys "src/hopix/hopixTypes.ml" 82 2274 2319 "src/hopix/hopixTypes.ml" 82 2274 2323
+)
+"src/hopix/hopixTypes.ml" 83 2327 2370 "src/hopix/hopixTypes.ml" 83 2327 2383
+type(
+  HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list
+)
+"src/hopix/hopixTypes.ml" 83 2327 2384 "src/hopix/hopixTypes.ml" 83 2327 2388
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 82 2274 2304 "src/hopix/hopixTypes.ml" 82 2274 2308
+)
+"src/hopix/hopixTypes.ml" 83 2327 2384 "src/hopix/hopixTypes.ml" 83 2327 2401
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 83 2327 2356 "src/hopix/hopixTypes.ml" 83 2327 2401
+call(
+  stack
+)
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 83 2327 2329 "src/hopix/hopixTypes.ml" 83 2327 2403
+type(
+  typing_environment
+)
+"src/hopix/hopixTypes.ml" 85 2405 2409 "src/hopix/hopixTypes.ml" 85 2405 2429
+type(
+  typing_environment ->
+  HopixAST.constructor ->
+  (HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  option
+)
+ident(
+  def types_of_constructor "src/hopix/hopixTypes.ml" 88 2474 2474 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 85 2405 2430 "src/hopix/hopixTypes.ml" 85 2405 2434
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 85 2405 2435 "src/hopix/hopixTypes.ml" 86 2439 2472
+)
+"src/hopix/hopixTypes.ml" 85 2405 2435 "src/hopix/hopixTypes.ml" 85 2405 2436
+type(
+  HopixAST.constructor
+)
+ident(
+  def k "src/hopix/hopixTypes.ml" 86 2439 2441 "src/hopix/hopixTypes.ml" 86 2439 2472
+)
+"src/hopix/hopixTypes.ml" 86 2439 2441 "src/hopix/hopixTypes.ml" 86 2439 2452
+type(
+  HopixAST.constructor ->
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict ->
+  (HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  option
+)
+ident(
+  ext_ref Dict.lookup
+)
+"src/hopix/hopixTypes.ml" 86 2439 2453 "src/hopix/hopixTypes.ml" 86 2439 2454
+type(
+  HopixAST.constructor
+)
+ident(
+  int_ref k "src/hopix/hopixTypes.ml" 85 2405 2435 "src/hopix/hopixTypes.ml" 85 2405 2436
+)
+"src/hopix/hopixTypes.ml" 86 2439 2455 "src/hopix/hopixTypes.ml" 86 2439 2459
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 85 2405 2430 "src/hopix/hopixTypes.ml" 85 2405 2434
+)
+"src/hopix/hopixTypes.ml" 86 2439 2455 "src/hopix/hopixTypes.ml" 86 2439 2472
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 86 2439 2441 "src/hopix/hopixTypes.ml" 86 2439 2472
+call(
+  tail
+)
+type(
+  (HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  option
+)
+"src/hopix/hopixTypes.ml" 88 2474 2478 "src/hopix/hopixTypes.ml" 88 2474 2497
+type(
+  typing_environment ->
+  HopixAST.label ->
+  HopixAST.type_constructor * HopixAST.type_variable list *
+  (HopixAST.label * HopixAST.ty) list -> typing_environment
+)
+ident(
+  def bind_types_of_label "src/hopix/hopixTypes.ml" 91 2587 2587 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 88 2474 2498 "src/hopix/hopixTypes.ml" 88 2474 2502
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 88 2474 2503 "src/hopix/hopixTypes.ml" 89 2521 2585
+)
+"src/hopix/hopixTypes.ml" 88 2474 2503 "src/hopix/hopixTypes.ml" 88 2474 2504
+type(
+  HopixAST.label
+)
+ident(
+  def l "src/hopix/hopixTypes.ml" 88 2474 2505 "src/hopix/hopixTypes.ml" 89 2521 2585
+)
+"src/hopix/hopixTypes.ml" 88 2474 2506 "src/hopix/hopixTypes.ml" 88 2474 2507
+type(
+  HopixAST.type_constructor
+)
+ident(
+  def t "src/hopix/hopixTypes.ml" 89 2521 2523 "src/hopix/hopixTypes.ml" 89 2521 2585
+)
+"src/hopix/hopixTypes.ml" 88 2474 2509 "src/hopix/hopixTypes.ml" 88 2474 2511
+type(
+  HopixAST.type_variable list
+)
+ident(
+  def ts "src/hopix/hopixTypes.ml" 89 2521 2523 "src/hopix/hopixTypes.ml" 89 2521 2585
+)
+"src/hopix/hopixTypes.ml" 88 2474 2513 "src/hopix/hopixTypes.ml" 88 2474 2517
+type(
+  (HopixAST.label * HopixAST.ty) list
+)
+ident(
+  def ftys "src/hopix/hopixTypes.ml" 89 2521 2523 "src/hopix/hopixTypes.ml" 89 2521 2585
+)
+"src/hopix/hopixTypes.ml" 88 2474 2505 "src/hopix/hopixTypes.ml" 88 2474 2518
+type(
+  HopixAST.type_constructor * HopixAST.type_variable list *
+  (HopixAST.label * HopixAST.ty) list
+)
+"src/hopix/hopixTypes.ml" 89 2521 2525 "src/hopix/hopixTypes.ml" 89 2521 2529
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 88 2474 2498 "src/hopix/hopixTypes.ml" 88 2474 2502
+)
+"src/hopix/hopixTypes.ml" 89 2521 2544 "src/hopix/hopixTypes.ml" 89 2521 2555
+type(
+  HopixAST.label ->
+  HopixAST.type_constructor * HopixAST.type_variable list *
+  (HopixAST.label * HopixAST.ty) list ->
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict ->
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+ident(
+  ext_ref Dict.insert
+)
+"src/hopix/hopixTypes.ml" 89 2521 2556 "src/hopix/hopixTypes.ml" 89 2521 2557
+type(
+  HopixAST.label
+)
+ident(
+  int_ref l "src/hopix/hopixTypes.ml" 88 2474 2503 "src/hopix/hopixTypes.ml" 88 2474 2504
+)
+"src/hopix/hopixTypes.ml" 89 2521 2559 "src/hopix/hopixTypes.ml" 89 2521 2560
+type(
+  HopixAST.type_constructor
+)
+ident(
+  int_ref t "src/hopix/hopixTypes.ml" 88 2474 2506 "src/hopix/hopixTypes.ml" 88 2474 2507
+)
+"src/hopix/hopixTypes.ml" 89 2521 2562 "src/hopix/hopixTypes.ml" 89 2521 2564
+type(
+  HopixAST.type_variable list
+)
+ident(
+  int_ref ts "src/hopix/hopixTypes.ml" 88 2474 2509 "src/hopix/hopixTypes.ml" 88 2474 2511
+)
+"src/hopix/hopixTypes.ml" 89 2521 2566 "src/hopix/hopixTypes.ml" 89 2521 2570
+type(
+  (HopixAST.label * HopixAST.ty) list
+)
+ident(
+  int_ref ftys "src/hopix/hopixTypes.ml" 88 2474 2513 "src/hopix/hopixTypes.ml" 88 2474 2517
+)
+"src/hopix/hopixTypes.ml" 89 2521 2558 "src/hopix/hopixTypes.ml" 89 2521 2571
+type(
+  HopixAST.type_constructor * HopixAST.type_variable list *
+  (HopixAST.label * HopixAST.ty) list
+)
+"src/hopix/hopixTypes.ml" 89 2521 2572 "src/hopix/hopixTypes.ml" 89 2521 2576
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 88 2474 2498 "src/hopix/hopixTypes.ml" 88 2474 2502
+)
+"src/hopix/hopixTypes.ml" 89 2521 2572 "src/hopix/hopixTypes.ml" 89 2521 2583
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 89 2521 2544 "src/hopix/hopixTypes.ml" 89 2521 2583
+call(
+  stack
+)
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 89 2521 2523 "src/hopix/hopixTypes.ml" 89 2521 2585
+type(
+  typing_environment
+)
+"src/hopix/hopixTypes.ml" 91 2587 2591 "src/hopix/hopixTypes.ml" 91 2587 2605
+type(
+  typing_environment ->
+  HopixAST.label ->
+  (HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  option
+)
+ident(
+  def types_of_label "src/hopix/hopixTypes.ml" 94 2644 2644 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 91 2587 2606 "src/hopix/hopixTypes.ml" 91 2587 2610
+type(
+  typing_environment
+)
+ident(
+  def tenv "src/hopix/hopixTypes.ml" 91 2587 2611 "src/hopix/hopixTypes.ml" 92 2615 2642
+)
+"src/hopix/hopixTypes.ml" 91 2587 2611 "src/hopix/hopixTypes.ml" 91 2587 2612
+type(
+  HopixAST.label
+)
+ident(
+  def l "src/hopix/hopixTypes.ml" 92 2615 2617 "src/hopix/hopixTypes.ml" 92 2615 2642
+)
+"src/hopix/hopixTypes.ml" 92 2615 2617 "src/hopix/hopixTypes.ml" 92 2615 2628
+type(
+  HopixAST.label ->
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict ->
+  (HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  option
+)
+ident(
+  ext_ref Dict.lookup
+)
+"src/hopix/hopixTypes.ml" 92 2615 2629 "src/hopix/hopixTypes.ml" 92 2615 2630
+type(
+  HopixAST.label
+)
+ident(
+  int_ref l "src/hopix/hopixTypes.ml" 91 2587 2611 "src/hopix/hopixTypes.ml" 91 2587 2612
+)
+"src/hopix/hopixTypes.ml" 92 2615 2631 "src/hopix/hopixTypes.ml" 92 2615 2635
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv "src/hopix/hopixTypes.ml" 91 2587 2606 "src/hopix/hopixTypes.ml" 91 2587 2610
+)
+"src/hopix/hopixTypes.ml" 92 2615 2631 "src/hopix/hopixTypes.ml" 92 2615 2642
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 92 2615 2617 "src/hopix/hopixTypes.ml" 92 2615 2642
+call(
+  tail
+)
+type(
+  (HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  option
+)
+"src/hopix/hopixTypes.ml" 94 2644 2648 "src/hopix/hopixTypes.ml" 94 2644 2673
+type(
+  typing_environment -> typing_environment -> bool
+)
+ident(
+  def equal_typing_environments "src/hopix/hopixTypes.ml" 98 2833 2874 "src/hopix/hopixTypes.ml" 1 0 -1
+)
+"src/hopix/hopixTypes.ml" 94 2644 2674 "src/hopix/hopixTypes.ml" 94 2644 2679
+type(
+  typing_environment
+)
+ident(
+  def tenv1 "src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 98 2833 2874
+)
+"src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 94 2644 2685
+type(
+  typing_environment
+)
+ident(
+  def tenv2 "src/hopix/hopixTypes.ml" 95 2688 2690 "src/hopix/hopixTypes.ml" 98 2833 2874
+)
+"src/hopix/hopixTypes.ml" 95 2688 2690 "src/hopix/hopixTypes.ml" 95 2688 2700
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict ->
+  (HopixAST.identifier, HopixAST.ty) Dict.dict -> bool
+)
+ident(
+  ext_ref Dict.equal
+)
+"src/hopix/hopixTypes.ml" 95 2688 2701 "src/hopix/hopixTypes.ml" 95 2688 2706
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv1 "src/hopix/hopixTypes.ml" 94 2644 2674 "src/hopix/hopixTypes.ml" 94 2644 2679
+)
+"src/hopix/hopixTypes.ml" 95 2688 2701 "src/hopix/hopixTypes.ml" 95 2688 2716
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 95 2688 2717 "src/hopix/hopixTypes.ml" 95 2688 2722
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv2 "src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 94 2644 2685
+)
+"src/hopix/hopixTypes.ml" 95 2688 2717 "src/hopix/hopixTypes.ml" 95 2688 2732
+type(
+  (HopixAST.identifier, HopixAST.ty) Dict.dict
+)
+"src/hopix/hopixTypes.ml" 95 2688 2690 "src/hopix/hopixTypes.ml" 95 2688 2732
+call(
+  stack
+)
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 96 2733 2735 "src/hopix/hopixTypes.ml" 96 2733 2737
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixTypes.ml" 96 2733 2738 "src/hopix/hopixTypes.ml" 96 2733 2748
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict ->
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict -> bool
+)
+ident(
+  ext_ref Dict.equal
+)
+"src/hopix/hopixTypes.ml" 96 2733 2749 "src/hopix/hopixTypes.ml" 96 2733 2754
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv1 "src/hopix/hopixTypes.ml" 94 2644 2674 "src/hopix/hopixTypes.ml" 94 2644 2679
+)
+"src/hopix/hopixTypes.ml" 96 2733 2749 "src/hopix/hopixTypes.ml" 96 2733 2763
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 96 2733 2764 "src/hopix/hopixTypes.ml" 96 2733 2769
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv2 "src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 94 2644 2685
+)
+"src/hopix/hopixTypes.ml" 96 2733 2764 "src/hopix/hopixTypes.ml" 96 2733 2778
+type(
+  (HopixAST.type_constructor,
+   HopixAST.type_variable list * HopixAST.type_definition)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 96 2733 2738 "src/hopix/hopixTypes.ml" 96 2733 2778
+call(
+  stack
+)
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 97 2779 2781 "src/hopix/hopixTypes.ml" 97 2779 2783
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixTypes.ml" 97 2779 2784 "src/hopix/hopixTypes.ml" 97 2779 2794
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict ->
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict -> bool
+)
+ident(
+  ext_ref Dict.equal
+)
+"src/hopix/hopixTypes.ml" 97 2779 2795 "src/hopix/hopixTypes.ml" 97 2779 2800
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv1 "src/hopix/hopixTypes.ml" 94 2644 2674 "src/hopix/hopixTypes.ml" 94 2644 2679
+)
+"src/hopix/hopixTypes.ml" 97 2779 2795 "src/hopix/hopixTypes.ml" 97 2779 2813
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 97 2779 2814 "src/hopix/hopixTypes.ml" 97 2779 2819
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv2 "src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 94 2644 2685
+)
+"src/hopix/hopixTypes.ml" 97 2779 2814 "src/hopix/hopixTypes.ml" 97 2779 2832
+type(
+  (HopixAST.constructor,
+   HopixAST.type_constructor * HopixAST.type_variable list * HopixAST.ty list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 97 2779 2784 "src/hopix/hopixTypes.ml" 97 2779 2832
+call(
+  stack
+)
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 98 2833 2835 "src/hopix/hopixTypes.ml" 98 2833 2837
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixTypes.ml" 98 2833 2838 "src/hopix/hopixTypes.ml" 98 2833 2848
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict ->
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict -> bool
+)
+ident(
+  ext_ref Dict.equal
+)
+"src/hopix/hopixTypes.ml" 98 2833 2849 "src/hopix/hopixTypes.ml" 98 2833 2854
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv1 "src/hopix/hopixTypes.ml" 94 2644 2674 "src/hopix/hopixTypes.ml" 94 2644 2679
+)
+"src/hopix/hopixTypes.ml" 98 2833 2849 "src/hopix/hopixTypes.ml" 98 2833 2861
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 98 2833 2862 "src/hopix/hopixTypes.ml" 98 2833 2867
+type(
+  typing_environment
+)
+ident(
+  int_ref tenv2 "src/hopix/hopixTypes.ml" 94 2644 2680 "src/hopix/hopixTypes.ml" 94 2644 2685
+)
+"src/hopix/hopixTypes.ml" 98 2833 2862 "src/hopix/hopixTypes.ml" 98 2833 2874
+type(
+  (HopixAST.label,
+   HopixAST.type_constructor * HopixAST.type_variable list *
+   (HopixAST.label * HopixAST.ty) list)
+  Dict.dict
+)
+"src/hopix/hopixTypes.ml" 98 2833 2838 "src/hopix/hopixTypes.ml" 98 2833 2874
+call(
+  tail
+)
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 97 2779 2784 "src/hopix/hopixTypes.ml" 98 2833 2874
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 96 2733 2738 "src/hopix/hopixTypes.ml" 98 2833 2874
+type(
+  bool
+)
+"src/hopix/hopixTypes.ml" 95 2688 2690 "src/hopix/hopixTypes.ml" 98 2833 2874
+type(
+  bool
+)

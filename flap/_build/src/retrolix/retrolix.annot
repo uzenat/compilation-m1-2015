@@ -1,0 +1,216 @@
+"src/retrolix/retrolix.ml" 5 69 73 "src/retrolix/retrolix.ml" 5 69 77
+type(
+  string
+)
+ident(
+  def name "src/retrolix/retrolix.ml" 7 92 92 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 5 69 80 "src/retrolix/retrolix.ml" 5 69 90
+type(
+  string
+)
+"src/retrolix/retrolix.ml" 10 122 126 "src/retrolix/retrolix.ml" 10 122 131
+type(
+  ('a -> Lexing.lexbuf) -> 'a -> RetrolixAST.t
+)
+ident(
+  def parse "src/retrolix/retrolix.ml" 17 281 281 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 10 122 132 "src/retrolix/retrolix.ml" 10 122 142
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  def lexer_init "src/retrolix/retrolix.ml" 10 122 143 "src/retrolix/retrolix.ml" 15 269 279
+)
+"src/retrolix/retrolix.ml" 10 122 143 "src/retrolix/retrolix.ml" 10 122 148
+type(
+  'a
+)
+ident(
+  def input "src/retrolix/retrolix.ml" 11 151 153 "src/retrolix/retrolix.ml" 15 269 279
+)
+"src/retrolix/retrolix.ml" 11 151 153 "src/retrolix/retrolix.ml" 11 151 178
+type(
+  lexer_init:('a -> Lexing.lexbuf) ->
+  lexer_fun:(Lexing.lexbuf -> RetrolixParser.token) ->
+  parser_fun:((Lexing.lexbuf -> RetrolixParser.token) ->
+              Lexing.lexbuf -> RetrolixAST.t) ->
+  input:'a -> RetrolixAST.t
+)
+ident(
+  ext_ref SyntacticAnalysis.process
+)
+"src/retrolix/retrolix.ml" 12 179 184 "src/retrolix/retrolix.ml" 12 179 194
+type(
+  'a -> Lexing.lexbuf
+)
+ident(
+  int_ref lexer_init "src/retrolix/retrolix.ml" 10 122 132 "src/retrolix/retrolix.ml" 10 122 142
+)
+"src/retrolix/retrolix.ml" 13 195 210 "src/retrolix/retrolix.ml" 13 195 229
+type(
+  Lexing.lexbuf -> RetrolixParser.token
+)
+ident(
+  ext_ref RetrolixLexer.token
+)
+"src/retrolix/retrolix.ml" 14 230 246 "src/retrolix/retrolix.ml" 14 230 268
+type(
+  (Lexing.lexbuf -> RetrolixParser.token) -> Lexing.lexbuf -> RetrolixAST.t
+)
+ident(
+  ext_ref RetrolixParser.program
+)
+"src/retrolix/retrolix.ml" 15 269 274 "src/retrolix/retrolix.ml" 15 269 279
+type(
+  'a
+)
+ident(
+  int_ref input "src/retrolix/retrolix.ml" 10 122 143 "src/retrolix/retrolix.ml" 10 122 148
+)
+"src/retrolix/retrolix.ml" 11 151 153 "src/retrolix/retrolix.ml" 15 269 279
+call(
+  tail
+)
+type(
+  RetrolixAST.t
+)
+"src/retrolix/retrolix.ml" 17 281 285 "src/retrolix/retrolix.ml" 17 281 299
+type(
+  string -> RetrolixAST.t
+)
+ident(
+  def parse_filename "src/retrolix/retrolix.ml" 20 359 359 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 17 281 300 "src/retrolix/retrolix.ml" 17 281 308
+type(
+  string
+)
+ident(
+  def filename "src/retrolix/retrolix.ml" 18 311 313 "src/retrolix/retrolix.ml" 18 311 357
+)
+"src/retrolix/retrolix.ml" 18 311 313 "src/retrolix/retrolix.ml" 18 311 318
+type(
+  (in_channel -> Lexing.lexbuf) -> in_channel -> RetrolixAST.t
+)
+ident(
+  int_ref parse "src/retrolix/retrolix.ml" 10 122 126 "src/retrolix/retrolix.ml" 10 122 131
+)
+"src/retrolix/retrolix.ml" 18 311 319 "src/retrolix/retrolix.ml" 18 311 338
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/retrolix/retrolix.ml" 18 311 340 "src/retrolix/retrolix.ml" 18 311 347
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/retrolix/retrolix.ml" 18 311 348 "src/retrolix/retrolix.ml" 18 311 356
+type(
+  string
+)
+ident(
+  int_ref filename "src/retrolix/retrolix.ml" 17 281 300 "src/retrolix/retrolix.ml" 17 281 308
+)
+"src/retrolix/retrolix.ml" 18 311 339 "src/retrolix/retrolix.ml" 18 311 357
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/retrolix/retrolix.ml" 18 311 313 "src/retrolix/retrolix.ml" 18 311 357
+call(
+  tail
+)
+type(
+  RetrolixAST.t
+)
+"src/retrolix/retrolix.ml" 20 359 363 "src/retrolix/retrolix.ml" 20 359 372
+type(
+  string
+)
+ident(
+  def extension "src/retrolix/retrolix.ml" 23 390 390 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 21 375 377 "src/retrolix/retrolix.ml" 21 375 388
+type(
+  string
+)
+"src/retrolix/retrolix.ml" 23 390 394 "src/retrolix/retrolix.ml" 23 390 406
+type(
+  string -> RetrolixAST.t
+)
+ident(
+  def parse_string "src/retrolix/retrolix.ml" 26 437 437 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 24 409 411 "src/retrolix/retrolix.ml" 24 409 416
+type(
+  (string -> Lexing.lexbuf) -> string -> RetrolixAST.t
+)
+ident(
+  int_ref parse "src/retrolix/retrolix.ml" 10 122 126 "src/retrolix/retrolix.ml" 10 122 131
+)
+"src/retrolix/retrolix.ml" 24 409 417 "src/retrolix/retrolix.ml" 24 409 435
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/retrolix/retrolix.ml" 24 409 411 "src/retrolix/retrolix.ml" 24 409 435
+call(
+  stack
+)
+type(
+  string -> RetrolixAST.t
+)
+"src/retrolix/retrolix.ml" 26 437 441 "src/retrolix/retrolix.ml" 26 437 450
+type(
+  RetrolixAST.definition list -> string
+)
+ident(
+  def print_ast "src/retrolix/retrolix.ml" 29 506 506 "src/retrolix/retrolix.ml" 1 0 -1
+)
+"src/retrolix/retrolix.ml" 26 437 451 "src/retrolix/retrolix.ml" 26 437 454
+type(
+  RetrolixAST.definition list
+)
+ident(
+  def ast "src/retrolix/retrolix.ml" 27 457 459 "src/retrolix/retrolix.ml" 27 457 504
+)
+"src/retrolix/retrolix.ml" 27 457 482 "src/retrolix/retrolix.ml" 27 457 491
+type(
+  (RetrolixAST.definition list -> PPrintEngine.ToBuffer.document) ->
+  RetrolixAST.definition list -> string
+)
+ident(
+  ext_ref RetrolixPrettyPrinter.to_string
+)
+"src/retrolix/retrolix.ml" 27 457 492 "src/retrolix/retrolix.ml" 27 457 499
+type(
+  RetrolixAST.definition list -> PPrintEngine.ToBuffer.document
+)
+ident(
+  ext_ref RetrolixPrettyPrinter.program
+)
+"src/retrolix/retrolix.ml" 27 457 500 "src/retrolix/retrolix.ml" 27 457 503
+type(
+  RetrolixAST.definition list
+)
+ident(
+  int_ref ast "src/retrolix/retrolix.ml" 26 437 451 "src/retrolix/retrolix.ml" 26 437 454
+)
+"src/retrolix/retrolix.ml" 27 457 482 "src/retrolix/retrolix.ml" 27 457 503
+call(
+  tail
+)
+type(
+  string
+)

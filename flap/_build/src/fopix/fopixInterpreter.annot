@@ -1,0 +1,5844 @@
+"src/fopix/fopixInterpreter.ml" 7 103 107 "src/fopix/fopixInterpreter.ml" 7 103 112
+type(
+  Position.t list -> string -> 'a
+)
+ident(
+  def error "src/fopix/fopixInterpreter.ml" 10 168 168 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 7 103 113 "src/fopix/fopixInterpreter.ml" 7 103 122
+type(
+  Position.t list
+)
+ident(
+  def positions "src/fopix/fopixInterpreter.ml" 7 103 123 "src/fopix/fopixInterpreter.ml" 8 129 163
+)
+"src/fopix/fopixInterpreter.ml" 7 103 123 "src/fopix/fopixInterpreter.ml" 7 103 126
+type(
+  string
+)
+ident(
+  def msg "src/fopix/fopixInterpreter.ml" 8 129 131 "src/fopix/fopixInterpreter.ml" 8 129 163
+)
+"src/fopix/fopixInterpreter.ml" 8 129 131 "src/fopix/fopixInterpreter.ml" 8 129 137
+type(
+  string -> Position.t list -> string -> 'a
+)
+ident(
+  ext_ref Error.errorN
+)
+"src/fopix/fopixInterpreter.ml" 8 129 138 "src/fopix/fopixInterpreter.ml" 8 129 149
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 8 129 150 "src/fopix/fopixInterpreter.ml" 8 129 159
+type(
+  Position.t list
+)
+ident(
+  int_ref positions "src/fopix/fopixInterpreter.ml" 7 103 113 "src/fopix/fopixInterpreter.ml" 7 103 122
+)
+"src/fopix/fopixInterpreter.ml" 8 129 160 "src/fopix/fopixInterpreter.ml" 8 129 163
+type(
+  string
+)
+ident(
+  int_ref msg "src/fopix/fopixInterpreter.ml" 7 103 123 "src/fopix/fopixInterpreter.ml" 7 103 126
+)
+"src/fopix/fopixInterpreter.ml" 8 129 131 "src/fopix/fopixInterpreter.ml" 8 129 163
+call(
+  tail
+)
+type(
+  'a
+)
+"src/fopix/fopixInterpreter.ml" 10 168 172 "src/fopix/fopixInterpreter.ml" 10 168 179
+type(
+  'a option -> ('a -> 'b option) -> 'b option
+)
+ident(
+  def >>= "src/fopix/fopixInterpreter.ml" 15 241 241 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 10 168 180 "src/fopix/fopixInterpreter.ml" 10 168 181
+type(
+  'a option
+)
+ident(
+  def m "src/fopix/fopixInterpreter.ml" 10 168 182 "src/fopix/fopixInterpreter.ml" 13 220 239
+)
+"src/fopix/fopixInterpreter.ml" 10 168 182 "src/fopix/fopixInterpreter.ml" 10 168 183
+type(
+  'a -> 'b option
+)
+ident(
+  def f "src/fopix/fopixInterpreter.ml" 11 186 188 "src/fopix/fopixInterpreter.ml" 13 220 239
+)
+"src/fopix/fopixInterpreter.ml" 11 186 194 "src/fopix/fopixInterpreter.ml" 11 186 195
+type(
+  'a option
+)
+ident(
+  int_ref m "src/fopix/fopixInterpreter.ml" 10 168 180 "src/fopix/fopixInterpreter.ml" 10 168 181
+)
+"src/fopix/fopixInterpreter.ml" 12 201 207 "src/fopix/fopixInterpreter.ml" 12 201 211
+type(
+  'a option
+)
+"src/fopix/fopixInterpreter.ml" 12 201 215 "src/fopix/fopixInterpreter.ml" 12 201 219
+type(
+  'b option
+)
+"src/fopix/fopixInterpreter.ml" 13 220 231 "src/fopix/fopixInterpreter.ml" 13 220 232
+type(
+  'a
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 13 220 236 "src/fopix/fopixInterpreter.ml" 13 220 239
+)
+"src/fopix/fopixInterpreter.ml" 13 220 226 "src/fopix/fopixInterpreter.ml" 13 220 232
+type(
+  'a option
+)
+"src/fopix/fopixInterpreter.ml" 13 220 236 "src/fopix/fopixInterpreter.ml" 13 220 237
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "src/fopix/fopixInterpreter.ml" 10 168 182 "src/fopix/fopixInterpreter.ml" 10 168 183
+)
+"src/fopix/fopixInterpreter.ml" 13 220 238 "src/fopix/fopixInterpreter.ml" 13 220 239
+type(
+  'a
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 13 220 231 "src/fopix/fopixInterpreter.ml" 13 220 232
+)
+"src/fopix/fopixInterpreter.ml" 13 220 236 "src/fopix/fopixInterpreter.ml" 13 220 239
+call(
+  tail
+)
+type(
+  'b option
+)
+"src/fopix/fopixInterpreter.ml" 11 186 188 "src/fopix/fopixInterpreter.ml" 13 220 239
+type(
+  'b option
+)
+"src/fopix/fopixInterpreter.ml" 15 241 245 "src/fopix/fopixInterpreter.ml" 15 241 251
+type(
+  'a -> 'a option
+)
+ident(
+  def return "src/fopix/fopixInterpreter.ml" 18 266 266 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 15 241 252 "src/fopix/fopixInterpreter.ml" 15 241 253
+type(
+  'a
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 16 256 258 "src/fopix/fopixInterpreter.ml" 16 256 264
+)
+"src/fopix/fopixInterpreter.ml" 16 256 263 "src/fopix/fopixInterpreter.ml" 16 256 264
+type(
+  'a
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 15 241 252 "src/fopix/fopixInterpreter.ml" 15 241 253
+)
+"src/fopix/fopixInterpreter.ml" 16 256 258 "src/fopix/fopixInterpreter.ml" 16 256 264
+type(
+  'a option
+)
+"src/fopix/fopixInterpreter.ml" 18 266 270 "src/fopix/fopixInterpreter.ml" 18 266 276
+type(
+  'a option -> 'a
+)
+ident(
+  def exit_m "src/fopix/fopixInterpreter.ml" 23 415 415 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 19 288 292 "src/fopix/fopixInterpreter.ml" 19 288 296
+type(
+  'a option
+)
+"src/fopix/fopixInterpreter.ml" 19 288 307 "src/fopix/fopixInterpreter.ml" 19 288 312
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 19 288 300 "src/fopix/fopixInterpreter.ml" 19 288 312
+type(
+  'a
+)
+"src/fopix/fopixInterpreter.ml" 20 331 340 "src/fopix/fopixInterpreter.ml" 20 331 341
+type(
+  'a
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 20 331 345 "src/fopix/fopixInterpreter.ml" 20 331 346
+)
+"src/fopix/fopixInterpreter.ml" 20 331 335 "src/fopix/fopixInterpreter.ml" 20 331 341
+type(
+  'a option
+)
+"src/fopix/fopixInterpreter.ml" 20 331 345 "src/fopix/fopixInterpreter.ml" 20 331 346
+type(
+  'a
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 20 331 340 "src/fopix/fopixInterpreter.ml" 20 331 341
+)
+"src/fopix/fopixInterpreter.ml" 18 266 279 "src/fopix/fopixInterpreter.ml" 20 331 346
+type(
+  'a option -> 'a
+)
+"src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+type(
+  value -> Int32.t option
+)
+ident(
+  def value_as_int "src/fopix/fopixInterpreter.ml" 35 757 757 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 34 695 733 "src/fopix/fopixInterpreter.ml" 34 695 734
+type(
+  Int32.t
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 34 695 738 "src/fopix/fopixInterpreter.ml" 34 695 744
+)
+"src/fopix/fopixInterpreter.ml" 34 695 728 "src/fopix/fopixInterpreter.ml" 34 695 734
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 34 695 743 "src/fopix/fopixInterpreter.ml" 34 695 744
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 34 695 733 "src/fopix/fopixInterpreter.ml" 34 695 734
+)
+"src/fopix/fopixInterpreter.ml" 34 695 738 "src/fopix/fopixInterpreter.ml" 34 695 744
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 34 695 747 "src/fopix/fopixInterpreter.ml" 34 695 748
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 34 695 752 "src/fopix/fopixInterpreter.ml" 34 695 756
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 34 695 719 "src/fopix/fopixInterpreter.ml" 34 695 756
+type(
+  value -> Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 35 757 761 "src/fopix/fopixInterpreter.ml" 35 757 774
+type(
+  value -> bool option
+)
+ident(
+  def value_as_bool "src/fopix/fopixInterpreter.ml" 36 820 820 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 35 757 796 "src/fopix/fopixInterpreter.ml" 35 757 797
+type(
+  bool
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 35 757 801 "src/fopix/fopixInterpreter.ml" 35 757 807
+)
+"src/fopix/fopixInterpreter.ml" 35 757 790 "src/fopix/fopixInterpreter.ml" 35 757 797
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 35 757 806 "src/fopix/fopixInterpreter.ml" 35 757 807
+type(
+  bool
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 35 757 796 "src/fopix/fopixInterpreter.ml" 35 757 797
+)
+"src/fopix/fopixInterpreter.ml" 35 757 801 "src/fopix/fopixInterpreter.ml" 35 757 807
+type(
+  bool option
+)
+"src/fopix/fopixInterpreter.ml" 35 757 810 "src/fopix/fopixInterpreter.ml" 35 757 811
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 35 757 815 "src/fopix/fopixInterpreter.ml" 35 757 819
+type(
+  bool option
+)
+"src/fopix/fopixInterpreter.ml" 35 757 781 "src/fopix/fopixInterpreter.ml" 35 757 819
+type(
+  value -> bool option
+)
+"src/fopix/fopixInterpreter.ml" 36 820 824 "src/fopix/fopixInterpreter.ml" 36 820 840
+type(
+  value -> Bmemory.address option
+)
+ident(
+  def value_as_address "src/fopix/fopixInterpreter.ml" 37 886 886 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 36 820 862 "src/fopix/fopixInterpreter.ml" 36 820 863
+type(
+  Bmemory.address
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 36 820 867 "src/fopix/fopixInterpreter.ml" 36 820 873
+)
+"src/fopix/fopixInterpreter.ml" 36 820 853 "src/fopix/fopixInterpreter.ml" 36 820 863
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 36 820 872 "src/fopix/fopixInterpreter.ml" 36 820 873
+type(
+  Bmemory.address
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 36 820 862 "src/fopix/fopixInterpreter.ml" 36 820 863
+)
+"src/fopix/fopixInterpreter.ml" 36 820 867 "src/fopix/fopixInterpreter.ml" 36 820 873
+type(
+  Bmemory.address option
+)
+"src/fopix/fopixInterpreter.ml" 36 820 876 "src/fopix/fopixInterpreter.ml" 36 820 877
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 36 820 881 "src/fopix/fopixInterpreter.ml" 36 820 885
+type(
+  Bmemory.address option
+)
+"src/fopix/fopixInterpreter.ml" 36 820 844 "src/fopix/fopixInterpreter.ml" 36 820 885
+type(
+  value -> Bmemory.address option
+)
+"src/fopix/fopixInterpreter.ml" 37 886 890 "src/fopix/fopixInterpreter.ml" 37 886 903
+type(
+  value -> unit option
+)
+ident(
+  def value_as_unit "src/fopix/fopixInterpreter.ml" 39 949 949 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 37 886 919 "src/fopix/fopixInterpreter.ml" 37 886 924
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 37 886 933 "src/fopix/fopixInterpreter.ml" 37 886 935
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 37 886 928 "src/fopix/fopixInterpreter.ml" 37 886 935
+type(
+  unit option
+)
+"src/fopix/fopixInterpreter.ml" 37 886 938 "src/fopix/fopixInterpreter.ml" 37 886 939
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 37 886 943 "src/fopix/fopixInterpreter.ml" 37 886 947
+type(
+  unit option
+)
+"src/fopix/fopixInterpreter.ml" 37 886 910 "src/fopix/fopixInterpreter.ml" 37 886 947
+type(
+  value -> unit option
+)
+"src/fopix/fopixInterpreter.ml" 40 979 983 "src/fopix/fopixInterpreter.ml" 40 979 995
+type(
+  Int32.t -> value
+)
+ident(
+  def int_as_value "src/fopix/fopixInterpreter.ml" 41 1008 1008 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 40 979 996 "src/fopix/fopixInterpreter.ml" 40 979 997
+type(
+  Int32.t
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 40 979 1001 "src/fopix/fopixInterpreter.ml" 40 979 1007
+)
+"src/fopix/fopixInterpreter.ml" 40 979 1006 "src/fopix/fopixInterpreter.ml" 40 979 1007
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 40 979 996 "src/fopix/fopixInterpreter.ml" 40 979 997
+)
+"src/fopix/fopixInterpreter.ml" 40 979 1001 "src/fopix/fopixInterpreter.ml" 40 979 1007
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 41 1008 1012 "src/fopix/fopixInterpreter.ml" 41 1008 1025
+type(
+  bool -> value
+)
+ident(
+  def bool_as_value "src/fopix/fopixInterpreter.ml" 42 1038 1038 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 41 1008 1026 "src/fopix/fopixInterpreter.ml" 41 1008 1027
+type(
+  bool
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 41 1008 1030 "src/fopix/fopixInterpreter.ml" 41 1008 1037
+)
+"src/fopix/fopixInterpreter.ml" 41 1008 1036 "src/fopix/fopixInterpreter.ml" 41 1008 1037
+type(
+  bool
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 41 1008 1026 "src/fopix/fopixInterpreter.ml" 41 1008 1027
+)
+"src/fopix/fopixInterpreter.ml" 41 1008 1030 "src/fopix/fopixInterpreter.ml" 41 1008 1037
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 42 1038 1042 "src/fopix/fopixInterpreter.ml" 42 1038 1058
+type(
+  Bmemory.address -> value
+)
+ident(
+  def address_as_value "src/fopix/fopixInterpreter.ml" 43 1074 1074 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 42 1038 1059 "src/fopix/fopixInterpreter.ml" 42 1038 1060
+type(
+  Bmemory.address
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 42 1038 1063 "src/fopix/fopixInterpreter.ml" 42 1038 1073
+)
+"src/fopix/fopixInterpreter.ml" 42 1038 1072 "src/fopix/fopixInterpreter.ml" 42 1038 1073
+type(
+  Bmemory.address
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 42 1038 1059 "src/fopix/fopixInterpreter.ml" 42 1038 1060
+)
+"src/fopix/fopixInterpreter.ml" 42 1038 1063 "src/fopix/fopixInterpreter.ml" 42 1038 1073
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 43 1074 1078 "src/fopix/fopixInterpreter.ml" 43 1074 1091
+type(
+  unit -> value
+)
+ident(
+  def unit_as_value "src/fopix/fopixInterpreter.ml" 45 1104 1104 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 43 1074 1092 "src/fopix/fopixInterpreter.ml" 43 1074 1094
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 43 1074 1097 "src/fopix/fopixInterpreter.ml" 43 1074 1102
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 45 1104 1108 "src/fopix/fopixInterpreter.ml" 45 1104 1119
+type(
+  value Bmemory.t -> value -> string
+)
+ident(
+  def print_value "src/fopix/fopixInterpreter.ml" 76 1807 1807 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 45 1104 1120 "src/fopix/fopixInterpreter.ml" 45 1104 1121
+type(
+  value Bmemory.t
+)
+ident(
+  def m "src/fopix/fopixInterpreter.ml" 45 1104 1122 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+)
+"src/fopix/fopixInterpreter.ml" 45 1104 1122 "src/fopix/fopixInterpreter.ml" 45 1104 1123
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 46 1126 1128 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+)
+"src/fopix/fopixInterpreter.ml" 46 1126 1132 "src/fopix/fopixInterpreter.ml" 46 1126 1141
+type(
+  int
+)
+ident(
+  def max_depth "src/fopix/fopixInterpreter.ml" 48 1150 1152 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+)
+"src/fopix/fopixInterpreter.ml" 46 1126 1144 "src/fopix/fopixInterpreter.ml" 46 1126 1145
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 48 1150 1160 "src/fopix/fopixInterpreter.ml" 48 1150 1171
+type(
+  int -> value -> string
+)
+ident(
+  def print_value "src/fopix/fopixInterpreter.ml" 48 1150 1152 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+)
+"src/fopix/fopixInterpreter.ml" 48 1150 1172 "src/fopix/fopixInterpreter.ml" 48 1150 1173
+type(
+  int
+)
+ident(
+  def d "src/fopix/fopixInterpreter.ml" 48 1150 1174 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+)
+"src/fopix/fopixInterpreter.ml" 48 1150 1174 "src/fopix/fopixInterpreter.ml" 48 1150 1175
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 49 1178 1182 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1185 "src/fopix/fopixInterpreter.ml" 49 1178 1186
+type(
+  int
+)
+ident(
+  int_ref d "src/fopix/fopixInterpreter.ml" 48 1150 1172 "src/fopix/fopixInterpreter.ml" 48 1150 1173
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1187 "src/fopix/fopixInterpreter.ml" 49 1178 1189
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1190 "src/fopix/fopixInterpreter.ml" 49 1178 1199
+type(
+  int
+)
+ident(
+  int_ref max_depth "src/fopix/fopixInterpreter.ml" 46 1126 1132 "src/fopix/fopixInterpreter.ml" 46 1126 1141
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1185 "src/fopix/fopixInterpreter.ml" 49 1178 1199
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1205 "src/fopix/fopixInterpreter.ml" 49 1178 1210
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 50 1216 1228 "src/fopix/fopixInterpreter.ml" 50 1216 1229
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 48 1150 1174 "src/fopix/fopixInterpreter.ml" 48 1150 1175
+)
+"src/fopix/fopixInterpreter.ml" 51 1235 1250 "src/fopix/fopixInterpreter.ml" 51 1235 1251
+type(
+  Int32.t
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 52 1255 1265 "src/fopix/fopixInterpreter.ml" 52 1255 1282
+)
+"src/fopix/fopixInterpreter.ml" 51 1235 1245 "src/fopix/fopixInterpreter.ml" 51 1235 1251
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 52 1255 1265 "src/fopix/fopixInterpreter.ml" 52 1255 1280
+type(
+  Int32.t -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"src/fopix/fopixInterpreter.ml" 52 1255 1281 "src/fopix/fopixInterpreter.ml" 52 1255 1282
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 51 1235 1250 "src/fopix/fopixInterpreter.ml" 51 1235 1251
+)
+"src/fopix/fopixInterpreter.ml" 52 1255 1265 "src/fopix/fopixInterpreter.ml" 52 1255 1282
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 53 1283 1299 "src/fopix/fopixInterpreter.ml" 53 1283 1303
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 53 1283 1293 "src/fopix/fopixInterpreter.ml" 53 1283 1303
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 54 1307 1317 "src/fopix/fopixInterpreter.ml" 54 1307 1323
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 55 1324 1340 "src/fopix/fopixInterpreter.ml" 55 1324 1345
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 55 1324 1334 "src/fopix/fopixInterpreter.ml" 55 1324 1345
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 56 1349 1359 "src/fopix/fopixInterpreter.ml" 56 1349 1366
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 57 1367 1377 "src/fopix/fopixInterpreter.ml" 57 1367 1378
+type(
+  char
+)
+ident(
+  def c "src/fopix/fopixInterpreter.ml" 58 1382 1386 "src/fopix/fopixInterpreter.ml" 58 1382 1412
+)
+"src/fopix/fopixInterpreter.ml" 57 1367 1371 "src/fopix/fopixInterpreter.ml" 57 1367 1378
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1386 "src/fopix/fopixInterpreter.ml" 58 1382 1389
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1390 "src/fopix/fopixInterpreter.ml" 58 1382 1391
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1392 "src/fopix/fopixInterpreter.ml" 58 1382 1404
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1405 "src/fopix/fopixInterpreter.ml" 58 1382 1406
+type(
+  char
+)
+ident(
+  int_ref c "src/fopix/fopixInterpreter.ml" 57 1367 1377 "src/fopix/fopixInterpreter.ml" 57 1367 1378
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1392 "src/fopix/fopixInterpreter.ml" 58 1382 1406
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1407 "src/fopix/fopixInterpreter.ml" 58 1382 1408
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1409 "src/fopix/fopixInterpreter.ml" 58 1382 1412
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1392 "src/fopix/fopixInterpreter.ml" 58 1382 1412
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 58 1382 1386 "src/fopix/fopixInterpreter.ml" 58 1382 1412
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 59 1413 1425 "src/fopix/fopixInterpreter.ml" 59 1413 1426
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 60 1430 1434 "src/fopix/fopixInterpreter.ml" 60 1430 1464
+)
+"src/fopix/fopixInterpreter.ml" 59 1413 1417 "src/fopix/fopixInterpreter.ml" 59 1413 1426
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1434 "src/fopix/fopixInterpreter.ml" 60 1430 1438
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1439 "src/fopix/fopixInterpreter.ml" 60 1430 1440
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1441 "src/fopix/fopixInterpreter.ml" 60 1430 1455
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1456 "src/fopix/fopixInterpreter.ml" 60 1430 1457
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 59 1413 1425 "src/fopix/fopixInterpreter.ml" 59 1413 1426
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1441 "src/fopix/fopixInterpreter.ml" 60 1430 1457
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1458 "src/fopix/fopixInterpreter.ml" 60 1430 1459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1460 "src/fopix/fopixInterpreter.ml" 60 1430 1464
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1441 "src/fopix/fopixInterpreter.ml" 60 1430 1464
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 60 1430 1434 "src/fopix/fopixInterpreter.ml" 60 1430 1464
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 61 1465 1469 "src/fopix/fopixInterpreter.ml" 61 1465 1474
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 62 1478 1482 "src/fopix/fopixInterpreter.ml" 62 1478 1486
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 63 1487 1500 "src/fopix/fopixInterpreter.ml" 63 1487 1501
+type(
+  Bmemory.address
+)
+ident(
+  def a "src/fopix/fopixInterpreter.ml" 64 1505 1509 "src/fopix/fopixInterpreter.ml" 64 1505 1526
+)
+"src/fopix/fopixInterpreter.ml" 63 1487 1491 "src/fopix/fopixInterpreter.ml" 63 1487 1501
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 64 1505 1509 "src/fopix/fopixInterpreter.ml" 64 1505 1520
+type(
+  value Bmemory.t -> int -> Bmemory.address -> string
+)
+ident(
+  int_ref print_block "src/fopix/fopixInterpreter.ml" 70 1631 1637 "src/fopix/fopixInterpreter.ml" 70 1631 1648
+)
+"src/fopix/fopixInterpreter.ml" 64 1505 1521 "src/fopix/fopixInterpreter.ml" 64 1505 1522
+type(
+  value Bmemory.t
+)
+ident(
+  int_ref m "src/fopix/fopixInterpreter.ml" 45 1104 1120 "src/fopix/fopixInterpreter.ml" 45 1104 1121
+)
+"src/fopix/fopixInterpreter.ml" 64 1505 1523 "src/fopix/fopixInterpreter.ml" 64 1505 1524
+type(
+  int
+)
+ident(
+  int_ref d "src/fopix/fopixInterpreter.ml" 48 1150 1172 "src/fopix/fopixInterpreter.ml" 48 1150 1173
+)
+"src/fopix/fopixInterpreter.ml" 64 1505 1525 "src/fopix/fopixInterpreter.ml" 64 1505 1526
+type(
+  Bmemory.address
+)
+ident(
+  int_ref a "src/fopix/fopixInterpreter.ml" 63 1487 1500 "src/fopix/fopixInterpreter.ml" 63 1487 1501
+)
+"src/fopix/fopixInterpreter.ml" 64 1505 1509 "src/fopix/fopixInterpreter.ml" 64 1505 1526
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 65 1527 1536 "src/fopix/fopixInterpreter.ml" 65 1527 1537
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 65 1527 1531 "src/fopix/fopixInterpreter.ml" 65 1527 1537
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 66 1541 1545 "src/fopix/fopixInterpreter.ml" 66 1541 1552
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 67 1553 1575 "src/fopix/fopixInterpreter.ml" 67 1553 1576
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 68 1584 1595 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+)
+"src/fopix/fopixInterpreter.ml" 67 1553 1578 "src/fopix/fopixInterpreter.ml" 67 1553 1579
+type(
+  value list -> value
+)
+"src/fopix/fopixInterpreter.ml" 67 1553 1563 "src/fopix/fopixInterpreter.ml" 67 1553 1580
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 68 1584 1595 "src/fopix/fopixInterpreter.ml" 68 1584 1609
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/fopix/fopixInterpreter.ml" 68 1584 1610 "src/fopix/fopixInterpreter.ml" 68 1584 1627
+type(
+  (string -> string, unit, string) format
+)
+"src/fopix/fopixInterpreter.ml" 68 1584 1628 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 67 1553 1575 "src/fopix/fopixInterpreter.ml" 67 1553 1576
+)
+"src/fopix/fopixInterpreter.ml" 68 1584 1595 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 50 1216 1222 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 49 1178 1182 "src/fopix/fopixInterpreter.ml" 68 1584 1629
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 70 1631 1637 "src/fopix/fopixInterpreter.ml" 70 1631 1648
+type(
+  value Bmemory.t -> int -> Bmemory.address -> string
+)
+ident(
+  def print_block "src/fopix/fopixInterpreter.ml" 48 1150 1152 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+)
+"src/fopix/fopixInterpreter.ml" 70 1631 1649 "src/fopix/fopixInterpreter.ml" 70 1631 1650
+type(
+  value Bmemory.t
+)
+ident(
+  def m "src/fopix/fopixInterpreter.ml" 70 1631 1651 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+)
+"src/fopix/fopixInterpreter.ml" 70 1631 1651 "src/fopix/fopixInterpreter.ml" 70 1631 1652
+type(
+  int
+)
+ident(
+  def d "src/fopix/fopixInterpreter.ml" 70 1631 1653 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+)
+"src/fopix/fopixInterpreter.ml" 70 1631 1653 "src/fopix/fopixInterpreter.ml" 70 1631 1654
+type(
+  Bmemory.address
+)
+ident(
+  def a "src/fopix/fopixInterpreter.ml" 71 1657 1661 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1665 "src/fopix/fopixInterpreter.ml" 71 1657 1667
+type(
+  value list
+)
+ident(
+  def vs "src/fopix/fopixInterpreter.ml" 72 1712 1716 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1670 "src/fopix/fopixInterpreter.ml" 71 1657 1683
+type(
+  value array -> value list
+)
+ident(
+  ext_ref Array.to_list
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1685 "src/fopix/fopixInterpreter.ml" 71 1657 1703
+type(
+  value Bmemory.t -> Bmemory.address -> value array
+)
+ident(
+  ext_ref Bmemory.read_block
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1704 "src/fopix/fopixInterpreter.ml" 71 1657 1705
+type(
+  value Bmemory.t
+)
+ident(
+  int_ref m "src/fopix/fopixInterpreter.ml" 70 1631 1649 "src/fopix/fopixInterpreter.ml" 70 1631 1650
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1706 "src/fopix/fopixInterpreter.ml" 71 1657 1707
+type(
+  Bmemory.address
+)
+ident(
+  int_ref a "src/fopix/fopixInterpreter.ml" 70 1631 1653 "src/fopix/fopixInterpreter.ml" 70 1631 1654
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1684 "src/fopix/fopixInterpreter.ml" 71 1657 1708
+call(
+  stack
+)
+type(
+  value array
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1670 "src/fopix/fopixInterpreter.ml" 71 1657 1708
+call(
+  stack
+)
+type(
+  value list
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1716 "src/fopix/fopixInterpreter.ml" 72 1712 1720
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1721 "src/fopix/fopixInterpreter.ml" 72 1712 1722
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1723 "src/fopix/fopixInterpreter.ml" 72 1712 1736
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1737 "src/fopix/fopixInterpreter.ml" 72 1712 1741
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1743 "src/fopix/fopixInterpreter.ml" 72 1712 1751
+type(
+  (value -> string) -> value list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1753 "src/fopix/fopixInterpreter.ml" 72 1712 1764
+type(
+  int -> value -> string
+)
+ident(
+  int_ref print_value "src/fopix/fopixInterpreter.ml" 48 1150 1160 "src/fopix/fopixInterpreter.ml" 48 1150 1171
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1766 "src/fopix/fopixInterpreter.ml" 72 1712 1767
+type(
+  int
+)
+ident(
+  int_ref d "src/fopix/fopixInterpreter.ml" 70 1631 1651 "src/fopix/fopixInterpreter.ml" 70 1631 1652
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1767 "src/fopix/fopixInterpreter.ml" 72 1712 1768
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1768 "src/fopix/fopixInterpreter.ml" 72 1712 1769
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1765 "src/fopix/fopixInterpreter.ml" 72 1712 1770
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1752 "src/fopix/fopixInterpreter.ml" 72 1712 1771
+call(
+  stack
+)
+type(
+  value -> string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1772 "src/fopix/fopixInterpreter.ml" 72 1712 1774
+type(
+  value list
+)
+ident(
+  int_ref vs "src/fopix/fopixInterpreter.ml" 71 1657 1665 "src/fopix/fopixInterpreter.ml" 71 1657 1667
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1742 "src/fopix/fopixInterpreter.ml" 72 1712 1775
+call(
+  stack
+)
+type(
+  string list
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1723 "src/fopix/fopixInterpreter.ml" 72 1712 1775
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1776 "src/fopix/fopixInterpreter.ml" 72 1712 1777
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1778 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1723 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 72 1712 1716 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 71 1657 1661 "src/fopix/fopixInterpreter.ml" 72 1712 1782
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 74 1788 1790 "src/fopix/fopixInterpreter.ml" 74 1788 1801
+type(
+  int -> value -> string
+)
+ident(
+  int_ref print_value "src/fopix/fopixInterpreter.ml" 48 1150 1160 "src/fopix/fopixInterpreter.ml" 48 1150 1171
+)
+"src/fopix/fopixInterpreter.ml" 74 1788 1802 "src/fopix/fopixInterpreter.ml" 74 1788 1803
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 74 1788 1804 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 45 1104 1122 "src/fopix/fopixInterpreter.ml" 45 1104 1123
+)
+"src/fopix/fopixInterpreter.ml" 74 1788 1790 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 48 1150 1152 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 46 1126 1128 "src/fopix/fopixInterpreter.ml" 74 1788 1805
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 87 2141 2147 "src/fopix/fopixInterpreter.ml" 87 2141 2154
+type(
+  'a list
+)
+ident(
+  def initial "src/fopix/fopixInterpreter.ml" 89 2161 2163 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 87 2141 2157 "src/fopix/fopixInterpreter.ml" 87 2141 2159
+type(
+  'a list
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2167 "src/fopix/fopixInterpreter.ml" 89 2161 2171
+type(
+  ('b * 'c) list -> 'b -> 'c -> ('b * 'c) list
+)
+ident(
+  def bind "src/fopix/fopixInterpreter.ml" 91 2193 2195 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2172 "src/fopix/fopixInterpreter.ml" 89 2161 2173
+type(
+  ('b * 'c) list
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 89 2161 2174 "src/fopix/fopixInterpreter.ml" 89 2161 2191
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2174 "src/fopix/fopixInterpreter.ml" 89 2161 2175
+type(
+  'b
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 89 2161 2176 "src/fopix/fopixInterpreter.ml" 89 2161 2191
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2176 "src/fopix/fopixInterpreter.ml" 89 2161 2177
+type(
+  'c
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 89 2161 2180 "src/fopix/fopixInterpreter.ml" 89 2161 2191
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2181 "src/fopix/fopixInterpreter.ml" 89 2161 2182
+type(
+  'b
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 89 2161 2174 "src/fopix/fopixInterpreter.ml" 89 2161 2175
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2184 "src/fopix/fopixInterpreter.ml" 89 2161 2185
+type(
+  'c
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 89 2161 2176 "src/fopix/fopixInterpreter.ml" 89 2161 2177
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2180 "src/fopix/fopixInterpreter.ml" 89 2161 2186
+type(
+  'b * 'c
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2190 "src/fopix/fopixInterpreter.ml" 89 2161 2191
+type(
+  ('b * 'c) list
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 89 2161 2172 "src/fopix/fopixInterpreter.ml" 89 2161 2173
+)
+"src/fopix/fopixInterpreter.ml" 89 2161 2180 "src/fopix/fopixInterpreter.ml" 89 2161 2191
+type(
+  ('b * 'c) list
+)
+"src/fopix/fopixInterpreter.ml" 93 2238 2244 "src/fopix/fopixInterpreter.ml" 93 2238 2250
+type(
+  FopixAST.identifier -> (FopixAST.identifier * 'd) list -> 'd
+)
+ident(
+  def lookup "src/fopix/fopixInterpreter.ml" 99 2343 2345 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 93 2238 2251 "src/fopix/fopixInterpreter.ml" 93 2238 2252
+type(
+  FopixAST.identifier
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 93 2238 2253 "src/fopix/fopixInterpreter.ml" 97 2308 2341
+)
+"src/fopix/fopixInterpreter.ml" 93 2238 2253 "src/fopix/fopixInterpreter.ml" 93 2238 2254
+type(
+  (FopixAST.identifier * 'd) list
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 94 2257 2261 "src/fopix/fopixInterpreter.ml" 97 2308 2341
+)
+"src/fopix/fopixInterpreter.ml" 95 2265 2271 "src/fopix/fopixInterpreter.ml" 95 2265 2281
+type(
+  FopixAST.identifier -> (FopixAST.identifier * 'd) list -> 'd
+)
+ident(
+  ext_ref List.assoc
+)
+"src/fopix/fopixInterpreter.ml" 95 2265 2282 "src/fopix/fopixInterpreter.ml" 95 2265 2283
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 93 2238 2251 "src/fopix/fopixInterpreter.ml" 93 2238 2252
+)
+"src/fopix/fopixInterpreter.ml" 95 2265 2284 "src/fopix/fopixInterpreter.ml" 95 2265 2285
+type(
+  (FopixAST.identifier * 'd) list
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 93 2238 2253 "src/fopix/fopixInterpreter.ml" 93 2238 2254
+)
+"src/fopix/fopixInterpreter.ml" 95 2265 2271 "src/fopix/fopixInterpreter.ml" 95 2265 2285
+call(
+  stack
+)
+type(
+  'd
+)
+"src/fopix/fopixInterpreter.ml" 96 2286 2295 "src/fopix/fopixInterpreter.ml" 96 2286 2304
+type(
+  exn
+)
+"src/fopix/fopixInterpreter.ml" 97 2308 2314 "src/fopix/fopixInterpreter.ml" 97 2308 2319
+type(
+  exn -> 'd
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/fopix/fopixInterpreter.ml" 97 2308 2339 "src/fopix/fopixInterpreter.ml" 97 2308 2340
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 93 2238 2251 "src/fopix/fopixInterpreter.ml" 93 2238 2252
+)
+"src/fopix/fopixInterpreter.ml" 97 2308 2320 "src/fopix/fopixInterpreter.ml" 97 2308 2341
+type(
+  exn
+)
+"src/fopix/fopixInterpreter.ml" 97 2308 2314 "src/fopix/fopixInterpreter.ml" 97 2308 2341
+type(
+  'd
+)
+"src/fopix/fopixInterpreter.ml" 94 2257 2261 "src/fopix/fopixInterpreter.ml" 97 2308 2341
+type(
+  'd
+)
+"src/fopix/fopixInterpreter.ml" 99 2343 2349 "src/fopix/fopixInterpreter.ml" 99 2343 2353
+type(
+  ('e * 'f) list -> ('e * 'f * ('e * 'f) list) option
+)
+ident(
+  def last "src/fopix/fopixInterpreter.ml" 103 2419 2421 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 100 2365 2371 "src/fopix/fopixInterpreter.ml" 100 2365 2373
+type(
+  ('e * 'f) list
+)
+"src/fopix/fopixInterpreter.ml" 100 2365 2377 "src/fopix/fopixInterpreter.ml" 100 2365 2381
+type(
+  ('e * 'f * ('e * 'f) list) option
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2389 "src/fopix/fopixInterpreter.ml" 101 2382 2390
+type(
+  'e
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 101 2382 2403 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2392 "src/fopix/fopixInterpreter.ml" 101 2382 2393
+type(
+  'f
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 101 2382 2403 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2388 "src/fopix/fopixInterpreter.ml" 101 2382 2394
+type(
+  'e * 'f
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2398 "src/fopix/fopixInterpreter.ml" 101 2382 2399
+type(
+  ('e * 'f) list
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 101 2382 2403 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2388 "src/fopix/fopixInterpreter.ml" 101 2382 2399
+type(
+  ('e * 'f) list
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2409 "src/fopix/fopixInterpreter.ml" 101 2382 2410
+type(
+  'e
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 101 2382 2389 "src/fopix/fopixInterpreter.ml" 101 2382 2390
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2412 "src/fopix/fopixInterpreter.ml" 101 2382 2413
+type(
+  'f
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 101 2382 2392 "src/fopix/fopixInterpreter.ml" 101 2382 2393
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2415 "src/fopix/fopixInterpreter.ml" 101 2382 2416
+type(
+  ('e * 'f) list
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 101 2382 2398 "src/fopix/fopixInterpreter.ml" 101 2382 2399
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2408 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+type(
+  'e * 'f * ('e * 'f) list
+)
+"src/fopix/fopixInterpreter.ml" 101 2382 2403 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+type(
+  ('e * 'f * ('e * 'f) list) option
+)
+"src/fopix/fopixInterpreter.ml" 99 2343 2356 "src/fopix/fopixInterpreter.ml" 101 2382 2417
+type(
+  ('e * 'f) list -> ('e * 'f * ('e * 'f) list) option
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2425 "src/fopix/fopixInterpreter.ml" 103 2419 2438
+type(
+  value Bmemory.t -> FopixAST.identifier * value -> string
+)
+ident(
+  def print_binding "src/fopix/fopixInterpreter.ml" 111 2664 2666 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2439 "src/fopix/fopixInterpreter.ml" 103 2419 2445
+type(
+  value Bmemory.t
+)
+ident(
+  def memory "src/fopix/fopixInterpreter.ml" 103 2419 2446 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2450 "src/fopix/fopixInterpreter.ml" 103 2419 2451
+type(
+  string
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 106 2582 2586 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2447 "src/fopix/fopixInterpreter.ml" 103 2419 2451
+type(
+  FopixAST.identifier
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2453 "src/fopix/fopixInterpreter.ml" 103 2419 2454
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 106 2582 2586 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+)
+"src/fopix/fopixInterpreter.ml" 103 2419 2446 "src/fopix/fopixInterpreter.ml" 103 2419 2455
+type(
+  FopixAST.identifier * value
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2589 "src/fopix/fopixInterpreter.ml" 106 2582 2590
+type(
+  string
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 103 2419 2450 "src/fopix/fopixInterpreter.ml" 103 2419 2451
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2592 "src/fopix/fopixInterpreter.ml" 106 2582 2593
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2589 "src/fopix/fopixInterpreter.ml" 106 2582 2594
+type(
+  char
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2595 "src/fopix/fopixInterpreter.ml" 106 2582 2596
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2597 "src/fopix/fopixInterpreter.ml" 106 2582 2600
+type(
+  char
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2589 "src/fopix/fopixInterpreter.ml" 106 2582 2600
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 107 2606 2612 "src/fopix/fopixInterpreter.ml" 107 2606 2614
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2630 "src/fopix/fopixInterpreter.ml" 109 2624 2631
+type(
+  string
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 103 2419 2450 "src/fopix/fopixInterpreter.ml" 103 2419 2451
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2632 "src/fopix/fopixInterpreter.ml" 109 2624 2633
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2634 "src/fopix/fopixInterpreter.ml" 109 2624 2639
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2640 "src/fopix/fopixInterpreter.ml" 109 2624 2641
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2642 "src/fopix/fopixInterpreter.ml" 109 2624 2653
+type(
+  value Bmemory.t -> value -> string
+)
+ident(
+  int_ref print_value "src/fopix/fopixInterpreter.ml" 45 1104 1108 "src/fopix/fopixInterpreter.ml" 45 1104 1119
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2654 "src/fopix/fopixInterpreter.ml" 109 2624 2660
+type(
+  value Bmemory.t
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 103 2419 2439 "src/fopix/fopixInterpreter.ml" 103 2419 2445
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2661 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 103 2419 2453 "src/fopix/fopixInterpreter.ml" 103 2419 2454
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2642 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2634 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+call(
+  stack
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 109 2624 2630 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 106 2582 2586 "src/fopix/fopixInterpreter.ml" 109 2624 2662
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 111 2664 2670 "src/fopix/fopixInterpreter.ml" 111 2664 2675
+type(
+  value Bmemory.t -> (FopixAST.identifier * value) list -> string
+)
+ident(
+  def print "src/fopix/fopixInterpreter.ml" 114 2786 2791 "src/fopix/fopixInterpreter.ml" 116 2793 2796
+)
+"src/fopix/fopixInterpreter.ml" 111 2664 2676 "src/fopix/fopixInterpreter.ml" 111 2664 2682
+type(
+  value Bmemory.t
+)
+ident(
+  def memory "src/fopix/fopixInterpreter.ml" 111 2664 2683 "src/fopix/fopixInterpreter.ml" 114 2786 2791
+)
+"src/fopix/fopixInterpreter.ml" 111 2664 2683 "src/fopix/fopixInterpreter.ml" 111 2664 2686
+type(
+  (FopixAST.identifier * value) list
+)
+ident(
+  def env "src/fopix/fopixInterpreter.ml" 112 2689 2693 "src/fopix/fopixInterpreter.ml" 114 2786 2791
+)
+"src/fopix/fopixInterpreter.ml" 112 2689 2693 "src/fopix/fopixInterpreter.ml" 112 2689 2706
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/fopix/fopixInterpreter.ml" 112 2689 2707 "src/fopix/fopixInterpreter.ml" 112 2689 2711
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2726 "src/fopix/fopixInterpreter.ml" 113 2714 2732
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2738 "src/fopix/fopixInterpreter.ml" 113 2714 2739
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 113 2714 2743 "src/fopix/fopixInterpreter.ml" 113 2714 2750
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2743 "src/fopix/fopixInterpreter.ml" 113 2714 2744
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 113 2714 2738 "src/fopix/fopixInterpreter.ml" 113 2714 2739
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2745 "src/fopix/fopixInterpreter.ml" 113 2714 2747
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2748 "src/fopix/fopixInterpreter.ml" 113 2714 2750
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2743 "src/fopix/fopixInterpreter.ml" 113 2714 2750
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2733 "src/fopix/fopixInterpreter.ml" 113 2714 2751
+type(
+  string -> bool
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2753 "src/fopix/fopixInterpreter.ml" 113 2714 2756
+type(
+  (FopixAST.identifier * value -> string) ->
+  (FopixAST.identifier * value) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2758 "src/fopix/fopixInterpreter.ml" 113 2714 2771
+type(
+  value Bmemory.t -> FopixAST.identifier * value -> string
+)
+ident(
+  int_ref print_binding "src/fopix/fopixInterpreter.ml" 103 2419 2425 "src/fopix/fopixInterpreter.ml" 103 2419 2438
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2772 "src/fopix/fopixInterpreter.ml" 113 2714 2778
+type(
+  value Bmemory.t
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 111 2664 2676 "src/fopix/fopixInterpreter.ml" 111 2664 2682
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2757 "src/fopix/fopixInterpreter.ml" 113 2714 2779
+call(
+  stack
+)
+type(
+  FopixAST.identifier * value -> string
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2780 "src/fopix/fopixInterpreter.ml" 113 2714 2783
+type(
+  (FopixAST.identifier * value) list
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 111 2664 2683 "src/fopix/fopixInterpreter.ml" 111 2664 2686
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2752 "src/fopix/fopixInterpreter.ml" 113 2714 2784
+call(
+  stack
+)
+type(
+  string list
+)
+"src/fopix/fopixInterpreter.ml" 113 2714 2726 "src/fopix/fopixInterpreter.ml" 113 2714 2784
+call(
+  stack
+)
+type(
+  string list
+)
+"src/fopix/fopixInterpreter.ml" 112 2689 2693 "src/fopix/fopixInterpreter.ml" 114 2786 2791
+call(
+  tail
+)
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 127 2976 2980 "src/fopix/fopixInterpreter.ml" 127 2976 2995
+type(
+  unit -> runtime
+)
+ident(
+  def initial_runtime "src/fopix/fopixInterpreter.ml" 132 3062 3062 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 127 2976 2996 "src/fopix/fopixInterpreter.ml" 127 2976 2998
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 128 3003 3019 "src/fopix/fopixInterpreter.ml" 128 3003 3038
+type(
+  Environment.t
+)
+ident(
+  int_ref Environment.initial "src/fopix/fopixInterpreter.ml" 78 1841 1843 "src/fopix/fopixInterpreter.ml" 78 1841 1858
+)
+"src/fopix/fopixInterpreter.ml" 129 3040 3055 "src/fopix/fopixInterpreter.ml" 129 3040 3057
+type(
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list
+)
+"src/fopix/fopixInterpreter.ml" 127 2976 3001 "src/fopix/fopixInterpreter.ml" 130 3059 3060
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+type(
+  value Bmemory.t ref
+)
+ident(
+  def memory "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3097 "src/fopix/fopixInterpreter.ml" 132 3062 3100
+type(
+  value Bmemory.t -> value Bmemory.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3102 "src/fopix/fopixInterpreter.ml" 132 3062 3115
+type(
+  unit -> value Bmemory.t
+)
+ident(
+  ext_ref Bmemory.fresh
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3116 "src/fopix/fopixInterpreter.ml" 132 3062 3118
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3101 "src/fopix/fopixInterpreter.ml" 132 3062 3119
+call(
+  stack
+)
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 132 3062 3097 "src/fopix/fopixInterpreter.ml" 132 3062 3119
+type(
+  value Bmemory.t ref
+)
+type(
+  value Bmemory.t ref
+)
+"src/fopix/fopixInterpreter.ml" 134 3121 3129 "src/fopix/fopixInterpreter.ml" 134 3121 3137
+type(
+  runtime -> FopixAST.definition list -> runtime * observable
+)
+ident(
+  def evaluate "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 134 3121 3138 "src/fopix/fopixInterpreter.ml" 134 3121 3145
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 134 3121 3146 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+)
+"src/fopix/fopixInterpreter.ml" 134 3121 3146 "src/fopix/fopixInterpreter.ml" 134 3121 3149
+type(
+  FopixAST.definition list
+)
+ident(
+  def ast "src/fopix/fopixInterpreter.ml" 135 3152 3154 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3158 "src/fopix/fopixInterpreter.ml" 135 3152 3165
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 136 3212 3214 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3168 "src/fopix/fopixInterpreter.ml" 135 3152 3182
+type(
+  (runtime -> FopixAST.definition -> runtime) ->
+  runtime -> FopixAST.definition list -> runtime
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3183 "src/fopix/fopixInterpreter.ml" 135 3152 3196
+type(
+  runtime -> FopixAST.definition -> runtime
+)
+ident(
+  int_ref bind_function "src/fopix/fopixInterpreter.ml" 139 3322 3326 "src/fopix/fopixInterpreter.ml" 139 3322 3339
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3197 "src/fopix/fopixInterpreter.ml" 135 3152 3204
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 134 3121 3138 "src/fopix/fopixInterpreter.ml" 134 3121 3145
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3205 "src/fopix/fopixInterpreter.ml" 135 3152 3208
+type(
+  FopixAST.definition list
+)
+ident(
+  int_ref ast "src/fopix/fopixInterpreter.ml" 134 3121 3146 "src/fopix/fopixInterpreter.ml" 134 3121 3149
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3168 "src/fopix/fopixInterpreter.ml" 135 3152 3208
+call(
+  stack
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3218 "src/fopix/fopixInterpreter.ml" 136 3212 3226
+type(
+  runtime
+)
+ident(
+  def runtime' "src/fopix/fopixInterpreter.ml" 137 3271 3273 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3229 "src/fopix/fopixInterpreter.ml" 136 3212 3243
+type(
+  (runtime -> FopixAST.definition -> runtime) ->
+  runtime -> FopixAST.definition list -> runtime
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3244 "src/fopix/fopixInterpreter.ml" 136 3212 3255
+type(
+  runtime -> FopixAST.definition -> runtime
+)
+ident(
+  int_ref declaration "src/fopix/fopixInterpreter.ml" 151 3591 3595 "src/fopix/fopixInterpreter.ml" 151 3591 3606
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3256 "src/fopix/fopixInterpreter.ml" 136 3212 3263
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 135 3152 3158 "src/fopix/fopixInterpreter.ml" 135 3152 3165
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3264 "src/fopix/fopixInterpreter.ml" 136 3212 3267
+type(
+  FopixAST.definition list
+)
+ident(
+  int_ref ast "src/fopix/fopixInterpreter.ml" 134 3121 3146 "src/fopix/fopixInterpreter.ml" 134 3121 3149
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3229 "src/fopix/fopixInterpreter.ml" 136 3212 3267
+call(
+  stack
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3274 "src/fopix/fopixInterpreter.ml" 137 3271 3282
+type(
+  runtime
+)
+ident(
+  int_ref runtime' "src/fopix/fopixInterpreter.ml" 136 3212 3218 "src/fopix/fopixInterpreter.ml" 136 3212 3226
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3284 "src/fopix/fopixInterpreter.ml" 137 3271 3302
+type(
+  runtime -> runtime -> observable
+)
+ident(
+  int_ref extract_observable "src/fopix/fopixInterpreter.ml" 314 8252 8256 "src/fopix/fopixInterpreter.ml" 314 8252 8274
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3303 "src/fopix/fopixInterpreter.ml" 137 3271 3310
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 135 3152 3158 "src/fopix/fopixInterpreter.ml" 135 3152 3165
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3311 "src/fopix/fopixInterpreter.ml" 137 3271 3319
+type(
+  runtime
+)
+ident(
+  int_ref runtime' "src/fopix/fopixInterpreter.ml" 136 3212 3218 "src/fopix/fopixInterpreter.ml" 136 3212 3226
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3284 "src/fopix/fopixInterpreter.ml" 137 3271 3319
+call(
+  stack
+)
+type(
+  observable
+)
+"src/fopix/fopixInterpreter.ml" 137 3271 3273 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+type(
+  runtime * observable
+)
+"src/fopix/fopixInterpreter.ml" 136 3212 3214 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+type(
+  runtime * observable
+)
+"src/fopix/fopixInterpreter.ml" 135 3152 3154 "src/fopix/fopixInterpreter.ml" 137 3271 3320
+type(
+  runtime * observable
+)
+"src/fopix/fopixInterpreter.ml" 139 3322 3326 "src/fopix/fopixInterpreter.ml" 139 3322 3339
+type(
+  runtime -> FopixAST.definition -> runtime
+)
+ident(
+  def bind_function "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 139 3322 3340 "src/fopix/fopixInterpreter.ml" 139 3322 3347
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 139 3322 3350 "src/fopix/fopixInterpreter.ml" 149 3530 3541
+)
+"src/fopix/fopixInterpreter.ml" 140 3359 3375 "src/fopix/fopixInterpreter.ml" 140 3359 3376
+type(
+  FopixAST.expression
+)
+type(
+  FopixAST.identifier
+)
+"src/fopix/fopixInterpreter.ml" 140 3359 3363 "src/fopix/fopixInterpreter.ml" 140 3359 3376
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 141 3380 3384 "src/fopix/fopixInterpreter.ml" 141 3380 3391
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 139 3322 3340 "src/fopix/fopixInterpreter.ml" 139 3322 3347
+)
+"src/fopix/fopixInterpreter.ml" 143 3393 3413 "src/fopix/fopixInterpreter.ml" 143 3393 3414
+type(
+  FopixAST.function_identifier
+)
+ident(
+  def f "src/fopix/fopixInterpreter.ml" 144 3426 3430 "src/fopix/fopixInterpreter.ml" 146 3497 3502
+)
+"src/fopix/fopixInterpreter.ml" 143 3393 3416 "src/fopix/fopixInterpreter.ml" 143 3393 3418
+type(
+  FopixAST.formals
+)
+ident(
+  def xs "src/fopix/fopixInterpreter.ml" 144 3426 3430 "src/fopix/fopixInterpreter.ml" 146 3497 3502
+)
+"src/fopix/fopixInterpreter.ml" 143 3393 3420 "src/fopix/fopixInterpreter.ml" 143 3393 3421
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 144 3426 3430 "src/fopix/fopixInterpreter.ml" 146 3497 3502
+)
+"src/fopix/fopixInterpreter.ml" 143 3393 3397 "src/fopix/fopixInterpreter.ml" 143 3393 3422
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 144 3426 3432 "src/fopix/fopixInterpreter.ml" 144 3426 3439
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 139 3322 3340 "src/fopix/fopixInterpreter.ml" 139 3322 3347
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3464 "src/fopix/fopixInterpreter.ml" 145 3445 3465
+type(
+  FopixAST.function_identifier
+)
+ident(
+  int_ref f "src/fopix/fopixInterpreter.ml" 143 3393 3413 "src/fopix/fopixInterpreter.ml" 143 3393 3414
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3468 "src/fopix/fopixInterpreter.ml" 145 3445 3470
+type(
+  FopixAST.formals
+)
+ident(
+  int_ref xs "src/fopix/fopixInterpreter.ml" 143 3393 3416 "src/fopix/fopixInterpreter.ml" 143 3393 3418
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3472 "src/fopix/fopixInterpreter.ml" 145 3445 3473
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 143 3393 3420 "src/fopix/fopixInterpreter.ml" 143 3393 3421
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3467 "src/fopix/fopixInterpreter.ml" 145 3445 3474
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3463 "src/fopix/fopixInterpreter.ml" 145 3445 3475
+type(
+  FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression)
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3479 "src/fopix/fopixInterpreter.ml" 145 3445 3486
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 139 3322 3340 "src/fopix/fopixInterpreter.ml" 139 3322 3347
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3479 "src/fopix/fopixInterpreter.ml" 145 3445 3496
+type(
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list
+)
+"src/fopix/fopixInterpreter.ml" 145 3445 3463 "src/fopix/fopixInterpreter.ml" 145 3445 3496
+type(
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list
+)
+"src/fopix/fopixInterpreter.ml" 144 3426 3430 "src/fopix/fopixInterpreter.ml" 146 3497 3502
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 148 3504 3525 "src/fopix/fopixInterpreter.ml" 148 3504 3526
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 148 3504 3508 "src/fopix/fopixInterpreter.ml" 148 3504 3526
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 149 3530 3534 "src/fopix/fopixInterpreter.ml" 149 3530 3541
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 139 3322 3340 "src/fopix/fopixInterpreter.ml" 139 3322 3347
+)
+"src/fopix/fopixInterpreter.ml" 139 3322 3350 "src/fopix/fopixInterpreter.ml" 149 3530 3541
+type(
+  FopixAST.definition -> runtime
+)
+"src/fopix/fopixInterpreter.ml" 151 3591 3595 "src/fopix/fopixInterpreter.ml" 151 3591 3606
+type(
+  runtime -> FopixAST.definition -> runtime
+)
+ident(
+  def declaration "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 151 3591 3617 "src/fopix/fopixInterpreter.ml" 158 3826 3837
+)
+"src/fopix/fopixInterpreter.ml" 152 3626 3643 "src/fopix/fopixInterpreter.ml" 152 3626 3644
+type(
+  FopixAST.identifier
+)
+ident(
+  def i "src/fopix/fopixInterpreter.ml" 153 3652 3656 "src/fopix/fopixInterpreter.ml" 154 3688 3763
+)
+"src/fopix/fopixInterpreter.ml" 152 3626 3646 "src/fopix/fopixInterpreter.ml" 152 3626 3647
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 153 3652 3656 "src/fopix/fopixInterpreter.ml" 154 3688 3763
+)
+"src/fopix/fopixInterpreter.ml" 152 3626 3630 "src/fopix/fopixInterpreter.ml" 152 3626 3648
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3660 "src/fopix/fopixInterpreter.ml" 153 3652 3661
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 154 3688 3692 "src/fopix/fopixInterpreter.ml" 154 3688 3763
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3664 "src/fopix/fopixInterpreter.ml" 153 3652 3674
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3675 "src/fopix/fopixInterpreter.ml" 153 3652 3682
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3683 "src/fopix/fopixInterpreter.ml" 153 3652 3684
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 152 3626 3646 "src/fopix/fopixInterpreter.ml" 152 3626 3647
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3664 "src/fopix/fopixInterpreter.ml" 153 3652 3684
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3694 "src/fopix/fopixInterpreter.ml" 154 3688 3701
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3721 "src/fopix/fopixInterpreter.ml" 154 3688 3737
+type(
+  Environment.t -> FopixAST.identifier -> value -> Environment.t
+)
+ident(
+  int_ref Environment.bind "src/fopix/fopixInterpreter.ml" 79 1859 1861 "src/fopix/fopixInterpreter.ml" 79 1859 1904
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3738 "src/fopix/fopixInterpreter.ml" 154 3688 3745
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3738 "src/fopix/fopixInterpreter.ml" 154 3688 3757
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3758 "src/fopix/fopixInterpreter.ml" 154 3688 3759
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 152 3626 3643 "src/fopix/fopixInterpreter.ml" 152 3626 3644
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3760 "src/fopix/fopixInterpreter.ml" 154 3688 3761
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 153 3652 3660 "src/fopix/fopixInterpreter.ml" 153 3652 3661
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3721 "src/fopix/fopixInterpreter.ml" 154 3688 3761
+call(
+  stack
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 154 3688 3692 "src/fopix/fopixInterpreter.ml" 154 3688 3763
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 153 3652 3656 "src/fopix/fopixInterpreter.ml" 154 3688 3763
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 155 3764 3783 "src/fopix/fopixInterpreter.ml" 155 3764 3784
+type(
+  FopixAST.expression
+)
+type(
+  FopixAST.formals
+)
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 155 3764 3768 "src/fopix/fopixInterpreter.ml" 155 3764 3784
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 156 3788 3792 "src/fopix/fopixInterpreter.ml" 156 3788 3799
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+)
+"src/fopix/fopixInterpreter.ml" 157 3800 3821 "src/fopix/fopixInterpreter.ml" 157 3800 3822
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 157 3800 3804 "src/fopix/fopixInterpreter.ml" 157 3800 3822
+type(
+  FopixAST.definition
+)
+"src/fopix/fopixInterpreter.ml" 158 3826 3830 "src/fopix/fopixInterpreter.ml" 158 3826 3837
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 151 3591 3607 "src/fopix/fopixInterpreter.ml" 151 3591 3614
+)
+"src/fopix/fopixInterpreter.ml" 151 3591 3617 "src/fopix/fopixInterpreter.ml" 158 3826 3837
+type(
+  FopixAST.definition -> runtime
+)
+"src/fopix/fopixInterpreter.ml" 160 3839 3843 "src/fopix/fopixInterpreter.ml" 160 3839 3867
+type(
+  string -> Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  def arith_operator_of_symbol "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 161 3879 3883 "src/fopix/fopixInterpreter.ml" 161 3879 3887
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 161 3879 3891 "src/fopix/fopixInterpreter.ml" 161 3879 3900
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  ext_ref Int32.add
+)
+"src/fopix/fopixInterpreter.ml" 162 3901 3905 "src/fopix/fopixInterpreter.ml" 162 3901 3909
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 162 3901 3913 "src/fopix/fopixInterpreter.ml" 162 3901 3922
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  ext_ref Int32.sub
+)
+"src/fopix/fopixInterpreter.ml" 163 3923 3927 "src/fopix/fopixInterpreter.ml" 163 3923 3931
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 163 3923 3935 "src/fopix/fopixInterpreter.ml" 163 3923 3944
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  ext_ref Int32.div
+)
+"src/fopix/fopixInterpreter.ml" 164 3945 3949 "src/fopix/fopixInterpreter.ml" 164 3945 3953
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 164 3945 3957 "src/fopix/fopixInterpreter.ml" 164 3945 3966
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  ext_ref Int32.mul
+)
+"src/fopix/fopixInterpreter.ml" 165 3967 3971 "src/fopix/fopixInterpreter.ml" 165 3967 3972
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 165 3967 3983 "src/fopix/fopixInterpreter.ml" 165 3967 3988
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 165 3967 3976 "src/fopix/fopixInterpreter.ml" 165 3967 3988
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+"src/fopix/fopixInterpreter.ml" 160 3839 3870 "src/fopix/fopixInterpreter.ml" 165 3967 3988
+type(
+  string -> Int32.t -> Int32.t -> Int32.t
+)
+"src/fopix/fopixInterpreter.ml" 167 3990 3994 "src/fopix/fopixInterpreter.ml" 167 3990 4016
+type(
+  string -> Int32.t -> Int32.t -> bool
+)
+ident(
+  def cmp_operator_of_symbol "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 168 4028 4032 "src/fopix/fopixInterpreter.ml" 168 4028 4036
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 168 4028 4040 "src/fopix/fopixInterpreter.ml" 168 4028 4045
+type(
+  Int32.t -> Int32.t -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/fopix/fopixInterpreter.ml" 169 4046 4050 "src/fopix/fopixInterpreter.ml" 169 4046 4054
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 169 4046 4058 "src/fopix/fopixInterpreter.ml" 169 4046 4063
+type(
+  Int32.t -> Int32.t -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/fopix/fopixInterpreter.ml" 170 4064 4068 "src/fopix/fopixInterpreter.ml" 170 4064 4073
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 170 4064 4077 "src/fopix/fopixInterpreter.ml" 170 4064 4083
+type(
+  Int32.t -> Int32.t -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/fopix/fopixInterpreter.ml" 171 4084 4088 "src/fopix/fopixInterpreter.ml" 171 4084 4093
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 171 4084 4097 "src/fopix/fopixInterpreter.ml" 171 4084 4103
+type(
+  Int32.t -> Int32.t -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/fopix/fopixInterpreter.ml" 172 4104 4108 "src/fopix/fopixInterpreter.ml" 172 4104 4112
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 172 4104 4116 "src/fopix/fopixInterpreter.ml" 172 4104 4121
+type(
+  Int32.t -> Int32.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/fopix/fopixInterpreter.ml" 173 4122 4126 "src/fopix/fopixInterpreter.ml" 173 4122 4127
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 173 4122 4138 "src/fopix/fopixInterpreter.ml" 173 4122 4143
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 173 4122 4131 "src/fopix/fopixInterpreter.ml" 173 4122 4143
+type(
+  Int32.t -> Int32.t -> bool
+)
+"src/fopix/fopixInterpreter.ml" 167 3990 4019 "src/fopix/fopixInterpreter.ml" 173 4122 4143
+type(
+  string -> Int32.t -> Int32.t -> bool
+)
+"src/fopix/fopixInterpreter.ml" 175 4145 4149 "src/fopix/fopixInterpreter.ml" 175 4145 4175
+type(
+  string -> bool -> bool -> bool
+)
+ident(
+  def boolean_operator_of_symbol "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 176 4187 4191 "src/fopix/fopixInterpreter.ml" 176 4187 4196
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 176 4187 4200 "src/fopix/fopixInterpreter.ml" 176 4187 4206
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/fopix/fopixInterpreter.ml" 177 4207 4211 "src/fopix/fopixInterpreter.ml" 177 4207 4216
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 177 4207 4220 "src/fopix/fopixInterpreter.ml" 177 4207 4226
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/fopix/fopixInterpreter.ml" 178 4227 4231 "src/fopix/fopixInterpreter.ml" 178 4227 4232
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 178 4227 4243 "src/fopix/fopixInterpreter.ml" 178 4227 4248
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 178 4227 4236 "src/fopix/fopixInterpreter.ml" 178 4227 4248
+type(
+  bool -> bool -> bool
+)
+"src/fopix/fopixInterpreter.ml" 175 4145 4178 "src/fopix/fopixInterpreter.ml" 178 4227 4248
+type(
+  string -> bool -> bool -> bool
+)
+"src/fopix/fopixInterpreter.ml" 180 4250 4254 "src/fopix/fopixInterpreter.ml" 180 4250 4281
+type(
+  runtime -> string -> FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  def evaluation_of_binary_symbol "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 180 4250 4282 "src/fopix/fopixInterpreter.ml" 180 4250 4293
+type(
+  runtime
+)
+ident(
+  def environment "src/fopix/fopixInterpreter.ml" 180 4250 4296 "src/fopix/fopixInterpreter.ml" 187 4593 4614
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4310 "src/fopix/fopixInterpreter.ml" 181 4305 4314
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4317 "src/fopix/fopixInterpreter.ml" 181 4305 4321
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4310 "src/fopix/fopixInterpreter.ml" 181 4305 4321
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4324 "src/fopix/fopixInterpreter.ml" 181 4305 4328
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4310 "src/fopix/fopixInterpreter.ml" 181 4305 4328
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4331 "src/fopix/fopixInterpreter.ml" 181 4305 4335
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4309 "src/fopix/fopixInterpreter.ml" 181 4305 4336
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4340 "src/fopix/fopixInterpreter.ml" 181 4305 4341
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 182 4345 4349 "src/fopix/fopixInterpreter.ml" 182 4345 4401
+)
+"src/fopix/fopixInterpreter.ml" 181 4305 4309 "src/fopix/fopixInterpreter.ml" 181 4305 4341
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4349 "src/fopix/fopixInterpreter.ml" 182 4345 4360
+type(
+  runtime ->
+  (Int32.t -> Int32.t -> Int32.t) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref arith_binop "src/fopix/fopixInterpreter.ml" 303 7933 7937 "src/fopix/fopixInterpreter.ml" 303 7933 7948
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4361 "src/fopix/fopixInterpreter.ml" 182 4345 4372
+type(
+  runtime
+)
+ident(
+  int_ref environment "src/fopix/fopixInterpreter.ml" 180 4250 4282 "src/fopix/fopixInterpreter.ml" 180 4250 4293
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4374 "src/fopix/fopixInterpreter.ml" 182 4345 4398
+type(
+  string -> Int32.t -> Int32.t -> Int32.t
+)
+ident(
+  int_ref arith_operator_of_symbol "src/fopix/fopixInterpreter.ml" 160 3839 3843 "src/fopix/fopixInterpreter.ml" 160 3839 3867
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4399 "src/fopix/fopixInterpreter.ml" 182 4345 4400
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 181 4305 4309 "src/fopix/fopixInterpreter.ml" 181 4305 4341
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4373 "src/fopix/fopixInterpreter.ml" 182 4345 4401
+call(
+  stack
+)
+type(
+  Int32.t -> Int32.t -> Int32.t
+)
+"src/fopix/fopixInterpreter.ml" 182 4345 4349 "src/fopix/fopixInterpreter.ml" 182 4345 4401
+call(
+  tail
+)
+type(
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4407 "src/fopix/fopixInterpreter.ml" 183 4402 4411
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4414 "src/fopix/fopixInterpreter.ml" 183 4402 4418
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4407 "src/fopix/fopixInterpreter.ml" 183 4402 4418
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4421 "src/fopix/fopixInterpreter.ml" 183 4402 4426
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4407 "src/fopix/fopixInterpreter.ml" 183 4402 4426
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4429 "src/fopix/fopixInterpreter.ml" 183 4402 4434
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4407 "src/fopix/fopixInterpreter.ml" 183 4402 4434
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4437 "src/fopix/fopixInterpreter.ml" 183 4402 4441
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4406 "src/fopix/fopixInterpreter.ml" 183 4402 4442
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4446 "src/fopix/fopixInterpreter.ml" 183 4402 4447
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 184 4451 4455 "src/fopix/fopixInterpreter.ml" 184 4451 4505
+)
+"src/fopix/fopixInterpreter.ml" 183 4402 4406 "src/fopix/fopixInterpreter.ml" 183 4402 4447
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4455 "src/fopix/fopixInterpreter.ml" 184 4451 4466
+type(
+  runtime ->
+  (Int32.t -> Int32.t -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref arith_cmpop "src/fopix/fopixInterpreter.ml" 304 7991 7995 "src/fopix/fopixInterpreter.ml" 304 7991 8006
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4467 "src/fopix/fopixInterpreter.ml" 184 4451 4478
+type(
+  runtime
+)
+ident(
+  int_ref environment "src/fopix/fopixInterpreter.ml" 180 4250 4282 "src/fopix/fopixInterpreter.ml" 180 4250 4293
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4480 "src/fopix/fopixInterpreter.ml" 184 4451 4502
+type(
+  string -> Int32.t -> Int32.t -> bool
+)
+ident(
+  int_ref cmp_operator_of_symbol "src/fopix/fopixInterpreter.ml" 167 3990 3994 "src/fopix/fopixInterpreter.ml" 167 3990 4016
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4503 "src/fopix/fopixInterpreter.ml" 184 4451 4504
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 183 4402 4406 "src/fopix/fopixInterpreter.ml" 183 4402 4447
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4479 "src/fopix/fopixInterpreter.ml" 184 4451 4505
+call(
+  stack
+)
+type(
+  Int32.t -> Int32.t -> bool
+)
+"src/fopix/fopixInterpreter.ml" 184 4451 4455 "src/fopix/fopixInterpreter.ml" 184 4451 4505
+call(
+  tail
+)
+type(
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 185 4506 4511 "src/fopix/fopixInterpreter.ml" 185 4506 4515
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 185 4506 4518 "src/fopix/fopixInterpreter.ml" 185 4506 4522
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 185 4506 4510 "src/fopix/fopixInterpreter.ml" 185 4506 4523
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 185 4506 4527 "src/fopix/fopixInterpreter.ml" 185 4506 4528
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 186 4532 4536 "src/fopix/fopixInterpreter.ml" 186 4532 4592
+)
+"src/fopix/fopixInterpreter.ml" 185 4506 4510 "src/fopix/fopixInterpreter.ml" 185 4506 4528
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4536 "src/fopix/fopixInterpreter.ml" 186 4532 4549
+type(
+  runtime ->
+  (bool -> bool -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref boolean_binop "src/fopix/fopixInterpreter.ml" 305 8050 8054 "src/fopix/fopixInterpreter.ml" 305 8050 8067
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4550 "src/fopix/fopixInterpreter.ml" 186 4532 4561
+type(
+  runtime
+)
+ident(
+  int_ref environment "src/fopix/fopixInterpreter.ml" 180 4250 4282 "src/fopix/fopixInterpreter.ml" 180 4250 4293
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4563 "src/fopix/fopixInterpreter.ml" 186 4532 4589
+type(
+  string -> bool -> bool -> bool
+)
+ident(
+  int_ref boolean_operator_of_symbol "src/fopix/fopixInterpreter.ml" 175 4145 4149 "src/fopix/fopixInterpreter.ml" 175 4145 4175
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4590 "src/fopix/fopixInterpreter.ml" 186 4532 4591
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 185 4506 4510 "src/fopix/fopixInterpreter.ml" 185 4506 4528
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4562 "src/fopix/fopixInterpreter.ml" 186 4532 4592
+call(
+  stack
+)
+type(
+  bool -> bool -> bool
+)
+"src/fopix/fopixInterpreter.ml" 186 4532 4536 "src/fopix/fopixInterpreter.ml" 186 4532 4592
+call(
+  tail
+)
+type(
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 187 4593 4597 "src/fopix/fopixInterpreter.ml" 187 4593 4598
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 187 4593 4609 "src/fopix/fopixInterpreter.ml" 187 4593 4614
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 187 4593 4602 "src/fopix/fopixInterpreter.ml" 187 4593 4614
+type(
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 180 4250 4296 "src/fopix/fopixInterpreter.ml" 187 4593 4614
+type(
+  string -> FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 189 4616 4620 "src/fopix/fopixInterpreter.ml" 189 4616 4639
+type(
+  string -> bool
+)
+ident(
+  def is_binary_primitive "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4659
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4662 "src/fopix/fopixInterpreter.ml" 190 4651 4666
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4666
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4669 "src/fopix/fopixInterpreter.ml" 190 4651 4673
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4673
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4676 "src/fopix/fopixInterpreter.ml" 190 4651 4680
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4680
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4683 "src/fopix/fopixInterpreter.ml" 190 4651 4687
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4687
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4690 "src/fopix/fopixInterpreter.ml" 190 4651 4694
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4694
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4697 "src/fopix/fopixInterpreter.ml" 190 4651 4702
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4702
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4705 "src/fopix/fopixInterpreter.ml" 190 4651 4710
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4710
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4713 "src/fopix/fopixInterpreter.ml" 190 4651 4717
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 190 4651 4717
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 191 4718 4722 "src/fopix/fopixInterpreter.ml" 191 4718 4727
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 191 4718 4727
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 191 4718 4730 "src/fopix/fopixInterpreter.ml" 191 4718 4735
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 190 4651 4655 "src/fopix/fopixInterpreter.ml" 191 4718 4735
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 191 4718 4739 "src/fopix/fopixInterpreter.ml" 191 4718 4743
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 192 4744 4748 "src/fopix/fopixInterpreter.ml" 192 4744 4749
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 192 4744 4753 "src/fopix/fopixInterpreter.ml" 192 4744 4758
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 189 4616 4642 "src/fopix/fopixInterpreter.ml" 192 4744 4758
+type(
+  string -> bool
+)
+"src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  def expression "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 194 4760 4785 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 195 4794 4806 "src/fopix/fopixInterpreter.ml" 195 4794 4807
+type(
+  FopixAST.literal
+)
+ident(
+  def l "src/fopix/fopixInterpreter.ml" 196 4811 4816 "src/fopix/fopixInterpreter.ml" 196 4811 4825
+)
+"src/fopix/fopixInterpreter.ml" 195 4794 4798 "src/fopix/fopixInterpreter.ml" 195 4794 4807
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 196 4811 4816 "src/fopix/fopixInterpreter.ml" 196 4811 4823
+type(
+  FopixAST.literal -> value
+)
+ident(
+  int_ref literal "src/fopix/fopixInterpreter.ml" 307 8113 8117 "src/fopix/fopixInterpreter.ml" 307 8113 8124
+)
+"src/fopix/fopixInterpreter.ml" 196 4811 4824 "src/fopix/fopixInterpreter.ml" 196 4811 4825
+type(
+  FopixAST.literal
+)
+ident(
+  int_ref l "src/fopix/fopixInterpreter.ml" 195 4794 4806 "src/fopix/fopixInterpreter.ml" 195 4794 4807
+)
+"src/fopix/fopixInterpreter.ml" 196 4811 4816 "src/fopix/fopixInterpreter.ml" 196 4811 4825
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 198 4827 4840 "src/fopix/fopixInterpreter.ml" 198 4827 4841
+type(
+  FopixAST.identifier
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 199 4845 4850 "src/fopix/fopixInterpreter.ml" 200 4904 4912
+)
+"src/fopix/fopixInterpreter.ml" 198 4827 4831 "src/fopix/fopixInterpreter.ml" 198 4827 4841
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4854 "src/fopix/fopixInterpreter.ml" 199 4845 4857
+type(
+  value
+)
+ident(
+  def res "src/fopix/fopixInterpreter.ml" 200 4904 4909 "src/fopix/fopixInterpreter.ml" 200 4904 4912
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4860 "src/fopix/fopixInterpreter.ml" 199 4845 4878
+type(
+  FopixAST.identifier -> Environment.t -> value
+)
+ident(
+  int_ref Environment.lookup "src/fopix/fopixInterpreter.ml" 81 1949 1951 "src/fopix/fopixInterpreter.ml" 81 1949 1989
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4879 "src/fopix/fopixInterpreter.ml" 199 4845 4880
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 198 4827 4840 "src/fopix/fopixInterpreter.ml" 198 4827 4841
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4881 "src/fopix/fopixInterpreter.ml" 199 4845 4888
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4881 "src/fopix/fopixInterpreter.ml" 199 4845 4900
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4860 "src/fopix/fopixInterpreter.ml" 199 4845 4900
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 200 4904 4909 "src/fopix/fopixInterpreter.ml" 200 4904 4912
+type(
+  value
+)
+ident(
+  int_ref res "src/fopix/fopixInterpreter.ml" 199 4845 4854 "src/fopix/fopixInterpreter.ml" 199 4845 4857
+)
+"src/fopix/fopixInterpreter.ml" 199 4845 4850 "src/fopix/fopixInterpreter.ml" 200 4904 4912
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 202 4914 4926 "src/fopix/fopixInterpreter.ml" 202 4914 4927
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 203 4945 4949 "src/fopix/fopixInterpreter.ml" 212 5275 5282
+)
+"src/fopix/fopixInterpreter.ml" 202 4914 4929 "src/fopix/fopixInterpreter.ml" 202 4914 4931
+type(
+  FopixAST.expression array
+)
+ident(
+  def bs "src/fopix/fopixInterpreter.ml" 203 4945 4949 "src/fopix/fopixInterpreter.ml" 212 5275 5282
+)
+"src/fopix/fopixInterpreter.ml" 202 4914 4933 "src/fopix/fopixInterpreter.ml" 202 4914 4940
+type(
+  FopixAST.expression option
+)
+ident(
+  def default "src/fopix/fopixInterpreter.ml" 203 4945 4949 "src/fopix/fopixInterpreter.ml" 212 5275 5282
+)
+"src/fopix/fopixInterpreter.ml" 202 4914 4918 "src/fopix/fopixInterpreter.ml" 202 4914 4941
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4961 "src/fopix/fopixInterpreter.ml" 203 4945 4973
+type(
+  value -> Int32.t option
+)
+ident(
+  int_ref value_as_int "src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4975 "src/fopix/fopixInterpreter.ml" 203 4945 4985
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4986 "src/fopix/fopixInterpreter.ml" 203 4945 4993
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4994 "src/fopix/fopixInterpreter.ml" 203 4945 4995
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 202 4914 4926 "src/fopix/fopixInterpreter.ml" 202 4914 4927
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4974 "src/fopix/fopixInterpreter.ml" 203 4945 4996
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4961 "src/fopix/fopixInterpreter.ml" 203 4945 4996
+call(
+  stack
+)
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 204 5002 5010 "src/fopix/fopixInterpreter.ml" 204 5002 5014
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 204 5002 5018 "src/fopix/fopixInterpreter.ml" 204 5002 5023
+type(
+  Position.t list -> string -> value
+)
+ident(
+  int_ref error "src/fopix/fopixInterpreter.ml" 7 103 107 "src/fopix/fopixInterpreter.ml" 7 103 112
+)
+"src/fopix/fopixInterpreter.ml" 204 5002 5024 "src/fopix/fopixInterpreter.ml" 204 5002 5026
+type(
+  Position.t list
+)
+"src/fopix/fopixInterpreter.ml" 204 5002 5027 "src/fopix/fopixInterpreter.ml" 204 5002 5053
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 204 5002 5018 "src/fopix/fopixInterpreter.ml" 204 5002 5053
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 205 5054 5067 "src/fopix/fopixInterpreter.ml" 205 5054 5068
+type(
+  Int32.t
+)
+ident(
+  def i "src/fopix/fopixInterpreter.ml" 206 5072 5074 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+)
+"src/fopix/fopixInterpreter.ml" 205 5054 5062 "src/fopix/fopixInterpreter.ml" 205 5054 5068
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 206 5072 5078 "src/fopix/fopixInterpreter.ml" 206 5072 5079
+type(
+  int
+)
+ident(
+  def i "src/fopix/fopixInterpreter.ml" 207 5100 5102 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+)
+"src/fopix/fopixInterpreter.ml" 206 5072 5082 "src/fopix/fopixInterpreter.ml" 206 5072 5094
+type(
+  Int32.t -> int
+)
+ident(
+  ext_ref Int32.to_int
+)
+"src/fopix/fopixInterpreter.ml" 206 5072 5095 "src/fopix/fopixInterpreter.ml" 206 5072 5096
+type(
+  Int32.t
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 205 5054 5067 "src/fopix/fopixInterpreter.ml" 205 5054 5068
+)
+"src/fopix/fopixInterpreter.ml" 206 5072 5082 "src/fopix/fopixInterpreter.ml" 206 5072 5096
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5105 "src/fopix/fopixInterpreter.ml" 207 5100 5106
+type(
+  int
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 206 5072 5078 "src/fopix/fopixInterpreter.ml" 206 5072 5079
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5107 "src/fopix/fopixInterpreter.ml" 207 5100 5108
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5109 "src/fopix/fopixInterpreter.ml" 207 5100 5121
+type(
+  FopixAST.expression array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5122 "src/fopix/fopixInterpreter.ml" 207 5100 5124
+type(
+  FopixAST.expression array
+)
+ident(
+  int_ref bs "src/fopix/fopixInterpreter.ml" 202 4914 4929 "src/fopix/fopixInterpreter.ml" 202 4914 4931
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5109 "src/fopix/fopixInterpreter.ml" 207 5100 5124
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5105 "src/fopix/fopixInterpreter.ml" 207 5100 5124
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5134 "src/fopix/fopixInterpreter.ml" 208 5130 5144
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5145 "src/fopix/fopixInterpreter.ml" 208 5130 5152
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5153 "src/fopix/fopixInterpreter.ml" 208 5130 5155
+type(
+  FopixAST.expression array
+)
+ident(
+  int_ref bs "src/fopix/fopixInterpreter.ml" 202 4914 4929 "src/fopix/fopixInterpreter.ml" 202 4914 4931
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5157 "src/fopix/fopixInterpreter.ml" 208 5130 5158
+type(
+  int
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 206 5072 5078 "src/fopix/fopixInterpreter.ml" 206 5072 5079
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5153 "src/fopix/fopixInterpreter.ml" 208 5130 5159
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 208 5130 5134 "src/fopix/fopixInterpreter.ml" 208 5130 5159
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 209 5160 5173 "src/fopix/fopixInterpreter.ml" 209 5160 5180
+type(
+  FopixAST.expression option
+)
+ident(
+  int_ref default "src/fopix/fopixInterpreter.ml" 202 4914 4933 "src/fopix/fopixInterpreter.ml" 202 4914 4940
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5197 "src/fopix/fopixInterpreter.ml" 210 5186 5198
+type(
+  FopixAST.expression
+)
+ident(
+  def t "src/fopix/fopixInterpreter.ml" 210 5186 5202 "src/fopix/fopixInterpreter.ml" 210 5186 5222
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5192 "src/fopix/fopixInterpreter.ml" 210 5186 5198
+type(
+  FopixAST.expression option
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5202 "src/fopix/fopixInterpreter.ml" 210 5186 5212
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5213 "src/fopix/fopixInterpreter.ml" 210 5186 5220
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5221 "src/fopix/fopixInterpreter.ml" 210 5186 5222
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref t "src/fopix/fopixInterpreter.ml" 210 5186 5197 "src/fopix/fopixInterpreter.ml" 210 5186 5198
+)
+"src/fopix/fopixInterpreter.ml" 210 5186 5202 "src/fopix/fopixInterpreter.ml" 210 5186 5222
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 211 5223 5229 "src/fopix/fopixInterpreter.ml" 211 5223 5233
+type(
+  FopixAST.expression option
+)
+"src/fopix/fopixInterpreter.ml" 211 5223 5237 "src/fopix/fopixInterpreter.ml" 211 5223 5242
+type(
+  Position.t list -> string -> value
+)
+ident(
+  int_ref error "src/fopix/fopixInterpreter.ml" 7 103 107 "src/fopix/fopixInterpreter.ml" 7 103 112
+)
+"src/fopix/fopixInterpreter.ml" 211 5223 5243 "src/fopix/fopixInterpreter.ml" 211 5223 5245
+type(
+  Position.t list
+)
+"src/fopix/fopixInterpreter.ml" 211 5223 5246 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 211 5223 5237 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 209 5160 5167 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 207 5100 5102 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 206 5072 5074 "src/fopix/fopixInterpreter.ml" 211 5223 5274
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 203 4945 4949 "src/fopix/fopixInterpreter.ml" 212 5275 5282
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 214 5284 5300 "src/fopix/fopixInterpreter.ml" 214 5284 5301
+type(
+  FopixAST.expression
+)
+ident(
+  def c "src/fopix/fopixInterpreter.ml" 215 5312 5317 "src/fopix/fopixInterpreter.ml" 223 5486 5494
+)
+"src/fopix/fopixInterpreter.ml" 214 5284 5303 "src/fopix/fopixInterpreter.ml" 214 5284 5304
+type(
+  FopixAST.expression
+)
+ident(
+  def t "src/fopix/fopixInterpreter.ml" 215 5312 5317 "src/fopix/fopixInterpreter.ml" 223 5486 5494
+)
+"src/fopix/fopixInterpreter.ml" 214 5284 5306 "src/fopix/fopixInterpreter.ml" 214 5284 5307
+type(
+  FopixAST.expression
+)
+ident(
+  def f "src/fopix/fopixInterpreter.ml" 215 5312 5317 "src/fopix/fopixInterpreter.ml" 223 5486 5494
+)
+"src/fopix/fopixInterpreter.ml" 214 5284 5288 "src/fopix/fopixInterpreter.ml" 214 5284 5308
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 216 5323 5336 "src/fopix/fopixInterpreter.ml" 216 5323 5346
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 216 5323 5347 "src/fopix/fopixInterpreter.ml" 216 5323 5354
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 216 5323 5355 "src/fopix/fopixInterpreter.ml" 216 5323 5356
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref c "src/fopix/fopixInterpreter.ml" 214 5284 5300 "src/fopix/fopixInterpreter.ml" 214 5284 5301
+)
+"src/fopix/fopixInterpreter.ml" 216 5323 5336 "src/fopix/fopixInterpreter.ml" 216 5323 5356
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 217 5362 5377 "src/fopix/fopixInterpreter.ml" 217 5362 5378
+type(
+  bool
+)
+ident(
+  def b "src/fopix/fopixInterpreter.ml" 218 5382 5386 "src/fopix/fopixInterpreter.ml" 221 5432 5458
+)
+"src/fopix/fopixInterpreter.ml" 217 5362 5371 "src/fopix/fopixInterpreter.ml" 217 5362 5378
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 218 5382 5389 "src/fopix/fopixInterpreter.ml" 218 5382 5390
+type(
+  bool
+)
+ident(
+  int_ref b "src/fopix/fopixInterpreter.ml" 217 5362 5377 "src/fopix/fopixInterpreter.ml" 217 5362 5378
+)
+"src/fopix/fopixInterpreter.ml" 219 5396 5402 "src/fopix/fopixInterpreter.ml" 219 5396 5412
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 219 5396 5413 "src/fopix/fopixInterpreter.ml" 219 5396 5420
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 219 5396 5421 "src/fopix/fopixInterpreter.ml" 219 5396 5422
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref t "src/fopix/fopixInterpreter.ml" 214 5284 5303 "src/fopix/fopixInterpreter.ml" 214 5284 5304
+)
+"src/fopix/fopixInterpreter.ml" 219 5396 5402 "src/fopix/fopixInterpreter.ml" 219 5396 5422
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 221 5432 5438 "src/fopix/fopixInterpreter.ml" 221 5432 5448
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 221 5432 5449 "src/fopix/fopixInterpreter.ml" 221 5432 5456
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 221 5432 5457 "src/fopix/fopixInterpreter.ml" 221 5432 5458
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref f "src/fopix/fopixInterpreter.ml" 214 5284 5306 "src/fopix/fopixInterpreter.ml" 214 5284 5307
+)
+"src/fopix/fopixInterpreter.ml" 221 5432 5438 "src/fopix/fopixInterpreter.ml" 221 5432 5458
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 218 5382 5386 "src/fopix/fopixInterpreter.ml" 221 5432 5458
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 222 5459 5468 "src/fopix/fopixInterpreter.ml" 222 5459 5469
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 222 5459 5480 "src/fopix/fopixInterpreter.ml" 222 5459 5485
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 222 5459 5473 "src/fopix/fopixInterpreter.ml" 222 5459 5485
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 215 5312 5317 "src/fopix/fopixInterpreter.ml" 223 5486 5494
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 225 5496 5508 "src/fopix/fopixInterpreter.ml" 225 5496 5509
+type(
+  FopixAST.identifier
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 226 5521 5525 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+)
+"src/fopix/fopixInterpreter.ml" 225 5496 5511 "src/fopix/fopixInterpreter.ml" 225 5496 5513
+type(
+  FopixAST.expression
+)
+ident(
+  def ex "src/fopix/fopixInterpreter.ml" 226 5521 5525 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+)
+"src/fopix/fopixInterpreter.ml" 225 5496 5515 "src/fopix/fopixInterpreter.ml" 225 5496 5516
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 226 5521 5525 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+)
+"src/fopix/fopixInterpreter.ml" 225 5496 5500 "src/fopix/fopixInterpreter.ml" 225 5496 5517
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5529 "src/fopix/fopixInterpreter.ml" 226 5521 5530
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 227 5558 5562 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5533 "src/fopix/fopixInterpreter.ml" 226 5521 5543
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5544 "src/fopix/fopixInterpreter.ml" 226 5521 5551
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5552 "src/fopix/fopixInterpreter.ml" 226 5521 5554
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref ex "src/fopix/fopixInterpreter.ml" 225 5496 5511 "src/fopix/fopixInterpreter.ml" 225 5496 5513
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5533 "src/fopix/fopixInterpreter.ml" 226 5521 5554
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 227 5558 5566 "src/fopix/fopixInterpreter.ml" 227 5558 5573
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 231 5665 5669 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+)
+"src/fopix/fopixInterpreter.ml" 227 5558 5578 "src/fopix/fopixInterpreter.ml" 227 5558 5585
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5611 "src/fopix/fopixInterpreter.ml" 228 5591 5627
+type(
+  Environment.t -> FopixAST.identifier -> value -> Environment.t
+)
+ident(
+  int_ref Environment.bind "src/fopix/fopixInterpreter.ml" 79 1859 1861 "src/fopix/fopixInterpreter.ml" 79 1859 1904
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5628 "src/fopix/fopixInterpreter.ml" 228 5591 5635
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5628 "src/fopix/fopixInterpreter.ml" 228 5591 5647
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5648 "src/fopix/fopixInterpreter.ml" 228 5591 5649
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 225 5496 5508 "src/fopix/fopixInterpreter.ml" 225 5496 5509
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5650 "src/fopix/fopixInterpreter.ml" 228 5591 5651
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 226 5521 5529 "src/fopix/fopixInterpreter.ml" 226 5521 5530
+)
+"src/fopix/fopixInterpreter.ml" 228 5591 5611 "src/fopix/fopixInterpreter.ml" 228 5591 5651
+call(
+  stack
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 227 5558 5576 "src/fopix/fopixInterpreter.ml" 229 5652 5657
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 231 5665 5669 "src/fopix/fopixInterpreter.ml" 231 5665 5679
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 231 5665 5680 "src/fopix/fopixInterpreter.ml" 231 5665 5687
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 227 5558 5566 "src/fopix/fopixInterpreter.ml" 227 5558 5573
+)
+"src/fopix/fopixInterpreter.ml" 231 5665 5688 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 225 5496 5515 "src/fopix/fopixInterpreter.ml" 225 5496 5516
+)
+"src/fopix/fopixInterpreter.ml" 231 5665 5669 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 227 5558 5562 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 226 5521 5525 "src/fopix/fopixInterpreter.ml" 231 5665 5689
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 233 5691 5710 "src/fopix/fopixInterpreter.ml" 233 5691 5726
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 233 5691 5704 "src/fopix/fopixInterpreter.ml" 233 5691 5726
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 233 5691 5729 "src/fopix/fopixInterpreter.ml" 233 5691 5733
+type(
+  FopixAST.expression
+)
+ident(
+  def size "src/fopix/fopixInterpreter.ml" 234 5746 5751 "src/fopix/fopixInterpreter.ml" 241 5965 5973
+)
+"src/fopix/fopixInterpreter.ml" 233 5691 5728 "src/fopix/fopixInterpreter.ml" 233 5691 5734
+type(
+  FopixAST.expression list
+)
+"src/fopix/fopixInterpreter.ml" 233 5691 5695 "src/fopix/fopixInterpreter.ml" 233 5691 5735
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 235 5758 5772 "src/fopix/fopixInterpreter.ml" 235 5758 5782
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 235 5758 5783 "src/fopix/fopixInterpreter.ml" 235 5758 5790
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 235 5758 5791 "src/fopix/fopixInterpreter.ml" 235 5758 5795
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref size "src/fopix/fopixInterpreter.ml" 233 5691 5729 "src/fopix/fopixInterpreter.ml" 233 5691 5733
+)
+"src/fopix/fopixInterpreter.ml" 235 5758 5771 "src/fopix/fopixInterpreter.ml" 235 5758 5796
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 236 5802 5816 "src/fopix/fopixInterpreter.ml" 236 5802 5821
+type(
+  Int32.t
+)
+ident(
+  def size' "src/fopix/fopixInterpreter.ml" 237 5825 5829 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+)
+"src/fopix/fopixInterpreter.ml" 236 5802 5811 "src/fopix/fopixInterpreter.ml" 236 5802 5821
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5833 "src/fopix/fopixInterpreter.ml" 237 5825 5834
+type(
+  Bmemory.address
+)
+ident(
+  def a "src/fopix/fopixInterpreter.ml" 238 5898 5902 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5836 "src/fopix/fopixInterpreter.ml" 237 5825 5843
+type(
+  value Bmemory.t
+)
+ident(
+  def memory' "src/fopix/fopixInterpreter.ml" 238 5898 5902 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5833 "src/fopix/fopixInterpreter.ml" 237 5825 5843
+type(
+  Bmemory.address * value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5846 "src/fopix/fopixInterpreter.ml" 237 5825 5862
+type(
+  value Bmemory.t -> Int32.t -> value -> Bmemory.address * value Bmemory.t
+)
+ident(
+  ext_ref Bmemory.allocate
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5863 "src/fopix/fopixInterpreter.ml" 237 5825 5864
+type(
+  value Bmemory.t ref -> value Bmemory.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5864 "src/fopix/fopixInterpreter.ml" 237 5825 5870
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5863 "src/fopix/fopixInterpreter.ml" 237 5825 5870
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5871 "src/fopix/fopixInterpreter.ml" 237 5825 5876
+type(
+  Int32.t
+)
+ident(
+  int_ref size' "src/fopix/fopixInterpreter.ml" 236 5802 5816 "src/fopix/fopixInterpreter.ml" 236 5802 5821
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5883 "src/fopix/fopixInterpreter.ml" 237 5825 5893
+type(
+  Int32.t
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5877 "src/fopix/fopixInterpreter.ml" 237 5825 5894
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5846 "src/fopix/fopixInterpreter.ml" 237 5825 5894
+call(
+  stack
+)
+type(
+  Bmemory.address * value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 238 5898 5902 "src/fopix/fopixInterpreter.ml" 238 5898 5908
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 238 5898 5909 "src/fopix/fopixInterpreter.ml" 238 5898 5911
+type(
+  value Bmemory.t ref -> value Bmemory.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/fopix/fopixInterpreter.ml" 238 5898 5912 "src/fopix/fopixInterpreter.ml" 238 5898 5919
+type(
+  value Bmemory.t
+)
+ident(
+  int_ref memory' "src/fopix/fopixInterpreter.ml" 237 5825 5836 "src/fopix/fopixInterpreter.ml" 237 5825 5843
+)
+"src/fopix/fopixInterpreter.ml" 238 5898 5902 "src/fopix/fopixInterpreter.ml" 238 5898 5919
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 239 5922 5935 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+type(
+  Bmemory.address
+)
+ident(
+  int_ref a "src/fopix/fopixInterpreter.ml" 237 5825 5833 "src/fopix/fopixInterpreter.ml" 237 5825 5834
+)
+"src/fopix/fopixInterpreter.ml" 239 5922 5926 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 238 5898 5902 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 237 5825 5829 "src/fopix/fopixInterpreter.ml" 239 5922 5936
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 240 5937 5946 "src/fopix/fopixInterpreter.ml" 240 5937 5947
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 240 5937 5958 "src/fopix/fopixInterpreter.ml" 240 5937 5963
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 240 5937 5951 "src/fopix/fopixInterpreter.ml" 240 5937 5963
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 234 5746 5751 "src/fopix/fopixInterpreter.ml" 241 5965 5973
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 6001 "src/fopix/fopixInterpreter.ml" 243 5982 6013
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 5995 "src/fopix/fopixInterpreter.ml" 243 5982 6013
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 6016 "src/fopix/fopixInterpreter.ml" 243 5982 6024
+type(
+  FopixAST.expression
+)
+ident(
+  def location "src/fopix/fopixInterpreter.ml" 244 6037 6042 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 6026 "src/fopix/fopixInterpreter.ml" 243 5982 6031
+type(
+  FopixAST.expression
+)
+ident(
+  def index "src/fopix/fopixInterpreter.ml" 244 6037 6042 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 6015 "src/fopix/fopixInterpreter.ml" 243 5982 6032
+type(
+  FopixAST.expression list
+)
+"src/fopix/fopixInterpreter.ml" 243 5982 5986 "src/fopix/fopixInterpreter.ml" 243 5982 6033
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6046 "src/fopix/fopixInterpreter.ml" 244 6037 6048
+type(
+  value
+)
+ident(
+  def b' "src/fopix/fopixInterpreter.ml" 245 6082 6087 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6051 "src/fopix/fopixInterpreter.ml" 244 6037 6061
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6062 "src/fopix/fopixInterpreter.ml" 244 6037 6069
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6070 "src/fopix/fopixInterpreter.ml" 244 6037 6078
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref location "src/fopix/fopixInterpreter.ml" 243 5982 6016 "src/fopix/fopixInterpreter.ml" 243 5982 6024
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6051 "src/fopix/fopixInterpreter.ml" 244 6037 6078
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6088 "src/fopix/fopixInterpreter.ml" 245 6082 6104
+type(
+  value -> Bmemory.address option
+)
+ident(
+  int_ref value_as_address "src/fopix/fopixInterpreter.ml" 36 820 824 "src/fopix/fopixInterpreter.ml" 36 820 840
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6105 "src/fopix/fopixInterpreter.ml" 245 6082 6107
+type(
+  value
+)
+ident(
+  int_ref b' "src/fopix/fopixInterpreter.ml" 244 6037 6046 "src/fopix/fopixInterpreter.ml" 244 6037 6048
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6088 "src/fopix/fopixInterpreter.ml" 245 6082 6107
+call(
+  stack
+)
+type(
+  Bmemory.address option
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6108 "src/fopix/fopixInterpreter.ml" 245 6082 6111
+type(
+  Bmemory.address option -> (Bmemory.address -> value option) -> value option
+)
+ident(
+  int_ref >>= "src/fopix/fopixInterpreter.ml" 10 168 172 "src/fopix/fopixInterpreter.ml" 10 168 179
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6116 "src/fopix/fopixInterpreter.ml" 245 6082 6117
+type(
+  Bmemory.address
+)
+ident(
+  def b "src/fopix/fopixInterpreter.ml" 246 6121 6127 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6131 "src/fopix/fopixInterpreter.ml" 246 6121 6133
+type(
+  value
+)
+ident(
+  def i' "src/fopix/fopixInterpreter.ml" 247 6164 6170 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6136 "src/fopix/fopixInterpreter.ml" 246 6121 6146
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6147 "src/fopix/fopixInterpreter.ml" 246 6121 6154
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6155 "src/fopix/fopixInterpreter.ml" 246 6121 6160
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref index "src/fopix/fopixInterpreter.ml" 243 5982 6026 "src/fopix/fopixInterpreter.ml" 243 5982 6031
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6136 "src/fopix/fopixInterpreter.ml" 246 6121 6160
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6170 "src/fopix/fopixInterpreter.ml" 247 6164 6182
+type(
+  value -> Int32.t option
+)
+ident(
+  int_ref value_as_int "src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6183 "src/fopix/fopixInterpreter.ml" 247 6164 6185
+type(
+  value
+)
+ident(
+  int_ref i' "src/fopix/fopixInterpreter.ml" 246 6121 6131 "src/fopix/fopixInterpreter.ml" 246 6121 6133
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6170 "src/fopix/fopixInterpreter.ml" 247 6164 6185
+call(
+  stack
+)
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6186 "src/fopix/fopixInterpreter.ml" 247 6164 6189
+type(
+  Int32.t option -> (Int32.t -> value option) -> value option
+)
+ident(
+  int_ref >>= "src/fopix/fopixInterpreter.ml" 10 168 172 "src/fopix/fopixInterpreter.ml" 10 168 179
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6194 "src/fopix/fopixInterpreter.ml" 247 6164 6195
+type(
+  Int32.t
+)
+ident(
+  def i "src/fopix/fopixInterpreter.ml" 248 6199 6205 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6205 "src/fopix/fopixInterpreter.ml" 248 6199 6211
+type(
+  value -> value option
+)
+ident(
+  int_ref return "src/fopix/fopixInterpreter.ml" 15 241 245 "src/fopix/fopixInterpreter.ml" 15 241 251
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6213 "src/fopix/fopixInterpreter.ml" 248 6199 6225
+type(
+  value Bmemory.t -> Bmemory.address -> Int32.t -> value
+)
+ident(
+  ext_ref Bmemory.read
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6226 "src/fopix/fopixInterpreter.ml" 248 6199 6227
+type(
+  value Bmemory.t ref -> value Bmemory.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6227 "src/fopix/fopixInterpreter.ml" 248 6199 6233
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6226 "src/fopix/fopixInterpreter.ml" 248 6199 6233
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6234 "src/fopix/fopixInterpreter.ml" 248 6199 6235
+type(
+  Bmemory.address
+)
+ident(
+  int_ref b "src/fopix/fopixInterpreter.ml" 245 6082 6116 "src/fopix/fopixInterpreter.ml" 245 6082 6117
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6236 "src/fopix/fopixInterpreter.ml" 248 6199 6237
+type(
+  Int32.t
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 247 6164 6194 "src/fopix/fopixInterpreter.ml" 247 6164 6195
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6212 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6205 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+call(
+  tail
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6190 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+type(
+  Int32.t -> value option
+)
+"src/fopix/fopixInterpreter.ml" 247 6164 6170 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+call(
+  tail
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 246 6121 6127 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6112 "src/fopix/fopixInterpreter.ml" 248 6199 6238
+type(
+  Bmemory.address -> value option
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6087 "src/fopix/fopixInterpreter.ml" 248 6199 6239
+call(
+  stack
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6240 "src/fopix/fopixInterpreter.ml" 248 6199 6242
+type(
+  value option -> (value option -> value) -> value
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/fopix/fopixInterpreter.ml" 248 6199 6243 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+type(
+  value option -> value
+)
+ident(
+  int_ref exit_m "src/fopix/fopixInterpreter.ml" 18 266 270 "src/fopix/fopixInterpreter.ml" 18 266 276
+)
+"src/fopix/fopixInterpreter.ml" 245 6082 6087 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 244 6037 6042 "src/fopix/fopixInterpreter.ml" 248 6199 6249
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6270 "src/fopix/fopixInterpreter.ml" 250 6251 6283
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6264 "src/fopix/fopixInterpreter.ml" 250 6251 6283
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6286 "src/fopix/fopixInterpreter.ml" 250 6251 6294
+type(
+  FopixAST.expression
+)
+ident(
+  def location "src/fopix/fopixInterpreter.ml" 251 6310 6315 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6296 "src/fopix/fopixInterpreter.ml" 250 6251 6301
+type(
+  FopixAST.expression
+)
+ident(
+  def index "src/fopix/fopixInterpreter.ml" 251 6310 6315 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6303 "src/fopix/fopixInterpreter.ml" 250 6251 6304
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 251 6310 6315 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6285 "src/fopix/fopixInterpreter.ml" 250 6251 6305
+type(
+  FopixAST.expression list
+)
+"src/fopix/fopixInterpreter.ml" 250 6251 6255 "src/fopix/fopixInterpreter.ml" 250 6251 6306
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6319 "src/fopix/fopixInterpreter.ml" 251 6310 6321
+type(
+  value
+)
+ident(
+  def b' "src/fopix/fopixInterpreter.ml" 252 6355 6360 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6324 "src/fopix/fopixInterpreter.ml" 251 6310 6334
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6335 "src/fopix/fopixInterpreter.ml" 251 6310 6342
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6343 "src/fopix/fopixInterpreter.ml" 251 6310 6351
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref location "src/fopix/fopixInterpreter.ml" 250 6251 6286 "src/fopix/fopixInterpreter.ml" 250 6251 6294
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6324 "src/fopix/fopixInterpreter.ml" 251 6310 6351
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6361 "src/fopix/fopixInterpreter.ml" 252 6355 6377
+type(
+  value -> Bmemory.address option
+)
+ident(
+  int_ref value_as_address "src/fopix/fopixInterpreter.ml" 36 820 824 "src/fopix/fopixInterpreter.ml" 36 820 840
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6378 "src/fopix/fopixInterpreter.ml" 252 6355 6380
+type(
+  value
+)
+ident(
+  int_ref b' "src/fopix/fopixInterpreter.ml" 251 6310 6319 "src/fopix/fopixInterpreter.ml" 251 6310 6321
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6361 "src/fopix/fopixInterpreter.ml" 252 6355 6380
+call(
+  stack
+)
+type(
+  Bmemory.address option
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6381 "src/fopix/fopixInterpreter.ml" 252 6355 6384
+type(
+  Bmemory.address option -> (Bmemory.address -> value option) -> value option
+)
+ident(
+  int_ref >>= "src/fopix/fopixInterpreter.ml" 10 168 172 "src/fopix/fopixInterpreter.ml" 10 168 179
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6389 "src/fopix/fopixInterpreter.ml" 252 6355 6390
+type(
+  Bmemory.address
+)
+ident(
+  def b "src/fopix/fopixInterpreter.ml" 253 6394 6400 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6404 "src/fopix/fopixInterpreter.ml" 253 6394 6406
+type(
+  value
+)
+ident(
+  def i' "src/fopix/fopixInterpreter.ml" 254 6437 6443 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6409 "src/fopix/fopixInterpreter.ml" 253 6394 6419
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6420 "src/fopix/fopixInterpreter.ml" 253 6394 6427
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6428 "src/fopix/fopixInterpreter.ml" 253 6394 6433
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref index "src/fopix/fopixInterpreter.ml" 250 6251 6296 "src/fopix/fopixInterpreter.ml" 250 6251 6301
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6409 "src/fopix/fopixInterpreter.ml" 253 6394 6433
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6443 "src/fopix/fopixInterpreter.ml" 254 6437 6455
+type(
+  value -> Int32.t option
+)
+ident(
+  int_ref value_as_int "src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6456 "src/fopix/fopixInterpreter.ml" 254 6437 6458
+type(
+  value
+)
+ident(
+  int_ref i' "src/fopix/fopixInterpreter.ml" 253 6394 6404 "src/fopix/fopixInterpreter.ml" 253 6394 6406
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6443 "src/fopix/fopixInterpreter.ml" 254 6437 6458
+call(
+  stack
+)
+type(
+  Int32.t option
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6459 "src/fopix/fopixInterpreter.ml" 254 6437 6462
+type(
+  Int32.t option -> (Int32.t -> value option) -> value option
+)
+ident(
+  int_ref >>= "src/fopix/fopixInterpreter.ml" 10 168 172 "src/fopix/fopixInterpreter.ml" 10 168 179
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6467 "src/fopix/fopixInterpreter.ml" 254 6437 6468
+type(
+  Int32.t
+)
+ident(
+  def i "src/fopix/fopixInterpreter.ml" 255 6472 6478 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6482 "src/fopix/fopixInterpreter.ml" 255 6472 6484
+type(
+  value
+)
+ident(
+  def e' "src/fopix/fopixInterpreter.ml" 256 6512 6518 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6487 "src/fopix/fopixInterpreter.ml" 255 6472 6497
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6498 "src/fopix/fopixInterpreter.ml" 255 6472 6505
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6506 "src/fopix/fopixInterpreter.ml" 255 6472 6507
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 250 6251 6303 "src/fopix/fopixInterpreter.ml" 250 6251 6304
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6487 "src/fopix/fopixInterpreter.ml" 255 6472 6507
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6522 "src/fopix/fopixInterpreter.ml" 256 6512 6523
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6526 "src/fopix/fopixInterpreter.ml" 256 6512 6532
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6533 "src/fopix/fopixInterpreter.ml" 256 6512 6535
+type(
+  value Bmemory.t ref -> value Bmemory.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6537 "src/fopix/fopixInterpreter.ml" 256 6512 6550
+type(
+  value Bmemory.t -> Bmemory.address -> Int32.t -> value -> value Bmemory.t
+)
+ident(
+  ext_ref Bmemory.write
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6551 "src/fopix/fopixInterpreter.ml" 256 6512 6552
+type(
+  value Bmemory.t ref -> value Bmemory.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6552 "src/fopix/fopixInterpreter.ml" 256 6512 6558
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6551 "src/fopix/fopixInterpreter.ml" 256 6512 6558
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6559 "src/fopix/fopixInterpreter.ml" 256 6512 6560
+type(
+  Bmemory.address
+)
+ident(
+  int_ref b "src/fopix/fopixInterpreter.ml" 252 6355 6389 "src/fopix/fopixInterpreter.ml" 252 6355 6390
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6561 "src/fopix/fopixInterpreter.ml" 256 6512 6562
+type(
+  Int32.t
+)
+ident(
+  int_ref i "src/fopix/fopixInterpreter.ml" 254 6437 6467 "src/fopix/fopixInterpreter.ml" 254 6437 6468
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6563 "src/fopix/fopixInterpreter.ml" 256 6512 6565
+type(
+  value
+)
+ident(
+  int_ref e' "src/fopix/fopixInterpreter.ml" 255 6472 6482 "src/fopix/fopixInterpreter.ml" 255 6472 6484
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6537 "src/fopix/fopixInterpreter.ml" 256 6512 6565
+call(
+  stack
+)
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6526 "src/fopix/fopixInterpreter.ml" 256 6512 6565
+type(
+  unit
+)
+"src/fopix/fopixInterpreter.ml" 257 6569 6575 "src/fopix/fopixInterpreter.ml" 257 6569 6581
+type(
+  value -> value option
+)
+ident(
+  int_ref return "src/fopix/fopixInterpreter.ml" 15 241 245 "src/fopix/fopixInterpreter.ml" 15 241 251
+)
+"src/fopix/fopixInterpreter.ml" 257 6569 6582 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 257 6569 6575 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+call(
+  tail
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 256 6512 6518 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 255 6472 6478 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6463 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  Int32.t -> value option
+)
+"src/fopix/fopixInterpreter.ml" 254 6437 6443 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+call(
+  tail
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 253 6394 6400 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6385 "src/fopix/fopixInterpreter.ml" 257 6569 6587
+type(
+  Bmemory.address -> value option
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6360 "src/fopix/fopixInterpreter.ml" 258 6588 6594
+call(
+  stack
+)
+type(
+  value option
+)
+"src/fopix/fopixInterpreter.ml" 258 6588 6595 "src/fopix/fopixInterpreter.ml" 258 6588 6597
+type(
+  value option -> (value option -> value) -> value
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"src/fopix/fopixInterpreter.ml" 258 6588 6598 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+type(
+  value option -> value
+)
+ident(
+  int_ref exit_m "src/fopix/fopixInterpreter.ml" 18 266 270 "src/fopix/fopixInterpreter.ml" 18 266 276
+)
+"src/fopix/fopixInterpreter.ml" 252 6355 6360 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 251 6310 6315 "src/fopix/fopixInterpreter.ml" 258 6588 6604
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6635 "src/fopix/fopixInterpreter.ml" 261 6616 6636
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 261 6616 6653 "src/fopix/fopixInterpreter.ml" 262 6678 6725
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6629 "src/fopix/fopixInterpreter.ml" 261 6616 6636
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6639 "src/fopix/fopixInterpreter.ml" 261 6616 6641
+type(
+  FopixAST.expression
+)
+ident(
+  def e1 "src/fopix/fopixInterpreter.ml" 261 6616 6653 "src/fopix/fopixInterpreter.ml" 262 6678 6725
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6643 "src/fopix/fopixInterpreter.ml" 261 6616 6645
+type(
+  FopixAST.expression
+)
+ident(
+  def e2 "src/fopix/fopixInterpreter.ml" 261 6616 6653 "src/fopix/fopixInterpreter.ml" 262 6678 6725
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6638 "src/fopix/fopixInterpreter.ml" 261 6616 6646
+type(
+  FopixAST.expression list
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6620 "src/fopix/fopixInterpreter.ml" 261 6616 6647
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6653 "src/fopix/fopixInterpreter.ml" 261 6616 6672
+type(
+  string -> bool
+)
+ident(
+  int_ref is_binary_primitive "src/fopix/fopixInterpreter.ml" 189 4616 4620 "src/fopix/fopixInterpreter.ml" 189 4616 4639
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6673 "src/fopix/fopixInterpreter.ml" 261 6616 6674
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 261 6616 6635 "src/fopix/fopixInterpreter.ml" 261 6616 6636
+)
+"src/fopix/fopixInterpreter.ml" 261 6616 6653 "src/fopix/fopixInterpreter.ml" 261 6616 6674
+call(
+  stack
+)
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6682 "src/fopix/fopixInterpreter.ml" 262 6678 6709
+type(
+  runtime -> string -> FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref evaluation_of_binary_symbol "src/fopix/fopixInterpreter.ml" 180 4250 4254 "src/fopix/fopixInterpreter.ml" 180 4250 4281
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6710 "src/fopix/fopixInterpreter.ml" 262 6678 6717
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6718 "src/fopix/fopixInterpreter.ml" 262 6678 6719
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 261 6616 6635 "src/fopix/fopixInterpreter.ml" 261 6616 6636
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6720 "src/fopix/fopixInterpreter.ml" 262 6678 6722
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e1 "src/fopix/fopixInterpreter.ml" 261 6616 6639 "src/fopix/fopixInterpreter.ml" 261 6616 6641
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6723 "src/fopix/fopixInterpreter.ml" 262 6678 6725
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e2 "src/fopix/fopixInterpreter.ml" 261 6616 6643 "src/fopix/fopixInterpreter.ml" 261 6616 6645
+)
+"src/fopix/fopixInterpreter.ml" 262 6678 6682 "src/fopix/fopixInterpreter.ml" 262 6678 6725
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 264 6735 6754 "src/fopix/fopixInterpreter.ml" 264 6735 6755
+type(
+  FopixAST.expression
+)
+ident(
+  def e "src/fopix/fopixInterpreter.ml" 265 6762 6767 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 264 6735 6756 "src/fopix/fopixInterpreter.ml" 264 6735 6757
+type(
+  FopixAST.expression list
+)
+ident(
+  def l "src/fopix/fopixInterpreter.ml" 265 6762 6767 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 264 6735 6739 "src/fopix/fopixInterpreter.ml" 264 6735 6758
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6771 "src/fopix/fopixInterpreter.ml" 265 6762 6776
+type(
+  value
+)
+ident(
+  def vfun' "src/fopix/fopixInterpreter.ml" 266 6803 6808 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6779 "src/fopix/fopixInterpreter.ml" 265 6762 6789
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6790 "src/fopix/fopixInterpreter.ml" 265 6762 6797
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6798 "src/fopix/fopixInterpreter.ml" 265 6762 6799
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 264 6735 6754 "src/fopix/fopixInterpreter.ml" 264 6735 6755
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6779 "src/fopix/fopixInterpreter.ml" 265 6762 6799
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 266 6803 6813 "src/fopix/fopixInterpreter.ml" 266 6803 6817
+type(
+  FopixAST.formals
+)
+ident(
+  def args "src/fopix/fopixInterpreter.ml" 272 6969 6974 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 266 6803 6818 "src/fopix/fopixInterpreter.ml" 266 6803 6823
+type(
+  FopixAST.expression
+)
+ident(
+  def corps "src/fopix/fopixInterpreter.ml" 272 6969 6974 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 266 6803 6812 "src/fopix/fopixInterpreter.ml" 266 6803 6824
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 267 6827 6840 "src/fopix/fopixInterpreter.ml" 267 6827 6845
+type(
+  value
+)
+ident(
+  int_ref vfun' "src/fopix/fopixInterpreter.ml" 265 6762 6771 "src/fopix/fopixInterpreter.ml" 265 6762 6776
+)
+"src/fopix/fopixInterpreter.ml" 268 6851 6881 "src/fopix/fopixInterpreter.ml" 268 6851 6882
+type(
+  string
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 269 6887 6890 "src/fopix/fopixInterpreter.ml" 269 6887 6939
+)
+"src/fopix/fopixInterpreter.ml" 268 6851 6865 "src/fopix/fopixInterpreter.ml" 268 6851 6883
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 268 6851 6860 "src/fopix/fopixInterpreter.ml" 268 6851 6883
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6891 "src/fopix/fopixInterpreter.ml" 269 6887 6901
+type(
+  FopixAST.function_identifier ->
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list -> FopixAST.formals * FopixAST.expression
+)
+ident(
+  ext_ref List.assoc
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6918 "src/fopix/fopixInterpreter.ml" 269 6887 6919
+type(
+  string
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 268 6851 6881 "src/fopix/fopixInterpreter.ml" 268 6851 6882
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6902 "src/fopix/fopixInterpreter.ml" 269 6887 6920
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6921 "src/fopix/fopixInterpreter.ml" 269 6887 6928
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6921 "src/fopix/fopixInterpreter.ml" 269 6887 6938
+type(
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list
+)
+"src/fopix/fopixInterpreter.ml" 269 6887 6890 "src/fopix/fopixInterpreter.ml" 269 6887 6939
+call(
+  stack
+)
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 270 6940 6949 "src/fopix/fopixInterpreter.ml" 270 6940 6950
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 270 6940 6955 "src/fopix/fopixInterpreter.ml" 270 6940 6957
+type(
+  FopixAST.formals
+)
+"src/fopix/fopixInterpreter.ml" 270 6940 6958 "src/fopix/fopixInterpreter.ml" 270 6940 6959
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref e "src/fopix/fopixInterpreter.ml" 264 6735 6754 "src/fopix/fopixInterpreter.ml" 264 6735 6755
+)
+"src/fopix/fopixInterpreter.ml" 270 6940 6954 "src/fopix/fopixInterpreter.ml" 270 6940 6960
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 267 6827 6834 "src/fopix/fopixInterpreter.ml" 270 6940 6960
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 6978 "src/fopix/fopixInterpreter.ml" 272 6969 6986
+type(
+  runtime
+)
+ident(
+  def runtime' "src/fopix/fopixInterpreter.ml" 273 7021 7026 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 6989 "src/fopix/fopixInterpreter.ml" 272 6969 7001
+type(
+  runtime -> FopixAST.formals -> FopixAST.expression list -> runtime
+)
+ident(
+  int_ref bind_funcall "src/fopix/fopixInterpreter.ml" 281 7257 7261 "src/fopix/fopixInterpreter.ml" 281 7257 7273
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 7002 "src/fopix/fopixInterpreter.ml" 272 6969 7009
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 7010 "src/fopix/fopixInterpreter.ml" 272 6969 7014
+type(
+  FopixAST.formals
+)
+ident(
+  int_ref args "src/fopix/fopixInterpreter.ml" 266 6803 6813 "src/fopix/fopixInterpreter.ml" 266 6803 6817
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 7015 "src/fopix/fopixInterpreter.ml" 272 6969 7016
+type(
+  FopixAST.expression list
+)
+ident(
+  int_ref l "src/fopix/fopixInterpreter.ml" 264 6735 6756 "src/fopix/fopixInterpreter.ml" 264 6735 6757
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 6989 "src/fopix/fopixInterpreter.ml" 272 6969 7016
+call(
+  stack
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 273 7021 7026 "src/fopix/fopixInterpreter.ml" 273 7021 7036
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 273 7021 7037 "src/fopix/fopixInterpreter.ml" 273 7021 7045
+type(
+  runtime
+)
+ident(
+  int_ref runtime' "src/fopix/fopixInterpreter.ml" 272 6969 6978 "src/fopix/fopixInterpreter.ml" 272 6969 6986
+)
+"src/fopix/fopixInterpreter.ml" 273 7021 7046 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref corps "src/fopix/fopixInterpreter.ml" 266 6803 6818 "src/fopix/fopixInterpreter.ml" 266 6803 6823
+)
+"src/fopix/fopixInterpreter.ml" 273 7021 7026 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 272 6969 6974 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 266 6803 6808 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 265 6762 6767 "src/fopix/fopixInterpreter.ml" 273 7021 7051
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 276 7069 7087 "src/fopix/fopixInterpreter.ml" 276 7069 7088
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 277 7095 7100 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 276 7069 7081 "src/fopix/fopixInterpreter.ml" 276 7069 7088
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 276 7069 7090 "src/fopix/fopixInterpreter.ml" 276 7069 7091
+type(
+  FopixAST.expression list
+)
+ident(
+  def l "src/fopix/fopixInterpreter.ml" 277 7095 7100 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 276 7069 7073 "src/fopix/fopixInterpreter.ml" 276 7069 7092
+type(
+  FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7105 "src/fopix/fopixInterpreter.ml" 277 7095 7114
+type(
+  FopixAST.formals
+)
+ident(
+  def arguments "src/fopix/fopixInterpreter.ml" 278 7168 7173 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7115 "src/fopix/fopixInterpreter.ml" 277 7095 7120
+type(
+  FopixAST.expression
+)
+ident(
+  def corps "src/fopix/fopixInterpreter.ml" 278 7168 7173 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7104 "src/fopix/fopixInterpreter.ml" 277 7095 7121
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7125 "src/fopix/fopixInterpreter.ml" 277 7095 7135
+type(
+  FopixAST.function_identifier ->
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list -> FopixAST.formals * FopixAST.expression
+)
+ident(
+  ext_ref List.assoc
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7143 "src/fopix/fopixInterpreter.ml" 277 7095 7144
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 276 7069 7087 "src/fopix/fopixInterpreter.ml" 276 7069 7088
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7136 "src/fopix/fopixInterpreter.ml" 277 7095 7145
+type(
+  FopixAST.function_identifier
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7146 "src/fopix/fopixInterpreter.ml" 277 7095 7153
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7146 "src/fopix/fopixInterpreter.ml" 277 7095 7163
+type(
+  (FopixAST.function_identifier * (FopixAST.formals * FopixAST.expression))
+  list
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7124 "src/fopix/fopixInterpreter.ml" 277 7095 7164
+call(
+  stack
+)
+type(
+  FopixAST.formals * FopixAST.expression
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7177 "src/fopix/fopixInterpreter.ml" 278 7168 7185
+type(
+  runtime
+)
+ident(
+  def runtime' "src/fopix/fopixInterpreter.ml" 279 7225 7230 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7188 "src/fopix/fopixInterpreter.ml" 278 7168 7200
+type(
+  runtime -> FopixAST.formals -> FopixAST.expression list -> runtime
+)
+ident(
+  int_ref bind_funcall "src/fopix/fopixInterpreter.ml" 281 7257 7261 "src/fopix/fopixInterpreter.ml" 281 7257 7273
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7201 "src/fopix/fopixInterpreter.ml" 278 7168 7208
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 194 4760 4775 "src/fopix/fopixInterpreter.ml" 194 4760 4782
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7209 "src/fopix/fopixInterpreter.ml" 278 7168 7218
+type(
+  FopixAST.formals
+)
+ident(
+  int_ref arguments "src/fopix/fopixInterpreter.ml" 277 7095 7105 "src/fopix/fopixInterpreter.ml" 277 7095 7114
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7219 "src/fopix/fopixInterpreter.ml" 278 7168 7220
+type(
+  FopixAST.expression list
+)
+ident(
+  int_ref l "src/fopix/fopixInterpreter.ml" 276 7069 7090 "src/fopix/fopixInterpreter.ml" 276 7069 7091
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7188 "src/fopix/fopixInterpreter.ml" 278 7168 7220
+call(
+  stack
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 279 7225 7230 "src/fopix/fopixInterpreter.ml" 279 7225 7240
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 279 7225 7241 "src/fopix/fopixInterpreter.ml" 279 7225 7249
+type(
+  runtime
+)
+ident(
+  int_ref runtime' "src/fopix/fopixInterpreter.ml" 278 7168 7177 "src/fopix/fopixInterpreter.ml" 278 7168 7185
+)
+"src/fopix/fopixInterpreter.ml" 279 7225 7250 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref corps "src/fopix/fopixInterpreter.ml" 277 7095 7115 "src/fopix/fopixInterpreter.ml" 277 7095 7120
+)
+"src/fopix/fopixInterpreter.ml" 279 7225 7230 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 278 7168 7173 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 277 7095 7100 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 194 4760 4785 "src/fopix/fopixInterpreter.ml" 279 7225 7255
+type(
+  FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 281 7257 7261 "src/fopix/fopixInterpreter.ml" 281 7257 7273
+type(
+  runtime -> FopixAST.formals -> FopixAST.expression list -> runtime
+)
+ident(
+  def bind_funcall "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 281 7257 7274 "src/fopix/fopixInterpreter.ml" 281 7257 7281
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 281 7257 7282 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+)
+"src/fopix/fopixInterpreter.ml" 281 7257 7282 "src/fopix/fopixInterpreter.ml" 281 7257 7291
+type(
+  FopixAST.formals
+)
+ident(
+  def arguments "src/fopix/fopixInterpreter.ml" 281 7257 7292 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+)
+"src/fopix/fopixInterpreter.ml" 281 7257 7292 "src/fopix/fopixInterpreter.ml" 281 7257 7298
+type(
+  FopixAST.expression list
+)
+ident(
+  def values "src/fopix/fopixInterpreter.ml" 282 7301 7303 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7306 "src/fopix/fopixInterpreter.ml" 282 7301 7317
+type(
+  FopixAST.formals -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7318 "src/fopix/fopixInterpreter.ml" 282 7301 7327
+type(
+  FopixAST.formals
+)
+ident(
+  int_ref arguments "src/fopix/fopixInterpreter.ml" 281 7257 7282 "src/fopix/fopixInterpreter.ml" 281 7257 7291
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7306 "src/fopix/fopixInterpreter.ml" 282 7301 7327
+call(
+  stack
+)
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7329 "src/fopix/fopixInterpreter.ml" 282 7301 7330
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7331 "src/fopix/fopixInterpreter.ml" 282 7301 7342
+type(
+  FopixAST.expression list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7343 "src/fopix/fopixInterpreter.ml" 282 7301 7349
+type(
+  FopixAST.expression list
+)
+ident(
+  int_ref values "src/fopix/fopixInterpreter.ml" 281 7257 7292 "src/fopix/fopixInterpreter.ml" 281 7257 7298
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7331 "src/fopix/fopixInterpreter.ml" 282 7301 7349
+call(
+  stack
+)
+type(
+  int
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7306 "src/fopix/fopixInterpreter.ml" 282 7301 7349
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7358 "src/fopix/fopixInterpreter.ml" 283 7356 7373
+type(
+  (runtime -> FopixAST.identifier -> FopixAST.expression -> runtime) ->
+  runtime -> FopixAST.formals -> FopixAST.expression list -> runtime
+)
+ident(
+  ext_ref List.fold_left2
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7379 "src/fopix/fopixInterpreter.ml" 283 7356 7382
+type(
+  runtime
+)
+ident(
+  def run "src/fopix/fopixInterpreter.ml" 283 7356 7383 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7383 "src/fopix/fopixInterpreter.ml" 283 7356 7386
+type(
+  FopixAST.identifier
+)
+ident(
+  def arg "src/fopix/fopixInterpreter.ml" 283 7356 7387 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7387 "src/fopix/fopixInterpreter.ml" 283 7356 7390
+type(
+  FopixAST.expression
+)
+ident(
+  def exp "src/fopix/fopixInterpreter.ml" 284 7394 7399 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7403 "src/fopix/fopixInterpreter.ml" 284 7394 7408
+type(
+  value
+)
+ident(
+  def value "src/fopix/fopixInterpreter.ml" 285 7433 7438 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7411 "src/fopix/fopixInterpreter.ml" 284 7394 7421
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7422 "src/fopix/fopixInterpreter.ml" 284 7394 7425
+type(
+  runtime
+)
+ident(
+  int_ref run "src/fopix/fopixInterpreter.ml" 283 7356 7379 "src/fopix/fopixInterpreter.ml" 283 7356 7382
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7426 "src/fopix/fopixInterpreter.ml" 284 7394 7429
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref exp "src/fopix/fopixInterpreter.ml" 283 7356 7387 "src/fopix/fopixInterpreter.ml" 283 7356 7390
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7411 "src/fopix/fopixInterpreter.ml" 284 7394 7429
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 285 7433 7440 "src/fopix/fopixInterpreter.ml" 285 7433 7447
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 281 7257 7274 "src/fopix/fopixInterpreter.ml" 281 7257 7281
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7474 "src/fopix/fopixInterpreter.ml" 286 7453 7490
+type(
+  Environment.t -> FopixAST.identifier -> value -> Environment.t
+)
+ident(
+  int_ref Environment.bind "src/fopix/fopixInterpreter.ml" 79 1859 1861 "src/fopix/fopixInterpreter.ml" 79 1859 1904
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7491 "src/fopix/fopixInterpreter.ml" 286 7453 7494
+type(
+  runtime
+)
+ident(
+  int_ref run "src/fopix/fopixInterpreter.ml" 283 7356 7379 "src/fopix/fopixInterpreter.ml" 283 7356 7382
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7491 "src/fopix/fopixInterpreter.ml" 286 7453 7506
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7507 "src/fopix/fopixInterpreter.ml" 286 7453 7510
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref arg "src/fopix/fopixInterpreter.ml" 283 7356 7383 "src/fopix/fopixInterpreter.ml" 283 7356 7386
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7511 "src/fopix/fopixInterpreter.ml" 286 7453 7516
+type(
+  value
+)
+ident(
+  int_ref value "src/fopix/fopixInterpreter.ml" 284 7394 7403 "src/fopix/fopixInterpreter.ml" 284 7394 7408
+)
+"src/fopix/fopixInterpreter.ml" 286 7453 7474 "src/fopix/fopixInterpreter.ml" 286 7453 7516
+call(
+  stack
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 285 7433 7438 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 284 7394 7399 "src/fopix/fopixInterpreter.ml" 287 7517 7523
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7374 "src/fopix/fopixInterpreter.ml" 288 7524 7529
+type(
+  runtime -> FopixAST.identifier -> FopixAST.expression -> runtime
+)
+"src/fopix/fopixInterpreter.ml" 288 7524 7530 "src/fopix/fopixInterpreter.ml" 288 7524 7537
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 281 7257 7274 "src/fopix/fopixInterpreter.ml" 281 7257 7281
+)
+"src/fopix/fopixInterpreter.ml" 288 7524 7538 "src/fopix/fopixInterpreter.ml" 288 7524 7547
+type(
+  FopixAST.formals
+)
+ident(
+  int_ref arguments "src/fopix/fopixInterpreter.ml" 281 7257 7282 "src/fopix/fopixInterpreter.ml" 281 7257 7291
+)
+"src/fopix/fopixInterpreter.ml" 288 7524 7548 "src/fopix/fopixInterpreter.ml" 288 7524 7554
+type(
+  FopixAST.expression list
+)
+ident(
+  int_ref values "src/fopix/fopixInterpreter.ml" 281 7257 7292 "src/fopix/fopixInterpreter.ml" 281 7257 7298
+)
+"src/fopix/fopixInterpreter.ml" 283 7356 7358 "src/fopix/fopixInterpreter.ml" 288 7524 7554
+call(
+  tail
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 290 7562 7566 "src/fopix/fopixInterpreter.ml" 290 7562 7574
+type(
+  string -> runtime
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/fopix/fopixInterpreter.ml" 290 7562 7575 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 290 7562 7566 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+call(
+  tail
+)
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 282 7301 7303 "src/fopix/fopixInterpreter.ml" 290 7562 7601
+type(
+  runtime
+)
+"src/fopix/fopixInterpreter.ml" 292 7603 7607 "src/fopix/fopixInterpreter.ml" 292 7603 7612
+type(
+  'a 'b.
+    'a coercion ->
+    'b wrapper ->
+    runtime ->
+    ('a -> 'a -> 'b) -> FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  def binop "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7696 "src/fopix/fopixInterpreter.ml" 294 7690 7702
+type(
+  a coercion
+)
+ident(
+  def coerce "src/fopix/fopixInterpreter.ml" 294 7690 7703 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7703 "src/fopix/fopixInterpreter.ml" 294 7690 7707
+type(
+  b wrapper
+)
+ident(
+  def wrap "src/fopix/fopixInterpreter.ml" 294 7690 7708 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7708 "src/fopix/fopixInterpreter.ml" 294 7690 7715
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 294 7690 7716 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7716 "src/fopix/fopixInterpreter.ml" 294 7690 7718
+type(
+  a -> a -> b
+)
+ident(
+  def op "src/fopix/fopixInterpreter.ml" 294 7690 7719 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7719 "src/fopix/fopixInterpreter.ml" 294 7690 7720
+type(
+  FopixAST.expression
+)
+ident(
+  def l "src/fopix/fopixInterpreter.ml" 294 7690 7721 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7721 "src/fopix/fopixInterpreter.ml" 294 7690 7722
+type(
+  FopixAST.expression
+)
+ident(
+  def r "src/fopix/fopixInterpreter.ml" 295 7726 7728 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7732 "src/fopix/fopixInterpreter.ml" 295 7726 7734
+type(
+  value
+)
+ident(
+  def lv "src/fopix/fopixInterpreter.ml" 297 7793 7795 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7737 "src/fopix/fopixInterpreter.ml" 295 7726 7747
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7748 "src/fopix/fopixInterpreter.ml" 295 7726 7755
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 294 7690 7708 "src/fopix/fopixInterpreter.ml" 294 7690 7715
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7756 "src/fopix/fopixInterpreter.ml" 295 7726 7757
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref l "src/fopix/fopixInterpreter.ml" 294 7690 7719 "src/fopix/fopixInterpreter.ml" 294 7690 7720
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7737 "src/fopix/fopixInterpreter.ml" 295 7726 7757
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 296 7758 7764 "src/fopix/fopixInterpreter.ml" 296 7758 7766
+type(
+  value
+)
+ident(
+  def rv "src/fopix/fopixInterpreter.ml" 297 7793 7795 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+)
+"src/fopix/fopixInterpreter.ml" 296 7758 7769 "src/fopix/fopixInterpreter.ml" 296 7758 7779
+type(
+  runtime -> FopixAST.expression -> value
+)
+ident(
+  int_ref expression "src/fopix/fopixInterpreter.ml" 194 4760 4764 "src/fopix/fopixInterpreter.ml" 194 4760 4774
+)
+"src/fopix/fopixInterpreter.ml" 296 7758 7780 "src/fopix/fopixInterpreter.ml" 296 7758 7787
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 294 7690 7708 "src/fopix/fopixInterpreter.ml" 294 7690 7715
+)
+"src/fopix/fopixInterpreter.ml" 296 7758 7788 "src/fopix/fopixInterpreter.ml" 296 7758 7789
+type(
+  FopixAST.expression
+)
+ident(
+  int_ref r "src/fopix/fopixInterpreter.ml" 294 7690 7721 "src/fopix/fopixInterpreter.ml" 294 7690 7722
+)
+"src/fopix/fopixInterpreter.ml" 296 7758 7769 "src/fopix/fopixInterpreter.ml" 296 7758 7789
+call(
+  stack
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7801 "src/fopix/fopixInterpreter.ml" 297 7793 7807
+type(
+  a coercion
+)
+ident(
+  int_ref coerce "src/fopix/fopixInterpreter.ml" 294 7690 7696 "src/fopix/fopixInterpreter.ml" 294 7690 7702
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7808 "src/fopix/fopixInterpreter.ml" 297 7793 7810
+type(
+  value
+)
+ident(
+  int_ref lv "src/fopix/fopixInterpreter.ml" 295 7726 7732 "src/fopix/fopixInterpreter.ml" 295 7726 7734
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7801 "src/fopix/fopixInterpreter.ml" 297 7793 7810
+call(
+  stack
+)
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7812 "src/fopix/fopixInterpreter.ml" 297 7793 7818
+type(
+  a coercion
+)
+ident(
+  int_ref coerce "src/fopix/fopixInterpreter.ml" 294 7690 7696 "src/fopix/fopixInterpreter.ml" 294 7690 7702
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7819 "src/fopix/fopixInterpreter.ml" 297 7793 7821
+type(
+  value
+)
+ident(
+  int_ref rv "src/fopix/fopixInterpreter.ml" 296 7758 7764 "src/fopix/fopixInterpreter.ml" 296 7758 7766
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7812 "src/fopix/fopixInterpreter.ml" 297 7793 7821
+call(
+  stack
+)
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7801 "src/fopix/fopixInterpreter.ml" 297 7793 7821
+type(
+  a option * a option
+)
+"src/fopix/fopixInterpreter.ml" 298 7827 7838 "src/fopix/fopixInterpreter.ml" 298 7827 7840
+type(
+  a
+)
+ident(
+  def li "src/fopix/fopixInterpreter.ml" 299 7853 7859 "src/fopix/fopixInterpreter.ml" 299 7853 7874
+)
+"src/fopix/fopixInterpreter.ml" 298 7827 7833 "src/fopix/fopixInterpreter.ml" 298 7827 7840
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 298 7827 7847 "src/fopix/fopixInterpreter.ml" 298 7827 7849
+type(
+  a
+)
+ident(
+  def ri "src/fopix/fopixInterpreter.ml" 299 7853 7859 "src/fopix/fopixInterpreter.ml" 299 7853 7874
+)
+"src/fopix/fopixInterpreter.ml" 298 7827 7842 "src/fopix/fopixInterpreter.ml" 298 7827 7849
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 298 7827 7833 "src/fopix/fopixInterpreter.ml" 298 7827 7849
+type(
+  a option * a option
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7859 "src/fopix/fopixInterpreter.ml" 299 7853 7863
+type(
+  b wrapper
+)
+ident(
+  int_ref wrap "src/fopix/fopixInterpreter.ml" 294 7690 7703 "src/fopix/fopixInterpreter.ml" 294 7690 7707
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7865 "src/fopix/fopixInterpreter.ml" 299 7853 7867
+type(
+  a -> a -> b
+)
+ident(
+  int_ref op "src/fopix/fopixInterpreter.ml" 294 7690 7716 "src/fopix/fopixInterpreter.ml" 294 7690 7718
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7868 "src/fopix/fopixInterpreter.ml" 299 7853 7870
+type(
+  a
+)
+ident(
+  int_ref li "src/fopix/fopixInterpreter.ml" 298 7827 7838 "src/fopix/fopixInterpreter.ml" 298 7827 7840
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7871 "src/fopix/fopixInterpreter.ml" 299 7853 7873
+type(
+  a
+)
+ident(
+  int_ref ri "src/fopix/fopixInterpreter.ml" 298 7827 7847 "src/fopix/fopixInterpreter.ml" 298 7827 7849
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7864 "src/fopix/fopixInterpreter.ml" 299 7853 7874
+call(
+  stack
+)
+type(
+  b
+)
+"src/fopix/fopixInterpreter.ml" 299 7853 7859 "src/fopix/fopixInterpreter.ml" 299 7853 7874
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 300 7875 7881 "src/fopix/fopixInterpreter.ml" 300 7875 7882
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 300 7875 7884 "src/fopix/fopixInterpreter.ml" 300 7875 7885
+type(
+  a option
+)
+"src/fopix/fopixInterpreter.ml" 300 7875 7881 "src/fopix/fopixInterpreter.ml" 300 7875 7885
+type(
+  a option * a option
+)
+"src/fopix/fopixInterpreter.ml" 301 7889 7895 "src/fopix/fopixInterpreter.ml" 301 7889 7900
+type(
+  Position.t list -> string -> value
+)
+ident(
+  int_ref error "src/fopix/fopixInterpreter.ml" 7 103 107 "src/fopix/fopixInterpreter.ml" 7 103 112
+)
+"src/fopix/fopixInterpreter.ml" 301 7889 7901 "src/fopix/fopixInterpreter.ml" 301 7889 7903
+type(
+  Position.t list
+)
+"src/fopix/fopixInterpreter.ml" 301 7889 7904 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+type(
+  string
+)
+"src/fopix/fopixInterpreter.ml" 301 7889 7895 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+call(
+  tail
+)
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 297 7793 7795 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 295 7726 7728 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 294 7690 7692 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+type(
+  a coercion ->
+  b wrapper ->
+  runtime ->
+  (a -> a -> b) -> FopixAST.expression -> FopixAST.expression -> value
+)
+type(
+  a coercion ->
+  b wrapper ->
+  runtime ->
+  (a -> a -> b) -> FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 292 7603 7607 "src/fopix/fopixInterpreter.ml" 301 7889 7931
+type(
+  'a coercion ->
+  'b wrapper ->
+  runtime ->
+  ('a -> 'a -> 'b) -> FopixAST.expression -> FopixAST.expression -> value
+)
+type(
+  a coercion ->
+  'b wrapper ->
+  runtime ->
+  (a -> a -> 'b) -> FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7937 "src/fopix/fopixInterpreter.ml" 303 7933 7948
+type(
+  runtime ->
+  (Int32.t -> Int32.t -> Int32.t) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  def arith_binop "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7949 "src/fopix/fopixInterpreter.ml" 303 7933 7952
+type(
+  runtime
+)
+ident(
+  def env "src/fopix/fopixInterpreter.ml" 303 7933 7955 "src/fopix/fopixInterpreter.ml" 303 7933 7990
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7955 "src/fopix/fopixInterpreter.ml" 303 7933 7960
+type(
+  Int32.t coercion ->
+  Int32.t wrapper ->
+  runtime ->
+  (Int32.t -> Int32.t -> Int32.t) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref binop "src/fopix/fopixInterpreter.ml" 292 7603 7607 "src/fopix/fopixInterpreter.ml" 292 7603 7612
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7961 "src/fopix/fopixInterpreter.ml" 303 7933 7973
+type(
+  Int32.t coercion
+)
+ident(
+  int_ref value_as_int "src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7974 "src/fopix/fopixInterpreter.ml" 303 7933 7986
+type(
+  Int32.t wrapper
+)
+ident(
+  int_ref int_as_value "src/fopix/fopixInterpreter.ml" 40 979 983 "src/fopix/fopixInterpreter.ml" 40 979 995
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7987 "src/fopix/fopixInterpreter.ml" 303 7933 7990
+type(
+  runtime
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 303 7933 7949 "src/fopix/fopixInterpreter.ml" 303 7933 7952
+)
+"src/fopix/fopixInterpreter.ml" 303 7933 7955 "src/fopix/fopixInterpreter.ml" 303 7933 7990
+call(
+  tail
+)
+type(
+  (Int32.t -> Int32.t -> Int32.t) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 7995 "src/fopix/fopixInterpreter.ml" 304 7991 8006
+type(
+  runtime ->
+  (Int32.t -> Int32.t -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  def arith_cmpop "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8007 "src/fopix/fopixInterpreter.ml" 304 7991 8010
+type(
+  runtime
+)
+ident(
+  def env "src/fopix/fopixInterpreter.ml" 304 7991 8013 "src/fopix/fopixInterpreter.ml" 304 7991 8049
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8013 "src/fopix/fopixInterpreter.ml" 304 7991 8018
+type(
+  Int32.t coercion ->
+  bool wrapper ->
+  runtime ->
+  (Int32.t -> Int32.t -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref binop "src/fopix/fopixInterpreter.ml" 292 7603 7607 "src/fopix/fopixInterpreter.ml" 292 7603 7612
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8019 "src/fopix/fopixInterpreter.ml" 304 7991 8031
+type(
+  Int32.t coercion
+)
+ident(
+  int_ref value_as_int "src/fopix/fopixInterpreter.ml" 34 695 699 "src/fopix/fopixInterpreter.ml" 34 695 711
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8032 "src/fopix/fopixInterpreter.ml" 304 7991 8045
+type(
+  bool wrapper
+)
+ident(
+  int_ref bool_as_value "src/fopix/fopixInterpreter.ml" 41 1008 1012 "src/fopix/fopixInterpreter.ml" 41 1008 1025
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8046 "src/fopix/fopixInterpreter.ml" 304 7991 8049
+type(
+  runtime
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 304 7991 8007 "src/fopix/fopixInterpreter.ml" 304 7991 8010
+)
+"src/fopix/fopixInterpreter.ml" 304 7991 8013 "src/fopix/fopixInterpreter.ml" 304 7991 8049
+call(
+  tail
+)
+type(
+  (Int32.t -> Int32.t -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8054 "src/fopix/fopixInterpreter.ml" 305 8050 8067
+type(
+  runtime ->
+  (bool -> bool -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  def boolean_binop "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8068 "src/fopix/fopixInterpreter.ml" 305 8050 8071
+type(
+  runtime
+)
+ident(
+  def env "src/fopix/fopixInterpreter.ml" 305 8050 8074 "src/fopix/fopixInterpreter.ml" 305 8050 8111
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8074 "src/fopix/fopixInterpreter.ml" 305 8050 8079
+type(
+  bool coercion ->
+  bool wrapper ->
+  runtime ->
+  (bool -> bool -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+ident(
+  int_ref binop "src/fopix/fopixInterpreter.ml" 292 7603 7607 "src/fopix/fopixInterpreter.ml" 292 7603 7612
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8080 "src/fopix/fopixInterpreter.ml" 305 8050 8093
+type(
+  bool coercion
+)
+ident(
+  int_ref value_as_bool "src/fopix/fopixInterpreter.ml" 35 757 761 "src/fopix/fopixInterpreter.ml" 35 757 774
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8094 "src/fopix/fopixInterpreter.ml" 305 8050 8107
+type(
+  bool wrapper
+)
+ident(
+  int_ref bool_as_value "src/fopix/fopixInterpreter.ml" 41 1008 1012 "src/fopix/fopixInterpreter.ml" 41 1008 1025
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8108 "src/fopix/fopixInterpreter.ml" 305 8050 8111
+type(
+  runtime
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 305 8050 8068 "src/fopix/fopixInterpreter.ml" 305 8050 8071
+)
+"src/fopix/fopixInterpreter.ml" 305 8050 8074 "src/fopix/fopixInterpreter.ml" 305 8050 8111
+call(
+  tail
+)
+type(
+  (bool -> bool -> bool) ->
+  FopixAST.expression -> FopixAST.expression -> value
+)
+"src/fopix/fopixInterpreter.ml" 307 8113 8117 "src/fopix/fopixInterpreter.ml" 307 8113 8124
+type(
+  FopixAST.literal -> value
+)
+ident(
+  def literal "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 308 8136 8145 "src/fopix/fopixInterpreter.ml" 308 8136 8146
+type(
+  Int32.t
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 308 8136 8150 "src/fopix/fopixInterpreter.ml" 308 8136 8156
+)
+"src/fopix/fopixInterpreter.ml" 308 8136 8140 "src/fopix/fopixInterpreter.ml" 308 8136 8146
+type(
+  FopixAST.literal
+)
+"src/fopix/fopixInterpreter.ml" 308 8136 8155 "src/fopix/fopixInterpreter.ml" 308 8136 8156
+type(
+  Int32.t
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 308 8136 8145 "src/fopix/fopixInterpreter.ml" 308 8136 8146
+)
+"src/fopix/fopixInterpreter.ml" 308 8136 8150 "src/fopix/fopixInterpreter.ml" 308 8136 8156
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 309 8157 8169 "src/fopix/fopixInterpreter.ml" 309 8157 8170
+type(
+  string
+)
+ident(
+  def s "src/fopix/fopixInterpreter.ml" 309 8157 8174 "src/fopix/fopixInterpreter.ml" 309 8157 8183
+)
+"src/fopix/fopixInterpreter.ml" 309 8157 8161 "src/fopix/fopixInterpreter.ml" 309 8157 8170
+type(
+  FopixAST.literal
+)
+"src/fopix/fopixInterpreter.ml" 309 8157 8182 "src/fopix/fopixInterpreter.ml" 309 8157 8183
+type(
+  string
+)
+ident(
+  int_ref s "src/fopix/fopixInterpreter.ml" 309 8157 8169 "src/fopix/fopixInterpreter.ml" 309 8157 8170
+)
+"src/fopix/fopixInterpreter.ml" 309 8157 8174 "src/fopix/fopixInterpreter.ml" 309 8157 8183
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 310 8184 8194 "src/fopix/fopixInterpreter.ml" 310 8184 8195
+type(
+  char
+)
+ident(
+  def c "src/fopix/fopixInterpreter.ml" 310 8184 8199 "src/fopix/fopixInterpreter.ml" 310 8184 8206
+)
+"src/fopix/fopixInterpreter.ml" 310 8184 8188 "src/fopix/fopixInterpreter.ml" 310 8184 8195
+type(
+  FopixAST.literal
+)
+"src/fopix/fopixInterpreter.ml" 310 8184 8205 "src/fopix/fopixInterpreter.ml" 310 8184 8206
+type(
+  char
+)
+ident(
+  int_ref c "src/fopix/fopixInterpreter.ml" 310 8184 8194 "src/fopix/fopixInterpreter.ml" 310 8184 8195
+)
+"src/fopix/fopixInterpreter.ml" 310 8184 8199 "src/fopix/fopixInterpreter.ml" 310 8184 8206
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 311 8207 8217 "src/fopix/fopixInterpreter.ml" 311 8207 8218
+type(
+  bool
+)
+ident(
+  def b "src/fopix/fopixInterpreter.ml" 311 8207 8222 "src/fopix/fopixInterpreter.ml" 311 8207 8229
+)
+"src/fopix/fopixInterpreter.ml" 311 8207 8211 "src/fopix/fopixInterpreter.ml" 311 8207 8218
+type(
+  FopixAST.literal
+)
+"src/fopix/fopixInterpreter.ml" 311 8207 8228 "src/fopix/fopixInterpreter.ml" 311 8207 8229
+type(
+  bool
+)
+ident(
+  int_ref b "src/fopix/fopixInterpreter.ml" 311 8207 8217 "src/fopix/fopixInterpreter.ml" 311 8207 8218
+)
+"src/fopix/fopixInterpreter.ml" 311 8207 8222 "src/fopix/fopixInterpreter.ml" 311 8207 8229
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 312 8230 8239 "src/fopix/fopixInterpreter.ml" 312 8230 8240
+type(
+  FopixAST.function_identifier
+)
+ident(
+  def f "src/fopix/fopixInterpreter.ml" 312 8230 8244 "src/fopix/fopixInterpreter.ml" 312 8230 8250
+)
+"src/fopix/fopixInterpreter.ml" 312 8230 8234 "src/fopix/fopixInterpreter.ml" 312 8230 8240
+type(
+  FopixAST.literal
+)
+"src/fopix/fopixInterpreter.ml" 312 8230 8249 "src/fopix/fopixInterpreter.ml" 312 8230 8250
+type(
+  FopixAST.function_identifier
+)
+ident(
+  int_ref f "src/fopix/fopixInterpreter.ml" 312 8230 8239 "src/fopix/fopixInterpreter.ml" 312 8230 8240
+)
+"src/fopix/fopixInterpreter.ml" 312 8230 8244 "src/fopix/fopixInterpreter.ml" 312 8230 8250
+type(
+  value
+)
+"src/fopix/fopixInterpreter.ml" 307 8113 8127 "src/fopix/fopixInterpreter.ml" 312 8230 8250
+type(
+  FopixAST.literal -> value
+)
+"src/fopix/fopixInterpreter.ml" 314 8252 8256 "src/fopix/fopixInterpreter.ml" 314 8252 8274
+type(
+  runtime -> runtime -> observable
+)
+ident(
+  def extract_observable "src/fopix/fopixInterpreter.ml" 134 3121 3121 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 314 8252 8275 "src/fopix/fopixInterpreter.ml" 314 8252 8282
+type(
+  runtime
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 314 8252 8283 "src/fopix/fopixInterpreter.ml" 327 8730 8733
+)
+"src/fopix/fopixInterpreter.ml" 314 8252 8283 "src/fopix/fopixInterpreter.ml" 314 8252 8291
+type(
+  runtime
+)
+ident(
+  def runtime' "src/fopix/fopixInterpreter.ml" 315 8294 8296 "src/fopix/fopixInterpreter.ml" 327 8730 8733
+)
+"src/fopix/fopixInterpreter.ml" 315 8294 8304 "src/fopix/fopixInterpreter.ml" 315 8294 8313
+type(
+  Environment.t -> Environment.t -> Environment.t -> Environment.t
+)
+ident(
+  def substract "src/fopix/fopixInterpreter.ml" 315 8294 8296 "src/fopix/fopixInterpreter.ml" 327 8730 8733
+)
+"src/fopix/fopixInterpreter.ml" 315 8294 8314 "src/fopix/fopixInterpreter.ml" 315 8294 8329
+type(
+  Environment.t
+)
+ident(
+  def new_environment "src/fopix/fopixInterpreter.ml" 315 8294 8330 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 315 8294 8330 "src/fopix/fopixInterpreter.ml" 315 8294 8333
+type(
+  Environment.t
+)
+ident(
+  def env "src/fopix/fopixInterpreter.ml" 315 8294 8334 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 315 8294 8334 "src/fopix/fopixInterpreter.ml" 315 8294 8338
+type(
+  Environment.t
+)
+ident(
+  def env' "src/fopix/fopixInterpreter.ml" 316 8341 8345 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8348 "src/fopix/fopixInterpreter.ml" 316 8341 8351
+type(
+  Environment.t
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 315 8294 8330 "src/fopix/fopixInterpreter.ml" 315 8294 8333
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8352 "src/fopix/fopixInterpreter.ml" 316 8341 8354
+type(
+  Environment.t -> Environment.t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8355 "src/fopix/fopixInterpreter.ml" 316 8341 8359
+type(
+  Environment.t
+)
+ident(
+  int_ref env' "src/fopix/fopixInterpreter.ml" 315 8294 8334 "src/fopix/fopixInterpreter.ml" 315 8294 8338
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8348 "src/fopix/fopixInterpreter.ml" 316 8341 8359
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8365 "src/fopix/fopixInterpreter.ml" 316 8341 8380
+type(
+  Environment.t
+)
+ident(
+  int_ref new_environment "src/fopix/fopixInterpreter.ml" 315 8294 8314 "src/fopix/fopixInterpreter.ml" 315 8294 8329
+)
+"src/fopix/fopixInterpreter.ml" 318 8390 8402 "src/fopix/fopixInterpreter.ml" 318 8390 8418
+type(
+  Environment.t -> (FopixAST.identifier * value * Environment.t) option
+)
+ident(
+  int_ref Environment.last "src/fopix/fopixInterpreter.ml" 82 1990 1992 "src/fopix/fopixInterpreter.ml" 82 1990 2042
+)
+"src/fopix/fopixInterpreter.ml" 318 8390 8419 "src/fopix/fopixInterpreter.ml" 318 8390 8423
+type(
+  Environment.t
+)
+ident(
+  int_ref env' "src/fopix/fopixInterpreter.ml" 315 8294 8334 "src/fopix/fopixInterpreter.ml" 315 8294 8338
+)
+"src/fopix/fopixInterpreter.ml" 318 8390 8402 "src/fopix/fopixInterpreter.ml" 318 8390 8423
+call(
+  stack
+)
+type(
+  (FopixAST.identifier * value * Environment.t) option
+)
+"src/fopix/fopixInterpreter.ml" 319 8429 8439 "src/fopix/fopixInterpreter.ml" 319 8429 8443
+type(
+  (FopixAST.identifier * value * Environment.t) option
+)
+"src/fopix/fopixInterpreter.ml" 319 8429 8454 "src/fopix/fopixInterpreter.ml" 319 8429 8459
+type(
+  bool
+)
+"src/fopix/fopixInterpreter.ml" 319 8429 8447 "src/fopix/fopixInterpreter.ml" 319 8429 8459
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 320 8474 8490 "src/fopix/fopixInterpreter.ml" 320 8474 8491
+type(
+  FopixAST.identifier
+)
+ident(
+  def x "src/fopix/fopixInterpreter.ml" 321 8505 8515 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 320 8474 8493 "src/fopix/fopixInterpreter.ml" 320 8474 8494
+type(
+  value
+)
+ident(
+  def v "src/fopix/fopixInterpreter.ml" 321 8505 8515 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 320 8474 8496 "src/fopix/fopixInterpreter.ml" 320 8474 8500
+type(
+  Environment.t
+)
+ident(
+  def env' "src/fopix/fopixInterpreter.ml" 321 8505 8515 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 320 8474 8489 "src/fopix/fopixInterpreter.ml" 320 8474 8501
+type(
+  FopixAST.identifier * value * Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 320 8474 8484 "src/fopix/fopixInterpreter.ml" 320 8474 8501
+type(
+  (FopixAST.identifier * value * Environment.t) option
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8519 "src/fopix/fopixInterpreter.ml" 321 8505 8534
+type(
+  Environment.t
+)
+ident(
+  def new_environment "src/fopix/fopixInterpreter.ml" 322 8577 8587 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8537 "src/fopix/fopixInterpreter.ml" 321 8505 8553
+type(
+  Environment.t -> FopixAST.identifier -> value -> Environment.t
+)
+ident(
+  int_ref Environment.bind "src/fopix/fopixInterpreter.ml" 79 1859 1861 "src/fopix/fopixInterpreter.ml" 79 1859 1904
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8554 "src/fopix/fopixInterpreter.ml" 321 8505 8569
+type(
+  Environment.t
+)
+ident(
+  int_ref new_environment "src/fopix/fopixInterpreter.ml" 315 8294 8314 "src/fopix/fopixInterpreter.ml" 315 8294 8329
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8570 "src/fopix/fopixInterpreter.ml" 321 8505 8571
+type(
+  FopixAST.identifier
+)
+ident(
+  int_ref x "src/fopix/fopixInterpreter.ml" 320 8474 8490 "src/fopix/fopixInterpreter.ml" 320 8474 8491
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8572 "src/fopix/fopixInterpreter.ml" 321 8505 8573
+type(
+  value
+)
+ident(
+  int_ref v "src/fopix/fopixInterpreter.ml" 320 8474 8493 "src/fopix/fopixInterpreter.ml" 320 8474 8494
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8537 "src/fopix/fopixInterpreter.ml" 321 8505 8573
+call(
+  stack
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 322 8577 8587 "src/fopix/fopixInterpreter.ml" 322 8577 8596
+type(
+  Environment.t -> Environment.t -> Environment.t -> Environment.t
+)
+ident(
+  int_ref substract "src/fopix/fopixInterpreter.ml" 315 8294 8304 "src/fopix/fopixInterpreter.ml" 315 8294 8313
+)
+"src/fopix/fopixInterpreter.ml" 322 8577 8597 "src/fopix/fopixInterpreter.ml" 322 8577 8612
+type(
+  Environment.t
+)
+ident(
+  int_ref new_environment "src/fopix/fopixInterpreter.ml" 321 8505 8519 "src/fopix/fopixInterpreter.ml" 321 8505 8534
+)
+"src/fopix/fopixInterpreter.ml" 322 8577 8613 "src/fopix/fopixInterpreter.ml" 322 8577 8616
+type(
+  Environment.t
+)
+ident(
+  int_ref env "src/fopix/fopixInterpreter.ml" 315 8294 8330 "src/fopix/fopixInterpreter.ml" 315 8294 8333
+)
+"src/fopix/fopixInterpreter.ml" 322 8577 8617 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+type(
+  Environment.t
+)
+ident(
+  int_ref env' "src/fopix/fopixInterpreter.ml" 320 8474 8496 "src/fopix/fopixInterpreter.ml" 320 8474 8500
+)
+"src/fopix/fopixInterpreter.ml" 322 8577 8587 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+call(
+  tail
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 321 8505 8515 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 318 8390 8396 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 316 8341 8345 "src/fopix/fopixInterpreter.ml" 322 8577 8621
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8659 "src/fopix/fopixInterpreter.ml" 326 8653 8668
+type(
+  Environment.t -> Environment.t -> Environment.t -> Environment.t
+)
+ident(
+  int_ref substract "src/fopix/fopixInterpreter.ml" 315 8294 8304 "src/fopix/fopixInterpreter.ml" 315 8294 8313
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8669 "src/fopix/fopixInterpreter.ml" 326 8653 8688
+type(
+  Environment.t
+)
+ident(
+  int_ref Environment.initial "src/fopix/fopixInterpreter.ml" 78 1841 1843 "src/fopix/fopixInterpreter.ml" 78 1841 1858
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8689 "src/fopix/fopixInterpreter.ml" 326 8653 8696
+type(
+  runtime
+)
+ident(
+  int_ref runtime "src/fopix/fopixInterpreter.ml" 314 8252 8275 "src/fopix/fopixInterpreter.ml" 314 8252 8282
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8689 "src/fopix/fopixInterpreter.ml" 326 8653 8708
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8709 "src/fopix/fopixInterpreter.ml" 326 8653 8717
+type(
+  runtime
+)
+ident(
+  int_ref runtime' "src/fopix/fopixInterpreter.ml" 314 8252 8283 "src/fopix/fopixInterpreter.ml" 314 8252 8291
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8709 "src/fopix/fopixInterpreter.ml" 326 8653 8729
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 326 8653 8659 "src/fopix/fopixInterpreter.ml" 326 8653 8729
+call(
+  stack
+)
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 324 8627 8629 "src/fopix/fopixInterpreter.ml" 327 8730 8733
+type(
+  observable
+)
+"src/fopix/fopixInterpreter.ml" 315 8294 8296 "src/fopix/fopixInterpreter.ml" 327 8730 8733
+type(
+  observable
+)
+"src/fopix/fopixInterpreter.ml" 329 8735 8739 "src/fopix/fopixInterpreter.ml" 329 8735 8755
+type(
+  'a -> observable -> string
+)
+ident(
+  def print_observable "src/fopix/fopixInterpreter.ml" 330 8778 8833 "src/fopix/fopixInterpreter.ml" 1 0 -1
+)
+"src/fopix/fopixInterpreter.ml" 329 8735 8756 "src/fopix/fopixInterpreter.ml" 329 8735 8763
+type(
+  'a
+)
+ident(
+  def runtime "src/fopix/fopixInterpreter.ml" 329 8735 8764 "src/fopix/fopixInterpreter.ml" 330 8778 8833
+)
+"src/fopix/fopixInterpreter.ml" 329 8735 8764 "src/fopix/fopixInterpreter.ml" 329 8735 8775
+type(
+  observable
+)
+ident(
+  def observation "src/fopix/fopixInterpreter.ml" 330 8778 8780 "src/fopix/fopixInterpreter.ml" 330 8778 8833
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8780 "src/fopix/fopixInterpreter.ml" 330 8778 8797
+type(
+  value Bmemory.t -> Environment.t -> string
+)
+ident(
+  int_ref Environment.print "src/fopix/fopixInterpreter.ml" 83 2043 2045 "src/fopix/fopixInterpreter.ml" 83 2043 2089
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8798 "src/fopix/fopixInterpreter.ml" 330 8778 8799
+type(
+  value Bmemory.t ref -> value Bmemory.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8799 "src/fopix/fopixInterpreter.ml" 330 8778 8805
+type(
+  value Bmemory.t ref
+)
+ident(
+  int_ref memory "src/fopix/fopixInterpreter.ml" 132 3062 3066 "src/fopix/fopixInterpreter.ml" 132 3062 3072
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8798 "src/fopix/fopixInterpreter.ml" 330 8778 8805
+type(
+  value Bmemory.t
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8806 "src/fopix/fopixInterpreter.ml" 330 8778 8817
+type(
+  observable
+)
+ident(
+  int_ref observation "src/fopix/fopixInterpreter.ml" 329 8735 8764 "src/fopix/fopixInterpreter.ml" 329 8735 8775
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8806 "src/fopix/fopixInterpreter.ml" 330 8778 8833
+type(
+  Environment.t
+)
+"src/fopix/fopixInterpreter.ml" 330 8778 8780 "src/fopix/fopixInterpreter.ml" 330 8778 8833
+call(
+  tail
+)
+type(
+  string
+)

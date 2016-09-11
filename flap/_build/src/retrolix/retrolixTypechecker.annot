@@ -1,0 +1,52 @@
+"src/retrolix/retrolixTypechecker.ml" 3 32 36 "src/retrolix/retrolixTypechecker.ml" 3 32 62
+type(
+  unit -> unit
+)
+ident(
+  def initial_typing_environment "src/retrolix/retrolixTypechecker.ml" 5 72 72 "src/retrolix/retrolixTypechecker.ml" 1 0 -1
+)
+"src/retrolix/retrolixTypechecker.ml" 3 32 63 "src/retrolix/retrolixTypechecker.ml" 3 32 65
+type(
+  unit
+)
+"src/retrolix/retrolixTypechecker.ml" 3 32 68 "src/retrolix/retrolixTypechecker.ml" 3 32 70
+type(
+  unit
+)
+"src/retrolix/retrolixTypechecker.ml" 5 72 76 "src/retrolix/retrolixTypechecker.ml" 5 72 100
+type(
+  unit -> string
+)
+ident(
+  def print_typing_environment "src/retrolix/retrolixTypechecker.ml" 7 110 110 "src/retrolix/retrolixTypechecker.ml" 1 0 -1
+)
+"src/retrolix/retrolixTypechecker.ml" 5 72 101 "src/retrolix/retrolixTypechecker.ml" 5 72 103
+type(
+  unit
+)
+"src/retrolix/retrolixTypechecker.ml" 5 72 106 "src/retrolix/retrolixTypechecker.ml" 5 72 108
+type(
+  string
+)
+"src/retrolix/retrolixTypechecker.ml" 7 110 114 "src/retrolix/retrolixTypechecker.ml" 7 110 123
+type(
+  unit -> 'a -> unit
+)
+ident(
+  def typecheck "src/retrolix/retrolixTypechecker.ml" 7 110 135 "src/retrolix/retrolixTypechecker.ml" 1 0 -1
+)
+"src/retrolix/retrolixTypechecker.ml" 7 110 124 "src/retrolix/retrolixTypechecker.ml" 7 110 126
+type(
+  unit
+)
+"src/retrolix/retrolixTypechecker.ml" 7 110 127 "src/retrolix/retrolixTypechecker.ml" 7 110 130
+type(
+  'a
+)
+ident(
+  def ast "src/retrolix/retrolixTypechecker.ml" 7 110 133 "src/retrolix/retrolixTypechecker.ml" 7 110 135
+)
+"src/retrolix/retrolixTypechecker.ml" 7 110 133 "src/retrolix/retrolixTypechecker.ml" 7 110 135
+type(
+  unit
+)

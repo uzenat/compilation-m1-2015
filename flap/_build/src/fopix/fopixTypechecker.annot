@@ -1,0 +1,52 @@
+"src/fopix/fopixTypechecker.ml" 3 32 36 "src/fopix/fopixTypechecker.ml" 3 32 62
+type(
+  unit -> unit
+)
+ident(
+  def initial_typing_environment "src/fopix/fopixTypechecker.ml" 5 72 72 "src/fopix/fopixTypechecker.ml" 1 0 -1
+)
+"src/fopix/fopixTypechecker.ml" 3 32 63 "src/fopix/fopixTypechecker.ml" 3 32 65
+type(
+  unit
+)
+"src/fopix/fopixTypechecker.ml" 3 32 68 "src/fopix/fopixTypechecker.ml" 3 32 70
+type(
+  unit
+)
+"src/fopix/fopixTypechecker.ml" 5 72 76 "src/fopix/fopixTypechecker.ml" 5 72 85
+type(
+  unit -> 'a -> unit
+)
+ident(
+  def typecheck "src/fopix/fopixTypechecker.ml" 7 99 99 "src/fopix/fopixTypechecker.ml" 1 0 -1
+)
+"src/fopix/fopixTypechecker.ml" 5 72 86 "src/fopix/fopixTypechecker.ml" 5 72 88
+type(
+  unit
+)
+"src/fopix/fopixTypechecker.ml" 5 72 89 "src/fopix/fopixTypechecker.ml" 5 72 92
+type(
+  'a
+)
+ident(
+  def ast "src/fopix/fopixTypechecker.ml" 5 72 95 "src/fopix/fopixTypechecker.ml" 5 72 97
+)
+"src/fopix/fopixTypechecker.ml" 5 72 95 "src/fopix/fopixTypechecker.ml" 5 72 97
+type(
+  unit
+)
+"src/fopix/fopixTypechecker.ml" 7 99 103 "src/fopix/fopixTypechecker.ml" 7 99 127
+type(
+  unit -> string
+)
+ident(
+  def print_typing_environment "src/fopix/fopixTypechecker.ml" 7 99 135 "src/fopix/fopixTypechecker.ml" 1 0 -1
+)
+"src/fopix/fopixTypechecker.ml" 7 99 128 "src/fopix/fopixTypechecker.ml" 7 99 130
+type(
+  unit
+)
+"src/fopix/fopixTypechecker.ml" 7 99 133 "src/fopix/fopixTypechecker.ml" 7 99 135
+type(
+  string
+)

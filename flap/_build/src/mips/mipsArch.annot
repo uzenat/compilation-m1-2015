@@ -1,0 +1,1760 @@
+"src/mips/mipsArch.ml" 13 142 146 "src/mips/mipsArch.ml" 13 142 148
+type(
+  register
+)
+ident(
+  def ra "src/mips/mipsArch.ml" 15 155 155 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 13 142 151 "src/mips/mipsArch.ml" 13 142 153
+type(
+  register
+)
+"src/mips/mipsArch.ml" 15 155 159 "src/mips/mipsArch.ml" 15 155 161
+type(
+  register
+)
+ident(
+  def sp "src/mips/mipsArch.ml" 17 168 168 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 15 155 164 "src/mips/mipsArch.ml" 15 155 166
+type(
+  register
+)
+"src/mips/mipsArch.ml" 17 168 172 "src/mips/mipsArch.ml" 17 168 174
+type(
+  register
+)
+ident(
+  def fp "src/mips/mipsArch.ml" 19 181 181 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 17 168 177 "src/mips/mipsArch.ml" 17 168 179
+type(
+  register
+)
+"src/mips/mipsArch.ml" 19 181 185 "src/mips/mipsArch.ml" 19 181 187
+type(
+  register
+)
+ident(
+  def gp "src/mips/mipsArch.ml" 21 194 194 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 19 181 190 "src/mips/mipsArch.ml" 19 181 192
+type(
+  register
+)
+"src/mips/mipsArch.ml" 21 194 198 "src/mips/mipsArch.ml" 21 194 199
+type(
+  int -> register
+)
+ident(
+  def t "src/mips/mipsArch.ml" 25 240 240 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 21 194 200 "src/mips/mipsArch.ml" 21 194 201
+type(
+  int
+)
+ident(
+  def x "src/mips/mipsArch.ml" 22 204 206 "src/mips/mipsArch.ml" 23 233 238
+)
+"src/mips/mipsArch.ml" 22 204 214 "src/mips/mipsArch.ml" 22 204 215
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 21 194 200 "src/mips/mipsArch.ml" 21 194 201
+)
+"src/mips/mipsArch.ml" 22 204 216 "src/mips/mipsArch.ml" 22 204 218
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/mips/mipsArch.ml" 22 204 219 "src/mips/mipsArch.ml" 22 204 220
+type(
+  int
+)
+"src/mips/mipsArch.ml" 22 204 214 "src/mips/mipsArch.ml" 22 204 220
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 22 204 221 "src/mips/mipsArch.ml" 22 204 223
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/mips/mipsArch.ml" 22 204 224 "src/mips/mipsArch.ml" 22 204 225
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 21 194 200 "src/mips/mipsArch.ml" 21 194 201
+)
+"src/mips/mipsArch.ml" 22 204 226 "src/mips/mipsArch.ml" 22 204 228
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/mips/mipsArch.ml" 22 204 229 "src/mips/mipsArch.ml" 22 204 230
+type(
+  int
+)
+"src/mips/mipsArch.ml" 22 204 224 "src/mips/mipsArch.ml" 22 204 230
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 22 204 213 "src/mips/mipsArch.ml" 22 204 231
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 22 204 206 "src/mips/mipsArch.ml" 22 204 231
+type(
+  unit
+)
+"src/mips/mipsArch.ml" 23 233 237 "src/mips/mipsArch.ml" 23 233 238
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 21 194 200 "src/mips/mipsArch.ml" 21 194 201
+)
+"src/mips/mipsArch.ml" 23 233 235 "src/mips/mipsArch.ml" 23 233 238
+type(
+  register
+)
+"src/mips/mipsArch.ml" 22 204 206 "src/mips/mipsArch.ml" 23 233 238
+type(
+  register
+)
+"src/mips/mipsArch.ml" 25 240 244 "src/mips/mipsArch.ml" 25 240 245
+type(
+  int -> register
+)
+ident(
+  def v "src/mips/mipsArch.ml" 29 286 286 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 25 240 246 "src/mips/mipsArch.ml" 25 240 247
+type(
+  int
+)
+ident(
+  def x "src/mips/mipsArch.ml" 26 250 252 "src/mips/mipsArch.ml" 27 279 284
+)
+"src/mips/mipsArch.ml" 26 250 260 "src/mips/mipsArch.ml" 26 250 261
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 25 240 246 "src/mips/mipsArch.ml" 25 240 247
+)
+"src/mips/mipsArch.ml" 26 250 262 "src/mips/mipsArch.ml" 26 250 264
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/mips/mipsArch.ml" 26 250 265 "src/mips/mipsArch.ml" 26 250 266
+type(
+  int
+)
+"src/mips/mipsArch.ml" 26 250 260 "src/mips/mipsArch.ml" 26 250 266
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 26 250 267 "src/mips/mipsArch.ml" 26 250 269
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/mips/mipsArch.ml" 26 250 270 "src/mips/mipsArch.ml" 26 250 271
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 25 240 246 "src/mips/mipsArch.ml" 25 240 247
+)
+"src/mips/mipsArch.ml" 26 250 272 "src/mips/mipsArch.ml" 26 250 274
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/mips/mipsArch.ml" 26 250 275 "src/mips/mipsArch.ml" 26 250 276
+type(
+  int
+)
+"src/mips/mipsArch.ml" 26 250 270 "src/mips/mipsArch.ml" 26 250 276
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 26 250 259 "src/mips/mipsArch.ml" 26 250 277
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 26 250 252 "src/mips/mipsArch.ml" 26 250 277
+type(
+  unit
+)
+"src/mips/mipsArch.ml" 27 279 283 "src/mips/mipsArch.ml" 27 279 284
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 25 240 246 "src/mips/mipsArch.ml" 25 240 247
+)
+"src/mips/mipsArch.ml" 27 279 281 "src/mips/mipsArch.ml" 27 279 284
+type(
+  register
+)
+"src/mips/mipsArch.ml" 26 250 252 "src/mips/mipsArch.ml" 27 279 284
+type(
+  register
+)
+"src/mips/mipsArch.ml" 29 286 290 "src/mips/mipsArch.ml" 29 286 291
+type(
+  int -> register
+)
+ident(
+  def s "src/mips/mipsArch.ml" 33 332 332 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 29 286 292 "src/mips/mipsArch.ml" 29 286 293
+type(
+  int
+)
+ident(
+  def x "src/mips/mipsArch.ml" 30 296 298 "src/mips/mipsArch.ml" 31 325 330
+)
+"src/mips/mipsArch.ml" 30 296 306 "src/mips/mipsArch.ml" 30 296 307
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 29 286 292 "src/mips/mipsArch.ml" 29 286 293
+)
+"src/mips/mipsArch.ml" 30 296 308 "src/mips/mipsArch.ml" 30 296 310
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/mips/mipsArch.ml" 30 296 311 "src/mips/mipsArch.ml" 30 296 312
+type(
+  int
+)
+"src/mips/mipsArch.ml" 30 296 306 "src/mips/mipsArch.ml" 30 296 312
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 30 296 313 "src/mips/mipsArch.ml" 30 296 315
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/mips/mipsArch.ml" 30 296 316 "src/mips/mipsArch.ml" 30 296 317
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 29 286 292 "src/mips/mipsArch.ml" 29 286 293
+)
+"src/mips/mipsArch.ml" 30 296 318 "src/mips/mipsArch.ml" 30 296 320
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/mips/mipsArch.ml" 30 296 321 "src/mips/mipsArch.ml" 30 296 322
+type(
+  int
+)
+"src/mips/mipsArch.ml" 30 296 316 "src/mips/mipsArch.ml" 30 296 322
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 30 296 305 "src/mips/mipsArch.ml" 30 296 323
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 30 296 298 "src/mips/mipsArch.ml" 30 296 323
+type(
+  unit
+)
+"src/mips/mipsArch.ml" 31 325 329 "src/mips/mipsArch.ml" 31 325 330
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 29 286 292 "src/mips/mipsArch.ml" 29 286 293
+)
+"src/mips/mipsArch.ml" 31 325 327 "src/mips/mipsArch.ml" 31 325 330
+type(
+  register
+)
+"src/mips/mipsArch.ml" 30 296 298 "src/mips/mipsArch.ml" 31 325 330
+type(
+  register
+)
+"src/mips/mipsArch.ml" 33 332 336 "src/mips/mipsArch.ml" 33 332 337
+type(
+  int -> register
+)
+ident(
+  def a "src/mips/mipsArch.ml" 37 378 378 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 33 332 338 "src/mips/mipsArch.ml" 33 332 339
+type(
+  int
+)
+ident(
+  def x "src/mips/mipsArch.ml" 34 342 344 "src/mips/mipsArch.ml" 35 371 376
+)
+"src/mips/mipsArch.ml" 34 342 352 "src/mips/mipsArch.ml" 34 342 353
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 33 332 338 "src/mips/mipsArch.ml" 33 332 339
+)
+"src/mips/mipsArch.ml" 34 342 354 "src/mips/mipsArch.ml" 34 342 356
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/mips/mipsArch.ml" 34 342 357 "src/mips/mipsArch.ml" 34 342 358
+type(
+  int
+)
+"src/mips/mipsArch.ml" 34 342 352 "src/mips/mipsArch.ml" 34 342 358
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 34 342 359 "src/mips/mipsArch.ml" 34 342 361
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/mips/mipsArch.ml" 34 342 362 "src/mips/mipsArch.ml" 34 342 363
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 33 332 338 "src/mips/mipsArch.ml" 33 332 339
+)
+"src/mips/mipsArch.ml" 34 342 364 "src/mips/mipsArch.ml" 34 342 366
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/mips/mipsArch.ml" 34 342 367 "src/mips/mipsArch.ml" 34 342 368
+type(
+  int
+)
+"src/mips/mipsArch.ml" 34 342 362 "src/mips/mipsArch.ml" 34 342 368
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 34 342 351 "src/mips/mipsArch.ml" 34 342 369
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 34 342 344 "src/mips/mipsArch.ml" 34 342 369
+type(
+  unit
+)
+"src/mips/mipsArch.ml" 35 371 375 "src/mips/mipsArch.ml" 35 371 376
+type(
+  int
+)
+ident(
+  int_ref x "src/mips/mipsArch.ml" 33 332 338 "src/mips/mipsArch.ml" 33 332 339
+)
+"src/mips/mipsArch.ml" 35 371 373 "src/mips/mipsArch.ml" 35 371 376
+type(
+  register
+)
+"src/mips/mipsArch.ml" 34 342 344 "src/mips/mipsArch.ml" 35 371 376
+type(
+  register
+)
+"src/mips/mipsArch.ml" 37 378 382 "src/mips/mipsArch.ml" 37 378 395
+type(
+  register list
+)
+ident(
+  def all_registers "src/mips/mipsArch.ml" 46 521 521 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 38 418 420 "src/mips/mipsArch.ml" 38 418 427
+type(
+  register list list -> register list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/mips/mipsArch.ml" 39 430 434 "src/mips/mipsArch.ml" 39 430 437
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 39 430 438 "src/mips/mipsArch.ml" 39 430 439
+type(
+  int -> register
+)
+ident(
+  int_ref t "src/mips/mipsArch.ml" 21 194 198 "src/mips/mipsArch.ml" 21 194 199
+)
+"src/mips/mipsArch.ml" 39 430 441 "src/mips/mipsArch.ml" 39 430 446
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 39 430 447 "src/mips/mipsArch.ml" 39 430 448
+type(
+  int
+)
+"src/mips/mipsArch.ml" 39 430 449 "src/mips/mipsArch.ml" 39 430 450
+type(
+  int
+)
+"src/mips/mipsArch.ml" 39 430 440 "src/mips/mipsArch.ml" 39 430 451
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 39 430 434 "src/mips/mipsArch.ml" 39 430 451
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 40 453 457 "src/mips/mipsArch.ml" 40 453 460
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 40 453 461 "src/mips/mipsArch.ml" 40 453 462
+type(
+  int -> register
+)
+ident(
+  int_ref v "src/mips/mipsArch.ml" 25 240 244 "src/mips/mipsArch.ml" 25 240 245
+)
+"src/mips/mipsArch.ml" 40 453 464 "src/mips/mipsArch.ml" 40 453 465
+type(
+  int
+)
+"src/mips/mipsArch.ml" 40 453 463 "src/mips/mipsArch.ml" 40 453 466
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 40 453 457 "src/mips/mipsArch.ml" 40 453 466
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 41 468 472 "src/mips/mipsArch.ml" 41 468 475
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 41 468 476 "src/mips/mipsArch.ml" 41 468 477
+type(
+  int -> register
+)
+ident(
+  int_ref a "src/mips/mipsArch.ml" 33 332 336 "src/mips/mipsArch.ml" 33 332 337
+)
+"src/mips/mipsArch.ml" 41 468 479 "src/mips/mipsArch.ml" 41 468 484
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 41 468 485 "src/mips/mipsArch.ml" 41 468 486
+type(
+  int
+)
+"src/mips/mipsArch.ml" 41 468 487 "src/mips/mipsArch.ml" 41 468 488
+type(
+  int
+)
+"src/mips/mipsArch.ml" 41 468 478 "src/mips/mipsArch.ml" 41 468 489
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 41 468 472 "src/mips/mipsArch.ml" 41 468 489
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 42 491 495 "src/mips/mipsArch.ml" 42 491 498
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 42 491 499 "src/mips/mipsArch.ml" 42 491 500
+type(
+  int -> register
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 29 286 290 "src/mips/mipsArch.ml" 29 286 291
+)
+"src/mips/mipsArch.ml" 42 491 502 "src/mips/mipsArch.ml" 42 491 507
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 42 491 508 "src/mips/mipsArch.ml" 42 491 509
+type(
+  int
+)
+"src/mips/mipsArch.ml" 42 491 510 "src/mips/mipsArch.ml" 42 491 511
+type(
+  int
+)
+"src/mips/mipsArch.ml" 42 491 501 "src/mips/mipsArch.ml" 42 491 512
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 42 491 495 "src/mips/mipsArch.ml" 42 491 512
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 38 418 428 "src/mips/mipsArch.ml" 43 513 516
+type(
+  register list list
+)
+"src/mips/mipsArch.ml" 38 418 420 "src/mips/mipsArch.ml" 43 513 516
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 46 521 525 "src/mips/mipsArch.ml" 46 521 543
+type(
+  register -> string
+)
+ident(
+  def string_of_register "src/mips/mipsArch.ml" 56 756 756 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 47 555 559 "src/mips/mipsArch.ml" 47 555 561
+type(
+  register
+)
+"src/mips/mipsArch.ml" 47 555 565 "src/mips/mipsArch.ml" 47 555 570
+type(
+  string
+)
+"src/mips/mipsArch.ml" 48 571 575 "src/mips/mipsArch.ml" 48 571 577
+type(
+  register
+)
+"src/mips/mipsArch.ml" 48 571 581 "src/mips/mipsArch.ml" 48 571 586
+type(
+  string
+)
+"src/mips/mipsArch.ml" 49 587 591 "src/mips/mipsArch.ml" 49 587 593
+type(
+  register
+)
+"src/mips/mipsArch.ml" 49 587 597 "src/mips/mipsArch.ml" 49 587 602
+type(
+  string
+)
+"src/mips/mipsArch.ml" 50 603 607 "src/mips/mipsArch.ml" 50 603 609
+type(
+  register
+)
+"src/mips/mipsArch.ml" 50 603 613 "src/mips/mipsArch.ml" 50 603 618
+type(
+  string
+)
+"src/mips/mipsArch.ml" 51 619 625 "src/mips/mipsArch.ml" 51 619 626
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 51 619 630 "src/mips/mipsArch.ml" 51 619 652
+)
+"src/mips/mipsArch.ml" 51 619 623 "src/mips/mipsArch.ml" 51 619 626
+type(
+  register
+)
+"src/mips/mipsArch.ml" 51 619 630 "src/mips/mipsArch.ml" 51 619 634
+type(
+  string
+)
+"src/mips/mipsArch.ml" 51 619 635 "src/mips/mipsArch.ml" 51 619 636
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 51 619 637 "src/mips/mipsArch.ml" 51 619 650
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 51 619 651 "src/mips/mipsArch.ml" 51 619 652
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 51 619 625 "src/mips/mipsArch.ml" 51 619 626
+)
+"src/mips/mipsArch.ml" 51 619 637 "src/mips/mipsArch.ml" 51 619 652
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 51 619 630 "src/mips/mipsArch.ml" 51 619 652
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 52 653 659 "src/mips/mipsArch.ml" 52 653 660
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 52 653 664 "src/mips/mipsArch.ml" 52 653 686
+)
+"src/mips/mipsArch.ml" 52 653 657 "src/mips/mipsArch.ml" 52 653 660
+type(
+  register
+)
+"src/mips/mipsArch.ml" 52 653 664 "src/mips/mipsArch.ml" 52 653 668
+type(
+  string
+)
+"src/mips/mipsArch.ml" 52 653 669 "src/mips/mipsArch.ml" 52 653 670
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 52 653 671 "src/mips/mipsArch.ml" 52 653 684
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 52 653 685 "src/mips/mipsArch.ml" 52 653 686
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 52 653 659 "src/mips/mipsArch.ml" 52 653 660
+)
+"src/mips/mipsArch.ml" 52 653 671 "src/mips/mipsArch.ml" 52 653 686
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 52 653 664 "src/mips/mipsArch.ml" 52 653 686
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 53 687 693 "src/mips/mipsArch.ml" 53 687 694
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 53 687 698 "src/mips/mipsArch.ml" 53 687 720
+)
+"src/mips/mipsArch.ml" 53 687 691 "src/mips/mipsArch.ml" 53 687 694
+type(
+  register
+)
+"src/mips/mipsArch.ml" 53 687 698 "src/mips/mipsArch.ml" 53 687 702
+type(
+  string
+)
+"src/mips/mipsArch.ml" 53 687 703 "src/mips/mipsArch.ml" 53 687 704
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 53 687 705 "src/mips/mipsArch.ml" 53 687 718
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 53 687 719 "src/mips/mipsArch.ml" 53 687 720
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 53 687 693 "src/mips/mipsArch.ml" 53 687 694
+)
+"src/mips/mipsArch.ml" 53 687 705 "src/mips/mipsArch.ml" 53 687 720
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 53 687 698 "src/mips/mipsArch.ml" 53 687 720
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 54 721 727 "src/mips/mipsArch.ml" 54 721 728
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 54 721 732 "src/mips/mipsArch.ml" 54 721 754
+)
+"src/mips/mipsArch.ml" 54 721 725 "src/mips/mipsArch.ml" 54 721 728
+type(
+  register
+)
+"src/mips/mipsArch.ml" 54 721 732 "src/mips/mipsArch.ml" 54 721 736
+type(
+  string
+)
+"src/mips/mipsArch.ml" 54 721 737 "src/mips/mipsArch.ml" 54 721 738
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 54 721 739 "src/mips/mipsArch.ml" 54 721 752
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 54 721 753 "src/mips/mipsArch.ml" 54 721 754
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 54 721 727 "src/mips/mipsArch.ml" 54 721 728
+)
+"src/mips/mipsArch.ml" 54 721 739 "src/mips/mipsArch.ml" 54 721 754
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 54 721 732 "src/mips/mipsArch.ml" 54 721 754
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 46 521 546 "src/mips/mipsArch.ml" 54 721 754
+type(
+  register -> string
+)
+"src/mips/mipsArch.ml" 56 756 760 "src/mips/mipsArch.ml" 56 756 779
+type(
+  register -> string
+)
+ident(
+  def string_of_register' "src/mips/mipsArch.ml" 66 984 984 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 57 791 795 "src/mips/mipsArch.ml" 57 791 797
+type(
+  register
+)
+"src/mips/mipsArch.ml" 57 791 801 "src/mips/mipsArch.ml" 57 791 805
+type(
+  string
+)
+"src/mips/mipsArch.ml" 58 806 810 "src/mips/mipsArch.ml" 58 806 812
+type(
+  register
+)
+"src/mips/mipsArch.ml" 58 806 816 "src/mips/mipsArch.ml" 58 806 820
+type(
+  string
+)
+"src/mips/mipsArch.ml" 59 821 825 "src/mips/mipsArch.ml" 59 821 827
+type(
+  register
+)
+"src/mips/mipsArch.ml" 59 821 831 "src/mips/mipsArch.ml" 59 821 835
+type(
+  string
+)
+"src/mips/mipsArch.ml" 60 836 840 "src/mips/mipsArch.ml" 60 836 842
+type(
+  register
+)
+"src/mips/mipsArch.ml" 60 836 846 "src/mips/mipsArch.ml" 60 836 850
+type(
+  string
+)
+"src/mips/mipsArch.ml" 61 851 857 "src/mips/mipsArch.ml" 61 851 858
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 61 851 862 "src/mips/mipsArch.ml" 61 851 883
+)
+"src/mips/mipsArch.ml" 61 851 855 "src/mips/mipsArch.ml" 61 851 858
+type(
+  register
+)
+"src/mips/mipsArch.ml" 61 851 862 "src/mips/mipsArch.ml" 61 851 865
+type(
+  string
+)
+"src/mips/mipsArch.ml" 61 851 866 "src/mips/mipsArch.ml" 61 851 867
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 61 851 868 "src/mips/mipsArch.ml" 61 851 881
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 61 851 882 "src/mips/mipsArch.ml" 61 851 883
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 61 851 857 "src/mips/mipsArch.ml" 61 851 858
+)
+"src/mips/mipsArch.ml" 61 851 868 "src/mips/mipsArch.ml" 61 851 883
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 61 851 862 "src/mips/mipsArch.ml" 61 851 883
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 62 884 890 "src/mips/mipsArch.ml" 62 884 891
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 62 884 895 "src/mips/mipsArch.ml" 62 884 916
+)
+"src/mips/mipsArch.ml" 62 884 888 "src/mips/mipsArch.ml" 62 884 891
+type(
+  register
+)
+"src/mips/mipsArch.ml" 62 884 895 "src/mips/mipsArch.ml" 62 884 898
+type(
+  string
+)
+"src/mips/mipsArch.ml" 62 884 899 "src/mips/mipsArch.ml" 62 884 900
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 62 884 901 "src/mips/mipsArch.ml" 62 884 914
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 62 884 915 "src/mips/mipsArch.ml" 62 884 916
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 62 884 890 "src/mips/mipsArch.ml" 62 884 891
+)
+"src/mips/mipsArch.ml" 62 884 901 "src/mips/mipsArch.ml" 62 884 916
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 62 884 895 "src/mips/mipsArch.ml" 62 884 916
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 63 917 923 "src/mips/mipsArch.ml" 63 917 924
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 63 917 928 "src/mips/mipsArch.ml" 63 917 949
+)
+"src/mips/mipsArch.ml" 63 917 921 "src/mips/mipsArch.ml" 63 917 924
+type(
+  register
+)
+"src/mips/mipsArch.ml" 63 917 928 "src/mips/mipsArch.ml" 63 917 931
+type(
+  string
+)
+"src/mips/mipsArch.ml" 63 917 932 "src/mips/mipsArch.ml" 63 917 933
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 63 917 934 "src/mips/mipsArch.ml" 63 917 947
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 63 917 948 "src/mips/mipsArch.ml" 63 917 949
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 63 917 923 "src/mips/mipsArch.ml" 63 917 924
+)
+"src/mips/mipsArch.ml" 63 917 934 "src/mips/mipsArch.ml" 63 917 949
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 63 917 928 "src/mips/mipsArch.ml" 63 917 949
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 64 950 956 "src/mips/mipsArch.ml" 64 950 957
+type(
+  int
+)
+ident(
+  def i "src/mips/mipsArch.ml" 64 950 961 "src/mips/mipsArch.ml" 64 950 982
+)
+"src/mips/mipsArch.ml" 64 950 954 "src/mips/mipsArch.ml" 64 950 957
+type(
+  register
+)
+"src/mips/mipsArch.ml" 64 950 961 "src/mips/mipsArch.ml" 64 950 964
+type(
+  string
+)
+"src/mips/mipsArch.ml" 64 950 965 "src/mips/mipsArch.ml" 64 950 966
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/mips/mipsArch.ml" 64 950 967 "src/mips/mipsArch.ml" 64 950 980
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/mips/mipsArch.ml" 64 950 981 "src/mips/mipsArch.ml" 64 950 982
+type(
+  int
+)
+ident(
+  int_ref i "src/mips/mipsArch.ml" 64 950 956 "src/mips/mipsArch.ml" 64 950 957
+)
+"src/mips/mipsArch.ml" 64 950 967 "src/mips/mipsArch.ml" 64 950 982
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 64 950 961 "src/mips/mipsArch.ml" 64 950 982
+call(
+  tail
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 56 756 782 "src/mips/mipsArch.ml" 64 950 982
+type(
+  register -> string
+)
+"src/mips/mipsArch.ml" 68 1029 1033 "src/mips/mipsArch.ml" 68 1029 1051
+type(
+  string -> register
+)
+ident(
+  def register_of_string "src/mips/mipsArch.ml" 88 1639 1639 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 69 1063 1067 "src/mips/mipsArch.ml" 69 1063 1072
+type(
+  string
+)
+"src/mips/mipsArch.ml" 70 1076 1080 "src/mips/mipsArch.ml" 70 1076 1082
+type(
+  register
+)
+"src/mips/mipsArch.ml" 71 1083 1087 "src/mips/mipsArch.ml" 71 1083 1092
+type(
+  string
+)
+"src/mips/mipsArch.ml" 72 1096 1101 "src/mips/mipsArch.ml" 72 1096 1103
+type(
+  register
+)
+"src/mips/mipsArch.ml" 73 1104 1108 "src/mips/mipsArch.ml" 73 1104 1113
+type(
+  string
+)
+"src/mips/mipsArch.ml" 74 1117 1122 "src/mips/mipsArch.ml" 74 1117 1124
+type(
+  register
+)
+"src/mips/mipsArch.ml" 75 1125 1129 "src/mips/mipsArch.ml" 75 1125 1134
+type(
+  string
+)
+"src/mips/mipsArch.ml" 76 1138 1143 "src/mips/mipsArch.ml" 76 1138 1145
+type(
+  register
+)
+"src/mips/mipsArch.ml" 77 1146 1150 "src/mips/mipsArch.ml" 77 1146 1151
+type(
+  string
+)
+ident(
+  def s "src/mips/mipsArch.ml" 77 1146 1157 "src/mips/mipsArch.ml" 78 1210 1256
+)
+"src/mips/mipsArch.ml" 77 1146 1162 "src/mips/mipsArch.ml" 77 1146 1174
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/mips/mipsArch.ml" 77 1146 1176 "src/mips/mipsArch.ml" 77 1146 1182
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/mips/mipsArch.ml" 77 1146 1183 "src/mips/mipsArch.ml" 77 1146 1200
+type(
+  string
+)
+"src/mips/mipsArch.ml" 77 1146 1175 "src/mips/mipsArch.ml" 77 1146 1201
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/mips/mipsArch.ml" 77 1146 1202 "src/mips/mipsArch.ml" 77 1146 1203
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 77 1146 1150 "src/mips/mipsArch.ml" 77 1146 1151
+)
+"src/mips/mipsArch.ml" 77 1146 1204 "src/mips/mipsArch.ml" 77 1146 1205
+type(
+  int
+)
+"src/mips/mipsArch.ml" 77 1146 1162 "src/mips/mipsArch.ml" 77 1146 1205
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 78 1210 1215 "src/mips/mipsArch.ml" 78 1210 1216
+type(
+  int -> register
+)
+ident(
+  int_ref t "src/mips/mipsArch.ml" 21 194 198 "src/mips/mipsArch.ml" 21 194 199
+)
+"src/mips/mipsArch.ml" 78 1210 1218 "src/mips/mipsArch.ml" 78 1210 1231
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/mips/mipsArch.ml" 78 1210 1233 "src/mips/mipsArch.ml" 78 1210 1250
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"src/mips/mipsArch.ml" 78 1210 1251 "src/mips/mipsArch.ml" 78 1210 1252
+type(
+  int
+)
+"src/mips/mipsArch.ml" 78 1210 1253 "src/mips/mipsArch.ml" 78 1210 1254
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 77 1146 1150 "src/mips/mipsArch.ml" 77 1146 1151
+)
+"src/mips/mipsArch.ml" 78 1210 1232 "src/mips/mipsArch.ml" 78 1210 1255
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 78 1210 1217 "src/mips/mipsArch.ml" 78 1210 1256
+type(
+  int
+)
+"src/mips/mipsArch.ml" 78 1210 1215 "src/mips/mipsArch.ml" 78 1210 1256
+call(
+  tail
+)
+type(
+  register
+)
+"src/mips/mipsArch.ml" 79 1257 1261 "src/mips/mipsArch.ml" 79 1257 1262
+type(
+  string
+)
+ident(
+  def s "src/mips/mipsArch.ml" 79 1257 1268 "src/mips/mipsArch.ml" 80 1321 1367
+)
+"src/mips/mipsArch.ml" 79 1257 1273 "src/mips/mipsArch.ml" 79 1257 1285
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/mips/mipsArch.ml" 79 1257 1287 "src/mips/mipsArch.ml" 79 1257 1293
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/mips/mipsArch.ml" 79 1257 1294 "src/mips/mipsArch.ml" 79 1257 1311
+type(
+  string
+)
+"src/mips/mipsArch.ml" 79 1257 1286 "src/mips/mipsArch.ml" 79 1257 1312
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/mips/mipsArch.ml" 79 1257 1313 "src/mips/mipsArch.ml" 79 1257 1314
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 79 1257 1261 "src/mips/mipsArch.ml" 79 1257 1262
+)
+"src/mips/mipsArch.ml" 79 1257 1315 "src/mips/mipsArch.ml" 79 1257 1316
+type(
+  int
+)
+"src/mips/mipsArch.ml" 79 1257 1273 "src/mips/mipsArch.ml" 79 1257 1316
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 80 1321 1326 "src/mips/mipsArch.ml" 80 1321 1327
+type(
+  int -> register
+)
+ident(
+  int_ref a "src/mips/mipsArch.ml" 33 332 336 "src/mips/mipsArch.ml" 33 332 337
+)
+"src/mips/mipsArch.ml" 80 1321 1329 "src/mips/mipsArch.ml" 80 1321 1342
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/mips/mipsArch.ml" 80 1321 1344 "src/mips/mipsArch.ml" 80 1321 1361
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"src/mips/mipsArch.ml" 80 1321 1362 "src/mips/mipsArch.ml" 80 1321 1363
+type(
+  int
+)
+"src/mips/mipsArch.ml" 80 1321 1364 "src/mips/mipsArch.ml" 80 1321 1365
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 79 1257 1261 "src/mips/mipsArch.ml" 79 1257 1262
+)
+"src/mips/mipsArch.ml" 80 1321 1343 "src/mips/mipsArch.ml" 80 1321 1366
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 80 1321 1328 "src/mips/mipsArch.ml" 80 1321 1367
+type(
+  int
+)
+"src/mips/mipsArch.ml" 80 1321 1326 "src/mips/mipsArch.ml" 80 1321 1367
+call(
+  tail
+)
+type(
+  register
+)
+"src/mips/mipsArch.ml" 81 1368 1372 "src/mips/mipsArch.ml" 81 1368 1373
+type(
+  string
+)
+ident(
+  def s "src/mips/mipsArch.ml" 81 1368 1379 "src/mips/mipsArch.ml" 82 1432 1478
+)
+"src/mips/mipsArch.ml" 81 1368 1384 "src/mips/mipsArch.ml" 81 1368 1396
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/mips/mipsArch.ml" 81 1368 1398 "src/mips/mipsArch.ml" 81 1368 1404
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/mips/mipsArch.ml" 81 1368 1405 "src/mips/mipsArch.ml" 81 1368 1422
+type(
+  string
+)
+"src/mips/mipsArch.ml" 81 1368 1397 "src/mips/mipsArch.ml" 81 1368 1423
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/mips/mipsArch.ml" 81 1368 1424 "src/mips/mipsArch.ml" 81 1368 1425
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 81 1368 1372 "src/mips/mipsArch.ml" 81 1368 1373
+)
+"src/mips/mipsArch.ml" 81 1368 1426 "src/mips/mipsArch.ml" 81 1368 1427
+type(
+  int
+)
+"src/mips/mipsArch.ml" 81 1368 1384 "src/mips/mipsArch.ml" 81 1368 1427
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 82 1432 1437 "src/mips/mipsArch.ml" 82 1432 1438
+type(
+  int -> register
+)
+ident(
+  int_ref v "src/mips/mipsArch.ml" 25 240 244 "src/mips/mipsArch.ml" 25 240 245
+)
+"src/mips/mipsArch.ml" 82 1432 1440 "src/mips/mipsArch.ml" 82 1432 1453
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/mips/mipsArch.ml" 82 1432 1455 "src/mips/mipsArch.ml" 82 1432 1472
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"src/mips/mipsArch.ml" 82 1432 1473 "src/mips/mipsArch.ml" 82 1432 1474
+type(
+  int
+)
+"src/mips/mipsArch.ml" 82 1432 1475 "src/mips/mipsArch.ml" 82 1432 1476
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 81 1368 1372 "src/mips/mipsArch.ml" 81 1368 1373
+)
+"src/mips/mipsArch.ml" 82 1432 1454 "src/mips/mipsArch.ml" 82 1432 1477
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 82 1432 1439 "src/mips/mipsArch.ml" 82 1432 1478
+type(
+  int
+)
+"src/mips/mipsArch.ml" 82 1432 1437 "src/mips/mipsArch.ml" 82 1432 1478
+call(
+  tail
+)
+type(
+  register
+)
+"src/mips/mipsArch.ml" 83 1479 1483 "src/mips/mipsArch.ml" 83 1479 1484
+type(
+  string
+)
+ident(
+  def s "src/mips/mipsArch.ml" 83 1479 1490 "src/mips/mipsArch.ml" 84 1543 1589
+)
+"src/mips/mipsArch.ml" 83 1479 1495 "src/mips/mipsArch.ml" 83 1479 1507
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/mips/mipsArch.ml" 83 1479 1509 "src/mips/mipsArch.ml" 83 1479 1515
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/mips/mipsArch.ml" 83 1479 1516 "src/mips/mipsArch.ml" 83 1479 1533
+type(
+  string
+)
+"src/mips/mipsArch.ml" 83 1479 1508 "src/mips/mipsArch.ml" 83 1479 1534
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/mips/mipsArch.ml" 83 1479 1535 "src/mips/mipsArch.ml" 83 1479 1536
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 83 1479 1483 "src/mips/mipsArch.ml" 83 1479 1484
+)
+"src/mips/mipsArch.ml" 83 1479 1537 "src/mips/mipsArch.ml" 83 1479 1538
+type(
+  int
+)
+"src/mips/mipsArch.ml" 83 1479 1495 "src/mips/mipsArch.ml" 83 1479 1538
+call(
+  stack
+)
+type(
+  bool
+)
+"src/mips/mipsArch.ml" 84 1543 1551 "src/mips/mipsArch.ml" 84 1543 1564
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/mips/mipsArch.ml" 84 1543 1566 "src/mips/mipsArch.ml" 84 1543 1583
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"src/mips/mipsArch.ml" 84 1543 1584 "src/mips/mipsArch.ml" 84 1543 1585
+type(
+  int
+)
+"src/mips/mipsArch.ml" 84 1543 1586 "src/mips/mipsArch.ml" 84 1543 1587
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 83 1479 1483 "src/mips/mipsArch.ml" 83 1479 1484
+)
+"src/mips/mipsArch.ml" 84 1543 1565 "src/mips/mipsArch.ml" 84 1543 1588
+call(
+  stack
+)
+type(
+  string
+)
+"src/mips/mipsArch.ml" 84 1543 1550 "src/mips/mipsArch.ml" 84 1543 1589
+type(
+  int
+)
+"src/mips/mipsArch.ml" 84 1543 1548 "src/mips/mipsArch.ml" 84 1543 1589
+type(
+  register
+)
+"src/mips/mipsArch.ml" 85 1590 1594 "src/mips/mipsArch.ml" 85 1590 1595
+type(
+  string
+)
+ident(
+  def s "src/mips/mipsArch.ml" 86 1599 1604 "src/mips/mipsArch.ml" 86 1599 1637
+)
+"src/mips/mipsArch.ml" 86 1599 1604 "src/mips/mipsArch.ml" 86 1599 1609
+type(
+  exn -> register
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/mips/mipsArch.ml" 86 1599 1635 "src/mips/mipsArch.ml" 86 1599 1636
+type(
+  string
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 85 1590 1594 "src/mips/mipsArch.ml" 85 1590 1595
+)
+"src/mips/mipsArch.ml" 86 1599 1610 "src/mips/mipsArch.ml" 86 1599 1637
+type(
+  exn
+)
+"src/mips/mipsArch.ml" 86 1599 1604 "src/mips/mipsArch.ml" 86 1599 1637
+type(
+  register
+)
+"src/mips/mipsArch.ml" 68 1029 1054 "src/mips/mipsArch.ml" 86 1599 1637
+type(
+  string -> register
+)
+"src/mips/mipsArch.ml" 88 1639 1643 "src/mips/mipsArch.ml" 88 1639 1669
+type(
+  register list
+)
+ident(
+  def argument_passing_registers "src/mips/mipsArch.ml" 92 1716 1716 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 89 1692 1694 "src/mips/mipsArch.ml" 89 1692 1697
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 89 1692 1698 "src/mips/mipsArch.ml" 89 1692 1699
+type(
+  int -> register
+)
+ident(
+  int_ref a "src/mips/mipsArch.ml" 33 332 336 "src/mips/mipsArch.ml" 33 332 337
+)
+"src/mips/mipsArch.ml" 89 1692 1701 "src/mips/mipsArch.ml" 89 1692 1706
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 89 1692 1707 "src/mips/mipsArch.ml" 89 1692 1708
+type(
+  int
+)
+"src/mips/mipsArch.ml" 89 1692 1709 "src/mips/mipsArch.ml" 89 1692 1710
+type(
+  int
+)
+"src/mips/mipsArch.ml" 89 1692 1700 "src/mips/mipsArch.ml" 89 1692 1711
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 89 1692 1694 "src/mips/mipsArch.ml" 89 1692 1711
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 92 1716 1720 "src/mips/mipsArch.ml" 92 1716 1742
+type(
+  register list
+)
+ident(
+  def callee_saved_registers "src/mips/mipsArch.ml" 96 1795 1795 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 93 1765 1767 "src/mips/mipsArch.ml" 93 1765 1769
+type(
+  register
+)
+"src/mips/mipsArch.ml" 93 1765 1773 "src/mips/mipsArch.ml" 93 1765 1776
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 93 1765 1777 "src/mips/mipsArch.ml" 93 1765 1778
+type(
+  int -> register
+)
+ident(
+  int_ref s "src/mips/mipsArch.ml" 29 286 290 "src/mips/mipsArch.ml" 29 286 291
+)
+"src/mips/mipsArch.ml" 93 1765 1780 "src/mips/mipsArch.ml" 93 1765 1785
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 93 1765 1786 "src/mips/mipsArch.ml" 93 1765 1787
+type(
+  int
+)
+"src/mips/mipsArch.ml" 93 1765 1788 "src/mips/mipsArch.ml" 93 1765 1789
+type(
+  int
+)
+"src/mips/mipsArch.ml" 93 1765 1779 "src/mips/mipsArch.ml" 93 1765 1790
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 93 1765 1773 "src/mips/mipsArch.ml" 93 1765 1790
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 93 1765 1767 "src/mips/mipsArch.ml" 93 1765 1790
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 96 1795 1799 "src/mips/mipsArch.ml" 96 1795 1821
+type(
+  register list
+)
+ident(
+  def caller_saved_registers "src/mips/mipsArch.ml" 100 1868 1868 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 97 1844 1846 "src/mips/mipsArch.ml" 97 1844 1849
+type(
+  (int -> register) -> int list -> register list
+)
+ident(
+  ext_ref List.map
+)
+"src/mips/mipsArch.ml" 97 1844 1850 "src/mips/mipsArch.ml" 97 1844 1851
+type(
+  int -> register
+)
+ident(
+  int_ref t "src/mips/mipsArch.ml" 21 194 198 "src/mips/mipsArch.ml" 21 194 199
+)
+"src/mips/mipsArch.ml" 97 1844 1853 "src/mips/mipsArch.ml" 97 1844 1858
+type(
+  int -> int -> int list
+)
+ident(
+  ext_ref ExtStd.List.range
+)
+"src/mips/mipsArch.ml" 97 1844 1859 "src/mips/mipsArch.ml" 97 1844 1860
+type(
+  int
+)
+"src/mips/mipsArch.ml" 97 1844 1861 "src/mips/mipsArch.ml" 97 1844 1862
+type(
+  int
+)
+"src/mips/mipsArch.ml" 97 1844 1852 "src/mips/mipsArch.ml" 97 1844 1863
+call(
+  stack
+)
+type(
+  int list
+)
+"src/mips/mipsArch.ml" 97 1844 1846 "src/mips/mipsArch.ml" 97 1844 1863
+call(
+  stack
+)
+type(
+  register list
+)
+"src/mips/mipsArch.ml" 100 1868 1872 "src/mips/mipsArch.ml" 100 1868 1887
+type(
+  register
+)
+ident(
+  def return_register "src/mips/mipsArch.ml" 103 1897 1897 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 101 1890 1892 "src/mips/mipsArch.ml" 101 1890 1893
+type(
+  int -> register
+)
+ident(
+  int_ref v "src/mips/mipsArch.ml" 25 240 244 "src/mips/mipsArch.ml" 25 240 245
+)
+"src/mips/mipsArch.ml" 101 1890 1894 "src/mips/mipsArch.ml" 101 1890 1895
+type(
+  int
+)
+"src/mips/mipsArch.ml" 101 1890 1892 "src/mips/mipsArch.ml" 101 1890 1895
+call(
+  stack
+)
+type(
+  register
+)
+"src/mips/mipsArch.ml" 103 1897 1901 "src/mips/mipsArch.ml" 103 1897 1924
+type(
+  register
+)
+ident(
+  def return_address_register "src/mips/mipsArch.ml" 106 1933 1933 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 104 1927 1929 "src/mips/mipsArch.ml" 104 1927 1931
+type(
+  register
+)
+"src/mips/mipsArch.ml" 106 1933 1937 "src/mips/mipsArch.ml" 106 1933 1941
+type(
+  register
+)
+ident(
+  def tmp1 "src/mips/mipsArch.ml" 109 1951 1951 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 107 1944 1946 "src/mips/mipsArch.ml" 107 1944 1947
+type(
+  int -> register
+)
+ident(
+  int_ref v "src/mips/mipsArch.ml" 25 240 244 "src/mips/mipsArch.ml" 25 240 245
+)
+"src/mips/mipsArch.ml" 107 1944 1948 "src/mips/mipsArch.ml" 107 1944 1949
+type(
+  int
+)
+"src/mips/mipsArch.ml" 107 1944 1946 "src/mips/mipsArch.ml" 107 1944 1949
+call(
+  stack
+)
+type(
+  register
+)
+"src/mips/mipsArch.ml" 109 1951 1955 "src/mips/mipsArch.ml" 109 1951 1959
+type(
+  register
+)
+ident(
+  def tmp2 "src/mips/mipsArch.ml" 110 1962 1966 "src/mips/mipsArch.ml" 1 0 -1
+)
+"src/mips/mipsArch.ml" 110 1962 1964 "src/mips/mipsArch.ml" 110 1962 1966
+type(
+  register
+)
+ident(
+  int_ref fp "src/mips/mipsArch.ml" 17 168 172 "src/mips/mipsArch.ml" 17 168 174
+)

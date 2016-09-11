@@ -1,0 +1,377 @@
+"src/utilities/stdUserInput.ml" 1 0 4 "src/utilities/stdUserInput.ml" 1 0 10
+type(
+  string ref
+)
+ident(
+  def prompt "src/utilities/stdUserInput.ml" 3 21 21 "src/utilities/stdUserInput.ml" 1 0 -1
+)
+"src/utilities/stdUserInput.ml" 1 0 13 "src/utilities/stdUserInput.ml" 1 0 16
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/utilities/stdUserInput.ml" 1 0 17 "src/utilities/stdUserInput.ml" 1 0 19
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 1 0 13 "src/utilities/stdUserInput.ml" 1 0 19
+type(
+  string ref
+)
+"src/utilities/stdUserInput.ml" 3 21 25 "src/utilities/stdUserInput.ml" 3 21 35
+type(
+  string -> unit
+)
+ident(
+  def set_prompt "src/utilities/stdUserInput.ml" 5 53 53 "src/utilities/stdUserInput.ml" 1 0 -1
+)
+"src/utilities/stdUserInput.ml" 3 21 38 "src/utilities/stdUserInput.ml" 3 21 44
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/utilities/stdUserInput.ml" 3 21 45 "src/utilities/stdUserInput.ml" 3 21 51
+type(
+  string ref
+)
+ident(
+  int_ref prompt "src/utilities/stdUserInput.ml" 1 0 4 "src/utilities/stdUserInput.ml" 1 0 10
+)
+"src/utilities/stdUserInput.ml" 3 21 38 "src/utilities/stdUserInput.ml" 3 21 51
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/utilities/stdUserInput.ml" 5 53 57 "src/utilities/stdUserInput.ml" 5 53 69
+type(
+  unit -> unit
+)
+ident(
+  def print_prompt "src/utilities/stdUserInput.ml" 9 123 123 "src/utilities/stdUserInput.ml" 1 0 -1
+)
+"src/utilities/stdUserInput.ml" 5 53 70 "src/utilities/stdUserInput.ml" 5 53 72
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 6 75 77 "src/utilities/stdUserInput.ml" 6 75 90
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/utilities/stdUserInput.ml" 6 75 91 "src/utilities/stdUserInput.ml" 6 75 97
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/utilities/stdUserInput.ml" 6 75 98 "src/utilities/stdUserInput.ml" 6 75 99
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/utilities/stdUserInput.ml" 6 75 99 "src/utilities/stdUserInput.ml" 6 75 105
+type(
+  string ref
+)
+ident(
+  int_ref prompt "src/utilities/stdUserInput.ml" 1 0 4 "src/utilities/stdUserInput.ml" 1 0 10
+)
+"src/utilities/stdUserInput.ml" 6 75 98 "src/utilities/stdUserInput.ml" 6 75 105
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 6 75 77 "src/utilities/stdUserInput.ml" 6 75 105
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 7 107 109 "src/utilities/stdUserInput.ml" 7 107 114
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/utilities/stdUserInput.ml" 7 107 115 "src/utilities/stdUserInput.ml" 7 107 121
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/utilities/stdUserInput.ml" 7 107 109 "src/utilities/stdUserInput.ml" 7 107 121
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 6 75 77 "src/utilities/stdUserInput.ml" 7 107 121
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 9 123 127 "src/utilities/stdUserInput.ml" 9 123 137
+type(
+  in_channel -> string
+)
+ident(
+  def input_char "src/utilities/stdUserInput.ml" 22 401 401 "src/utilities/stdUserInput.ml" 1 0 -1
+)
+"src/utilities/stdUserInput.ml" 10 140 146 "src/utilities/stdUserInput.ml" 10 140 160
+type(
+  bool ref
+)
+ident(
+  def display_prompt "src/utilities/stdUserInput.ml" 11 176 178 "src/utilities/stdUserInput.ml" 20 392 399
+)
+"src/utilities/stdUserInput.ml" 10 140 164 "src/utilities/stdUserInput.ml" 10 140 167
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/utilities/stdUserInput.ml" 10 140 168 "src/utilities/stdUserInput.ml" 10 140 172
+type(
+  bool
+)
+"src/utilities/stdUserInput.ml" 10 140 164 "src/utilities/stdUserInput.ml" 10 140 172
+type(
+  bool ref
+)
+"src/utilities/stdUserInput.ml" 11 176 182 "src/utilities/stdUserInput.ml" 11 176 185
+type(
+  in_channel -> string
+)
+ident(
+  def ask "src/utilities/stdUserInput.ml" 20 392 396 "src/utilities/stdUserInput.ml" 20 392 399
+)
+"src/utilities/stdUserInput.ml" 11 176 186 "src/utilities/stdUserInput.ml" 11 176 191
+type(
+  in_channel
+)
+ident(
+  def stdin "src/utilities/stdUserInput.ml" 12 194 198 "src/utilities/stdUserInput.ml" 18 367 386
+)
+"src/utilities/stdUserInput.ml" 12 194 201 "src/utilities/stdUserInput.ml" 12 194 202
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/utilities/stdUserInput.ml" 12 194 202 "src/utilities/stdUserInput.ml" 12 194 216
+type(
+  bool ref
+)
+ident(
+  int_ref display_prompt "src/utilities/stdUserInput.ml" 10 140 146 "src/utilities/stdUserInput.ml" 10 140 160
+)
+"src/utilities/stdUserInput.ml" 12 194 201 "src/utilities/stdUserInput.ml" 12 194 216
+type(
+  bool
+)
+"src/utilities/stdUserInput.ml" 13 228 234 "src/utilities/stdUserInput.ml" 13 228 248
+type(
+  bool ref
+)
+ident(
+  int_ref display_prompt "src/utilities/stdUserInput.ml" 10 140 146 "src/utilities/stdUserInput.ml" 10 140 160
+)
+"src/utilities/stdUserInput.ml" 13 228 249 "src/utilities/stdUserInput.ml" 13 228 251
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/utilities/stdUserInput.ml" 13 228 252 "src/utilities/stdUserInput.ml" 13 228 257
+type(
+  bool
+)
+"src/utilities/stdUserInput.ml" 13 228 234 "src/utilities/stdUserInput.ml" 13 228 257
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 14 259 265 "src/utilities/stdUserInput.ml" 14 259 277
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_prompt "src/utilities/stdUserInput.ml" 5 53 57 "src/utilities/stdUserInput.ml" 5 53 69
+)
+"src/utilities/stdUserInput.ml" 14 259 278 "src/utilities/stdUserInput.ml" 14 259 280
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 14 259 265 "src/utilities/stdUserInput.ml" 14 259 280
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 12 194 222 "src/utilities/stdUserInput.ml" 15 281 288
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 12 194 198 "src/utilities/stdUserInput.ml" 15 281 288
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 16 290 298 "src/utilities/stdUserInput.ml" 16 290 299
+type(
+  char
+)
+ident(
+  def c "src/utilities/stdUserInput.ml" 17 322 326 "src/utilities/stdUserInput.ml" 18 367 386
+)
+"src/utilities/stdUserInput.ml" 16 290 302 "src/utilities/stdUserInput.ml" 16 290 312
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"src/utilities/stdUserInput.ml" 16 290 313 "src/utilities/stdUserInput.ml" 16 290 318
+type(
+  in_channel
+)
+ident(
+  int_ref stdin "src/utilities/stdUserInput.ml" 11 176 186 "src/utilities/stdUserInput.ml" 11 176 191
+)
+"src/utilities/stdUserInput.ml" 16 290 302 "src/utilities/stdUserInput.ml" 16 290 318
+call(
+  stack
+)
+type(
+  char
+)
+"src/utilities/stdUserInput.ml" 17 322 329 "src/utilities/stdUserInput.ml" 17 322 330
+type(
+  char
+)
+ident(
+  int_ref c "src/utilities/stdUserInput.ml" 16 290 298 "src/utilities/stdUserInput.ml" 16 290 299
+)
+"src/utilities/stdUserInput.ml" 17 322 331 "src/utilities/stdUserInput.ml" 17 322 332
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/utilities/stdUserInput.ml" 17 322 333 "src/utilities/stdUserInput.ml" 17 322 337
+type(
+  char
+)
+"src/utilities/stdUserInput.ml" 17 322 329 "src/utilities/stdUserInput.ml" 17 322 337
+type(
+  bool
+)
+"src/utilities/stdUserInput.ml" 17 322 343 "src/utilities/stdUserInput.ml" 17 322 357
+type(
+  bool ref
+)
+ident(
+  int_ref display_prompt "src/utilities/stdUserInput.ml" 10 140 146 "src/utilities/stdUserInput.ml" 10 140 160
+)
+"src/utilities/stdUserInput.ml" 17 322 358 "src/utilities/stdUserInput.ml" 17 322 360
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/utilities/stdUserInput.ml" 17 322 361 "src/utilities/stdUserInput.ml" 17 322 365
+type(
+  bool
+)
+"src/utilities/stdUserInput.ml" 17 322 343 "src/utilities/stdUserInput.ml" 17 322 365
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 17 322 326 "src/utilities/stdUserInput.ml" 17 322 365
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 18 367 371 "src/utilities/stdUserInput.ml" 18 367 382
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/utilities/stdUserInput.ml" 18 367 383 "src/utilities/stdUserInput.ml" 18 367 384
+type(
+  int
+)
+"src/utilities/stdUserInput.ml" 18 367 385 "src/utilities/stdUserInput.ml" 18 367 386
+type(
+  char
+)
+ident(
+  int_ref c "src/utilities/stdUserInput.ml" 16 290 298 "src/utilities/stdUserInput.ml" 16 290 299
+)
+"src/utilities/stdUserInput.ml" 18 367 371 "src/utilities/stdUserInput.ml" 18 367 386
+call(
+  tail
+)
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 17 322 326 "src/utilities/stdUserInput.ml" 18 367 386
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 16 290 294 "src/utilities/stdUserInput.ml" 18 367 386
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 12 194 198 "src/utilities/stdUserInput.ml" 18 367 386
+type(
+  string
+)
+"src/utilities/stdUserInput.ml" 20 392 396 "src/utilities/stdUserInput.ml" 20 392 399
+type(
+  in_channel -> string
+)
+ident(
+  int_ref ask "src/utilities/stdUserInput.ml" 11 176 182 "src/utilities/stdUserInput.ml" 11 176 185
+)
+"src/utilities/stdUserInput.ml" 11 176 178 "src/utilities/stdUserInput.ml" 20 392 399
+type(
+  in_channel -> string
+)
+"src/utilities/stdUserInput.ml" 10 140 142 "src/utilities/stdUserInput.ml" 20 392 399
+type(
+  in_channel -> string
+)
+"src/utilities/stdUserInput.ml" 22 401 405 "src/utilities/stdUserInput.ml" 22 401 414
+type(
+  unit -> unit
+)
+ident(
+  def set_ascii "src/utilities/stdUserInput.ml" 22 401 422 "src/utilities/stdUserInput.ml" 1 0 -1
+)
+"src/utilities/stdUserInput.ml" 22 401 415 "src/utilities/stdUserInput.ml" 22 401 417
+type(
+  unit
+)
+"src/utilities/stdUserInput.ml" 22 401 420 "src/utilities/stdUserInput.ml" 22 401 422
+type(
+  unit
+)

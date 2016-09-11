@@ -1,0 +1,77 @@
+"src/retrolix/retrolixInitialization.ml" 2 82 86 "src/retrolix/retrolixInitialization.ml" 2 82 96
+type(
+  unit -> unit
+)
+ident(
+  def initialize "src/retrolix/retrolixInitialization.ml" 5 203 248 "src/retrolix/retrolixInitialization.ml" 1 0 -1
+)
+"src/retrolix/retrolixInitialization.ml" 2 82 97 "src/retrolix/retrolixInitialization.ml" 2 82 99
+type(
+  unit
+)
+"src/retrolix/retrolixInitialization.ml" 3 102 104 "src/retrolix/retrolixInitialization.ml" 3 102 122
+type(
+  (module Languages.Language) -> unit
+)
+ident(
+  ext_ref Languages.register
+)
+"src/retrolix/retrolixInitialization.ml" 3 102 123 "src/retrolix/retrolixInitialization.ml" 3 102 140
+type(
+  (module Languages.Language)
+)
+"src/retrolix/retrolixInitialization.ml" 3 102 104 "src/retrolix/retrolixInitialization.ml" 3 102 140
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/retrolixInitialization.ml" 4 142 144 "src/retrolix/retrolixInitialization.ml" 4 142 162
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/retrolix/retrolixInitialization.ml" 4 142 171 "src/retrolix/retrolixInitialization.ml" 4 142 200
+call(
+  stack
+)
+"src/retrolix/retrolixInitialization.ml" 4 142 163 "src/retrolix/retrolixInitialization.ml" 4 142 201
+type(
+  (module Compilers.Compiler)
+)
+"src/retrolix/retrolixInitialization.ml" 4 142 144 "src/retrolix/retrolixInitialization.ml" 4 142 201
+call(
+  stack
+)
+type(
+  unit
+)
+"src/retrolix/retrolixInitialization.ml" 5 203 205 "src/retrolix/retrolixInitialization.ml" 5 203 223
+type(
+  (module Compilers.Compiler) -> unit
+)
+ident(
+  ext_ref Compilers.register
+)
+"src/retrolix/retrolixInitialization.ml" 5 203 224 "src/retrolix/retrolixInitialization.ml" 5 203 248
+type(
+  (module Compilers.Compiler)
+)
+"src/retrolix/retrolixInitialization.ml" 5 203 205 "src/retrolix/retrolixInitialization.ml" 5 203 248
+call(
+  tail
+)
+type(
+  unit
+)
+"src/retrolix/retrolixInitialization.ml" 4 142 144 "src/retrolix/retrolixInitialization.ml" 5 203 248
+type(
+  unit
+)
+"src/retrolix/retrolixInitialization.ml" 3 102 104 "src/retrolix/retrolixInitialization.ml" 5 203 248
+type(
+  unit
+)

@@ -1,0 +1,52 @@
+.data
+__global__r:
+.word 1
+.text
+main: # main
+_l2:  addiu $sp, $sp, -68
+l1:   sw $t9, -68($sp)
+l2:   sw $t8, -64($sp)
+l3:   sw $t7, -60($sp)
+l4:   sw $t6, -56($sp)
+l5:   sw $t5, -52($sp)
+l6:   sw $t4, -48($sp)
+l7:   sw $t3, -44($sp)
+l8:   sw $t2, -40($sp)
+l9:   sw $t1, -36($sp)
+l10:  sw $t0, -32($sp)
+l22:  sw $a0, -28($sp)
+l21:  sw $a1, -24($sp)
+l25:  move $s7, $ra
+l27:  li $v1, 1
+      sw $v1, -20($sp)
+l28:  li $v1, 2
+      sw $v1, -16($sp)
+l29:  lw $v1, -20($sp)
+      lw $fp, -16($sp)
+      sgt $v1, $v1, $fp
+      sw $v1, -12($sp)
+l20:  lw $t9, -68($sp)
+l19:  lw $t8, -64($sp)
+l18:  lw $t7, -60($sp)
+l17:  lw $t6, -56($sp)
+l16:  lw $t5, -52($sp)
+l15:  lw $t4, -48($sp)
+l14:  lw $t3, -44($sp)
+l13:  lw $t2, -40($sp)
+l12:  lw $t1, -36($sp)
+l11:  lw $t0, -32($sp)
+l24:  lw $a0, -8($sp)
+l23:  lw $a1, -4($sp)
+l26:  move $ra, $s7
+l30:  lw $v1, -12($sp)
+      bnez $v1, l33
+      j l31
+l31:  li $v1, 1234
+      sw $v1, 0($sp)
+l32:  j l34
+l33:  li $v1, 4321
+      sw $v1, 0($sp)
+l34:  lw $v1, 0($sp)
+      sw $v1, __global__r
+l35:  
+_l1:  addiu $sp, $sp, 68

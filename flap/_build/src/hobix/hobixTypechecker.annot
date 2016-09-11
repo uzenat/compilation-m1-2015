@@ -1,0 +1,56 @@
+"src/hobix/hobixTypechecker.ml" 6 111 115 "src/hobix/hobixTypechecker.ml" 6 111 141
+type(
+  unit -> HopixTypes.typing_environment
+)
+ident(
+  def initial_typing_environment "src/hobix/hobixTypechecker.ml" 8 183 183 "src/hobix/hobixTypechecker.ml" 1 0 -1
+)
+"src/hobix/hobixTypechecker.ml" 6 111 144 "src/hobix/hobixTypechecker.ml" 6 111 181
+type(
+  unit -> HopixTypes.typing_environment
+)
+ident(
+  ext_ref HopixTypes.initial_typing_environment
+)
+"src/hobix/hobixTypechecker.ml" 10 240 244 "src/hobix/hobixTypechecker.ml" 10 240 253
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def typecheck "src/hobix/hobixTypechecker.ml" 13 273 273 "src/hobix/hobixTypechecker.ml" 1 0 -1
+)
+"src/hobix/hobixTypechecker.ml" 10 240 254 "src/hobix/hobixTypechecker.ml" 10 240 258
+type(
+  'a
+)
+ident(
+  def tenv "src/hobix/hobixTypechecker.ml" 10 240 259 "src/hobix/hobixTypechecker.ml" 11 265 271
+)
+"src/hobix/hobixTypechecker.ml" 10 240 259 "src/hobix/hobixTypechecker.ml" 10 240 262
+type(
+  'b
+)
+ident(
+  def ast "src/hobix/hobixTypechecker.ml" 11 265 267 "src/hobix/hobixTypechecker.ml" 11 265 271
+)
+"src/hobix/hobixTypechecker.ml" 11 265 267 "src/hobix/hobixTypechecker.ml" 11 265 271
+type(
+  'a
+)
+ident(
+  int_ref tenv "src/hobix/hobixTypechecker.ml" 10 240 254 "src/hobix/hobixTypechecker.ml" 10 240 258
+)
+"src/hobix/hobixTypechecker.ml" 13 273 277 "src/hobix/hobixTypechecker.ml" 13 273 301
+type(
+  HopixTypes.typing_environment -> string
+)
+ident(
+  def print_typing_environment "src/hobix/hobixTypechecker.ml" 14 304 341 "src/hobix/hobixTypechecker.ml" 1 0 -1
+)
+"src/hobix/hobixTypechecker.ml" 14 304 306 "src/hobix/hobixTypechecker.ml" 14 304 341
+type(
+  HopixTypes.typing_environment -> string
+)
+ident(
+  ext_ref HopixTypes.print_typing_environment
+)

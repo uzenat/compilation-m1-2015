@@ -1,0 +1,2 @@
+src/retrolix/retrolixParser.ml: Error Int32 Lexing Position RetrolixAST
+src/retrolix/retrolixParser.mli: Int32 Lexing RetrolixAST

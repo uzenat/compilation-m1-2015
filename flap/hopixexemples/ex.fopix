@@ -1,0 +1,5 @@
+external print_int
+val p =
+  4
+val g =
+  print_int (p, print_int)

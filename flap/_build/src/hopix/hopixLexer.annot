@@ -1,0 +1,6324 @@
+"src/hopix/hopixLexer.mll" 7 116 122 "src/hopix/hopixLexer.mll" 7 116 135
+type(
+  (Lexing.lexbuf -> 'a) -> Lexing.lexbuf -> 'a
+)
+ident(
+  def next_line_and "src/hopix/hopixLexer.mll" 11 190 192 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.mll" 7 116 136 "src/hopix/hopixLexer.mll" 7 116 137
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def f "src/hopix/hopixLexer.mll" 7 116 138 "src/hopix/hopixLexer.mll" 9 176 188
+)
+"src/hopix/hopixLexer.mll" 7 116 138 "src/hopix/hopixLexer.mll" 7 116 144
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.mll" 8 148 152 "src/hopix/hopixLexer.mll" 9 176 188
+)
+"src/hopix/hopixLexer.mll" 8 148 152 "src/hopix/hopixLexer.mll" 8 148 167
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"src/hopix/hopixLexer.mll" 8 148 168 "src/hopix/hopixLexer.mll" 8 148 174
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.mll" 7 116 138 "src/hopix/hopixLexer.mll" 7 116 144
+)
+"src/hopix/hopixLexer.mll" 8 148 152 "src/hopix/hopixLexer.mll" 8 148 174
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 9 176 180 "src/hopix/hopixLexer.mll" 9 176 181
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  int_ref f "src/hopix/hopixLexer.mll" 7 116 136 "src/hopix/hopixLexer.mll" 7 116 137
+)
+"src/hopix/hopixLexer.mll" 9 176 182 "src/hopix/hopixLexer.mll" 9 176 188
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.mll" 7 116 138 "src/hopix/hopixLexer.mll" 7 116 144
+)
+"src/hopix/hopixLexer.mll" 9 176 180 "src/hopix/hopixLexer.mll" 9 176 188
+call(
+  tail
+)
+type(
+  'a
+)
+"src/hopix/hopixLexer.mll" 8 148 152 "src/hopix/hopixLexer.mll" 9 176 188
+type(
+  'a
+)
+"src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+type(
+  Lexing.lexbuf -> string -> 'a
+)
+ident(
+  def error "src/hopix/hopixLexer.mll" 14 286 289 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.mll" 11 190 202 "src/hopix/hopixLexer.mll" 11 190 208
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.mll" 12 211 215 "src/hopix/hopixLexer.mll" 12 211 284
+)
+"src/hopix/hopixLexer.mll" 12 211 215 "src/hopix/hopixLexer.mll" 12 211 220
+type(
+  string -> Position.t -> string -> 'a
+)
+ident(
+  ext_ref Error.error
+)
+"src/hopix/hopixLexer.mll" 12 211 221 "src/hopix/hopixLexer.mll" 12 211 236
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 12 211 238 "src/hopix/hopixLexer.mll" 12 211 246
+type(
+  Lexing.position -> Lexing.position -> Position.t
+)
+ident(
+  ext_ref Position.lex_join
+)
+"src/hopix/hopixLexer.mll" 12 211 247 "src/hopix/hopixLexer.mll" 12 211 253
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.mll" 11 190 202 "src/hopix/hopixLexer.mll" 11 190 208
+)
+"src/hopix/hopixLexer.mll" 12 211 247 "src/hopix/hopixLexer.mll" 12 211 265
+type(
+  Lexing.position
+)
+"src/hopix/hopixLexer.mll" 12 211 266 "src/hopix/hopixLexer.mll" 12 211 272
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.mll" 11 190 202 "src/hopix/hopixLexer.mll" 11 190 208
+)
+"src/hopix/hopixLexer.mll" 12 211 266 "src/hopix/hopixLexer.mll" 12 211 283
+type(
+  Lexing.position
+)
+"src/hopix/hopixLexer.mll" 12 211 237 "src/hopix/hopixLexer.mll" 12 211 284
+call(
+  stack
+)
+type(
+  Position.t
+)
+"src/hopix/hopixLexer.mll" 12 211 215 "src/hopix/hopixLexer.mll" 12 211 284
+call(
+  tail
+)
+type(
+  string -> 'a
+)
+"src/hopix/hopixLexer.mll" 14 286 293 "src/hopix/hopixLexer.mll" 14 286 308
+type(
+  string -> char
+)
+ident(
+  def extactCodeAscii "src/hopix/hopixLexer.ml" 20 441 441 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.mll" 14 286 309 "src/hopix/hopixLexer.mll" 14 286 313
+type(
+  string
+)
+ident(
+  def numb "src/hopix/hopixLexer.mll" 15 317 321 "src/hopix/hopixLexer.mll" 16 369 408
+)
+"src/hopix/hopixLexer.mll" 15 317 324 "src/hopix/hopixLexer.mll" 15 317 337
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 15 317 338 "src/hopix/hopixLexer.mll" 15 317 342
+type(
+  string
+)
+ident(
+  int_ref numb "src/hopix/hopixLexer.mll" 14 286 309 "src/hopix/hopixLexer.mll" 14 286 313
+)
+"src/hopix/hopixLexer.mll" 15 317 324 "src/hopix/hopixLexer.mll" 15 317 342
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 15 317 343 "src/hopix/hopixLexer.mll" 15 317 344
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/hopix/hopixLexer.mll" 15 317 345 "src/hopix/hopixLexer.mll" 15 317 348
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 15 317 324 "src/hopix/hopixLexer.mll" 15 317 348
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 15 317 354 "src/hopix/hopixLexer.mll" 15 317 359
+type(
+  exn -> char
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/hopix/hopixLexer.mll" 15 317 360 "src/hopix/hopixLexer.mll" 15 317 368
+type(
+  exn
+)
+"src/hopix/hopixLexer.mll" 15 317 354 "src/hopix/hopixLexer.mll" 15 317 368
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 16 369 379 "src/hopix/hopixLexer.mll" 16 369 387
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 16 369 389 "src/hopix/hopixLexer.mll" 16 369 402
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 16 369 403 "src/hopix/hopixLexer.mll" 16 369 407
+type(
+  string
+)
+ident(
+  int_ref numb "src/hopix/hopixLexer.mll" 14 286 309 "src/hopix/hopixLexer.mll" 14 286 313
+)
+"src/hopix/hopixLexer.mll" 16 369 388 "src/hopix/hopixLexer.mll" 16 369 408
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 16 369 379 "src/hopix/hopixLexer.mll" 16 369 408
+call(
+  tail
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 15 317 321 "src/hopix/hopixLexer.mll" 16 369 408
+type(
+  char
+)
+"src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 22 489 492 "src/hopix/hopixLexer.ml" 42 1889 1934
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 44 1960 1963 "src/hopix/hopixLexer.ml" 64 3360 3405
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 66 3431 3434 "src/hopix/hopixLexer.ml" 86 4831 4876
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 88 4900 4903 "src/hopix/hopixLexer.ml" 642 43680 43741
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 644 43765 43768 "src/hopix/hopixLexer.ml" 1198 82545 82606
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1200 82634 82637 "src/hopix/hopixLexer.ml" 1200 82634 82639
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1202 82670 82673 "src/hopix/hopixLexer.ml" 1202 82670 82675
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1204 82706 82709 "src/hopix/hopixLexer.ml" 1204 82706 82711
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1206 82740 82743 "src/hopix/hopixLexer.ml" 1206 82740 82745
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1208 82774 82777 "src/hopix/hopixLexer.ml" 1208 82774 82779
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1210 82802 82805 "src/hopix/hopixLexer.ml" 1210 82802 82807
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 20 441 466 "src/hopix/hopixLexer.ml" 1211 82809 82810
+type(
+  Lexing.lex_tables
+)
+"src/hopix/hopixLexer.ml" 1213 82812 82820 "src/hopix/hopixLexer.ml" 1213 82812 82825
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  def token "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1213 82812 82826 "src/hopix/hopixLexer.ml" 1213 82812 82832
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1214 82835 82839 "src/hopix/hopixLexer.ml" 1214 82835 82869
+)
+"src/hopix/hopixLexer.ml" 1214 82835 82839 "src/hopix/hopixLexer.ml" 1214 82835 82860
+type(
+  Lexing.lexbuf -> int -> HopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/hopix/hopixLexer.ml" 1215 82870 82874 "src/hopix/hopixLexer.ml" 1215 82870 82895
+)
+"src/hopix/hopixLexer.ml" 1214 82835 82861 "src/hopix/hopixLexer.ml" 1214 82835 82867
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1213 82812 82826 "src/hopix/hopixLexer.ml" 1213 82812 82832
+)
+"src/hopix/hopixLexer.ml" 1214 82835 82868 "src/hopix/hopixLexer.ml" 1214 82835 82869
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1214 82835 82839 "src/hopix/hopixLexer.ml" 1214 82835 82869
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1215 82870 82874 "src/hopix/hopixLexer.ml" 1215 82870 82895
+type(
+  Lexing.lexbuf -> int -> HopixParser.token
+)
+ident(
+  def __ocaml_lex_token_rec "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82903 "src/hopix/hopixLexer.ml" 1700 96335 96387
+)
+"src/hopix/hopixLexer.ml" 1215 82870 82903 "src/hopix/hopixLexer.ml" 1215 82870 82920
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1216 82923 82925 "src/hopix/hopixLexer.ml" 1700 96335 96387
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82931 "src/hopix/hopixLexer.ml" 1216 82923 82944
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82945 "src/hopix/hopixLexer.ml" 1216 82923 82963
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82964 "src/hopix/hopixLexer.ml" 1216 82923 82981
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1215 82870 82903 "src/hopix/hopixLexer.ml" 1215 82870 82920
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82982 "src/hopix/hopixLexer.ml" 1216 82923 82988
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82931 "src/hopix/hopixLexer.ml" 1216 82923 82988
+call(
+  stack
+)
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1217 82994 83002 "src/hopix/hopixLexer.ml" 1217 82994 83003
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 53 83039 83063 "src/hopix/hopixLexer.mll" 53 83039 83076
+type(
+  (Lexing.lexbuf -> HopixParser.token) -> Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  int_ref next_line_and "src/hopix/hopixLexer.mll" 7 116 122 "src/hopix/hopixLexer.mll" 7 116 135
+)
+"src/hopix/hopixLexer.mll" 53 83039 83077 "src/hopix/hopixLexer.mll" 53 83039 83082
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  int_ref token "src/hopix/hopixLexer.ml" 1213 82812 82820 "src/hopix/hopixLexer.ml" 1213 82812 82825
+)
+"src/hopix/hopixLexer.mll" 53 83039 83083 "src/hopix/hopixLexer.mll" 53 83039 83089
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 53 83039 83061 "src/hopix/hopixLexer.mll" 53 83039 83091
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1222 83126 83130 "src/hopix/hopixLexer.ml" 1222 83126 83131
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 54 83167 83191 "src/hopix/hopixLexer.mll" 54 83167 83196
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  int_ref token "src/hopix/hopixLexer.ml" 1213 82812 82820 "src/hopix/hopixLexer.ml" 1213 82812 82825
+)
+"src/hopix/hopixLexer.mll" 54 83167 83197 "src/hopix/hopixLexer.mll" 54 83167 83203
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 54 83167 83189 "src/hopix/hopixLexer.mll" 54 83167 83219
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1227 83254 83258 "src/hopix/hopixLexer.ml" 1227 83254 83259
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 55 83295 83319 "src/hopix/hopixLexer.mll" 55 83295 83330
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref commentLine "src/hopix/hopixLexer.ml" 1729 97137 97141 "src/hopix/hopixLexer.ml" 1729 97137 97152
+)
+"src/hopix/hopixLexer.mll" 55 83295 83331 "src/hopix/hopixLexer.mll" 55 83295 83337
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 55 83295 83319 "src/hopix/hopixLexer.mll" 55 83295 83337
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 55 83295 83339 "src/hopix/hopixLexer.mll" 55 83295 83344
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  int_ref token "src/hopix/hopixLexer.ml" 1213 82812 82820 "src/hopix/hopixLexer.ml" 1213 82812 82825
+)
+"src/hopix/hopixLexer.mll" 55 83295 83345 "src/hopix/hopixLexer.mll" 55 83295 83351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 55 83295 83339 "src/hopix/hopixLexer.mll" 55 83295 83351
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 55 83295 83317 "src/hopix/hopixLexer.mll" 55 83295 83354
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1232 83389 83393 "src/hopix/hopixLexer.ml" 1232 83389 83394
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 56 83430 83454 "src/hopix/hopixLexer.mll" 56 83430 83461
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/hopix/hopixLexer.ml" 1702 96389 96393 "src/hopix/hopixLexer.ml" 1702 96389 96400
+)
+"src/hopix/hopixLexer.mll" 56 83430 83462 "src/hopix/hopixLexer.mll" 56 83430 83468
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 56 83430 83454 "src/hopix/hopixLexer.mll" 56 83430 83468
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 56 83430 83470 "src/hopix/hopixLexer.mll" 56 83430 83475
+type(
+  Lexing.lexbuf -> HopixParser.token
+)
+ident(
+  int_ref token "src/hopix/hopixLexer.ml" 1213 82812 82820 "src/hopix/hopixLexer.ml" 1213 82812 82825
+)
+"src/hopix/hopixLexer.mll" 56 83430 83476 "src/hopix/hopixLexer.mll" 56 83430 83482
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 56 83430 83470 "src/hopix/hopixLexer.mll" 56 83430 83482
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 56 83430 83452 "src/hopix/hopixLexer.mll" 56 83430 83483
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1237 83518 83522 "src/hopix/hopixLexer.ml" 1237 83518 83523
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 63 83559 83588 "src/hopix/hopixLexer.mll" 63 83559 83593
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 63 83559 83582 "src/hopix/hopixLexer.mll" 63 83559 83595
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1242 83630 83634 "src/hopix/hopixLexer.ml" 1242 83630 83635
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 64 83671 83700 "src/hopix/hopixLexer.mll" 64 83671 83706
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 64 83671 83694 "src/hopix/hopixLexer.mll" 64 83671 83708
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1247 83743 83747 "src/hopix/hopixLexer.ml" 1247 83743 83748
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 65 83784 83813 "src/hopix/hopixLexer.mll" 65 83784 83819
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 65 83784 83807 "src/hopix/hopixLexer.mll" 65 83784 83821
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1252 83856 83860 "src/hopix/hopixLexer.ml" 1252 83856 83861
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 66 83897 83926 "src/hopix/hopixLexer.mll" 66 83897 83932
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 66 83897 83920 "src/hopix/hopixLexer.mll" 66 83897 83934
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1257 83969 83973 "src/hopix/hopixLexer.ml" 1257 83969 83974
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 67 84010 84038 "src/hopix/hopixLexer.mll" 67 84010 84044
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 67 84010 84032 "src/hopix/hopixLexer.mll" 67 84010 84046
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1262 84081 84085 "src/hopix/hopixLexer.ml" 1262 84081 84086
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 68 84122 84151 "src/hopix/hopixLexer.mll" 68 84122 84157
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 68 84122 84145 "src/hopix/hopixLexer.mll" 68 84122 84159
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1267 84194 84198 "src/hopix/hopixLexer.ml" 1267 84194 84200
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 69 84236 84264 "src/hopix/hopixLexer.mll" 69 84236 84270
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 69 84236 84258 "src/hopix/hopixLexer.mll" 69 84236 84272
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1272 84307 84311 "src/hopix/hopixLexer.ml" 1272 84307 84313
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 70 84349 84377 "src/hopix/hopixLexer.mll" 70 84349 84383
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 70 84349 84371 "src/hopix/hopixLexer.mll" 70 84349 84384
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1277 84419 84423 "src/hopix/hopixLexer.ml" 1277 84419 84425
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 71 84465 84478 "src/hopix/hopixLexer.mll" 71 84465 84482
+type(
+  string
+)
+ident(
+  def char "src/hopix/hopixLexer.mll" 71 84640 84662 "src/hopix/hopixLexer.mll" 71 84640 84705
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84518 "src/hopix/hopixLexer.ml" 1282 84516 84535
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84536 "src/hopix/hopixLexer.ml" 1282 84516 84542
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84543 "src/hopix/hopixLexer.ml" 1282 84516 84549
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84543 "src/hopix/hopixLexer.ml" 1282 84516 84570
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84572 "src/hopix/hopixLexer.ml" 1282 84516 84578
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84572 "src/hopix/hopixLexer.ml" 1282 84516 84599
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84600 "src/hopix/hopixLexer.ml" 1282 84516 84601
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84602 "src/hopix/hopixLexer.ml" 1282 84516 84603
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84571 "src/hopix/hopixLexer.ml" 1282 84516 84604
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1282 84516 84518 "src/hopix/hopixLexer.ml" 1282 84516 84604
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 71 84640 84668 "src/hopix/hopixLexer.mll" 71 84640 84678
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/hopix/hopixLexer.mll" 71 84640 84680 "src/hopix/hopixLexer.mll" 71 84640 84695
+type(
+  string -> string
+)
+ident(
+  ext_ref Scanf.unescaped
+)
+"src/hopix/hopixLexer.mll" 71 84640 84696 "src/hopix/hopixLexer.mll" 71 84640 84700
+type(
+  string
+)
+ident(
+  int_ref char "src/hopix/hopixLexer.mll" 71 84465 84478 "src/hopix/hopixLexer.mll" 71 84465 84482
+)
+"src/hopix/hopixLexer.mll" 71 84640 84679 "src/hopix/hopixLexer.mll" 71 84640 84701
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 71 84640 84702 "src/hopix/hopixLexer.mll" 71 84640 84703
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 71 84640 84667 "src/hopix/hopixLexer.mll" 71 84640 84704
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 71 84640 84662 "src/hopix/hopixLexer.mll" 71 84640 84705
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1278 84429 84429 "src/hopix/hopixLexer.mll" 71 84640 84705
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1287 84740 84744 "src/hopix/hopixLexer.ml" 1287 84740 84746
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 74 84786 84813 "src/hopix/hopixLexer.mll" 74 84786 84817
+type(
+  char
+)
+ident(
+  def int1 "src/hopix/hopixLexer.mll" 74 85346 85423 "src/hopix/hopixLexer.mll" 78 85658 85667
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84853 "src/hopix/hopixLexer.ml" 1292 84851 84875
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84876 "src/hopix/hopixLexer.ml" 1292 84851 84882
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84884 "src/hopix/hopixLexer.ml" 1292 84851 84890
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84884 "src/hopix/hopixLexer.ml" 1292 84851 84911
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84912 "src/hopix/hopixLexer.ml" 1292 84851 84913
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84914 "src/hopix/hopixLexer.ml" 1292 84851 84915
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84883 "src/hopix/hopixLexer.ml" 1292 84851 84916
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1292 84851 84853 "src/hopix/hopixLexer.ml" 1292 84851 84916
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 74 84953 85000 "src/hopix/hopixLexer.mll" 74 84953 85004
+type(
+  char
+)
+ident(
+  def int2 "src/hopix/hopixLexer.mll" 74 85346 85423 "src/hopix/hopixLexer.mll" 78 85658 85667
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85040 "src/hopix/hopixLexer.ml" 1297 85038 85062
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85063 "src/hopix/hopixLexer.ml" 1297 85038 85069
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85071 "src/hopix/hopixLexer.ml" 1297 85038 85077
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85071 "src/hopix/hopixLexer.ml" 1297 85038 85098
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85099 "src/hopix/hopixLexer.ml" 1297 85038 85100
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85101 "src/hopix/hopixLexer.ml" 1297 85038 85102
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85070 "src/hopix/hopixLexer.ml" 1297 85038 85103
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1297 85038 85040 "src/hopix/hopixLexer.ml" 1297 85038 85103
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 74 85140 85207 "src/hopix/hopixLexer.mll" 74 85140 85211
+type(
+  char
+)
+ident(
+  def int3 "src/hopix/hopixLexer.mll" 74 85346 85423 "src/hopix/hopixLexer.mll" 78 85658 85667
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85247 "src/hopix/hopixLexer.ml" 1302 85245 85269
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85270 "src/hopix/hopixLexer.ml" 1302 85245 85276
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85278 "src/hopix/hopixLexer.ml" 1302 85245 85284
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85278 "src/hopix/hopixLexer.ml" 1302 85245 85305
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85306 "src/hopix/hopixLexer.ml" 1302 85245 85307
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85308 "src/hopix/hopixLexer.ml" 1302 85245 85309
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85277 "src/hopix/hopixLexer.ml" 1302 85245 85310
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1302 85245 85247 "src/hopix/hopixLexer.ml" 1302 85245 85310
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 75 85425 85439 "src/hopix/hopixLexer.mll" 75 85425 85443
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 76 85513 85523 "src/hopix/hopixLexer.mll" 77 85554 85652
+)
+"src/hopix/hopixLexer.mll" 75 85425 85447 "src/hopix/hopixLexer.mll" 75 85425 85458
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 75 85425 85459 "src/hopix/hopixLexer.mll" 75 85425 85460
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 75 85425 85461 "src/hopix/hopixLexer.mll" 75 85425 85465
+type(
+  char
+)
+ident(
+  int_ref int1 "src/hopix/hopixLexer.mll" 74 84786 84813 "src/hopix/hopixLexer.mll" 74 84786 84817
+)
+"src/hopix/hopixLexer.mll" 75 85425 85446 "src/hopix/hopixLexer.mll" 75 85425 85466
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 75 85425 85466 "src/hopix/hopixLexer.mll" 75 85425 85467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 75 85425 85468 "src/hopix/hopixLexer.mll" 75 85425 85479
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 75 85425 85480 "src/hopix/hopixLexer.mll" 75 85425 85481
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 75 85425 85482 "src/hopix/hopixLexer.mll" 75 85425 85486
+type(
+  char
+)
+ident(
+  int_ref int2 "src/hopix/hopixLexer.mll" 74 84953 85000 "src/hopix/hopixLexer.mll" 74 84953 85004
+)
+"src/hopix/hopixLexer.mll" 75 85425 85467 "src/hopix/hopixLexer.mll" 75 85425 85487
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 75 85425 85487 "src/hopix/hopixLexer.mll" 75 85425 85488
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 75 85425 85489 "src/hopix/hopixLexer.mll" 75 85425 85500
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 75 85425 85501 "src/hopix/hopixLexer.mll" 75 85425 85502
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 75 85425 85503 "src/hopix/hopixLexer.mll" 75 85425 85507
+type(
+  char
+)
+ident(
+  int_ref int3 "src/hopix/hopixLexer.mll" 74 85140 85207 "src/hopix/hopixLexer.mll" 74 85140 85211
+)
+"src/hopix/hopixLexer.mll" 75 85425 85488 "src/hopix/hopixLexer.mll" 75 85425 85508
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 75 85425 85467 "src/hopix/hopixLexer.mll" 75 85425 85508
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 75 85425 85446 "src/hopix/hopixLexer.mll" 75 85425 85508
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 76 85513 85527 "src/hopix/hopixLexer.mll" 76 85513 85529
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 77 85554 85564 "src/hopix/hopixLexer.mll" 77 85554 85652
+)
+"src/hopix/hopixLexer.mll" 76 85513 85532 "src/hopix/hopixLexer.mll" 76 85513 85545
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 76 85513 85546 "src/hopix/hopixLexer.mll" 76 85513 85550
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 75 85425 85439 "src/hopix/hopixLexer.mll" 75 85425 85443
+)
+"src/hopix/hopixLexer.mll" 76 85513 85532 "src/hopix/hopixLexer.mll" 76 85513 85550
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 77 85554 85567 "src/hopix/hopixLexer.mll" 77 85554 85569
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 76 85513 85527 "src/hopix/hopixLexer.mll" 76 85513 85529
+)
+"src/hopix/hopixLexer.mll" 77 85554 85570 "src/hopix/hopixLexer.mll" 77 85554 85572
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 77 85554 85573 "src/hopix/hopixLexer.mll" 77 85554 85574
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 77 85554 85567 "src/hopix/hopixLexer.mll" 77 85554 85574
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 77 85554 85575 "src/hopix/hopixLexer.mll" 77 85554 85577
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 77 85554 85578 "src/hopix/hopixLexer.mll" 77 85554 85580
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 76 85513 85527 "src/hopix/hopixLexer.mll" 76 85513 85529
+)
+"src/hopix/hopixLexer.mll" 77 85554 85581 "src/hopix/hopixLexer.mll" 77 85554 85583
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 77 85554 85584 "src/hopix/hopixLexer.mll" 77 85554 85587
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 77 85554 85578 "src/hopix/hopixLexer.mll" 77 85554 85587
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 77 85554 85567 "src/hopix/hopixLexer.mll" 77 85554 85587
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 77 85554 85598 "src/hopix/hopixLexer.mll" 77 85554 85606
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 77 85554 85607 "src/hopix/hopixLexer.mll" 77 85554 85609
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 76 85513 85527 "src/hopix/hopixLexer.mll" 76 85513 85529
+)
+"src/hopix/hopixLexer.mll" 77 85554 85597 "src/hopix/hopixLexer.mll" 77 85554 85610
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 77 85554 85593 "src/hopix/hopixLexer.mll" 77 85554 85610
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 77 85554 85616 "src/hopix/hopixLexer.mll" 77 85554 85621
+type(
+  Lexing.lexbuf -> string -> HopixParser.token
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 77 85554 85622 "src/hopix/hopixLexer.mll" 77 85554 85628
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 77 85554 85629 "src/hopix/hopixLexer.mll" 77 85554 85652
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 77 85554 85616 "src/hopix/hopixLexer.mll" 77 85554 85652
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 77 85554 85564 "src/hopix/hopixLexer.mll" 77 85554 85652
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 76 85513 85523 "src/hopix/hopixLexer.mll" 77 85554 85652
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 74 85346 85423 "src/hopix/hopixLexer.mll" 78 85658 85667
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1288 84750 84750 "src/hopix/hopixLexer.mll" 78 85658 85667
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1311 85702 85706 "src/hopix/hopixLexer.ml" 1311 85702 85708
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 80 85748 85805 "src/hopix/hopixLexer.mll" 80 85748 85809
+type(
+  char
+)
+ident(
+  def str1 "src/hopix/hopixLexer.mll" 80 86177 86280 "src/hopix/hopixLexer.mll" 84 86494 86503
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85845 "src/hopix/hopixLexer.ml" 1316 85843 85867
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85868 "src/hopix/hopixLexer.ml" 1316 85843 85874
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85876 "src/hopix/hopixLexer.ml" 1316 85843 85882
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85876 "src/hopix/hopixLexer.ml" 1316 85843 85903
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85904 "src/hopix/hopixLexer.ml" 1316 85843 85905
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85906 "src/hopix/hopixLexer.ml" 1316 85843 85907
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85875 "src/hopix/hopixLexer.ml" 1316 85843 85908
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1316 85843 85845 "src/hopix/hopixLexer.ml" 1316 85843 85908
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 80 85945 86038 "src/hopix/hopixLexer.mll" 80 85945 86042
+type(
+  char
+)
+ident(
+  def str2 "src/hopix/hopixLexer.mll" 80 86177 86280 "src/hopix/hopixLexer.mll" 84 86494 86503
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86078 "src/hopix/hopixLexer.ml" 1321 86076 86100
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86101 "src/hopix/hopixLexer.ml" 1321 86076 86107
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86109 "src/hopix/hopixLexer.ml" 1321 86076 86115
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86109 "src/hopix/hopixLexer.ml" 1321 86076 86136
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86137 "src/hopix/hopixLexer.ml" 1321 86076 86138
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86139 "src/hopix/hopixLexer.ml" 1321 86076 86140
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86108 "src/hopix/hopixLexer.ml" 1321 86076 86141
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1321 86076 86078 "src/hopix/hopixLexer.ml" 1321 86076 86141
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 81 86282 86296 "src/hopix/hopixLexer.mll" 81 86282 86300
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 82 86354 86364 "src/hopix/hopixLexer.mll" 83 86395 86493
+)
+"src/hopix/hopixLexer.mll" 81 86282 86303 "src/hopix/hopixLexer.mll" 81 86282 86307
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 81 86282 86307 "src/hopix/hopixLexer.mll" 81 86282 86308
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 81 86282 86309 "src/hopix/hopixLexer.mll" 81 86282 86320
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 81 86282 86321 "src/hopix/hopixLexer.mll" 81 86282 86322
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 81 86282 86323 "src/hopix/hopixLexer.mll" 81 86282 86327
+type(
+  char
+)
+ident(
+  int_ref str1 "src/hopix/hopixLexer.mll" 80 85748 85805 "src/hopix/hopixLexer.mll" 80 85748 85809
+)
+"src/hopix/hopixLexer.mll" 81 86282 86308 "src/hopix/hopixLexer.mll" 81 86282 86328
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 81 86282 86328 "src/hopix/hopixLexer.mll" 81 86282 86329
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 81 86282 86330 "src/hopix/hopixLexer.mll" 81 86282 86341
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 81 86282 86342 "src/hopix/hopixLexer.mll" 81 86282 86343
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 81 86282 86344 "src/hopix/hopixLexer.mll" 81 86282 86348
+type(
+  char
+)
+ident(
+  int_ref str2 "src/hopix/hopixLexer.mll" 80 85945 86038 "src/hopix/hopixLexer.mll" 80 85945 86042
+)
+"src/hopix/hopixLexer.mll" 81 86282 86329 "src/hopix/hopixLexer.mll" 81 86282 86349
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 81 86282 86308 "src/hopix/hopixLexer.mll" 81 86282 86349
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 81 86282 86303 "src/hopix/hopixLexer.mll" 81 86282 86349
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 82 86354 86368 "src/hopix/hopixLexer.mll" 82 86354 86370
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 83 86395 86405 "src/hopix/hopixLexer.mll" 83 86395 86493
+)
+"src/hopix/hopixLexer.mll" 82 86354 86373 "src/hopix/hopixLexer.mll" 82 86354 86386
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 82 86354 86387 "src/hopix/hopixLexer.mll" 82 86354 86391
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 81 86282 86296 "src/hopix/hopixLexer.mll" 81 86282 86300
+)
+"src/hopix/hopixLexer.mll" 82 86354 86373 "src/hopix/hopixLexer.mll" 82 86354 86391
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 83 86395 86408 "src/hopix/hopixLexer.mll" 83 86395 86410
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 82 86354 86368 "src/hopix/hopixLexer.mll" 82 86354 86370
+)
+"src/hopix/hopixLexer.mll" 83 86395 86411 "src/hopix/hopixLexer.mll" 83 86395 86413
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 83 86395 86414 "src/hopix/hopixLexer.mll" 83 86395 86415
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 83 86395 86408 "src/hopix/hopixLexer.mll" 83 86395 86415
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 83 86395 86416 "src/hopix/hopixLexer.mll" 83 86395 86418
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 83 86395 86419 "src/hopix/hopixLexer.mll" 83 86395 86421
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 82 86354 86368 "src/hopix/hopixLexer.mll" 82 86354 86370
+)
+"src/hopix/hopixLexer.mll" 83 86395 86422 "src/hopix/hopixLexer.mll" 83 86395 86424
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 83 86395 86425 "src/hopix/hopixLexer.mll" 83 86395 86428
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 83 86395 86419 "src/hopix/hopixLexer.mll" 83 86395 86428
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 83 86395 86408 "src/hopix/hopixLexer.mll" 83 86395 86428
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 83 86395 86439 "src/hopix/hopixLexer.mll" 83 86395 86447
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 83 86395 86448 "src/hopix/hopixLexer.mll" 83 86395 86450
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 82 86354 86368 "src/hopix/hopixLexer.mll" 82 86354 86370
+)
+"src/hopix/hopixLexer.mll" 83 86395 86438 "src/hopix/hopixLexer.mll" 83 86395 86451
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 83 86395 86434 "src/hopix/hopixLexer.mll" 83 86395 86451
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 83 86395 86457 "src/hopix/hopixLexer.mll" 83 86395 86462
+type(
+  Lexing.lexbuf -> string -> HopixParser.token
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 83 86395 86463 "src/hopix/hopixLexer.mll" 83 86395 86469
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 83 86395 86470 "src/hopix/hopixLexer.mll" 83 86395 86493
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 83 86395 86457 "src/hopix/hopixLexer.mll" 83 86395 86493
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 83 86395 86405 "src/hopix/hopixLexer.mll" 83 86395 86493
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 82 86354 86364 "src/hopix/hopixLexer.mll" 83 86395 86493
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 80 86177 86280 "src/hopix/hopixLexer.mll" 84 86494 86503
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1312 85712 85712 "src/hopix/hopixLexer.mll" 84 86494 86503
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1330 86538 86542 "src/hopix/hopixLexer.ml" 1330 86538 86544
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 85 86584 86622 "src/hopix/hopixLexer.mll" 85 86584 86623
+type(
+  string
+)
+ident(
+  def d "src/hopix/hopixLexer.mll" 85 86787 86832 "src/hopix/hopixLexer.mll" 89 87006 87015
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86659 "src/hopix/hopixLexer.ml" 1335 86657 86676
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86677 "src/hopix/hopixLexer.ml" 1335 86657 86683
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86685 "src/hopix/hopixLexer.ml" 1335 86657 86691
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86685 "src/hopix/hopixLexer.ml" 1335 86657 86712
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86713 "src/hopix/hopixLexer.ml" 1335 86657 86714
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86715 "src/hopix/hopixLexer.ml" 1335 86657 86716
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86684 "src/hopix/hopixLexer.ml" 1335 86657 86717
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86719 "src/hopix/hopixLexer.ml" 1335 86657 86725
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86719 "src/hopix/hopixLexer.ml" 1335 86657 86745
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86746 "src/hopix/hopixLexer.ml" 1335 86657 86747
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86748 "src/hopix/hopixLexer.ml" 1335 86657 86750
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86718 "src/hopix/hopixLexer.ml" 1335 86657 86751
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1335 86657 86659 "src/hopix/hopixLexer.ml" 1335 86657 86751
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 86 86834 86848 "src/hopix/hopixLexer.mll" 86 86834 86852
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 87 86866 86876 "src/hopix/hopixLexer.mll" 88 86907 87005
+)
+"src/hopix/hopixLexer.mll" 86 86834 86855 "src/hopix/hopixLexer.mll" 86 86834 86859
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 86 86834 86859 "src/hopix/hopixLexer.mll" 86 86834 86860
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 86 86834 86860 "src/hopix/hopixLexer.mll" 86 86834 86861
+type(
+  string
+)
+ident(
+  int_ref d "src/hopix/hopixLexer.mll" 85 86584 86622 "src/hopix/hopixLexer.mll" 85 86584 86623
+)
+"src/hopix/hopixLexer.mll" 86 86834 86855 "src/hopix/hopixLexer.mll" 86 86834 86861
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 87 86866 86880 "src/hopix/hopixLexer.mll" 87 86866 86882
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 88 86907 86917 "src/hopix/hopixLexer.mll" 88 86907 87005
+)
+"src/hopix/hopixLexer.mll" 87 86866 86885 "src/hopix/hopixLexer.mll" 87 86866 86898
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 87 86866 86899 "src/hopix/hopixLexer.mll" 87 86866 86903
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 86 86834 86848 "src/hopix/hopixLexer.mll" 86 86834 86852
+)
+"src/hopix/hopixLexer.mll" 87 86866 86885 "src/hopix/hopixLexer.mll" 87 86866 86903
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 88 86907 86920 "src/hopix/hopixLexer.mll" 88 86907 86922
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 87 86866 86880 "src/hopix/hopixLexer.mll" 87 86866 86882
+)
+"src/hopix/hopixLexer.mll" 88 86907 86923 "src/hopix/hopixLexer.mll" 88 86907 86925
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 88 86907 86926 "src/hopix/hopixLexer.mll" 88 86907 86927
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 88 86907 86920 "src/hopix/hopixLexer.mll" 88 86907 86927
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 88 86907 86928 "src/hopix/hopixLexer.mll" 88 86907 86930
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 88 86907 86931 "src/hopix/hopixLexer.mll" 88 86907 86933
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 87 86866 86880 "src/hopix/hopixLexer.mll" 87 86866 86882
+)
+"src/hopix/hopixLexer.mll" 88 86907 86934 "src/hopix/hopixLexer.mll" 88 86907 86936
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 88 86907 86937 "src/hopix/hopixLexer.mll" 88 86907 86940
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 88 86907 86931 "src/hopix/hopixLexer.mll" 88 86907 86940
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 88 86907 86920 "src/hopix/hopixLexer.mll" 88 86907 86940
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 88 86907 86951 "src/hopix/hopixLexer.mll" 88 86907 86959
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 88 86907 86960 "src/hopix/hopixLexer.mll" 88 86907 86962
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 87 86866 86880 "src/hopix/hopixLexer.mll" 87 86866 86882
+)
+"src/hopix/hopixLexer.mll" 88 86907 86950 "src/hopix/hopixLexer.mll" 88 86907 86963
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 88 86907 86946 "src/hopix/hopixLexer.mll" 88 86907 86963
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 88 86907 86969 "src/hopix/hopixLexer.mll" 88 86907 86974
+type(
+  Lexing.lexbuf -> string -> HopixParser.token
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 88 86907 86975 "src/hopix/hopixLexer.mll" 88 86907 86981
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 88 86907 86982 "src/hopix/hopixLexer.mll" 88 86907 87005
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 88 86907 86969 "src/hopix/hopixLexer.mll" 88 86907 87005
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 88 86907 86917 "src/hopix/hopixLexer.mll" 88 86907 87005
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 87 86866 86876 "src/hopix/hopixLexer.mll" 88 86907 87005
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 85 86787 86832 "src/hopix/hopixLexer.mll" 89 87006 87015
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1331 86548 86548 "src/hopix/hopixLexer.mll" 89 87006 87015
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1344 87050 87054 "src/hopix/hopixLexer.ml" 1344 87050 87056
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 95 87096 87117 "src/hopix/hopixLexer.mll" 95 87096 87120
+type(
+  char
+)
+ident(
+  def pre "src/hopix/hopixLexer.mll" 95 87468 87533 "src/hopix/hopixLexer.mll" 100 87699 87720
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87156 "src/hopix/hopixLexer.ml" 1349 87154 87178
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87179 "src/hopix/hopixLexer.ml" 1349 87154 87185
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87187 "src/hopix/hopixLexer.ml" 1349 87154 87193
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87187 "src/hopix/hopixLexer.ml" 1349 87154 87214
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87215 "src/hopix/hopixLexer.ml" 1349 87154 87216
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87217 "src/hopix/hopixLexer.ml" 1349 87154 87218
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87186 "src/hopix/hopixLexer.ml" 1349 87154 87219
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1349 87154 87156 "src/hopix/hopixLexer.ml" 1349 87154 87219
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 95 87256 87314 "src/hopix/hopixLexer.mll" 95 87256 87317
+type(
+  string
+)
+ident(
+  def hex "src/hopix/hopixLexer.mll" 95 87468 87533 "src/hopix/hopixLexer.mll" 100 87699 87720
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87353 "src/hopix/hopixLexer.ml" 1354 87351 87370
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87371 "src/hopix/hopixLexer.ml" 1354 87351 87377
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87378 "src/hopix/hopixLexer.ml" 1354 87351 87384
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87378 "src/hopix/hopixLexer.ml" 1354 87351 87405
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87406 "src/hopix/hopixLexer.ml" 1354 87351 87412
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87406 "src/hopix/hopixLexer.ml" 1354 87351 87432
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1354 87351 87353 "src/hopix/hopixLexer.ml" 1354 87351 87432
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 96 87535 87561 "src/hopix/hopixLexer.mll" 96 87535 87562
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 96 87535 87565 "src/hopix/hopixLexer.mll" 96 87535 87568
+type(
+  char
+)
+ident(
+  int_ref pre "src/hopix/hopixLexer.mll" 95 87096 87117 "src/hopix/hopixLexer.mll" 95 87096 87120
+)
+"src/hopix/hopixLexer.mll" 97 87573 87599 "src/hopix/hopixLexer.mll" 97 87573 87603
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 98 87614 87636 "src/hopix/hopixLexer.mll" 99 87669 87698
+)
+"src/hopix/hopixLexer.mll" 97 87573 87606 "src/hopix/hopixLexer.mll" 97 87573 87609
+type(
+  string
+)
+ident(
+  int_ref hex "src/hopix/hopixLexer.mll" 95 87256 87314 "src/hopix/hopixLexer.mll" 95 87256 87317
+)
+"src/hopix/hopixLexer.mll" 98 87614 87640 "src/hopix/hopixLexer.mll" 98 87614 87642
+type(
+  int32
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 99 87669 87691 "src/hopix/hopixLexer.mll" 99 87669 87698
+)
+"src/hopix/hopixLexer.mll" 98 87614 87645 "src/hopix/hopixLexer.mll" 98 87614 87660
+type(
+  string -> int32
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/hopix/hopixLexer.mll" 98 87614 87661 "src/hopix/hopixLexer.mll" 98 87614 87665
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 97 87573 87599 "src/hopix/hopixLexer.mll" 97 87573 87603
+)
+"src/hopix/hopixLexer.mll" 98 87614 87645 "src/hopix/hopixLexer.mll" 98 87614 87665
+type(
+  int32
+)
+"src/hopix/hopixLexer.mll" 99 87669 87694 "src/hopix/hopixLexer.mll" 99 87669 87698
+type(
+  Int32.t
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 98 87614 87640 "src/hopix/hopixLexer.mll" 98 87614 87642
+)
+"src/hopix/hopixLexer.mll" 99 87669 87691 "src/hopix/hopixLexer.mll" 99 87669 87698
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 98 87614 87636 "src/hopix/hopixLexer.mll" 99 87669 87698
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 97 87573 87595 "src/hopix/hopixLexer.mll" 99 87669 87698
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 95 87468 87533 "src/hopix/hopixLexer.mll" 100 87699 87720
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1345 87060 87060 "src/hopix/hopixLexer.mll" 100 87699 87720
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1364 87755 87759 "src/hopix/hopixLexer.ml" 1364 87755 87761
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 102 87802 87823 "src/hopix/hopixLexer.mll" 102 87802 87826
+type(
+  char
+)
+ident(
+  def pre "src/hopix/hopixLexer.mll" 102 88161 88210 "src/hopix/hopixLexer.mll" 107 88377 88398
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87862 "src/hopix/hopixLexer.ml" 1369 87860 87884
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87885 "src/hopix/hopixLexer.ml" 1369 87860 87891
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87893 "src/hopix/hopixLexer.ml" 1369 87860 87899
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87893 "src/hopix/hopixLexer.ml" 1369 87860 87920
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87921 "src/hopix/hopixLexer.ml" 1369 87860 87922
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87923 "src/hopix/hopixLexer.ml" 1369 87860 87924
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87892 "src/hopix/hopixLexer.ml" 1369 87860 87925
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1369 87860 87862 "src/hopix/hopixLexer.ml" 1369 87860 87925
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 102 87963 88006 "src/hopix/hopixLexer.mll" 102 87963 88009
+type(
+  string
+)
+ident(
+  def oct "src/hopix/hopixLexer.mll" 102 88161 88210 "src/hopix/hopixLexer.mll" 107 88377 88398
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88045 "src/hopix/hopixLexer.ml" 1374 88043 88062
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88063 "src/hopix/hopixLexer.ml" 1374 88043 88069
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88070 "src/hopix/hopixLexer.ml" 1374 88043 88076
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88070 "src/hopix/hopixLexer.ml" 1374 88043 88097
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88098 "src/hopix/hopixLexer.ml" 1374 88043 88104
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88098 "src/hopix/hopixLexer.ml" 1374 88043 88124
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1374 88043 88045 "src/hopix/hopixLexer.ml" 1374 88043 88124
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 103 88213 88239 "src/hopix/hopixLexer.mll" 103 88213 88240
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 103 88213 88243 "src/hopix/hopixLexer.mll" 103 88213 88246
+type(
+  char
+)
+ident(
+  int_ref pre "src/hopix/hopixLexer.mll" 102 87802 87823 "src/hopix/hopixLexer.mll" 102 87802 87826
+)
+"src/hopix/hopixLexer.mll" 104 88251 88277 "src/hopix/hopixLexer.mll" 104 88251 88281
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 105 88292 88314 "src/hopix/hopixLexer.mll" 106 88347 88376
+)
+"src/hopix/hopixLexer.mll" 104 88251 88284 "src/hopix/hopixLexer.mll" 104 88251 88287
+type(
+  string
+)
+ident(
+  int_ref oct "src/hopix/hopixLexer.mll" 102 87963 88006 "src/hopix/hopixLexer.mll" 102 87963 88009
+)
+"src/hopix/hopixLexer.mll" 105 88292 88318 "src/hopix/hopixLexer.mll" 105 88292 88320
+type(
+  int32
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 106 88347 88369 "src/hopix/hopixLexer.mll" 106 88347 88376
+)
+"src/hopix/hopixLexer.mll" 105 88292 88323 "src/hopix/hopixLexer.mll" 105 88292 88338
+type(
+  string -> int32
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/hopix/hopixLexer.mll" 105 88292 88339 "src/hopix/hopixLexer.mll" 105 88292 88343
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 104 88251 88277 "src/hopix/hopixLexer.mll" 104 88251 88281
+)
+"src/hopix/hopixLexer.mll" 105 88292 88323 "src/hopix/hopixLexer.mll" 105 88292 88343
+type(
+  int32
+)
+"src/hopix/hopixLexer.mll" 106 88347 88372 "src/hopix/hopixLexer.mll" 106 88347 88376
+type(
+  Int32.t
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 105 88292 88318 "src/hopix/hopixLexer.mll" 105 88292 88320
+)
+"src/hopix/hopixLexer.mll" 106 88347 88369 "src/hopix/hopixLexer.mll" 106 88347 88376
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 105 88292 88314 "src/hopix/hopixLexer.mll" 106 88347 88376
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 104 88251 88273 "src/hopix/hopixLexer.mll" 106 88347 88376
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 102 88161 88210 "src/hopix/hopixLexer.mll" 107 88377 88398
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1365 87765 87765 "src/hopix/hopixLexer.mll" 107 88377 88398
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1384 88433 88437 "src/hopix/hopixLexer.ml" 1384 88433 88439
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 109 88480 88502 "src/hopix/hopixLexer.mll" 109 88480 88505
+type(
+  char
+)
+ident(
+  def pre "src/hopix/hopixLexer.mll" 109 88840 88888 "src/hopix/hopixLexer.mll" 114 89055 89076
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88541 "src/hopix/hopixLexer.ml" 1389 88539 88563
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88564 "src/hopix/hopixLexer.ml" 1389 88539 88570
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88572 "src/hopix/hopixLexer.ml" 1389 88539 88578
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88572 "src/hopix/hopixLexer.ml" 1389 88539 88599
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88600 "src/hopix/hopixLexer.ml" 1389 88539 88601
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88602 "src/hopix/hopixLexer.ml" 1389 88539 88603
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88571 "src/hopix/hopixLexer.ml" 1389 88539 88604
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1389 88539 88541 "src/hopix/hopixLexer.ml" 1389 88539 88604
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 109 88642 88685 "src/hopix/hopixLexer.mll" 109 88642 88688
+type(
+  string
+)
+ident(
+  def bin "src/hopix/hopixLexer.mll" 109 88840 88888 "src/hopix/hopixLexer.mll" 114 89055 89076
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88724 "src/hopix/hopixLexer.ml" 1394 88722 88741
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88742 "src/hopix/hopixLexer.ml" 1394 88722 88748
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88749 "src/hopix/hopixLexer.ml" 1394 88722 88755
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88749 "src/hopix/hopixLexer.ml" 1394 88722 88776
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88777 "src/hopix/hopixLexer.ml" 1394 88722 88783
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88777 "src/hopix/hopixLexer.ml" 1394 88722 88803
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1394 88722 88724 "src/hopix/hopixLexer.ml" 1394 88722 88803
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 110 88891 88917 "src/hopix/hopixLexer.mll" 110 88891 88918
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 110 88891 88921 "src/hopix/hopixLexer.mll" 110 88891 88924
+type(
+  char
+)
+ident(
+  int_ref pre "src/hopix/hopixLexer.mll" 109 88480 88502 "src/hopix/hopixLexer.mll" 109 88480 88505
+)
+"src/hopix/hopixLexer.mll" 111 88929 88955 "src/hopix/hopixLexer.mll" 111 88929 88959
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 112 88970 88992 "src/hopix/hopixLexer.mll" 113 89025 89054
+)
+"src/hopix/hopixLexer.mll" 111 88929 88962 "src/hopix/hopixLexer.mll" 111 88929 88965
+type(
+  string
+)
+ident(
+  int_ref bin "src/hopix/hopixLexer.mll" 109 88642 88685 "src/hopix/hopixLexer.mll" 109 88642 88688
+)
+"src/hopix/hopixLexer.mll" 112 88970 88996 "src/hopix/hopixLexer.mll" 112 88970 88998
+type(
+  int32
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 113 89025 89047 "src/hopix/hopixLexer.mll" 113 89025 89054
+)
+"src/hopix/hopixLexer.mll" 112 88970 89001 "src/hopix/hopixLexer.mll" 112 88970 89016
+type(
+  string -> int32
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/hopix/hopixLexer.mll" 112 88970 89017 "src/hopix/hopixLexer.mll" 112 88970 89021
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 111 88929 88955 "src/hopix/hopixLexer.mll" 111 88929 88959
+)
+"src/hopix/hopixLexer.mll" 112 88970 89001 "src/hopix/hopixLexer.mll" 112 88970 89021
+type(
+  int32
+)
+"src/hopix/hopixLexer.mll" 113 89025 89050 "src/hopix/hopixLexer.mll" 113 89025 89054
+type(
+  Int32.t
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 112 88970 88996 "src/hopix/hopixLexer.mll" 112 88970 88998
+)
+"src/hopix/hopixLexer.mll" 113 89025 89047 "src/hopix/hopixLexer.mll" 113 89025 89054
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 112 88970 88992 "src/hopix/hopixLexer.mll" 113 89025 89054
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 111 88929 88951 "src/hopix/hopixLexer.mll" 113 89025 89054
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.mll" 109 88840 88888 "src/hopix/hopixLexer.mll" 114 89055 89076
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1385 88443 88443 "src/hopix/hopixLexer.mll" 114 89055 89076
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1404 89111 89115 "src/hopix/hopixLexer.ml" 1404 89111 89117
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 115 89158 89172 "src/hopix/hopixLexer.mll" 115 89158 89173
+type(
+  string
+)
+ident(
+  def d "src/hopix/hopixLexer.mll" 115 89325 89344 "src/hopix/hopixLexer.mll" 115 89325 89373
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89209 "src/hopix/hopixLexer.ml" 1409 89207 89226
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89227 "src/hopix/hopixLexer.ml" 1409 89207 89233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89234 "src/hopix/hopixLexer.ml" 1409 89207 89240
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89234 "src/hopix/hopixLexer.ml" 1409 89207 89261
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89262 "src/hopix/hopixLexer.ml" 1409 89207 89268
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89262 "src/hopix/hopixLexer.ml" 1409 89207 89288
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1409 89207 89209 "src/hopix/hopixLexer.ml" 1409 89207 89288
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 115 89325 89351 "src/hopix/hopixLexer.mll" 115 89325 89366
+type(
+  string -> Int32.t
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/hopix/hopixLexer.mll" 115 89325 89367 "src/hopix/hopixLexer.mll" 115 89325 89368
+type(
+  string
+)
+ident(
+  int_ref d "src/hopix/hopixLexer.mll" 115 89158 89172 "src/hopix/hopixLexer.mll" 115 89158 89173
+)
+"src/hopix/hopixLexer.mll" 115 89325 89350 "src/hopix/hopixLexer.mll" 115 89325 89369
+type(
+  Int32.t
+)
+"src/hopix/hopixLexer.mll" 115 89325 89344 "src/hopix/hopixLexer.mll" 115 89325 89373
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1405 89121 89121 "src/hopix/hopixLexer.mll" 115 89325 89373
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1414 89408 89412 "src/hopix/hopixLexer.ml" 1414 89408 89414
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 119 89451 89482 "src/hopix/hopixLexer.mll" 119 89451 89494
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 119 89451 89496 "src/hopix/hopixLexer.mll" 119 89451 89509
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/hopix/hopixLexer.mll" 119 89451 89510 "src/hopix/hopixLexer.mll" 119 89451 89513
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 119 89451 89495 "src/hopix/hopixLexer.mll" 119 89451 89514
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/hopix/hopixLexer.mll" 119 89451 89515 "src/hopix/hopixLexer.mll" 119 89451 89521
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 119 89451 89479 "src/hopix/hopixLexer.mll" 119 89451 89524
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 119 89451 89471 "src/hopix/hopixLexer.mll" 119 89451 89526
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1419 89561 89565 "src/hopix/hopixLexer.ml" 1419 89561 89567
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 123 89604 89630 "src/hopix/hopixLexer.mll" 123 89604 89636
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 123 89604 89624 "src/hopix/hopixLexer.mll" 123 89604 89640
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1424 89675 89679 "src/hopix/hopixLexer.ml" 1424 89675 89681
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 124 89718 89744 "src/hopix/hopixLexer.mll" 124 89718 89751
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 124 89718 89738 "src/hopix/hopixLexer.mll" 124 89718 89754
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1429 89789 89793 "src/hopix/hopixLexer.ml" 1429 89789 89795
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 128 89832 89858 "src/hopix/hopixLexer.mll" 128 89832 89871
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1434 89906 89910 "src/hopix/hopixLexer.ml" 1434 89906 89912
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 129 89949 89975 "src/hopix/hopixLexer.mll" 129 89949 89988
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1439 90023 90027 "src/hopix/hopixLexer.ml" 1439 90023 90029
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 130 90066 90092 "src/hopix/hopixLexer.mll" 130 90066 90105
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1444 90140 90144 "src/hopix/hopixLexer.ml" 1444 90140 90146
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 131 90183 90209 "src/hopix/hopixLexer.mll" 131 90183 90222
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1449 90257 90261 "src/hopix/hopixLexer.ml" 1449 90257 90263
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 132 90300 90322 "src/hopix/hopixLexer.mll" 132 90300 90333
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1454 90368 90372 "src/hopix/hopixLexer.ml" 1454 90368 90374
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 133 90411 90434 "src/hopix/hopixLexer.mll" 133 90411 90446
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1459 90481 90485 "src/hopix/hopixLexer.ml" 1459 90481 90487
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 134 90524 90547 "src/hopix/hopixLexer.mll" 134 90524 90558
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1464 90593 90597 "src/hopix/hopixLexer.ml" 1464 90593 90599
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 135 90636 90659 "src/hopix/hopixLexer.mll" 135 90636 90670
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1469 90705 90709 "src/hopix/hopixLexer.ml" 1469 90705 90711
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 136 90748 90771 "src/hopix/hopixLexer.mll" 136 90748 90783
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1474 90818 90822 "src/hopix/hopixLexer.ml" 1474 90818 90824
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 137 90861 90884 "src/hopix/hopixLexer.mll" 137 90861 90896
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1479 90931 90935 "src/hopix/hopixLexer.ml" 1479 90931 90937
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 138 90974 90997 "src/hopix/hopixLexer.mll" 138 90974 91009
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1484 91044 91048 "src/hopix/hopixLexer.ml" 1484 91044 91050
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 142 91087 91107 "src/hopix/hopixLexer.mll" 142 91087 91122
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1489 91157 91161 "src/hopix/hopixLexer.ml" 1489 91157 91163
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 143 91200 91220 "src/hopix/hopixLexer.mll" 143 91200 91235
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1494 91270 91274 "src/hopix/hopixLexer.ml" 1494 91270 91276
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 144 91313 91333 "src/hopix/hopixLexer.mll" 144 91313 91348
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1499 91383 91387 "src/hopix/hopixLexer.ml" 1499 91383 91389
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 145 91426 91446 "src/hopix/hopixLexer.mll" 145 91426 91461
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1504 91496 91500 "src/hopix/hopixLexer.ml" 1504 91496 91502
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 148 91539 91559 "src/hopix/hopixLexer.mll" 148 91539 91572
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1509 91607 91611 "src/hopix/hopixLexer.ml" 1509 91607 91613
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 149 91650 91670 "src/hopix/hopixLexer.mll" 149 91650 91683
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1514 91718 91722 "src/hopix/hopixLexer.ml" 1514 91718 91724
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 150 91761 91781 "src/hopix/hopixLexer.mll" 150 91761 91794
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1519 91829 91833 "src/hopix/hopixLexer.ml" 1519 91829 91835
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 151 91872 91892 "src/hopix/hopixLexer.mll" 151 91872 91905
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1524 91940 91944 "src/hopix/hopixLexer.ml" 1524 91940 91946
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 152 91983 92003 "src/hopix/hopixLexer.mll" 152 91983 92016
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1529 92051 92055 "src/hopix/hopixLexer.ml" 1529 92051 92057
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 153 92094 92114 "src/hopix/hopixLexer.mll" 153 92094 92127
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1534 92162 92166 "src/hopix/hopixLexer.ml" 1534 92162 92168
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 154 92205 92225 "src/hopix/hopixLexer.mll" 154 92205 92238
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1539 92273 92277 "src/hopix/hopixLexer.ml" 1539 92273 92279
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 155 92316 92336 "src/hopix/hopixLexer.mll" 155 92316 92349
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1544 92384 92388 "src/hopix/hopixLexer.ml" 1544 92384 92390
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 156 92427 92447 "src/hopix/hopixLexer.mll" 156 92427 92460
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1549 92495 92499 "src/hopix/hopixLexer.ml" 1549 92495 92501
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 157 92538 92558 "src/hopix/hopixLexer.mll" 157 92538 92571
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1554 92606 92610 "src/hopix/hopixLexer.ml" 1554 92606 92612
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 158 92649 92669 "src/hopix/hopixLexer.mll" 158 92649 92682
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1559 92717 92721 "src/hopix/hopixLexer.ml" 1559 92717 92723
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 159 92760 92780 "src/hopix/hopixLexer.mll" 159 92760 92793
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1564 92828 92832 "src/hopix/hopixLexer.ml" 1564 92828 92834
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 160 92871 92891 "src/hopix/hopixLexer.mll" 160 92871 92904
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1569 92939 92943 "src/hopix/hopixLexer.ml" 1569 92939 92945
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 161 92982 93002 "src/hopix/hopixLexer.mll" 161 92982 93015
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1574 93050 93054 "src/hopix/hopixLexer.ml" 1574 93050 93056
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 162 93093 93113 "src/hopix/hopixLexer.mll" 162 93093 93126
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1579 93161 93165 "src/hopix/hopixLexer.ml" 1579 93161 93167
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 163 93204 93224 "src/hopix/hopixLexer.mll" 163 93204 93237
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1584 93272 93276 "src/hopix/hopixLexer.ml" 1584 93272 93278
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 164 93315 93335 "src/hopix/hopixLexer.mll" 164 93315 93348
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1589 93383 93387 "src/hopix/hopixLexer.ml" 1589 93383 93389
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 165 93426 93446 "src/hopix/hopixLexer.mll" 165 93426 93459
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1594 93494 93498 "src/hopix/hopixLexer.ml" 1594 93494 93500
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 166 93537 93557 "src/hopix/hopixLexer.mll" 166 93537 93570
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1599 93605 93609 "src/hopix/hopixLexer.ml" 1599 93605 93611
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 167 93648 93668 "src/hopix/hopixLexer.mll" 167 93648 93681
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1604 93716 93720 "src/hopix/hopixLexer.ml" 1604 93716 93722
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 168 93759 93779 "src/hopix/hopixLexer.mll" 168 93759 93792
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1609 93827 93831 "src/hopix/hopixLexer.ml" 1609 93827 93833
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 169 93870 93890 "src/hopix/hopixLexer.mll" 169 93870 93903
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1614 93938 93942 "src/hopix/hopixLexer.ml" 1614 93938 93944
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 170 93981 94001 "src/hopix/hopixLexer.mll" 170 93981 94014
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1619 94049 94053 "src/hopix/hopixLexer.ml" 1619 94049 94055
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 171 94092 94112 "src/hopix/hopixLexer.mll" 171 94092 94125
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1624 94160 94164 "src/hopix/hopixLexer.ml" 1624 94160 94166
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 172 94203 94223 "src/hopix/hopixLexer.mll" 172 94203 94236
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1629 94271 94275 "src/hopix/hopixLexer.ml" 1629 94271 94277
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 173 94314 94334 "src/hopix/hopixLexer.mll" 173 94314 94347
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1634 94382 94386 "src/hopix/hopixLexer.ml" 1634 94382 94388
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 174 94425 94445 "src/hopix/hopixLexer.mll" 174 94425 94458
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1639 94493 94497 "src/hopix/hopixLexer.ml" 1639 94493 94499
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 175 94536 94556 "src/hopix/hopixLexer.mll" 175 94536 94569
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1644 94604 94608 "src/hopix/hopixLexer.ml" 1644 94604 94610
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 179 94651 94675 "src/hopix/hopixLexer.mll" 179 94651 94676
+type(
+  string
+)
+ident(
+  def i "src/hopix/hopixLexer.mll" 179 94828 94861 "src/hopix/hopixLexer.mll" 179 94828 94875
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94712 "src/hopix/hopixLexer.ml" 1649 94710 94729
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94730 "src/hopix/hopixLexer.ml" 1649 94710 94736
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94737 "src/hopix/hopixLexer.ml" 1649 94710 94743
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94737 "src/hopix/hopixLexer.ml" 1649 94710 94764
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94765 "src/hopix/hopixLexer.ml" 1649 94710 94771
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94765 "src/hopix/hopixLexer.ml" 1649 94710 94791
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1649 94710 94712 "src/hopix/hopixLexer.ml" 1649 94710 94791
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 179 94828 94867 "src/hopix/hopixLexer.mll" 179 94828 94868
+type(
+  string
+)
+ident(
+  int_ref i "src/hopix/hopixLexer.mll" 179 94651 94675 "src/hopix/hopixLexer.mll" 179 94651 94676
+)
+"src/hopix/hopixLexer.mll" 179 94828 94861 "src/hopix/hopixLexer.mll" 179 94828 94875
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1645 94614 94614 "src/hopix/hopixLexer.mll" 179 94828 94875
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1654 94910 94914 "src/hopix/hopixLexer.ml" 1654 94910 94916
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 180 94957 94978 "src/hopix/hopixLexer.mll" 180 94957 94979
+type(
+  string
+)
+ident(
+  def i "src/hopix/hopixLexer.mll" 180 95131 95164 "src/hopix/hopixLexer.mll" 180 95131 95178
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95015 "src/hopix/hopixLexer.ml" 1659 95013 95032
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95033 "src/hopix/hopixLexer.ml" 1659 95013 95039
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95040 "src/hopix/hopixLexer.ml" 1659 95013 95046
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95040 "src/hopix/hopixLexer.ml" 1659 95013 95067
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95068 "src/hopix/hopixLexer.ml" 1659 95013 95074
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95068 "src/hopix/hopixLexer.ml" 1659 95013 95094
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1659 95013 95015 "src/hopix/hopixLexer.ml" 1659 95013 95094
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 180 95131 95171 "src/hopix/hopixLexer.mll" 180 95131 95172
+type(
+  string
+)
+ident(
+  int_ref i "src/hopix/hopixLexer.mll" 180 94957 94978 "src/hopix/hopixLexer.mll" 180 94957 94979
+)
+"src/hopix/hopixLexer.mll" 180 95131 95164 "src/hopix/hopixLexer.mll" 180 95131 95178
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1655 94920 94920 "src/hopix/hopixLexer.mll" 180 95131 95178
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1664 95213 95217 "src/hopix/hopixLexer.ml" 1664 95213 95219
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 181 95260 95277 "src/hopix/hopixLexer.mll" 181 95260 95278
+type(
+  string
+)
+ident(
+  def i "src/hopix/hopixLexer.mll" 181 95430 95463 "src/hopix/hopixLexer.mll" 181 95430 95477
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95314 "src/hopix/hopixLexer.ml" 1669 95312 95331
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95332 "src/hopix/hopixLexer.ml" 1669 95312 95338
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95339 "src/hopix/hopixLexer.ml" 1669 95312 95345
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95339 "src/hopix/hopixLexer.ml" 1669 95312 95366
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95367 "src/hopix/hopixLexer.ml" 1669 95312 95373
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95367 "src/hopix/hopixLexer.ml" 1669 95312 95393
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1669 95312 95314 "src/hopix/hopixLexer.ml" 1669 95312 95393
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 181 95430 95469 "src/hopix/hopixLexer.mll" 181 95430 95470
+type(
+  string
+)
+ident(
+  int_ref i "src/hopix/hopixLexer.mll" 181 95260 95277 "src/hopix/hopixLexer.mll" 181 95260 95278
+)
+"src/hopix/hopixLexer.mll" 181 95430 95463 "src/hopix/hopixLexer.mll" 181 95430 95477
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1665 95223 95223 "src/hopix/hopixLexer.mll" 181 95430 95477
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1674 95512 95516 "src/hopix/hopixLexer.ml" 1674 95512 95518
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 182 95559 95589 "src/hopix/hopixLexer.mll" 182 95559 95590
+type(
+  string
+)
+ident(
+  def i "src/hopix/hopixLexer.mll" 182 95742 95775 "src/hopix/hopixLexer.mll" 182 95742 95789
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95626 "src/hopix/hopixLexer.ml" 1679 95624 95643
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95644 "src/hopix/hopixLexer.ml" 1679 95624 95650
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95651 "src/hopix/hopixLexer.ml" 1679 95624 95657
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95651 "src/hopix/hopixLexer.ml" 1679 95624 95678
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95679 "src/hopix/hopixLexer.ml" 1679 95624 95685
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95679 "src/hopix/hopixLexer.ml" 1679 95624 95705
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1679 95624 95626 "src/hopix/hopixLexer.ml" 1679 95624 95705
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 182 95742 95785 "src/hopix/hopixLexer.mll" 182 95742 95786
+type(
+  string
+)
+ident(
+  int_ref i "src/hopix/hopixLexer.mll" 182 95559 95589 "src/hopix/hopixLexer.mll" 182 95559 95590
+)
+"src/hopix/hopixLexer.mll" 182 95742 95775 "src/hopix/hopixLexer.mll" 182 95742 95789
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1675 95522 95522 "src/hopix/hopixLexer.mll" 182 95742 95789
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1684 95824 95828 "src/hopix/hopixLexer.ml" 1684 95824 95830
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 183 95871 95902 "src/hopix/hopixLexer.mll" 183 95871 95903
+type(
+  string
+)
+ident(
+  def i "src/hopix/hopixLexer.mll" 183 96055 96088 "src/hopix/hopixLexer.mll" 183 96055 96102
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95939 "src/hopix/hopixLexer.ml" 1689 95937 95956
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95957 "src/hopix/hopixLexer.ml" 1689 95937 95963
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95964 "src/hopix/hopixLexer.ml" 1689 95937 95970
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95964 "src/hopix/hopixLexer.ml" 1689 95937 95991
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95992 "src/hopix/hopixLexer.ml" 1689 95937 95998
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95992 "src/hopix/hopixLexer.ml" 1689 95937 96018
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1689 95937 95939 "src/hopix/hopixLexer.ml" 1689 95937 96018
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 183 96055 96099 "src/hopix/hopixLexer.mll" 183 96055 96100
+type(
+  string
+)
+ident(
+  int_ref i "src/hopix/hopixLexer.mll" 183 95871 95902 "src/hopix/hopixLexer.mll" 183 95871 95903
+)
+"src/hopix/hopixLexer.mll" 183 96055 96088 "src/hopix/hopixLexer.mll" 183 96055 96102
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1685 95834 95834 "src/hopix/hopixLexer.mll" 183 96055 96102
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1694 96137 96141 "src/hopix/hopixLexer.ml" 1694 96137 96143
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 187 96180 96202 "src/hopix/hopixLexer.mll" 187 96180 96207
+type(
+  Lexing.lexbuf -> string -> HopixParser.token
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 187 96180 96208 "src/hopix/hopixLexer.mll" 187 96180 96214
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.mll" 187 96180 96215 "src/hopix/hopixLexer.mll" 187 96180 96238
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 187 96180 96200 "src/hopix/hopixLexer.mll" 187 96180 96240
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96279 "src/hopix/hopixLexer.ml" 1699 96275 96296
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1699 96275 96300 "src/hopix/hopixLexer.ml" 1700 96335 96387
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96300 "src/hopix/hopixLexer.ml" 1699 96275 96306
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96300 "src/hopix/hopixLexer.ml" 1699 96275 96325
+type(
+  Lexing.lexbuf -> unit
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96326 "src/hopix/hopixLexer.ml" 1699 96275 96332
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96300 "src/hopix/hopixLexer.ml" 1699 96275 96332
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1700 96335 96341 "src/hopix/hopixLexer.ml" 1700 96335 96362
+type(
+  Lexing.lexbuf -> int -> HopixParser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "src/hopix/hopixLexer.ml" 1215 82870 82874 "src/hopix/hopixLexer.ml" 1215 82870 82895
+)
+"src/hopix/hopixLexer.ml" 1700 96335 96363 "src/hopix/hopixLexer.ml" 1700 96335 96369
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1215 82870 82896 "src/hopix/hopixLexer.ml" 1215 82870 82902
+)
+"src/hopix/hopixLexer.ml" 1700 96335 96370 "src/hopix/hopixLexer.ml" 1700 96335 96387
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1699 96275 96279 "src/hopix/hopixLexer.ml" 1699 96275 96296
+)
+"src/hopix/hopixLexer.ml" 1700 96335 96341 "src/hopix/hopixLexer.ml" 1700 96335 96387
+call(
+  tail
+)
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1699 96275 96300 "src/hopix/hopixLexer.ml" 1700 96335 96387
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1216 82923 82925 "src/hopix/hopixLexer.ml" 1700 96335 96387
+type(
+  HopixParser.token
+)
+"src/hopix/hopixLexer.ml" 1702 96389 96393 "src/hopix/hopixLexer.ml" 1702 96389 96400
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def comment "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1702 96389 96401 "src/hopix/hopixLexer.ml" 1702 96389 96407
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1703 96410 96414 "src/hopix/hopixLexer.ml" 1703 96410 96448
+)
+"src/hopix/hopixLexer.ml" 1703 96410 96414 "src/hopix/hopixLexer.ml" 1703 96410 96437
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/hopix/hopixLexer.ml" 1704 96449 96453 "src/hopix/hopixLexer.ml" 1704 96449 96476
+)
+"src/hopix/hopixLexer.ml" 1703 96410 96438 "src/hopix/hopixLexer.ml" 1703 96410 96444
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1702 96389 96401 "src/hopix/hopixLexer.ml" 1702 96389 96407
+)
+"src/hopix/hopixLexer.ml" 1703 96410 96445 "src/hopix/hopixLexer.ml" 1703 96410 96448
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1703 96410 96414 "src/hopix/hopixLexer.ml" 1703 96410 96448
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1704 96449 96453 "src/hopix/hopixLexer.ml" 1704 96449 96476
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_comment_rec "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96484 "src/hopix/hopixLexer.ml" 1727 97081 97135
+)
+"src/hopix/hopixLexer.ml" 1704 96449 96484 "src/hopix/hopixLexer.ml" 1704 96449 96501
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1705 96504 96506 "src/hopix/hopixLexer.ml" 1727 97081 97135
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96512 "src/hopix/hopixLexer.ml" 1705 96504 96525
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96526 "src/hopix/hopixLexer.ml" 1705 96504 96544
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96545 "src/hopix/hopixLexer.ml" 1705 96504 96562
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1704 96449 96484 "src/hopix/hopixLexer.ml" 1704 96449 96501
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96563 "src/hopix/hopixLexer.ml" 1705 96504 96569
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96512 "src/hopix/hopixLexer.ml" 1705 96504 96569
+call(
+  stack
+)
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1706 96575 96583 "src/hopix/hopixLexer.ml" 1706 96575 96584
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 190 96621 96630 "src/hopix/hopixLexer.mll" 190 96621 96636
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1711 96671 96675 "src/hopix/hopixLexer.ml" 1711 96671 96676
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 191 96713 96724 "src/hopix/hopixLexer.mll" 191 96713 96731
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/hopix/hopixLexer.ml" 1702 96389 96393 "src/hopix/hopixLexer.ml" 1702 96389 96400
+)
+"src/hopix/hopixLexer.mll" 191 96713 96732 "src/hopix/hopixLexer.mll" 191 96713 96738
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.mll" 191 96713 96724 "src/hopix/hopixLexer.mll" 191 96713 96738
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 191 96713 96740 "src/hopix/hopixLexer.mll" 191 96713 96747
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/hopix/hopixLexer.ml" 1702 96389 96393 "src/hopix/hopixLexer.ml" 1702 96389 96400
+)
+"src/hopix/hopixLexer.mll" 191 96713 96748 "src/hopix/hopixLexer.mll" 191 96713 96754
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.mll" 191 96713 96740 "src/hopix/hopixLexer.mll" 191 96713 96754
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 191 96713 96722 "src/hopix/hopixLexer.mll" 191 96713 96756
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1716 96791 96795 "src/hopix/hopixLexer.ml" 1716 96791 96796
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 192 96833 96844 "src/hopix/hopixLexer.mll" 192 96833 96849
+type(
+  Lexing.lexbuf -> string -> unit
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 192 96833 96850 "src/hopix/hopixLexer.mll" 192 96833 96856
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.mll" 192 96833 96857 "src/hopix/hopixLexer.mll" 192 96833 96881
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 192 96833 96842 "src/hopix/hopixLexer.mll" 192 96833 96883
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1721 96918 96922 "src/hopix/hopixLexer.ml" 1721 96918 96923
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 193 96960 96970 "src/hopix/hopixLexer.mll" 193 96960 96977
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/hopix/hopixLexer.ml" 1702 96389 96393 "src/hopix/hopixLexer.ml" 1702 96389 96400
+)
+"src/hopix/hopixLexer.mll" 193 96960 96978 "src/hopix/hopixLexer.mll" 193 96960 96984
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.mll" 193 96960 96968 "src/hopix/hopixLexer.mll" 193 96960 96986
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97025 "src/hopix/hopixLexer.ml" 1726 97021 97042
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1726 97021 97046 "src/hopix/hopixLexer.ml" 1727 97081 97135
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97046 "src/hopix/hopixLexer.ml" 1726 97021 97052
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97046 "src/hopix/hopixLexer.ml" 1726 97021 97071
+type(
+  Lexing.lexbuf -> unit
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97072 "src/hopix/hopixLexer.ml" 1726 97021 97078
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97046 "src/hopix/hopixLexer.ml" 1726 97021 97078
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1727 97081 97087 "src/hopix/hopixLexer.ml" 1727 97081 97110
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/hopix/hopixLexer.ml" 1704 96449 96453 "src/hopix/hopixLexer.ml" 1704 96449 96476
+)
+"src/hopix/hopixLexer.ml" 1727 97081 97111 "src/hopix/hopixLexer.ml" 1727 97081 97117
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1704 96449 96477 "src/hopix/hopixLexer.ml" 1704 96449 96483
+)
+"src/hopix/hopixLexer.ml" 1727 97081 97118 "src/hopix/hopixLexer.ml" 1727 97081 97135
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1726 97021 97025 "src/hopix/hopixLexer.ml" 1726 97021 97042
+)
+"src/hopix/hopixLexer.ml" 1727 97081 97087 "src/hopix/hopixLexer.ml" 1727 97081 97135
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1726 97021 97046 "src/hopix/hopixLexer.ml" 1727 97081 97135
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1705 96504 96506 "src/hopix/hopixLexer.ml" 1727 97081 97135
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1729 97137 97141 "src/hopix/hopixLexer.ml" 1729 97137 97152
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def commentLine "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1729 97137 97153 "src/hopix/hopixLexer.ml" 1729 97137 97159
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1730 97162 97166 "src/hopix/hopixLexer.ml" 1730 97162 97204
+)
+"src/hopix/hopixLexer.ml" 1730 97162 97166 "src/hopix/hopixLexer.ml" 1730 97162 97193
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_commentLine_rec "src/hopix/hopixLexer.ml" 1731 97205 97209 "src/hopix/hopixLexer.ml" 1731 97205 97236
+)
+"src/hopix/hopixLexer.ml" 1730 97162 97194 "src/hopix/hopixLexer.ml" 1730 97162 97200
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1729 97137 97153 "src/hopix/hopixLexer.ml" 1729 97137 97159
+)
+"src/hopix/hopixLexer.ml" 1730 97162 97201 "src/hopix/hopixLexer.ml" 1730 97162 97204
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1730 97162 97166 "src/hopix/hopixLexer.ml" 1730 97162 97204
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1731 97205 97209 "src/hopix/hopixLexer.ml" 1731 97205 97236
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_commentLine_rec "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97244 "src/hopix/hopixLexer.ml" 1749 97691 97749
+)
+"src/hopix/hopixLexer.ml" 1731 97205 97244 "src/hopix/hopixLexer.ml" 1731 97205 97261
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1732 97264 97266 "src/hopix/hopixLexer.ml" 1749 97691 97749
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97272 "src/hopix/hopixLexer.ml" 1732 97264 97285
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97286 "src/hopix/hopixLexer.ml" 1732 97264 97304
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97305 "src/hopix/hopixLexer.ml" 1732 97264 97322
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1731 97205 97244 "src/hopix/hopixLexer.ml" 1731 97205 97261
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97323 "src/hopix/hopixLexer.ml" 1732 97264 97329
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97272 "src/hopix/hopixLexer.ml" 1732 97264 97329
+call(
+  stack
+)
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1733 97335 97343 "src/hopix/hopixLexer.ml" 1733 97335 97344
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 196 97381 97390 "src/hopix/hopixLexer.mll" 196 97381 97396
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1738 97431 97435 "src/hopix/hopixLexer.ml" 1738 97431 97436
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 197 97473 97482 "src/hopix/hopixLexer.mll" 197 97473 97489
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1743 97524 97528 "src/hopix/hopixLexer.ml" 1743 97524 97529
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 198 97566 97576 "src/hopix/hopixLexer.mll" 198 97566 97587
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref commentLine "src/hopix/hopixLexer.ml" 1729 97137 97141 "src/hopix/hopixLexer.ml" 1729 97137 97152
+)
+"src/hopix/hopixLexer.mll" 198 97566 97588 "src/hopix/hopixLexer.mll" 198 97566 97594
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+)
+"src/hopix/hopixLexer.mll" 198 97566 97574 "src/hopix/hopixLexer.mll" 198 97566 97596
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97635 "src/hopix/hopixLexer.ml" 1748 97631 97652
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1748 97631 97656 "src/hopix/hopixLexer.ml" 1749 97691 97749
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97656 "src/hopix/hopixLexer.ml" 1748 97631 97662
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97656 "src/hopix/hopixLexer.ml" 1748 97631 97681
+type(
+  Lexing.lexbuf -> unit
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97682 "src/hopix/hopixLexer.ml" 1748 97631 97688
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97656 "src/hopix/hopixLexer.ml" 1748 97631 97688
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1749 97691 97697 "src/hopix/hopixLexer.ml" 1749 97691 97724
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_commentLine_rec "src/hopix/hopixLexer.ml" 1731 97205 97209 "src/hopix/hopixLexer.ml" 1731 97205 97236
+)
+"src/hopix/hopixLexer.ml" 1749 97691 97725 "src/hopix/hopixLexer.ml" 1749 97691 97731
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1731 97205 97237 "src/hopix/hopixLexer.ml" 1731 97205 97243
+)
+"src/hopix/hopixLexer.ml" 1749 97691 97732 "src/hopix/hopixLexer.ml" 1749 97691 97749
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1748 97631 97635 "src/hopix/hopixLexer.ml" 1748 97631 97652
+)
+"src/hopix/hopixLexer.ml" 1749 97691 97697 "src/hopix/hopixLexer.ml" 1749 97691 97749
+call(
+  tail
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1748 97631 97656 "src/hopix/hopixLexer.ml" 1749 97691 97749
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1732 97264 97266 "src/hopix/hopixLexer.ml" 1749 97691 97749
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  def stringBuffer "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1751 97751 97768 "src/hopix/hopixLexer.ml" 1751 97751 97774
+type(
+  Buffer.t
+)
+ident(
+  def buffer "src/hopix/hopixLexer.ml" 1751 97751 97775 "src/hopix/hopixLexer.ml" 1752 97784 97834
+)
+"src/hopix/hopixLexer.ml" 1751 97751 97775 "src/hopix/hopixLexer.ml" 1751 97751 97781
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1752 97784 97788 "src/hopix/hopixLexer.ml" 1752 97784 97834
+)
+"src/hopix/hopixLexer.ml" 1752 97784 97788 "src/hopix/hopixLexer.ml" 1752 97784 97816
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_stringBuffer_rec "src/hopix/hopixLexer.ml" 1753 97835 97839 "src/hopix/hopixLexer.ml" 1753 97835 97867
+)
+"src/hopix/hopixLexer.ml" 1752 97784 97817 "src/hopix/hopixLexer.ml" 1752 97784 97823
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1751 97751 97768 "src/hopix/hopixLexer.ml" 1751 97751 97774
+)
+"src/hopix/hopixLexer.ml" 1752 97784 97824 "src/hopix/hopixLexer.ml" 1752 97784 97830
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1751 97751 97775 "src/hopix/hopixLexer.ml" 1751 97751 97781
+)
+"src/hopix/hopixLexer.ml" 1752 97784 97831 "src/hopix/hopixLexer.ml" 1752 97784 97834
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1752 97784 97788 "src/hopix/hopixLexer.ml" 1752 97784 97834
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1753 97835 97839 "src/hopix/hopixLexer.ml" 1753 97835 97867
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_stringBuffer_rec "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+type(
+  Buffer.t
+)
+ident(
+  def buffer "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1902 103034 103100
+)
+"src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97882 "src/hopix/hopixLexer.ml" 1902 103034 103100
+)
+"src/hopix/hopixLexer.ml" 1753 97835 97882 "src/hopix/hopixLexer.ml" 1753 97835 97899
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1754 97902 97904 "src/hopix/hopixLexer.ml" 1902 103034 103100
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97910 "src/hopix/hopixLexer.ml" 1754 97902 97923
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97924 "src/hopix/hopixLexer.ml" 1754 97902 97942
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97943 "src/hopix/hopixLexer.ml" 1754 97902 97960
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1753 97835 97882 "src/hopix/hopixLexer.ml" 1753 97835 97899
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97961 "src/hopix/hopixLexer.ml" 1754 97902 97967
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97910 "src/hopix/hopixLexer.ml" 1754 97902 97967
+call(
+  stack
+)
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1755 97973 97981 "src/hopix/hopixLexer.ml" 1755 97973 97982
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 201 98019 98043 "src/hopix/hopixLexer.mll" 201 98019 98058
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/hopix/hopixLexer.mll" 201 98019 98059 "src/hopix/hopixLexer.mll" 201 98019 98065
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 201 98019 98041 "src/hopix/hopixLexer.mll" 201 98019 98067
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1760 98102 98106 "src/hopix/hopixLexer.ml" 1760 98102 98107
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 202 98148 98170 "src/hopix/hopixLexer.mll" 202 98148 98171
+type(
+  char
+)
+ident(
+  def c "src/hopix/hopixLexer.mll" 202 98301 98327 "src/hopix/hopixLexer.mll" 202 98301 98383
+)
+"src/hopix/hopixLexer.ml" 1765 98205 98207 "src/hopix/hopixLexer.ml" 1765 98205 98229
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1765 98205 98230 "src/hopix/hopixLexer.ml" 1765 98205 98236
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1765 98205 98237 "src/hopix/hopixLexer.ml" 1765 98205 98243
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1765 98205 98237 "src/hopix/hopixLexer.ml" 1765 98205 98264
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1765 98205 98207 "src/hopix/hopixLexer.ml" 1765 98205 98264
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 202 98301 98329 "src/hopix/hopixLexer.mll" 202 98301 98344
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 202 98301 98345 "src/hopix/hopixLexer.mll" 202 98301 98351
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 202 98301 98352 "src/hopix/hopixLexer.mll" 202 98301 98353
+type(
+  char
+)
+ident(
+  int_ref c "src/hopix/hopixLexer.mll" 202 98148 98170 "src/hopix/hopixLexer.mll" 202 98148 98171
+)
+"src/hopix/hopixLexer.mll" 202 98301 98329 "src/hopix/hopixLexer.mll" 202 98301 98353
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 202 98301 98355 "src/hopix/hopixLexer.mll" 202 98301 98367
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 202 98301 98368 "src/hopix/hopixLexer.mll" 202 98301 98374
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 202 98301 98375 "src/hopix/hopixLexer.mll" 202 98301 98381
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 202 98301 98355 "src/hopix/hopixLexer.mll" 202 98301 98381
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 202 98301 98327 "src/hopix/hopixLexer.mll" 202 98301 98383
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1761 98111 98111 "src/hopix/hopixLexer.mll" 202 98301 98383
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1770 98418 98422 "src/hopix/hopixLexer.ml" 1770 98418 98423
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 203 98460 98484 "src/hopix/hopixLexer.mll" 203 98460 98499
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 203 98460 98500 "src/hopix/hopixLexer.mll" 203 98460 98506
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 203 98460 98507 "src/hopix/hopixLexer.mll" 203 98460 98510
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 203 98460 98484 "src/hopix/hopixLexer.mll" 203 98460 98510
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 203 98460 98512 "src/hopix/hopixLexer.mll" 203 98460 98524
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 203 98460 98525 "src/hopix/hopixLexer.mll" 203 98460 98531
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 203 98460 98532 "src/hopix/hopixLexer.mll" 203 98460 98538
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 203 98460 98512 "src/hopix/hopixLexer.mll" 203 98460 98538
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 203 98460 98482 "src/hopix/hopixLexer.mll" 203 98460 98540
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1775 98575 98579 "src/hopix/hopixLexer.ml" 1775 98575 98580
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 204 98617 98641 "src/hopix/hopixLexer.mll" 204 98617 98656
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 204 98617 98657 "src/hopix/hopixLexer.mll" 204 98617 98663
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 204 98617 98664 "src/hopix/hopixLexer.mll" 204 98617 98668
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 204 98617 98641 "src/hopix/hopixLexer.mll" 204 98617 98668
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 204 98617 98670 "src/hopix/hopixLexer.mll" 204 98617 98682
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 204 98617 98683 "src/hopix/hopixLexer.mll" 204 98617 98689
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 204 98617 98690 "src/hopix/hopixLexer.mll" 204 98617 98696
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 204 98617 98670 "src/hopix/hopixLexer.mll" 204 98617 98696
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 204 98617 98639 "src/hopix/hopixLexer.mll" 204 98617 98698
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1780 98733 98737 "src/hopix/hopixLexer.ml" 1780 98733 98738
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 205 98775 98799 "src/hopix/hopixLexer.mll" 205 98775 98814
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 205 98775 98815 "src/hopix/hopixLexer.mll" 205 98775 98821
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 205 98775 98822 "src/hopix/hopixLexer.mll" 205 98775 98826
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 205 98775 98799 "src/hopix/hopixLexer.mll" 205 98775 98826
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 205 98775 98828 "src/hopix/hopixLexer.mll" 205 98775 98840
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 205 98775 98841 "src/hopix/hopixLexer.mll" 205 98775 98847
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 205 98775 98848 "src/hopix/hopixLexer.mll" 205 98775 98854
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 205 98775 98828 "src/hopix/hopixLexer.mll" 205 98775 98854
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 205 98775 98797 "src/hopix/hopixLexer.mll" 205 98775 98856
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1785 98891 98895 "src/hopix/hopixLexer.ml" 1785 98891 98896
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 206 98933 98957 "src/hopix/hopixLexer.mll" 206 98933 98972
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 206 98933 98973 "src/hopix/hopixLexer.mll" 206 98933 98979
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 206 98933 98980 "src/hopix/hopixLexer.mll" 206 98933 98984
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 206 98933 98957 "src/hopix/hopixLexer.mll" 206 98933 98984
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 206 98933 98986 "src/hopix/hopixLexer.mll" 206 98933 98998
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 206 98933 98999 "src/hopix/hopixLexer.mll" 206 98933 99005
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 206 98933 99006 "src/hopix/hopixLexer.mll" 206 98933 99012
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 206 98933 98986 "src/hopix/hopixLexer.mll" 206 98933 99012
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 206 98933 98955 "src/hopix/hopixLexer.mll" 206 98933 99014
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1790 99049 99053 "src/hopix/hopixLexer.ml" 1790 99049 99054
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 207 99091 99115 "src/hopix/hopixLexer.mll" 207 99091 99130
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 207 99091 99131 "src/hopix/hopixLexer.mll" 207 99091 99137
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 207 99091 99138 "src/hopix/hopixLexer.mll" 207 99091 99142
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 207 99091 99115 "src/hopix/hopixLexer.mll" 207 99091 99142
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 207 99091 99144 "src/hopix/hopixLexer.mll" 207 99091 99156
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 207 99091 99157 "src/hopix/hopixLexer.mll" 207 99091 99163
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 207 99091 99164 "src/hopix/hopixLexer.mll" 207 99091 99170
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 207 99091 99144 "src/hopix/hopixLexer.mll" 207 99091 99170
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 207 99091 99113 "src/hopix/hopixLexer.mll" 207 99091 99172
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1795 99207 99211 "src/hopix/hopixLexer.ml" 1795 99207 99212
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 208 99249 99273 "src/hopix/hopixLexer.mll" 208 99249 99288
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 208 99249 99289 "src/hopix/hopixLexer.mll" 208 99249 99295
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 208 99249 99296 "src/hopix/hopixLexer.mll" 208 99249 99300
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 208 99249 99273 "src/hopix/hopixLexer.mll" 208 99249 99300
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 208 99249 99302 "src/hopix/hopixLexer.mll" 208 99249 99314
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 208 99249 99315 "src/hopix/hopixLexer.mll" 208 99249 99321
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 208 99249 99322 "src/hopix/hopixLexer.mll" 208 99249 99328
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 208 99249 99302 "src/hopix/hopixLexer.mll" 208 99249 99328
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 208 99249 99271 "src/hopix/hopixLexer.mll" 208 99249 99330
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1800 99365 99369 "src/hopix/hopixLexer.ml" 1800 99365 99370
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 209 99407 99430 "src/hopix/hopixLexer.mll" 209 99407 99445
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 209 99407 99446 "src/hopix/hopixLexer.mll" 209 99407 99452
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 209 99407 99453 "src/hopix/hopixLexer.mll" 209 99407 99457
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 209 99407 99430 "src/hopix/hopixLexer.mll" 209 99407 99457
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 209 99407 99459 "src/hopix/hopixLexer.mll" 209 99407 99471
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 209 99407 99472 "src/hopix/hopixLexer.mll" 209 99407 99478
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 209 99407 99479 "src/hopix/hopixLexer.mll" 209 99407 99485
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 209 99407 99459 "src/hopix/hopixLexer.mll" 209 99407 99485
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 209 99407 99428 "src/hopix/hopixLexer.mll" 209 99407 99487
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1805 99522 99526 "src/hopix/hopixLexer.ml" 1805 99522 99527
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 210 99564 99587 "src/hopix/hopixLexer.mll" 210 99564 99602
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 210 99564 99603 "src/hopix/hopixLexer.mll" 210 99564 99609
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 210 99564 99610 "src/hopix/hopixLexer.mll" 210 99564 99614
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 210 99564 99587 "src/hopix/hopixLexer.mll" 210 99564 99614
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 210 99564 99616 "src/hopix/hopixLexer.mll" 210 99564 99628
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 210 99564 99629 "src/hopix/hopixLexer.mll" 210 99564 99635
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 210 99564 99636 "src/hopix/hopixLexer.mll" 210 99564 99642
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 210 99564 99616 "src/hopix/hopixLexer.mll" 210 99564 99642
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 210 99564 99585 "src/hopix/hopixLexer.mll" 210 99564 99644
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1810 99679 99683 "src/hopix/hopixLexer.ml" 1810 99679 99685
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 212 99726 99750 "src/hopix/hopixLexer.mll" 212 99726 99754
+type(
+  char
+)
+ident(
+  def int1 "src/hopix/hopixLexer.mll" 212 100280 100350 "src/hopix/hopixLexer.mll" 219 100656 100665
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99790 "src/hopix/hopixLexer.ml" 1815 99788 99812
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99813 "src/hopix/hopixLexer.ml" 1815 99788 99819
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99821 "src/hopix/hopixLexer.ml" 1815 99788 99827
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99821 "src/hopix/hopixLexer.ml" 1815 99788 99848
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99849 "src/hopix/hopixLexer.ml" 1815 99788 99850
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99851 "src/hopix/hopixLexer.ml" 1815 99788 99852
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99820 "src/hopix/hopixLexer.ml" 1815 99788 99853
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1815 99788 99790 "src/hopix/hopixLexer.ml" 1815 99788 99853
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 212 99891 99935 "src/hopix/hopixLexer.mll" 212 99891 99939
+type(
+  char
+)
+ident(
+  def int2 "src/hopix/hopixLexer.mll" 212 100280 100350 "src/hopix/hopixLexer.mll" 219 100656 100665
+)
+"src/hopix/hopixLexer.ml" 1820 99973 99975 "src/hopix/hopixLexer.ml" 1820 99973 99997
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1820 99973 99998 "src/hopix/hopixLexer.ml" 1820 99973 100004
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1820 99973 100006 "src/hopix/hopixLexer.ml" 1820 99973 100012
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1820 99973 100006 "src/hopix/hopixLexer.ml" 1820 99973 100033
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1820 99973 100034 "src/hopix/hopixLexer.ml" 1820 99973 100035
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1820 99973 100036 "src/hopix/hopixLexer.ml" 1820 99973 100037
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1820 99973 100005 "src/hopix/hopixLexer.ml" 1820 99973 100038
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1820 99973 99975 "src/hopix/hopixLexer.ml" 1820 99973 100038
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 212 100076 100140 "src/hopix/hopixLexer.mll" 212 100076 100144
+type(
+  char
+)
+ident(
+  def int3 "src/hopix/hopixLexer.mll" 212 100280 100350 "src/hopix/hopixLexer.mll" 219 100656 100665
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100180 "src/hopix/hopixLexer.ml" 1825 100178 100202
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100203 "src/hopix/hopixLexer.ml" 1825 100178 100209
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100211 "src/hopix/hopixLexer.ml" 1825 100178 100217
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100211 "src/hopix/hopixLexer.ml" 1825 100178 100238
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100239 "src/hopix/hopixLexer.ml" 1825 100178 100240
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100241 "src/hopix/hopixLexer.ml" 1825 100178 100242
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100210 "src/hopix/hopixLexer.ml" 1825 100178 100243
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1825 100178 100180 "src/hopix/hopixLexer.ml" 1825 100178 100243
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 213 100352 100366 "src/hopix/hopixLexer.mll" 213 100352 100370
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 214 100440 100450 "src/hopix/hopixLexer.mll" 218 100615 100651
+)
+"src/hopix/hopixLexer.mll" 213 100352 100374 "src/hopix/hopixLexer.mll" 213 100352 100385
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 213 100352 100386 "src/hopix/hopixLexer.mll" 213 100352 100387
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 213 100352 100388 "src/hopix/hopixLexer.mll" 213 100352 100392
+type(
+  char
+)
+ident(
+  int_ref int1 "src/hopix/hopixLexer.mll" 212 99726 99750 "src/hopix/hopixLexer.mll" 212 99726 99754
+)
+"src/hopix/hopixLexer.mll" 213 100352 100373 "src/hopix/hopixLexer.mll" 213 100352 100393
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 213 100352 100393 "src/hopix/hopixLexer.mll" 213 100352 100394
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 213 100352 100395 "src/hopix/hopixLexer.mll" 213 100352 100406
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 213 100352 100407 "src/hopix/hopixLexer.mll" 213 100352 100408
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 213 100352 100409 "src/hopix/hopixLexer.mll" 213 100352 100413
+type(
+  char
+)
+ident(
+  int_ref int2 "src/hopix/hopixLexer.mll" 212 99891 99935 "src/hopix/hopixLexer.mll" 212 99891 99939
+)
+"src/hopix/hopixLexer.mll" 213 100352 100394 "src/hopix/hopixLexer.mll" 213 100352 100414
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 213 100352 100414 "src/hopix/hopixLexer.mll" 213 100352 100415
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 213 100352 100416 "src/hopix/hopixLexer.mll" 213 100352 100427
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 213 100352 100428 "src/hopix/hopixLexer.mll" 213 100352 100429
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 213 100352 100430 "src/hopix/hopixLexer.mll" 213 100352 100434
+type(
+  char
+)
+ident(
+  int_ref int3 "src/hopix/hopixLexer.mll" 212 100076 100140 "src/hopix/hopixLexer.mll" 212 100076 100144
+)
+"src/hopix/hopixLexer.mll" 213 100352 100415 "src/hopix/hopixLexer.mll" 213 100352 100435
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 213 100352 100394 "src/hopix/hopixLexer.mll" 213 100352 100435
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 213 100352 100373 "src/hopix/hopixLexer.mll" 213 100352 100435
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 214 100440 100454 "src/hopix/hopixLexer.mll" 214 100440 100456
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 215 100481 100491 "src/hopix/hopixLexer.mll" 218 100615 100651
+)
+"src/hopix/hopixLexer.mll" 214 100440 100459 "src/hopix/hopixLexer.mll" 214 100440 100472
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 214 100440 100473 "src/hopix/hopixLexer.mll" 214 100440 100477
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 213 100352 100366 "src/hopix/hopixLexer.mll" 213 100352 100370
+)
+"src/hopix/hopixLexer.mll" 214 100440 100459 "src/hopix/hopixLexer.mll" 214 100440 100477
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 215 100481 100494 "src/hopix/hopixLexer.mll" 215 100481 100496
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 214 100440 100454 "src/hopix/hopixLexer.mll" 214 100440 100456
+)
+"src/hopix/hopixLexer.mll" 215 100481 100497 "src/hopix/hopixLexer.mll" 215 100481 100499
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 215 100481 100500 "src/hopix/hopixLexer.mll" 215 100481 100501
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 215 100481 100494 "src/hopix/hopixLexer.mll" 215 100481 100501
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 215 100481 100502 "src/hopix/hopixLexer.mll" 215 100481 100504
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 215 100481 100505 "src/hopix/hopixLexer.mll" 215 100481 100507
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 214 100440 100454 "src/hopix/hopixLexer.mll" 214 100440 100456
+)
+"src/hopix/hopixLexer.mll" 215 100481 100508 "src/hopix/hopixLexer.mll" 215 100481 100510
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 215 100481 100511 "src/hopix/hopixLexer.mll" 215 100481 100514
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 215 100481 100505 "src/hopix/hopixLexer.mll" 215 100481 100514
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 215 100481 100494 "src/hopix/hopixLexer.mll" 215 100481 100514
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 216 100521 100531 "src/hopix/hopixLexer.mll" 216 100521 100546
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 216 100521 100547 "src/hopix/hopixLexer.mll" 216 100521 100553
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 216 100521 100555 "src/hopix/hopixLexer.mll" 216 100521 100563
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 216 100521 100564 "src/hopix/hopixLexer.mll" 216 100521 100566
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 214 100440 100454 "src/hopix/hopixLexer.mll" 214 100440 100456
+)
+"src/hopix/hopixLexer.mll" 216 100521 100554 "src/hopix/hopixLexer.mll" 216 100521 100567
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 216 100521 100531 "src/hopix/hopixLexer.mll" 216 100521 100567
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 217 100568 100583 "src/hopix/hopixLexer.mll" 217 100568 100600
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/hopix/hopixLexer.mll" 217 100568 100601 "src/hopix/hopixLexer.mll" 217 100568 100607
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 217 100568 100608 "src/hopix/hopixLexer.mll" 217 100568 100612
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 213 100352 100366 "src/hopix/hopixLexer.mll" 213 100352 100370
+)
+"src/hopix/hopixLexer.mll" 217 100568 100583 "src/hopix/hopixLexer.mll" 217 100568 100612
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 215 100481 100491 "src/hopix/hopixLexer.mll" 217 100568 100612
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 218 100615 100625 "src/hopix/hopixLexer.mll" 218 100615 100637
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 218 100615 100638 "src/hopix/hopixLexer.mll" 218 100615 100644
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 218 100615 100645 "src/hopix/hopixLexer.mll" 218 100615 100651
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 218 100615 100625 "src/hopix/hopixLexer.mll" 218 100615 100651
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 215 100481 100491 "src/hopix/hopixLexer.mll" 218 100615 100651
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 214 100440 100450 "src/hopix/hopixLexer.mll" 218 100615 100651
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 212 100280 100350 "src/hopix/hopixLexer.mll" 219 100656 100665
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1811 99689 99689 "src/hopix/hopixLexer.mll" 219 100656 100665
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1837 100700 100704 "src/hopix/hopixLexer.ml" 1837 100700 100706
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 221 100747 100800 "src/hopix/hopixLexer.mll" 221 100747 100804
+type(
+  char
+)
+ident(
+  def str1 "src/hopix/hopixLexer.mll" 221 101170 101264 "src/hopix/hopixLexer.mll" 228 101563 101574
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100840 "src/hopix/hopixLexer.ml" 1842 100838 100862
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100863 "src/hopix/hopixLexer.ml" 1842 100838 100869
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100871 "src/hopix/hopixLexer.ml" 1842 100838 100877
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100871 "src/hopix/hopixLexer.ml" 1842 100838 100898
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100899 "src/hopix/hopixLexer.ml" 1842 100838 100900
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100901 "src/hopix/hopixLexer.ml" 1842 100838 100902
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100870 "src/hopix/hopixLexer.ml" 1842 100838 100903
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1842 100838 100840 "src/hopix/hopixLexer.ml" 1842 100838 100903
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 221 100941 101030 "src/hopix/hopixLexer.mll" 221 100941 101034
+type(
+  char
+)
+ident(
+  def str2 "src/hopix/hopixLexer.mll" 221 101170 101264 "src/hopix/hopixLexer.mll" 228 101563 101574
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101070 "src/hopix/hopixLexer.ml" 1847 101068 101092
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101093 "src/hopix/hopixLexer.ml" 1847 101068 101099
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101101 "src/hopix/hopixLexer.ml" 1847 101068 101107
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101101 "src/hopix/hopixLexer.ml" 1847 101068 101128
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101129 "src/hopix/hopixLexer.ml" 1847 101068 101130
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101131 "src/hopix/hopixLexer.ml" 1847 101068 101132
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101100 "src/hopix/hopixLexer.ml" 1847 101068 101133
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1847 101068 101070 "src/hopix/hopixLexer.ml" 1847 101068 101133
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 222 101266 101282 "src/hopix/hopixLexer.mll" 222 101266 101286
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 223 101340 101352 "src/hopix/hopixLexer.mll" 227 101523 101561
+)
+"src/hopix/hopixLexer.mll" 222 101266 101289 "src/hopix/hopixLexer.mll" 222 101266 101293
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 222 101266 101293 "src/hopix/hopixLexer.mll" 222 101266 101294
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 222 101266 101295 "src/hopix/hopixLexer.mll" 222 101266 101306
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 222 101266 101307 "src/hopix/hopixLexer.mll" 222 101266 101308
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 222 101266 101309 "src/hopix/hopixLexer.mll" 222 101266 101313
+type(
+  char
+)
+ident(
+  int_ref str1 "src/hopix/hopixLexer.mll" 221 100747 100800 "src/hopix/hopixLexer.mll" 221 100747 100804
+)
+"src/hopix/hopixLexer.mll" 222 101266 101294 "src/hopix/hopixLexer.mll" 222 101266 101314
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 222 101266 101314 "src/hopix/hopixLexer.mll" 222 101266 101315
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 222 101266 101316 "src/hopix/hopixLexer.mll" 222 101266 101327
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/hopix/hopixLexer.mll" 222 101266 101328 "src/hopix/hopixLexer.mll" 222 101266 101329
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 222 101266 101330 "src/hopix/hopixLexer.mll" 222 101266 101334
+type(
+  char
+)
+ident(
+  int_ref str2 "src/hopix/hopixLexer.mll" 221 100941 101030 "src/hopix/hopixLexer.mll" 221 100941 101034
+)
+"src/hopix/hopixLexer.mll" 222 101266 101315 "src/hopix/hopixLexer.mll" 222 101266 101335
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 222 101266 101294 "src/hopix/hopixLexer.mll" 222 101266 101335
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 222 101266 101289 "src/hopix/hopixLexer.mll" 222 101266 101335
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 223 101340 101356 "src/hopix/hopixLexer.mll" 223 101340 101358
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 224 101383 101395 "src/hopix/hopixLexer.mll" 227 101523 101561
+)
+"src/hopix/hopixLexer.mll" 223 101340 101361 "src/hopix/hopixLexer.mll" 223 101340 101374
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 223 101340 101375 "src/hopix/hopixLexer.mll" 223 101340 101379
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 222 101266 101282 "src/hopix/hopixLexer.mll" 222 101266 101286
+)
+"src/hopix/hopixLexer.mll" 223 101340 101361 "src/hopix/hopixLexer.mll" 223 101340 101379
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 224 101383 101398 "src/hopix/hopixLexer.mll" 224 101383 101400
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 223 101340 101356 "src/hopix/hopixLexer.mll" 223 101340 101358
+)
+"src/hopix/hopixLexer.mll" 224 101383 101401 "src/hopix/hopixLexer.mll" 224 101383 101403
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 224 101383 101404 "src/hopix/hopixLexer.mll" 224 101383 101405
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 224 101383 101398 "src/hopix/hopixLexer.mll" 224 101383 101405
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 224 101383 101406 "src/hopix/hopixLexer.mll" 224 101383 101408
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 224 101383 101409 "src/hopix/hopixLexer.mll" 224 101383 101411
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 223 101340 101356 "src/hopix/hopixLexer.mll" 223 101340 101358
+)
+"src/hopix/hopixLexer.mll" 224 101383 101412 "src/hopix/hopixLexer.mll" 224 101383 101414
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 224 101383 101415 "src/hopix/hopixLexer.mll" 224 101383 101418
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 224 101383 101409 "src/hopix/hopixLexer.mll" 224 101383 101418
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 224 101383 101398 "src/hopix/hopixLexer.mll" 224 101383 101418
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 225 101425 101437 "src/hopix/hopixLexer.mll" 225 101425 101452
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 225 101425 101453 "src/hopix/hopixLexer.mll" 225 101425 101459
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 225 101425 101461 "src/hopix/hopixLexer.mll" 225 101425 101469
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 225 101425 101470 "src/hopix/hopixLexer.mll" 225 101425 101472
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 223 101340 101356 "src/hopix/hopixLexer.mll" 223 101340 101358
+)
+"src/hopix/hopixLexer.mll" 225 101425 101460 "src/hopix/hopixLexer.mll" 225 101425 101473
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 225 101425 101437 "src/hopix/hopixLexer.mll" 225 101425 101473
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 226 101474 101491 "src/hopix/hopixLexer.mll" 226 101474 101508
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/hopix/hopixLexer.mll" 226 101474 101509 "src/hopix/hopixLexer.mll" 226 101474 101515
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 226 101474 101516 "src/hopix/hopixLexer.mll" 226 101474 101520
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 222 101266 101282 "src/hopix/hopixLexer.mll" 222 101266 101286
+)
+"src/hopix/hopixLexer.mll" 226 101474 101491 "src/hopix/hopixLexer.mll" 226 101474 101520
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 224 101383 101395 "src/hopix/hopixLexer.mll" 226 101474 101520
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 227 101523 101535 "src/hopix/hopixLexer.mll" 227 101523 101547
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 227 101523 101548 "src/hopix/hopixLexer.mll" 227 101523 101554
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 227 101523 101555 "src/hopix/hopixLexer.mll" 227 101523 101561
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 227 101523 101535 "src/hopix/hopixLexer.mll" 227 101523 101561
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 224 101383 101395 "src/hopix/hopixLexer.mll" 227 101523 101561
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 223 101340 101352 "src/hopix/hopixLexer.mll" 227 101523 101561
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 221 101170 101264 "src/hopix/hopixLexer.mll" 228 101563 101574
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1838 100710 100710 "src/hopix/hopixLexer.mll" 228 101563 101574
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1859 101609 101613 "src/hopix/hopixLexer.ml" 1859 101609 101615
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 229 101656 101690 "src/hopix/hopixLexer.mll" 229 101656 101691
+type(
+  string
+)
+ident(
+  def d "src/hopix/hopixLexer.mll" 229 101849 101886 "src/hopix/hopixLexer.mll" 236 102145 102156
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101727 "src/hopix/hopixLexer.ml" 1864 101725 101744
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101745 "src/hopix/hopixLexer.ml" 1864 101725 101751
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101753 "src/hopix/hopixLexer.ml" 1864 101725 101759
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101753 "src/hopix/hopixLexer.ml" 1864 101725 101780
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101781 "src/hopix/hopixLexer.ml" 1864 101725 101782
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101783 "src/hopix/hopixLexer.ml" 1864 101725 101784
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101752 "src/hopix/hopixLexer.ml" 1864 101725 101785
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101786 "src/hopix/hopixLexer.ml" 1864 101725 101792
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101786 "src/hopix/hopixLexer.ml" 1864 101725 101812
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1864 101725 101727 "src/hopix/hopixLexer.ml" 1864 101725 101812
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 230 101888 101904 "src/hopix/hopixLexer.mll" 230 101888 101908
+type(
+  string
+)
+ident(
+  def conv "src/hopix/hopixLexer.mll" 231 101922 101934 "src/hopix/hopixLexer.mll" 235 102105 102143
+)
+"src/hopix/hopixLexer.mll" 230 101888 101911 "src/hopix/hopixLexer.mll" 230 101888 101915
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 230 101888 101915 "src/hopix/hopixLexer.mll" 230 101888 101916
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/hopix/hopixLexer.mll" 230 101888 101916 "src/hopix/hopixLexer.mll" 230 101888 101917
+type(
+  string
+)
+ident(
+  int_ref d "src/hopix/hopixLexer.mll" 229 101656 101690 "src/hopix/hopixLexer.mll" 229 101656 101691
+)
+"src/hopix/hopixLexer.mll" 230 101888 101911 "src/hopix/hopixLexer.mll" 230 101888 101917
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 231 101922 101938 "src/hopix/hopixLexer.mll" 231 101922 101940
+type(
+  int
+)
+ident(
+  def nb "src/hopix/hopixLexer.mll" 232 101965 101977 "src/hopix/hopixLexer.mll" 235 102105 102143
+)
+"src/hopix/hopixLexer.mll" 231 101922 101943 "src/hopix/hopixLexer.mll" 231 101922 101956
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/hopix/hopixLexer.mll" 231 101922 101957 "src/hopix/hopixLexer.mll" 231 101922 101961
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 230 101888 101904 "src/hopix/hopixLexer.mll" 230 101888 101908
+)
+"src/hopix/hopixLexer.mll" 231 101922 101943 "src/hopix/hopixLexer.mll" 231 101922 101961
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 232 101965 101980 "src/hopix/hopixLexer.mll" 232 101965 101982
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 231 101922 101938 "src/hopix/hopixLexer.mll" 231 101922 101940
+)
+"src/hopix/hopixLexer.mll" 232 101965 101983 "src/hopix/hopixLexer.mll" 232 101965 101985
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/hopix/hopixLexer.mll" 232 101965 101986 "src/hopix/hopixLexer.mll" 232 101965 101987
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 232 101965 101980 "src/hopix/hopixLexer.mll" 232 101965 101987
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 232 101965 101988 "src/hopix/hopixLexer.mll" 232 101965 101990
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/hopix/hopixLexer.mll" 232 101965 101991 "src/hopix/hopixLexer.mll" 232 101965 101993
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 231 101922 101938 "src/hopix/hopixLexer.mll" 231 101922 101940
+)
+"src/hopix/hopixLexer.mll" 232 101965 101994 "src/hopix/hopixLexer.mll" 232 101965 101996
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/hopix/hopixLexer.mll" 232 101965 101997 "src/hopix/hopixLexer.mll" 232 101965 102000
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 232 101965 101991 "src/hopix/hopixLexer.mll" 232 101965 102000
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 232 101965 101980 "src/hopix/hopixLexer.mll" 232 101965 102000
+type(
+  bool
+)
+"src/hopix/hopixLexer.mll" 233 102007 102019 "src/hopix/hopixLexer.mll" 233 102007 102034
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 233 102007 102035 "src/hopix/hopixLexer.mll" 233 102007 102041
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 233 102007 102043 "src/hopix/hopixLexer.mll" 233 102007 102051
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/hopix/hopixLexer.mll" 233 102007 102052 "src/hopix/hopixLexer.mll" 233 102007 102054
+type(
+  int
+)
+ident(
+  int_ref nb "src/hopix/hopixLexer.mll" 231 101922 101938 "src/hopix/hopixLexer.mll" 231 101922 101940
+)
+"src/hopix/hopixLexer.mll" 233 102007 102042 "src/hopix/hopixLexer.mll" 233 102007 102055
+call(
+  stack
+)
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 233 102007 102019 "src/hopix/hopixLexer.mll" 233 102007 102055
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 234 102056 102073 "src/hopix/hopixLexer.mll" 234 102056 102090
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/hopix/hopixLexer.mll" 234 102056 102091 "src/hopix/hopixLexer.mll" 234 102056 102097
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 234 102056 102098 "src/hopix/hopixLexer.mll" 234 102056 102102
+type(
+  string
+)
+ident(
+  int_ref conv "src/hopix/hopixLexer.mll" 230 101888 101904 "src/hopix/hopixLexer.mll" 230 101888 101908
+)
+"src/hopix/hopixLexer.mll" 234 102056 102073 "src/hopix/hopixLexer.mll" 234 102056 102102
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 232 101965 101977 "src/hopix/hopixLexer.mll" 234 102056 102102
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 235 102105 102117 "src/hopix/hopixLexer.mll" 235 102105 102129
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 235 102105 102130 "src/hopix/hopixLexer.mll" 235 102105 102136
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 235 102105 102137 "src/hopix/hopixLexer.mll" 235 102105 102143
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 235 102105 102117 "src/hopix/hopixLexer.mll" 235 102105 102143
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 232 101965 101977 "src/hopix/hopixLexer.mll" 235 102105 102143
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 231 101922 101934 "src/hopix/hopixLexer.mll" 235 102105 102143
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 229 101849 101886 "src/hopix/hopixLexer.mll" 236 102145 102156
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1860 101619 101619 "src/hopix/hopixLexer.mll" 236 102145 102156
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1876 102191 102195 "src/hopix/hopixLexer.ml" 1876 102191 102197
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 237 102238 102252 "src/hopix/hopixLexer.mll" 237 102238 102256
+type(
+  string
+)
+ident(
+  def char "src/hopix/hopixLexer.mll" 237 102415 102434 "src/hopix/hopixLexer.mll" 237 102415 102495
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102292 "src/hopix/hopixLexer.ml" 1881 102290 102309
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102310 "src/hopix/hopixLexer.ml" 1881 102290 102316
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102317 "src/hopix/hopixLexer.ml" 1881 102290 102323
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102317 "src/hopix/hopixLexer.ml" 1881 102290 102344
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102346 "src/hopix/hopixLexer.ml" 1881 102290 102352
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102346 "src/hopix/hopixLexer.ml" 1881 102290 102373
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102374 "src/hopix/hopixLexer.ml" 1881 102290 102375
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102376 "src/hopix/hopixLexer.ml" 1881 102290 102377
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102345 "src/hopix/hopixLexer.ml" 1881 102290 102378
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1881 102290 102292 "src/hopix/hopixLexer.ml" 1881 102290 102378
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 237 102415 102436 "src/hopix/hopixLexer.mll" 237 102415 102453
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/hopix/hopixLexer.mll" 237 102415 102454 "src/hopix/hopixLexer.mll" 237 102415 102460
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 237 102415 102461 "src/hopix/hopixLexer.mll" 237 102415 102465
+type(
+  string
+)
+ident(
+  int_ref char "src/hopix/hopixLexer.mll" 237 102238 102252 "src/hopix/hopixLexer.mll" 237 102238 102256
+)
+"src/hopix/hopixLexer.mll" 237 102415 102436 "src/hopix/hopixLexer.mll" 237 102415 102465
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 237 102415 102467 "src/hopix/hopixLexer.mll" 237 102415 102479
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 237 102415 102480 "src/hopix/hopixLexer.mll" 237 102415 102486
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 237 102415 102487 "src/hopix/hopixLexer.mll" 237 102415 102493
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 237 102415 102467 "src/hopix/hopixLexer.mll" 237 102415 102493
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 237 102415 102434 "src/hopix/hopixLexer.mll" 237 102415 102495
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1877 102201 102201 "src/hopix/hopixLexer.mll" 237 102415 102495
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1886 102530 102534 "src/hopix/hopixLexer.ml" 1886 102530 102536
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 238 102573 102590 "src/hopix/hopixLexer.mll" 238 102573 102595
+type(
+  Lexing.lexbuf -> string -> string
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 238 102573 102596 "src/hopix/hopixLexer.mll" 238 102573 102602
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 238 102573 102603 "src/hopix/hopixLexer.mll" 238 102573 102627
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 238 102573 102588 "src/hopix/hopixLexer.mll" 238 102573 102629
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1891 102664 102668 "src/hopix/hopixLexer.ml" 1891 102664 102670
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 239 102711 102726 "src/hopix/hopixLexer.mll" 239 102711 102730
+type(
+  char
+)
+ident(
+  def char "src/hopix/hopixLexer.mll" 239 102860 102880 "src/hopix/hopixLexer.mll" 239 102860 102939
+)
+"src/hopix/hopixLexer.ml" 1896 102764 102766 "src/hopix/hopixLexer.ml" 1896 102764 102788
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"src/hopix/hopixLexer.ml" 1896 102764 102789 "src/hopix/hopixLexer.ml" 1896 102764 102795
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1896 102764 102796 "src/hopix/hopixLexer.ml" 1896 102764 102802
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1896 102764 102796 "src/hopix/hopixLexer.ml" 1896 102764 102823
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1896 102764 102766 "src/hopix/hopixLexer.ml" 1896 102764 102823
+type(
+  char
+)
+"src/hopix/hopixLexer.mll" 239 102860 102882 "src/hopix/hopixLexer.mll" 239 102860 102897
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/hopix/hopixLexer.mll" 239 102860 102898 "src/hopix/hopixLexer.mll" 239 102860 102904
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 239 102860 102905 "src/hopix/hopixLexer.mll" 239 102860 102909
+type(
+  char
+)
+ident(
+  int_ref char "src/hopix/hopixLexer.mll" 239 102711 102726 "src/hopix/hopixLexer.mll" 239 102711 102730
+)
+"src/hopix/hopixLexer.mll" 239 102860 102882 "src/hopix/hopixLexer.mll" 239 102860 102909
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 239 102860 102911 "src/hopix/hopixLexer.mll" 239 102860 102923
+type(
+  Buffer.t -> Lexing.lexbuf -> string
+)
+ident(
+  int_ref stringBuffer "src/hopix/hopixLexer.ml" 1751 97751 97755 "src/hopix/hopixLexer.ml" 1751 97751 97767
+)
+"src/hopix/hopixLexer.mll" 239 102860 102924 "src/hopix/hopixLexer.mll" 239 102860 102930
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.mll" 239 102860 102931 "src/hopix/hopixLexer.mll" 239 102860 102937
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.mll" 239 102860 102911 "src/hopix/hopixLexer.mll" 239 102860 102937
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 239 102860 102880 "src/hopix/hopixLexer.mll" 239 102860 102939
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1892 102674 102674 "src/hopix/hopixLexer.mll" 239 102860 102939
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1901 102974 102978 "src/hopix/hopixLexer.ml" 1901 102974 102995
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1901 102974 102999 "src/hopix/hopixLexer.ml" 1902 103034 103100
+)
+"src/hopix/hopixLexer.ml" 1901 102974 102999 "src/hopix/hopixLexer.ml" 1901 102974 103005
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1901 102974 102999 "src/hopix/hopixLexer.ml" 1901 102974 103024
+type(
+  Lexing.lexbuf -> unit
+)
+"src/hopix/hopixLexer.ml" 1901 102974 103025 "src/hopix/hopixLexer.ml" 1901 102974 103031
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1901 102974 102999 "src/hopix/hopixLexer.ml" 1901 102974 103031
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1902 103034 103040 "src/hopix/hopixLexer.ml" 1902 103034 103068
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_stringBuffer_rec "src/hopix/hopixLexer.ml" 1753 97835 97839 "src/hopix/hopixLexer.ml" 1753 97835 97867
+)
+"src/hopix/hopixLexer.ml" 1902 103034 103069 "src/hopix/hopixLexer.ml" 1902 103034 103075
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/hopix/hopixLexer.ml" 1753 97835 97868 "src/hopix/hopixLexer.ml" 1753 97835 97874
+)
+"src/hopix/hopixLexer.ml" 1902 103034 103076 "src/hopix/hopixLexer.ml" 1902 103034 103082
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1753 97835 97875 "src/hopix/hopixLexer.ml" 1753 97835 97881
+)
+"src/hopix/hopixLexer.ml" 1902 103034 103083 "src/hopix/hopixLexer.ml" 1902 103034 103100
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1901 102974 102978 "src/hopix/hopixLexer.ml" 1901 102974 102995
+)
+"src/hopix/hopixLexer.ml" 1902 103034 103040 "src/hopix/hopixLexer.ml" 1902 103034 103100
+call(
+  tail
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1901 102974 102999 "src/hopix/hopixLexer.ml" 1902 103034 103100
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1754 97902 97904 "src/hopix/hopixLexer.ml" 1902 103034 103100
+type(
+  string
+)
+"src/hopix/hopixLexer.ml" 1904 103102 103106 "src/hopix/hopixLexer.ml" 1904 103102 103123
+type(
+  Buffer.t -> Lexing.lexbuf -> int32
+)
+ident(
+  def parsescapeInteger "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1904 103102 103124 "src/hopix/hopixLexer.ml" 1904 103102 103130
+type(
+  Buffer.t
+)
+ident(
+  def tampon "src/hopix/hopixLexer.ml" 1904 103102 103131 "src/hopix/hopixLexer.ml" 1905 103140 103195
+)
+"src/hopix/hopixLexer.ml" 1904 103102 103131 "src/hopix/hopixLexer.ml" 1904 103102 103137
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1905 103140 103144 "src/hopix/hopixLexer.ml" 1905 103140 103195
+)
+"src/hopix/hopixLexer.ml" 1905 103140 103144 "src/hopix/hopixLexer.ml" 1905 103140 103177
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> int32
+)
+ident(
+  int_ref __ocaml_lex_parsescapeInteger_rec "src/hopix/hopixLexer.ml" 1906 103196 103200 "src/hopix/hopixLexer.ml" 1906 103196 103233
+)
+"src/hopix/hopixLexer.ml" 1905 103140 103178 "src/hopix/hopixLexer.ml" 1905 103140 103184
+type(
+  Buffer.t
+)
+ident(
+  int_ref tampon "src/hopix/hopixLexer.ml" 1904 103102 103124 "src/hopix/hopixLexer.ml" 1904 103102 103130
+)
+"src/hopix/hopixLexer.ml" 1905 103140 103185 "src/hopix/hopixLexer.ml" 1905 103140 103191
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1904 103102 103131 "src/hopix/hopixLexer.ml" 1904 103102 103137
+)
+"src/hopix/hopixLexer.ml" 1905 103140 103192 "src/hopix/hopixLexer.ml" 1905 103140 103195
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1905 103140 103144 "src/hopix/hopixLexer.ml" 1905 103140 103195
+call(
+  tail
+)
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1906 103196 103200 "src/hopix/hopixLexer.ml" 1906 103196 103233
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> int32
+)
+ident(
+  def __ocaml_lex_parsescapeInteger_rec "src/hopix/hopixLexer.ml" 1213 82812 82812 "src/hopix/hopixLexer.ml" 1 0 -1
+)
+"src/hopix/hopixLexer.ml" 1906 103196 103234 "src/hopix/hopixLexer.ml" 1906 103196 103240
+type(
+  Buffer.t
+)
+ident(
+  def tampon "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1924 103925 103996
+)
+"src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103248 "src/hopix/hopixLexer.ml" 1924 103925 103996
+)
+"src/hopix/hopixLexer.ml" 1906 103196 103248 "src/hopix/hopixLexer.ml" 1906 103196 103265
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1907 103268 103270 "src/hopix/hopixLexer.ml" 1924 103925 103996
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103276 "src/hopix/hopixLexer.ml" 1907 103268 103289
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103290 "src/hopix/hopixLexer.ml" 1907 103268 103308
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/hopix/hopixLexer.ml" 20 441 445 "src/hopix/hopixLexer.ml" 20 441 463
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103309 "src/hopix/hopixLexer.ml" 1907 103268 103326
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1906 103196 103248 "src/hopix/hopixLexer.ml" 1906 103196 103265
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103327 "src/hopix/hopixLexer.ml" 1907 103268 103333
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103276 "src/hopix/hopixLexer.ml" 1907 103268 103333
+call(
+  stack
+)
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1908 103339 103347 "src/hopix/hopixLexer.ml" 1908 103339 103348
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 243 103385 103405 "src/hopix/hopixLexer.mll" 243 103385 103410
+type(
+  Lexing.lexbuf -> string -> int32
+)
+ident(
+  int_ref error "src/hopix/hopixLexer.mll" 11 190 196 "src/hopix/hopixLexer.mll" 11 190 201
+)
+"src/hopix/hopixLexer.mll" 243 103385 103411 "src/hopix/hopixLexer.mll" 243 103385 103417
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.mll" 243 103385 103418 "src/hopix/hopixLexer.mll" 243 103385 103442
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 243 103385 103403 "src/hopix/hopixLexer.mll" 243 103385 103444
+call(
+  tail
+)
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1913 103479 103483 "src/hopix/hopixLexer.ml" 1913 103479 103484
+type(
+  int
+)
+"src/hopix/hopixLexer.mll" 244 103525 103565 "src/hopix/hopixLexer.mll" 244 103525 103566
+type(
+  string
+)
+ident(
+  def d "src/hopix/hopixLexer.mll" 244 103718 103760 "src/hopix/hopixLexer.mll" 244 103718 103830
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103602 "src/hopix/hopixLexer.ml" 1918 103600 103619
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103620 "src/hopix/hopixLexer.ml" 1918 103600 103626
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103627 "src/hopix/hopixLexer.ml" 1918 103600 103633
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103627 "src/hopix/hopixLexer.ml" 1918 103600 103654
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103655 "src/hopix/hopixLexer.ml" 1918 103600 103661
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103655 "src/hopix/hopixLexer.ml" 1918 103600 103681
+type(
+  int
+)
+"src/hopix/hopixLexer.ml" 1918 103600 103602 "src/hopix/hopixLexer.ml" 1918 103600 103681
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 244 103718 103761 "src/hopix/hopixLexer.mll" 244 103718 103778
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/hopix/hopixLexer.mll" 244 103718 103779 "src/hopix/hopixLexer.mll" 244 103718 103785
+type(
+  Buffer.t
+)
+ident(
+  int_ref tampon "src/hopix/hopixLexer.ml" 1906 103196 103234 "src/hopix/hopixLexer.ml" 1906 103196 103240
+)
+"src/hopix/hopixLexer.mll" 244 103718 103786 "src/hopix/hopixLexer.mll" 244 103718 103787
+type(
+  string
+)
+ident(
+  int_ref d "src/hopix/hopixLexer.mll" 244 103525 103565 "src/hopix/hopixLexer.mll" 244 103525 103566
+)
+"src/hopix/hopixLexer.mll" 244 103718 103761 "src/hopix/hopixLexer.mll" 244 103718 103787
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.mll" 244 103718 103788 "src/hopix/hopixLexer.mll" 244 103718 103803
+type(
+  string -> int32
+)
+ident(
+  ext_ref Int32.of_string
+)
+"src/hopix/hopixLexer.mll" 244 103718 103805 "src/hopix/hopixLexer.mll" 244 103718 103820
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/hopix/hopixLexer.mll" 244 103718 103821 "src/hopix/hopixLexer.mll" 244 103718 103827
+type(
+  Buffer.t
+)
+ident(
+  int_ref tampon "src/hopix/hopixLexer.ml" 1906 103196 103234 "src/hopix/hopixLexer.ml" 1906 103196 103240
+)
+"src/hopix/hopixLexer.mll" 244 103718 103803 "src/hopix/hopixLexer.mll" 244 103718 103829
+call(
+  stack
+)
+type(
+  string
+)
+"src/hopix/hopixLexer.mll" 244 103718 103788 "src/hopix/hopixLexer.mll" 244 103718 103829
+type(
+  int32
+)
+"src/hopix/hopixLexer.mll" 244 103718 103760 "src/hopix/hopixLexer.mll" 244 103718 103830
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1914 103488 103488 "src/hopix/hopixLexer.mll" 244 103718 103830
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103869 "src/hopix/hopixLexer.ml" 1923 103865 103886
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/hopix/hopixLexer.ml" 1923 103865 103890 "src/hopix/hopixLexer.ml" 1924 103925 103996
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103890 "src/hopix/hopixLexer.ml" 1923 103865 103896
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103890 "src/hopix/hopixLexer.ml" 1923 103865 103915
+type(
+  Lexing.lexbuf -> unit
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103916 "src/hopix/hopixLexer.ml" 1923 103865 103922
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103890 "src/hopix/hopixLexer.ml" 1923 103865 103922
+call(
+  stack
+)
+type(
+  unit
+)
+"src/hopix/hopixLexer.ml" 1924 103925 103931 "src/hopix/hopixLexer.ml" 1924 103925 103964
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> int32
+)
+ident(
+  int_ref __ocaml_lex_parsescapeInteger_rec "src/hopix/hopixLexer.ml" 1906 103196 103200 "src/hopix/hopixLexer.ml" 1906 103196 103233
+)
+"src/hopix/hopixLexer.ml" 1924 103925 103965 "src/hopix/hopixLexer.ml" 1924 103925 103971
+type(
+  Buffer.t
+)
+ident(
+  int_ref tampon "src/hopix/hopixLexer.ml" 1906 103196 103234 "src/hopix/hopixLexer.ml" 1906 103196 103240
+)
+"src/hopix/hopixLexer.ml" 1924 103925 103972 "src/hopix/hopixLexer.ml" 1924 103925 103978
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/hopix/hopixLexer.ml" 1906 103196 103241 "src/hopix/hopixLexer.ml" 1906 103196 103247
+)
+"src/hopix/hopixLexer.ml" 1924 103925 103979 "src/hopix/hopixLexer.ml" 1924 103925 103996
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/hopix/hopixLexer.ml" 1923 103865 103869 "src/hopix/hopixLexer.ml" 1923 103865 103886
+)
+"src/hopix/hopixLexer.ml" 1924 103925 103931 "src/hopix/hopixLexer.ml" 1924 103925 103996
+call(
+  tail
+)
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1923 103865 103890 "src/hopix/hopixLexer.ml" 1924 103925 103996
+type(
+  int32
+)
+"src/hopix/hopixLexer.ml" 1907 103268 103270 "src/hopix/hopixLexer.ml" 1924 103925 103996
+type(
+  int32
+)

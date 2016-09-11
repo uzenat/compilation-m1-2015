@@ -1,0 +1,5884 @@
+"src/lib/pprint/PPrintCombinators.ml" 20 1071 1075 "src/lib/pprint/PPrintCombinators.ml" 20 1071 1081
+type(
+  PPrintEngine.document
+)
+ident(
+  def lparen "src/lib/pprint/PPrintCombinators.ml" 21 1102 1102 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 20 1071 1093 "src/lib/pprint/PPrintCombinators.ml" 20 1071 1097
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 20 1071 1098 "src/lib/pprint/PPrintCombinators.ml" 20 1071 1101
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 20 1071 1093 "src/lib/pprint/PPrintCombinators.ml" 20 1071 1101
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 21 1102 1106 "src/lib/pprint/PPrintCombinators.ml" 21 1102 1112
+type(
+  PPrintEngine.document
+)
+ident(
+  def rparen "src/lib/pprint/PPrintCombinators.ml" 22 1133 1133 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 21 1102 1124 "src/lib/pprint/PPrintCombinators.ml" 21 1102 1128
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 21 1102 1129 "src/lib/pprint/PPrintCombinators.ml" 21 1102 1132
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 21 1102 1124 "src/lib/pprint/PPrintCombinators.ml" 21 1102 1132
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 22 1133 1137 "src/lib/pprint/PPrintCombinators.ml" 22 1133 1143
+type(
+  PPrintEngine.document
+)
+ident(
+  def langle "src/lib/pprint/PPrintCombinators.ml" 23 1164 1164 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 22 1133 1155 "src/lib/pprint/PPrintCombinators.ml" 22 1133 1159
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 22 1133 1160 "src/lib/pprint/PPrintCombinators.ml" 22 1133 1163
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 22 1133 1155 "src/lib/pprint/PPrintCombinators.ml" 22 1133 1163
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 23 1164 1168 "src/lib/pprint/PPrintCombinators.ml" 23 1164 1174
+type(
+  PPrintEngine.document
+)
+ident(
+  def rangle "src/lib/pprint/PPrintCombinators.ml" 24 1195 1195 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 23 1164 1186 "src/lib/pprint/PPrintCombinators.ml" 23 1164 1190
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 23 1164 1191 "src/lib/pprint/PPrintCombinators.ml" 23 1164 1194
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 23 1164 1186 "src/lib/pprint/PPrintCombinators.ml" 23 1164 1194
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 24 1195 1199 "src/lib/pprint/PPrintCombinators.ml" 24 1195 1205
+type(
+  PPrintEngine.document
+)
+ident(
+  def lbrace "src/lib/pprint/PPrintCombinators.ml" 25 1226 1226 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 24 1195 1217 "src/lib/pprint/PPrintCombinators.ml" 24 1195 1221
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 24 1195 1222 "src/lib/pprint/PPrintCombinators.ml" 24 1195 1225
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 24 1195 1217 "src/lib/pprint/PPrintCombinators.ml" 24 1195 1225
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 25 1226 1230 "src/lib/pprint/PPrintCombinators.ml" 25 1226 1236
+type(
+  PPrintEngine.document
+)
+ident(
+  def rbrace "src/lib/pprint/PPrintCombinators.ml" 26 1257 1257 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 25 1226 1248 "src/lib/pprint/PPrintCombinators.ml" 25 1226 1252
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 25 1226 1253 "src/lib/pprint/PPrintCombinators.ml" 25 1226 1256
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 25 1226 1248 "src/lib/pprint/PPrintCombinators.ml" 25 1226 1256
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 26 1257 1261 "src/lib/pprint/PPrintCombinators.ml" 26 1257 1269
+type(
+  PPrintEngine.document
+)
+ident(
+  def lbracket "src/lib/pprint/PPrintCombinators.ml" 27 1288 1288 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 26 1257 1279 "src/lib/pprint/PPrintCombinators.ml" 26 1257 1283
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 26 1257 1284 "src/lib/pprint/PPrintCombinators.ml" 26 1257 1287
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 26 1257 1279 "src/lib/pprint/PPrintCombinators.ml" 26 1257 1287
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 27 1288 1292 "src/lib/pprint/PPrintCombinators.ml" 27 1288 1300
+type(
+  PPrintEngine.document
+)
+ident(
+  def rbracket "src/lib/pprint/PPrintCombinators.ml" 28 1319 1319 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 27 1288 1310 "src/lib/pprint/PPrintCombinators.ml" 27 1288 1314
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 27 1288 1315 "src/lib/pprint/PPrintCombinators.ml" 27 1288 1318
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 27 1288 1310 "src/lib/pprint/PPrintCombinators.ml" 27 1288 1318
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 28 1319 1323 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1329
+type(
+  PPrintEngine.document
+)
+ident(
+  def squote "src/lib/pprint/PPrintCombinators.ml" 29 1351 1351 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 28 1319 1341 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1345
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 28 1319 1346 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1350
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 28 1319 1341 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1350
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 29 1351 1355 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1361
+type(
+  PPrintEngine.document
+)
+ident(
+  def dquote "src/lib/pprint/PPrintCombinators.ml" 30 1382 1382 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 29 1351 1373 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1377
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 29 1351 1378 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1381
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 29 1351 1373 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1381
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 30 1382 1386 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1392
+type(
+  PPrintEngine.document
+)
+ident(
+  def bquote "src/lib/pprint/PPrintCombinators.ml" 31 1413 1413 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 30 1382 1404 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1408
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 30 1382 1409 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1412
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 30 1382 1404 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1412
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 31 1413 1417 "src/lib/pprint/PPrintCombinators.ml" 31 1413 1421
+type(
+  PPrintEngine.document
+)
+ident(
+  def semi "src/lib/pprint/PPrintCombinators.ml" 32 1444 1444 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 31 1413 1435 "src/lib/pprint/PPrintCombinators.ml" 31 1413 1439
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 31 1413 1440 "src/lib/pprint/PPrintCombinators.ml" 31 1413 1443
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 31 1413 1435 "src/lib/pprint/PPrintCombinators.ml" 31 1413 1443
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 32 1444 1448 "src/lib/pprint/PPrintCombinators.ml" 32 1444 1453
+type(
+  PPrintEngine.document
+)
+ident(
+  def colon "src/lib/pprint/PPrintCombinators.ml" 33 1475 1475 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 32 1444 1466 "src/lib/pprint/PPrintCombinators.ml" 32 1444 1470
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 32 1444 1471 "src/lib/pprint/PPrintCombinators.ml" 32 1444 1474
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 32 1444 1466 "src/lib/pprint/PPrintCombinators.ml" 32 1444 1474
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 33 1475 1479 "src/lib/pprint/PPrintCombinators.ml" 33 1475 1484
+type(
+  PPrintEngine.document
+)
+ident(
+  def comma "src/lib/pprint/PPrintCombinators.ml" 34 1506 1506 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 33 1475 1497 "src/lib/pprint/PPrintCombinators.ml" 33 1475 1501
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 33 1475 1502 "src/lib/pprint/PPrintCombinators.ml" 33 1475 1505
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 33 1475 1497 "src/lib/pprint/PPrintCombinators.ml" 33 1475 1505
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 34 1506 1510 "src/lib/pprint/PPrintCombinators.ml" 34 1506 1515
+type(
+  PPrintEngine.document
+)
+ident(
+  def space "src/lib/pprint/PPrintCombinators.ml" 35 1537 1537 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 34 1506 1528 "src/lib/pprint/PPrintCombinators.ml" 34 1506 1532
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 34 1506 1533 "src/lib/pprint/PPrintCombinators.ml" 34 1506 1536
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 34 1506 1528 "src/lib/pprint/PPrintCombinators.ml" 34 1506 1536
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 35 1537 1541 "src/lib/pprint/PPrintCombinators.ml" 35 1537 1544
+type(
+  PPrintEngine.document
+)
+ident(
+  def dot "src/lib/pprint/PPrintCombinators.ml" 36 1568 1568 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 35 1537 1559 "src/lib/pprint/PPrintCombinators.ml" 35 1537 1563
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 35 1537 1564 "src/lib/pprint/PPrintCombinators.ml" 35 1537 1567
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 35 1537 1559 "src/lib/pprint/PPrintCombinators.ml" 35 1537 1567
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 36 1568 1572 "src/lib/pprint/PPrintCombinators.ml" 36 1568 1577
+type(
+  PPrintEngine.document
+)
+ident(
+  def sharp "src/lib/pprint/PPrintCombinators.ml" 37 1599 1599 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 36 1568 1590 "src/lib/pprint/PPrintCombinators.ml" 36 1568 1594
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 36 1568 1595 "src/lib/pprint/PPrintCombinators.ml" 36 1568 1598
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 36 1568 1590 "src/lib/pprint/PPrintCombinators.ml" 36 1568 1598
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 37 1599 1603 "src/lib/pprint/PPrintCombinators.ml" 37 1599 1608
+type(
+  PPrintEngine.document
+)
+ident(
+  def slash "src/lib/pprint/PPrintCombinators.ml" 38 1630 1630 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 37 1599 1621 "src/lib/pprint/PPrintCombinators.ml" 37 1599 1625
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 37 1599 1626 "src/lib/pprint/PPrintCombinators.ml" 37 1599 1629
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 37 1599 1621 "src/lib/pprint/PPrintCombinators.ml" 37 1599 1629
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 38 1630 1634 "src/lib/pprint/PPrintCombinators.ml" 38 1630 1643
+type(
+  PPrintEngine.document
+)
+ident(
+  def backslash "src/lib/pprint/PPrintCombinators.ml" 39 1662 1662 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 38 1630 1652 "src/lib/pprint/PPrintCombinators.ml" 38 1630 1656
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 38 1630 1657 "src/lib/pprint/PPrintCombinators.ml" 38 1630 1661
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 38 1630 1652 "src/lib/pprint/PPrintCombinators.ml" 38 1630 1661
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 39 1662 1666 "src/lib/pprint/PPrintCombinators.ml" 39 1662 1672
+type(
+  PPrintEngine.document
+)
+ident(
+  def equals "src/lib/pprint/PPrintCombinators.ml" 40 1693 1693 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 39 1662 1684 "src/lib/pprint/PPrintCombinators.ml" 39 1662 1688
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 39 1662 1689 "src/lib/pprint/PPrintCombinators.ml" 39 1662 1692
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 39 1662 1684 "src/lib/pprint/PPrintCombinators.ml" 39 1662 1692
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 40 1693 1697 "src/lib/pprint/PPrintCombinators.ml" 40 1693 1702
+type(
+  PPrintEngine.document
+)
+ident(
+  def qmark "src/lib/pprint/PPrintCombinators.ml" 41 1724 1724 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 40 1693 1715 "src/lib/pprint/PPrintCombinators.ml" 40 1693 1719
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 40 1693 1720 "src/lib/pprint/PPrintCombinators.ml" 40 1693 1723
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 40 1693 1715 "src/lib/pprint/PPrintCombinators.ml" 40 1693 1723
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 41 1724 1728 "src/lib/pprint/PPrintCombinators.ml" 41 1724 1733
+type(
+  PPrintEngine.document
+)
+ident(
+  def tilde "src/lib/pprint/PPrintCombinators.ml" 42 1755 1755 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 41 1724 1746 "src/lib/pprint/PPrintCombinators.ml" 41 1724 1750
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 41 1724 1751 "src/lib/pprint/PPrintCombinators.ml" 41 1724 1754
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 41 1724 1746 "src/lib/pprint/PPrintCombinators.ml" 41 1724 1754
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 42 1755 1759 "src/lib/pprint/PPrintCombinators.ml" 42 1755 1761
+type(
+  PPrintEngine.document
+)
+ident(
+  def at "src/lib/pprint/PPrintCombinators.ml" 43 1786 1786 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 42 1755 1777 "src/lib/pprint/PPrintCombinators.ml" 42 1755 1781
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 42 1755 1782 "src/lib/pprint/PPrintCombinators.ml" 42 1755 1785
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 42 1755 1777 "src/lib/pprint/PPrintCombinators.ml" 42 1755 1785
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 43 1786 1790 "src/lib/pprint/PPrintCombinators.ml" 43 1786 1797
+type(
+  PPrintEngine.document
+)
+ident(
+  def percent "src/lib/pprint/PPrintCombinators.ml" 44 1817 1817 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 43 1786 1808 "src/lib/pprint/PPrintCombinators.ml" 43 1786 1812
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 43 1786 1813 "src/lib/pprint/PPrintCombinators.ml" 43 1786 1816
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 43 1786 1808 "src/lib/pprint/PPrintCombinators.ml" 43 1786 1816
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 44 1817 1821 "src/lib/pprint/PPrintCombinators.ml" 44 1817 1827
+type(
+  PPrintEngine.document
+)
+ident(
+  def dollar "src/lib/pprint/PPrintCombinators.ml" 45 1848 1848 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 44 1817 1839 "src/lib/pprint/PPrintCombinators.ml" 44 1817 1843
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 44 1817 1844 "src/lib/pprint/PPrintCombinators.ml" 44 1817 1847
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 44 1817 1839 "src/lib/pprint/PPrintCombinators.ml" 44 1817 1847
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 45 1848 1852 "src/lib/pprint/PPrintCombinators.ml" 45 1848 1857
+type(
+  PPrintEngine.document
+)
+ident(
+  def caret "src/lib/pprint/PPrintCombinators.ml" 46 1879 1879 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 45 1848 1870 "src/lib/pprint/PPrintCombinators.ml" 45 1848 1874
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 45 1848 1875 "src/lib/pprint/PPrintCombinators.ml" 45 1848 1878
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 45 1848 1870 "src/lib/pprint/PPrintCombinators.ml" 45 1848 1878
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 46 1879 1883 "src/lib/pprint/PPrintCombinators.ml" 46 1879 1892
+type(
+  PPrintEngine.document
+)
+ident(
+  def ampersand "src/lib/pprint/PPrintCombinators.ml" 47 1910 1910 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 46 1879 1901 "src/lib/pprint/PPrintCombinators.ml" 46 1879 1905
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 46 1879 1906 "src/lib/pprint/PPrintCombinators.ml" 46 1879 1909
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 46 1879 1901 "src/lib/pprint/PPrintCombinators.ml" 46 1879 1909
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 47 1910 1914 "src/lib/pprint/PPrintCombinators.ml" 47 1910 1918
+type(
+  PPrintEngine.document
+)
+ident(
+  def star "src/lib/pprint/PPrintCombinators.ml" 48 1941 1941 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 47 1910 1932 "src/lib/pprint/PPrintCombinators.ml" 47 1910 1936
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 47 1910 1937 "src/lib/pprint/PPrintCombinators.ml" 47 1910 1940
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 47 1910 1932 "src/lib/pprint/PPrintCombinators.ml" 47 1910 1940
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 48 1941 1945 "src/lib/pprint/PPrintCombinators.ml" 48 1941 1949
+type(
+  PPrintEngine.document
+)
+ident(
+  def plus "src/lib/pprint/PPrintCombinators.ml" 49 1972 1972 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 48 1941 1963 "src/lib/pprint/PPrintCombinators.ml" 48 1941 1967
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 48 1941 1968 "src/lib/pprint/PPrintCombinators.ml" 48 1941 1971
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 48 1941 1963 "src/lib/pprint/PPrintCombinators.ml" 48 1941 1971
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 49 1972 1976 "src/lib/pprint/PPrintCombinators.ml" 49 1972 1981
+type(
+  PPrintEngine.document
+)
+ident(
+  def minus "src/lib/pprint/PPrintCombinators.ml" 50 2003 2003 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 49 1972 1994 "src/lib/pprint/PPrintCombinators.ml" 49 1972 1998
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 49 1972 1999 "src/lib/pprint/PPrintCombinators.ml" 49 1972 2002
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 49 1972 1994 "src/lib/pprint/PPrintCombinators.ml" 49 1972 2002
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 50 2003 2007 "src/lib/pprint/PPrintCombinators.ml" 50 2003 2017
+type(
+  PPrintEngine.document
+)
+ident(
+  def underscore "src/lib/pprint/PPrintCombinators.ml" 51 2034 2034 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 50 2003 2025 "src/lib/pprint/PPrintCombinators.ml" 50 2003 2029
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 50 2003 2030 "src/lib/pprint/PPrintCombinators.ml" 50 2003 2033
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 50 2003 2025 "src/lib/pprint/PPrintCombinators.ml" 50 2003 2033
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 51 2034 2038 "src/lib/pprint/PPrintCombinators.ml" 51 2034 2042
+type(
+  PPrintEngine.document
+)
+ident(
+  def bang "src/lib/pprint/PPrintCombinators.ml" 52 2065 2065 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 51 2034 2056 "src/lib/pprint/PPrintCombinators.ml" 51 2034 2060
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 51 2034 2061 "src/lib/pprint/PPrintCombinators.ml" 51 2034 2064
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 51 2034 2056 "src/lib/pprint/PPrintCombinators.ml" 51 2034 2064
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 52 2065 2069 "src/lib/pprint/PPrintCombinators.ml" 52 2065 2072
+type(
+  PPrintEngine.document
+)
+ident(
+  def bar "src/lib/pprint/PPrintCombinators.ml" 58 2197 2197 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 52 2065 2087 "src/lib/pprint/PPrintCombinators.ml" 52 2065 2091
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 52 2065 2092 "src/lib/pprint/PPrintCombinators.ml" 52 2065 2095
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 52 2065 2087 "src/lib/pprint/PPrintCombinators.ml" 52 2065 2095
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 58 2197 2201 "src/lib/pprint/PPrintCombinators.ml" 58 2197 2206
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def twice "src/lib/pprint/PPrintCombinators.ml" 61 2227 2227 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 58 2197 2207 "src/lib/pprint/PPrintCombinators.ml" 58 2197 2210
+type(
+  PPrintEngine.document
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 59 2213 2215 "src/lib/pprint/PPrintCombinators.ml" 59 2213 2225
+)
+"src/lib/pprint/PPrintCombinators.ml" 59 2213 2215 "src/lib/pprint/PPrintCombinators.ml" 59 2213 2218
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 58 2197 2207 "src/lib/pprint/PPrintCombinators.ml" 58 2197 2210
+)
+"src/lib/pprint/PPrintCombinators.ml" 59 2213 2219 "src/lib/pprint/PPrintCombinators.ml" 59 2213 2221
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 59 2213 2222 "src/lib/pprint/PPrintCombinators.ml" 59 2213 2225
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 58 2197 2207 "src/lib/pprint/PPrintCombinators.ml" 58 2197 2210
+)
+"src/lib/pprint/PPrintCombinators.ml" 59 2213 2215 "src/lib/pprint/PPrintCombinators.ml" 59 2213 2225
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 61 2227 2231 "src/lib/pprint/PPrintCombinators.ml" 61 2227 2237
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def repeat "src/lib/pprint/PPrintCombinators.ml" 74 2474 2474 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 61 2227 2238 "src/lib/pprint/PPrintCombinators.ml" 61 2227 2239
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 61 2227 2240 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+)
+"src/lib/pprint/PPrintCombinators.ml" 61 2227 2240 "src/lib/pprint/PPrintCombinators.ml" 61 2227 2243
+type(
+  PPrintEngine.document
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 62 2246 2248 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+)
+"src/lib/pprint/PPrintCombinators.ml" 62 2246 2256 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2260
+type(
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def loop "src/lib/pprint/PPrintCombinators.ml" 62 2246 2248 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+)
+"src/lib/pprint/PPrintCombinators.ml" 62 2246 2261 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2262
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 62 2246 2263 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+)
+"src/lib/pprint/PPrintCombinators.ml" 62 2246 2263 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2266
+type(
+  PPrintEngine.document
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 62 2246 2267 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+)
+"src/lib/pprint/PPrintCombinators.ml" 62 2246 2267 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2271
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 63 2274 2278 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+)
+"src/lib/pprint/PPrintCombinators.ml" 63 2274 2281 "src/lib/pprint/PPrintCombinators.ml" 63 2274 2282
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 62 2246 2261 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2262
+)
+"src/lib/pprint/PPrintCombinators.ml" 63 2274 2283 "src/lib/pprint/PPrintCombinators.ml" 63 2274 2284
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 63 2274 2285 "src/lib/pprint/PPrintCombinators.ml" 63 2274 2286
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 63 2274 2281 "src/lib/pprint/PPrintCombinators.ml" 63 2274 2286
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 64 2292 2298 "src/lib/pprint/PPrintCombinators.ml" 64 2292 2302
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 62 2246 2267 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2271
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2318 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2322
+type(
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref loop "src/lib/pprint/PPrintCombinators.ml" 62 2246 2256 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2260
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2324 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2325
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 62 2246 2261 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2262
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2326 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2327
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2328 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2329
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2323 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2330
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2331 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2334
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 62 2246 2263 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2266
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2336 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2339
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 62 2246 2263 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2266
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2340 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2342
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2343 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2347
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 62 2246 2267 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2271
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2335 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 66 2312 2318 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 63 2274 2278 "src/lib/pprint/PPrintCombinators.ml" 66 2312 2348
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 68 2354 2356 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2360
+type(
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref loop "src/lib/pprint/PPrintCombinators.ml" 62 2246 2256 "src/lib/pprint/PPrintCombinators.ml" 62 2246 2260
+)
+"src/lib/pprint/PPrintCombinators.ml" 68 2354 2361 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2362
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 61 2227 2238 "src/lib/pprint/PPrintCombinators.ml" 61 2227 2239
+)
+"src/lib/pprint/PPrintCombinators.ml" 68 2354 2363 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2366
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 61 2227 2240 "src/lib/pprint/PPrintCombinators.ml" 61 2227 2243
+)
+"src/lib/pprint/PPrintCombinators.ml" 68 2354 2367 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 68 2354 2356 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 62 2246 2248 "src/lib/pprint/PPrintCombinators.ml" 68 2354 2372
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2478 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2485
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def precede "src/lib/pprint/PPrintCombinators.ml" 75 2503 2503 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2488 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2489
+type(
+  PPrintEngine.document
+)
+ident(
+  def l "src/lib/pprint/PPrintCombinators.ml" 74 2474 2490 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2502
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2490 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2491
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 74 2474 2496 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2502
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2496 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2497
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref l "src/lib/pprint/PPrintCombinators.ml" 74 2474 2488 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2489
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2498 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2500
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2501 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2502
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 74 2474 2490 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2491
+)
+"src/lib/pprint/PPrintCombinators.ml" 74 2474 2496 "src/lib/pprint/PPrintCombinators.ml" 74 2474 2502
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2507 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2516
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def terminate "src/lib/pprint/PPrintCombinators.ml" 76 2532 2532 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2517 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2518
+type(
+  PPrintEngine.document
+)
+ident(
+  def r "src/lib/pprint/PPrintCombinators.ml" 75 2503 2519 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2531
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2519 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2520
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 75 2503 2525 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2531
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2525 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2526
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 75 2503 2519 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2520
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2527 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2529
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2530 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2531
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref r "src/lib/pprint/PPrintCombinators.ml" 75 2503 2517 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2518
+)
+"src/lib/pprint/PPrintCombinators.ml" 75 2503 2525 "src/lib/pprint/PPrintCombinators.ml" 75 2503 2531
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def enclose "src/lib/pprint/PPrintCombinators.ml" 78 2567 2567 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2544 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2545
+type(
+  PPrintEngine.document
+)
+ident(
+  def l "src/lib/pprint/PPrintCombinators.ml" 76 2532 2546 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2546 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2547
+type(
+  PPrintEngine.document
+)
+ident(
+  def r "src/lib/pprint/PPrintCombinators.ml" 76 2532 2548 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2548 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2549
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 76 2532 2554 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2554 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2555
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref l "src/lib/pprint/PPrintCombinators.ml" 76 2532 2544 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2545
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2556 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2558
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2559 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2560
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 76 2532 2548 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2549
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2561 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2563
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2564 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref r "src/lib/pprint/PPrintCombinators.ml" 76 2532 2546 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2547
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2559 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 76 2532 2554 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2565
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 78 2567 2571 "src/lib/pprint/PPrintCombinators.ml" 78 2567 2578
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def squotes "src/lib/pprint/PPrintCombinators.ml" 79 2611 2611 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 78 2567 2589 "src/lib/pprint/PPrintCombinators.ml" 78 2567 2596
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 78 2567 2597 "src/lib/pprint/PPrintCombinators.ml" 78 2567 2603
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref squote "src/lib/pprint/PPrintCombinators.ml" 28 1319 1323 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1329
+)
+"src/lib/pprint/PPrintCombinators.ml" 78 2567 2604 "src/lib/pprint/PPrintCombinators.ml" 78 2567 2610
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref squote "src/lib/pprint/PPrintCombinators.ml" 28 1319 1323 "src/lib/pprint/PPrintCombinators.ml" 28 1319 1329
+)
+"src/lib/pprint/PPrintCombinators.ml" 78 2567 2589 "src/lib/pprint/PPrintCombinators.ml" 78 2567 2610
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 79 2611 2615 "src/lib/pprint/PPrintCombinators.ml" 79 2611 2622
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def dquotes "src/lib/pprint/PPrintCombinators.ml" 80 2655 2655 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 79 2611 2633 "src/lib/pprint/PPrintCombinators.ml" 79 2611 2640
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 79 2611 2641 "src/lib/pprint/PPrintCombinators.ml" 79 2611 2647
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref dquote "src/lib/pprint/PPrintCombinators.ml" 29 1351 1355 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1361
+)
+"src/lib/pprint/PPrintCombinators.ml" 79 2611 2648 "src/lib/pprint/PPrintCombinators.ml" 79 2611 2654
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref dquote "src/lib/pprint/PPrintCombinators.ml" 29 1351 1355 "src/lib/pprint/PPrintCombinators.ml" 29 1351 1361
+)
+"src/lib/pprint/PPrintCombinators.ml" 79 2611 2633 "src/lib/pprint/PPrintCombinators.ml" 79 2611 2654
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 80 2655 2659 "src/lib/pprint/PPrintCombinators.ml" 80 2655 2666
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def bquotes "src/lib/pprint/PPrintCombinators.ml" 81 2699 2699 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 80 2655 2677 "src/lib/pprint/PPrintCombinators.ml" 80 2655 2684
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 80 2655 2685 "src/lib/pprint/PPrintCombinators.ml" 80 2655 2691
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref bquote "src/lib/pprint/PPrintCombinators.ml" 30 1382 1386 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1392
+)
+"src/lib/pprint/PPrintCombinators.ml" 80 2655 2692 "src/lib/pprint/PPrintCombinators.ml" 80 2655 2698
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref bquote "src/lib/pprint/PPrintCombinators.ml" 30 1382 1386 "src/lib/pprint/PPrintCombinators.ml" 30 1382 1392
+)
+"src/lib/pprint/PPrintCombinators.ml" 80 2655 2677 "src/lib/pprint/PPrintCombinators.ml" 80 2655 2698
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 81 2699 2703 "src/lib/pprint/PPrintCombinators.ml" 81 2699 2709
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def braces "src/lib/pprint/PPrintCombinators.ml" 82 2743 2743 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 81 2699 2721 "src/lib/pprint/PPrintCombinators.ml" 81 2699 2728
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 81 2699 2729 "src/lib/pprint/PPrintCombinators.ml" 81 2699 2735
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref lbrace "src/lib/pprint/PPrintCombinators.ml" 24 1195 1199 "src/lib/pprint/PPrintCombinators.ml" 24 1195 1205
+)
+"src/lib/pprint/PPrintCombinators.ml" 81 2699 2736 "src/lib/pprint/PPrintCombinators.ml" 81 2699 2742
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref rbrace "src/lib/pprint/PPrintCombinators.ml" 25 1226 1230 "src/lib/pprint/PPrintCombinators.ml" 25 1226 1236
+)
+"src/lib/pprint/PPrintCombinators.ml" 81 2699 2721 "src/lib/pprint/PPrintCombinators.ml" 81 2699 2742
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 82 2743 2747 "src/lib/pprint/PPrintCombinators.ml" 82 2743 2753
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def parens "src/lib/pprint/PPrintCombinators.ml" 83 2787 2787 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 82 2743 2765 "src/lib/pprint/PPrintCombinators.ml" 82 2743 2772
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 82 2743 2773 "src/lib/pprint/PPrintCombinators.ml" 82 2743 2779
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref lparen "src/lib/pprint/PPrintCombinators.ml" 20 1071 1075 "src/lib/pprint/PPrintCombinators.ml" 20 1071 1081
+)
+"src/lib/pprint/PPrintCombinators.ml" 82 2743 2780 "src/lib/pprint/PPrintCombinators.ml" 82 2743 2786
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref rparen "src/lib/pprint/PPrintCombinators.ml" 21 1102 1106 "src/lib/pprint/PPrintCombinators.ml" 21 1102 1112
+)
+"src/lib/pprint/PPrintCombinators.ml" 82 2743 2765 "src/lib/pprint/PPrintCombinators.ml" 82 2743 2786
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 83 2787 2791 "src/lib/pprint/PPrintCombinators.ml" 83 2787 2797
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def angles "src/lib/pprint/PPrintCombinators.ml" 84 2831 2831 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 83 2787 2809 "src/lib/pprint/PPrintCombinators.ml" 83 2787 2816
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 83 2787 2817 "src/lib/pprint/PPrintCombinators.ml" 83 2787 2823
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref langle "src/lib/pprint/PPrintCombinators.ml" 22 1133 1137 "src/lib/pprint/PPrintCombinators.ml" 22 1133 1143
+)
+"src/lib/pprint/PPrintCombinators.ml" 83 2787 2824 "src/lib/pprint/PPrintCombinators.ml" 83 2787 2830
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref rangle "src/lib/pprint/PPrintCombinators.ml" 23 1164 1168 "src/lib/pprint/PPrintCombinators.ml" 23 1164 1174
+)
+"src/lib/pprint/PPrintCombinators.ml" 83 2787 2809 "src/lib/pprint/PPrintCombinators.ml" 83 2787 2830
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 84 2831 2835 "src/lib/pprint/PPrintCombinators.ml" 84 2831 2843
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def brackets "src/lib/pprint/PPrintCombinators.ml" 92 3064 3064 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 84 2831 2853 "src/lib/pprint/PPrintCombinators.ml" 84 2831 2860
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref enclose "src/lib/pprint/PPrintCombinators.ml" 76 2532 2536 "src/lib/pprint/PPrintCombinators.ml" 76 2532 2543
+)
+"src/lib/pprint/PPrintCombinators.ml" 84 2831 2861 "src/lib/pprint/PPrintCombinators.ml" 84 2831 2869
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref lbracket "src/lib/pprint/PPrintCombinators.ml" 26 1257 1261 "src/lib/pprint/PPrintCombinators.ml" 26 1257 1269
+)
+"src/lib/pprint/PPrintCombinators.ml" 84 2831 2870 "src/lib/pprint/PPrintCombinators.ml" 84 2831 2878
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref rbracket "src/lib/pprint/PPrintCombinators.ml" 27 1288 1292 "src/lib/pprint/PPrintCombinators.ml" 27 1288 1300
+)
+"src/lib/pprint/PPrintCombinators.ml" 84 2831 2853 "src/lib/pprint/PPrintCombinators.ml" 84 2831 2878
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 92 3064 3068 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3074
+type(
+  (int -> 'b -> 'a -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  def foldli "src/lib/pprint/PPrintCombinators.ml" 104 3371 3371 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 92 3064 3076 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3077
+type(
+  int -> 'b -> 'a -> 'b
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 92 3064 3103 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+)
+"src/lib/pprint/PPrintCombinators.ml" 92 3064 3104 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3108
+type(
+  'b
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 92 3064 3115 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+)
+"src/lib/pprint/PPrintCombinators.ml" 92 3064 3116 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3118
+type(
+  'a list
+)
+ident(
+  def xs "src/lib/pprint/PPrintCombinators.ml" 92 3064 3130 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+)
+"src/lib/pprint/PPrintCombinators.ml" 93 3137 3143 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3144
+type(
+  int ref
+)
+ident(
+  def r "src/lib/pprint/PPrintCombinators.ml" 94 3156 3158 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+)
+"src/lib/pprint/PPrintCombinators.ml" 93 3137 3147 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3150
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/lib/pprint/PPrintCombinators.ml" 93 3137 3151 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3152
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 93 3137 3147 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3152
+type(
+  int ref
+)
+"src/lib/pprint/PPrintCombinators.ml" 94 3156 3158 "src/lib/pprint/PPrintCombinators.ml" 94 3156 3172
+type(
+  ('b -> 'a -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/lib/pprint/PPrintCombinators.ml" 94 3156 3178 "src/lib/pprint/PPrintCombinators.ml" 94 3156 3182
+type(
+  'b
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 94 3156 3183 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+)
+"src/lib/pprint/PPrintCombinators.ml" 94 3156 3183 "src/lib/pprint/PPrintCombinators.ml" 94 3156 3184
+type(
+  'a
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 95 3188 3192 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+)
+"src/lib/pprint/PPrintCombinators.ml" 95 3188 3196 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3197
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 96 3206 3210 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+)
+"src/lib/pprint/PPrintCombinators.ml" 95 3188 3200 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3201
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/lib/pprint/PPrintCombinators.ml" 95 3188 3201 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3202
+type(
+  int ref
+)
+ident(
+  int_ref r "src/lib/pprint/PPrintCombinators.ml" 93 3137 3143 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3144
+)
+"src/lib/pprint/PPrintCombinators.ml" 95 3188 3200 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3202
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3210 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3211
+type(
+  int ref
+)
+ident(
+  int_ref r "src/lib/pprint/PPrintCombinators.ml" 93 3137 3143 "src/lib/pprint/PPrintCombinators.ml" 93 3137 3144
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3212 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3214
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3215 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3216
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 95 3188 3196 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3197
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3217 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3218
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3219 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3220
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3215 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3220
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3210 "src/lib/pprint/PPrintCombinators.ml" 96 3206 3220
+type(
+  unit
+)
+"src/lib/pprint/PPrintCombinators.ml" 97 3222 3226 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3227
+type(
+  int -> 'b -> 'a -> 'b
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 92 3064 3076 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3077
+)
+"src/lib/pprint/PPrintCombinators.ml" 97 3222 3228 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3229
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 95 3188 3196 "src/lib/pprint/PPrintCombinators.ml" 95 3188 3197
+)
+"src/lib/pprint/PPrintCombinators.ml" 97 3222 3230 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3234
+type(
+  'b
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 94 3156 3178 "src/lib/pprint/PPrintCombinators.ml" 94 3156 3182
+)
+"src/lib/pprint/PPrintCombinators.ml" 97 3222 3235 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 94 3156 3183 "src/lib/pprint/PPrintCombinators.ml" 94 3156 3184
+)
+"src/lib/pprint/PPrintCombinators.ml" 97 3222 3226 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+call(
+  tail
+)
+type(
+  'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 96 3206 3210 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+type(
+  'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 95 3188 3192 "src/lib/pprint/PPrintCombinators.ml" 97 3222 3236
+type(
+  'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 94 3156 3173 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3240
+type(
+  'b -> 'a -> 'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 98 3237 3241 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3245
+type(
+  'b
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 92 3064 3104 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3108
+)
+"src/lib/pprint/PPrintCombinators.ml" 98 3237 3246 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintCombinators.ml" 92 3064 3116 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3118
+)
+"src/lib/pprint/PPrintCombinators.ml" 94 3156 3158 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+call(
+  tail
+)
+type(
+  'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 93 3137 3139 "src/lib/pprint/PPrintCombinators.ml" 98 3237 3248
+type(
+  'b
+)
+type(
+  'b
+)
+"src/lib/pprint/PPrintCombinators.ml" 104 3371 3375 "src/lib/pprint/PPrintCombinators.ml" 104 3371 3381
+type(
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def concat "src/lib/pprint/PPrintCombinators.ml" 114 3875 3875 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 104 3371 3382 "src/lib/pprint/PPrintCombinators.ml" 104 3371 3386
+type(
+  PPrintEngine.document list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 112 3841 3843 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3873
+)
+"src/lib/pprint/PPrintCombinators.ml" 112 3841 3843 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3857
+type(
+  (PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document) ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/lib/pprint/PPrintCombinators.ml" 112 3841 3858 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3862
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 112 3841 3863 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3868
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 112 3841 3869 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3873
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 104 3371 3382 "src/lib/pprint/PPrintCombinators.ml" 104 3371 3386
+)
+"src/lib/pprint/PPrintCombinators.ml" 112 3841 3843 "src/lib/pprint/PPrintCombinators.ml" 112 3841 3873
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 114 3875 3879 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3887
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def separate "src/lib/pprint/PPrintCombinators.ml" 122 4005 4005 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 114 3875 3888 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3891
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 114 3875 3892 "src/lib/pprint/PPrintCombinators.ml" 120 3989 4003
+)
+"src/lib/pprint/PPrintCombinators.ml" 114 3875 3892 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3896
+type(
+  PPrintEngine.document list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 115 3899 3901 "src/lib/pprint/PPrintCombinators.ml" 120 3989 4003
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3901 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3907
+type(
+  (int ->
+   PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document) ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref foldli "src/lib/pprint/PPrintCombinators.ml" 92 3064 3068 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3074
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3913 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3914
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 115 3899 3915 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3915 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3919
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 115 3899 3920 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3920 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3923
+type(
+  PPrintEngine.document
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 116 3927 3931 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+)
+"src/lib/pprint/PPrintCombinators.ml" 116 3927 3934 "src/lib/pprint/PPrintCombinators.ml" 116 3927 3935
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 115 3899 3913 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3914
+)
+"src/lib/pprint/PPrintCombinators.ml" 116 3927 3936 "src/lib/pprint/PPrintCombinators.ml" 116 3927 3937
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 116 3927 3938 "src/lib/pprint/PPrintCombinators.ml" 116 3927 3939
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 116 3927 3934 "src/lib/pprint/PPrintCombinators.ml" 116 3927 3939
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 117 3945 3951 "src/lib/pprint/PPrintCombinators.ml" 117 3945 3954
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 115 3899 3920 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3923
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3970 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3974
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 115 3899 3915 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3919
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3975 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3977
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3978 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3981
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 114 3875 3888 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3891
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3982 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3984
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3985 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 115 3899 3920 "src/lib/pprint/PPrintCombinators.ml" 115 3899 3923
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3978 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 119 3964 3970 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 116 3927 3931 "src/lib/pprint/PPrintCombinators.ml" 119 3964 3988
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3908 "src/lib/pprint/PPrintCombinators.ml" 120 3989 3992
+type(
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 120 3989 3993 "src/lib/pprint/PPrintCombinators.ml" 120 3989 3998
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 120 3989 3999 "src/lib/pprint/PPrintCombinators.ml" 120 3989 4003
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 114 3875 3892 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3896
+)
+"src/lib/pprint/PPrintCombinators.ml" 115 3899 3901 "src/lib/pprint/PPrintCombinators.ml" 120 3989 4003
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 122 4005 4009 "src/lib/pprint/PPrintCombinators.ml" 122 4005 4019
+type(
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def concat_map "src/lib/pprint/PPrintCombinators.ml" 127 4089 4089 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 122 4005 4020 "src/lib/pprint/PPrintCombinators.ml" 122 4005 4021
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 122 4005 4022 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4087
+)
+"src/lib/pprint/PPrintCombinators.ml" 122 4005 4022 "src/lib/pprint/PPrintCombinators.ml" 122 4005 4024
+type(
+  'a list
+)
+ident(
+  def xs "src/lib/pprint/PPrintCombinators.ml" 123 4027 4029 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4087
+)
+"src/lib/pprint/PPrintCombinators.ml" 123 4027 4029 "src/lib/pprint/PPrintCombinators.ml" 123 4027 4043
+type(
+  (PPrintEngine.document -> 'a -> PPrintEngine.document) ->
+  PPrintEngine.document -> 'a list -> PPrintEngine.document
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/lib/pprint/PPrintCombinators.ml" 123 4027 4049 "src/lib/pprint/PPrintCombinators.ml" 123 4027 4053
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 123 4027 4054 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4074
+)
+"src/lib/pprint/PPrintCombinators.ml" 123 4027 4054 "src/lib/pprint/PPrintCombinators.ml" 123 4027 4055
+type(
+  'a
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 124 4059 4063 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4074
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4063 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4067
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 123 4027 4049 "src/lib/pprint/PPrintCombinators.ml" 123 4027 4053
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4068 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4070
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4071 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4072
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 122 4005 4020 "src/lib/pprint/PPrintCombinators.ml" 122 4005 4021
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4073 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4074
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 123 4027 4054 "src/lib/pprint/PPrintCombinators.ml" 123 4027 4055
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4071 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4074
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 124 4059 4063 "src/lib/pprint/PPrintCombinators.ml" 124 4059 4074
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 123 4027 4044 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4078
+type(
+  PPrintEngine.document -> 'a -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 125 4075 4079 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4084
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 125 4075 4085 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4087
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintCombinators.ml" 122 4005 4022 "src/lib/pprint/PPrintCombinators.ml" 122 4005 4024
+)
+"src/lib/pprint/PPrintCombinators.ml" 123 4027 4029 "src/lib/pprint/PPrintCombinators.ml" 125 4075 4087
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 127 4089 4093 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4105
+type(
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def separate_map "src/lib/pprint/PPrintCombinators.ml" 135 4219 4219 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 127 4089 4106 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4109
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 127 4089 4110 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4217
+)
+"src/lib/pprint/PPrintCombinators.ml" 127 4089 4110 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4111
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 127 4089 4112 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4217
+)
+"src/lib/pprint/PPrintCombinators.ml" 127 4089 4112 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4114
+type(
+  'a list
+)
+ident(
+  def xs "src/lib/pprint/PPrintCombinators.ml" 128 4117 4119 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4217
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4119 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4125
+type(
+  (int -> PPrintEngine.document -> 'a -> PPrintEngine.document) ->
+  PPrintEngine.document -> 'a list -> PPrintEngine.document
+)
+ident(
+  int_ref foldli "src/lib/pprint/PPrintCombinators.ml" 92 3064 3068 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3074
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4131 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4132
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 128 4117 4133 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4133 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4137
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 128 4117 4138 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4138 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4139
+type(
+  'a
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 129 4143 4147 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+)
+"src/lib/pprint/PPrintCombinators.ml" 129 4143 4150 "src/lib/pprint/PPrintCombinators.ml" 129 4143 4151
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 128 4117 4131 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4132
+)
+"src/lib/pprint/PPrintCombinators.ml" 129 4143 4152 "src/lib/pprint/PPrintCombinators.ml" 129 4143 4153
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 129 4143 4154 "src/lib/pprint/PPrintCombinators.ml" 129 4143 4155
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 129 4143 4150 "src/lib/pprint/PPrintCombinators.ml" 129 4143 4155
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 130 4161 4167 "src/lib/pprint/PPrintCombinators.ml" 130 4161 4168
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 127 4089 4110 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4111
+)
+"src/lib/pprint/PPrintCombinators.ml" 130 4161 4169 "src/lib/pprint/PPrintCombinators.ml" 130 4161 4170
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 128 4117 4138 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4139
+)
+"src/lib/pprint/PPrintCombinators.ml" 130 4161 4167 "src/lib/pprint/PPrintCombinators.ml" 130 4161 4170
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4186 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4190
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 128 4117 4133 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4137
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4191 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4193
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4194 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4197
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 127 4089 4106 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4109
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4198 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4200
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4201 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4202
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 127 4089 4110 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4111
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4203 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 128 4117 4138 "src/lib/pprint/PPrintCombinators.ml" 128 4117 4139
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4201 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4194 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 132 4180 4186 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 129 4143 4147 "src/lib/pprint/PPrintCombinators.ml" 132 4180 4204
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4126 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4208
+type(
+  int -> PPrintEngine.document -> 'a -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 133 4205 4209 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4214
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 133 4205 4215 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4217
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintCombinators.ml" 127 4089 4112 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4114
+)
+"src/lib/pprint/PPrintCombinators.ml" 128 4117 4119 "src/lib/pprint/PPrintCombinators.ml" 133 4205 4217
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 135 4219 4223 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4232
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def separate2 "src/lib/pprint/PPrintCombinators.ml" 144 4423 4423 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 135 4219 4233 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4236
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 135 4219 4237 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+)
+"src/lib/pprint/PPrintCombinators.ml" 135 4219 4237 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4245
+type(
+  PPrintEngine.document
+)
+ident(
+  def last_sep "src/lib/pprint/PPrintCombinators.ml" 135 4219 4246 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+)
+"src/lib/pprint/PPrintCombinators.ml" 135 4219 4246 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4250
+type(
+  PPrintEngine.document list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 136 4253 4255 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+)
+"src/lib/pprint/PPrintCombinators.ml" 136 4253 4259 "src/lib/pprint/PPrintCombinators.ml" 136 4253 4260
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 137 4283 4285 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+)
+"src/lib/pprint/PPrintCombinators.ml" 136 4253 4263 "src/lib/pprint/PPrintCombinators.ml" 136 4253 4274
+type(
+  PPrintEngine.document list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/lib/pprint/PPrintCombinators.ml" 136 4253 4275 "src/lib/pprint/PPrintCombinators.ml" 136 4253 4279
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 135 4219 4246 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4250
+)
+"src/lib/pprint/PPrintCombinators.ml" 136 4253 4263 "src/lib/pprint/PPrintCombinators.ml" 136 4253 4279
+call(
+  stack
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4285 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4291
+type(
+  (int ->
+   PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document) ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref foldli "src/lib/pprint/PPrintCombinators.ml" 92 3064 3068 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3074
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4297 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4298
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 137 4283 4299 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4299 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4303
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 137 4283 4304 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4304 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4307
+type(
+  PPrintEngine.document
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 138 4311 4315 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+)
+"src/lib/pprint/PPrintCombinators.ml" 138 4311 4318 "src/lib/pprint/PPrintCombinators.ml" 138 4311 4319
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 137 4283 4297 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4298
+)
+"src/lib/pprint/PPrintCombinators.ml" 138 4311 4320 "src/lib/pprint/PPrintCombinators.ml" 138 4311 4321
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 138 4311 4322 "src/lib/pprint/PPrintCombinators.ml" 138 4311 4323
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 138 4311 4318 "src/lib/pprint/PPrintCombinators.ml" 138 4311 4323
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 139 4329 4335 "src/lib/pprint/PPrintCombinators.ml" 139 4329 4338
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 137 4283 4304 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4307
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4354 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4358
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 137 4283 4299 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4303
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4359 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4361
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4366 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4367
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 137 4283 4297 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4298
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4368 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4369
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4370 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4371
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 136 4253 4259 "src/lib/pprint/PPrintCombinators.ml" 136 4253 4260
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4372 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4373
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4374 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4375
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4370 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4375
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4366 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4375
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4381 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4384
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 135 4219 4233 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4236
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4390 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4398
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref last_sep "src/lib/pprint/PPrintCombinators.ml" 135 4219 4237 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4245
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4362 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4399
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4400 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4402
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4403 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 137 4283 4304 "src/lib/pprint/PPrintCombinators.ml" 137 4283 4307
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4362 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 141 4348 4354 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 138 4311 4315 "src/lib/pprint/PPrintCombinators.ml" 141 4348 4406
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4292 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4410
+type(
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 142 4407 4411 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4416
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 142 4407 4417 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 135 4219 4246 "src/lib/pprint/PPrintCombinators.ml" 135 4219 4250
+)
+"src/lib/pprint/PPrintCombinators.ml" 137 4283 4285 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 136 4253 4255 "src/lib/pprint/PPrintCombinators.ml" 142 4407 4421
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 144 4423 4427 "src/lib/pprint/PPrintCombinators.ml" 144 4423 4435
+type(
+  ('a -> PPrintEngine.document) -> 'a option -> PPrintEngine.document
+)
+ident(
+  def optional "src/lib/pprint/PPrintCombinators.ml" 156 4654 4654 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 144 4423 4436 "src/lib/pprint/PPrintCombinators.ml" 144 4423 4437
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 144 4423 4440 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4496
+)
+"src/lib/pprint/PPrintCombinators.ml" 145 4449 4453 "src/lib/pprint/PPrintCombinators.ml" 145 4449 4457
+type(
+  'a option
+)
+"src/lib/pprint/PPrintCombinators.ml" 146 4461 4467 "src/lib/pprint/PPrintCombinators.ml" 146 4461 4472
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 147 4473 4482 "src/lib/pprint/PPrintCombinators.ml" 147 4473 4483
+type(
+  'a
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 148 4487 4493 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4496
+)
+"src/lib/pprint/PPrintCombinators.ml" 147 4473 4477 "src/lib/pprint/PPrintCombinators.ml" 147 4473 4483
+type(
+  'a option
+)
+"src/lib/pprint/PPrintCombinators.ml" 148 4487 4493 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4494
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 144 4423 4436 "src/lib/pprint/PPrintCombinators.ml" 144 4423 4437
+)
+"src/lib/pprint/PPrintCombinators.ml" 148 4487 4495 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4496
+type(
+  'a
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 147 4473 4482 "src/lib/pprint/PPrintCombinators.ml" 147 4473 4483
+)
+"src/lib/pprint/PPrintCombinators.ml" 148 4487 4493 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4496
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 144 4423 4440 "src/lib/pprint/PPrintCombinators.ml" 148 4487 4496
+type(
+  'a option -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 156 4654 4658 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4668
+type(
+  string -> int -> char -> int option
+)
+ident(
+  def index_from "src/lib/pprint/PPrintCombinators.ml" 165 4844 4844 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 156 4654 4669 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4670
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 156 4654 4671 "src/lib/pprint/PPrintCombinators.ml" 160 4738 4746
+)
+"src/lib/pprint/PPrintCombinators.ml" 156 4654 4671 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4672
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 156 4654 4673 "src/lib/pprint/PPrintCombinators.ml" 160 4738 4746
+)
+"src/lib/pprint/PPrintCombinators.ml" 156 4654 4673 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4674
+type(
+  char
+)
+ident(
+  def c "src/lib/pprint/PPrintCombinators.ml" 157 4677 4679 "src/lib/pprint/PPrintCombinators.ml" 160 4738 4746
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4693 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4710
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4711 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4712
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 156 4654 4669 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4670
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4713 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4714
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 156 4654 4671 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4672
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4715 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4716
+type(
+  char
+)
+ident(
+  int_ref c "src/lib/pprint/PPrintCombinators.ml" 156 4654 4673 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4674
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4692 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4717
+call(
+  stack
+)
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 158 4683 4687 "src/lib/pprint/PPrintCombinators.ml" 158 4683 4717
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 159 4718 4725 "src/lib/pprint/PPrintCombinators.ml" 159 4718 4734
+type(
+  exn
+)
+"src/lib/pprint/PPrintCombinators.ml" 160 4738 4742 "src/lib/pprint/PPrintCombinators.ml" 160 4738 4746
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 157 4677 4679 "src/lib/pprint/PPrintCombinators.ml" 160 4738 4746
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 165 4844 4848 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4853
+type(
+  string -> PPrintEngine.document list
+)
+ident(
+  def lines "src/lib/pprint/PPrintCombinators.ml" 176 5099 5099 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 165 4844 4854 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4855
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 166 4858 4860 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5097
+)
+"src/lib/pprint/PPrintCombinators.ml" 166 4858 4868 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4872
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  def chop "src/lib/pprint/PPrintCombinators.ml" 166 4858 4860 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5097
+)
+"src/lib/pprint/PPrintCombinators.ml" 166 4858 4873 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4877
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5069
+)
+"src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 167 4882 4886 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5069
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4892 "src/lib/pprint/PPrintCombinators.ml" 167 4882 4902
+type(
+  string -> int -> char -> int option
+)
+ident(
+  int_ref index_from "src/lib/pprint/PPrintCombinators.ml" 156 4654 4658 "src/lib/pprint/PPrintCombinators.ml" 156 4654 4668
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4903 "src/lib/pprint/PPrintCombinators.ml" 167 4882 4904
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 165 4844 4854 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4855
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4905 "src/lib/pprint/PPrintCombinators.ml" 167 4882 4906
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4907 "src/lib/pprint/PPrintCombinators.ml" 167 4882 4911
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4892 "src/lib/pprint/PPrintCombinators.ml" 167 4882 4911
+call(
+  stack
+)
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 168 4917 4928 "src/lib/pprint/PPrintCombinators.ml" 168 4917 4929
+type(
+  int
+)
+ident(
+  def j "src/lib/pprint/PPrintCombinators.ml" 169 4933 4941 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5003
+)
+"src/lib/pprint/PPrintCombinators.ml" 168 4917 4923 "src/lib/pprint/PPrintCombinators.ml" 168 4917 4929
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4945 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4949
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 170 4985 4986 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5003
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4952 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4961
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4962 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4963
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 165 4844 4854 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4855
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4964 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4965
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4967 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4968
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 168 4917 4928 "src/lib/pprint/PPrintCombinators.ml" 168 4917 4929
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4969 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4970
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4971 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4972
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4966 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4973
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4952 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4973
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4977 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4981
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 166 4858 4873 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4877
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4952 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4981
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4986 "src/lib/pprint/PPrintCombinators.ml" 170 4985 4990
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref chop "src/lib/pprint/PPrintCombinators.ml" 166 4858 4868 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4872
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4991 "src/lib/pprint/PPrintCombinators.ml" 170 4985 4995
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 169 4933 4945 "src/lib/pprint/PPrintCombinators.ml" 169 4933 4949
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4997 "src/lib/pprint/PPrintCombinators.ml" 170 4985 4998
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 168 4917 4928 "src/lib/pprint/PPrintCombinators.ml" 168 4917 4929
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4999 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5000
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 5001 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5002
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4996 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5003
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 170 4985 4986 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5003
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 169 4933 4941 "src/lib/pprint/PPrintCombinators.ml" 170 4985 5003
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 171 5004 5010 "src/lib/pprint/PPrintCombinators.ml" 171 5004 5014
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5026 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5035
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5036 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5037
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 165 4844 4854 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4855
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5038 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5039
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5041 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5054
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5055 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5056
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 165 4844 4854 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4855
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5041 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5056
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5057 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5058
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5059 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5060
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 166 4858 4878 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4879
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5040 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5061
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5026 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5061
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5065 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5069
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 166 4858 4873 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4877
+)
+"src/lib/pprint/PPrintCombinators.ml" 172 5018 5026 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5069
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 167 4882 4886 "src/lib/pprint/PPrintCombinators.ml" 172 5018 5069
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5077 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5085
+type(
+  PPrintEngine.document list -> PPrintEngine.document list
+)
+ident(
+  ext_ref List.rev
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5087 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5091
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref chop "src/lib/pprint/PPrintCombinators.ml" 166 4858 4868 "src/lib/pprint/PPrintCombinators.ml" 166 4858 4872
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5092 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5094
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5095 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5096
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5086 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5097
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 174 5075 5077 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5097
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 166 4858 4860 "src/lib/pprint/PPrintCombinators.ml" 174 5075 5097
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 176 5099 5103 "src/lib/pprint/PPrintCombinators.ml" 176 5099 5119
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  def arbitrary_string "src/lib/pprint/PPrintCombinators.ml" 185 5490 5490 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 176 5099 5120 "src/lib/pprint/PPrintCombinators.ml" 176 5099 5121
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 177 5124 5126 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5154
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5126 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5134
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref separate "src/lib/pprint/PPrintCombinators.ml" 114 3875 3879 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3887
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5136 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5141
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5142 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5143
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5135 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5144
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5146 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5151
+type(
+  string -> PPrintEngine.document list
+)
+ident(
+  int_ref lines "src/lib/pprint/PPrintCombinators.ml" 165 4844 4848 "src/lib/pprint/PPrintCombinators.ml" 165 4844 4853
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5152 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5153
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 176 5099 5120 "src/lib/pprint/PPrintCombinators.ml" 176 5099 5121
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5145 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5154
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 177 5124 5126 "src/lib/pprint/PPrintCombinators.ml" 177 5124 5154
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 185 5490 5494 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5499
+type(
+  (char -> bool) -> string -> PPrintEngine.document list
+)
+ident(
+  def split "src/lib/pprint/PPrintCombinators.ml" 209 6032 6032 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 185 5490 5500 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5502
+type(
+  char -> bool
+)
+ident(
+  def ok "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+)
+"src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 186 5507 5509 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+)
+"src/lib/pprint/PPrintCombinators.ml" 186 5507 5513 "src/lib/pprint/PPrintCombinators.ml" 186 5507 5514
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 187 5536 5538 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+)
+"src/lib/pprint/PPrintCombinators.ml" 186 5507 5517 "src/lib/pprint/PPrintCombinators.ml" 186 5507 5530
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintCombinators.ml" 186 5507 5531 "src/lib/pprint/PPrintCombinators.ml" 186 5507 5532
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 186 5507 5517 "src/lib/pprint/PPrintCombinators.ml" 186 5507 5532
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 187 5536 5546 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5556
+type(
+  int -> int option
+)
+ident(
+  def index_from "src/lib/pprint/PPrintCombinators.ml" 187 5536 5538 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+)
+"src/lib/pprint/PPrintCombinators.ml" 187 5536 5557 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5558
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 188 5561 5565 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5662
+)
+"src/lib/pprint/PPrintCombinators.ml" 188 5561 5568 "src/lib/pprint/PPrintCombinators.ml" 188 5561 5569
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 187 5536 5557 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5558
+)
+"src/lib/pprint/PPrintCombinators.ml" 188 5561 5570 "src/lib/pprint/PPrintCombinators.ml" 188 5561 5571
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 188 5561 5572 "src/lib/pprint/PPrintCombinators.ml" 188 5561 5573
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 186 5507 5513 "src/lib/pprint/PPrintCombinators.ml" 186 5507 5514
+)
+"src/lib/pprint/PPrintCombinators.ml" 188 5561 5568 "src/lib/pprint/PPrintCombinators.ml" 188 5561 5573
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 189 5579 5585 "src/lib/pprint/PPrintCombinators.ml" 189 5579 5589
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5602 "src/lib/pprint/PPrintCombinators.ml" 190 5590 5604
+type(
+  char -> bool
+)
+ident(
+  int_ref ok "src/lib/pprint/PPrintCombinators.ml" 185 5490 5500 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5502
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5605 "src/lib/pprint/PPrintCombinators.ml" 190 5590 5606
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5608 "src/lib/pprint/PPrintCombinators.ml" 190 5590 5609
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 187 5536 5557 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5558
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5605 "src/lib/pprint/PPrintCombinators.ml" 190 5590 5610
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5602 "src/lib/pprint/PPrintCombinators.ml" 190 5590 5610
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 191 5616 5627 "src/lib/pprint/PPrintCombinators.ml" 191 5616 5628
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 187 5536 5557 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5558
+)
+"src/lib/pprint/PPrintCombinators.ml" 191 5616 5622 "src/lib/pprint/PPrintCombinators.ml" 191 5616 5628
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5644 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5654
+type(
+  int -> int option
+)
+ident(
+  int_ref index_from "src/lib/pprint/PPrintCombinators.ml" 187 5536 5546 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5556
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5656 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5657
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 187 5536 5557 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5558
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5658 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5659
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5660 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5661
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5655 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5662
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 193 5638 5644 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5662
+call(
+  tail
+)
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 190 5590 5599 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5662
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 188 5561 5565 "src/lib/pprint/PPrintCombinators.ml" 193 5638 5662
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 195 5668 5678 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5682
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  def chop "src/lib/pprint/PPrintCombinators.ml" 195 5668 5670 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+)
+"src/lib/pprint/PPrintCombinators.ml" 195 5668 5683 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5687
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5906
+)
+"src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 196 5692 5696 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5906
+)
+"src/lib/pprint/PPrintCombinators.ml" 196 5692 5702 "src/lib/pprint/PPrintCombinators.ml" 196 5692 5712
+type(
+  int -> int option
+)
+ident(
+  int_ref index_from "src/lib/pprint/PPrintCombinators.ml" 187 5536 5546 "src/lib/pprint/PPrintCombinators.ml" 187 5536 5556
+)
+"src/lib/pprint/PPrintCombinators.ml" 196 5692 5713 "src/lib/pprint/PPrintCombinators.ml" 196 5692 5714
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+)
+"src/lib/pprint/PPrintCombinators.ml" 196 5692 5702 "src/lib/pprint/PPrintCombinators.ml" 196 5692 5714
+call(
+  stack
+)
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 197 5720 5731 "src/lib/pprint/PPrintCombinators.ml" 197 5720 5732
+type(
+  int
+)
+ident(
+  def j "src/lib/pprint/PPrintCombinators.ml" 198 5736 5744 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+)
+"src/lib/pprint/PPrintCombinators.ml" 197 5720 5726 "src/lib/pprint/PPrintCombinators.ml" 197 5720 5732
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5748 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5752
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 199 5788 5789 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5755 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5764
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5765 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5766
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5767 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5768
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5770 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5771
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 197 5720 5731 "src/lib/pprint/PPrintCombinators.ml" 197 5720 5732
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5772 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5773
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5774 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5775
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5769 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5776
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5755 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5776
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5780 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5784
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 195 5668 5683 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5687
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5755 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5784
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5793 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5797
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 200 5822 5823 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5800 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5804
+type(
+  char -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.char
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5805 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5806
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5808 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5809
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 197 5720 5731 "src/lib/pprint/PPrintCombinators.ml" 197 5720 5732
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5805 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5810
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5800 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5810
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5814 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5818
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 198 5736 5748 "src/lib/pprint/PPrintCombinators.ml" 198 5736 5752
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5800 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5818
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5823 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5827
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref chop "src/lib/pprint/PPrintCombinators.ml" 195 5668 5678 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5682
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5828 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5832
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 199 5788 5793 "src/lib/pprint/PPrintCombinators.ml" 199 5788 5797
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5834 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5835
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 197 5720 5731 "src/lib/pprint/PPrintCombinators.ml" 197 5720 5732
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5836 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5837
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5838 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5839
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5833 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 200 5822 5823 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 199 5788 5789 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 198 5736 5744 "src/lib/pprint/PPrintCombinators.ml" 200 5822 5840
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 201 5841 5847 "src/lib/pprint/PPrintCombinators.ml" 201 5841 5851
+type(
+  int option
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5863 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5872
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5873 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5874
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5875 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5876
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5878 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5891
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5892 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5893
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 185 5490 5503 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5504
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5878 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5893
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5894 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5895
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5896 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5897
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 195 5668 5688 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5689
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5877 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5898
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5863 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5898
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5902 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5906
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 195 5668 5683 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5687
+)
+"src/lib/pprint/PPrintCombinators.ml" 202 5855 5863 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5906
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 196 5692 5696 "src/lib/pprint/PPrintCombinators.ml" 202 5855 5906
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5914 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5922
+type(
+  PPrintEngine.document list -> PPrintEngine.document list
+)
+ident(
+  ext_ref List.rev
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5924 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5928
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref chop "src/lib/pprint/PPrintCombinators.ml" 195 5668 5678 "src/lib/pprint/PPrintCombinators.ml" 195 5668 5682
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5929 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5931
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5932 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5933
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5923 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 204 5912 5914 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 195 5668 5670 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 187 5536 5538 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 186 5507 5509 "src/lib/pprint/PPrintCombinators.ml" 204 5912 5934
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 209 6032 6036 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6041
+type(
+  string -> PPrintEngine.document list
+)
+ident(
+  def words "src/lib/pprint/PPrintCombinators.ml" 246 6969 6969 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 210 6046 6048 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+)
+"src/lib/pprint/PPrintCombinators.ml" 210 6046 6052 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6053
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 213 6182 6184 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+)
+"src/lib/pprint/PPrintCombinators.ml" 210 6046 6056 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6069
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lib/pprint/PPrintCombinators.ml" 210 6046 6070 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6071
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+)
+"src/lib/pprint/PPrintCombinators.ml" 210 6046 6056 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6071
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 213 6182 6192 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6200
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  def skipping "src/lib/pprint/PPrintCombinators.ml" 213 6182 6184 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+)
+"src/lib/pprint/PPrintCombinators.ml" 213 6182 6201 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6205
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+)
+"src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 214 6211 6215 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+)
+"src/lib/pprint/PPrintCombinators.ml" 214 6211 6218 "src/lib/pprint/PPrintCombinators.ml" 214 6211 6219
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+)
+"src/lib/pprint/PPrintCombinators.ml" 214 6211 6220 "src/lib/pprint/PPrintCombinators.ml" 214 6211 6221
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 214 6211 6222 "src/lib/pprint/PPrintCombinators.ml" 214 6211 6223
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 210 6046 6052 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6053
+)
+"src/lib/pprint/PPrintCombinators.ml" 214 6211 6218 "src/lib/pprint/PPrintCombinators.ml" 214 6211 6223
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 216 6283 6289 "src/lib/pprint/PPrintCombinators.ml" 216 6283 6293
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 213 6182 6201 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6205
+)
+"src/lib/pprint/PPrintCombinators.ml" 217 6294 6309 "src/lib/pprint/PPrintCombinators.ml" 217 6294 6310
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+)
+"src/lib/pprint/PPrintCombinators.ml" 217 6294 6312 "src/lib/pprint/PPrintCombinators.ml" 217 6294 6313
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+)
+"src/lib/pprint/PPrintCombinators.ml" 217 6294 6309 "src/lib/pprint/PPrintCombinators.ml" 217 6294 6314
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 218 6320 6326 "src/lib/pprint/PPrintCombinators.ml" 218 6320 6329
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 219 6330 6336 "src/lib/pprint/PPrintCombinators.ml" 219 6330 6340
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 218 6320 6326 "src/lib/pprint/PPrintCombinators.ml" 219 6330 6340
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 220 6341 6347 "src/lib/pprint/PPrintCombinators.ml" 220 6341 6351
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 218 6320 6326 "src/lib/pprint/PPrintCombinators.ml" 220 6341 6351
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 221 6352 6358 "src/lib/pprint/PPrintCombinators.ml" 221 6352 6362
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 218 6320 6326 "src/lib/pprint/PPrintCombinators.ml" 221 6352 6362
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6403 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6411
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref skipping "src/lib/pprint/PPrintCombinators.ml" 213 6182 6192 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6200
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6412 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6416
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 213 6182 6201 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6205
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6418 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6419
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6420 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6421
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6422 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6423
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6417 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6424
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 223 6402 6403 "src/lib/pprint/PPrintCombinators.ml" 223 6402 6424
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 224 6425 6431 "src/lib/pprint/PPrintCombinators.ml" 224 6425 6432
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6469 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6473
+type(
+  PPrintEngine.document list -> int -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref word "src/lib/pprint/PPrintCombinators.ml" 228 6562 6568 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6572
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6474 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6478
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 213 6182 6201 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6205
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6479 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6480
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6482 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6483
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 213 6182 6206 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6207
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6484 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6485
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6486 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6487
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6481 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 226 6468 6469 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 217 6294 6303 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 214 6211 6215 "src/lib/pprint/PPrintCombinators.ml" 226 6468 6488
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 228 6562 6568 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6572
+type(
+  PPrintEngine.document list -> int -> int -> PPrintEngine.document list
+)
+ident(
+  def word "src/lib/pprint/PPrintCombinators.ml" 213 6182 6184 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+)
+"src/lib/pprint/PPrintCombinators.ml" 228 6562 6573 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6577
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+)
+"src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+)
+"src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+type(
+  int
+)
+ident(
+  def j "src/lib/pprint/PPrintCombinators.ml" 229 6584 6588 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+)
+"src/lib/pprint/PPrintCombinators.ml" 229 6584 6591 "src/lib/pprint/PPrintCombinators.ml" 229 6584 6592
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 229 6584 6593 "src/lib/pprint/PPrintCombinators.ml" 229 6584 6594
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 229 6584 6595 "src/lib/pprint/PPrintCombinators.ml" 229 6584 6596
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 210 6046 6052 "src/lib/pprint/PPrintCombinators.ml" 210 6046 6053
+)
+"src/lib/pprint/PPrintCombinators.ml" 229 6584 6591 "src/lib/pprint/PPrintCombinators.ml" 229 6584 6596
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6632 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6641
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6642 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6643
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6644 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6645
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6647 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6648
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6649 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6650
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6651 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6652
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6646 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6653
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6632 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6653
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6657 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6661
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 228 6562 6573 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6577
+)
+"src/lib/pprint/PPrintCombinators.ml" 231 6626 6632 "src/lib/pprint/PPrintCombinators.ml" 231 6626 6661
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 232 6662 6677 "src/lib/pprint/PPrintCombinators.ml" 232 6662 6678
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+)
+"src/lib/pprint/PPrintCombinators.ml" 232 6662 6680 "src/lib/pprint/PPrintCombinators.ml" 232 6662 6681
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 232 6662 6677 "src/lib/pprint/PPrintCombinators.ml" 232 6662 6682
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 233 6688 6694 "src/lib/pprint/PPrintCombinators.ml" 233 6688 6697
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 234 6698 6704 "src/lib/pprint/PPrintCombinators.ml" 234 6698 6708
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 233 6688 6694 "src/lib/pprint/PPrintCombinators.ml" 234 6698 6708
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 235 6709 6715 "src/lib/pprint/PPrintCombinators.ml" 235 6709 6719
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 233 6688 6694 "src/lib/pprint/PPrintCombinators.ml" 235 6709 6719
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 236 6720 6726 "src/lib/pprint/PPrintCombinators.ml" 236 6720 6730
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 233 6688 6694 "src/lib/pprint/PPrintCombinators.ml" 236 6720 6730
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6792 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6796
+type(
+  PPrintEngine.document list
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 239 6833 6834 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6855
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6799 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6808
+type(
+  string -> int -> int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.substring
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6809 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6810
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 209 6032 6042 "src/lib/pprint/PPrintCombinators.ml" 209 6032 6043
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6811 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6812
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6814 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6815
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6816 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6817
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6818 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6819
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6813 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6820
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6799 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6820
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6824 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6828
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 228 6562 6573 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6577
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6799 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6828
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6834 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6842
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref skipping "src/lib/pprint/PPrintCombinators.ml" 213 6182 6192 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6200
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6843 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6847
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 238 6780 6792 "src/lib/pprint/PPrintCombinators.ml" 238 6780 6796
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6849 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6850
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6851 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6852
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6853 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6854
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6848 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6855
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 239 6833 6834 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6855
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 238 6780 6788 "src/lib/pprint/PPrintCombinators.ml" 239 6833 6855
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 240 6856 6862 "src/lib/pprint/PPrintCombinators.ml" 240 6856 6863
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6916 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6920
+type(
+  PPrintEngine.document list -> int -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref word "src/lib/pprint/PPrintCombinators.ml" 228 6562 6568 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6572
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6921 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6925
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 228 6562 6573 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6577
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6926 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6927
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 228 6562 6578 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6579
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6929 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6930
+type(
+  int
+)
+ident(
+  int_ref j "src/lib/pprint/PPrintCombinators.ml" 228 6562 6580 "src/lib/pprint/PPrintCombinators.ml" 228 6562 6581
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6931 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6932
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6933 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6934
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6928 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 242 6915 6916 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 232 6662 6671 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 229 6584 6588 "src/lib/pprint/PPrintCombinators.ml" 242 6915 6935
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6943 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6951
+type(
+  PPrintEngine.document list -> PPrintEngine.document list
+)
+ident(
+  ext_ref List.rev
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6953 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6961
+type(
+  PPrintEngine.document list -> int -> PPrintEngine.document list
+)
+ident(
+  int_ref skipping "src/lib/pprint/PPrintCombinators.ml" 213 6182 6192 "src/lib/pprint/PPrintCombinators.ml" 213 6182 6200
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6962 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6964
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6965 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6966
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6952 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 244 6941 6943 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+call(
+  tail
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 213 6182 6184 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 210 6046 6048 "src/lib/pprint/PPrintCombinators.ml" 244 6941 6967
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 246 6969 6973 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6981
+type(
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def flow_map "src/lib/pprint/PPrintCombinators.ml" 257 7217 7217 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 246 6969 6982 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6985
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 246 6969 6986 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7213
+)
+"src/lib/pprint/PPrintCombinators.ml" 246 6969 6986 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6987
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 246 6969 6988 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7213
+)
+"src/lib/pprint/PPrintCombinators.ml" 246 6969 6988 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6992
+type(
+  'a list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 247 6995 6997 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7213
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 6997 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7003
+type(
+  (int -> PPrintEngine.document -> 'a -> PPrintEngine.document) ->
+  PPrintEngine.document -> 'a list -> PPrintEngine.document
+)
+ident(
+  int_ref foldli "src/lib/pprint/PPrintCombinators.ml" 92 3064 3068 "src/lib/pprint/PPrintCombinators.ml" 92 3064 3074
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 7009 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7010
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 247 6995 7011 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 7011 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7015
+type(
+  PPrintEngine.document
+)
+ident(
+  def accu "src/lib/pprint/PPrintCombinators.ml" 247 6995 7016 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 7016 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7019
+type(
+  'a
+)
+ident(
+  def doc "src/lib/pprint/PPrintCombinators.ml" 248 7023 7027 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+)
+"src/lib/pprint/PPrintCombinators.ml" 248 7023 7030 "src/lib/pprint/PPrintCombinators.ml" 248 7023 7031
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 247 6995 7009 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7010
+)
+"src/lib/pprint/PPrintCombinators.ml" 248 7023 7032 "src/lib/pprint/PPrintCombinators.ml" 248 7023 7033
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lib/pprint/PPrintCombinators.ml" 248 7023 7034 "src/lib/pprint/PPrintCombinators.ml" 248 7023 7035
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 248 7023 7030 "src/lib/pprint/PPrintCombinators.ml" 248 7023 7035
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 249 7041 7047 "src/lib/pprint/PPrintCombinators.ml" 249 7041 7048
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 246 6969 6986 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6987
+)
+"src/lib/pprint/PPrintCombinators.ml" 249 7041 7049 "src/lib/pprint/PPrintCombinators.ml" 249 7041 7052
+type(
+  'a
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 247 6995 7016 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7019
+)
+"src/lib/pprint/PPrintCombinators.ml" 249 7041 7047 "src/lib/pprint/PPrintCombinators.ml" 249 7041 7052
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 251 7062 7068 "src/lib/pprint/PPrintCombinators.ml" 251 7062 7072
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref accu "src/lib/pprint/PPrintCombinators.ml" 247 6995 7011 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7015
+)
+"src/lib/pprint/PPrintCombinators.ml" 251 7062 7073 "src/lib/pprint/PPrintCombinators.ml" 251 7062 7075
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7178 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7183
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7185 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7188
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 246 6969 6982 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6985
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7189 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7191
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7192 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7193
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 246 6969 6986 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6987
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7194 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7197
+type(
+  'a
+)
+ident(
+  int_ref doc "src/lib/pprint/PPrintCombinators.ml" 247 6995 7016 "src/lib/pprint/PPrintCombinators.ml" 247 6995 7019
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7192 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7197
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7184 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 254 7172 7178 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 251 7062 7068 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 248 7023 7027 "src/lib/pprint/PPrintCombinators.ml" 254 7172 7198
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 7004 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7202
+type(
+  int -> PPrintEngine.document -> 'a -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 255 7199 7203 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7208
+type(
+  PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.empty
+)
+"src/lib/pprint/PPrintCombinators.ml" 255 7199 7209 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7213
+type(
+  'a list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 246 6969 6988 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6992
+)
+"src/lib/pprint/PPrintCombinators.ml" 247 6995 6997 "src/lib/pprint/PPrintCombinators.ml" 255 7199 7213
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 257 7217 7221 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7225
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def flow "src/lib/pprint/PPrintCombinators.ml" 260 7271 7271 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 257 7217 7226 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7229
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 257 7217 7230 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7269
+)
+"src/lib/pprint/PPrintCombinators.ml" 257 7217 7230 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7234
+type(
+  PPrintEngine.document list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 258 7237 7239 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7269
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7239 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7247
+type(
+  PPrintEngine.document ->
+  (PPrintEngine.document -> PPrintEngine.document) ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref flow_map "src/lib/pprint/PPrintCombinators.ml" 246 6969 6973 "src/lib/pprint/PPrintCombinators.ml" 246 6969 6981
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7248 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7251
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 257 7217 7226 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7229
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7257 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7258
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 258 7237 7262 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7263
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7262 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7263
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 258 7237 7257 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7258
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7252 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7264
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7265 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7269
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 257 7217 7230 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7234
+)
+"src/lib/pprint/PPrintCombinators.ml" 258 7237 7239 "src/lib/pprint/PPrintCombinators.ml" 258 7237 7269
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 260 7271 7275 "src/lib/pprint/PPrintCombinators.ml" 260 7271 7278
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  def url "src/lib/pprint/PPrintCombinators.ml" 267 7468 7468 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 260 7271 7279 "src/lib/pprint/PPrintCombinators.ml" 260 7271 7280
+type(
+  string
+)
+ident(
+  def s "src/lib/pprint/PPrintCombinators.ml" 261 7283 7285 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7351
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7285 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7289
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref flow "src/lib/pprint/PPrintCombinators.ml" 257 7217 7221 "src/lib/pprint/PPrintCombinators.ml" 257 7217 7225
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7291 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7296
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7297 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7298
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7290 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7299
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7301 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7306
+type(
+  (char -> bool) -> string -> PPrintEngine.document list
+)
+ident(
+  int_ref split "src/lib/pprint/PPrintCombinators.ml" 185 5490 5494 "src/lib/pprint/PPrintCombinators.ml" 185 5490 5499
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7317 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7320
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7323 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7326
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7317 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7326
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7330 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7334
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7337 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7338
+type(
+  char
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7342 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7347
+type(
+  bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7307 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7348
+type(
+  char -> bool
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7349 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7350
+type(
+  string
+)
+ident(
+  int_ref s "src/lib/pprint/PPrintCombinators.ml" 260 7271 7279 "src/lib/pprint/PPrintCombinators.ml" 260 7271 7280
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7300 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7351
+call(
+  stack
+)
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 261 7283 7285 "src/lib/pprint/PPrintCombinators.ml" 261 7283 7351
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 267 7468 7472 "src/lib/pprint/PPrintCombinators.ml" 267 7468 7476
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def hang "src/lib/pprint/PPrintCombinators.ml" 270 7503 7503 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 267 7468 7477 "src/lib/pprint/PPrintCombinators.ml" 267 7468 7478
+type(
+  int
+)
+ident(
+  def i "src/lib/pprint/PPrintCombinators.ml" 267 7468 7479 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7501
+)
+"src/lib/pprint/PPrintCombinators.ml" 267 7468 7479 "src/lib/pprint/PPrintCombinators.ml" 267 7468 7480
+type(
+  PPrintEngine.document
+)
+ident(
+  def d "src/lib/pprint/PPrintCombinators.ml" 268 7483 7485 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7501
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7485 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7490
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.align
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7492 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7496
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7497 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7498
+type(
+  int
+)
+ident(
+  int_ref i "src/lib/pprint/PPrintCombinators.ml" 267 7468 7477 "src/lib/pprint/PPrintCombinators.ml" 267 7468 7478
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7499 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7500
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref d "src/lib/pprint/PPrintCombinators.ml" 267 7468 7479 "src/lib/pprint/PPrintCombinators.ml" 267 7468 7480
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7491 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7501
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 268 7483 7485 "src/lib/pprint/PPrintCombinators.ml" 268 7483 7501
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 270 7503 7507 "src/lib/pprint/PPrintCombinators.ml" 270 7503 7513
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  def !^ "src/lib/pprint/PPrintCombinators.ml" 272 7524 7524 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 270 7503 7516 "src/lib/pprint/PPrintCombinators.ml" 270 7503 7522
+type(
+  string -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.string
+)
+"src/lib/pprint/PPrintCombinators.ml" 272 7524 7528 "src/lib/pprint/PPrintCombinators.ml" 272 7524 7535
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def ^/^ "src/lib/pprint/PPrintCombinators.ml" 275 7563 7563 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 272 7524 7536 "src/lib/pprint/PPrintCombinators.ml" 272 7524 7537
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 272 7524 7538 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7561
+)
+"src/lib/pprint/PPrintCombinators.ml" 272 7524 7538 "src/lib/pprint/PPrintCombinators.ml" 272 7524 7539
+type(
+  PPrintEngine.document
+)
+ident(
+  def y "src/lib/pprint/PPrintCombinators.ml" 273 7542 7544 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7561
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7544 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7545
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 272 7524 7536 "src/lib/pprint/PPrintCombinators.ml" 272 7524 7537
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7546 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7548
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7549 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7554
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7555 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7556
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7549 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7556
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7557 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7559
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7560 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7561
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintCombinators.ml" 272 7524 7538 "src/lib/pprint/PPrintCombinators.ml" 272 7524 7539
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7549 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7561
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 273 7542 7544 "src/lib/pprint/PPrintCombinators.ml" 273 7542 7561
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 275 7563 7567 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7573
+type(
+  int ->
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def prefix "src/lib/pprint/PPrintCombinators.ml" 278 7622 7622 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 275 7563 7574 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7575
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 275 7563 7576 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+)
+"src/lib/pprint/PPrintCombinators.ml" 275 7563 7576 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7577
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 275 7563 7578 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+)
+"src/lib/pprint/PPrintCombinators.ml" 275 7563 7578 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7579
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 275 7563 7580 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+)
+"src/lib/pprint/PPrintCombinators.ml" 275 7563 7580 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7581
+type(
+  PPrintEngine.document
+)
+ident(
+  def y "src/lib/pprint/PPrintCombinators.ml" 276 7584 7586 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7586 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7591
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7593 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7594
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 275 7563 7578 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7579
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7595 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7597
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7598 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7602
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7603 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7604
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 275 7563 7574 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7575
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7606 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7611
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7612 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7613
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 275 7563 7576 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7577
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7606 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7613
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7614 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7616
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7617 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7618
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintCombinators.ml" 275 7563 7580 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7581
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7605 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7619
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7598 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7619
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7592 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 276 7584 7586 "src/lib/pprint/PPrintCombinators.ml" 276 7584 7620
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 278 7622 7626 "src/lib/pprint/PPrintCombinators.ml" 278 7622 7632
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def ^//^ "src/lib/pprint/PPrintCombinators.ml" 281 7649 7649 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 279 7635 7637 "src/lib/pprint/PPrintCombinators.ml" 279 7635 7643
+type(
+  int ->
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref prefix "src/lib/pprint/PPrintCombinators.ml" 275 7563 7567 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7573
+)
+"src/lib/pprint/PPrintCombinators.ml" 279 7635 7644 "src/lib/pprint/PPrintCombinators.ml" 279 7635 7645
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 279 7635 7646 "src/lib/pprint/PPrintCombinators.ml" 279 7635 7647
+type(
+  int
+)
+"src/lib/pprint/PPrintCombinators.ml" 279 7635 7637 "src/lib/pprint/PPrintCombinators.ml" 279 7635 7647
+call(
+  stack
+)
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 281 7649 7653 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7657
+type(
+  int -> int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def jump "src/lib/pprint/PPrintCombinators.ml" 289 7797 7797 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 281 7649 7658 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7659
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 281 7649 7660 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7697
+)
+"src/lib/pprint/PPrintCombinators.ml" 281 7649 7660 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7661
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 281 7649 7662 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7697
+)
+"src/lib/pprint/PPrintCombinators.ml" 281 7649 7662 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7663
+type(
+  PPrintEngine.document
+)
+ident(
+  def y "src/lib/pprint/PPrintCombinators.ml" 282 7666 7668 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7697
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7668 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7673
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7675 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7679
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7680 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7681
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 281 7649 7658 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7659
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7683 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7688
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7689 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7690
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 281 7649 7660 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7661
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7683 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7690
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7691 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7693
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7694 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7695
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintCombinators.ml" 281 7649 7662 "src/lib/pprint/PPrintCombinators.ml" 281 7649 7663
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7682 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7696
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7674 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7697
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 282 7666 7668 "src/lib/pprint/PPrintCombinators.ml" 282 7666 7697
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7801 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7806
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def infix "src/lib/pprint/PPrintCombinators.ml" 292 7857 7857 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7807 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7808
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 289 7797 7809 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7809 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7810
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 289 7797 7811 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7811 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7813
+type(
+  PPrintEngine.document
+)
+ident(
+  def op "src/lib/pprint/PPrintCombinators.ml" 289 7797 7814 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7814 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7815
+type(
+  PPrintEngine.document
+)
+ident(
+  def x "src/lib/pprint/PPrintCombinators.ml" 289 7797 7816 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+)
+"src/lib/pprint/PPrintCombinators.ml" 289 7797 7816 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7817
+type(
+  PPrintEngine.document
+)
+ident(
+  def y "src/lib/pprint/PPrintCombinators.ml" 290 7820 7822 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7822 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7828
+type(
+  int ->
+  int ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref prefix "src/lib/pprint/PPrintCombinators.ml" 275 7563 7567 "src/lib/pprint/PPrintCombinators.ml" 275 7563 7573
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7829 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7830
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 289 7797 7807 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7808
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7831 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7832
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 289 7797 7809 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7810
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7834 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7835
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref x "src/lib/pprint/PPrintCombinators.ml" 289 7797 7814 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7815
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7836 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7838
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7839 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7844
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.blank
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7845 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7846
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 289 7797 7809 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7810
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7839 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7846
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7847 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7849
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7850 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7852
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref op "src/lib/pprint/PPrintCombinators.ml" 289 7797 7811 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7813
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7839 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7852
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7833 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7853
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7854 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref y "src/lib/pprint/PPrintCombinators.ml" 289 7797 7816 "src/lib/pprint/PPrintCombinators.ml" 289 7797 7817
+)
+"src/lib/pprint/PPrintCombinators.ml" 290 7820 7822 "src/lib/pprint/PPrintCombinators.ml" 290 7820 7855
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7861 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7869
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def surround "src/lib/pprint/PPrintCombinators.ml" 295 7990 7990 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7870 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7871
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 292 7857 7872 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7872 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7873
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 292 7857 7874 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7874 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7881
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintCombinators.ml" 292 7857 7882 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7882 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7890
+type(
+  PPrintEngine.document
+)
+ident(
+  def contents "src/lib/pprint/PPrintCombinators.ml" 292 7857 7891 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+)
+"src/lib/pprint/PPrintCombinators.ml" 292 7857 7891 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7898
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintCombinators.ml" 293 7901 7903 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7903 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7908
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7910 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7917
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintCombinators.ml" 292 7857 7874 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7881
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7918 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7920
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7921 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7925
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7926 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7927
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 292 7857 7870 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7871
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7936 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7941
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7942 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7943
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 292 7857 7872 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7873
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7936 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7943
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7945 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7947
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7948 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7956
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref contents "src/lib/pprint/PPrintCombinators.ml" 292 7857 7882 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7890
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7928 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7957
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7921 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7957
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7958 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7960
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7968 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7973
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7974 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7975
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 292 7857 7872 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7873
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7968 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7975
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7976 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7978
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7979 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7986
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintCombinators.ml" 292 7857 7891 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7898
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7968 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7986
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7921 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7986
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7909 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 293 7901 7903 "src/lib/pprint/PPrintCombinators.ml" 293 7901 7988
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 7994 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8007
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  def soft_surround "src/lib/pprint/PPrintCombinators.ml" 298 8128 8128 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 8008 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8009
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 295 7990 8010 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 8010 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8011
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 295 7990 8012 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 8012 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8019
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintCombinators.ml" 295 7990 8020 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 8020 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8028
+type(
+  PPrintEngine.document
+)
+ident(
+  def contents "src/lib/pprint/PPrintCombinators.ml" 295 7990 8029 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+)
+"src/lib/pprint/PPrintCombinators.ml" 295 7990 8029 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8036
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintCombinators.ml" 296 8039 8041 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8041 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8046
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8048 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8055
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintCombinators.ml" 295 7990 8012 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8019
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8056 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8058
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8059 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8063
+type(
+  int -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.nest
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8064 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8065
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 295 7990 8008 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8009
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8067 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8072
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8074 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8079
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8080 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8081
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 295 7990 8010 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8011
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8073 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8082
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8067 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8082
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8083 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8085
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8086 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8094
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref contents "src/lib/pprint/PPrintCombinators.ml" 295 7990 8020 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8028
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8066 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8095
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8059 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8095
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8096 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8098
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8099 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8104
+type(
+  PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.group
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8106 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8111
+type(
+  int -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.break
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8112 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8113
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 295 7990 8010 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8011
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8106 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8113
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8114 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8116
+type(
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  ext_ref PPrintEngine.( ^^ )
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8117 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8124
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintCombinators.ml" 295 7990 8029 "src/lib/pprint/PPrintCombinators.ml" 295 7990 8036
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8105 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8125
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8099 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8125
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8059 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8125
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8047 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 296 8039 8041 "src/lib/pprint/PPrintCombinators.ml" 296 8039 8126
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8132 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8149
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  def surround_separate "src/lib/pprint/PPrintCombinators.ml" 305 8295 8295 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8150 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8151
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 298 8128 8152 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8152 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8153
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 298 8128 8154 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8154 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8158
+type(
+  PPrintEngine.document
+)
+ident(
+  def void "src/lib/pprint/PPrintCombinators.ml" 298 8128 8159 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8159 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8166
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintCombinators.ml" 298 8128 8167 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8167 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8170
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 298 8128 8171 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8171 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8178
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintCombinators.ml" 298 8128 8179 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 298 8128 8179 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8183
+type(
+  PPrintEngine.document list
+)
+ident(
+  def docs "src/lib/pprint/PPrintCombinators.ml" 299 8186 8188 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+)
+"src/lib/pprint/PPrintCombinators.ml" 299 8186 8194 "src/lib/pprint/PPrintCombinators.ml" 299 8186 8198
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 298 8128 8179 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8183
+)
+"src/lib/pprint/PPrintCombinators.ml" 300 8204 8208 "src/lib/pprint/PPrintCombinators.ml" 300 8204 8210
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 301 8214 8220 "src/lib/pprint/PPrintCombinators.ml" 301 8214 8224
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref void "src/lib/pprint/PPrintCombinators.ml" 298 8128 8154 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8158
+)
+"src/lib/pprint/PPrintCombinators.ml" 302 8225 8229 "src/lib/pprint/PPrintCombinators.ml" 302 8225 8230
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 302 8225 8234 "src/lib/pprint/PPrintCombinators.ml" 302 8225 8235
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 302 8225 8229 "src/lib/pprint/PPrintCombinators.ml" 302 8225 8235
+type(
+  PPrintEngine.document list
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8245 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8253
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref surround "src/lib/pprint/PPrintCombinators.ml" 292 7857 7861 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7869
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8254 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8255
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 298 8128 8150 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8151
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8256 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8257
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 298 8128 8152 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8153
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8258 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8265
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintCombinators.ml" 298 8128 8159 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8166
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8267 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8275
+type(
+  PPrintEngine.document ->
+  PPrintEngine.document list -> PPrintEngine.document
+)
+ident(
+  int_ref separate "src/lib/pprint/PPrintCombinators.ml" 114 3875 3879 "src/lib/pprint/PPrintCombinators.ml" 114 3875 3887
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8276 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8279
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 298 8128 8167 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8170
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8280 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8284
+type(
+  PPrintEngine.document list
+)
+ident(
+  int_ref docs "src/lib/pprint/PPrintCombinators.ml" 298 8128 8179 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8183
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8266 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8285
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8286 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintCombinators.ml" 298 8128 8171 "src/lib/pprint/PPrintCombinators.ml" 298 8128 8178
+)
+"src/lib/pprint/PPrintCombinators.ml" 303 8239 8245 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 299 8186 8188 "src/lib/pprint/PPrintCombinators.ml" 303 8239 8293
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8299 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8320
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  def surround_separate_map "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466 "src/lib/pprint/PPrintCombinators.ml" 1 0 -1
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8321 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8322
+type(
+  int
+)
+ident(
+  def n "src/lib/pprint/PPrintCombinators.ml" 305 8295 8323 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8323 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8324
+type(
+  int
+)
+ident(
+  def b "src/lib/pprint/PPrintCombinators.ml" 305 8295 8325 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8325 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8329
+type(
+  PPrintEngine.document
+)
+ident(
+  def void "src/lib/pprint/PPrintCombinators.ml" 305 8295 8330 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8330 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8337
+type(
+  PPrintEngine.document
+)
+ident(
+  def opening "src/lib/pprint/PPrintCombinators.ml" 305 8295 8338 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8338 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8341
+type(
+  PPrintEngine.document
+)
+ident(
+  def sep "src/lib/pprint/PPrintCombinators.ml" 305 8295 8342 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8342 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8349
+type(
+  PPrintEngine.document
+)
+ident(
+  def closing "src/lib/pprint/PPrintCombinators.ml" 305 8295 8350 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8350 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8351
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  def f "src/lib/pprint/PPrintCombinators.ml" 305 8295 8352 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 305 8295 8352 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8354
+type(
+  'a list
+)
+ident(
+  def xs "src/lib/pprint/PPrintCombinators.ml" 306 8357 8359 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+)
+"src/lib/pprint/PPrintCombinators.ml" 306 8357 8365 "src/lib/pprint/PPrintCombinators.ml" 306 8357 8367
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintCombinators.ml" 305 8295 8352 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8354
+)
+"src/lib/pprint/PPrintCombinators.ml" 307 8373 8377 "src/lib/pprint/PPrintCombinators.ml" 307 8373 8379
+type(
+  'a list
+)
+"src/lib/pprint/PPrintCombinators.ml" 308 8383 8389 "src/lib/pprint/PPrintCombinators.ml" 308 8383 8393
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref void "src/lib/pprint/PPrintCombinators.ml" 305 8295 8325 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8329
+)
+"src/lib/pprint/PPrintCombinators.ml" 309 8394 8398 "src/lib/pprint/PPrintCombinators.ml" 309 8394 8399
+type(
+  'a
+)
+"src/lib/pprint/PPrintCombinators.ml" 309 8394 8403 "src/lib/pprint/PPrintCombinators.ml" 309 8394 8404
+type(
+  'a list
+)
+"src/lib/pprint/PPrintCombinators.ml" 309 8394 8398 "src/lib/pprint/PPrintCombinators.ml" 309 8394 8404
+type(
+  'a list
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8414 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8422
+type(
+  int ->
+  int ->
+  PPrintEngine.document ->
+  PPrintEngine.document -> PPrintEngine.document -> PPrintEngine.document
+)
+ident(
+  int_ref surround "src/lib/pprint/PPrintCombinators.ml" 292 7857 7861 "src/lib/pprint/PPrintCombinators.ml" 292 7857 7869
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8423 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8424
+type(
+  int
+)
+ident(
+  int_ref n "src/lib/pprint/PPrintCombinators.ml" 305 8295 8321 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8322
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8425 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8426
+type(
+  int
+)
+ident(
+  int_ref b "src/lib/pprint/PPrintCombinators.ml" 305 8295 8323 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8324
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8427 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8434
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref opening "src/lib/pprint/PPrintCombinators.ml" 305 8295 8330 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8337
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8436 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8448
+type(
+  PPrintEngine.document ->
+  ('a -> PPrintEngine.document) -> 'a list -> PPrintEngine.document
+)
+ident(
+  int_ref separate_map "src/lib/pprint/PPrintCombinators.ml" 127 4089 4093 "src/lib/pprint/PPrintCombinators.ml" 127 4089 4105
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8449 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8452
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref sep "src/lib/pprint/PPrintCombinators.ml" 305 8295 8338 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8341
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8453 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8454
+type(
+  'a -> PPrintEngine.document
+)
+ident(
+  int_ref f "src/lib/pprint/PPrintCombinators.ml" 305 8295 8350 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8351
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8455 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8457
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/lib/pprint/PPrintCombinators.ml" 305 8295 8352 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8354
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8435 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8458
+call(
+  stack
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8459 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+type(
+  PPrintEngine.document
+)
+ident(
+  int_ref closing "src/lib/pprint/PPrintCombinators.ml" 305 8295 8342 "src/lib/pprint/PPrintCombinators.ml" 305 8295 8349
+)
+"src/lib/pprint/PPrintCombinators.ml" 310 8408 8414 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+call(
+  tail
+)
+type(
+  PPrintEngine.document
+)
+"src/lib/pprint/PPrintCombinators.ml" 306 8357 8359 "src/lib/pprint/PPrintCombinators.ml" 310 8408 8466
+type(
+  PPrintEngine.document
+)

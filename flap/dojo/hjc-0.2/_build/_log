@@ -1,0 +1,28 @@
+### Starting build.
+# Target: hjc.ml.depends, tags: { extension:ml, file:hjc.ml, ocaml, ocamldep, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamldep -package threads -package netstring -package yojson -modules hjc.ml > hjc.ml.depends
+# Target: config.ml.depends, tags: { extension:ml, file:config.ml, ocaml, ocamldep, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamldep -package threads -package netstring -package yojson -modules config.ml > config.ml.depends
+# Target: services.ml.depends, tags: { extension:ml, file:services.ml, ocaml, ocamldep, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamldep -package threads -package netstring -package yojson -modules services.ml > services.ml.depends
+# Target: config.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:config.cmo, file:config.ml, implem, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package threads -package netstring -package yojson -o config.cmo config.ml
+# Target: utils.ml.depends, tags: { extension:ml, file:utils.ml, ocaml, ocamldep, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamldep -package threads -package netstring -package yojson -modules utils.ml > utils.ml.depends
+# Target: utils.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:utils.cmo, file:utils.ml, implem, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package threads -package netstring -package yojson -o utils.cmo utils.ml
+# Target: services.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:services.cmo, file:services.ml, implem, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package threads -package netstring -package yojson -o services.cmo services.ml
+# Target: hjc.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:hjc.cmo, file:hjc.ml, implem, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlc -c -thread -package threads -package netstring -package yojson -o hjc.cmo hjc.ml
+# Target: config.cmx, tags: { compile, extension:cmx, extension:ml, file:config.cmx, file:config.ml, implem, native, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package threads -package netstring -package yojson -o config.cmx config.ml
+# Target: utils.cmx, tags: { compile, extension:cmx, extension:ml, file:utils.cmx, file:utils.ml, implem, native, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package threads -package netstring -package yojson -o utils.cmx utils.ml
+# Target: services.cmx, tags: { compile, extension:cmx, extension:ml, file:services.cmx, file:services.ml, implem, native, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package threads -package netstring -package yojson -o services.cmx services.ml
+# Target: hjc.cmx, tags: { compile, extension:cmx, extension:ml, file:hjc.cmx, file:hjc.ml, implem, native, ocaml, package(netstring), package(threads), package(yojson), quiet, thread, traverse }
+ocamlfind ocamlopt -c -thread -package threads -package netstring -package yojson -o hjc.cmx hjc.ml
+# Target: hjc.native, tags: { dont_link_with, extension:native, file:hjc.native, link, native, ocaml, package(netstring), package(threads), package(yojson), program, quiet, thread, traverse }
+ocamlfind ocamlopt -linkpkg -thread -package threads -package netstring -package yojson config.cmx utils.cmx services.cmx hjc.cmx -o hjc.native
+# Compilation successful.

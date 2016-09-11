@@ -1,0 +1,21 @@
+
+
+*Date 6 novembre 2015 notes **
+
+commande pour l'arbre de syntaxe de menhir rlwrap menhir --interpret --interpret-show-cst ./hopixParser.mly
+puis rentrer les phrases sous forme de token en mettant les int ou indentifiant par INT ID etc ...
+
+syntaxe générale
+val id := expr
+
+on peut donc ecrire
+
+val x := val y := 1+2 ; y..
+
+mais pas
+
+ val y := 1+2 ; y.
+
+cela est valable pour toutes les expressions en effet elle doivent obligatoirement
+être définits par une definition. 
+

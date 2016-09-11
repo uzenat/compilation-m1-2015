@@ -1,0 +1,53 @@
+#include <sys/regdef.h>
+.globl main
+.data
+__global__f:
+.word 1
+.data
+__global__g:
+.word 1
+.text
+main: # main
+_l4:  addiu sp, sp, 0
+l2:   li v1, 4321
+      sw v1, 0(sp)
+l1:   li v1, 4321
+      sw v1, __global__g
+_l3:  addiu sp, sp, 0
+_l2:  addiu sp, sp, -64
+l3:   sw t9, -64(sp)
+l4:   sw t8, -60(sp)
+l5:   sw t7, -56(sp)
+l6:   sw t6, -52(sp)
+l7:   sw t5, -48(sp)
+l8:   sw t4, -44(sp)
+l9:   sw t3, -40(sp)
+l10:  sw t2, -36(sp)
+l11:  sw t1, -32(sp)
+l12:  sw t0, -28(sp)
+l24:  sw a0, -24(sp)
+l23:  sw a1, -20(sp)
+l27:  move s7, ra
+l29:  lw v1, __global__g
+      sw v1, -16(sp)
+l30:  lw v1, -8(sp)
+      sw v1, -12(sp)
+l31:  lw a0, -16(sp)
+      lw a1, -12(sp)
+      la v1, print_int
+      jalr v1
+l22:  lw t9, -64(sp)
+l21:  lw t8, -60(sp)
+l20:  lw t7, -56(sp)
+l19:  lw t6, -52(sp)
+l18:  lw t5, -48(sp)
+l17:  lw t4, -44(sp)
+l16:  lw t3, -40(sp)
+l15:  lw t2, -36(sp)
+l14:  lw t1, -32(sp)
+l13:  lw t0, -28(sp)
+l26:  lw a0, -4(sp)
+l25:  lw a1, 0(sp)
+l28:  move ra, s7
+l32:  
+_l1:  addiu sp, sp, 64
